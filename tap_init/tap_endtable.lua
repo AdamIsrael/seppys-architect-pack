@@ -68,8 +68,8 @@ local function setEternal(inst)
     end
 
     if inst.task ~= nil then
-        if (FLOWERID_MAP[inst.flowerid]=="petals" and conf_flower==1) or 
-            (FLOWERID_MAP[inst.flowerid]~="petals" and conf_light==1) then 
+        if (FLOWERID_MAP[inst.flowerid]=="petals" and conf_flower==1) or
+            (FLOWERID_MAP[inst.flowerid]~="petals" and conf_light==1) then
             inst.task:Cancel()
             inst.task = nil
             inst.wilttime = TUNING.ENDTABLE_FLOWER_WILTTIME
@@ -115,7 +115,7 @@ local function onhit(inst, worker, workleft)
     end
 
     if inst.flowerid ~= nil then
-        if (FLOWERID_MAP[inst.flowerid]=="petals" and conf_flower==1) or 
+        if (FLOWERID_MAP[inst.flowerid]=="petals" and conf_flower==1) or
             (FLOWERID_MAP[inst.flowerid]~="petals" and conf_light==1) or inst.task~=nil then
             local flowerids = FLOWER_MAP[FLOWERID_MAP[inst.flowerid]].flowerids
             for i,id in pairs(flowerids) do
@@ -133,7 +133,7 @@ local function onhit(inst, worker, workleft)
             end
 
             if _G.GetTime() - inst.lastworktime > 2 then
-                workable:SetWorkLeft(3) 
+                workable:SetWorkLeft(3)
                 --_G.c_announce("reset!")
                 inst.lastworktime = _G.GetTime()
             end
@@ -151,8 +151,8 @@ local function InfiniteTable(inst)
     inst:AddTag("eternal")
     if inst.components.vase then
         local old_ondecorate = inst.components.vase.ondecorate
-        inst.components.vase.ondecorate = function(inst, giver, item)
-            old_ondecorate(inst, giver, item)
+        inst.components.vase.ondecorate = function(inst, giver, item, flowerid)
+            old_ondecorate(inst, giver, item, flowerid)
             setEternal(inst)
         end
     end
@@ -161,7 +161,7 @@ local function InfiniteTable(inst)
         inst.components.workable:SetOnWorkCallback(onhit)
     end
 
-    inst.OnSave = onsave 
+    inst.OnSave = onsave
 
     local old_onload = inst.OnLoad
     inst.OnLoad = function(inst, data)

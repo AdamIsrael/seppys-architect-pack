@@ -38,7 +38,7 @@ local run_mud           = "dontstarve/movement/run_mud"
 local flashpoint		= flashpoint_modifier
 
 -- The turfs.
-AddTile("SWIRLGRASS", "LAND", 
+AddTile("SWIRLGRASS", "LAND",
 	{
 		ground_name 	= "Swirl Grass",
 		old_static_id 	= 61,
@@ -64,7 +64,7 @@ AddTile("SWIRLGRASS", "LAND",
 	}
 )
 
-AddTile("SWIRLGRASSMONO", "LAND", 
+AddTile("SWIRLGRASSMONO", "LAND",
 	{
 		ground_name 	= "Swirl Grass Mono",
 		old_static_id 	= 62,
@@ -90,7 +90,7 @@ AddTile("SWIRLGRASSMONO", "LAND",
 	}
 )
 
-AddTile("COPACABANA", "LAND", 
+AddTile("COPACABANA", "LAND",
 	{
 		ground_name 	= "Copacabana",
 		old_static_id 	= 63,
@@ -142,7 +142,7 @@ AddTile("STICKY", "LAND",
 	}
 )
 
-AddTile("SNOWFALL", "LAND", 
+AddTile("SNOWFALL", "LAND",
 	{
 		ground_name 	= "Snowfall",
 		old_static_id 	= 66,
@@ -168,7 +168,7 @@ AddTile("SNOWFALL", "LAND",
 	}
 )
 
-AddTile("MODERN_COBBLESTONES", "LAND", 
+AddTile("MODERN_COBBLESTONES", "LAND",
 	{
 		ground_name 	= "Modern Cobblestones",
 		old_static_id 	= 67,
@@ -195,7 +195,7 @@ AddTile("MODERN_COBBLESTONES", "LAND",
 	}
 )
 
-AddTile("PINKSTONE", "LAND", 
+AddTile("PINKSTONE", "LAND",
 	{
 		ground_name 	= "Pink Stone",
 		old_static_id 	= 68,
@@ -222,7 +222,7 @@ AddTile("PINKSTONE", "LAND",
 	}
 )
 --[[
-AddTile("STONECITY", "LAND", 
+AddTile("STONECITY", "LAND",
 	{
 		ground_name 	= "City Stone",
 		old_static_id 	= GROUND.QUAGMIRE_CITYSTONE,
@@ -246,7 +246,7 @@ AddTile("STONECITY", "LAND",
 	}
 )
 ]]--
-AddTile("BEACH", "LAND", 
+AddTile("BEACH", "LAND",
 	{
 		ground_name 	= "Beach",
 		old_static_id 	= 70,
@@ -272,7 +272,7 @@ AddTile("BEACH", "LAND",
 	}
 )
 
-AddTile("VOLCANO_ROCK", "LAND", 
+AddTile("VOLCANO_ROCK", "LAND",
 	{
 		ground_name 	= "Volcano Rock",
 		old_static_id 	= 71,
@@ -298,7 +298,7 @@ AddTile("VOLCANO_ROCK", "LAND",
 	}
 )
 
-AddTile("TIDALMARSH", "LAND", 
+AddTile("TIDALMARSH", "LAND",
 	{
 		ground_name 	= "Tidal Marsh",
 		old_static_id 	= 72,
@@ -324,7 +324,7 @@ AddTile("TIDALMARSH", "LAND",
 	}
 )
 
-AddTile("MEADOW", "LAND", 
+AddTile("MEADOW", "LAND",
 	{
 		ground_name 	= "Meadow",
 		old_static_id 	= 73,
@@ -350,7 +350,7 @@ AddTile("MEADOW", "LAND",
 	}
 )
 
-AddTile("JUNGLE", "LAND", 
+AddTile("JUNGLE", "LAND",
 	{
 		ground_name 	= "Jungle",
 		old_static_id 	= 74,
@@ -376,7 +376,7 @@ AddTile("JUNGLE", "LAND",
 	}
 )
 
-AddTile("VOLCANO", "LAND", 
+AddTile("VOLCANO", "LAND",
 	{
 		ground_name 	= "Volcano",
 		old_static_id 	= 75,
@@ -402,7 +402,7 @@ AddTile("VOLCANO", "LAND",
 	}
 )
 
-AddTile("ASH", "LAND", 
+AddTile("ASH", "LAND",
 	{
 		ground_name 	= "Ash",
 		old_static_id 	= 76,
@@ -428,7 +428,7 @@ AddTile("ASH", "LAND",
 	}
 )
 
-AddTile("MAGMAFIELD", "LAND", 
+AddTile("MAGMAFIELD", "LAND",
 	{
 		ground_name 	= "Magmafield",
 		old_static_id 	= 77,
@@ -454,7 +454,7 @@ AddTile("MAGMAFIELD", "LAND",
 	}
 )
 
-AddTile("SNAKESKINFLOOR", "LAND", 
+AddTile("SNAKESKINFLOOR", "LAND",
 	{
 		ground_name 	= "Snakeskin Floor",
 		old_static_id 	= 78,
@@ -481,7 +481,7 @@ AddTile("SNAKESKINFLOOR", "LAND",
 	}
 )
 
-AddTile("COBBLEROAD", "LAND", 
+AddTile("COBBLEROAD", "LAND",
 	{
 		ground_name 	= "Cobbleroad",
 		old_static_id 	= 79,
@@ -508,7 +508,7 @@ AddTile("COBBLEROAD", "LAND",
 	}
 )
 
-AddTile("PIGRUINS", "LAND", 
+AddTile("PIGRUINS", "LAND",
 	{
 		ground_name 	= "Pig Ruins",
 		old_static_id 	= 80,
@@ -534,7 +534,7 @@ AddTile("PIGRUINS", "LAND",
 	}
 )
 
-AddTile("FIELDS", "LAND", 
+AddTile("FIELDS", "LAND",
 	{
 		ground_name 	= "Fields",
 		old_static_id 	= 81,
@@ -560,7 +560,7 @@ AddTile("FIELDS", "LAND",
 	}
 )
 
-AddTile("FOUNDATION", "LAND", 
+AddTile("FOUNDATION", "LAND",
 	{
 		ground_name 	= "Foundation",
 		old_static_id 	= 82,
@@ -586,7 +586,7 @@ AddTile("FOUNDATION", "LAND",
 	}
 )
 
-AddTile("LAWN", "LAND", 
+AddTile("LAWN", "LAND",
 	{
 		ground_name 	= "Lawn",
 		old_static_id 	= 83,
@@ -612,7 +612,7 @@ AddTile("LAWN", "LAND",
 	}
 )
 
-AddTile("RAINFOREST", "LAND", 
+AddTile("RAINFOREST", "LAND",
 	{
 		ground_name 	= "Rainforest",
 		old_static_id 	= 84,
@@ -638,7 +638,7 @@ AddTile("RAINFOREST", "LAND",
 	}
 )
 
-AddTile("PLAINS", "LAND", 
+AddTile("PLAINS", "LAND",
 	{
 		ground_name 	= "Plains",
 		old_static_id 	= 85,
@@ -663,8 +663,8 @@ AddTile("PLAINS", "LAND",
 		pickupsound     = "vegetation_grassy",
 	}
 )
-	
-AddTile("DEEPJUNGLE", "LAND", 
+
+AddTile("DEEPJUNGLE", "LAND",
 	{
 		ground_name 	= "Deep Jungle",
 		old_static_id 	= 86,
@@ -690,7 +690,7 @@ AddTile("DEEPJUNGLE", "LAND",
 	}
 )
 
-AddTile("BOG", "LAND", 
+AddTile("BOG", "LAND",
 	{
 		ground_name 	= "Bog",
 		old_static_id 	= 87,
@@ -716,7 +716,7 @@ AddTile("BOG", "LAND",
 	}
 )
 
-AddTile("MOSSY_BLOSSOM", "LAND", 
+AddTile("MOSSY_BLOSSOM", "LAND",
 	{
 		ground_name 	= "Mossy Blossom",
 		old_static_id 	= 88,
@@ -741,8 +741,8 @@ AddTile("MOSSY_BLOSSOM", "LAND",
 		pickupsound     = "vegetation_firm",
 	}
 )
-	
-AddTile("GASJUNGLE", "LAND", 
+
+AddTile("GASJUNGLE", "LAND",
 	{
 		ground_name 	= "Gas Jungle",
 		old_static_id 	= 89,
@@ -769,7 +769,7 @@ AddTile("GASJUNGLE", "LAND",
 )
 
 --[[
-AddTile("PINKPARK", "LAND", 
+AddTile("PINKPARK", "LAND",
 	{
 		ground_name 	= "Pink Park",
 		old_static_id 	= GROUND.QUAGMIRE_PARKFIELD,
@@ -793,7 +793,7 @@ AddTile("PINKPARK", "LAND",
 	}
 )
 ]]--
-AddTile("GREYFOREST", "LAND", 
+AddTile("GREYFOREST", "LAND",
 	{
 		ground_name 	= "Grey Forest",
 		old_static_id 	= 92,
@@ -819,7 +819,7 @@ AddTile("GREYFOREST", "LAND",
 	}
 )
 
-AddTile("BROWNCARPET", "LAND", 
+AddTile("BROWNCARPET", "LAND",
 	{
 		ground_name 	= "Brown Carpet",
 		old_static_id 	= 93,
@@ -845,7 +845,7 @@ AddTile("BROWNCARPET", "LAND",
 	}
 )
 
-AddTile("FORGEROCK", "LAND", 
+AddTile("FORGEROCK", "LAND",
 	{
 		ground_name 	= "Forge Rock",
 		old_static_id 	= 94,
@@ -871,7 +871,7 @@ AddTile("FORGEROCK", "LAND",
 	}
 )
 
-AddTile("FORGEROAD", "LAND", 
+AddTile("FORGEROAD", "LAND",
 	{
 		ground_name 	= "Forge Road",
 		old_static_id 	= 95,
@@ -898,7 +898,7 @@ AddTile("FORGEROAD", "LAND",
 	}
 )
 
-AddTile("ANTCAVE", "LAND", 
+AddTile("ANTCAVE", "LAND",
 	{
 		ground_name 	= "Ant Cave",
 		old_static_id 	= 96,
@@ -924,7 +924,7 @@ AddTile("ANTCAVE", "LAND",
 	}
 )
 
-AddTile("BATCAVE", "LAND", 
+AddTile("BATCAVE", "LAND",
 	{
 		ground_name 	= "Bat Cave",
 		old_static_id 	= 97,
@@ -950,7 +950,7 @@ AddTile("BATCAVE", "LAND",
 	}
 )
 
-AddTile("LEGACYRAINFOREST", "LAND", 
+AddTile("LEGACYRAINFOREST", "LAND",
 	{
 		ground_name 	= "Legacy Rain Forest",
 		old_static_id 	= 98,
@@ -976,7 +976,7 @@ AddTile("LEGACYRAINFOREST", "LAND",
 	}
 )
 
-AddTile("LEGACYDEEPJUNGLE", "LAND", 
+AddTile("LEGACYDEEPJUNGLE", "LAND",
 	{
 		ground_name 	= "Legacy Deep Jungle",
 		old_static_id 	= 99,
@@ -1002,7 +1002,7 @@ AddTile("LEGACYDEEPJUNGLE", "LAND",
 	}
 )
 
-AddTile("LEGACYBOG", "LAND", 
+AddTile("LEGACYBOG", "LAND",
 	{
 		ground_name 	= "Legacy Bog",
 		old_static_id 	= 100,
@@ -1028,7 +1028,7 @@ AddTile("LEGACYBOG", "LAND",
 	}
 )
 
-AddTile("GREENMARSH", "LAND", 
+AddTile("GREENMARSH", "LAND",
 	{
 		ground_name 	= "Green Marsh",
 		old_static_id 	= 101,
@@ -1054,7 +1054,7 @@ AddTile("GREENMARSH", "LAND",
 	}
 )
 
-AddTile("IVYGRASS", "LAND", 
+AddTile("IVYGRASS", "LAND",
 	{
 		ground_name 	= "Ivy Grass",
 		old_static_id 	= 102,
@@ -1080,7 +1080,7 @@ AddTile("IVYGRASS", "LAND",
 	}
 )
 
-AddTile("LEAKPROOFCARPET", "LAND", 
+AddTile("LEAKPROOFCARPET", "LAND",
 	{
 		ground_name 	= "Leakproof Carpet",
 		old_static_id 	= 103,
@@ -1108,7 +1108,7 @@ AddTile("LEAKPROOFCARPET", "LAND",
 	}
 )
 
-AddTile("WOODPANEL", "LAND", 
+AddTile("WOODPANEL", "LAND",
 	{
 		ground_name 	= "Wood Panel",
 		old_static_id 	= 104,
@@ -1134,7 +1134,7 @@ AddTile("WOODPANEL", "LAND",
 	}
 )
 
-AddTile("MARBLETILE", "LAND", 
+AddTile("MARBLETILE", "LAND",
 	{
 		ground_name 	= "Marble Tile",
 		old_static_id 	= 105,
@@ -1160,7 +1160,7 @@ AddTile("MARBLETILE", "LAND",
 	}
 )
 
-AddTile("CHESS", "LAND", 
+AddTile("CHESS", "LAND",
 	{
 		ground_name 	= "Chess",
 		old_static_id 	= 106,
@@ -1187,7 +1187,7 @@ AddTile("CHESS", "LAND",
 	}
 )
 
-AddTile("SLATE", "LAND", 
+AddTile("SLATE", "LAND",
 	{
 		ground_name 	= "Slate",
 		old_static_id 	= 107,
@@ -1213,7 +1213,7 @@ AddTile("SLATE", "LAND",
 	}
 )
 
-AddTile("METALSHEET", "LAND", 
+AddTile("METALSHEET", "LAND",
 	{
 		ground_name 	= "Metal Sheet",
 		old_static_id 	= 108,
@@ -1239,7 +1239,7 @@ AddTile("METALSHEET", "LAND",
 	}
 )
 
-AddTile("GARDEN", "LAND", 
+AddTile("GARDEN", "LAND",
 	{
 		ground_name 	= "Garden",
 		old_static_id 	= 109,
@@ -1265,7 +1265,7 @@ AddTile("GARDEN", "LAND",
 	}
 )
 
-AddTile("GEOMETRIC", "LAND", 
+AddTile("GEOMETRIC", "LAND",
 	{
 		ground_name 	= "Geometric",
 		old_static_id 	= 110,
@@ -1291,7 +1291,7 @@ AddTile("GEOMETRIC", "LAND",
 	}
 )
 
-AddTile("SHAGCARPET", "LAND", 
+AddTile("SHAGCARPET", "LAND",
 	{
 		ground_name 	= "Shag Carpet",
 		old_static_id 	= 111,
@@ -1318,7 +1318,7 @@ AddTile("SHAGCARPET", "LAND",
 	}
 )
 
-AddTile("TRANSITIONAL", "LAND", 
+AddTile("TRANSITIONAL", "LAND",
 	{
 		ground_name 	= "Transitional",
 		old_static_id 	= 112,
@@ -1344,7 +1344,7 @@ AddTile("TRANSITIONAL", "LAND",
 	}
 )
 
-AddTile("HERRING", "LAND", 
+AddTile("HERRING", "LAND",
 	{
 		ground_name 	= "HERRING",
 		old_static_id 	= 113,
@@ -1371,7 +1371,7 @@ AddTile("HERRING", "LAND",
 	}
 )
 
-AddTile("HEXAGON", "LAND", 
+AddTile("HEXAGON", "LAND",
 	{
 		ground_name 	= "Hexagon",
 		old_static_id 	= 114,
@@ -1397,7 +1397,7 @@ AddTile("HEXAGON", "LAND",
 	}
 )
 
-AddTile("HOOF", "LAND", 
+AddTile("HOOF", "LAND",
 	{
 		ground_name 	= "Hoof",
 		old_static_id 	= 115,
@@ -1423,7 +1423,7 @@ AddTile("HOOF", "LAND",
 	}
 )
 
-AddTile("OCTAGON", "LAND", 
+AddTile("OCTAGON", "LAND",
 	{
 		ground_name 	= "Octagon",
 		old_static_id 	= 116,
@@ -1449,7 +1449,7 @@ AddTile("OCTAGON", "LAND",
 	}
 )
 
-AddTile("REDCARPET", "LAND", 
+AddTile("REDCARPET", "LAND",
 	{
 		ground_name 	= "Red Carpet",
 		old_static_id 	= 117,
@@ -1476,7 +1476,7 @@ AddTile("REDCARPET", "LAND",
 	}
 )
 
-AddTile("PINKCARPET", "LAND", 
+AddTile("PINKCARPET", "LAND",
 	{
 		ground_name 	= "Pink Carpet",
 		old_static_id 	= 118,
@@ -1502,8 +1502,8 @@ AddTile("PINKCARPET", "LAND",
 		pickupsound     = "cloth",
 	}
 )
-	
-AddTile("CYANCARPET", "LAND", 
+
+AddTile("CYANCARPET", "LAND",
 	{
 		ground_name 	= "Cyan Carpet",
 	},
@@ -1529,7 +1529,7 @@ AddTile("CYANCARPET", "LAND",
 	}
 )
 
-AddTile("WHITECARPET", "LAND", 
+AddTile("WHITECARPET", "LAND",
 	{
 		ground_name 	= "White Carpet",
 	},
@@ -1555,7 +1555,7 @@ AddTile("WHITECARPET", "LAND",
 	}
 )
 
-AddTile("YELLOWCARPET", "LAND", 
+AddTile("YELLOWCARPET", "LAND",
 	{
 		ground_name 	= "Yellow Carpet",
 	},
@@ -1581,7 +1581,7 @@ AddTile("YELLOWCARPET", "LAND",
 	}
 )
 
-AddTile("GREENCARPET", "LAND", 
+AddTile("GREENCARPET", "LAND",
 	{
 		ground_name 	= "Pink Carpet",
 	},
@@ -1607,7 +1607,7 @@ AddTile("GREENCARPET", "LAND",
 	}
 )
 
-AddTile("ORANGECARPET", "LAND", 
+AddTile("ORANGECARPET", "LAND",
 	{
 		ground_name 	= "Orange Carpet",
 	},
@@ -1633,7 +1633,7 @@ AddTile("ORANGECARPET", "LAND",
 	}
 )
 
-AddTile("BLUEYELLOW", "LAND", 
+AddTile("BLUEYELLOW", "LAND",
 	{
 		ground_name 	= "Blue Yellow Carpet",
 	},
@@ -1802,8 +1802,7 @@ AddFalloffTexture(4,
 
 -- Hierarchy of the turfs.
 ChangeTileRenderOrder(WORLD_TILES.PINKSTONE, 			WORLD_TILES.ROAD, 				true)
-ChangeTileRenderOrder(WORLD_TILES.QUAGMIRE_CITYSTONE, 	WORLD_TILES.PINKSTONE, 			true)
-ChangeTileRenderOrder(WORLD_TILES.BEACH, 				WORLD_TILES.QUAGMIRE_CITYSTONE, true)
+ChangeTileRenderOrder(WORLD_TILES.BEACH, 				WORLD_TILES.PINKSTONE, 			true)
 ChangeTileRenderOrder(WORLD_TILES.VOLCANO_ROCK, 		WORLD_TILES.BEACH, 				true)
 ChangeTileRenderOrder(WORLD_TILES.TIDALMARSH, 			WORLD_TILES.MARSH, 				true)
 ChangeTileRenderOrder(WORLD_TILES.GREENMARSH, 			WORLD_TILES.TIDALMARSH, 		true)
@@ -1827,8 +1826,7 @@ ChangeTileRenderOrder(WORLD_TILES.FIELDS, 				WORLD_TILES.GASJUNGLE, 			true)
 ChangeTileRenderOrder(WORLD_TILES.IVYGRASS, 			WORLD_TILES.FIELDS, 			true)
 ChangeTileRenderOrder(WORLD_TILES.SWIRLGRASS, 			WORLD_TILES.IVYGRASS, 			true)
 ChangeTileRenderOrder(WORLD_TILES.SWIRLGRASSMONO, 		WORLD_TILES.SWIRLGRASS, 		true)
-ChangeTileRenderOrder(WORLD_TILES.QUAGMIRE_PARKFIELD, 	WORLD_TILES.SWIRLGRASSMONO, 	true)
-ChangeTileRenderOrder(WORLD_TILES.GREYFOREST, 			WORLD_TILES.QUAGMIRE_PARKFIELD, true)
+ChangeTileRenderOrder(WORLD_TILES.GREYFOREST, 			WORLD_TILES.SWIRLGRASSMONO, 	true)
 ChangeTileRenderOrder(WORLD_TILES.MOSSY_BLOSSOM, 		WORLD_TILES.GREYFOREST, 		true)
 ChangeTileRenderOrder(WORLD_TILES.PIGRUINS, 			WORLD_TILES.MOSSY_BLOSSOM, 		true)
 ChangeTileRenderOrder(WORLD_TILES.FOUNDATION, 			WORLD_TILES.PIGRUINS, 			true)
@@ -1868,25 +1866,25 @@ ChangeTileRenderOrder(WORLD_TILES.COBBLEROAD, 			WORLD_TILES.FORGEROAD, 			true)
 ChangeTileRenderOrder(WORLD_TILES.MODERN_COBBLESTONES, 	WORLD_TILES.COBBLEROAD, 		true)
 ChangeTileRenderOrder(WORLD_TILES.FORGEROCK, 			WORLD_TILES.UNDERROCK, 			true)
 
-local GROUND_TURFS = 
+local GROUND_TURFS =
 {
 	[WORLD_TILES.QUAGMIRE_PARKFIELD] = "turf_pinkpark",
 	[WORLD_TILES.QUAGMIRE_CITYSTONE] = "turf_stonecity",
 }
 
-require("worldtiledefs").turf[WORLD_TILES.QUAGMIRE_PARKFIELD] = 
-{ 
-	name = "pinkpark",  
-	bank_build = "kyno_turfs_events", 
-	anim = "pinkpark",  
-	pickupsound = "vegetation_grassy", 
+require("worldtiledefs").turf[WORLD_TILES.QUAGMIRE_PARKFIELD] =
+{
+	name = "pinkpark",
+	bank_build = "kyno_turfs_events",
+	anim = "pinkpark",
+	pickupsound = "vegetation_grassy",
 }
 
-require("worldtiledefs").turf[WORLD_TILES.QUAGMIRE_CITYSTONE] = 
-{ 
-	name = "stonecity", 
-	bank_build = "kyno_turfs_events", 
-	anim = "stonecity", 
+require("worldtiledefs").turf[WORLD_TILES.QUAGMIRE_CITYSTONE] =
+{
+	name = "stonecity",
+	bank_build = "kyno_turfs_events",
+	anim = "stonecity",
 	pickupsound = "rock",
 	hard = true,
 	roadways = true,

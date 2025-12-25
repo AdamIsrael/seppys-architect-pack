@@ -1,5 +1,5 @@
-name = "The Architect Pack"
-version = "4.6-B"
+name = "Seppy's Architect Pack"
+version = "1.0.0"
 
 description = [[
 󰀂 This mod contains huge amount of decorative structures for Base Building. Design and shape the world as you please!
@@ -9,11 +9,11 @@ description = [[
 󰀏 Includes contents from: Shipwrecked, Hamlet, The Forge, The Gorge and exclusive contents!
 
 󰀖 Credits on the mod page!
-󰀌 Mod Version: 4.6-B
+󰀌 Mod Version: 1.0.0
 󰀧 Update: Ancient Buildings
 ]]
 
-author = "The Builders Society"
+author = "Adam Israel"
 api_version = 10
 
 dst_compatible = true
@@ -27,7 +27,7 @@ icon = "ModiconTAP.tex"
 
 local emptyoptions = {{description = "", data = false}}
 local function Title(title, hover)
-	return 
+	return
 	{
 		name = title,
 		hover = hover,
@@ -45,10 +45,10 @@ configuration_options =
         hover = "Choose if the mod can use Multi-Shard links.",
         options =
         {
-            {description = "No", 
+            {description = "No",
 			hover = "Some structures WILL NOT have support for Multi-Shard.",
 			data = 0},
-            {description = "Yes", 
+            {description = "Yes",
 			hover = "Some structures WILL have support for Multi-Shard.",
 			data = 1},
         },
@@ -60,10 +60,10 @@ configuration_options =
         hover = "Choose the placer method for structures.",
         options =
         {
-            {description = "Classic", 
+            {description = "Classic",
 			hover = "The original placer method, nothing changed.",
 			data = 0},
-            {description = "Closer", 
+            {description = "Closer",
 			hover = "Structures can be placed super close.",
 			data = 1},
         },
@@ -75,10 +75,10 @@ configuration_options =
         hover = "Choose the placer method for statues (May conflict with similar mods).",
         options =
         {
-            {description = "Classic", 
+            {description = "Classic",
 			hover = "The original placer method, nothing changed.",
 			data = 0},
-            {description = "On Grid", 
+            {description = "On Grid",
 			hover = "Statues will be placed in a grid.",
 			data = 1},
         },
@@ -91,10 +91,10 @@ configuration_options =
         hover = "Finished cooked food will not turn to spoiled food before harvested from crock pot.",
         options =
         {
-            {description = "No", 
+            {description = "No",
 			hover = "Food WILL spoil if you leave them on crock pot.",
 			data = 0},
-            {description = "Yes", 
+            {description = "Yes",
 			hover = "Food WILL NOT spoil if you leave them on crock pot.",
 			data = 1},
         },
@@ -106,10 +106,10 @@ configuration_options =
 		hover = "Some recipes from the game will be tweaked for building means.",
 		options =
 		{
-			{description = "No", 
+			{description = "No",
 			hover = "Default recipes from Don't Starve Together.",
 			data = 0},
-			{description = "Yes", 
+			{description = "Yes",
 			hover = "Tweak turfs, gates, fences and wall recipes.",
 			data = 1},
 		},
@@ -121,10 +121,10 @@ configuration_options =
 		hover = "Some Hamlet Structures will have Pig Fiesta decorations!",
 		options =
 		{
-			{description = "No", 
+			{description = "No",
 			hover = "Structures from Hamlet WILL NOT have Aporkalypse Festival decorations.",
 			data = 0},
-			{description = "Yes", 
+			{description = "Yes",
 			hover = "Structures from Hamlet WILL have Aporkalypse Festival decorations.",
 			data = 1},
 		},
@@ -167,10 +167,10 @@ configuration_options =
         hover = "Choose if End Tables can have infinite light or not.",
         options =
         {
-            {description = "No", 
+            {description = "No",
 			hover = "Light Bulbs and Glow Berries WILL NOT last forever.",
 			data = 0},
-            {description = "Yes",  
+            {description = "Yes",
 			hover = "Light Bulbs and Glow Berries WILL last forever.",
 			data = 1},
         },
@@ -182,12 +182,12 @@ configuration_options =
         hover = "Choose if End Tables can have infinite flowers or not.",
         options =
         {
-            {description = "No", 
+            {description = "No",
 			hover = "Flowers WILL NOT last forever.",
-			data = 0}, 
-            {description = "Yes", 
+			data = 0},
+            {description = "Yes",
 			hover = "Flowers WILL last forever.",
-			data = 1}, 
+			data = 1},
         },
         default = 0,
     },
@@ -198,12 +198,12 @@ configuration_options =
 		hover = "Choose if Festive Tree can have infinite light or not.",
         options =
         {
-            {description = "No", 
+            {description = "No",
 			hover = "Festive Light WILL NOT last forever inside Festive Tree.",
 			data = 0},
-            {description = "Yes", 
+            {description = "Yes",
 			hover = "Festive Light WILL last forever inside Festive Tree.",
-			data = 1}, 
+			data = 1},
         },
         default = 0,
     },
@@ -213,12 +213,12 @@ configuration_options =
         hover = "Choose if Glowcap can have infinite light or not.",
         options =
         {
-            {description = "No", 
+            {description = "No",
 			hover = "Light Bulbs, Festive Lights, etc. WILL NOT last forever inside Glowcap.",
-			data = 0}, 
-            {description = "Yes", 
+			data = 0},
+            {description = "Yes",
 			hover = "Light Bulbs, Festive Lights, etc. WILL last forever inside Glowcap.",
-			data = 1}, 
+			data = 1},
         },
         default = 0,
     },
@@ -228,12 +228,12 @@ configuration_options =
         hover = "Choose if Mushlight can have infinite light or not.",
         options =
         {
-            {description = "No", 
+            {description = "No",
 			hover = "Light Bulbs, Festive Lights, etc. WILL NOT last forever inside Mushlight.",
-			data = 0}, 
-            {description = "Yes", 
+			data = 0},
+            {description = "Yes",
 			hover = "Light Bulbs, Festive Lights, etc. WILL last forever inside Mushlight.",
-			data = 1}, 
+			data = 1},
         },
         default = 0,
     },
@@ -244,10 +244,10 @@ configuration_options =
 		hover = "Enable vanity items to increase your decoration power!",
 		options =
 		{
-			{description = "No", 
+			{description = "No",
 			hover = "Disable vanity items such as oincs, relics etc.",
 			data = 0},
-			{description = "Yes", 
+			{description = "Yes",
 			hover = "Enable vanity items such as oincs, relics etc.",
 			data = 1},
 		},
@@ -274,37 +274,37 @@ configuration_options =
 		hover = "Enables Packim Baggims as special drop of Malbatross.",
 		options =
 		{
-			{description = "No (0% Chance)", 
+			{description = "No (0% Chance)",
 			hover = "Default Malbatross loot.",
 			data = 0.00},
-			{description = "10% Chance", 
+			{description = "10% Chance",
 			hover = "10% Drop rate from Malbatross.",
 			data = 0.10},
-			{description = "20% Chance", 
+			{description = "20% Chance",
 			hover = "20% Drop rate from Malbatross.",
 			data = 0.20},
-			{description = "30% Chance", 
+			{description = "30% Chance",
 			hover = "30% Drop rate from Malbatross.",
 			data = 0.30},
-			{description = "40% Chance", 
+			{description = "40% Chance",
 			hover = "40% Drop rate from Malbatross.",
 			data = 0.40},
-			{description = "50% Chance", 
+			{description = "50% Chance",
 			hover = "50% Drop rate from Malbatross.",
 			data = 0.50},
-			{description = "60% Chance", 
+			{description = "60% Chance",
 			hover = "60% Drop rate from Malbatross.",
 			data = 0.60},
-			{description = "70% Chance", 
+			{description = "70% Chance",
 			hover = "70% Drop rate from Malbatross.",
 			data = 0.70},
-			{description = "80% Chance", 
+			{description = "80% Chance",
 			hover = "80% Drop rate from Malbatross.",
 			data = 0.80},
-			{description = "90% Chance", 
+			{description = "90% Chance",
 			hover = "90% Drop rate from Malbatross.",
 			data = 0.90},
-			{description = "Yes (100% Chance)", 	
+			{description = "Yes (100% Chance)",
 			hover = "100% Drop rate from Malbatross.",
 			data = 1.00},
 		},
@@ -316,37 +316,37 @@ configuration_options =
 		hover = "Enables Ro Bin as special drop of Ancient Guardian.",
 		options =
 		{
-			{description = "No (0% Chance)", 
+			{description = "No (0% Chance)",
 			hover = "Default Ancient Guardian loot.",
 			data = 0.00},
-			{description = "10% Chance", 
+			{description = "10% Chance",
 			hover = "10% Drop rate from Ancient Guardian.",
 			data = 0.10},
-			{description = "20% Chance", 
+			{description = "20% Chance",
 			hover = "20% Drop rate from Ancient Guardian.",
 			data = 0.20},
-			{description = "30% Chance", 
+			{description = "30% Chance",
 			hover = "30% Drop rate from Ancient Guardian.",
 			data = 0.30},
-			{description = "40% Chance", 
+			{description = "40% Chance",
 			hover = "40% Drop rate from Ancient Guardian.",
 			data = 0.40},
-			{description = "50% Chance", 
+			{description = "50% Chance",
 			hover = "50% Drop rate from Ancient Guardian.",
 			data = 0.50},
-			{description = "60% Chance", 
+			{description = "60% Chance",
 			hover = "60% Drop rate from Ancient Guardian.",
 			data = 0.60},
-			{description = "70% Chance", 
+			{description = "70% Chance",
 			hover = "70% Drop rate from Ancient Guardian.",
 			data = 0.70},
-			{description = "80% Chance", 
+			{description = "80% Chance",
 			hover = "80% Drop rate from Ancient Guardian.",
 			data = 0.80},
-			{description = "90% Chance", 
+			{description = "90% Chance",
 			hover = "90% Drop rate from Ancient Guardian.",
 			data = 0.90},
-			{description = "Yes (100% Chance)", 	
+			{description = "Yes (100% Chance)",
 			hover = "100% Drop rate from Ancient Guardian.",
 			data = 1.00},
 		},
@@ -359,37 +359,37 @@ configuration_options =
 		hover = "Enables Dripple Pipes as special drop of Crab King.",
 		options =
 		{
-			{description = "No (0% Chance)", 
+			{description = "No (0% Chance)",
 			hover = "Default Crab King loot.",
 			data = 0.00},
-			{description = "10% Chance", 
+			{description = "10% Chance",
 			hover = "10% Drop rate from Crab King.",
 			data = 0.10},
-			{description = "20% Chance", 
+			{description = "20% Chance",
 			hover = "20% Drop rate from Crab King.",
 			data = 0.20},
-			{description = "30% Chance", 
+			{description = "30% Chance",
 			hover = "30% Drop rate from Crab King.",
 			data = 0.30},
-			{description = "40% Chance", 
+			{description = "40% Chance",
 			hover = "40% Drop rate from Crab King.",
 			data = 0.40},
-			{description = "50% Chance", 
+			{description = "50% Chance",
 			hover = "50% Drop rate from Crab King.",
 			data = 0.50},
-			{description = "60% Chance", 
+			{description = "60% Chance",
 			hover = "60% Drop rate from Crab King.",
 			data = 0.60},
-			{description = "70% Chance", 
+			{description = "70% Chance",
 			hover = "70% Drop rate from Crab King.",
 			data = 0.70},
-			{description = "80% Chance", 
+			{description = "80% Chance",
 			hover = "80% Drop rate from Crab King.",
 			data = 0.80},
-			{description = "90% Chance", 
+			{description = "90% Chance",
 			hover = "90% Drop rate from Crab King.",
 			data = 0.90},
-			{description = "Yes (100% Chance)", 	
+			{description = "Yes (100% Chance)",
 			hover = "100% Drop rate from Crab King.",
 			data = 1.00},
 		},
@@ -401,16 +401,16 @@ configuration_options =
 		hover = "Enables Filters for each season.",
 		options =
 		{
-			{description = "No", 		
+			{description = "No",
 			hover = "Default colors of Don't Starve Together.",
 			data =   0},
-			{description = "Hamlet", 		
+			{description = "Hamlet",
 			hover = "Colors from Hamlet DLC. | Temperate | Humid | Lush | Barren",
 			data =   1},
-			{description = "Shipwrecked", 
+			{description = "Shipwrecked",
 			hover = "Colors from Shipwrecked DLC. | Mild | Hurricane | Monsoon | Dry",
 			data =   2},
-			{description = "Glermz Edition", 
+			{description = "Glermz Edition",
 			hover = "Colors of Glermz's choices. | Mild | Winter | Spring | Lush",
 			data = 3},
 			{description = "Thalz Edition",
@@ -419,10 +419,10 @@ configuration_options =
 			{description = "Soko Edition",
 			hover=  "Colors of Sokoteur's choices. | Mild | Hurricane | Lush | Barren",
 			data = 5},
-			{description = "The Forge", 
+			{description = "The Forge",
 			hover = "Colors from The Forge Event. | Lava Arena",
 			data = 6},
-			{description = "The Gorge", 
+			{description = "The Gorge",
 			hover = "Colors from The Gorge Event. | Quagmire",
 			data = 7},
 		},
