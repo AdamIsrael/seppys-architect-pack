@@ -12,7 +12,7 @@ description = [[
 
 󰀖 Credits on the mod page!
 󰀌 Mod Version: 1.0.0
-󰀧 Update: Ancient Buildings
+󰀧 Update: Fix crash on loading
 ]]
 
 author = "Adam Israel"
