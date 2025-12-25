@@ -2,6 +2,8 @@ name = "Seppy's Architect Pack"
 version = "1.0.0"
 
 description = [[
+🛈 This is a fork of the discontinued mod "The Architect Pack", which attempts to maintain the original mod's content and functionality while fixing bugs and compatibility with new versions of Don't Starve Together.
+
 󰀂 This mod contains huge amount of decorative structures for Base Building. Design and shape the world as you please!
 
 󰀅 Also includes tons of special structures, items and easter eggs, go find em' all. They might be right under your nose!
