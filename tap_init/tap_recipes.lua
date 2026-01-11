@@ -76,7 +76,7 @@ end
 
 local _IsMarshLand = AllRecipes["mermhouse_crafted"].testfn
 local function IsTidalMarshLand(pt, rot, ...)
-    return _G.TheWorld.Map:GetTileAtPoint(pt.x, pt.y, pt.z) == WORLD_TILES.TIDALMARSH
+    return _G.TheWorld.Map:GetTileAtPoint(pt.x, pt.y, pt.z) == WORLD_TILES.SAP_TIDALMARSH
     or _IsMarshLand(pt, rot, ...)
 end
 

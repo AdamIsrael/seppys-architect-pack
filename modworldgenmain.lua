@@ -38,7 +38,7 @@ local run_mud           = "dontstarve/movement/run_mud"
 local flashpoint		= flashpoint_modifier
 
 -- The turfs.
-AddTile("SWIRLGRASS", "LAND",
+AddTile("SAP_SWIRLGRASS", "LAND",
 	{
 		ground_name 	= "Swirl Grass",
 		old_static_id 	= 61,
@@ -64,7 +64,7 @@ AddTile("SWIRLGRASS", "LAND",
 	}
 )
 
-AddTile("SWIRLGRASSMONO", "LAND",
+AddTile("SAP_SWIRLGRASSMONO", "LAND",
 	{
 		ground_name 	= "Swirl Grass Mono",
 		old_static_id 	= 62,
@@ -90,7 +90,7 @@ AddTile("SWIRLGRASSMONO", "LAND",
 	}
 )
 
-AddTile("COPACABANA", "LAND",
+AddTile("SAP_COPACABANA", "LAND",
 	{
 		ground_name 	= "Copacabana",
 		old_static_id 	= 63,
@@ -116,7 +116,7 @@ AddTile("COPACABANA", "LAND",
 	}
 )
 
-AddTile("STICKY", "LAND",
+AddTile("SAP_STICKY", "LAND",
 	{
 		ground_name 	= "Honey Sticky",
 		old_static_id 	= 64,
@@ -142,7 +142,7 @@ AddTile("STICKY", "LAND",
 	}
 )
 
-AddTile("SNOWFALL", "LAND",
+AddTile("SAP_SNOWFALL", "LAND",
 	{
 		ground_name 	= "Snowfall",
 		old_static_id 	= 66,
@@ -168,7 +168,7 @@ AddTile("SNOWFALL", "LAND",
 	}
 )
 
-AddTile("MODERN_COBBLESTONES", "LAND",
+AddTile("SAP_MODERN_COBBLESTONES", "LAND",
 	{
 		ground_name 	= "Modern Cobblestones",
 		old_static_id 	= 67,
@@ -195,7 +195,7 @@ AddTile("MODERN_COBBLESTONES", "LAND",
 	}
 )
 
-AddTile("PINKSTONE", "LAND",
+AddTile("SAP_PINKSTONE", "LAND",
 	{
 		ground_name 	= "Pink Stone",
 		old_static_id 	= 68,
@@ -246,7 +246,7 @@ AddTile("STONECITY", "LAND",
 	}
 )
 ]]--
-AddTile("BEACH", "LAND",
+AddTile("SAP_BEACH", "LAND",
 	{
 		ground_name 	= "Beach",
 		old_static_id 	= 70,
@@ -272,7 +272,7 @@ AddTile("BEACH", "LAND",
 	}
 )
 
-AddTile("VOLCANO_ROCK", "LAND",
+AddTile("SAP_VOLCANO_ROCK", "LAND",
 	{
 		ground_name 	= "Volcano Rock",
 		old_static_id 	= 71,
@@ -298,7 +298,7 @@ AddTile("VOLCANO_ROCK", "LAND",
 	}
 )
 
-AddTile("TIDALMARSH", "LAND",
+AddTile("SAP_TIDALMARSH", "LAND",
 	{
 		ground_name 	= "Tidal Marsh",
 		old_static_id 	= 72,
@@ -324,7 +324,7 @@ AddTile("TIDALMARSH", "LAND",
 	}
 )
 
-AddTile("MEADOW", "LAND",
+AddTile("SAP_MEADOW", "LAND",
 	{
 		ground_name 	= "Meadow",
 		old_static_id 	= 73,
@@ -350,7 +350,7 @@ AddTile("MEADOW", "LAND",
 	}
 )
 
-AddTile("JUNGLE", "LAND",
+AddTile("SAP_JUNGLE", "LAND",
 	{
 		ground_name 	= "Jungle",
 		old_static_id 	= 74,
@@ -376,7 +376,7 @@ AddTile("JUNGLE", "LAND",
 	}
 )
 
-AddTile("VOLCANO", "LAND",
+AddTile("SAP_VOLCANO", "LAND",
 	{
 		ground_name 	= "Volcano",
 		old_static_id 	= 75,
@@ -402,7 +402,7 @@ AddTile("VOLCANO", "LAND",
 	}
 )
 
-AddTile("ASH", "LAND",
+AddTile("SAP_ASH", "LAND",
 	{
 		ground_name 	= "Ash",
 		old_static_id 	= 76,
@@ -428,7 +428,7 @@ AddTile("ASH", "LAND",
 	}
 )
 
-AddTile("MAGMAFIELD", "LAND",
+AddTile("SAP_MAGMAFIELD", "LAND",
 	{
 		ground_name 	= "Magmafield",
 		old_static_id 	= 77,
@@ -454,7 +454,7 @@ AddTile("MAGMAFIELD", "LAND",
 	}
 )
 
-AddTile("SNAKESKINFLOOR", "LAND",
+AddTile("SAP_SNAKESKINFLOOR", "LAND",
 	{
 		ground_name 	= "Snakeskin Floor",
 		old_static_id 	= 78,
@@ -481,7 +481,7 @@ AddTile("SNAKESKINFLOOR", "LAND",
 	}
 )
 
-AddTile("COBBLEROAD", "LAND",
+AddTile("SAP_COBBLEROAD", "LAND",
 	{
 		ground_name 	= "Cobbleroad",
 		old_static_id 	= 79,
@@ -508,7 +508,7 @@ AddTile("COBBLEROAD", "LAND",
 	}
 )
 
-AddTile("PIGRUINS", "LAND",
+AddTile("SAP_PIGRUINS", "LAND",
 	{
 		ground_name 	= "Pig Ruins",
 		old_static_id 	= 80,
@@ -534,7 +534,7 @@ AddTile("PIGRUINS", "LAND",
 	}
 )
 
-AddTile("FIELDS", "LAND",
+AddTile("SAP_FIELDS", "LAND",
 	{
 		ground_name 	= "Fields",
 		old_static_id 	= 81,
@@ -560,7 +560,7 @@ AddTile("FIELDS", "LAND",
 	}
 )
 
-AddTile("FOUNDATION", "LAND",
+AddTile("SAP_FOUNDATION", "LAND",
 	{
 		ground_name 	= "Foundation",
 		old_static_id 	= 82,
@@ -586,7 +586,7 @@ AddTile("FOUNDATION", "LAND",
 	}
 )
 
-AddTile("LAWN", "LAND",
+AddTile("SAP_LAWN", "LAND",
 	{
 		ground_name 	= "Lawn",
 		old_static_id 	= 83,
@@ -612,7 +612,7 @@ AddTile("LAWN", "LAND",
 	}
 )
 
-AddTile("RAINFOREST", "LAND",
+AddTile("SAP_RAINFOREST", "LAND",
 	{
 		ground_name 	= "Rainforest",
 		old_static_id 	= 84,
@@ -638,7 +638,7 @@ AddTile("RAINFOREST", "LAND",
 	}
 )
 
-AddTile("PLAINS", "LAND",
+AddTile("SAP_PLAINS", "LAND",
 	{
 		ground_name 	= "Plains",
 		old_static_id 	= 85,
@@ -664,7 +664,7 @@ AddTile("PLAINS", "LAND",
 	}
 )
 
-AddTile("DEEPJUNGLE", "LAND",
+AddTile("SAP_DEEPJUNGLE", "LAND",
 	{
 		ground_name 	= "Deep Jungle",
 		old_static_id 	= 86,
@@ -690,7 +690,7 @@ AddTile("DEEPJUNGLE", "LAND",
 	}
 )
 
-AddTile("BOG", "LAND",
+AddTile("SAP_BOG", "LAND",
 	{
 		ground_name 	= "Bog",
 		old_static_id 	= 87,
@@ -716,7 +716,7 @@ AddTile("BOG", "LAND",
 	}
 )
 
-AddTile("MOSSY_BLOSSOM", "LAND",
+AddTile("SAP_MOSSY_BLOSSOM", "LAND",
 	{
 		ground_name 	= "Mossy Blossom",
 		old_static_id 	= 88,
@@ -742,7 +742,7 @@ AddTile("MOSSY_BLOSSOM", "LAND",
 	}
 )
 
-AddTile("GASJUNGLE", "LAND",
+AddTile("SAP_GASJUNGLE", "LAND",
 	{
 		ground_name 	= "Gas Jungle",
 		old_static_id 	= 89,
@@ -793,7 +793,7 @@ AddTile("PINKPARK", "LAND",
 	}
 )
 ]]--
-AddTile("GREYFOREST", "LAND",
+AddTile("SAP_GREYFOREST", "LAND",
 	{
 		ground_name 	= "Grey Forest",
 		old_static_id 	= 92,
@@ -819,7 +819,7 @@ AddTile("GREYFOREST", "LAND",
 	}
 )
 
-AddTile("BROWNCARPET", "LAND",
+AddTile("SAP_BROWNCARPET", "LAND",
 	{
 		ground_name 	= "Brown Carpet",
 		old_static_id 	= 93,
@@ -845,7 +845,7 @@ AddTile("BROWNCARPET", "LAND",
 	}
 )
 
-AddTile("FORGEROCK", "LAND",
+AddTile("SAP_FORGEROCK", "LAND",
 	{
 		ground_name 	= "Forge Rock",
 		old_static_id 	= 94,
@@ -871,7 +871,7 @@ AddTile("FORGEROCK", "LAND",
 	}
 )
 
-AddTile("FORGEROAD", "LAND",
+AddTile("SAP_FORGEROAD", "LAND",
 	{
 		ground_name 	= "Forge Road",
 		old_static_id 	= 95,
@@ -898,7 +898,7 @@ AddTile("FORGEROAD", "LAND",
 	}
 )
 
-AddTile("ANTCAVE", "LAND",
+AddTile("SAP_ANTCAVE", "LAND",
 	{
 		ground_name 	= "Ant Cave",
 		old_static_id 	= 96,
@@ -924,7 +924,7 @@ AddTile("ANTCAVE", "LAND",
 	}
 )
 
-AddTile("BATCAVE", "LAND",
+AddTile("SAP_BATCAVE", "LAND",
 	{
 		ground_name 	= "Bat Cave",
 		old_static_id 	= 97,
@@ -950,7 +950,7 @@ AddTile("BATCAVE", "LAND",
 	}
 )
 
-AddTile("LEGACYRAINFOREST", "LAND",
+AddTile("SAP_LEGACYRAINFOREST", "LAND",
 	{
 		ground_name 	= "Legacy Rain Forest",
 		old_static_id 	= 98,
@@ -976,7 +976,7 @@ AddTile("LEGACYRAINFOREST", "LAND",
 	}
 )
 
-AddTile("LEGACYDEEPJUNGLE", "LAND",
+AddTile("SAP_LEGACYDEEPJUNGLE", "LAND",
 	{
 		ground_name 	= "Legacy Deep Jungle",
 		old_static_id 	= 99,
@@ -1002,7 +1002,7 @@ AddTile("LEGACYDEEPJUNGLE", "LAND",
 	}
 )
 
-AddTile("LEGACYBOG", "LAND",
+AddTile("SAP_LEGACYBOG", "LAND",
 	{
 		ground_name 	= "Legacy Bog",
 		old_static_id 	= 100,
@@ -1028,7 +1028,7 @@ AddTile("LEGACYBOG", "LAND",
 	}
 )
 
-AddTile("GREENMARSH", "LAND",
+AddTile("SAP_GREENMARSH", "LAND",
 	{
 		ground_name 	= "Green Marsh",
 		old_static_id 	= 101,
@@ -1054,7 +1054,7 @@ AddTile("GREENMARSH", "LAND",
 	}
 )
 
-AddTile("IVYGRASS", "LAND",
+AddTile("SAP_IVYGRASS", "LAND",
 	{
 		ground_name 	= "Ivy Grass",
 		old_static_id 	= 102,
@@ -1080,7 +1080,7 @@ AddTile("IVYGRASS", "LAND",
 	}
 )
 
-AddTile("LEAKPROOFCARPET", "LAND",
+AddTile("SAP_LEAKPROOFCARPET", "LAND",
 	{
 		ground_name 	= "Leakproof Carpet",
 		old_static_id 	= 103,
@@ -1108,7 +1108,7 @@ AddTile("LEAKPROOFCARPET", "LAND",
 	}
 )
 
-AddTile("WOODPANEL", "LAND",
+AddTile("SAP_WOODPANEL", "LAND",
 	{
 		ground_name 	= "Wood Panel",
 		old_static_id 	= 104,
@@ -1134,7 +1134,7 @@ AddTile("WOODPANEL", "LAND",
 	}
 )
 
-AddTile("MARBLETILE", "LAND",
+AddTile("SAP_MARBLETILE", "LAND",
 	{
 		ground_name 	= "Marble Tile",
 		old_static_id 	= 105,
@@ -1160,7 +1160,7 @@ AddTile("MARBLETILE", "LAND",
 	}
 )
 
-AddTile("CHESS", "LAND",
+AddTile("SAP_CHESS", "LAND",
 	{
 		ground_name 	= "Chess",
 		old_static_id 	= 106,
@@ -1187,7 +1187,7 @@ AddTile("CHESS", "LAND",
 	}
 )
 
-AddTile("SLATE", "LAND",
+AddTile("SAP_SLATE", "LAND",
 	{
 		ground_name 	= "Slate",
 		old_static_id 	= 107,
@@ -1213,7 +1213,7 @@ AddTile("SLATE", "LAND",
 	}
 )
 
-AddTile("METALSHEET", "LAND",
+AddTile("SAP_METALSHEET", "LAND",
 	{
 		ground_name 	= "Metal Sheet",
 		old_static_id 	= 108,
@@ -1239,7 +1239,7 @@ AddTile("METALSHEET", "LAND",
 	}
 )
 
-AddTile("GARDEN", "LAND",
+AddTile("SAP_GARDEN", "LAND",
 	{
 		ground_name 	= "Garden",
 		old_static_id 	= 109,
@@ -1265,7 +1265,7 @@ AddTile("GARDEN", "LAND",
 	}
 )
 
-AddTile("GEOMETRIC", "LAND",
+AddTile("SAP_GEOMETRIC", "LAND",
 	{
 		ground_name 	= "Geometric",
 		old_static_id 	= 110,
@@ -1291,7 +1291,7 @@ AddTile("GEOMETRIC", "LAND",
 	}
 )
 
-AddTile("SHAGCARPET", "LAND",
+AddTile("SAP_SHAGCARPET", "LAND",
 	{
 		ground_name 	= "Shag Carpet",
 		old_static_id 	= 111,
@@ -1318,7 +1318,7 @@ AddTile("SHAGCARPET", "LAND",
 	}
 )
 
-AddTile("TRANSITIONAL", "LAND",
+AddTile("SAP_TRANSITIONAL", "LAND",
 	{
 		ground_name 	= "Transitional",
 		old_static_id 	= 112,
@@ -1344,7 +1344,7 @@ AddTile("TRANSITIONAL", "LAND",
 	}
 )
 
-AddTile("HERRING", "LAND",
+AddTile("SAP_HERRING", "LAND",
 	{
 		ground_name 	= "HERRING",
 		old_static_id 	= 113,
@@ -1371,7 +1371,7 @@ AddTile("HERRING", "LAND",
 	}
 )
 
-AddTile("HEXAGON", "LAND",
+AddTile("SAP_HEXAGON", "LAND",
 	{
 		ground_name 	= "Hexagon",
 		old_static_id 	= 114,
@@ -1397,7 +1397,7 @@ AddTile("HEXAGON", "LAND",
 	}
 )
 
-AddTile("HOOF", "LAND",
+AddTile("SAP_HOOF", "LAND",
 	{
 		ground_name 	= "Hoof",
 		old_static_id 	= 115,
@@ -1423,7 +1423,7 @@ AddTile("HOOF", "LAND",
 	}
 )
 
-AddTile("OCTAGON", "LAND",
+AddTile("SAP_OCTAGON", "LAND",
 	{
 		ground_name 	= "Octagon",
 		old_static_id 	= 116,
@@ -1449,7 +1449,7 @@ AddTile("OCTAGON", "LAND",
 	}
 )
 
-AddTile("REDCARPET", "LAND",
+AddTile("SAP_REDCARPET", "LAND",
 	{
 		ground_name 	= "Red Carpet",
 		old_static_id 	= 117,
@@ -1476,7 +1476,7 @@ AddTile("REDCARPET", "LAND",
 	}
 )
 
-AddTile("PINKCARPET", "LAND",
+AddTile("SAP_PINKCARPET", "LAND",
 	{
 		ground_name 	= "Pink Carpet",
 		old_static_id 	= 118,
@@ -1503,7 +1503,7 @@ AddTile("PINKCARPET", "LAND",
 	}
 )
 
-AddTile("CYANCARPET", "LAND",
+AddTile("SAP_CYANCARPET", "LAND",
 	{
 		ground_name 	= "Cyan Carpet",
 	},
@@ -1529,7 +1529,7 @@ AddTile("CYANCARPET", "LAND",
 	}
 )
 
-AddTile("WHITECARPET", "LAND",
+AddTile("SAP_WHITECARPET", "LAND",
 	{
 		ground_name 	= "White Carpet",
 	},
@@ -1555,7 +1555,7 @@ AddTile("WHITECARPET", "LAND",
 	}
 )
 
-AddTile("YELLOWCARPET", "LAND",
+AddTile("SAP_YELLOWCARPET", "LAND",
 	{
 		ground_name 	= "Yellow Carpet",
 	},
@@ -1581,7 +1581,7 @@ AddTile("YELLOWCARPET", "LAND",
 	}
 )
 
-AddTile("GREENCARPET", "LAND",
+AddTile("SAP_GREENCARPET", "LAND",
 	{
 		ground_name 	= "Pink Carpet",
 	},
@@ -1607,7 +1607,7 @@ AddTile("GREENCARPET", "LAND",
 	}
 )
 
-AddTile("ORANGECARPET", "LAND",
+AddTile("SAP_ORANGECARPET", "LAND",
 	{
 		ground_name 	= "Orange Carpet",
 	},
@@ -1633,7 +1633,7 @@ AddTile("ORANGECARPET", "LAND",
 	}
 )
 
-AddTile("BLUEYELLOW", "LAND",
+AddTile("SAP_BLUEYELLOW", "LAND",
 	{
 		ground_name 	= "Blue Yellow Carpet",
 	},
@@ -1659,7 +1659,7 @@ AddTile("BLUEYELLOW", "LAND",
 	}
 )
 
-AddTile("DRIFTWOODFLOOR", "LAND",
+AddTile("SAP_DRIFTWOODFLOOR", "LAND",
 	{
 		ground_name     = "Driftwood Flooring",
 	},
@@ -1685,7 +1685,7 @@ AddTile("DRIFTWOODFLOOR", "LAND",
 	}
 )
 
-AddTile("LUNARRIFT", "LAND",
+AddTile("SAP_LUNARRIFT", "LAND",
 	{
 		ground_name     = "Lunar Rift Ground",
 	},
@@ -1710,7 +1710,7 @@ AddTile("LUNARRIFT", "LAND",
 	}
 )
 
-AddTile("VAULTMOSSY", 	"LAND",
+AddTile("SAP_VAULTMOSSY", 	"LAND",
 	{
 		ground_name		= "Mossy Sanctum Stonework",
 	},
@@ -1735,7 +1735,7 @@ AddTile("VAULTMOSSY", 	"LAND",
 	}
 )
 
-AddTile("WAGSTAFF", 	"LAND",
+AddTile("SAP_WAGSTAFF", 	"LAND",
 	{
 		ground_name		= "Wagstaff Floor Replica",
 	},
@@ -1801,70 +1801,70 @@ AddFalloffTexture(4,
 ]]--
 
 -- Hierarchy of the turfs.
-ChangeTileRenderOrder(WORLD_TILES.PINKSTONE, 			WORLD_TILES.ROAD, 				true)
-ChangeTileRenderOrder(WORLD_TILES.BEACH, 				WORLD_TILES.PINKSTONE, 			true)
-ChangeTileRenderOrder(WORLD_TILES.VOLCANO_ROCK, 		WORLD_TILES.BEACH, 				true)
-ChangeTileRenderOrder(WORLD_TILES.TIDALMARSH, 			WORLD_TILES.MARSH, 				true)
-ChangeTileRenderOrder(WORLD_TILES.GREENMARSH, 			WORLD_TILES.TIDALMARSH, 		true)
-ChangeTileRenderOrder(WORLD_TILES.MEADOW, 				WORLD_TILES.DIRT, 				true)
-ChangeTileRenderOrder(WORLD_TILES.JUNGLE, 				WORLD_TILES.MEADOW, 			true)
-ChangeTileRenderOrder(WORLD_TILES.VOLCANO, 				WORLD_TILES.DESERT_DIRT, 		true)
-ChangeTileRenderOrder(WORLD_TILES.ASH, 					WORLD_TILES.VOLCANO, 			true)
-ChangeTileRenderOrder(WORLD_TILES.MAGMAFIELD, 			WORLD_TILES.ASH, 				true)
-ChangeTileRenderOrder(WORLD_TILES.ANTCAVE, 				WORLD_TILES.MAGMAFIELD, 		true)
-ChangeTileRenderOrder(WORLD_TILES.BATCAVE, 				WORLD_TILES.ANTCAVE, 			true)
-ChangeTileRenderOrder(WORLD_TILES.COPACABANA, 			WORLD_TILES.BATCAVE, 			true)
-ChangeTileRenderOrder(WORLD_TILES.LEGACYBOG, 			WORLD_TILES.COPACABANA, 		true)
-ChangeTileRenderOrder(WORLD_TILES.BOG, 					WORLD_TILES.LEGACYBOG, 			true)
-ChangeTileRenderOrder(WORLD_TILES.PLAINS, 				WORLD_TILES.BOG, 				true)
-ChangeTileRenderOrder(WORLD_TILES.LEGACYRAINFOREST, 	WORLD_TILES.PLAINS, 			true)
-ChangeTileRenderOrder(WORLD_TILES.LEGACYDEEPJUNGLE, 	WORLD_TILES.LEGACYRAINFOREST,	true)
-ChangeTileRenderOrder(WORLD_TILES.RAINFOREST, 			WORLD_TILES.LEGACYDEEPJUNGLE, 	true)
-ChangeTileRenderOrder(WORLD_TILES.DEEPJUNGLE, 			WORLD_TILES.RAINFOREST, 		true)
-ChangeTileRenderOrder(WORLD_TILES.GASJUNGLE, 			WORLD_TILES.DEEPJUNGLE, 		true)
-ChangeTileRenderOrder(WORLD_TILES.FIELDS, 				WORLD_TILES.GASJUNGLE, 			true)
-ChangeTileRenderOrder(WORLD_TILES.IVYGRASS, 			WORLD_TILES.FIELDS, 			true)
-ChangeTileRenderOrder(WORLD_TILES.SWIRLGRASS, 			WORLD_TILES.IVYGRASS, 			true)
-ChangeTileRenderOrder(WORLD_TILES.SWIRLGRASSMONO, 		WORLD_TILES.SWIRLGRASS, 		true)
-ChangeTileRenderOrder(WORLD_TILES.GREYFOREST, 			WORLD_TILES.SWIRLGRASSMONO, 	true)
-ChangeTileRenderOrder(WORLD_TILES.MOSSY_BLOSSOM, 		WORLD_TILES.GREYFOREST, 		true)
-ChangeTileRenderOrder(WORLD_TILES.PIGRUINS, 			WORLD_TILES.MOSSY_BLOSSOM, 		true)
-ChangeTileRenderOrder(WORLD_TILES.FOUNDATION, 			WORLD_TILES.PIGRUINS, 			true)
-ChangeTileRenderOrder(WORLD_TILES.WOODPANEL, 			WORLD_TILES.FOUNDATION, 		true)
-ChangeTileRenderOrder(WORLD_TILES.MARBLETILE, 			WORLD_TILES.WOODPANEL, 			true)
-ChangeTileRenderOrder(WORLD_TILES.CHESS, 				WORLD_TILES.MARBLETILE, 		true)
-ChangeTileRenderOrder(WORLD_TILES.SLATE, 				WORLD_TILES.CHESS, 				true)
-ChangeTileRenderOrder(WORLD_TILES.METALSHEET, 			WORLD_TILES.SLATE, 				true)
-ChangeTileRenderOrder(WORLD_TILES.GARDEN, 				WORLD_TILES.METALSHEET, 		true)
-ChangeTileRenderOrder(WORLD_TILES.GEOMETRIC, 			WORLD_TILES.GARDEN, 			true)
-ChangeTileRenderOrder(WORLD_TILES.TRANSITIONAL, 		WORLD_TILES.GEOMETRIC, 			true)
-ChangeTileRenderOrder(WORLD_TILES.HERRING, 				WORLD_TILES.TRANSITIONAL, 		true)
-ChangeTileRenderOrder(WORLD_TILES.HEXAGON, 				WORLD_TILES.HERRING, 	 		true)
-ChangeTileRenderOrder(WORLD_TILES.HOOF, 				WORLD_TILES.HEXAGON, 			true)
-ChangeTileRenderOrder(WORLD_TILES.OCTAGON, 				WORLD_TILES.HOOF, 				true)
-ChangeTileRenderOrder(WORLD_TILES.SHAGCARPET, 			WORLD_TILES.OCTAGON, 			true)
-ChangeTileRenderOrder(WORLD_TILES.STICKY, 				WORLD_TILES.SHAGCARPET, 		true)
-ChangeTileRenderOrder(WORLD_TILES.SNOWFALL, 			WORLD_TILES.STICKY, 			true)
-ChangeTileRenderOrder(WORLD_TILES.DRIFTWOODFLOOR,       WORLD_TILES.SCALE,              true)
-ChangeTileRenderOrder(WORLD_TILES.LUNARRIFT,            WORLD_TILES.METEOR,             true)
-ChangeTileRenderOrder(WORLD_TILES.VAULTMOSSY,	        WORLD_TILES.VAULT,              true)
-ChangeTileRenderOrder(WORLD_TILES.WAGSTAFF,             WORLD_TILES.DRIFTWOODFLOOR,     true)
-ChangeTileRenderOrder(WORLD_TILES.REDCARPET, 			WORLD_TILES.CARPET, 			true)
-ChangeTileRenderOrder(WORLD_TILES.PINKCARPET,			WORLD_TILES.REDCARPET,			true)
-ChangeTileRenderOrder(WORLD_TILES.CYANCARPET,			WORLD_TILES.PINKCARPET,			true)
-ChangeTileRenderOrder(WORLD_TILES.WHITECARPET,			WORLD_TILES.CYANCARPET,			true)
-ChangeTileRenderOrder(WORLD_TILES.YELLOWCARPET,			WORLD_TILES.WHITECARPET,		true)
-ChangeTileRenderOrder(WORLD_TILES.GREENCARPET,			WORLD_TILES.YELLOWCARPET,		true)
-ChangeTileRenderOrder(WORLD_TILES.LEAKPROOFCARPET, 		WORLD_TILES.GREENCARPET, 		true)
-ChangeTileRenderOrder(WORLD_TILES.ORANGECARPET,			WORLD_TILES.LEAKPROOFCARPET, 	true)
-ChangeTileRenderOrder(WORLD_TILES.BLUEYELLOW,			WORLD_TILES.ORANGECARPET,		true)
-ChangeTileRenderOrder(WORLD_TILES.SNAKESKINFLOOR, 		WORLD_TILES.BLUEYELLOW, 		true)
-ChangeTileRenderOrder(WORLD_TILES.LAWN, 				WORLD_TILES.SNAKESKINFLOOR,     true)
-ChangeTileRenderOrder(WORLD_TILES.BROWNCARPET, 			WORLD_TILES.LAWN, 				true)
-ChangeTileRenderOrder(WORLD_TILES.FORGEROAD, 			WORLD_TILES.BROWNCARPET, 		true)
-ChangeTileRenderOrder(WORLD_TILES.COBBLEROAD, 			WORLD_TILES.FORGEROAD, 			true)
-ChangeTileRenderOrder(WORLD_TILES.MODERN_COBBLESTONES, 	WORLD_TILES.COBBLEROAD, 		true)
-ChangeTileRenderOrder(WORLD_TILES.FORGEROCK, 			WORLD_TILES.UNDERROCK, 			true)
+ChangeTileRenderOrder(WORLD_TILES.SAP_PINKSTONE, 			WORLD_TILES.ROAD, 				true)
+ChangeTileRenderOrder(WORLD_TILES.SAP_BEACH, 				WORLD_TILES.SAP_PINKSTONE, 			true)
+ChangeTileRenderOrder(WORLD_TILES.SAP_VOLCANO_ROCK, 		WORLD_TILES.SAP_BEACH, 				true)
+ChangeTileRenderOrder(WORLD_TILES.SAP_TIDALMARSH, 			WORLD_TILES.MARSH, 				true)
+ChangeTileRenderOrder(WORLD_TILES.SAP_GREENMARSH, 			WORLD_TILES.SAP_TIDALMARSH, 		true)
+ChangeTileRenderOrder(WORLD_TILES.SAP_MEADOW, 				WORLD_TILES.DIRT, 				true)
+ChangeTileRenderOrder(WORLD_TILES.SAP_JUNGLE, 				WORLD_TILES.SAP_MEADOW, 			true)
+ChangeTileRenderOrder(WORLD_TILES.SAP_VOLCANO, 				WORLD_TILES.DESERT_DIRT, 		true)
+ChangeTileRenderOrder(WORLD_TILES.SAP_ASH, 					WORLD_TILES.SAP_VOLCANO, 			true)
+ChangeTileRenderOrder(WORLD_TILES.SAP_MAGMAFIELD, 			WORLD_TILES.SAP_ASH, 				true)
+ChangeTileRenderOrder(WORLD_TILES.SAP_ANTCAVE, 				WORLD_TILES.SAP_MAGMAFIELD, 		true)
+ChangeTileRenderOrder(WORLD_TILES.SAP_BATCAVE, 				WORLD_TILES.SAP_ANTCAVE, 			true)
+ChangeTileRenderOrder(WORLD_TILES.SAP_COPACABANA, 			WORLD_TILES.SAP_BATCAVE, 			true)
+ChangeTileRenderOrder(WORLD_TILES.SAP_LEGACYBOG, 			WORLD_TILES.SAP_COPACABANA, 		true)
+ChangeTileRenderOrder(WORLD_TILES.SAP_BOG, 					WORLD_TILES.SAP_LEGACYBOG, 			true)
+ChangeTileRenderOrder(WORLD_TILES.SAP_PLAINS, 				WORLD_TILES.SAP_BOG, 				true)
+ChangeTileRenderOrder(WORLD_TILES.SAP_LEGACYRAINFOREST, 	WORLD_TILES.SAP_PLAINS, 			true)
+ChangeTileRenderOrder(WORLD_TILES.SAP_LEGACYDEEPJUNGLE, 	WORLD_TILES.SAP_LEGACYRAINFOREST,	true)
+ChangeTileRenderOrder(WORLD_TILES.SAP_RAINFOREST, 			WORLD_TILES.SAP_LEGACYDEEPJUNGLE, 	true)
+ChangeTileRenderOrder(WORLD_TILES.SAP_DEEPJUNGLE, 			WORLD_TILES.SAP_RAINFOREST, 		true)
+ChangeTileRenderOrder(WORLD_TILES.SAP_GASJUNGLE, 			WORLD_TILES.SAP_DEEPJUNGLE, 		true)
+ChangeTileRenderOrder(WORLD_TILES.SAP_FIELDS, 				WORLD_TILES.SAP_GASJUNGLE, 			true)
+ChangeTileRenderOrder(WORLD_TILES.SAP_IVYGRASS, 			WORLD_TILES.SAP_FIELDS, 			true)
+ChangeTileRenderOrder(WORLD_TILES.SAP_SWIRLGRASS, 			WORLD_TILES.SAP_IVYGRASS, 			true)
+ChangeTileRenderOrder(WORLD_TILES.SAP_SWIRLGRASSMONO, 		WORLD_TILES.SAP_SWIRLGRASS, 		true)
+ChangeTileRenderOrder(WORLD_TILES.SAP_GREYFOREST, 			WORLD_TILES.SAP_SWIRLGRASSMONO, 	true)
+ChangeTileRenderOrder(WORLD_TILES.SAP_MOSSY_BLOSSOM, 		WORLD_TILES.SAP_GREYFOREST, 		true)
+ChangeTileRenderOrder(WORLD_TILES.SAP_PIGRUINS, 			WORLD_TILES.SAP_MOSSY_BLOSSOM, 		true)
+ChangeTileRenderOrder(WORLD_TILES.SAP_FOUNDATION, 			WORLD_TILES.SAP_PIGRUINS, 			true)
+ChangeTileRenderOrder(WORLD_TILES.SAP_WOODPANEL, 			WORLD_TILES.SAP_FOUNDATION, 		true)
+ChangeTileRenderOrder(WORLD_TILES.SAP_MARBLETILE, 			WORLD_TILES.SAP_WOODPANEL, 			true)
+ChangeTileRenderOrder(WORLD_TILES.SAP_CHESS, 				WORLD_TILES.SAP_MARBLETILE, 		true)
+ChangeTileRenderOrder(WORLD_TILES.SAP_SLATE, 				WORLD_TILES.SAP_CHESS, 				true)
+ChangeTileRenderOrder(WORLD_TILES.SAP_METALSHEET, 			WORLD_TILES.SAP_SLATE, 				true)
+ChangeTileRenderOrder(WORLD_TILES.SAP_GARDEN, 				WORLD_TILES.SAP_METALSHEET, 		true)
+ChangeTileRenderOrder(WORLD_TILES.SAP_GEOMETRIC, 			WORLD_TILES.SAP_GARDEN, 			true)
+ChangeTileRenderOrder(WORLD_TILES.SAP_TRANSITIONAL, 		WORLD_TILES.SAP_GEOMETRIC, 			true)
+ChangeTileRenderOrder(WORLD_TILES.SAP_HERRING, 				WORLD_TILES.SAP_TRANSITIONAL, 		true)
+ChangeTileRenderOrder(WORLD_TILES.SAP_HEXAGON, 				WORLD_TILES.SAP_HERRING, 	 		true)
+ChangeTileRenderOrder(WORLD_TILES.SAP_HOOF, 				WORLD_TILES.SAP_HEXAGON, 			true)
+ChangeTileRenderOrder(WORLD_TILES.SAP_OCTAGON, 				WORLD_TILES.SAP_HOOF, 				true)
+ChangeTileRenderOrder(WORLD_TILES.SAP_SHAGCARPET, 			WORLD_TILES.SAP_OCTAGON, 			true)
+ChangeTileRenderOrder(WORLD_TILES.SAP_STICKY, 				WORLD_TILES.SAP_SHAGCARPET, 		true)
+ChangeTileRenderOrder(WORLD_TILES.SAP_SNOWFALL, 			WORLD_TILES.SAP_STICKY, 			true)
+ChangeTileRenderOrder(WORLD_TILES.SAP_DRIFTWOODFLOOR,       WORLD_TILES.SCALE,              true)
+ChangeTileRenderOrder(WORLD_TILES.SAP_LUNARRIFT,            WORLD_TILES.METEOR,             true)
+ChangeTileRenderOrder(WORLD_TILES.SAP_VAULTMOSSY,	        WORLD_TILES.VAULT,              true)
+ChangeTileRenderOrder(WORLD_TILES.SAP_WAGSTAFF,             WORLD_TILES.SAP_DRIFTWOODFLOOR,     true)
+ChangeTileRenderOrder(WORLD_TILES.SAP_REDCARPET, 			WORLD_TILES.CARPET, 			true)
+ChangeTileRenderOrder(WORLD_TILES.SAP_PINKCARPET,			WORLD_TILES.SAP_REDCARPET,			true)
+ChangeTileRenderOrder(WORLD_TILES.SAP_CYANCARPET,			WORLD_TILES.SAP_PINKCARPET,			true)
+ChangeTileRenderOrder(WORLD_TILES.SAP_WHITECARPET,			WORLD_TILES.SAP_CYANCARPET,			true)
+ChangeTileRenderOrder(WORLD_TILES.SAP_YELLOWCARPET,			WORLD_TILES.SAP_WHITECARPET,		true)
+ChangeTileRenderOrder(WORLD_TILES.SAP_GREENCARPET,			WORLD_TILES.SAP_YELLOWCARPET,		true)
+ChangeTileRenderOrder(WORLD_TILES.SAP_LEAKPROOFCARPET, 		WORLD_TILES.SAP_GREENCARPET, 		true)
+ChangeTileRenderOrder(WORLD_TILES.SAP_ORANGECARPET,			WORLD_TILES.SAP_LEAKPROOFCARPET, 	true)
+ChangeTileRenderOrder(WORLD_TILES.SAP_BLUEYELLOW,			WORLD_TILES.SAP_ORANGECARPET,		true)
+ChangeTileRenderOrder(WORLD_TILES.SAP_SNAKESKINFLOOR, 		WORLD_TILES.SAP_BLUEYELLOW, 		true)
+ChangeTileRenderOrder(WORLD_TILES.SAP_LAWN, 				WORLD_TILES.SAP_SNAKESKINFLOOR,     true)
+ChangeTileRenderOrder(WORLD_TILES.SAP_BROWNCARPET, 			WORLD_TILES.SAP_LAWN, 				true)
+ChangeTileRenderOrder(WORLD_TILES.SAP_FORGEROAD, 			WORLD_TILES.SAP_BROWNCARPET, 		true)
+ChangeTileRenderOrder(WORLD_TILES.SAP_COBBLEROAD, 			WORLD_TILES.SAP_FORGEROAD, 			true)
+ChangeTileRenderOrder(WORLD_TILES.SAP_MODERN_COBBLESTONES, 	WORLD_TILES.SAP_COBBLEROAD, 		true)
+ChangeTileRenderOrder(WORLD_TILES.SAP_FORGEROCK, 			WORLD_TILES.UNDERROCK, 			true)
 
 local GROUND_TURFS =
 {
