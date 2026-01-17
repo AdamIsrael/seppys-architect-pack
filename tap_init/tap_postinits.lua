@@ -1602,8 +1602,8 @@ local function WurtPostinit(inst)
 	end
 	
 	if inst.components.locomotor ~= nil then
-		inst.components.locomotor:SetFasterOnGroundTile(WORLD_TILES.TIDALMARSH, true)
-		inst.components.locomotor:SetFasterOnGroundTile(WORLD_TILES.GREENMARSH, true)
+		inst.components.locomotor:SetFasterOnGroundTile(WORLD_TILES.SAP_TIDALMARSH, true)
+		inst.components.locomotor:SetFasterOnGroundTile(WORLD_TILES.SAP_GREENMARSH, true)
 	end
 end
 
@@ -1688,29 +1688,29 @@ if SPECIAL_BIRDS == 1 then
 		local BIRD_TYPES = UpvalueHacker.GetUpvalue(self.SpawnBird, "PickBird", "BIRD_TYPES")
 	
 		-- Hamlet Birds --
-		BIRD_TYPES[WORLD_TILES.RAINFOREST]            = { "kingfisher2", "parrot_blue", "toucan_hamlet" }
-		BIRD_TYPES[WORLD_TILES.FIELDS]                = { "kingfisher2", "parrot_blue", "toucan_hamlet" }
-		BIRD_TYPES[WORLD_TILES.MOSSY_BLOSSOM]         = { "kingfisher2", "parrot_blue", "toucan_hamlet" }
-		BIRD_TYPES[WORLD_TILES.PLAINS]                = { "toucan_hamlet", "parrot_blue" }
-		BIRD_TYPES[WORLD_TILES.BOG]                   = { "toucan_hamlet" }
-		BIRD_TYPES[WORLD_TILES.PIGRUINS]              = { "parrot_blue" }
+		BIRD_TYPES[WORLD_TILES.SAP_RAINFOREST]            = { "kingfisher2", "parrot_blue", "toucan_hamlet" }
+		BIRD_TYPES[WORLD_TILES.SAP_FIELDS]                = { "kingfisher2", "parrot_blue", "toucan_hamlet" }
+		BIRD_TYPES[WORLD_TILES.SAP_MOSSY_BLOSSOM]         = { "kingfisher2", "parrot_blue", "toucan_hamlet" }
+		BIRD_TYPES[WORLD_TILES.SAP_PLAINS]                = { "toucan_hamlet", "parrot_blue" }
+		BIRD_TYPES[WORLD_TILES.SAP_BOG]                   = { "toucan_hamlet" }
+		BIRD_TYPES[WORLD_TILES.SAP_PIGRUINS]              = { "parrot_blue" }
 		BIRD_TYPES[WORLD_TILES.DECIDUOUS]             = { "toucan_hamlet" }
-		BIRD_TYPES[WORLD_TILES.LAWN]                  = { "pigeon" }
-		BIRD_TYPES[WORLD_TILES.COBBLEROAD]            = { "pigeon" }
-		BIRD_TYPES[WORLD_TILES.FOUNDATION]            = { "pigeon" }
+		BIRD_TYPES[WORLD_TILES.SAP_LAWN]                  = { "pigeon" }
+		BIRD_TYPES[WORLD_TILES.SAP_COBBLEROAD]            = { "pigeon" }
+		BIRD_TYPES[WORLD_TILES.SAP_FOUNDATION]            = { "pigeon" }
 	
 		-- Gorge Birds --
-		BIRD_TYPES[WORLD_TILES.PINKSTONE]             = { "quagmire_pigeon" }
+		BIRD_TYPES[WORLD_TILES.SAP_PINKSTONE]             = { "quagmire_pigeon" }
 		BIRD_TYPES[WORLD_TILES.QUAGMIRE_PARKFIELD]    = { "quagmire_pigeon", "toucan_hamlet" }
 		BIRD_TYPES[WORLD_TILES.QUAGMIRE_CITYSTONE]    = { "quagmire_pigeon" }
-		BIRD_TYPES[WORLD_TILES.GREYFOREST]            = { "quagmire_pigeon" }
-		BIRD_TYPES[WORLD_TILES.BROWNCARPET]           = { "quagmire_pigeon" }
+		BIRD_TYPES[WORLD_TILES.SAP_GREYFOREST]            = { "quagmire_pigeon" }
+		BIRD_TYPES[WORLD_TILES.SAP_BROWNCARPET]           = { "quagmire_pigeon" }
 	
 		-- Shipwrecked Birds --
-		BIRD_TYPES[WORLD_TILES.BEACH]                 = { "toucan", "parrot", "parrot_pirate", "seagull" }
-		BIRD_TYPES[WORLD_TILES.JUNGLE]                = { "toucan", "parrot", "parrot_pirate" }
-		BIRD_TYPES[WORLD_TILES.MEADOW]                = { "toucan", "parrot" }
-		BIRD_TYPES[WORLD_TILES.TIDALMARSH]            = { "toucan", "parrot", "parrot_pirate" }
+		BIRD_TYPES[WORLD_TILES.SAP_BEACH]                 = { "toucan", "parrot", "parrot_pirate", "seagull" }
+		BIRD_TYPES[WORLD_TILES.SAP_JUNGLE]                = { "toucan", "parrot", "parrot_pirate" }
+		BIRD_TYPES[WORLD_TILES.SAP_MEADOW]                = { "toucan", "parrot" }
+		BIRD_TYPES[WORLD_TILES.SAP_TIDALMARSH]            = { "toucan", "parrot", "parrot_pirate" }
 		BIRD_TYPES[WORLD_TILES.OCEAN_COASTAL]         = { "puffin", "seagull", "cormorant" }
 		BIRD_TYPES[WORLD_TILES.OCEAN_COASTAL_SHORE]   = { "puffin", "seagull", "cormorant" }
 		BIRD_TYPES[WORLD_TILES.OCEAN_SWELL]           = { "puffin", "seagull", "cormorant" }
