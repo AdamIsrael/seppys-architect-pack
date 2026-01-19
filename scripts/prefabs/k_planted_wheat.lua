@@ -47,7 +47,7 @@ local function MakePlanted(product, bulbvariation)
 
     local prefabs =
     {
-        "kyno_soil",
+        -- "kyno_soil", -- undefined prefab (not used, only kyno_planted_soil_front/back are spawned)
         "kyno_planted_soil_front",
         "kyno_planted_soil_back",
         "kyno_"..product.."_leaf",

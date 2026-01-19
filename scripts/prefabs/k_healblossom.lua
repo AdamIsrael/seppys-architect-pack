@@ -10,7 +10,7 @@ local prefabs =
 {
     "petals",
 	"nightmarefuel",
-    "kyno_healblossom",
+	-- "kyno_healblossom", -- undefined prefab (this file creates kyno_healflower, not kyno_healblossom)
 }
 
 local DAYLIGHT_SEARCH_RANGE = 30
