@@ -2,12 +2,7 @@ require "prefabutil"
 
 local assets =
 {
-	Asset("ANIM", "anim/porkalypse_clock_01.zip"),
-	Asset("ANIM", "anim/porkalypse_clock_02.zip"),
-	Asset("ANIM", "anim/porkalypse_clock_03.zip"),
-	Asset("ANIM", "anim/porkalypse_clock_marker.zip"),
-	Asset("ANIM", "anim/porkalypse_totem.zip"),
-	
+	-- Animations now loaded globally in tap_assets.lua to prevent orphaned resources.
 	Asset("IMAGE", "images/inventoryimages/tap_buildingimages.tex"),
 	Asset("ATLAS", "images/inventoryimages/tap_buildingimages.xml"),
 	

@@ -2,12 +2,7 @@ require "prefabutil"
 
 local assets =
 { 
-    Asset("ANIM", "anim/kyno_swamphouses.zip"),
-	Asset("ANIM", "anim/ds_pig_basic.zip"),
-    Asset("ANIM", "anim/ds_pig_actions.zip"),
-    Asset("ANIM", "anim/ds_pig_attacks.zip"),
-    Asset("ANIM", "anim/quagmire_swampig_build.zip"),
-    Asset("ANIM", "anim/quagmire_swampig_extras.zip"),
+	-- Animations now loaded globally in tap_assets.lua to prevent orphaned resources.
     Asset("SOUND", "sound/pig.fsb"),
 	
 	Asset("IMAGE", "images/inventoryimages/tap_buildingimages.tex"),

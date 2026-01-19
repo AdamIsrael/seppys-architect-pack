@@ -17,6 +17,23 @@ Assets = {
 	Asset("ANIM", "anim/vine01_build.zip"),
 	Asset("ANIM", "anim/vine02_build.zip"),
 	
+	-- Mod-specific animations (previously orphaned).
+	Asset("ANIM", "anim/porkalypse_clock_01.zip"),
+	Asset("ANIM", "anim/porkalypse_clock_02.zip"),
+	Asset("ANIM", "anim/porkalypse_clock_03.zip"),
+	Asset("ANIM", "anim/porkalypse_clock_marker.zip"),
+	Asset("ANIM", "anim/porkalypse_totem.zip"),
+	Asset("ANIM", "anim/rock_magma.zip"),
+	Asset("ANIM", "anim/rock_magma_gold.zip"),
+	Asset("ANIM", "anim/kyno_swamphouses.zip"),
+	
+	-- Vanilla animation dependencies (used by multiple prefabs).
+	Asset("ANIM", "anim/ds_pig_basic.zip"),
+	Asset("ANIM", "anim/ds_pig_actions.zip"),
+	Asset("ANIM", "anim/ds_pig_attacks.zip"),
+	Asset("ANIM", "anim/quagmire_swampig_build.zip"),
+	Asset("ANIM", "anim/quagmire_swampig_extras.zip"),
+	
 	Asset("IMAGE", "images/inventoryimages/tap_buildingimages.tex"),
 	Asset("ATLAS", "images/inventoryimages/tap_buildingimages.xml"),
 	

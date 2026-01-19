@@ -2,8 +2,7 @@ require "prefabutil"
 
 local assets_magma =
 {
-	Asset("ANIM", "anim/rock_magma.zip"),
-	
+	-- Animations now loaded globally in tap_assets.lua to prevent orphaned resources.
 	Asset("IMAGE", "images/inventoryimages/tap_buildingimages.tex"),
 	Asset("ATLAS", "images/inventoryimages/tap_buildingimages.xml"),
 	
@@ -13,8 +12,7 @@ local assets_magma =
 
 local assets_magma_gold =
 {
-	Asset("ANIM", "anim/rock_magma_gold.zip"),
-	
+	-- Animations now loaded globally in tap_assets.lua to prevent orphaned resources.
 	Asset("IMAGE", "images/inventoryimages/tap_buildingimages.tex"),
 	Asset("ATLAS", "images/inventoryimages/tap_buildingimages.xml"),
 	
