@@ -20,7 +20,7 @@ local assets =
 local prefabs = 
 {
 	"honey",
-	"kyno_nectar_pod",
+	-- "kyno_nectar_pod", -- undefined prefab (nectar pod item not implemented, but referenced in code)
 }
 
 local function TestItemInside(inst, item, slot)

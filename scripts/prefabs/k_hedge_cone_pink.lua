@@ -224,7 +224,7 @@ function MakeHedgeType(data)
     end
 
     return Prefab("hedge_cone_pink", fn, assets, prefabs),
-	Prefab("hedge_cone_pink_item", itemfn, assets, {"hedge_cone_pink_placer", "collapse_small"}),
+	Prefab("hedge_cone_pink_item", itemfn, assets, {"hedge_cone_pink_item_placer", "collapse_small"}),
 	MakePlacer("hedge_cone_pink_item_placer", "hedge", "hedge2_pink_build", "growth1", false, false, true, nil, nil, "eight")
 end
 

@@ -51,7 +51,7 @@ local function MakePlanted(product, bulbvariation)
         "kyno_planted_soil_front",
         "kyno_planted_soil_back",
         "kyno_"..product.."_leaf",
-        "kyno_"..product,
+        -- "kyno_"..product, -- undefined prefab (this drops base game items via prefab_override, not kyno_ items)
         "spoiled_food",
     }
 

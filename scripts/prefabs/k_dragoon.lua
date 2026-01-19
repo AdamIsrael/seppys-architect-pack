@@ -20,7 +20,7 @@ local prefabs =
 	-- "kyno_firering_fx",
 	"kyno_dragoonfire",
 	"kyno_dragoonspit2",
-	"kyno_dragoon_charge_fx",
+	-- "kyno_dragoon_charge_fx", -- undefined prefab (not implemented, already commented out in SGdragoon.lua)
 }
 
 local brain = require "brains/dragoonbrain"
