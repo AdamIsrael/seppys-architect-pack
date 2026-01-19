@@ -14,7 +14,7 @@ local assets =
 local prefabs =
 {
 	"log",
-	"kyno_clawtree_sapling2",
+	"kyno_clawtree2_sapling",
 	"pinecone",
 	"charcoal",
 }
