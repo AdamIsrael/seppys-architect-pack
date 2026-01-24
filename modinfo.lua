@@ -1,5 +1,5 @@
 name = "Seppy's Architect Pack"
-version = "1.0.0"
+version = "2.0.0"
 
 description = [[
 🛈 This is a fork of the discontinued mod "The Architect Pack", which attempts to maintain the original mod's content and functionality while fixing bugs and compatibility with new versions of Don't Starve Together.
@@ -11,8 +11,8 @@ description = [[
 󰀏 Includes contents from: Shipwrecked, Hamlet, The Forge, The Gorge and exclusive contents!
 
 󰀖 Credits on the mod page!
-󰀌 Mod Version: 1.0.0
-󰀧 Update: Fix crash on loading
+󰀌 Mod Version: 2.0.0
+󰀧 Island Adventures Compatibility: If using with Island Adventures mods, disable "Load Audio Assets" in mod configuration to prevent FMOD crashes. Structures will be silent but fully functional.
 ]]
 
 author = "Adam Israel"
@@ -87,6 +87,21 @@ configuration_options =
         default = 0,
     },
 	Title("Tweaks", "Note: Some options below may affect your gameplay if enabled."),
+	{
+		name = "TAP_LOAD_AUDIO",
+		label = "Load Audio Assets",
+		hover = "Enable/disable audio for this mod. Disable if using Island Adventures to prevent FMOD crashes.",
+		options =
+		{
+			{description = "Enabled",
+			hover = "Load all audio files. May crash with Island Adventures mods.",
+			data = true},
+			{description = "Disabled",
+			hover = "Skip audio loading. Structures will be silent but game won't crash.",
+			data = false},
+		},
+		default = true,
+	},
     {
         name = "TAP_FOOD_FRESH",
         label = "Keep Food on Crock Pot",
@@ -94,11 +109,11 @@ configuration_options =
         options =
         {
             {description = "No",
-			hover = "Food WILL spoil if you leave them on crock pot.",
-			data = 0},
+		hover = "Food WILL spoil if you leave them on crock pot.",
+		data = 0},
             {description = "Yes",
-			hover = "Food WILL NOT spoil if you leave them on crock pot.",
-			data = 1},
+		hover = "Food WILL NOT spoil if you leave them on crock pot.",
+		data = 1},
         },
         default = 0,
     },
