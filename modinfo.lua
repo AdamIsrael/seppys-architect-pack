@@ -2,7 +2,7 @@ name = "Seppy's Architect Pack"
 version = "2.0.0"
 
 description = [[
-🛈 This is a fork of the discontinued mod "The Architect Pack", which attempts to maintain the original mod's content and functionality while fixing bugs and compatibility with new versions of Don't Starve Together.
+🛈 This is a fork of the discontinued mod "The Architect Pack", which attempts to maintain the original mod's content and functionality while fixing bugs and compatibility with new versions of Don't Starve Together and other mods.
 
 󰀂 This mod contains huge amount of decorative structures for Base Building. Design and shape the world as you please!
 
@@ -12,7 +12,11 @@ description = [[
 
 󰀖 Credits on the mod page!
 󰀌 Mod Version: 2.0.0
-󰀧 Island Adventures Compatibility: If using with Island Adventures mods, disable "Load Audio Assets" in mod configuration to prevent FMOD crashes. Structures will be silent but fully functional.
+
+󰀧 Changelog:
+- Version 2.0.0: Added compatibility with other mods and fixed bugs, especially with other mods containing a large number of audio assets that could cause the game to crash.
+- Version 1.0.0: Initial release.
+
 ]]
 
 author = "Adam Israel"
@@ -22,7 +26,7 @@ dst_compatible = true
 all_clients_require_mod = true
 client_only_mod = false
 
-server_filter_tags = {"TBS", "TAP", "Decorations", "Base Building", "Mega Base"}
+server_filter_tags = {"TBS", "TAP", "SAP", "Decorations", "Base Building", "Mega Base"}
 
 icon_atlas = "ModiconTAP.xml"
 icon = "ModiconTAP.tex"
@@ -90,14 +94,14 @@ configuration_options =
 	{
 		name = "TAP_LOAD_AUDIO",
 		label = "Load Audio Assets",
-		hover = "Enable/disable audio for this mod. Disable if using Island Adventures to prevent FMOD crashes.",
+		hover = "Enable/disable audio for this mod. Disable if using Island Adventures or similarly large mods to prevent FMOD crashes.",
 		options =
 		{
 			{description = "Enabled",
-			hover = "Load all audio files. May crash with Island Adventures mods.",
+			hover = "Load all audio files. May crash with Island Adventures or other large mods.",
 			data = true},
 			{description = "Disabled",
-			hover = "Skip audio loading. Structures will be silent but game won't crash.",
+			hover = "Skip audio loading. Structures will be silent but the game won't crash.",
 			data = false},
 		},
 		default = true,
