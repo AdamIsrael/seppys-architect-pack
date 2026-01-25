@@ -6,6 +6,9 @@ labels: bug
 assignees: AdamIsrael
 
 ---
+**Version of mod**
+
+The mod version you're using. This can be found on the mod page.
 
 **Describe the bug**
 A clear and concise description of what the bug is.
