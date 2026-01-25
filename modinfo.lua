@@ -17,6 +17,10 @@ description = [[
 - Version 2.0.0: Added compatibility with other mods and fixed bugs, especially with other mods containing a large number of audio assets that could cause the game to crash.
 - Version 1.0.0: Initial release.
 
+Links:
+- Home page: [url=https://github.com/AdamIsrael/seppys-architect-pack]Github[/url]
+- Bug Reports: [url=https://github.com/AdamIsrael/seppys-architect-pack/issues]Issues[/url]
+
 ]]
 
 author = "Adam Israel"
