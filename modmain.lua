@@ -3,6 +3,16 @@ local _G 				= GLOBAL
 local require 			= _G.require
 local resolvefilepath 	= _G.resolvefilepath
 
+-- Audio Asset Loading Configuration
+-- Users can disable audio to prevent FMOD crashes with Island Adventures
+local LOAD_AUDIO = GetModConfigData("TAP_LOAD_AUDIO")
+
+if LOAD_AUDIO then
+	print("[Seppy's Architect Pack] Audio enabled - if using Island Adventures, disable audio to prevent crashes")
+else
+	print("[Seppy's Architect Pack] Audio disabled - structures will be silent but compatible with Island Adventures")
+end
+
 -- Mod Dependencies.
 local tapmodimports = 
 {

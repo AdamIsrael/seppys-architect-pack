@@ -1,8 +1,8 @@
 name = "Seppy's Architect Pack"
-version = "1.0.0"
+version = "2.0.0"
 
 description = [[
-🛈 This is a fork of the discontinued mod "The Architect Pack", which attempts to maintain the original mod's content and functionality while fixing bugs and compatibility with new versions of Don't Starve Together.
+🛈 This is a fork of the discontinued mod "The Architect Pack", which attempts to maintain the original mod's content and functionality while fixing bugs and compatibility with new versions of Don't Starve Together and other mods.
 
 󰀂 This mod contains huge amount of decorative structures for Base Building. Design and shape the world as you please!
 
@@ -11,8 +11,16 @@ description = [[
 󰀏 Includes contents from: Shipwrecked, Hamlet, The Forge, The Gorge and exclusive contents!
 
 󰀖 Credits on the mod page!
-󰀌 Mod Version: 1.0.0
-󰀧 Update: Fix crash on loading
+󰀌 Mod Version: 2.0.0
+
+󰀧 Changelog:
+- Version 2.0.0: Added compatibility with other mods and fixed bugs, especially with other mods containing a large number of audio assets that could cause the game to crash.
+- Version 1.0.0: Initial release.
+
+Links:
+- Home page: [url=https://github.com/AdamIsrael/seppys-architect-pack]Github[/url]
+- Bug Reports: [url=https://github.com/AdamIsrael/seppys-architect-pack/issues]Issues[/url]
+
 ]]
 
 author = "Adam Israel"
@@ -22,7 +30,7 @@ dst_compatible = true
 all_clients_require_mod = true
 client_only_mod = false
 
-server_filter_tags = {"TBS", "TAP", "Decorations", "Base Building", "Mega Base"}
+server_filter_tags = {"TBS", "TAP", "SAP", "Decorations", "Base Building", "Mega Base"}
 
 icon_atlas = "ModiconTAP.xml"
 icon = "ModiconTAP.tex"
@@ -87,6 +95,21 @@ configuration_options =
         default = 0,
     },
 	Title("Tweaks", "Note: Some options below may affect your gameplay if enabled."),
+	{
+		name = "TAP_LOAD_AUDIO",
+		label = "Load Audio Assets",
+		hover = "Enable/disable audio for this mod. Disable if using Island Adventures or similarly large mods to prevent FMOD crashes.",
+		options =
+		{
+			{description = "Enabled",
+			hover = "Load all audio files. May crash with Island Adventures or other large mods.",
+			data = true},
+			{description = "Disabled",
+			hover = "Skip audio loading. Structures will be silent but the game won't crash.",
+			data = false},
+		},
+		default = true,
+	},
     {
         name = "TAP_FOOD_FRESH",
         label = "Keep Food on Crock Pot",
@@ -94,11 +117,11 @@ configuration_options =
         options =
         {
             {description = "No",
-			hover = "Food WILL spoil if you leave them on crock pot.",
-			data = 0},
+		hover = "Food WILL spoil if you leave them on crock pot.",
+		data = 0},
             {description = "Yes",
-			hover = "Food WILL NOT spoil if you leave them on crock pot.",
-			data = 1},
+		hover = "Food WILL NOT spoil if you leave them on crock pot.",
+		data = 1},
         },
         default = 0,
     },

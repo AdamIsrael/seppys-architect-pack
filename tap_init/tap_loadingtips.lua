@@ -32,6 +32,8 @@ AddLoadingTip(TIPS_TAP, "TIPS_TAP_DOYDOY", 		"\"Doydoys eats almost everything! 
 AddLoadingTip(TIPS_TAP, "TIPS_TAP_ELEPHANT",	"Elephant Cactus can be a great defense against Hound Waves, even with some Giants!")
 AddLoadingTip(TIPS_TAP, "TIPS_TAP_ELEPHANT2", 	"The legends says that a normal Elephant Cactus Replica can turn into a living being during the summer, but it's just a legend...")
 
+AddLoadingTip(TIPS_TAP, "TIPS_SAP_LAUNCH",		"Seppy's Architect Pack was officially launched to the public in Steam Workshop on December 25th, 2025.")
+
 -- We want that our custom tips appears more often.
 SetLoadingTipCategoryWeights(WEIGHT_START, {OTHER = 4, CONTROLS = 1, SURVIVAL = 1, LORE = 1, LOADING_SCREEN = 1})
 SetLoadingTipCategoryWeights(WEIGHT_END,   {OTHER = 4, CONTROLS = 1, SURVIVAL = 1, LORE = 1, LOADING_SCREEN = 1})
