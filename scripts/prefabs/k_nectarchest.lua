@@ -12,6 +12,11 @@ local assets =
 	Asset("ATLAS", "images/minimapimages/tap_minimapicons.xml"),
 }
 
+local prefabs =
+{
+	"collapse_small"
+}
+
 local function onopen(inst) 
 	if not inst:HasTag("burnt") then
 		inst.AnimState:PlayAnimation("open")

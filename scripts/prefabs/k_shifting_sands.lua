@@ -9,6 +9,11 @@ local assets =
 	Asset("ATLAS", "images/inventoryimages/tap_buildingimages.xml"),
 }
 
+local prefabs =
+{
+	"sand_puff"
+}
+
 local function dig_up_full(inst, chopper)
 	SpawnPrefab("sand_puff").Transform:SetPosition(inst.Transform:GetWorldPosition())
 	inst:Remove()

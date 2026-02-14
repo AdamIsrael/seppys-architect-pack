@@ -16,6 +16,12 @@ local assets =
 	Asset("SOUND", "sound/DLC003_sfx.fsb"),
 }
 
+local prefabs =
+{
+	"chestupgrade_stacksize_fx",
+	"collapse_small"
+}
+
 local function onopen(inst) 
 	if not inst:HasTag("burnt") then
 		inst.AnimState:PlayAnimation("open")

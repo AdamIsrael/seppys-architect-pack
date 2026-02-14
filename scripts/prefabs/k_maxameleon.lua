@@ -11,6 +11,11 @@ local assets =
 	Asset("SOUND", "sound/DLC003_sfx.fsb"),
 }
 
+local prefabs =
+{
+	"kyno_chamaleon_child"
+}
+
 local function disolve(inst, mult)
     if not mult then
         mult = 1

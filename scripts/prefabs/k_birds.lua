@@ -45,6 +45,8 @@ local function ChooseItem()
         "twigs",
         "cutgrass",
     }
+
+local prefabs = {}
     return mercy_items[math.random(#mercy_items)]
 end
 

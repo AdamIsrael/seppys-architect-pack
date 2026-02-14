@@ -14,6 +14,11 @@ local assets =
 	Asset("SOUND", "sound/dontstarve_wagstaff.fsb"),
 }
 
+local prefabs =
+{
+	"collapse_small"
+}
+
 local function TurnOn(inst)
 	inst.sg:GoToState("raise")
 end

@@ -9,6 +9,11 @@ local assets =
 	Asset("ATLAS", "images/inventoryimages/tap_buildingimages2.xml"),
 }
 
+local prefabs =
+{
+	"collapse_small"
+}
+
 local function OnHammered(inst, worker)
 	inst.components.lootdropper:DropLoot()
 	SpawnPrefab("collapse_small").Transform:SetPosition(inst.Transform:GetWorldPosition())

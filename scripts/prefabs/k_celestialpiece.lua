@@ -27,6 +27,11 @@ local function makepiece(name)
 		Asset("IMAGE", "images/inventoryimages/tap_buildingimages.tex"),
 		Asset("ATLAS", "images/inventoryimages/tap_buildingimages.xml"),
 	}
+
+local prefabs =
+{
+	"collapse_small"
+}
 	
 	local piece_prefabs =
 	{

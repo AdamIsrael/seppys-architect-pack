@@ -12,6 +12,8 @@ local assets =
 	Asset("ATLAS", "images/minimapimages/tap_minimapicons.xml"),
 }
 
+local prefabs = {}
+
 local function onpickedfn(inst)
     inst.SoundEmitter:PlaySound("dontstarve/wilson/pickup_reeds")
     inst.AnimState:PlayAnimation("picking")

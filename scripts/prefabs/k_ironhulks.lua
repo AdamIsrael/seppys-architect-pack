@@ -19,6 +19,8 @@ local assets =
 	Asset("ATLAS", "images/minimapimages/tap_minimapicons.xml"),
 }
 
+local prefabs = {}
+
 local function onhammered(inst, worker)
 	inst.components.lootdropper:DropLoot()
 	inst.SoundEmitter:PlaySound("dontstarve/common/destroy_metal")

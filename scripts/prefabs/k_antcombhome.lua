@@ -11,6 +11,11 @@ local assets =
 	Asset("ATLAS", "images/minimapimages/tap_minimapicons.xml"),
 }
 
+local prefabs =
+{
+	"collapse_big"
+}
+
 local function onhammered(inst, worker)
     if inst:HasTag("fire") and inst.components.burnable then
         inst.components.burnable:Extinguish()

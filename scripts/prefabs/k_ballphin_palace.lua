@@ -13,6 +13,11 @@ local assets =
 	Asset("SOUND", "sound/pig.fsb"),
 }
 
+local prefabs =
+{
+	"collapse_big"
+}
+
 local function LightsOn(inst)
     if not inst:HasTag("burnt") then
         inst.Light:Enable(true)

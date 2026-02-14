@@ -20,6 +20,12 @@ local assets =
 	Asset("SOUND", "sound/dontstarve_shipwreckedSFX.fsb"),
 }
 
+local prefabs =
+{
+	"collapse_small",
+	"purplegem"
+}
+
 local function onhammered(inst, worker)
     if inst:HasTag("fire") and inst.components.burnable then
         inst.components.burnable:Extinguish()

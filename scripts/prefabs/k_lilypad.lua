@@ -10,6 +10,8 @@ local assets =
 	Asset("ATLAS", "images/minimapimages/tap_minimapicons.xml"),
 }
 
+local prefabs = {}
+
 local function dig_up(inst, chopper)
 	inst:Remove()
 end

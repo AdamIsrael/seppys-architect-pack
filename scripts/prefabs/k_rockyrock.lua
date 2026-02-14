@@ -8,6 +8,11 @@ local assets =
 	Asset("ATLAS", "images/inventoryimages/tap_buildingimages.xml"),
 }
 
+local prefabs =
+{
+	"rock_break_fx"
+}
+
 local function onwork(inst, worker, workleft)
 	if workleft < TUNING.ROCKS_MINE*(1/3) then
 		inst.AnimState:PlayAnimation("hide_loop")

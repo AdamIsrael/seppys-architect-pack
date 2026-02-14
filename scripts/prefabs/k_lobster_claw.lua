@@ -7,6 +7,8 @@ local assets =
 	Asset("ATLAS_BUILD", "images/inventoryimages/tap_inventoryimages.xml", 256),
 }
 
+local prefabs = {}
+
 local function fn()
     local inst = CreateEntity()
 	

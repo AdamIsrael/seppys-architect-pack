@@ -7,6 +7,8 @@ local pinecone_assets =
 	Asset("ATLAS", "images/inventoryimages/tap_buildingimages.xml"),
 }
 
+local prefabs = {}
+
 local pinecone_prefabs =
 {
     "clawtree2_short",

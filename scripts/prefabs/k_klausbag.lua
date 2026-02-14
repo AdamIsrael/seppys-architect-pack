@@ -8,6 +8,8 @@ local assets =
 	Asset("ATLAS", "images/inventoryimages/tap_buildingimages.xml"),
 }
 
+local prefabs = {}
+
 local function OnActivate(inst)
 	inst.AnimState:PlayAnimation("open")
 	inst.SoundEmitter:PlaySound("dontstarve/creatures/together/klaus/chain_foley")

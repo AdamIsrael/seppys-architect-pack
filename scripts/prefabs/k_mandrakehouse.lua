@@ -18,6 +18,12 @@ local assets =
 	Asset("SOUND", "sound/DLC003_sfx.fsb"),
 }
 
+local prefabs =
+{
+	"collapse_big",
+	"kyno_mandrakeman"
+}
+
 prefabs = {
 	"kyno_mandrakeman",
 }

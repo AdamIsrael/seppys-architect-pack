@@ -14,6 +14,8 @@ local assets =
 	Asset("SOUND", "sound/dontstarve_shipwreckedSFX.fsb"),
 }
 
+local prefabs = {}
+
 local SNAKE_POISON_CHANCE = 0.25
 local onshake
 

@@ -14,6 +14,8 @@ local assets =
 	Asset("SOUNDPACKAGE", "sound/dontstarve_DLC003.fev"),
 	Asset("SOUND", "sound/DLC003_sfx.fsb"),
 }
+
+local prefabs = {}
 	
 local function shine(inst)
     inst.task = nil

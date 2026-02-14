@@ -11,6 +11,11 @@ local assets =
 	Asset("ATLAS", "images/minimapimages/tap_minimapicons.xml"),
 }
 
+local prefabs =
+{
+	"collapse_big"
+}
+
 local function WakeUp(inst)
 	inst.AnimState:PlayAnimation("sleep_pst")
 	inst.AnimState:PushAnimation("idle", true)

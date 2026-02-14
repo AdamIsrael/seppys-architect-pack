@@ -8,6 +8,11 @@ local assets =
 	Asset("ATLAS", "images/inventoryimages/tap_buildingimages2.xml"),
 }
 
+local prefabs =
+{
+	"rock_break_fx"
+}
+
 local function onfinish(inst, worker)
 	local pt = Point(inst.Transform:GetWorldPosition())
 	inst.components.lootdropper:DropLoot(pt)

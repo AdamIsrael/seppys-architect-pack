@@ -10,6 +10,14 @@ local assets =
 	Asset("ATLAS", "images/inventoryimages/tap_buildingimages.xml"),
 }
 
+local prefabs =
+{
+	"collapse_small",
+	"kyno_moondevice_energy",
+	"kyno_moondevice_pillar",
+	"kyno_moondevice_top"
+}
+
 local function onhammered(inst, worker)
 	inst.components.lootdropper:DropLoot()
 	SpawnPrefab("collapse_small").Transform:SetPosition(inst.Transform:GetWorldPosition())

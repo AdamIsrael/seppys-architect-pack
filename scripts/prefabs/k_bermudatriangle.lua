@@ -13,6 +13,11 @@ local assets =
 	Asset("ATLAS", "images/minimapimages/tap_minimapicons.xml"),
 }
 
+local prefabs =
+{
+	"collapse_big"
+}
+
 local function onfar(inst) 
 	inst.AnimState:PlayAnimation("open_pst")
 	inst.AnimState:PushAnimation("idle_loop", true)

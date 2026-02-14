@@ -11,6 +11,8 @@ local assets =
 	Asset("ATLAS", "images/inventoryimages/tap_inventoryimages.xml"),
 	Asset("ATLAS_BUILD", "images/inventoryimages/tap_inventoryimages.xml", 256),
 }
+
+local prefabs = {}
 	
 local function relic1()
     local inst = CreateEntity()

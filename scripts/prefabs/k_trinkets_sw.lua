@@ -13,6 +13,8 @@ local assets =
 	Asset("ATLAS_BUILD", "images/inventoryimages/tap_inventoryimages.xml", 256),
 }
 
+local prefabs = {}
+
 local SMALLFLOATS =
 {
     [13]    = {0.7, 0.1},

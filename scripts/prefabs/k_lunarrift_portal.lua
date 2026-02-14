@@ -9,6 +9,11 @@ local assets =
 	Asset("ATLAS", "images/inventoryimages/tap_buildingimages2.xml"),
 }
 
+local prefabs =
+{
+	"lunarrift_portal_shadow"
+}
+
 local function KeepTargetFn()
     return false
 end

@@ -14,6 +14,8 @@ local assets =
 	Asset("SOUND", "sound/DLC003_sfx.fsb"),
 }
 
+local prefabs = {}
+
 local function dig_up(inst, chopper)
 	inst.components.lootdropper:SpawnLootPrefab("nightmarefuel")
 	inst.components.lootdropper:SpawnLootPrefab("poop")

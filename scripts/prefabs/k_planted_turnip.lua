@@ -5,6 +5,8 @@ local assets_soil =
     Asset("ANIM", "anim/quagmire_soil.zip"),
 }
 
+local prefabs = {}
+
 local PRODUCT_VALUES =
 {
     ["turnip"] =

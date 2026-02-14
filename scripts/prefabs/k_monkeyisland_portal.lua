@@ -8,6 +8,11 @@ local assets =
 	Asset("ATLAS", "images/inventoryimages/tap_buildingimages2.xml"),
 }
 
+local prefabs =
+{
+	"kyno_monkeyisland_portalfx"
+}
+
 local fx_assets =
 {
     Asset("ANIM", "anim/monkey_island_portal_fx.zip"),

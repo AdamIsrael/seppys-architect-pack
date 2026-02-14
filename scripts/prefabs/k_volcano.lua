@@ -14,6 +14,11 @@ local assets =
 	Asset("SOUND", "sound/dontstarve_shipwreckedSFX.fsb"),
 }
 
+local prefabs =
+{
+	"collapse_big"
+}
+
 local function onwork(inst, worker, workleft)
 	if workleft < 100*(1/3) then
 		inst.AnimState:PlayAnimation("active_idle", true)

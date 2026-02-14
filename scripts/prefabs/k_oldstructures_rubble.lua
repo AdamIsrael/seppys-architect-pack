@@ -13,6 +13,23 @@ local assets =
 	Asset("ATLAS", "images/inventoryimages/tap_buildingimages.xml"),
 }
 
+local prefabs =
+{
+	"collapse_small",
+	"kyno_quagmire_rock1_low",
+	"kyno_quagmire_rock1_med",
+	"kyno_quagmire_rock2_low",
+	"kyno_quagmire_rock2_med",
+	"kyno_quagmire_rock3_low",
+	"kyno_quagmire_rock3_med",
+	"kyno_quagmire_rock4_low",
+	"kyno_quagmire_rock4_med",
+	"kyno_quagmire_rock5_low",
+	"kyno_quagmire_rock5_med",
+	"kyno_quagmire_rock6_low",
+	"kyno_quagmire_rock6_med"
+}
+
 local function rock1_onhammered_full(inst, worker)
 	inst.components.lootdropper:DropLoot()
 	inst.SoundEmitter:PlaySound("dontstarve/common/destroy_stone")

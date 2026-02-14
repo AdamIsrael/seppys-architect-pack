@@ -8,6 +8,8 @@ local assets =
 	Asset("ATLAS", "images/inventoryimages/tap_buildingimages.xml"),
 }
 
+local prefabs = {}
+
 local function onwork1(inst, worker, workleft)
 	if workleft < TUNING.MARBLEPILLAR_MINE*(1/3) then
 		inst.AnimState:PlayAnimation("block1", true)

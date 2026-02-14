@@ -8,6 +8,13 @@ local assets =
 	Asset("ATLAS", "images/inventoryimages/tap_buildingimages.xml"),
 }
 
+local prefabs =
+{
+	"deer_ice_circle",
+	"deer_ice_flakes",
+	"deer_ice_fx"
+}
+
 local function dig_up(inst, chopper)
 	inst:Remove()
 	inst.components.lootdropper:DropLoot()

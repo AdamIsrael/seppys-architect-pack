@@ -11,6 +11,12 @@ local assets =
 	Asset("ATLAS", "images/inventoryimages/tap_buildingimages.xml"),
 }
 
+local prefabs =
+{
+	"chestupgrade_stacksize_fx",
+	"collapse_small"
+}
+
 local function OnBurnt(inst)	
 	inst.components.upgradeable.upgradetype = nil
     inst.components.inspectable.getstatus = nil

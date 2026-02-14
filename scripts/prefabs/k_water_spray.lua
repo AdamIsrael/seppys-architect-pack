@@ -3,6 +3,8 @@ local assets =
 	Asset("ANIM", "anim/sprinkler_fx.zip")
 }
 
+local prefabs = {}
+
 local function fn()
 	local inst = CreateEntity()
 	

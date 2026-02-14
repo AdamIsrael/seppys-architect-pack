@@ -11,6 +11,8 @@ local assets =
 	Asset("SOUND", "sound/dontstarve_shipwreckedSFX.fsb"),
 }
 
+local prefabs = {}
+
 local function dig_up(inst, chopper)
 	inst.components.lootdropper:SpawnLootPrefab("poop")
 	inst.components.lootdropper:SpawnLootPrefab("dug_grass")

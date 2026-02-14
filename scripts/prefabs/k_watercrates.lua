@@ -12,6 +12,11 @@ local assets =
 	Asset("ATLAS", "images/minimapimages/tap_minimapicons.xml"),
 }
 
+local prefabs =
+{
+	"collapse_small"
+}
+
 local function setanim(inst, anim)
 	inst.anim = anim
 	inst.AnimState:PlayAnimation("idle" .. anim, true)

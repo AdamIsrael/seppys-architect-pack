@@ -6,6 +6,11 @@ local assets =
 	Asset("ATLAS", "images/inventoryimages/tap_buildingimages.xml"),
 }
 
+local prefabs =
+{
+	"collapse_small"
+}
+
 local function blink(inst)
     inst.AnimState:PlayAnimation("proximity_loop"..math.random(4))
 	inst.idletask = inst:DoTaskInTime(math.random() + 1.0, blink)
