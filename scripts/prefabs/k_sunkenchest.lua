@@ -74,11 +74,6 @@ local function MakeChest(name, bank, build, indestructible, master_postinit, pre
 		Asset("ATLAS_BUILD", "images/inventoryimages/tap_inventoryimages.xml", 256),
     }
 
-local prefabs =
-{
-	"collapse_small",
-	"pandorachest_reset"
-}
     assets = assets ~= nil and JoinArrays(assets, default_assets) or default_assets
 
     local function fn()

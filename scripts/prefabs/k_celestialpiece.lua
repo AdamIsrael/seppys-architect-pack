@@ -1,5 +1,10 @@
 require "prefabutil"
 
+local prefabs =
+{
+	"collapse_small"
+}
+
 local function onhammered(inst, worker)
 	inst.components.lootdropper:DropLoot()
 	SpawnPrefab("collapse_small").Transform:SetPosition(inst.Transform:GetWorldPosition())
@@ -27,11 +32,6 @@ local function makepiece(name)
 		Asset("IMAGE", "images/inventoryimages/tap_buildingimages.tex"),
 		Asset("ATLAS", "images/inventoryimages/tap_buildingimages.xml"),
 	}
-
-local prefabs =
-{
-	"collapse_small"
-}
 	
 	local piece_prefabs =
 	{

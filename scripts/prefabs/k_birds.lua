@@ -1,5 +1,7 @@
 local brain = require "brains/birdbrain"
 
+local prefabs = {}
+
 local function ShouldSleep(inst)
     return DefaultSleepTest(inst) and not inst.sg:HasStateTag("flight")
 end
@@ -45,8 +47,6 @@ local function ChooseItem()
         "twigs",
         "cutgrass",
     }
-
-local prefabs = {}
     return mercy_items[math.random(#mercy_items)]
 end
 

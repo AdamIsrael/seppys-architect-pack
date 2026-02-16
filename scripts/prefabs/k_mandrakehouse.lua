@@ -24,10 +24,6 @@ local prefabs =
 	"kyno_mandrakeman"
 }
 
-prefabs = {
-	"kyno_mandrakeman",
-}
-
 local function onhammered(inst, worker)
     if inst:HasTag("fire") and inst.components.burnable then
         inst.components.burnable:Extinguish()
