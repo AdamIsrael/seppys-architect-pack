@@ -14,8 +14,8 @@ local assets =
 
 local prefabs =
 {
-    "kyno_biigfoot_footprint",
-	"kyno_biigfoot_footshadow",
+    "sap_biigfoot_footprint",
+	"sap_biigfoot_footshadow",
 	"groundpound_fx",
     "groundpoundring_fx",
 }
@@ -225,8 +225,8 @@ local function shadowfn()
 	return inst
 end
 
-return Prefab("kyno_biigfoot", fn, assets, prefabs),
-Prefab("kyno_biigfoot_footprint", footfn, assets, prefabs),
-Prefab("kyno_biigfoot_footshadow", shadowfn, assets, prefabs),
-MakePlacer("kyno_biigfoot_placer", "foot", "foot_build", "idle", false, nil, nil, nil, 90, nil),
-MakePlacer("kyno_biigfoot_footprint_placer", "kyno_foot", "kyno_foot", "idle", true, nil, nil, nil, 90, nil)
+return Prefab("sap_biigfoot", fn, assets, prefabs),
+Prefab("sap_biigfoot_footprint", footfn, assets, prefabs),
+Prefab("sap_biigfoot_footshadow", shadowfn, assets, prefabs),
+MakePlacer("sap_biigfoot_placer", "foot", "foot_build", "idle", false, nil, nil, nil, 90, nil),
+MakePlacer("sap_biigfoot_footprint_placer", "kyno_foot", "kyno_foot", "idle", true, nil, nil, nil, 90, nil)

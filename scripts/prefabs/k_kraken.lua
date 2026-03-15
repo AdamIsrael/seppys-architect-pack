@@ -269,7 +269,7 @@ local function fn2()
 	return inst
 end
 
-return Prefab("kyno_kraken", fn, assets, prefabs),
-Prefab("kyno_kraken_tentacle", fn2, assets, prefabs),
-MakePlacer("kyno_kraken_placer", "quacken", "quacken", "idle_loop"),
-MakePlacer("kyno_kraken_tentacle_placer", "quacken_tentacle", "quacken_tentacle", "idle_slow")
+return Prefab("sap_kraken", fn, assets, prefabs),
+Prefab("sap_kraken_tentacle", fn2, assets, prefabs),
+MakePlacer("sap_kraken_placer", "quacken", "quacken", "idle_loop"),
+MakePlacer("sap_kraken_tentacle_placer", "quacken_tentacle", "quacken_tentacle", "idle_slow")

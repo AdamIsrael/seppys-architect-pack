@@ -507,7 +507,7 @@ local function makefn(name, build, fixer, guard_pig, shopkeeper, tags, sex, econ
 end
 
 local function makepigman(name, build, fixer, guard_pig, shopkeeper, tags, sex)   
-    return Prefab("kyno_".. name, makefn(name, build, fixer, guard_pig, shopkeeper, tags, sex), assets, prefabs)  
+    return Prefab("sap_".. name, makefn(name, build, fixer, guard_pig, shopkeeper, tags, sex), assets, prefabs)  
 end
 
 -- Name / Build / Fixer / Guard / Shop / Tags / Sex

@@ -264,11 +264,11 @@ local function stage4fn()
     return inst
 end
 
-return Prefab("kyno_hermithouse1", stage1fn, assets, prefabs),
-Prefab("kyno_hermithouse2", stage2fn, assets, prefabs),
-Prefab("kyno_hermithouse3", stage3fn, assets, prefabs),
-Prefab("kyno_hermithouse4", stage4fn, assets, prefabs),
-MakePlacer("kyno_hermithouse1_placer", "hermitcrab_home", "hermitcrab_home", "idle_stage1"),
-MakePlacer("kyno_hermithouse2_placer", "hermitcrab_home", "hermitcrab_home", "idle_stage2"),
-MakePlacer("kyno_hermithouse3_placer", "hermitcrab_home", "hermitcrab_home", "idle_stage3"),
-MakePlacer("kyno_hermithouse4_placer", "hermitcrab_home", "hermitcrab_home", "idle_stage4")
+return Prefab("sap_hermithouse1", stage1fn, assets, prefabs),
+Prefab("sap_hermithouse2", stage2fn, assets, prefabs),
+Prefab("sap_hermithouse3", stage3fn, assets, prefabs),
+Prefab("sap_hermithouse4", stage4fn, assets, prefabs),
+MakePlacer("sap_hermithouse1_placer", "hermitcrab_home", "hermitcrab_home", "idle_stage1"),
+MakePlacer("sap_hermithouse2_placer", "hermitcrab_home", "hermitcrab_home", "idle_stage2"),
+MakePlacer("sap_hermithouse3_placer", "hermitcrab_home", "hermitcrab_home", "idle_stage3"),
+MakePlacer("sap_hermithouse4_placer", "hermitcrab_home", "hermitcrab_home", "idle_stage4")

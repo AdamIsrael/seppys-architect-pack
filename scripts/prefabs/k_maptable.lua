@@ -11,7 +11,7 @@ local assets =
 local prefabs =
 {
 	"collapse_small",
-	"kyno_maptable_broken",
+	"sap_maptable_broken",
 	"mapscroll"
 }
 
@@ -23,7 +23,7 @@ local function onhammered(inst)
 	SpawnPrefab("collapse_small").Transform:SetPosition(inst.Transform:GetWorldPosition())
 	inst.SoundEmitter:PlaySound("dontstarve/common/destroy_wood")
 	inst:Remove()
-	SpawnPrefab("kyno_maptable_broken").Transform:SetPosition(inst.Transform:GetWorldPosition())
+	SpawnPrefab("sap_maptable_broken").Transform:SetPosition(inst.Transform:GetWorldPosition())
 end
 
 local function onhammered_broken(inst)
@@ -151,6 +151,6 @@ local function brokenfn()
 	return inst
 end
 
-return Prefab("kyno_maptable", fn, assets, prefabs),
-Prefab("kyno_maptable_broken", brokenfn, assets, prefabs),
-MakePlacer("kyno_maptable_placer", "map_table", "map_table", "idle")
+return Prefab("sap_maptable", fn, assets, prefabs),
+Prefab("sap_maptable_broken", brokenfn, assets, prefabs),
+MakePlacer("sap_maptable_placer", "map_table", "map_table", "idle")

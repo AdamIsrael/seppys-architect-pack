@@ -60,5 +60,5 @@ local function fn()
     return inst
 end
 
-return Prefab("kyno_atriumobelisk", fn, assets, prefabs),
-MakePlacer("kyno_atriumobelisk_placer", "atrium_overgrowth", "atrium_overgrowth", "idle")
+return Prefab("sap_atriumobelisk", fn, assets, prefabs),
+MakePlacer("sap_atriumobelisk_placer", "atrium_overgrowth", "atrium_overgrowth", "idle")

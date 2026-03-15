@@ -351,14 +351,14 @@ local function bramblecorefn()
 	return inst
 end
 
-return Prefab("kyno_bramble1", bramble1fn, assets, prefabs),
-MakePlacer("kyno_bramble1_placer", "bramble_1", "bramble1_build", "idle", false, nil, nil, nil, 90, nil),
+return Prefab("sap_bramble1", bramble1fn, assets, prefabs),
+MakePlacer("sap_bramble1_placer", "bramble_1", "bramble1_build", "idle", false, nil, nil, nil, 90, nil),
 
-Prefab("kyno_bramble2", bramble2fn, assets, prefabs),
-MakePlacer("kyno_bramble2_placer", "bramble_2", "bramble1_build", "idle", false, nil, nil, nil, 90, nil),
+Prefab("sap_bramble2", bramble2fn, assets, prefabs),
+MakePlacer("sap_bramble2_placer", "bramble_2", "bramble1_build", "idle", false, nil, nil, nil, 90, nil),
 
-Prefab("kyno_bramble3", bramble3fn, assets, prefabs),
-MakePlacer("kyno_bramble3_placer", "bramble_3", "bramble1_build", "idle", false, nil, nil, nil, 90, nil),
+Prefab("sap_bramble3", bramble3fn, assets, prefabs),
+MakePlacer("sap_bramble3_placer", "bramble_3", "bramble1_build", "idle", false, nil, nil, nil, 90, nil),
 
-Prefab("kyno_bramblecore", bramblecorefn, assets, prefabs),
-MakePlacer("kyno_bramblecore_placer", "bramble_core", "bramble_core", "idle")
+Prefab("sap_bramblecore", bramblecorefn, assets, prefabs),
+MakePlacer("sap_bramblecore_placer", "bramble_core", "bramble_core", "idle")

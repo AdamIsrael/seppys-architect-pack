@@ -16,9 +16,9 @@ local prefabs =
 {
     "merm",
     "collapse_big",
-	"kyno_swampmermhouserubble",
-	"kyno_swampmermhouserubble2",
-	"kyno_pigworn",
+	"sap_swampmermhouserubble",
+	"sap_swampmermhouserubble2",
+	"sap_pigworn",
     "boards",
     "rocks",
     "pondfish",
@@ -41,7 +41,7 @@ local function onhammered(inst, worker)
     fx.Transform:SetPosition(inst.Transform:GetWorldPosition())
     fx:SetMaterial("wood")
     inst:Remove()
-	SpawnPrefab("kyno_swampmermhouserubble2").Transform:SetPosition(inst.Transform:GetWorldPosition())
+	SpawnPrefab("sap_swampmermhouserubble2").Transform:SetPosition(inst.Transform:GetWorldPosition())
 end
 
 local function onhit(inst, worker)
@@ -129,7 +129,7 @@ local function onhammered_rubble2(inst, worker)
 	SpawnPrefab("collapse_small").Transform:SetPosition(inst.Transform:GetWorldPosition())
 	inst.SoundEmitter:PlaySound("dontstarve/common/destroy_stone")
 	inst:Remove()
-	SpawnPrefab("kyno_swampmermhouserubble2").Transform:SetPosition(inst.Transform:GetWorldPosition())
+	SpawnPrefab("sap_swampmermhouserubble2").Transform:SetPosition(inst.Transform:GetWorldPosition())
 end
 
 local function onhit_rubble(inst, worker)
@@ -402,11 +402,11 @@ local function pigfn()
 end
 
 
-return Prefab("kyno_swampmermhouse", fn, assets, prefabs),
-Prefab("kyno_swampmermhouserubble", rubblefn, assets, prefabs),
-Prefab("kyno_swampmermhouserubble2", rubble2fn, assets, prefabs),
-Prefab("kyno_swamppighouse", wornfn, assets, prefabs),
-Prefab("kyno_pigworn", pigfn, assets, prefabs),
-MakePlacer("kyno_swampmermhouse_placer", "kyno_swamphouses", "kyno_swamphouses", "weremerm"),
-MakePlacer("kyno_swampmermhouserubble_placer", "kyno_swamphouses", "kyno_swamphouses", "rubble"),
-MakePlacer("kyno_swamppighouse_placer", "kyno_swamphouses", "kyno_swamphouses", "rundown")
+return Prefab("sap_swampmermhouse", fn, assets, prefabs),
+Prefab("sap_swampmermhouserubble", rubblefn, assets, prefabs),
+Prefab("sap_swampmermhouserubble2", rubble2fn, assets, prefabs),
+Prefab("sap_swamppighouse", wornfn, assets, prefabs),
+Prefab("sap_pigworn", pigfn, assets, prefabs),
+MakePlacer("sap_swampmermhouse_placer", "kyno_swamphouses", "kyno_swamphouses", "weremerm"),
+MakePlacer("sap_swampmermhouserubble_placer", "kyno_swamphouses", "kyno_swamphouses", "rubble"),
+MakePlacer("sap_swamppighouse_placer", "kyno_swamphouses", "kyno_swamphouses", "rundown")

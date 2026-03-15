@@ -17,7 +17,7 @@ local prefabs =
 {
 	"livinglog",
 	"acorn",
-	"kyno_poisontree_stump",
+	"sap_poisontree_stump",
 }
 
 local function chop_down_burnt_tree(inst, chopper)
@@ -89,7 +89,7 @@ local function onworkfinish(inst, chopper)
         inst.components.lootdropper:DropLoot(pt + TheCamera:GetRightVec())
     end
 	inst:Remove()
-    SpawnPrefab("kyno_poisontree_stump").Transform:SetPosition(inst.Transform:GetWorldPosition())
+    SpawnPrefab("sap_poisontree_stump").Transform:SetPosition(inst.Transform:GetWorldPosition())
 end
 
 local function onsave(inst, data)
@@ -215,6 +215,6 @@ local function poisonplacetestfn(inst)
 	inst.AnimState:AddOverrideBuild("tree_leaf_trunk_build")
 end
 
-return Prefab("kyno_poisontree", fn, assets, prefabs),
-Prefab("kyno_poisontree_stump", stumpfn, assets, prefabs),
-MakePlacer("kyno_poisontree_placer", "tree_leaf_monster", "tree_leaf_poison_build", "idle_loop_agro", false, nil, nil, nil, nil, nil, poisonplacetestfn)
+return Prefab("sap_poisontree", fn, assets, prefabs),
+Prefab("sap_poisontree_stump", stumpfn, assets, prefabs),
+MakePlacer("sap_poisontree_placer", "tree_leaf_monster", "tree_leaf_poison_build", "idle_loop_agro", false, nil, nil, nil, nil, nil, poisonplacetestfn)

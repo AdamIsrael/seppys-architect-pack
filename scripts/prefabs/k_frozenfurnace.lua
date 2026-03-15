@@ -127,5 +127,5 @@ local function fn()
     return inst
 end
 
-return Prefab("kyno_frozenfurnace", fn, assets, prefabs),
-MakePlacer("kyno_frozenfurnace_placer", "kyno_frozenfurnace", "kyno_frozenfurnace", "idle")
+return Prefab("sap_frozenfurnace", fn, assets, prefabs),
+MakePlacer("sap_frozenfurnace_placer", "kyno_frozenfurnace", "kyno_frozenfurnace", "idle")

@@ -52,4 +52,4 @@ local function nesting_ground_fn()
     return inst
 end
 
-return Prefab("kyno_moose_nesting_ground", nesting_ground_fn, nesting_ground_assets)
+return Prefab("sap_moose_nesting_ground", nesting_ground_fn, nesting_ground_assets)

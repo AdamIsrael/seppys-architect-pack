@@ -151,5 +151,5 @@ local function MakeStatue(name, rotate)
     return Prefab(name, fn, assets)
 end
 
-return MakeStatue("kyno_statueatrium", true),
-MakePlacer("kyno_statueatrium_placer", "atrium_statue", "atrium_statue", "idle_full", false, nil, nil, nil, 90, nil)
+return MakeStatue("sap_statueatrium", true),
+MakePlacer("sap_statueatrium_placer", "atrium_statue", "atrium_statue", "idle_full", false, nil, nil, nil, 90, nil)

@@ -4,6 +4,7 @@ require("tilemanager")
 local _G 				= GLOBAL
 local GROUND 			= _G.GROUND
 
+local Asset = _G.Asset
 Assets = {
 	Asset("ANIM", "anim/kyno_turfs_other.zip"),
 }

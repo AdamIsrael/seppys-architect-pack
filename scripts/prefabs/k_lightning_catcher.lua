@@ -127,5 +127,5 @@ local function catcherplacerfn(inst)
 	inst.AnimState:SetScale(2, 2, 2)
 end
 
-return Prefab("kyno_lightning_catcher", fn, assets, prefabs),
-MakePlacer("kyno_lightning_catcher_placer", "lightning_catcher", "lightning_catcher", "idle_full", false, nil, nil, nil, nil, nil, catcherplacerfn)
+return Prefab("sap_lightning_catcher", fn, assets, prefabs),
+MakePlacer("sap_lightning_catcher_placer", "lightning_catcher", "lightning_catcher", "idle_full", false, nil, nil, nil, nil, nil, catcherplacerfn)

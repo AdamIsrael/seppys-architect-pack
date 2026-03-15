@@ -185,5 +185,5 @@ local function fn()
     return inst
 end
 
-return Prefab("kyno_piratihatitator", fn, assets, prefabs),
-MakePlacer("kyno_piratihatitator_placer", "piratihatitator", "piratihatitator", "idle")
+return Prefab("sap_piratihatitator", fn, assets, prefabs),
+MakePlacer("sap_piratihatitator_placer", "piratihatitator", "piratihatitator", "idle")

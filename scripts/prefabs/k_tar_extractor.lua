@@ -109,5 +109,5 @@ local function fn()
     return inst
 end
 
-return Prefab("kyno_extractor", fn, assets, prefabs),
-MakePlacer("kyno_extractor_placer", "tar_extractor", "tar_extractor", "idle")
+return Prefab("sap_extractor", fn, assets, prefabs),
+MakePlacer("sap_extractor_placer", "tar_extractor", "tar_extractor", "idle")

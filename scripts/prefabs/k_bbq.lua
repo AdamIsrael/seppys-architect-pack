@@ -90,5 +90,5 @@ local function bbqplacetestfn(inst)
 	inst.AnimState:SetScale(.60, .60, .60)
 end
 
-return Prefab("kyno_bbq", fn, assets),
-MakePlacer("kyno_bbq_placer", "kyno_bbq", "kyno_bbq", "idle")
+return Prefab("sap_bbq", fn, assets),
+MakePlacer("sap_bbq_placer", "kyno_bbq", "kyno_bbq", "idle")

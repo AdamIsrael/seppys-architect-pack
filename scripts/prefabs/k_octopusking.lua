@@ -110,5 +110,5 @@ local function fn()
 	return inst
 end
 
-return Prefab("kyno_octopusking", fn, assets, prefabs),
-MakePlacer("kyno_octopusking_placer", "octopus", "octopus", "idle")  
+return Prefab("sap_octopusking", fn, assets, prefabs),
+MakePlacer("sap_octopusking_placer", "octopus", "octopus", "idle")  

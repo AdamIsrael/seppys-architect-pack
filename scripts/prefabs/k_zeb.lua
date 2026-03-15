@@ -78,7 +78,7 @@ local function OnAttacked(inst, data)
 end
 
 local function OnBuilt(inst)
-	SpawnPrefab("kyno_zeb").Transform:SetPosition(inst.Transform:GetWorldPosition())
+	SpawnPrefab("sap_zeb").Transform:SetPosition(inst.Transform:GetWorldPosition())
 	inst:Remove()
 end
 
@@ -103,7 +103,7 @@ local function builderfn()
 	inst:AddTag("animal")
 	inst:AddTag("zeb")
 	
-	inst:SetPrefabNameOverride("kyno_zeb")
+	inst:SetPrefabNameOverride("sap_zeb")
 	
 	inst.entity:SetPristine()
 
@@ -155,20 +155,20 @@ end
 local function fn()
 	local inst = builderfn()
 	
-	inst:SetPrefabNameOverride("kyno_zeb")
+	inst:SetPrefabNameOverride("sap_zeb")
 	
 	if not TheWorld.ismastersim then
 		return inst
 	end
 	
 	inst:AddComponent("herdmember")
-    inst.components.herdmember:SetHerdPrefab("kyno_zeb_herd")
+    inst.components.herdmember:SetHerdPrefab("sap_zeb_herd")
 	
 	inst.components.lootdropper:SetChanceLootTable('kyno_zeb')
 	
 	return inst
 end
 
-return Prefab("kyno_zeb_builder", builderfn, assets, prefabs),
-Prefab("kyno_zeb", fn, assets, prefabs),
-MakePlacer("kyno_zeb_builder_placer", "zeb", "zeb_build", "idle_loop")
+return Prefab("sap_zeb_builder", builderfn, assets, prefabs),
+Prefab("sap_zeb", fn, assets, prefabs),
+MakePlacer("sap_zeb_builder_placer", "zeb", "zeb_build", "idle_loop")

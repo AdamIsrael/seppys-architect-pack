@@ -179,11 +179,11 @@ local function grave4fn()
     return inst
 end
 
-return Prefab("kyno_gravestone1", grave1fn, assets),
-Prefab("kyno_gravestone2", grave2fn, assets),
-Prefab("kyno_gravestone3", grave3fn, assets),
-Prefab("kyno_gravestone4", grave4fn, assets),
-MakePlacer("kyno_gravestone1_placer", "gravestone", "gravestones", "grave1"),
-MakePlacer("kyno_gravestone2_placer", "gravestone", "gravestones", "grave2"),
-MakePlacer("kyno_gravestone3_placer", "gravestone", "gravestones", "grave3"),
-MakePlacer("kyno_gravestone4_placer", "gravestone", "gravestones", "grave4")
+return Prefab("sap_gravestone1", grave1fn, assets),
+Prefab("sap_gravestone2", grave2fn, assets),
+Prefab("sap_gravestone3", grave3fn, assets),
+Prefab("sap_gravestone4", grave4fn, assets),
+MakePlacer("sap_gravestone1_placer", "gravestone", "gravestones", "grave1"),
+MakePlacer("sap_gravestone2_placer", "gravestone", "gravestones", "grave2"),
+MakePlacer("sap_gravestone3_placer", "gravestone", "gravestones", "grave3"),
+MakePlacer("sap_gravestone4_placer", "gravestone", "gravestones", "grave4")

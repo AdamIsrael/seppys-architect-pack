@@ -82,7 +82,7 @@ local function makepiece(name)
 		return inst
     end
 	
-	return Prefab("kyno_altar_"..name, fn, assets, piece_prefabs)
+	return Prefab("sap_altar_"..name, fn, assets, piece_prefabs)
 end
 
 return makepiece("idol"),
@@ -91,9 +91,9 @@ makepiece("seed"),
 makepiece("crown", "moon_altar_cosmic"),
 makepiece("ward"),
 makepiece("icon", "moon_altar_astral"),
-MakePlacer("kyno_altar_idol_placer", "moon_altar_pieces", "swap_altar_idolpiece", "anim"),
-MakePlacer("kyno_altar_glass_placer", "moon_altar_pieces", "swap_altar_glasspiece", "anim"),
-MakePlacer("kyno_altar_seed_placer", "moon_altar_pieces", "swap_altar_seedpiece", "anim"),
-MakePlacer("kyno_altar_crown_placer", "moon_altar_pieces", "swap_altar_crownpiece", "anim"),
-MakePlacer("kyno_altar_ward_placer", "moon_altar_pieces", "swap_altar_wardpiece", "anim"),
-MakePlacer("kyno_altar_icon_placer", "moon_altar_pieces", "swap_altar_iconpiece", "anim")
+MakePlacer("sap_altar_idol_placer", "moon_altar_pieces", "swap_altar_idolpiece", "anim"),
+MakePlacer("sap_altar_glass_placer", "moon_altar_pieces", "swap_altar_glasspiece", "anim"),
+MakePlacer("sap_altar_seed_placer", "moon_altar_pieces", "swap_altar_seedpiece", "anim"),
+MakePlacer("sap_altar_crown_placer", "moon_altar_pieces", "swap_altar_crownpiece", "anim"),
+MakePlacer("sap_altar_ward_placer", "moon_altar_pieces", "swap_altar_wardpiece", "anim"),
+MakePlacer("sap_altar_icon_placer", "moon_altar_pieces", "swap_altar_iconpiece", "anim")

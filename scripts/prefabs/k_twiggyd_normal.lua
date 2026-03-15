@@ -38,7 +38,7 @@ local function OnTimerDone(inst, data)
 		inst.SoundEmitter:PlaySound("dontstarve/forest/treeGrowFromWilt")
 
 		inst:ListenForEvent("animover", function() inst:Remove() end)
-		inst:ListenForEvent("animover", function() SpawnPrefab("kyno_twiggyd_tall").Transform:SetPosition(inst.Transform:GetWorldPosition()) end)
+		inst:ListenForEvent("animover", function() SpawnPrefab("sap_twiggyd_tall").Transform:SetPosition(inst.Transform:GetWorldPosition()) end)
     end
 end
 
@@ -210,4 +210,4 @@ local function fn()
 	return inst
 end
 
-return Prefab("kyno_twiggyd_normal", fn, assets, prefabs)
+return Prefab("sap_twiggyd_normal", fn, assets, prefabs)

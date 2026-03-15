@@ -178,5 +178,5 @@ local function fn()
     return inst
 end
 
-return Prefab("kyno_driftwood_wardrobe", fn, assets, prefabs),
-MakePlacer("kyno_driftwood_wardrobe_placer", "wardrobe", "kyno_driftwood_wardrobe", "closed")
+return Prefab("sap_driftwood_wardrobe", fn, assets, prefabs),
+MakePlacer("sap_driftwood_wardrobe_placer", "wardrobe", "sap_driftwood_wardrobe", "closed")

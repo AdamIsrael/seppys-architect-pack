@@ -98,5 +98,5 @@ local function fn()
 	return inst
 end
 
-return Prefab("kyno_bermudatriangle", fn, assets, prefabs),
-MakePlacer("kyno_bermudatriangle_placer", "bermudatriangle", "bermudatriangle", "idle_loop", true, nil, nil, nil, 90, nil)
+return Prefab("sap_bermudatriangle", fn, assets, prefabs),
+MakePlacer("sap_bermudatriangle_placer", "bermudatriangle", "bermudatriangle", "idle_loop", true, nil, nil, nil, 90, nil)

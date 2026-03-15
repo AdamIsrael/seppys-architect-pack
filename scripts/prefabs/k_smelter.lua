@@ -158,5 +158,5 @@ local function fn()
     return inst
 end
 
-return Prefab("kyno_smelter", fn, assets, prefabs),
-MakePlacer("kyno_smelter_placer", "smelter", "smelter", "idle_full")
+return Prefab("sap_smelter", fn, assets, prefabs),
+MakePlacer("sap_smelter_placer", "smelter", "smelter", "idle_full")

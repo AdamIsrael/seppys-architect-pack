@@ -158,4 +158,4 @@ local function fn()
     return inst
 end
 
-return Prefab("kyno_wasphive", fn, assets, prefabs)
+return Prefab("sap_wasphive", fn, assets, prefabs)

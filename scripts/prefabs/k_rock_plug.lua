@@ -127,7 +127,7 @@ local function antfn()
 	return inst
 end
 
-return Prefab("kyno_rockplug", fn, assets, prefabs),
-Prefab("kyno_antrock", antfn, assets, prefabs),
-MakePlacer("kyno_rockplug_placer", "rock_batcave", "rock_batcave", "full"),
-MakePlacer("kyno_antrock_placer", "rock", "rock_antcave", "full")
+return Prefab("sap_rockplug", fn, assets, prefabs),
+Prefab("sap_antrock", antfn, assets, prefabs),
+MakePlacer("sap_rockplug_placer", "rock_batcave", "rock_batcave", "full"),
+MakePlacer("sap_antrock_placer", "rock", "rock_antcave", "full")

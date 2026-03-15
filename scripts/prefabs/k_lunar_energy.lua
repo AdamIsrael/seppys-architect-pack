@@ -139,7 +139,7 @@ local function energyplacetestfn(inst)
 	inst.AnimState:Hide("tape_parts_4")
 end
 
-return Prefab("kyno_lunar_energy", fn, assets),
-Prefab("kyno_lunar_energy_wip", wipfn, assets),
-MakePlacer("kyno_lunar_energy_placer", "moon_altar_link", "moon_altar_link", "high_idle"),
-MakePlacer("kyno_lunar_energy_wip_placer", "kyno_lunar_energy", "kyno_lunar_energy", "high_idle", false, nil, nil, nil, nil, nil, energyplacetestfn)
+return Prefab("sap_lunar_energy", fn, assets),
+Prefab("sap_lunar_energy_wip", wipfn, assets),
+MakePlacer("sap_lunar_energy_placer", "moon_altar_link", "moon_altar_link", "high_idle"),
+MakePlacer("sap_lunar_energy_wip_placer", "kyno_lunar_energy", "kyno_lunar_energy", "high_idle", false, nil, nil, nil, nil, nil, energyplacetestfn)

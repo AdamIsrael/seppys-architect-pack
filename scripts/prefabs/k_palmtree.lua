@@ -49,30 +49,30 @@ local anims  = {
     [NORMAL] = makeanims(NORMAL),
 }
 
-SetSharedLootTable("kyno_palmtree_small",
+SetSharedLootTable("sap_palmtree_small",
 {
     {"log", 1.0},
     {"log", 1.0},
 })
 
-SetSharedLootTable("kyno_palmtree_normal",
+SetSharedLootTable("sap_palmtree_normal",
 {
     {"log", 1.0},
     {"log", 1.0},
     {"log", 1.0},
-	{"kyno_coconut", 1.0},
+	{"sap_coconut", 1.0},
 })
 
-SetSharedLootTable("kyno_palmtree_tall",
+SetSharedLootTable("sap_palmtree_tall",
 {
     {"log", 1.0},
     {"log", 1.0},
     {"log", 1.0},
-    {"kyno_coconut", 1.0},
-	{"kyno_coconut", 1.0},
+    {"sap_coconut", 1.0},
+	{"sap_coconut", 1.0},
 })
 
-SetSharedLootTable("kyno_palmtree_burnt",
+SetSharedLootTable("sap_palmtree_burnt",
 {
     {"charcoal", 1.0},
 })
@@ -107,7 +107,7 @@ local function burnt_changes(inst)
 
     inst:RemoveTag("shelter")
 
-    inst.components.lootdropper:SetChanceLootTable("kyno_palmtree_burnt")
+    inst.components.lootdropper:SetChanceLootTable("sap_palmtree_burnt")
 
     if inst.components.workable then
         inst.components.workable:SetWorkLeft(1)
@@ -266,7 +266,7 @@ local function set_short(inst)
         inst.components.workable:SetWorkLeft(5)
     end
     set_short_burnable(inst)
-    inst.components.lootdropper:SetChanceLootTable("kyno_palmtree_small")
+    inst.components.lootdropper:SetChanceLootTable("sap_palmtree_small")
     inst:AddTag("shelter")
 
     sway(inst)
@@ -309,7 +309,7 @@ local function set_normal(inst)
         inst.components.workable:SetWorkLeft(10)
     end
     set_normal_burnable(inst)
-    inst.components.lootdropper:SetChanceLootTable("kyno_palmtree_normal")
+    inst.components.lootdropper:SetChanceLootTable("sap_palmtree_normal")
     inst:AddTag("shelter")
     sway(inst)
 end
@@ -351,7 +351,7 @@ local function set_tall(inst)
         inst.components.workable:SetWorkLeft(15)
     end
     set_tall_burnable(inst)
-    inst.components.lootdropper:SetChanceLootTable("kyno_palmtree_tall")
+    inst.components.lootdropper:SetChanceLootTable("sap_palmtree_tall")
     inst:AddTag("shelter")
     sway(inst)
 end
@@ -566,7 +566,7 @@ local function tree(name, stage, data)
     return Prefab(name, fn, assets, prefabs)
 end
 
-return tree("kyno_palmtree", 0),
-tree("kyno_palmtree_short",  1),
-tree("kyno_palmtree_normal", 2),
-tree("kyno_palmtree_tall",   3)
+return tree("sap_palmtree", 0),
+tree("sap_palmtree_short",  1),
+tree("sap_palmtree_normal", 2),
+tree("sap_palmtree_tall",   3)

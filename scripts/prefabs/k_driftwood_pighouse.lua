@@ -448,5 +448,5 @@ local function fn()
     return inst
 end
 
-return Prefab("kyno_driftwood_pighouse", fn, assets, prefabs),
-MakePlacer("kyno_driftwood_pighouse_placer", "pig_house", "kyno_driftwood_pighouse", "idle")
+return Prefab("sap_driftwood_pighouse", fn, assets, prefabs),
+MakePlacer("sap_driftwood_pighouse_placer", "pig_house", "sap_driftwood_pighouse", "idle")

@@ -236,9 +236,9 @@ local function seedfn()
     return inst
 end
 
-return Prefab("kyno_invitingformation1", glassfn, assets, prefabs),
-Prefab("kyno_invitingformation2", idolfn, assets, prefabs),
-Prefab("kyno_invitingformation3", seedfn, assets, prefabs),
-MakePlacer("kyno_invitingformation1_placer", "altar_glasspiece", "altar_glasspiece", "full"),
-MakePlacer("kyno_invitingformation2_placer", "altar_idolpiece", "altar_idolpiece", "full"),
-MakePlacer("kyno_invitingformation3_placer", "altar_seedpiece", "altar_seedpiece", "full")
+return Prefab("sap_invitingformation1", glassfn, assets, prefabs),
+Prefab("sap_invitingformation2", idolfn, assets, prefabs),
+Prefab("sap_invitingformation3", seedfn, assets, prefabs),
+MakePlacer("sap_invitingformation1_placer", "altar_glasspiece", "altar_glasspiece", "full"),
+MakePlacer("sap_invitingformation2_placer", "altar_idolpiece", "altar_idolpiece", "full"),
+MakePlacer("sap_invitingformation3_placer", "altar_seedpiece", "altar_seedpiece", "full")

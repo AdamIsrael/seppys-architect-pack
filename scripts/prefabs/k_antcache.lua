@@ -112,5 +112,5 @@ local function fn()
 	return inst
 end
 
-return Prefab("kyno_antcache", fn, assets, prefabs),
-MakePlacer("kyno_antcache_placer", "honey_cache", "ant_honey_cache", "full")
+return Prefab("sap_antcache", fn, assets, prefabs),
+MakePlacer("sap_antcache_placer", "honey_cache", "ant_honey_cache", "full")

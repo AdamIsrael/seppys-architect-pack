@@ -72,5 +72,5 @@ local function fn()
     return inst
 end
 
-return Prefab("kyno_ivy", fn, assets),
-MakePlacer("kyno_ivy_placer", "quagmire_ivy_topiary", "quagmire_ivy_topiary", "idle")
+return Prefab("sap_ivy", fn, assets),
+MakePlacer("sap_ivy_placer", "quagmire_ivy_topiary", "quagmire_ivy_topiary", "idle")

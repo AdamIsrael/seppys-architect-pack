@@ -87,5 +87,5 @@ local function fn()
     return inst
 end
 
-return Prefab("kyno_scorchedground", fn, assets),
-MakePlacer("kyno_scorchedground_placer", "scorched_ground", "scorched_ground", "idle2", true, nil, nil, nil, 90, nil)
+return Prefab("sap_scorchedground", fn, assets),
+MakePlacer("sap_scorchedground_placer", "scorched_ground", "scorched_ground", "idle2", true, nil, nil, nil, 90, nil)

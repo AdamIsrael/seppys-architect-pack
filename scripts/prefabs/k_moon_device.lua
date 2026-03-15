@@ -13,9 +13,9 @@ local assets =
 local prefabs =
 {
 	"collapse_small",
-	"kyno_moondevice_energy",
-	"kyno_moondevice_pillar",
-	"kyno_moondevice_top"
+	"sap_moondevice_energy",
+	"sap_moondevice_pillar",
+	"sap_moondevice_top"
 }
 
 local function onhammered(inst, worker)
@@ -47,7 +47,7 @@ local function onbuilt3(inst)
 end
 
 local function addpillar(inst, local_x, local_z, rotation)
-    local pillar = SpawnPrefab("kyno_moondevice_pillar")
+    local pillar = SpawnPrefab("sap_moondevice_pillar")
     pillar.entity:SetParent(inst.entity)
     pillar.Transform:SetPosition(local_x, 0, local_z)
     pillar.Transform:SetRotation(rotation)
@@ -153,14 +153,14 @@ end
 
 spawntop = function(inst)
     if inst._top == nil then
-        inst._top = SpawnPrefab("kyno_moondevice_top")
+        inst._top = SpawnPrefab("sap_moondevice_top")
         inst._top.entity:SetParent(inst.entity)
     end
 end
 
 spawnenergy = function(inst)
 	if inst._energy == nil then
-		inst._energy = SpawnPrefab("kyno_moondevice_energy")
+		inst._energy = SpawnPrefab("sap_moondevice_energy")
 		inst._energy.entity:SetParent(inst.entity)
 	end
 end
@@ -352,12 +352,12 @@ local function fn3()
     return inst
 end
 
-return Prefab("kyno_moondevice_pillar", pillarfn, assets, prefabs),
-Prefab("kyno_moondevice_top", topfn, assets, prefabs),
-Prefab("kyno_moondevice_energy", energyfn, assets, prefabs),
-Prefab("kyno_moondevice_stage1", fn, assets),
-Prefab("kyno_moondevice_stage2", fn2, assets),
-Prefab("kyno_moondevice_stage3", fn3, assets),
-MakePlacer("kyno_moondevice_stage1_placer", "moon_device_stages", "moon_device", "stage1_idle", true),
-MakePlacer("kyno_moondevice_stage2_placer", "moon_device_stages", "moon_device", "stage1_idle", true),
-MakePlacer("kyno_moondevice_stage3_placer", "moon_device_stages", "moon_device", "stage1_idle", true)
+return Prefab("sap_moondevice_pillar", pillarfn, assets, prefabs),
+Prefab("sap_moondevice_top", topfn, assets, prefabs),
+Prefab("sap_moondevice_energy", energyfn, assets, prefabs),
+Prefab("sap_moondevice_stage1", fn, assets),
+Prefab("sap_moondevice_stage2", fn2, assets),
+Prefab("sap_moondevice_stage3", fn3, assets),
+MakePlacer("sap_moondevice_stage1_placer", "moon_device_stages", "moon_device", "stage1_idle", true),
+MakePlacer("sap_moondevice_stage2_placer", "moon_device_stages", "moon_device", "stage1_idle", true),
+MakePlacer("sap_moondevice_stage3_placer", "moon_device_stages", "moon_device", "stage1_idle", true)

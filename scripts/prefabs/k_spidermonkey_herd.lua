@@ -1,6 +1,6 @@
 local prefabs =
 {
-    "kyno_spidermonkey",
+    "sap_spidermonkey",
 }
 
 local function CanSpawn(inst)
@@ -34,7 +34,7 @@ local function fn()
 
     inst:AddComponent("periodicspawner")
     inst.components.periodicspawner:SetRandomTimes(480, 0.5*480)
-    inst.components.periodicspawner:SetPrefab("kyno_spidermonkey")
+    inst.components.periodicspawner:SetPrefab("sap_spidermonkey")
     inst.components.periodicspawner:SetOnSpawnFn(OnSpawned)
     inst.components.periodicspawner:SetSpawnTestFn(CanSpawn)
     inst.components.periodicspawner:SetOnlySpawnOffscreen(true)
@@ -43,4 +43,4 @@ local function fn()
     return inst
 end
 
-return Prefab("kyno_spidermonkey_herd", fn, nil, prefabs)
+return Prefab("sap_spidermonkey_herd", fn, nil, prefabs)

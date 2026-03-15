@@ -450,4 +450,4 @@ tree("tubertreebloom_tall", "normal", 3),
 tree("tubertreebloom_short", "normal", 1),
 tree("tubertreebloom_burnt", "normal", 0, "burnt"),
 tree("tubertreebloom_stump", "normal", 0, "stump"),
-MakePlacer("kyno_tubertreebloom_short_placer", "tubertree", "tuber_bloom_build", "idle_short")
+MakePlacer("sap_tubertreebloom_short_placer", "tubertree", "tuber_bloom_build", "idle_short")

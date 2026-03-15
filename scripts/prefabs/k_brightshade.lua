@@ -43,7 +43,7 @@ end
 local function back_onentityreplicated(inst)
 	local parent = inst.entity:GetParent()
 	
-	if parent ~= nil and parent.prefab == "kyno_brightshade" then
+	if parent ~= nil and parent.prefab == "sap_brightshade" then
 		table.insert(parent.highlightchildren, inst)
 	end
 end
@@ -86,7 +86,7 @@ local function backfn()
 end
 
 local function spawnback(inst)
-    local back = SpawnPrefab("kyno_brightshade_back")
+    local back = SpawnPrefab("sap_brightshade_back")
 	
     back.AnimState:SetFinalOffset(-1)
     inst.back = back
@@ -238,6 +238,6 @@ local function fn()
     return inst
 end
 
-return Prefab("kyno_brightshade_back", backfn, assets, prefabs),
-Prefab("kyno_brightshade", fn, assets, prefabs),
-MakePlacer("kyno_brightshade", "lunarthrall_plant", "lunarthrall_plant_front", "idle_med")
+return Prefab("sap_brightshade_back", backfn, assets, prefabs),
+Prefab("sap_brightshade", fn, assets, prefabs),
+MakePlacer("sap_brightshade", "lunarthrall_plant", "lunarthrall_plant_front", "idle_med")

@@ -15,7 +15,7 @@ local prefabs =
 	"statue_transition_2"
 }
 
-SetSharedLootTable("kyno_bluegem",
+SetSharedLootTable("sap_bluegem",
 {
     {"thulecite",     1.00},
     {"thulecite",     1.00},
@@ -23,7 +23,7 @@ SetSharedLootTable("kyno_bluegem",
 	{"nightmarefuel", 1.00},
 })
 
-SetSharedLootTable("kyno_redgem",
+SetSharedLootTable("sap_redgem",
 {
     {"thulecite",     1.00},
     {"thulecite",     1.00},
@@ -31,14 +31,14 @@ SetSharedLootTable("kyno_redgem",
 	{"nightmarefuel", 1.00},
 })
 
-SetSharedLootTable("kyno_purplegem",
+SetSharedLootTable("sap_purplegem",
 {
     {"thulecite",     1.00},
     {"thulecite",     1.00},
 	{"purplegem",	  1.00},
 })
 
-SetSharedLootTable("kyno_orangegem",
+SetSharedLootTable("sap_orangegem",
 {
     {"thulecite",     1.00},
     {"thulecite",     1.00},
@@ -46,7 +46,7 @@ SetSharedLootTable("kyno_orangegem",
 	{"nightmarefuel", 1.00},
 })
 
-SetSharedLootTable("kyno_yellowgem",
+SetSharedLootTable("sap_yellowgem",
 {
     {"thulecite",     1.00},
     {"thulecite",     1.00},
@@ -54,7 +54,7 @@ SetSharedLootTable("kyno_yellowgem",
 	{"nightmarefuel", 1.00},
 })
 
-SetSharedLootTable("kyno_greengem",
+SetSharedLootTable("sap_greengem",
 {
     {"thulecite",     1.00},
     {"thulecite",     1.00},
@@ -709,5 +709,5 @@ local function nogemtest(inst)
 	inst.AnimState:SetScale(.75, .81, .75)
 end
 
-return Prefab("kyno_lsr_small_nogem", nogemfn, assets, prefabs),
-MakePlacer("kyno_lsr_small_nogem_placer", "lsr_small", "legacy_statue_ruins_small", "idle_full")
+return Prefab("sap_lsr_small_nogem", nogemfn, assets, prefabs),
+MakePlacer("sap_lsr_small_nogem_placer", "lsr_small", "legacy_statue_ruins_small", "idle_full")

@@ -145,56 +145,56 @@ local function vase3b()
 	return fn("idle_vase3b", false, nil, true)
 end
 
-return Prefab("kyno_vault_statue_ancient1", ancient1, assets),
-MakePlacer("kyno_vault_statue_ancient1_placer", "statue_vault", "statue_vault", "idle_ancient1"),
+return Prefab("sap_vault_statue_ancient1", ancient1, assets),
+MakePlacer("sap_vault_statue_ancient1_placer", "statue_vault", "statue_vault", "idle_ancient1"),
 
-Prefab("kyno_vault_statue_ancient2", ancient2, assets),
-MakePlacer("kyno_vault_statue_ancient2_placer", "statue_vault", "statue_vault", "idle_ancient2"),
+Prefab("sap_vault_statue_ancient2", ancient2, assets),
+MakePlacer("sap_vault_statue_ancient2_placer", "statue_vault", "statue_vault", "idle_ancient2"),
 
-Prefab("kyno_vault_statue_ancient3", ancient3, assets),
-MakePlacer("kyno_vault_statue_ancient3_placer", "statue_vault", "statue_vault", "idle_ancient3"),
+Prefab("sap_vault_statue_ancient3", ancient3, assets),
+MakePlacer("sap_vault_statue_ancient3_placer", "statue_vault", "statue_vault", "idle_ancient3"),
 
-Prefab("kyno_vault_statue_ancient4", ancient4, assets),
-MakePlacer("kyno_vault_statue_ancient4_placer", "statue_vault", "statue_vault", "idle_ancient4"),
+Prefab("sap_vault_statue_ancient4", ancient4, assets),
+MakePlacer("sap_vault_statue_ancient4_placer", "statue_vault", "statue_vault", "idle_ancient4"),
 
-Prefab("kyno_vault_statue_bug1", bug1, assets),
-MakePlacer("kyno_vault_statue_bug1_placer", "statue_vault", "statue_vault", "idle_bug1"),
+Prefab("sap_vault_statue_bug1", bug1, assets),
+MakePlacer("sap_vault_statue_bug1_placer", "statue_vault", "statue_vault", "idle_bug1"),
 
-Prefab("kyno_vault_statue_bug2", bug2, assets),
-MakePlacer("kyno_vault_statue_bug2_placer", "statue_vault", "statue_vault", "idle_bug2"),
+Prefab("sap_vault_statue_bug2", bug2, assets),
+MakePlacer("sap_vault_statue_bug2_placer", "statue_vault", "statue_vault", "idle_bug2"),
 
-Prefab("kyno_vault_statue_bug3", bug3, assets),
-MakePlacer("kyno_vault_statue_bug3_placer", "statue_vault", "statue_vault", "idle_bug3"),
+Prefab("sap_vault_statue_bug3", bug3, assets),
+MakePlacer("sap_vault_statue_bug3_placer", "statue_vault", "statue_vault", "idle_bug3"),
 
-Prefab("kyno_vault_statue_gate", gate, assets),
-MakePlacer("kyno_vault_statue_gate_placer", "statue_vault", "statue_vault", "idle_gate"),
+Prefab("sap_vault_statue_gate", gate, assets),
+MakePlacer("sap_vault_statue_gate_placer", "statue_vault", "statue_vault", "idle_gate"),
 
-Prefab("kyno_vault_statue_guard1", guard1, assets),
-MakePlacer("kyno_vault_statue_guard1_placer", "statue_vault", "statue_vault", "idle_guard1"),
+Prefab("sap_vault_statue_guard1", guard1, assets),
+MakePlacer("sap_vault_statue_guard1_placer", "statue_vault", "statue_vault", "idle_guard1"),
 
-Prefab("kyno_vault_statue_guard2", guard2, assets),
-MakePlacer("kyno_vault_statue_guard2_placer", "statue_vault", "statue_vault", "idle_guard2"),
+Prefab("sap_vault_statue_guard2", guard2, assets),
+MakePlacer("sap_vault_statue_guard2_placer", "statue_vault", "statue_vault", "idle_guard2"),
 
-Prefab("kyno_vault_statue_guard3", guard3, assets),
-MakePlacer("kyno_vault_statue_guard3_placer", "statue_vault", "statue_vault", "idle_guard3"),
+Prefab("sap_vault_statue_guard3", guard3, assets),
+MakePlacer("sap_vault_statue_guard3_placer", "statue_vault", "statue_vault", "idle_guard3"),
 
-Prefab("kyno_vault_statue_king", king, assets),
-MakePlacer("kyno_vault_statue_king_placer", "statue_vault", "statue_vault", "idle_king"),
+Prefab("sap_vault_statue_king", king, assets),
+MakePlacer("sap_vault_statue_king_placer", "statue_vault", "statue_vault", "idle_king"),
 
-Prefab("kyno_vault_statue_vase1", vase1, assets),
-MakePlacer("kyno_vault_statue_vase1_placer", "statue_vault", "statue_vault", "idle_vase1"),
+Prefab("sap_vault_statue_vase1", vase1, assets),
+MakePlacer("sap_vault_statue_vase1_placer", "statue_vault", "statue_vault", "idle_vase1"),
 
-Prefab("kyno_vault_statue_vase1b", vase1b, assets),
-MakePlacer("kyno_vault_statue_vase1b_placer", "statue_vault", "statue_vault", "idle_vase1b"),
+Prefab("sap_vault_statue_vase1b", vase1b, assets),
+MakePlacer("sap_vault_statue_vase1b_placer", "statue_vault", "statue_vault", "idle_vase1b"),
 
-Prefab("kyno_vault_statue_vase2", vase2, assets),
-MakePlacer("kyno_vault_statue_vase2_placer", "statue_vault", "statue_vault", "idle_vase2"),
+Prefab("sap_vault_statue_vase2", vase2, assets),
+MakePlacer("sap_vault_statue_vase2_placer", "statue_vault", "statue_vault", "idle_vase2"),
 
-Prefab("kyno_vault_statue_vase2b", vase2b, assets),
-MakePlacer("kyno_vault_statue_vase2b_placer", "statue_vault", "statue_vault", "idle_vase2b"),
+Prefab("sap_vault_statue_vase2b", vase2b, assets),
+MakePlacer("sap_vault_statue_vase2b_placer", "statue_vault", "statue_vault", "idle_vase2b"),
 
-Prefab("kyno_vault_statue_vase3", vase3, assets),
-MakePlacer("kyno_vault_statue_vase3_placer", "statue_vault", "statue_vault", "idle_vase3"),
+Prefab("sap_vault_statue_vase3", vase3, assets),
+MakePlacer("sap_vault_statue_vase3_placer", "statue_vault", "statue_vault", "idle_vase3"),
 
-Prefab("kyno_vault_statue_vase3b", vase3b, assets),
-MakePlacer("kyno_vault_statue_vase3b_placer", "statue_vault", "statue_vault", "idle_vase3b")
+Prefab("sap_vault_statue_vase3b", vase3b, assets),
+MakePlacer("sap_vault_statue_vase3b_placer", "statue_vault", "statue_vault", "idle_vase3b")

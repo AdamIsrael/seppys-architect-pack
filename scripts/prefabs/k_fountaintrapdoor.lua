@@ -131,5 +131,5 @@ local function fn()
 	return inst
 end
 
-return Prefab("kyno_trapdoor", fn, assets, prefabs),
-MakePlacer("kyno_trapdoor_placer", "python_trap_door", "python_trap_door", "closed")
+return Prefab("sap_trapdoor", fn, assets, prefabs),
+MakePlacer("sap_trapdoor_placer", "python_trap_door", "python_trap_door", "closed")

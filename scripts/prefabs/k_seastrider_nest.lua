@@ -318,7 +318,7 @@ local function fn()
     return inst
 end
 
-return Prefab("kyno_seastrider_nest", fn, assets, prefabs),
-Prefab("kyno_seastrider_nest_water", fn, assets, prefabs),
-MakePlacer("kyno_seastrider_nest_placer", "ocean_cocoon", "oceanvine_cocoon", "idle"),
-MakePlacer("kyno_seastrider_nest_water_placer", "ocean_cocoon", "oceanvine_cocoon", "idle")
+return Prefab("sap_seastrider_nest", fn, assets, prefabs),
+Prefab("sap_seastrider_nest_water", fn, assets, prefabs),
+MakePlacer("sap_seastrider_nest_placer", "ocean_cocoon", "oceanvine_cocoon", "idle"),
+MakePlacer("sap_seastrider_nest_water_placer", "ocean_cocoon", "oceanvine_cocoon", "idle")

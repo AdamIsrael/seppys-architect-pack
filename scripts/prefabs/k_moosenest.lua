@@ -149,7 +149,7 @@ local function eggplacetestfn(inst)
 	inst.AnimState:SetScale(1.33, 1.33, 1.33)
 end
 
-return Prefab("kyno_goosenest", fn, assets, prefabs),
-Prefab("kyno_goosenestegg", eggfn, assets, prefabs),
-MakePlacer("kyno_goosenest_placer", "goosemoose_nest", "goosemoose_nest", "nest", false, nil, nil, nil, nil, nil, eggplacetestfn),
-MakePlacer("kyno_goosenestegg_placer", "goosemoose_nest", "goosemoose_nest", "idle", false, nil, nil, nil, nil, nil, eggplacetestfn)
+return Prefab("sap_goosenest", fn, assets, prefabs),
+Prefab("sap_goosenestegg", eggfn, assets, prefabs),
+MakePlacer("sap_goosenest_placer", "goosemoose_nest", "goosemoose_nest", "nest", false, nil, nil, nil, nil, nil, eggplacetestfn),
+MakePlacer("sap_goosenestegg_placer", "goosemoose_nest", "goosemoose_nest", "idle", false, nil, nil, nil, nil, nil, eggplacetestfn)

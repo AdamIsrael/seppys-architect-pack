@@ -86,5 +86,5 @@ local function fn()
 	return inst
 end
 
-return Prefab("kyno_treeclump", fn, assets, prefabs),
-MakePlacer("kyno_treeclump_placer", "kyno_treeclump", "kyno_treeclump", "idle")
+return Prefab("sap_treeclump", fn, assets, prefabs),
+MakePlacer("sap_treeclump_placer", "kyno_treeclump", "kyno_treeclump", "idle")

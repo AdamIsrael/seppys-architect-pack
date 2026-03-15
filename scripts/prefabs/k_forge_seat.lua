@@ -58,5 +58,5 @@ local function fn()
 	return inst
 end
 
-return Prefab("kyno_forge_seat", fn, assets, prefabs),
-MakePlacer("kyno_forge_seat_placer", "lavaarena_seat", "lavaarena_seat", "idle", true)
+return Prefab("sap_forge_seat", fn, assets, prefabs),
+MakePlacer("sap_forge_seat_placer", "lavaarena_seat", "lavaarena_seat", "idle", true)

@@ -322,4 +322,4 @@ local function moonspiderden_fn()
     return inst
 end
 
-return Prefab("kyno_moonspiderden", moonspiderden_fn, assets, prefabs)
+return Prefab("sap_moonspiderden", moonspiderden_fn, assets, prefabs)

@@ -19,7 +19,7 @@ local assets =
 }
 
 local prefabs = {
-	"kyno_telipad_beacon",
+	"sap_telipad_beacon",
 }
 
 local function onhammered(inst, worker)
@@ -118,7 +118,7 @@ local function fn()
 		inst.decor = {}
 		for item_name, data in pairs(decor_items) do
 			for l, offset in pairs(data) do
-				local item_inst = SpawnPrefab("kyno_telipad_beacon")
+				local item_inst = SpawnPrefab("sap_telipad_beacon")
 				item_inst.AnimState:PlayAnimation("place")
 				item_inst.AnimState:PushAnimation("off")
 				item_inst.SoundEmitter:PlaySound("dontstarve_wagstaff/characters/wagstaff/telepad_2")
@@ -178,6 +178,6 @@ local function beaconfn()
 	return inst
 end
 
-return Prefab("kyno_telipad", fn, assets, prefabs),
-Prefab("kyno_telipad_beacon", beaconfn, assets, prefabs),
-MakePlacer("kyno_telipad_placer", "teleport_pad", "teleport_pad", "idle", true)
+return Prefab("sap_telipad", fn, assets, prefabs),
+Prefab("sap_telipad_beacon", beaconfn, assets, prefabs),
+MakePlacer("sap_telipad_placer", "teleport_pad", "teleport_pad", "idle", true)

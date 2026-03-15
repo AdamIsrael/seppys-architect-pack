@@ -367,7 +367,7 @@ local function darkfn()
 	return inst
 end
 
-return Prefab("kyno_sporecap", regularfn, assets, prefabs),
-Prefab("kyno_sporecap_dark", darkfn, assets, prefabs),
-MakePlacer("kyno_sporecap_placer", "mushroomsprout", "mushroomsprout_upg_build", "sway1_loop"),
-MakePlacer("kyno_sporecap_dark_placer", "mushroomsprout", "mushroomsprout_dark_upg_build", "sway1_loop")
+return Prefab("sap_sporecap", regularfn, assets, prefabs),
+Prefab("sap_sporecap_dark", darkfn, assets, prefabs),
+MakePlacer("sap_sporecap_placer", "mushroomsprout", "mushroomsprout_upg_build", "sway1_loop"),
+MakePlacer("sap_sporecap_dark_placer", "mushroomsprout", "mushroomsprout_dark_upg_build", "sway1_loop")

@@ -105,5 +105,5 @@ local function fn()
     return inst
 end
 
-return Prefab("kyno_magmafield", fn, assets, prefabs),
-MakePlacer("kyno_magmafield_placer", "deer_fire_circle", "deer_fire_circle", "loop", true)
+return Prefab("sap_magmafield", fn, assets, prefabs),
+MakePlacer("sap_magmafield_placer", "deer_fire_circle", "deer_fire_circle", "loop", true)

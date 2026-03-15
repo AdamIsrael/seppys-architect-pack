@@ -91,5 +91,5 @@ local function fn()
     return inst
 end
 
-return Prefab("kyno_reeds", fn, assets, prefabs),
-MakePlacer("kyno_reeds_placer", "grass", "reeds", "idle")
+return Prefab("sap_reeds", fn, assets, prefabs),
+MakePlacer("sap_reeds_placer", "grass", "reeds", "idle")

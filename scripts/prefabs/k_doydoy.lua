@@ -32,7 +32,7 @@ local prefabs =
 {
 	"goose_feather",
 	"drumstick",
-	"kyno_doydoy_mate_fx",
+	"sap_doydoy_mate_fx",
 }
 
 local brain = require("brains/doydoybrain")
@@ -88,7 +88,7 @@ local function SetBaby(inst)
 	inst.components.lootdropper:SetLoot(babyloot)
 	-- inst.components.eater.foodprefs = babyfoodprefs
 
-	inst.components.inventoryitem:ChangeImageName("kyno_doydoy_baby")
+	inst.components.inventoryitem:ChangeImageName("sap_doydoy_baby")
 end
 
 local function SetTeen(inst)
@@ -110,7 +110,7 @@ local function SetTeen(inst)
 	inst.components.lootdropper:SetLoot(teenloot)
 	-- inst.components.eater.foodprefs = teenfoodprefs
 
-	inst.components.inventoryitem:ChangeImageName("kyno_doydoy_teen")
+	inst.components.inventoryitem:ChangeImageName("sap_doydoy_teen")
 	inst.components.named:SetName("Teen Doydoy")
 end
 
@@ -142,7 +142,7 @@ end
 local function OnGrowUp(inst)
 	if not inst:IsValid() then return end
 	
-	local grown = SpawnPrefab("kyno_doydoy")
+	local grown = SpawnPrefab("sap_doydoy")
 
 	local owner = inst.components.inventoryitem ~= nil and inst.components.inventoryitem.owner or nil
 	local holder = owner ~= nil and (owner.components.inventory or owner.components.container) or nil
@@ -167,7 +167,7 @@ local function OnEntityWake(inst)
 end
 
 local function CanEatFn(inst, food)
-	return food.prefab ~= "kyno_doydoyegg" and food.prefab ~= "kyno_doydoyegg_cooked"
+	return food.prefab ~= "sap_doydoyegg" and food.prefab ~= "sap_doydoyegg_cooked"
 end
 
 local function OnInventory(inst)
@@ -272,7 +272,7 @@ local function babyfn()
 	
 	inst:AddComponent("inventoryitem")
 	inst.components.inventoryitem.atlasname = "images/inventoryimages/tap_inventoryimages.xml"
-	inst.components.inventoryitem:ChangeImageName("kyno_doydoy_baby")
+	inst.components.inventoryitem:ChangeImageName("sap_doydoy_baby")
 	inst.components.inventoryitem.nobounce = true
 	inst.components.inventoryitem.canbepickedup = false
 	inst.components.inventoryitem.longpickup = true
@@ -359,7 +359,7 @@ local function adultfn()
 	
 	inst:AddComponent("inventoryitem")
 	inst.components.inventoryitem.atlasname = "images/inventoryimages/tap_inventoryimages.xml"
-	inst.components.inventoryitem:ChangeImageName("kyno_doydoy")
+	inst.components.inventoryitem:ChangeImageName("sap_doydoy")
 	inst.components.inventoryitem.nobounce = true
 	inst.components.inventoryitem.canbepickedup = false
 	inst.components.inventoryitem.longpickup = true
@@ -377,5 +377,5 @@ local function adultfn()
 	return inst
 end
 
-return Prefab("kyno_doydoy_baby", babyfn, assets_baby, prefabs_baby),
-Prefab("kyno_doydoy", adultfn, assets, prefabs)
+return Prefab("sap_doydoy_baby", babyfn, assets_baby, prefabs_baby),
+Prefab("sap_doydoy", adultfn, assets, prefabs)

@@ -288,15 +288,15 @@ local function vasefn()
 	return inst
 end
 
-return Prefab("kyno_ruinsbowl", bowlfn, assets, prefabs),
-Prefab("kyno_ruinschair", chairfn, assets, prefabs),
-Prefab("kyno_ruinschipbowl", chipbowlfn, assets, prefabs),
-Prefab("kyno_ruinsplate", platefn, assets, prefabs),
-Prefab("kyno_ruinstable", tablefn, assets, prefabs),
-Prefab("kyno_ruinsvase", vasefn, assets, prefabs),
-MakePlacer("kyno_ruinsbowl_placer", "ruins_bowl", "ruins_bowl", "broken"),
-MakePlacer("kyno_ruinschair_placer", "ruins_chair", "ruins_chair", "broken"),
-MakePlacer("kyno_ruinschipbowl_placer", "ruins_chipbowl", "ruins_chipbowl", "broken"),
-MakePlacer("kyno_ruinsplate_placer", "ruins_plate", "ruins_plate", "broken"),
-MakePlacer("kyno_ruinstable_placer", "ruins_table", "ruins_table", "broken"),
-MakePlacer("kyno_ruinsvase_placer", "ruins_vase", "ruins_vase", "broken")
+return Prefab("sap_ruinsbowl", bowlfn, assets, prefabs),
+Prefab("sap_ruinschair", chairfn, assets, prefabs),
+Prefab("sap_ruinschipbowl", chipbowlfn, assets, prefabs),
+Prefab("sap_ruinsplate", platefn, assets, prefabs),
+Prefab("sap_ruinstable", tablefn, assets, prefabs),
+Prefab("sap_ruinsvase", vasefn, assets, prefabs),
+MakePlacer("sap_ruinsbowl_placer", "ruins_bowl", "ruins_bowl", "broken"),
+MakePlacer("sap_ruinschair_placer", "ruins_chair", "ruins_chair", "broken"),
+MakePlacer("sap_ruinschipbowl_placer", "ruins_chipbowl", "ruins_chipbowl", "broken"),
+MakePlacer("sap_ruinsplate_placer", "ruins_plate", "ruins_plate", "broken"),
+MakePlacer("sap_ruinstable_placer", "ruins_table", "ruins_table", "broken"),
+MakePlacer("sap_ruinsvase_placer", "ruins_vase", "ruins_vase", "broken")

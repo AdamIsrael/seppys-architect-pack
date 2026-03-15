@@ -74,5 +74,5 @@ local function fn()
 	return inst
 end
 
-return Prefab("kyno_sparkpool", fn, assets, prefabs),
-MakePlacer("kyno_sparkpool_placer", "gold_puddle", "gold_puddle", "big_idle", true, nil, nil, nil, 90, nil)
+return Prefab("sap_sparkpool", fn, assets, prefabs),
+MakePlacer("sap_sparkpool_placer", "gold_puddle", "gold_puddle", "big_idle", true, nil, nil, nil, 90, nil)

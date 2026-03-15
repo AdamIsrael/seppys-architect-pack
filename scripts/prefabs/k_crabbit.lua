@@ -67,7 +67,7 @@ local function BecomeCrabbit(inst)
     if inst.components.hauntable ~= nil then
         inst.components.hauntable.haunted = false
     end
-	inst.components.inventoryitem:ChangeImageName("kyno_crabbit")
+	inst.components.inventoryitem:ChangeImageName("sap_crabbit")
 end
 
 local function CalcSanityAura(inst, observer)
@@ -236,4 +236,4 @@ local function fn()
 	return inst
 end
 
-return Prefab("kyno_crabbit", fn, assets, prefabs)
+return Prefab("sap_crabbit", fn, assets, prefabs)

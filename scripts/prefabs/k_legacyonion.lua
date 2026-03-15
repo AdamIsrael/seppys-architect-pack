@@ -61,5 +61,5 @@ local function onionplacer(inst)
 	inst.AnimState:SetScale(.8, .8, .8)
 end
 
-return Prefab("kyno_legacyonion_planted", fn, assets),
-MakePlacer("kyno_legacyonion_planted_placer", "legacyonion", "legacyonion", "planted", false, nil, nil, nil, nil, nil, onionplacer)
+return Prefab("sap_legacyonion_planted", fn, assets),
+MakePlacer("sap_legacyonion_planted_placer", "legacyonion", "legacyonion", "planted", false, nil, nil, nil, nil, nil, onionplacer)

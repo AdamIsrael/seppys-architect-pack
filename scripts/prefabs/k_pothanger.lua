@@ -104,5 +104,5 @@ local function potplacetestfn(inst)
     inst.AnimState:Hide("goop_syrup")
 end
 
-return Prefab("kyno_pothanger", potfn, assets, prefabs),
-MakePlacer("kyno_pothanger_placer", "quagmire_pot_hanger", "quagmire_pot_hanger", "idle_loop", false, nil, nil, nil, nil, nil, potplacetestfn)
+return Prefab("sap_pothanger", potfn, assets, prefabs),
+MakePlacer("sap_pothanger_placer", "quagmire_pot_hanger", "quagmire_pot_hanger", "idle_loop", false, nil, nil, nil, nil, nil, potplacetestfn)

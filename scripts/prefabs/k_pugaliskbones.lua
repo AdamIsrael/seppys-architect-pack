@@ -67,5 +67,5 @@ local function corpseplacetestfn(inst)
 	inst.AnimState:SetScale(1.5, 1.5, 1.5)
 end
 
-return Prefab("kyno_pugaliskcorpse", fn, assets, prefabs),
-MakePlacer("kyno_pugaliskcorpse_placer", "giant_snake", "python_test", "death_idle", false, nil, nil, nil, nil, nil, corpseplacetestfn)
+return Prefab("sap_pugaliskcorpse", fn, assets, prefabs),
+MakePlacer("sap_pugaliskcorpse_placer", "giant_snake", "python_test", "death_idle", false, nil, nil, nil, nil, nil, corpseplacetestfn)

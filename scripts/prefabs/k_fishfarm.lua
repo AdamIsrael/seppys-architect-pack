@@ -17,11 +17,11 @@ local assets =
 local prefabs =
 {
     "pondfish",
-	"kyno_koi",
-	"kyno_neonfish",
-	"kyno_grouper",
-	"kyno_pierrotfish",
-	"kyno_tropicalfish",
+	"sap_koi",
+	"sap_neonfish",
+	"sap_grouper",
+	"sap_pierrotfish",
+	"sap_tropicalfish",
 }
 
 local FISH_BREED_TIME = 1920
@@ -97,16 +97,16 @@ end
 
 local function AddFishes(inst, isautumn, iswinter, isspring, issummer)
 	if TheWorld.state.isautumn then
-		inst.components.pickable:ChangeProduct("kyno_koi")
+		inst.components.pickable:ChangeProduct("sap_koi")
 	end
 	if TheWorld.state.iswinter then
-		inst.components.pickable:ChangeProduct("kyno_neonfish")
+		inst.components.pickable:ChangeProduct("sap_neonfish")
 	end
 	if TheWorld.state.isspring then
-		inst.components.pickable:ChangeProduct("kyno_pierrotfish")
+		inst.components.pickable:ChangeProduct("sap_pierrotfish")
 	end
 	if TheWorld.state.issummer then
-		inst.components.pickable:ChangeProduct("kyno_grouper")
+		inst.components.pickable:ChangeProduct("sap_grouper")
 	end
 	inst:DoTaskInTime(4, function() AddFishes(inst) end) -- Repeat this function to update the fishes.
 end
@@ -157,7 +157,7 @@ local function fn()
     inst.components.pickable.onregenfn = onregenfn
     inst.components.pickable.onpickedfn = onpickedfn
     inst.components.pickable.makeemptyfn = makeemptyfn
-	inst.components.pickable:SetUp("kyno_koi", FISH_BREED_TIME)
+	inst.components.pickable:SetUp("sap_koi", FISH_BREED_TIME)
 	
 	AddFishes(inst)
 	
@@ -173,5 +173,5 @@ local function fn()
     return inst
 end
 
-return Prefab("kyno_fishfarm", fn, assets, prefabs),
-MakePlacer("kyno_fishfarm_placer", "fish_farm", "fish_farm", "idle")
+return Prefab("sap_fishfarm", fn, assets, prefabs),
+MakePlacer("sap_fishfarm_placer", "fish_farm", "fish_farm", "idle")

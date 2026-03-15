@@ -140,5 +140,5 @@ local function fn()
     return inst
 end
 
-return Prefab("kyno_truesaltlick", fn, assets),
-MakePlacer("kyno_truesaltlick_placer", "kyno_salt_lick", "kyno_salt_lick", "idle1")
+return Prefab("sap_truesaltlick", fn, assets),
+MakePlacer("sap_truesaltlick_placer", "kyno_salt_lick", "kyno_salt_lick", "idle1")

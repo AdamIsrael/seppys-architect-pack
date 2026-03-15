@@ -15,7 +15,7 @@ local prefabs =
 	"statue_transition_2"
 }
 
-SetSharedLootTable("kyno_bluegem",
+SetSharedLootTable("sap_bluegem",
 {
     {"thulecite",     1.00},
     {"thulecite",     1.00},
@@ -23,7 +23,7 @@ SetSharedLootTable("kyno_bluegem",
 	{"nightmarefuel", 1.00},
 })
 
-SetSharedLootTable("kyno_redgem",
+SetSharedLootTable("sap_redgem",
 {
     {"thulecite",     1.00},
     {"thulecite",     1.00},
@@ -31,14 +31,14 @@ SetSharedLootTable("kyno_redgem",
 	{"nightmarefuel", 1.00},
 })
 
-SetSharedLootTable("kyno_purplegem",
+SetSharedLootTable("sap_purplegem",
 {
     {"thulecite",     1.00},
     {"thulecite",     1.00},
 	{"purplegem",	  1.00},
 })
 
-SetSharedLootTable("kyno_orangegem",
+SetSharedLootTable("sap_orangegem",
 {
     {"thulecite",     1.00},
     {"thulecite",     1.00},
@@ -46,7 +46,7 @@ SetSharedLootTable("kyno_orangegem",
 	{"nightmarefuel", 1.00},
 })
 
-SetSharedLootTable("kyno_yellowgem",
+SetSharedLootTable("sap_yellowgem",
 {
     {"thulecite",     1.00},
     {"thulecite",     1.00},
@@ -54,7 +54,7 @@ SetSharedLootTable("kyno_yellowgem",
 	{"nightmarefuel", 1.00},
 })
 
-SetSharedLootTable("kyno_greengem",
+SetSharedLootTable("sap_greengem",
 {
     {"thulecite",     1.00},
     {"thulecite",     1.00},
@@ -711,17 +711,17 @@ local function nogemtest(inst)
 	inst.AnimState:SetScale(.75, .81, .75)
 end
 
-return Prefab("kyno_lsr_bluegem", bluefn, assets, prefabs),
-Prefab("kyno_lsr_redgem", redfn, assets, prefabs),
-Prefab("kyno_lsr_purplegem", purplefn, assets, prefabs),
-Prefab("kyno_lsr_orangegem", orangefn, assets, prefabs),
-Prefab("kyno_lsr_yellowgem", yellowfn, assets, prefabs),
-Prefab("kyno_lsr_greengem", greenfn, assets, prefabs),
-Prefab("kyno_lsr_nogem", nogemfn, assets, prefabs),
-MakePlacer("kyno_lsr_bluegem_placer", "lsr", "legacy_statue_ruins", "idle_full", false, nil, nil, nil, nil, nil, bluegemtest),
-MakePlacer("kyno_lsr_redgem_placer", "lsr", "legacy_statue_ruins", "idle_full", false, nil, nil, nil, nil, nil, redgemtest),
-MakePlacer("kyno_lsr_purplegem_placer", "lsr", "legacy_statue_ruins", "idle_full", false, nil, nil, nil, nil, nil, purplegemtest),
-MakePlacer("kyno_lsr_orangegem_placer", "lsr", "legacy_statue_ruins", "idle_full", false, nil, nil, nil, nil, nil, orangegemtest),
-MakePlacer("kyno_lsr_yellowgem_placer", "lsr", "legacy_statue_ruins", "idle_full", false, nil, nil, nil, nil, nil, yellowgemtest),
-MakePlacer("kyno_lsr_greengem_placer", "lsr", "legacy_statue_ruins", "idle_full", false, nil, nil, nil, nil, nil, greengemtest),
-MakePlacer("kyno_lsr_nogem_placer", "lsr", "legacy_statue_ruins", "idle_full", false, nil, nil, nil, nil, nil, nogemtest)
+return Prefab("sap_lsr_bluegem", bluefn, assets, prefabs),
+Prefab("sap_lsr_redgem", redfn, assets, prefabs),
+Prefab("sap_lsr_purplegem", purplefn, assets, prefabs),
+Prefab("sap_lsr_orangegem", orangefn, assets, prefabs),
+Prefab("sap_lsr_yellowgem", yellowfn, assets, prefabs),
+Prefab("sap_lsr_greengem", greenfn, assets, prefabs),
+Prefab("sap_lsr_nogem", nogemfn, assets, prefabs),
+MakePlacer("sap_lsr_bluegem_placer", "lsr", "legacy_statue_ruins", "idle_full", false, nil, nil, nil, nil, nil, bluegemtest),
+MakePlacer("sap_lsr_redgem_placer", "lsr", "legacy_statue_ruins", "idle_full", false, nil, nil, nil, nil, nil, redgemtest),
+MakePlacer("sap_lsr_purplegem_placer", "lsr", "legacy_statue_ruins", "idle_full", false, nil, nil, nil, nil, nil, purplegemtest),
+MakePlacer("sap_lsr_orangegem_placer", "lsr", "legacy_statue_ruins", "idle_full", false, nil, nil, nil, nil, nil, orangegemtest),
+MakePlacer("sap_lsr_yellowgem_placer", "lsr", "legacy_statue_ruins", "idle_full", false, nil, nil, nil, nil, nil, yellowgemtest),
+MakePlacer("sap_lsr_greengem_placer", "lsr", "legacy_statue_ruins", "idle_full", false, nil, nil, nil, nil, nil, greengemtest),
+MakePlacer("sap_lsr_nogem_placer", "lsr", "legacy_statue_ruins", "idle_full", false, nil, nil, nil, nil, nil, nogemtest)

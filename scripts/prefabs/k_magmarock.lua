@@ -22,10 +22,10 @@ local assets_magma_gold =
 
 local prefabs = 
 {
-	"kyno_magmarock_med",
-	"kyno_magmarock_low",
-	"kyno_magmarock_gold_med",
-	"kyno_magmarock_gold_low",
+	"sap_magmarock_med",
+	"sap_magmarock_low",
+	"sap_magmarock_gold_med",
+	"sap_magmarock_gold_low",
 }
 
 --[[
@@ -86,12 +86,12 @@ end
 ]]--
 local function dig_up_magma_full(inst, worker, workleft)
 	inst:Remove()
-	SpawnPrefab("kyno_magmarock_med").Transform:SetPosition(inst.Transform:GetWorldPosition())
+	SpawnPrefab("sap_magmarock_med").Transform:SetPosition(inst.Transform:GetWorldPosition())
 end
 
 local function dig_up_magma_med(inst, worker, workleft)
 	inst:Remove()
-	SpawnPrefab("kyno_magmarock_low").Transform:SetPosition(inst.Transform:GetWorldPosition())
+	SpawnPrefab("sap_magmarock_low").Transform:SetPosition(inst.Transform:GetWorldPosition())
 end
 
 local function dig_up_magma_low(inst, worker, workleft)
@@ -104,12 +104,12 @@ end
 
 local function dig_up_magma_gold_full(inst, worker, workleft)
 	inst:Remove()
-	SpawnPrefab("kyno_magmarock_gold_med").Transform:SetPosition(inst.Transform:GetWorldPosition())
+	SpawnPrefab("sap_magmarock_gold_med").Transform:SetPosition(inst.Transform:GetWorldPosition())
 end
 
 local function dig_up_magma_gold_med(inst, worker, workleft)
 	inst:Remove()
-	SpawnPrefab("kyno_magmarock_gold_low").Transform:SetPosition(inst.Transform:GetWorldPosition())
+	SpawnPrefab("sap_magmarock_gold_low").Transform:SetPosition(inst.Transform:GetWorldPosition())
 end
 
 local function dig_up_magma_gold_low(inst, worker, workleft)
@@ -306,11 +306,11 @@ local function MagmaLowFn()
 	return inst
 end
 	
-return Prefab("kyno_magmarock_gold", MagmaGoldFn, assets_magma_gold, prefabs),
-Prefab("kyno_magmarock_gold_med", MagmaGoldMedFn, assets_magma_gold, prefabs),
-Prefab("kyno_magmarock_gold_low", MagmaGoldLowFn, assets_magma_gold, prefabs),
-Prefab("kyno_magmarock", MagmaFn, assets_magma, prefabs),
-Prefab("kyno_magmarock_med", MagmaMedFn, assets_magma, prefabs),
-Prefab("kyno_magmarock_low", MagmaLowFn, assets_magma, prefabs),
-MakePlacer("kyno_magmarock_gold_placer", "rock_magma_gold", "rock_magma_gold", "full"),
-MakePlacer("kyno_magmarock_placer", "rock_magma", "rock_magma", "full")
+return Prefab("sap_magmarock_gold", MagmaGoldFn, assets_magma_gold, prefabs),
+Prefab("sap_magmarock_gold_med", MagmaGoldMedFn, assets_magma_gold, prefabs),
+Prefab("sap_magmarock_gold_low", MagmaGoldLowFn, assets_magma_gold, prefabs),
+Prefab("sap_magmarock", MagmaFn, assets_magma, prefabs),
+Prefab("sap_magmarock_med", MagmaMedFn, assets_magma, prefabs),
+Prefab("sap_magmarock_low", MagmaLowFn, assets_magma, prefabs),
+MakePlacer("sap_magmarock_gold_placer", "rock_magma_gold", "rock_magma_gold", "full"),
+MakePlacer("sap_magmarock_placer", "rock_magma", "rock_magma", "full")

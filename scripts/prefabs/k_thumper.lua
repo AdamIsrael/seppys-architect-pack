@@ -196,5 +196,5 @@ local function thumperplacerfn(inst)
     inst.components.placer:LinkEntity(placer2)
 end
 
-return Prefab("kyno_thumper", fn, assets, prefabs),
-MakePlacer("kyno_thumper_placer", "firefighter_placement", "firefighter_placement", "idle", true, nil, nil, PS, nil, nil, thumperplacerfn)
+return Prefab("sap_thumper", fn, assets, prefabs),
+MakePlacer("sap_thumper_placer", "firefighter_placement", "firefighter_placement", "idle", true, nil, nil, PS, nil, nil, thumperplacerfn)

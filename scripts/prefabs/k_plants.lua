@@ -30,7 +30,7 @@ local function fn1()
 	inst.AnimState:PlayAnimation("idle", true)
 	inst.AnimState:SetRayTestOnBB(true)
 		
-	inst:AddTag("kyno_plant")
+	inst:AddTag("sap_plant")
 	inst:AddTag("structure")
 	
 	inst:SetPrefabNameOverride("marsh_plant")
@@ -73,7 +73,7 @@ local function fn2()
 	inst.AnimState:PlayAnimation("idle", true)
 	inst.AnimState:SetRayTestOnBB(true)
 		
-	inst:AddTag("kyno_plant")
+	inst:AddTag("sap_plant")
 	inst:AddTag("structure")
 	
 	inst:SetPrefabNameOverride("pond_algae")
@@ -103,7 +103,7 @@ local function fn2()
 	return inst
 end
 
-return Prefab("kyno_marsh_plant", fn1, assets, prefabs),
-Prefab("kyno_plant_algae", fn2, assets, prefabs),
-MakePlacer("kyno_marsh_plant_placer", "marsh_plant", "marsh_plant", "idle"),
-MakePlacer("kyno_plant_algae_placer", "pond_rock", "pond_plant_cave", "idle")
+return Prefab("sap_marsh_plant", fn1, assets, prefabs),
+Prefab("sap_plant_algae", fn2, assets, prefabs),
+MakePlacer("sap_marsh_plant_placer", "marsh_plant", "marsh_plant", "idle"),
+MakePlacer("sap_plant_algae_placer", "pond_rock", "pond_plant_cave", "idle")

@@ -81,5 +81,5 @@ local function fn()
 	return inst
 end
 
-return Prefab("kyno_rock_limpet", fn, assets, prefabs),
-MakePlacer("kyno_rock_limpet_placer", "limpetrock", "limpetrock", "limpetmost")
+return Prefab("sap_rock_limpet", fn, assets, prefabs),
+MakePlacer("sap_rock_limpet_placer", "limpetrock", "limpetrock", "limpetmost")

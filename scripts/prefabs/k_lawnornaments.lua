@@ -119,17 +119,17 @@ local function ornamentplacetestfn(inst)
     return true
 end
 
-return makeitem("kyno_lawnornament_1", "1"),
-makeitem("kyno_lawnornament_2", "2"),
-makeitem("kyno_lawnornament_3", "3"),
-makeitem("kyno_lawnornament_4", "4"),
-makeitem("kyno_lawnornament_5", "5"),
-makeitem("kyno_lawnornament_6", "6"),
-makeitem("kyno_lawnornament_7", "7"),
-MakePlacer("kyno_lawnornament_1_placer", "topiary", "topiary01_build", "idle", false, nil, nil, nil, nil, nil, ornamentplacetestfn),
-MakePlacer("kyno_lawnornament_2_placer", "topiary", "topiary02_build", "idle", false, nil, nil, nil, nil, nil, ornamentplacetestfn),
-MakePlacer("kyno_lawnornament_3_placer", "topiary", "topiary03_build", "idle", false, nil, nil, nil, nil, nil, ornamentplacetestfn),
-MakePlacer("kyno_lawnornament_4_placer", "topiary", "topiary04_build", "idle", false, nil, nil, nil, nil, nil, ornamentplacetestfn),
-MakePlacer("kyno_lawnornament_5_placer", "topiary", "topiary05_build", "idle", false, nil, nil, nil, nil, nil, ornamentplacetestfn),
-MakePlacer("kyno_lawnornament_6_placer", "topiary", "topiary06_build", "idle", false, nil, nil, nil, nil, nil, ornamentplacetestfn),
-MakePlacer("kyno_lawnornament_7_placer", "topiary", "topiary07_build", "idle", false, nil, nil, nil, nil, nil, ornamentplacetestfn)
+return makeitem("sap_lawnornament_1", "1"),
+makeitem("sap_lawnornament_2", "2"),
+makeitem("sap_lawnornament_3", "3"),
+makeitem("sap_lawnornament_4", "4"),
+makeitem("sap_lawnornament_5", "5"),
+makeitem("sap_lawnornament_6", "6"),
+makeitem("sap_lawnornament_7", "7"),
+MakePlacer("sap_lawnornament_1_placer", "topiary", "topiary01_build", "idle", false, nil, nil, nil, nil, nil, ornamentplacetestfn),
+MakePlacer("sap_lawnornament_2_placer", "topiary", "topiary02_build", "idle", false, nil, nil, nil, nil, nil, ornamentplacetestfn),
+MakePlacer("sap_lawnornament_3_placer", "topiary", "topiary03_build", "idle", false, nil, nil, nil, nil, nil, ornamentplacetestfn),
+MakePlacer("sap_lawnornament_4_placer", "topiary", "topiary04_build", "idle", false, nil, nil, nil, nil, nil, ornamentplacetestfn),
+MakePlacer("sap_lawnornament_5_placer", "topiary", "topiary05_build", "idle", false, nil, nil, nil, nil, nil, ornamentplacetestfn),
+MakePlacer("sap_lawnornament_6_placer", "topiary", "topiary06_build", "idle", false, nil, nil, nil, nil, nil, ornamentplacetestfn),
+MakePlacer("sap_lawnornament_7_placer", "topiary", "topiary07_build", "idle", false, nil, nil, nil, nil, nil, ornamentplacetestfn)

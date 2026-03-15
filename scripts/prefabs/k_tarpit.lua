@@ -81,5 +81,5 @@ local function fn()
 	return inst
 end
 
-return Prefab("kyno_tarpit", fn, assets, prefabs),
-MakePlacer("kyno_tarpit_placer", "tar_pit", "tar_pit", "idle")
+return Prefab("sap_tarpit", fn, assets, prefabs),
+MakePlacer("sap_tarpit_placer", "tar_pit", "tar_pit", "idle")

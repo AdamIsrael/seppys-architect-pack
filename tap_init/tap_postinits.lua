@@ -26,7 +26,7 @@ end
 
 local tap_spoilablenuts = 
 {
-	"kyno_coconut",
+	"sap_coconut",
 	"teatree_nut",
 }
 
@@ -50,34 +50,34 @@ local function HideYOTP(inst)
 	end
 end
 
-AddPrefabPostInit("kyno_pighouse_city", 		HideYOTP)
-AddPrefabPostInit("kyno_pighouse_city1", 		HideYOTP)
-AddPrefabPostInit("kyno_pighouse_city2", 		HideYOTP)
-AddPrefabPostInit("kyno_pighouse_city3", 		HideYOTP)
-AddPrefabPostInit("kyno_pighouse_city4", 		HideYOTP)
-AddPrefabPostInit("kyno_pighouse_city5", 		HideYOTP)
-AddPrefabPostInit("kyno_lamppost", 				HideYOTP)
-AddPrefabPostInit("kyno_pigtower", 				HideYOTP)
-AddPrefabPostInit("kyno_pigtower1", 			HideYOTP)
-AddPrefabPostInit("kyno_pigtower2", 			HideYOTP)
-AddPrefabPostInit("kyno_pigtower3", 			HideYOTP)
-AddPrefabPostInit("kyno_pigtower4", 			HideYOTP)
-AddPrefabPostInit("kyno_pigpalacetower", 		HideYOTP)
-AddPrefabPostInit("kyno_pigshop_mycityhall", 	HideYOTP)
-AddPrefabPostInit("kyno_pigshop_cityhall", 		HideYOTP)
-AddPrefabPostInit("kyno_pigshop_cityhall", 		HideYOTP)
-AddPrefabPostInit("kyno_pigshop_academy", 		HideYOTP)
-AddPrefabPostInit("kyno_pigshop_tinker", 		HideYOTP)
-AddPrefabPostInit("kyno_pigshop_bank", 			HideYOTP)
-AddPrefabPostInit("kyno_pigshop_hatshop", 		HideYOTP)
-AddPrefabPostInit("kyno_pigshop_weapons", 		HideYOTP)
-AddPrefabPostInit("kyno_pigshop_arcane", 		HideYOTP)
-AddPrefabPostInit("kyno_pigshop_antiquities", 	HideYOTP)
-AddPrefabPostInit("kyno_pigshop_produce", 		HideYOTP)
-AddPrefabPostInit("kyno_pigshop_deli", 			HideYOTP)
-AddPrefabPostInit("kyno_pigshop_general", 		HideYOTP)
-AddPrefabPostInit("kyno_pigshop_flower", 		HideYOTP)
-AddPrefabPostInit("kyno_pigshop_spa", 			HideYOTP)
+AddPrefabPostInit("sap_pighouse_city", 		HideYOTP)
+AddPrefabPostInit("sap_pighouse_city1", 		HideYOTP)
+AddPrefabPostInit("sap_pighouse_city2", 		HideYOTP)
+AddPrefabPostInit("sap_pighouse_city3", 		HideYOTP)
+AddPrefabPostInit("sap_pighouse_city4", 		HideYOTP)
+AddPrefabPostInit("sap_pighouse_city5", 		HideYOTP)
+AddPrefabPostInit("sap_lamppost", 				HideYOTP)
+AddPrefabPostInit("sap_pigtower", 				HideYOTP)
+AddPrefabPostInit("sap_pigtower1", 			HideYOTP)
+AddPrefabPostInit("sap_pigtower2", 			HideYOTP)
+AddPrefabPostInit("sap_pigtower3", 			HideYOTP)
+AddPrefabPostInit("sap_pigtower4", 			HideYOTP)
+AddPrefabPostInit("sap_pigpalacetower", 		HideYOTP)
+AddPrefabPostInit("sap_pigshop_mycityhall", 	HideYOTP)
+AddPrefabPostInit("sap_pigshop_cityhall", 		HideYOTP)
+AddPrefabPostInit("sap_pigshop_cityhall", 		HideYOTP)
+AddPrefabPostInit("sap_pigshop_academy", 		HideYOTP)
+AddPrefabPostInit("sap_pigshop_tinker", 		HideYOTP)
+AddPrefabPostInit("sap_pigshop_bank", 			HideYOTP)
+AddPrefabPostInit("sap_pigshop_hatshop", 		HideYOTP)
+AddPrefabPostInit("sap_pigshop_weapons", 		HideYOTP)
+AddPrefabPostInit("sap_pigshop_arcane", 		HideYOTP)
+AddPrefabPostInit("sap_pigshop_antiquities", 	HideYOTP)
+AddPrefabPostInit("sap_pigshop_produce", 		HideYOTP)
+AddPrefabPostInit("sap_pigshop_deli", 			HideYOTP)
+AddPrefabPostInit("sap_pigshop_general", 		HideYOTP)
+AddPrefabPostInit("sap_pigshop_flower", 		HideYOTP)
+AddPrefabPostInit("sap_pigshop_spa", 			HideYOTP)
 
 -- Infinite Light, with fuel change.
 local function new_DoDelta(self, amount)
@@ -114,7 +114,7 @@ local function InfiniteLight(inst)
 	end
 end
 
-AddPrefabPostInit("kyno_brazier", 	InfiniteLight)
+AddPrefabPostInit("sap_brazier", 	InfiniteLight)
 AddPrefabPostInit("nightlight", 	InfiniteLight)
 
 -- Speed for Turfs.
@@ -229,7 +229,7 @@ AddPrefabPostInit("dragonfly", function(inst)
 	end
 	
 	if _G.TheWorld.state.iswinter then
-		inst.components.lootdropper:AddChanceLoot("kyno_frozenfurnace_blueprint",     1.00)
+		inst.components.lootdropper:AddChanceLoot("sap_frozenfurnace_blueprint",     1.00)
 		inst.components.lootdropper:AddChanceLoot("saladfurnace_blueprint_blueprint", 0.01)
 	else
 		inst.components.lootdropper:AddChanceLoot("saladfurnace_blueprint_blueprint", 0.01)
@@ -269,7 +269,7 @@ AddPrefabPostInit("moose", function(inst)
 		return inst
 	end
 	
-	inst.components.lootdropper:AddChanceLoot("kyno_goosenestegg_blueprint", 0.10)
+	inst.components.lootdropper:AddChanceLoot("sap_goosenestegg_blueprint", 0.10)
 end)
 ]]--
 
@@ -279,7 +279,7 @@ AddPrefabPostInit("beequeen", function(inst)
 	end
 	
 	if inst.components.lootdropper and not _G.KnownModIndex:IsModEnabled("workshop-2334209327") then
-		inst.components.lootdropper:AddChanceLoot("kyno_antchest_blueprint", 1.00)
+		inst.components.lootdropper:AddChanceLoot("sap_antchest_blueprint", 1.00)
 	end
 end)
 
@@ -289,7 +289,7 @@ AddPrefabPostInit("leif", function(inst)
 		return inst
 	end
 	
-	inst.components.lootdropper:AddChanceLoot("kyno_treeclump_blueprint", 0.05)
+	inst.components.lootdropper:AddChanceLoot("sap_treeclump_blueprint", 0.05)
 end)
 
 AddPrefabPostInit("leif_sparse", function(inst)
@@ -297,7 +297,7 @@ AddPrefabPostInit("leif_sparse", function(inst)
 		return inst
 	end
 	
-	inst.components.lootdropper:AddChanceLoot("kyno_treeclump_blueprint", 0.05)
+	inst.components.lootdropper:AddChanceLoot("sap_treeclump_blueprint", 0.05)
 end)
 
 AddPrefabPostInit("livingtree", function(inst)
@@ -305,7 +305,7 @@ AddPrefabPostInit("livingtree", function(inst)
 		return inst
 	end
 	
-	inst.components.lootdropper:AddChanceLoot("kyno_truerootchest_blueprint", 0.25) 
+	inst.components.lootdropper:AddChanceLoot("sap_truerootchest_blueprint", 0.25) 
 end)
 
 AddPrefabPostInit("spiderqueen", function(inst)
@@ -337,7 +337,7 @@ AddPrefabPostInit("deerclops", function(inst)
 		return inst
 	end
 	
-	inst.components.lootdropper:AddChanceLoot("kyno_snowman_blueprint", 0.33)
+	inst.components.lootdropper:AddChanceLoot("sap_snowman_blueprint", 0.33)
 end)
 
 AddPrefabPostInit("lightninggoat", function(inst)
@@ -345,7 +345,7 @@ AddPrefabPostInit("lightninggoat", function(inst)
 		return inst
 	end
 	
-	inst.components.lootdropper:AddChanceLoot("kyno_lightninggoatrod_blueprint", 0.01)
+	inst.components.lootdropper:AddChanceLoot("sap_lightninggoatrod_blueprint", 0.01)
 end)
 
 AddPrefabPostInit("alterguardian_phase3dead", function(inst)
@@ -353,17 +353,17 @@ AddPrefabPostInit("alterguardian_phase3dead", function(inst)
 		return inst
 	end
 	
-	inst.components.lootdropper:AddChanceLoot("kyno_defeated_cc4_blueprint", 0.33)
+	inst.components.lootdropper:AddChanceLoot("sap_defeated_cc4_blueprint", 0.33)
 end)
 ]]--
 
-AddPrefabPostInit("kyno_sharkitten", function(inst)
+AddPrefabPostInit("sap_sharkitten", function(inst)
 	if not _G.TheWorld.ismastersim then
 		return inst
 	end
 	
 	if _G.KnownModIndex:IsModEnabled("workshop-2174681153") or _G.KnownModIndex:IsModEnabled("workshop-2334209327") then
-		inst.components.lootdropper:AddChanceLoot("kyno_shark_fin", 1.00)
+		inst.components.lootdropper:AddChanceLoot("sap_shark_fin", 1.00)
 	end
 end)
 
@@ -456,7 +456,7 @@ AddPrefabPostInit("armor_bramble", BrambleHuskPostinit)
 --[[
 local function ondeathnew(inst)
 	if math.random() < 0.1 then
-		_G.SpawnPrefab("kyno_wigfridge_blueprint").Transform:SetPosition(inst.Transform:GetWorldPosition())
+		_G.SpawnPrefab("sap_wigfridge_blueprint").Transform:SetPosition(inst.Transform:GetWorldPosition())
 	end
 	inst.battleborn = 0
 end
@@ -626,7 +626,7 @@ AddPrefabPostInit("turf_antcave", function(inst)
 end)
 
 -- Common strings for some structures.
-AddPrefabPostInit("kyno_rubble_bike", function(inst)
+AddPrefabPostInit("sap_rubble_bike", function(inst)
 	if not _G.TheWorld.ismastersim then
 		return inst
 	end
@@ -636,7 +636,7 @@ AddPrefabPostInit("kyno_rubble_bike", function(inst)
 	end 
 end)
 
-AddPrefabPostInit("kyno_rubble_carriage", function(inst)
+AddPrefabPostInit("sap_rubble_carriage", function(inst)
 	if not _G.TheWorld.ismastersim then
 		return inst
 	end	
@@ -646,7 +646,7 @@ AddPrefabPostInit("kyno_rubble_carriage", function(inst)
 	end 
 end)
 
-AddPrefabPostInit("kyno_rubble_clock", function(inst)	
+AddPrefabPostInit("sap_rubble_clock", function(inst)	
 	if not _G.TheWorld.ismastersim then
 		return inst
 	end
@@ -656,7 +656,7 @@ AddPrefabPostInit("kyno_rubble_clock", function(inst)
 	end 
 end)
 
-AddPrefabPostInit("kyno_rubble_cathedral", function(inst)
+AddPrefabPostInit("sap_rubble_cathedral", function(inst)
 	if not _G.TheWorld.ismastersim then
 		return inst
 	end
@@ -666,7 +666,7 @@ AddPrefabPostInit("kyno_rubble_cathedral", function(inst)
 	end 
 end)
 
-AddPrefabPostInit("kyno_rubble_pubdoor", function(inst)	
+AddPrefabPostInit("sap_rubble_pubdoor", function(inst)	
 	if not _G.TheWorld.ismastersim then
 		return inst
 	end
@@ -676,7 +676,7 @@ AddPrefabPostInit("kyno_rubble_pubdoor", function(inst)
 	end 
 end)
 
-AddPrefabPostInit("kyno_rubble_door", function(inst)
+AddPrefabPostInit("sap_rubble_door", function(inst)
 	if not _G.TheWorld.ismastersim then
 		return inst
 	end
@@ -686,7 +686,7 @@ AddPrefabPostInit("kyno_rubble_door", function(inst)
 	end 
 end)
 
-AddPrefabPostInit("kyno_rubble_roof", function(inst)	
+AddPrefabPostInit("sap_rubble_roof", function(inst)	
 	if not _G.TheWorld.ismastersim then
 		return inst
 	end
@@ -696,7 +696,7 @@ AddPrefabPostInit("kyno_rubble_roof", function(inst)
 	end 
 end)
 
-AddPrefabPostInit("kyno_rubble_clocktower", function(inst)
+AddPrefabPostInit("sap_rubble_clocktower", function(inst)
 	if not _G.TheWorld.ismastersim then
 		return inst
 	end
@@ -706,7 +706,7 @@ AddPrefabPostInit("kyno_rubble_clocktower", function(inst)
 	end 
 end)
 
-AddPrefabPostInit("kyno_rubble_house", function(inst)	
+AddPrefabPostInit("sap_rubble_house", function(inst)	
 	if not _G.TheWorld.ismastersim then
 		return inst
 	end
@@ -716,7 +716,7 @@ AddPrefabPostInit("kyno_rubble_house", function(inst)
 	end 
 end)
 
-AddPrefabPostInit("kyno_rubble_chimney", function(inst)
+AddPrefabPostInit("sap_rubble_chimney", function(inst)
 	if not _G.TheWorld.ismastersim then
 		return inst
 	end
@@ -726,7 +726,7 @@ AddPrefabPostInit("kyno_rubble_chimney", function(inst)
 	end 
 end)
 
-AddPrefabPostInit("kyno_rubble_chimney2", function(inst)	
+AddPrefabPostInit("sap_rubble_chimney2", function(inst)	
 	if not _G.TheWorld.ismastersim then
 		return inst
 	end
@@ -736,7 +736,7 @@ AddPrefabPostInit("kyno_rubble_chimney2", function(inst)
 	end 
 end)
 
-AddPrefabPostInit("kyno_carrot_planted", function(inst)	
+AddPrefabPostInit("sap_carrot_planted", function(inst)	
 	if not _G.TheWorld.ismastersim then
 		return inst
 	end
@@ -746,7 +746,7 @@ AddPrefabPostInit("kyno_carrot_planted", function(inst)
 	end 
 end)
 
-AddPrefabPostInit("kyno_potato_planted", function(inst)
+AddPrefabPostInit("sap_potato_planted", function(inst)
 	if not _G.TheWorld.ismastersim then
 		return inst
 	end
@@ -756,7 +756,7 @@ AddPrefabPostInit("kyno_potato_planted", function(inst)
 	end 
 end)
 
-AddPrefabPostInit("kyno_turnip_planted", function(inst)	
+AddPrefabPostInit("sap_turnip_planted", function(inst)	
 	if not _G.TheWorld.ismastersim then
 		return inst
 	end
@@ -766,7 +766,7 @@ AddPrefabPostInit("kyno_turnip_planted", function(inst)
 	end 
 end)
 
-AddPrefabPostInit("kyno_onion_planted", function(inst)	
+AddPrefabPostInit("sap_onion_planted", function(inst)	
 	if not _G.TheWorld.ismastersim then
 		return inst
 	end
@@ -776,7 +776,7 @@ AddPrefabPostInit("kyno_onion_planted", function(inst)
 	end 
 end)
 
-AddPrefabPostInit("kyno_wheat_planted", function(inst)
+AddPrefabPostInit("sap_wheat_planted", function(inst)
 	if not _G.TheWorld.ismastersim then
 		return inst
 	end
@@ -786,7 +786,7 @@ AddPrefabPostInit("kyno_wheat_planted", function(inst)
 	end 
 end)
 
-AddPrefabPostInit("kyno_garlic_planted", function(inst)
+AddPrefabPostInit("sap_garlic_planted", function(inst)
 	if not _G.TheWorld.ismastersim then
 		return inst
 	end
@@ -796,7 +796,7 @@ AddPrefabPostInit("kyno_garlic_planted", function(inst)
 	end 
 end)
 
-AddPrefabPostInit("kyno_tomato_planted", function(inst)
+AddPrefabPostInit("sap_tomato_planted", function(inst)
 	if not _G.TheWorld.ismastersim then
 		return inst
 	end
@@ -806,7 +806,7 @@ AddPrefabPostInit("kyno_tomato_planted", function(inst)
 	end 
 end)
 
-AddPrefabPostInit("kyno_sculpture_knighthead", function(inst)
+AddPrefabPostInit("sap_sculpture_knighthead", function(inst)
 	if not _G.TheWorld.ismastersim then
 		return inst
 	end
@@ -816,7 +816,7 @@ AddPrefabPostInit("kyno_sculpture_knighthead", function(inst)
 	end 
 end)
 
-AddPrefabPostInit("kyno_sculpture_bishophead", function(inst)
+AddPrefabPostInit("sap_sculpture_bishophead", function(inst)
 	if not _G.TheWorld.ismastersim then
 		return inst
 	end
@@ -826,7 +826,7 @@ AddPrefabPostInit("kyno_sculpture_bishophead", function(inst)
 	end 
 end)
 
-AddPrefabPostInit("kyno_sculpture_rooknose", function(inst)
+AddPrefabPostInit("sap_sculpture_rooknose", function(inst)
 	if not _G.TheWorld.ismastersim then
 		return inst
 	end
@@ -836,7 +836,7 @@ AddPrefabPostInit("kyno_sculpture_rooknose", function(inst)
 	end 
 end)
 
-AddPrefabPostInit("kyno_altar_glass", function(inst)
+AddPrefabPostInit("sap_altar_glass", function(inst)
 	if not _G.TheWorld.ismastersim then
 		return inst
 	end
@@ -846,7 +846,7 @@ AddPrefabPostInit("kyno_altar_glass", function(inst)
 	end 
 end)
 
-AddPrefabPostInit("kyno_altar_seed", function(inst)
+AddPrefabPostInit("sap_altar_seed", function(inst)
 	if not _G.TheWorld.ismastersim then
 		return inst
 	end
@@ -856,7 +856,7 @@ AddPrefabPostInit("kyno_altar_seed", function(inst)
 	end 
 end)
 
-AddPrefabPostInit("kyno_altar_crown", function(inst)	
+AddPrefabPostInit("sap_altar_crown", function(inst)	
 	if not _G.TheWorld.ismastersim then
 		return inst
 	end
@@ -866,7 +866,7 @@ AddPrefabPostInit("kyno_altar_crown", function(inst)
 	end 
 end)
 
-AddPrefabPostInit("kyno_altar_idol", function(inst)	
+AddPrefabPostInit("sap_altar_idol", function(inst)	
 	if not _G.TheWorld.ismastersim then
 		return inst
 	end
@@ -876,7 +876,7 @@ AddPrefabPostInit("kyno_altar_idol", function(inst)
 	end 
 end)
 
-AddPrefabPostInit("kyno_pighead", function(inst)	
+AddPrefabPostInit("sap_pighead", function(inst)	
 	if not _G.TheWorld.ismastersim then
 		return inst
 	end
@@ -886,7 +886,7 @@ AddPrefabPostInit("kyno_pighead", function(inst)
 	end 
 end)
 
-AddPrefabPostInit("kyno_mermhead", function(inst)	
+AddPrefabPostInit("sap_mermhead", function(inst)	
 	if not _G.TheWorld.ismastersim then
 		return inst
 	end
@@ -896,7 +896,7 @@ AddPrefabPostInit("kyno_mermhead", function(inst)
 	end 
 end)
 
-AddPrefabPostInit("kyno_pond", function(inst)	
+AddPrefabPostInit("sap_pond", function(inst)	
 	if not _G.TheWorld.ismastersim then
 		return inst
 	end
@@ -906,7 +906,7 @@ AddPrefabPostInit("kyno_pond", function(inst)
 	end 
 end)
 
-AddPrefabPostInit("kyno_pondmarsh", function(inst)	
+AddPrefabPostInit("sap_pondmarsh", function(inst)	
 	if not _G.TheWorld.ismastersim then
 		return inst
 	end
@@ -916,7 +916,7 @@ AddPrefabPostInit("kyno_pondmarsh", function(inst)
 	end 
 end)
 
-AddPrefabPostInit("kyno_pondlava", function(inst)	
+AddPrefabPostInit("sap_pondlava", function(inst)	
 	if not _G.TheWorld.ismastersim then
 		return inst
 	end
@@ -926,7 +926,7 @@ AddPrefabPostInit("kyno_pondlava", function(inst)
 	end 
 end)
 
-AddPrefabPostInit("kyno_pondrock", function(inst)	
+AddPrefabPostInit("sap_pondrock", function(inst)	
 	if not _G.TheWorld.ismastersim then
 		return inst
 	end
@@ -936,7 +936,7 @@ AddPrefabPostInit("kyno_pondrock", function(inst)
 	end 
 end)
 
-AddPrefabPostInit("kyno_pond_rock", function(inst)	
+AddPrefabPostInit("sap_pond_rock", function(inst)	
 	if not _G.TheWorld.ismastersim then
 		return inst
 	end
@@ -946,7 +946,7 @@ AddPrefabPostInit("kyno_pond_rock", function(inst)
 	end 
 end)
 
-AddPrefabPostInit("kyno_p_farmrock", function(inst)	
+AddPrefabPostInit("sap_p_farmrock", function(inst)	
 	if not _G.TheWorld.ismastersim then
 		return inst
 	end
@@ -956,7 +956,7 @@ AddPrefabPostInit("kyno_p_farmrock", function(inst)
 	end
 end)
 
-AddPrefabPostInit("kyno_p_farmrocktall", function(inst)	
+AddPrefabPostInit("sap_p_farmrocktall", function(inst)	
 	if not _G.TheWorld.ismastersim then
 		return inst
 	end
@@ -966,7 +966,7 @@ AddPrefabPostInit("kyno_p_farmrocktall", function(inst)
 	end
 end)
 
-AddPrefabPostInit("kyno_p_farmrockflat", function(inst)	
+AddPrefabPostInit("sap_p_farmrockflat", function(inst)	
 	if not _G.TheWorld.ismastersim then
 		return inst
 	end
@@ -976,7 +976,7 @@ AddPrefabPostInit("kyno_p_farmrockflat", function(inst)
 	end 
 end)
 
-AddPrefabPostInit("kyno_p_stick", function(inst)	
+AddPrefabPostInit("sap_p_stick", function(inst)	
 	if not _G.TheWorld.ismastersim then
 		return inst
 	end
@@ -986,7 +986,7 @@ AddPrefabPostInit("kyno_p_stick", function(inst)
 	end 
 end)
 
-AddPrefabPostInit("kyno_p_stickright", function(inst)	
+AddPrefabPostInit("sap_p_stickright", function(inst)	
 	if not _G.TheWorld.ismastersim then
 		return inst
 	end
@@ -996,7 +996,7 @@ AddPrefabPostInit("kyno_p_stickright", function(inst)
 	end 
 end)
 
-AddPrefabPostInit("kyno_p_stickleft", function(inst)	
+AddPrefabPostInit("sap_p_stickleft", function(inst)	
 	if not _G.TheWorld.ismastersim then
 		return inst
 	end
@@ -1006,7 +1006,7 @@ AddPrefabPostInit("kyno_p_stickleft", function(inst)
 	end 
 end)
 
-AddPrefabPostInit("kyno_p_signleft", function(inst)	
+AddPrefabPostInit("sap_p_signleft", function(inst)	
 	if not _G.TheWorld.ismastersim then
 		return inst
 	end
@@ -1016,7 +1016,7 @@ AddPrefabPostInit("kyno_p_signleft", function(inst)
 	end 
 end)
 
-AddPrefabPostInit("kyno_p_signright", function(inst)	
+AddPrefabPostInit("sap_p_signright", function(inst)	
 	if not _G.TheWorld.ismastersim then
 		return inst
 	end
@@ -1026,7 +1026,7 @@ AddPrefabPostInit("kyno_p_signright", function(inst)
 	end 
 end)
 
-AddPrefabPostInit("kyno_p_fencepost", function(inst)	
+AddPrefabPostInit("sap_p_fencepost", function(inst)	
 	if not _G.TheWorld.ismastersim then
 		return inst
 	end
@@ -1036,7 +1036,7 @@ AddPrefabPostInit("kyno_p_fencepost", function(inst)
 	end 
 end)
 
-AddPrefabPostInit("kyno_p_fencepostright", function(inst)	
+AddPrefabPostInit("sap_p_fencepostright", function(inst)	
 	if not _G.TheWorld.ismastersim then
 		return inst
 	end
@@ -1046,7 +1046,7 @@ AddPrefabPostInit("kyno_p_fencepostright", function(inst)
 	end 
 end)
 
-AddPrefabPostInit("kyno_p_burntstickright", function(inst)	
+AddPrefabPostInit("sap_p_burntstickright", function(inst)	
 	if not _G.TheWorld.ismastersim then
 		return inst
 	end
@@ -1056,7 +1056,7 @@ AddPrefabPostInit("kyno_p_burntstickright", function(inst)
 	end 
 end)
 
-AddPrefabPostInit("kyno_p_burntstickleft", function(inst)	
+AddPrefabPostInit("sap_p_burntstickleft", function(inst)	
 	if not _G.TheWorld.ismastersim then
 		return inst
 	end
@@ -1066,7 +1066,7 @@ AddPrefabPostInit("kyno_p_burntstickleft", function(inst)
 	end 
 end)
 
-AddPrefabPostInit("kyno_p_burntstick", function(inst)	
+AddPrefabPostInit("sap_p_burntstick", function(inst)	
 	if not _G.TheWorld.ismastersim then
 		return inst
 	end
@@ -1076,7 +1076,7 @@ AddPrefabPostInit("kyno_p_burntstick", function(inst)
 	end 
 end)
 
-AddPrefabPostInit("kyno_p_burntfencepost", function(inst)	
+AddPrefabPostInit("sap_p_burntfencepost", function(inst)	
 	if not _G.TheWorld.ismastersim then
 		return inst
 	end
@@ -1086,7 +1086,7 @@ AddPrefabPostInit("kyno_p_burntfencepost", function(inst)
 	end 
 end)
 
-AddPrefabPostInit("kyno_p_burntfencepostright", function(inst)	
+AddPrefabPostInit("sap_p_burntfencepostright", function(inst)	
 	if not _G.TheWorld.ismastersim then
 		return inst
 	end
@@ -1099,28 +1099,28 @@ end)
 -- Common strings for Mast and Mast Items.
 local tap_masts = 
 {
-	"kyno_mast_01",
-	"kyno_mast_02",
-	"kyno_mast_03",
-	"kyno_mast_04",
-	"kyno_mast_05",
-	"kyno_mast_06",
-	"kyno_mast_07",
-	"kyno_mast_08",
-	"kyno_mast_019",
+	"sap_mast_01",
+	"sap_mast_02",
+	"sap_mast_03",
+	"sap_mast_04",
+	"sap_mast_05",
+	"sap_mast_06",
+	"sap_mast_07",
+	"sap_mast_08",
+	"sap_mast_019",
 }
 
 local tap_masts_items = 
 {
-	"kyno_mast_item_01",
-	"kyno_mast_item_02",
-	"kyno_mast_item_03",
-	"kyno_mast_item_04",
-	"kyno_mast_item_05",
-	"kyno_mast_item_06",
-	"kyno_mast_item_07",
-	"kyno_mast_item_08",
-	"kyno_mast_item_09",
+	"sap_mast_item_01",
+	"sap_mast_item_02",
+	"sap_mast_item_03",
+	"sap_mast_item_04",
+	"sap_mast_item_05",
+	"sap_mast_item_06",
+	"sap_mast_item_07",
+	"sap_mast_item_08",
+	"sap_mast_item_09",
 }
 
 for k, v in pairs(tap_masts) do
@@ -1239,7 +1239,7 @@ end
 AddPrefabPostInit("kingfisher", function(inst)
 	if not _G.KnownModIndex:IsModEnabled("workshop-2334209327") then 
 		if inst.components.periodicspawner ~= nil then
-			inst.components.periodicspawner:SetPrefab("kyno_koi")
+			inst.components.periodicspawner:SetPrefab("sap_koi")
 			inst.components.periodicspawner:SetDensityInRange(20, 2)
 			inst.components.periodicspawner:SetMinimumSpacing(15)
 		end
@@ -1253,7 +1253,7 @@ AddPrefabPostInit("tallbirdegg", function(inst)
 end)
 
 -- Custom names for the Hamlet Pigs.
-AddPrefabPostInit("kyno_pigman_mayor", function(inst)
+AddPrefabPostInit("sap_pigman_mayor", function(inst)
 	if not _G.TheWorld.ismastersim then
 		return inst
 	end
@@ -1262,7 +1262,7 @@ AddPrefabPostInit("kyno_pigman_mayor", function(inst)
 	inst.components.named:PickNewName()
 end)
 
-AddPrefabPostInit("kyno_pigman_queen", function(inst)
+AddPrefabPostInit("sap_pigman_queen", function(inst)
 	inst.AnimState:Show("hat")
 	
 	if not _G.TheWorld.ismastersim then
@@ -1285,7 +1285,7 @@ local function TreeCycle(inst)
 	end
 end
 
-AddPrefabPostInit("kyno_palmtree", 				TreeCycle)
+AddPrefabPostInit("sap_palmtree", 				TreeCycle)
 AddPrefabPostInit("tubertree", 					TreeCycle)
 AddPrefabPostInit("tubertreebloom", 			TreeCycle)
 AddPrefabPostInit("teatree", 					TreeCycle)
@@ -1339,7 +1339,7 @@ local function RockyPostinit(inst)
 		end
 	end
 	
-	local loot2 = { "rocks", "rocks", "meat", "flint", "flint", "kyno_lobster_claw" }
+	local loot2 = { "rocks", "rocks", "meat", "flint", "flint", "sap_lobster_claw" }
 	
 	if not _G.TheWorld.ismastersim then
 		return inst
@@ -1364,7 +1364,7 @@ local function StalkerPostinit(inst)
 			lootdropper:AddChanceLoot("armorskeleton", 1)
 			lootdropper:AddChanceLoot("skeletonhat", 1)
 			lootdropper:AddChanceLoot("chesspiece_stalker_sketch", 1)
-			lootdropper:AddChanceLoot("kyno_atriumgateway_blueprint", 1)
+			lootdropper:AddChanceLoot("sap_atriumgateway_blueprint", 1)
 			lootdropper:AddChanceLoot("nightmarefuel", 1)
 			lootdropper:AddChanceLoot("nightmarefuel", 1)
 			lootdropper:AddChanceLoot("nightmarefuel", 1)
@@ -1474,7 +1474,7 @@ if KEEP_FOOD == 1 then
 		"archive_cookpot",
 		"portablecookpot",
 		"portablespicer",
-		"kyno_archive_cookpot",
+		"sap_archive_cookpot",
 	}
 	for k, v in pairs(tap_foodstations) do
 		AddPrefabPostInit(v, function(inst)
@@ -1550,37 +1550,37 @@ local BUILDING_MIGRATOR = GetModConfigData("TAP_BUILDING_MIGRATOR")
 if BUILDING_MIGRATOR == 1 and shard then
 	local tap_building_migrators = 
 	{
-		"kyno_ruinsentrance_ground1",
-		"kyno_ruinsentrance_ground2",
-		"kyno_ruinsentrance_ground3",
-		"kyno_archive_portal",
-		"kyno_atriumgateway",
-		"kyno_atriumgateway_wip",
-		"kyno_lavagateway",
-		"kyno_lavaspawner",
-		"kyno_friendomatic",
-		"kyno_mossygateway",
-		"kyno_ham_prototyper",
-		"kyno_sw_prototyper",
-		"kyno_lunar_energy",
-		"kyno_lunar_energy_wip",
-		"kyno_portalstone",
-		"kyno_juryriggedportal",
-		"kyno_portalbuilding",
-		"kyno_celestialportal",
-		"kyno_sinkhole",
-		"kyno_sinkhole_closed",
-		"kyno_sinkhole_vip",
-		"kyno_sinkhole_ruins",
-		"kyno_cavehole",
-		"kyno_surfacestairs",
-		"kyno_surfacestairs_closed",
-		"kyno_surfacestairs_vip",
-		"kyno_volcanostairs",
-		"kyno_monkeyisland_portal1",
-		"kyno_monkeyisland_portal2",
-		"kyno_lunarrift_portal",
-		"kyno_shadowrift_portal",
+		"sap_ruinsentrance_ground1",
+		"sap_ruinsentrance_ground2",
+		"sap_ruinsentrance_ground3",
+		"sap_archive_portal",
+		"sap_atriumgateway",
+		"sap_atriumgateway_wip",
+		"sap_lavagateway",
+		"sap_lavaspawner",
+		"sap_friendomatic",
+		"sap_mossygateway",
+		"sap_ham_prototyper",
+		"sap_sw_prototyper",
+		"sap_lunar_energy",
+		"sap_lunar_energy_wip",
+		"sap_portalstone",
+		"sap_juryriggedportal",
+		"sap_portalbuilding",
+		"sap_celestialportal",
+		"sap_sinkhole",
+		"sap_sinkhole_closed",
+		"sap_sinkhole_vip",
+		"sap_sinkhole_ruins",
+		"sap_cavehole",
+		"sap_surfacestairs",
+		"sap_surfacestairs_closed",
+		"sap_surfacestairs_vip",
+		"sap_volcanostairs",
+		"sap_monkeyisland_portal1",
+		"sap_monkeyisland_portal2",
+		"sap_lunarrift_portal",
+		"sap_shadowrift_portal",
 	}
 	
 	for k, v in pairs(tap_building_migrators) do
@@ -1665,8 +1665,8 @@ local function DriftwoodGatePostinit(inst)
 	end
 end
 
-AddPrefabPostInit("kyno_driftwood_gate", DriftwoodGatePostinit)
-AddPrefabPostInit("kyno_driftwood_gate_item", DriftwoodGatePostinit)
+AddPrefabPostInit("sap_driftwood_gate", DriftwoodGatePostinit)
+AddPrefabPostInit("sap_driftwood_gate_item", DriftwoodGatePostinit)
 
 local function DriftwoodFencePostinit(inst)
 	if not _G.TheWorld.ismastersim then
@@ -1678,8 +1678,8 @@ local function DriftwoodFencePostinit(inst)
 	end
 end
 
-AddPrefabPostInit("kyno_driftwood_fence", DriftwoodFencePostinit)
-AddPrefabPostInit("kyno_driftwood_fence_item", DriftwoodFencePostinit)
+AddPrefabPostInit("sap_driftwood_fence", DriftwoodFencePostinit)
+AddPrefabPostInit("sap_driftwood_fence_item", DriftwoodFencePostinit)
 
 -- New birds will spawn when landing on these turfs.
 local SPECIAL_BIRDS = GetModConfigData("TAP_SPECIAL_BIRDS")
@@ -1754,7 +1754,7 @@ AddPrefabPostInit("lordfruitfly", function(inst)
 		_G.SetSharedLootTable("tap_lordfruitfly",
 		{
 			{"plantmeat", 1.00},
-			{"kyno_garden_sprinkler_blueprint", 1.00},
+			{"sap_garden_sprinkler_blueprint", 1.00},
 		})
 	
 		if not _G.TheWorld.ismastersim then

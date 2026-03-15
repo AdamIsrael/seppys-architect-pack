@@ -96,7 +96,7 @@ local function goofn()
     return inst
 end
 
-return Prefab("kyno_grottopillar1", fn, assets),
-Prefab("kyno_grottopillar2", goofn, assets),
-MakePlacer("kyno_grottopillar1_placer", "kyno_grottopillar", "kyno_grottopillar", "idle"),
-MakePlacer("kyno_grottopillar2_placer", "kyno_grottopillar", "kyno_grottopillar", "idle2")
+return Prefab("sap_grottopillar1", fn, assets),
+Prefab("sap_grottopillar2", goofn, assets),
+MakePlacer("sap_grottopillar1_placer", "kyno_grottopillar", "kyno_grottopillar", "idle"),
+MakePlacer("sap_grottopillar2_placer", "kyno_grottopillar", "kyno_grottopillar", "idle2")

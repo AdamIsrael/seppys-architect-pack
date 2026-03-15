@@ -276,11 +276,11 @@ local function fn4()
 	return inst
 end
 
-return Prefab("kyno_eyebush", fn, assets, prefabs),
-Prefab("kyno_eyebush_prismatic", fn2, assets, prefabs),
-Prefab("kyno_eyebush_withered", fn3, assets, prefabs),
-Prefab("kyno_eyebush_dead", fn4, assets, prefabs),
-MakePlacer("kyno_eyebush_placer", "eyebush", "eyebush", "sleep_loop"),
-MakePlacer("kyno_eyebush_prismatic_placer", "eyebush", "eyebush_prism_build", "sleep_loop"),
-MakePlacer("kyno_eyebush_withered_placer", "eyebush", "eyebush", "idle_withered"),
-MakePlacer("kyno_eyebush_dead_placer", "eyebush", "eyebush", "dead")
+return Prefab("sap_eyebush", fn, assets, prefabs),
+Prefab("sap_eyebush_prismatic", fn2, assets, prefabs),
+Prefab("sap_eyebush_withered", fn3, assets, prefabs),
+Prefab("sap_eyebush_dead", fn4, assets, prefabs),
+MakePlacer("sap_eyebush_placer", "eyebush", "eyebush", "sleep_loop"),
+MakePlacer("sap_eyebush_prismatic_placer", "eyebush", "eyebush_prism_build", "sleep_loop"),
+MakePlacer("sap_eyebush_withered_placer", "eyebush", "eyebush", "idle_withered"),
+MakePlacer("sap_eyebush_dead_placer", "eyebush", "eyebush", "dead")

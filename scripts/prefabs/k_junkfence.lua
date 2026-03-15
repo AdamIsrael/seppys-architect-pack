@@ -243,7 +243,7 @@ local function FixUpFenceOrientation(inst, deployedrotation)
     while neighbor ~= nil do
         neighbor_e = CalcRotationEnum(neighbor.Transform:GetRotation())
 
-        if (neighbor.isdoor or neighbor.prefab == "kyno_junkfence") and (this_e % (ROT_SIDES/2) == neighbor_e % (ROT_SIDES/2)) then
+        if (neighbor.isdoor or neighbor.prefab == "sap_junkfence") and (this_e % (ROT_SIDES/2) == neighbor_e % (ROT_SIDES/2)) then
             break
         end
         neighbor_index = neighbor_index + 1
@@ -260,7 +260,7 @@ local function FixUpFenceOrientation(inst, deployedrotation)
     end
 
     if neighbor ~= nil then
-        if (neighbor.isdoor or neighbor.prefab == "kyno_junkfence") and (this_e + ROT_SIDES/2) % ROT_SIDES == neighbor_e then
+        if (neighbor.isdoor or neighbor.prefab == "sap_junkfence") and (this_e + ROT_SIDES/2) % ROT_SIDES == neighbor_e then
             rot = rot + 180
             this_e = CalcRotationEnum(rot)
         end
@@ -801,7 +801,7 @@ local function MakeInvItem(name, placement, animdata, isdoor)
 		
         inst:AddComponent("inventoryitem")
 		inst.components.inventoryitem.atlasname = "images/inventoryimages/tap_inventoryimages.xml"
-		inst.components.inventoryitem.imagename = "kyno_junkfence_item"
+		inst.components.inventoryitem.imagename = "sap_junkfence_item"
 
         inst:AddComponent("deployable")
         inst.components.deployable.ondeploy = ondeploywall
@@ -869,7 +869,7 @@ local function MakeWallPlacer(placer, placement, anims, isdoor)
 	end)
 end
 
-return MakeWall("kyno_junkfence",   {wide = "fence_junk", narrow = "fence_thin_junk", build = "fence_junk_build"}, false, nil,
+return MakeWall("sap_junkfence",   {wide = "fence_junk", narrow = "fence_thin_junk", build = "fence_junk_build"}, false, nil,
 {
 	num_builds       = 3,
 	onworkfinishedfn = junk_onworkfinishedfn,
@@ -877,7 +877,7 @@ return MakeWall("kyno_junkfence",   {wide = "fence_junk", narrow = "fence_thin_j
 	workmultiplierfn = junk_workmultiplierfn,
 	prefabs          = {"junk_break_fx"},
 }),
-MakeWallAnim("kyno_junkfence_anim", {wide = "fence_junk", narrow = "fence_thin_junk", build = "fence_junk_build"}, false, nil,
+MakeWallAnim("sap_junkfence_anim", {wide = "fence_junk", narrow = "fence_thin_junk", build = "fence_junk_build"}, false, nil,
 {
 	num_builds       = 3,
 	onworkfinishedfn = junk_onworkfinishedfn,
@@ -885,6 +885,6 @@ MakeWallAnim("kyno_junkfence_anim", {wide = "fence_junk", narrow = "fence_thin_j
 	workmultiplierfn = junk_workmultiplierfn,
 	prefabs          = {"junk_break_fx"},
 }),
-MakeInvItem("kyno_junkfence_item",           "fence_junk", "fence_junk_build1", false),
-MakeWallPlacer("kyno_junkfence_placer",      "kyno_junkfence", {wide = "fence_junk", narrow = "fence_thin_junk", build = "fence_junk_build1"}, false),
-MakeWallPlacer("kyno_junkfence_item_placer", "kyno_junkfence", {wide = "fence_junk", narrow = "fence_thin_junk", build = "fence_junk_build1"}, false)
+MakeInvItem("sap_junkfence_item",           "fence_junk", "fence_junk_build1", false),
+MakeWallPlacer("sap_junkfence_placer",      "sap_junkfence", {wide = "fence_junk", narrow = "fence_thin_junk", build = "fence_junk_build1"}, false),
+MakeWallPlacer("sap_junkfence_item_placer", "sap_junkfence", {wide = "fence_junk", narrow = "fence_thin_junk", build = "fence_junk_build1"}, false)

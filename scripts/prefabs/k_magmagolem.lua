@@ -159,5 +159,5 @@ local function fn()
 	return inst
 end
 	
-return Prefab("kyno_magmagolem", fn, assets, prefabs),
-MakePlacer("kyno_magmagolem_placer", "lavaarena_elemental_basic", "lavaarena_elemental_basic", "idle", false, nil, nil, nil, 90, nil)
+return Prefab("sap_magmagolem", fn, assets, prefabs),
+MakePlacer("sap_magmagolem_placer", "lavaarena_elemental_basic", "lavaarena_elemental_basic", "idle", false, nil, nil, nil, 90, nil)

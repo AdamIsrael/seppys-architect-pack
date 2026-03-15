@@ -125,5 +125,5 @@ local function fn()
     return inst
 end
 
-return Prefab("kyno_lake", fn, assets, prefabs),
-MakePlacer("kyno_lake_placer", "oasis_tile", "oasis_tile", "idle", true)
+return Prefab("sap_lake", fn, assets, prefabs),
+MakePlacer("sap_lake_placer", "oasis_tile", "oasis_tile", "idle", true)

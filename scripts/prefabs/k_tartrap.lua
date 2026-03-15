@@ -69,5 +69,5 @@ local function fn()
 	return inst
 end
 
-return Prefab("kyno_tartrap", fn, assets, prefabs),
-MakePlacer("kyno_tartrap_placer", "tar_trap", "tar_trap", "idle_full")
+return Prefab("sap_tartrap", fn, assets, prefabs),
+MakePlacer("sap_tartrap_placer", "tar_trap", "tar_trap", "idle_full")

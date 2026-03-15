@@ -195,7 +195,7 @@ local function sickfn()
 	return inst
 end
 
-return Prefab("kyno_wormhole", fn, assets, prefabs),
-Prefab("kyno_wormhole_sick", sickfn, assets, prefabs),
-MakePlacer("kyno_wormhole_placer", "teleporter_worm", "teleporter_worm_build", "idle_loop"),
-MakePlacer("kyno_wormhole_sick_placer", "teleporter_worm", "teleporter_sickworm_build", "idle_loop")
+return Prefab("sap_wormhole", fn, assets, prefabs),
+Prefab("sap_wormhole_sick", sickfn, assets, prefabs),
+MakePlacer("sap_wormhole_placer", "teleporter_worm", "teleporter_worm_build", "idle_loop"),
+MakePlacer("sap_wormhole_sick_placer", "teleporter_worm", "teleporter_sickworm_build", "idle_loop")

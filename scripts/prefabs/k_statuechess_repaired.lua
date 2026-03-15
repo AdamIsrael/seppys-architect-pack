@@ -251,9 +251,9 @@ local function bishopplacetestfn(inst)
 	inst.AnimState:SetScale(1, 1, 1)
 end
 
-return Prefab("kyno_statuerook_repaired", rookfn, assets, prefabs),
-Prefab("kyno_statueknight_repaired", knightfn, assets, prefabs),
-Prefab("kyno_statuebishop_repaired", bishopfn, assets, prefabs),
-MakePlacer("kyno_statuerook_repaired_placer", "rook", "sculpture_rook", "fixed", false, nil, nil, nil, nil, nil, rookplacetestfn),
-MakePlacer("kyno_statueknight_repaired_placer", "kyno_knight", "kyno_sculpture_knight", "fixed", false, nil, nil, nil, nil, nil, knightplacetestfn),
-MakePlacer("kyno_statuebishop_repaired_placer", "kyno_bishop", "kyno_sculpture_bishop", "fixed", false, nil, nil, nil, nil, nil, bishopplacetestfn)
+return Prefab("sap_statuerook_repaired", rookfn, assets, prefabs),
+Prefab("sap_statueknight_repaired", knightfn, assets, prefabs),
+Prefab("sap_statuebishop_repaired", bishopfn, assets, prefabs),
+MakePlacer("sap_statuerook_repaired_placer", "rook", "sculpture_rook", "fixed", false, nil, nil, nil, nil, nil, rookplacetestfn),
+MakePlacer("sap_statueknight_repaired_placer", "kyno_knight", "kyno_sculpture_knight", "fixed", false, nil, nil, nil, nil, nil, knightplacetestfn),
+MakePlacer("sap_statuebishop_repaired_placer", "kyno_bishop", "kyno_sculpture_bishop", "fixed", false, nil, nil, nil, nil, nil, bishopplacetestfn)

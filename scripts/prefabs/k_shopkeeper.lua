@@ -289,7 +289,7 @@ local function pigfn()
 	return inst
 end
 
-return Prefab("kyno_shopkeeper1", fn, assets, prefabs),
-Prefab("kyno_shopkeeper2", pigfn, assets, prefabs),
-MakePlacer("kyno_shopkeeper1_placer", "shopkeeper1", "shopkeeper1", "idle"),
-MakePlacer("kyno_shopkeeper2_placer", "shopkeeper2", "shopkeeper2", "idle")
+return Prefab("sap_shopkeeper1", fn, assets, prefabs),
+Prefab("sap_shopkeeper2", pigfn, assets, prefabs),
+MakePlacer("sap_shopkeeper1_placer", "shopkeeper1", "shopkeeper1", "idle"),
+MakePlacer("sap_shopkeeper2_placer", "shopkeeper2", "shopkeeper2", "idle")

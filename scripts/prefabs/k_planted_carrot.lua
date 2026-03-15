@@ -50,9 +50,9 @@ local function MakePlanted(product, bulbvariation)
     local prefabs =
     {
         -- "kyno_soil", -- undefined prefab (not used, only kyno_planted_soil_front/back are spawned)
-        "kyno_planted_soil_front",
-        "kyno_planted_soil_back",
-        "kyno_"..product.."_leaf",
+        "sap_planted_soil_front",
+        "sap_planted_soil_back",
+        "sap_"..product.."_leaf",
         -- "kyno_"..product, -- undefined prefab (this drops base game items via prefab_override, not kyno_ items)
         "spoiled_food",
     }
@@ -79,7 +79,7 @@ local function MakePlanted(product, bulbvariation)
         inst.AnimState:OverrideSymbol("mouseover", "quagmire_soil", "mouseover")
 
         inst:AddTag("plantedsoil")
-        inst:AddTag("kyno_fertilizable")
+        inst:AddTag("sap_fertilizable")
 
         inst.entity:SetPristine()
 
@@ -87,8 +87,8 @@ local function MakePlanted(product, bulbvariation)
             return inst
         end
 		
-		inst.frontfx = inst:SpawnChild("kyno_planted_soil_front")
-		inst.frontfx2 = inst:SpawnChild("kyno_planted_soil_back")
+		inst.frontfx = inst:SpawnChild("sap_planted_soil_front")
+		inst.frontfx2 = inst:SpawnChild("sap_planted_soil_back")
 		
 		inst:AddComponent("inspectable")
 		inst:AddComponent("lootdropper")
@@ -105,12 +105,12 @@ local function MakePlanted(product, bulbvariation)
         return inst
     end
 
-    return Prefab("kyno_"..product.."_planted", fn, assets, prefabs)
+    return Prefab("sap_"..product.."_planted", fn, assets, prefabs)
 end
 
 local function OnLeafReplicated(inst)
     local parent = inst.entity:GetParent()
-    if parent ~= nil and (parent.prefab == inst.prefab:sub(1, -6)"kyno_".."_planted") then
+    if parent ~= nil and (parent.prefab == inst.prefab:sub(1, -6)"sap_".."_planted") then
         parent.highlightchildren = { inst }
     end
 end
@@ -154,7 +154,7 @@ local function MakeLeaf(product, leafvariation)
         return inst
     end
 
-    return Prefab("kyno_"..product.."_leaf", fn, assets)
+    return Prefab("sap_"..product.."_leaf", fn, assets)
 end
 
 local function MakeSoilFn(front, back)
@@ -196,13 +196,13 @@ end
 
 local ret =
 {
-    Prefab("kyno_planted_soil_front", MakeSoilFn(true, false), assets_soil),
-    Prefab("kyno_planted_soil_back", MakeSoilFn(false, true), assets_soil),
+    Prefab("sap_planted_soil_front", MakeSoilFn(true, false), assets_soil),
+    Prefab("sap_planted_soil_back", MakeSoilFn(false, true), assets_soil),
 }
 
 local planted_prefabs = {}
 for k, v in pairs(PRODUCT_VALUES) do
-    table.insert(planted_prefabs, "kyno_"..k.."_planted")
+    table.insert(planted_prefabs, "sap_"..k.."_planted")
     table.insert(ret, MakePlanted(k, v.bulb))
     table.insert(ret, MakeLeaf(k, v.leaf))
 end

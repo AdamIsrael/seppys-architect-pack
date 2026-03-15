@@ -204,9 +204,9 @@ local function fn3()
 	return inst
 end
 
-return Prefab("kyno_rock_coral_1", fn1, assets, prefabs),
-Prefab("kyno_rock_coral_2", fn2, assets, prefabs),
-Prefab("kyno_rock_coral_3", fn3, assets, prefabs),
-MakePlacer("kyno_rock_coral_1_placer", "coral_rock", "coral_rock", "full1"),
-MakePlacer("kyno_rock_coral_2_placer", "coral_rock", "coral_rock", "full2"),
-MakePlacer("kyno_rock_coral_3_placer", "coral_rock", "coral_rock", "full3")
+return Prefab("sap_rock_coral_1", fn1, assets, prefabs),
+Prefab("sap_rock_coral_2", fn2, assets, prefabs),
+Prefab("sap_rock_coral_3", fn3, assets, prefabs),
+MakePlacer("sap_rock_coral_1_placer", "coral_rock", "coral_rock", "full1"),
+MakePlacer("sap_rock_coral_2_placer", "coral_rock", "coral_rock", "full2"),
+MakePlacer("sap_rock_coral_3_placer", "coral_rock", "coral_rock", "full3")

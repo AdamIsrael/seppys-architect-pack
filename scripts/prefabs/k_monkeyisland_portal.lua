@@ -10,7 +10,7 @@ local assets =
 
 local prefabs =
 {
-	"kyno_monkeyisland_portalfx"
+	"sap_monkeyisland_portalfx"
 }
 
 local fx_assets =
@@ -115,7 +115,7 @@ local function fn()
     end
 	
 	local function createExtras(inst)
-		inst.extraprefab = SpawnPrefab("kyno_monkeyisland_portalfx")
+		inst.extraprefab = SpawnPrefab("sap_monkeyisland_portalfx")
 		inst.extraprefab.entity:SetParent(inst.entity)
 	end
 	
@@ -174,7 +174,7 @@ local function fn2()
     end
 	
 	local function createExtras(inst)
-		inst.extraprefab = SpawnPrefab("kyno_monkeyisland_portalfx")
+		inst.extraprefab = SpawnPrefab("sap_monkeyisland_portalfx")
 		inst.extraprefab.entity:SetParent(inst.entity)
 	end
 	
@@ -195,8 +195,8 @@ local function fn2()
     return inst
 end
 
-return Prefab("kyno_monkeyisland_portal1", fn, assets, prefabs),
-Prefab("kyno_monkeyisland_portal2", fn2, assets, prefabs),
-Prefab("kyno_monkeyisland_portalfx", followfx_fn, fx_assets),
-MakePlacer("kyno_monkeyisland_portal1_placer", "monkey_island_portal", "monkey_island_portal", "in_idle"),
-MakePlacer("kyno_monkeyisland_portal2_placer", "monkey_island_portal", "monkey_island_portal", "out_idle")
+return Prefab("sap_monkeyisland_portal1", fn, assets, prefabs),
+Prefab("sap_monkeyisland_portal2", fn2, assets, prefabs),
+Prefab("sap_monkeyisland_portalfx", followfx_fn, fx_assets),
+MakePlacer("sap_monkeyisland_portal1_placer", "monkey_island_portal", "monkey_island_portal", "in_idle"),
+MakePlacer("sap_monkeyisland_portal2_placer", "monkey_island_portal", "monkey_island_portal", "out_idle")

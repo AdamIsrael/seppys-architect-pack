@@ -67,5 +67,5 @@ local function fn()
     return inst
 end
 
-return Prefab("kyno_vault_lever", fn, assets),
-MakePlacer("kyno_vault_lever_placer", "vault_switch", "vault_switch", "idle")
+return Prefab("sap_vault_lever", fn, assets),
+MakePlacer("sap_vault_lever_placer", "vault_switch", "vault_switch", "idle")

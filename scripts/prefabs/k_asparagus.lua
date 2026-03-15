@@ -62,5 +62,5 @@ local function asparagusplacetestfn(inst)
 	inst.AnimState:SetScale(1.2,1.2,1.2)
 end
 
-return Prefab("kyno_asparagus_planted", fn, assets),
-MakePlacer("kyno_asparagus_planted_placer", "kyno_aspargos", "kyno_aspargos", "planted", false, nil, nil, nil, nil, nil, asparagusplacetestfn)
+return Prefab("sap_asparagus_planted", fn, assets),
+MakePlacer("sap_asparagus_planted_placer", "kyno_aspargos", "kyno_aspargos", "planted", false, nil, nil, nil, nil, nil, asparagusplacetestfn)

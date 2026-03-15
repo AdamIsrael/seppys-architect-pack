@@ -112,13 +112,13 @@ local function tiered()
 	return inst
 end
 
-return Prefab("kyno_florist_latticefront", latticefront, assets),
-Prefab("kyno_florist_latticeside", latticeside, assets),
-Prefab("kyno_florist_pillarfront", pillarfront, assets),
-Prefab("kyno_florist_pillarside", pillarside, assets),
-Prefab("kyno_florist_tiered", tiered, assets),
-MakePlacer("kyno_florist_latticefront_placer", "interior_wall_decals_florist", "interior_wall_decals_florist", "lattice_front"),
-MakePlacer("kyno_florist_latticeside_placer", "interior_wall_decals_florist", "interior_wall_decals_florist", "lattice_sidewall"),
-MakePlacer("kyno_florist_pillarfront_placer", "interior_wall_decals_florist", "interior_wall_decals_florist", "pillar_front"),
-MakePlacer("kyno_florist_pillarside_placer", "interior_wall_decals_florist", "interior_wall_decals_florist", "pillar_sidewall"),
-MakePlacer("kyno_florist_tiered_placer", "interior_wall_decals_florist", "interior_wall_decals_florist", "tiered_trough")
+return Prefab("sap_florist_latticefront", latticefront, assets),
+Prefab("sap_florist_latticeside", latticeside, assets),
+Prefab("sap_florist_pillarfront", pillarfront, assets),
+Prefab("sap_florist_pillarside", pillarside, assets),
+Prefab("sap_florist_tiered", tiered, assets),
+MakePlacer("sap_florist_latticefront_placer", "interior_wall_decals_florist", "interior_wall_decals_florist", "lattice_front"),
+MakePlacer("sap_florist_latticeside_placer", "interior_wall_decals_florist", "interior_wall_decals_florist", "lattice_sidewall"),
+MakePlacer("sap_florist_pillarfront_placer", "interior_wall_decals_florist", "interior_wall_decals_florist", "pillar_front"),
+MakePlacer("sap_florist_pillarside_placer", "interior_wall_decals_florist", "interior_wall_decals_florist", "pillar_sidewall"),
+MakePlacer("sap_florist_tiered_placer", "interior_wall_decals_florist", "interior_wall_decals_florist", "tiered_trough")

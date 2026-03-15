@@ -88,5 +88,5 @@ local function fn()
     return inst
 end
 
-return Prefab("kyno_icegeyser", fn, assets, prefabs),
-MakePlacer("kyno_icegeyser_placer", "deer_ice_circle", "deer_ice_circle", "loop", true)
+return Prefab("sap_icegeyser", fn, assets, prefabs),
+MakePlacer("sap_icegeyser_placer", "deer_ice_circle", "deer_ice_circle", "loop", true)

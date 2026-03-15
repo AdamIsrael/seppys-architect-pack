@@ -188,5 +188,5 @@ local function fn()
 	return inst
 end
 
-return Prefab("kyno_peekhen", fn, assets, prefabs),
-MakePlacer("kyno_peekhen_placer", "buzzard", "peekhen_build", "idle", false, nil, nil, nil, 90, nil)
+return Prefab("sap_peekhen", fn, assets, prefabs),
+MakePlacer("sap_peekhen_placer", "buzzard", "peekhen_build", "idle", false, nil, nil, nil, 90, nil)

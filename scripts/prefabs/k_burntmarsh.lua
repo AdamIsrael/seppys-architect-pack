@@ -217,6 +217,6 @@ local function burnt_erode_fn()
     return inst
 end
 
-return Prefab("kyno_burntmarsh", burnt_fn, assets, burnt_prefabs),
+return Prefab("sap_burntmarsh", burnt_fn, assets, burnt_prefabs),
 Prefab("burnt_marsh_bush_erode", burnt_erode_fn, erode_assets),
-MakePlacer("kyno_burntmarsh_placer", "marsh_bush", "marsh_bush", "burnt")
+MakePlacer("sap_burntmarsh_placer", "marsh_bush", "marsh_bush", "burnt")

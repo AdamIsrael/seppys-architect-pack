@@ -85,5 +85,5 @@ local function fn()
     return inst
 end
 
-return Prefab("kyno_basefan", fn, assets, prefabs),
-MakePlacer("kyno_basefan_placer", "basefan", "basefan", "off")
+return Prefab("sap_basefan", fn, assets, prefabs),
+MakePlacer("sap_basefan_placer", "basefan", "basefan", "off")

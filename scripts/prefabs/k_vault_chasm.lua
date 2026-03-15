@@ -81,5 +81,5 @@ local function fn()
     return inst
 end
 
-return Prefab("kyno_vault_chasm", fn, assets),
-MakePlacer("kyno_vault_chasm_placer", "vault_lobby_exit", "vault_lobby_exit", "idle", true)
+return Prefab("sap_vault_chasm", fn, assets),
+MakePlacer("sap_vault_chasm_placer", "vault_lobby_exit", "vault_lobby_exit", "idle", true)

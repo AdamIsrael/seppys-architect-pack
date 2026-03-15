@@ -148,7 +148,7 @@ local function healflowerplacetestfn(inst)
 	inst.AnimState:Hide("drop")
 end
 
-return Prefab("kyno_healflower", fn, assets, prefabs),
-Prefab("kyno_artificial_healflower", artificialfn, assets, prefabs),
-MakePlacer("kyno_healflower_placer", "lavaarena_heal_flowers", "lavaarena_heal_flowers_fx", "idle_1", false, nil, nil, nil, nil, nil, healflowerplacetestfn),
-MakePlacer("kyno_artificial_healflower_placer", "lavaarena_heal_flowers", "lavaarena_heal_flowers_fx", "idle_4", false, nil, nil, nil, nil, nil, healflowerplacetestfn)
+return Prefab("sap_healflower", fn, assets, prefabs),
+Prefab("sap_artificial_healflower", artificialfn, assets, prefabs),
+MakePlacer("sap_healflower_placer", "lavaarena_heal_flowers", "lavaarena_heal_flowers_fx", "idle_1", false, nil, nil, nil, nil, nil, healflowerplacetestfn),
+MakePlacer("sap_artificial_healflower_placer", "lavaarena_heal_flowers", "lavaarena_heal_flowers_fx", "idle_4", false, nil, nil, nil, nil, nil, healflowerplacetestfn)

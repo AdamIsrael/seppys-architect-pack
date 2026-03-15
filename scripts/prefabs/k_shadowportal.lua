@@ -100,5 +100,5 @@ local function fn()
     return inst
 end
 
-return Prefab("kyno_shadowportal", fn, assets),
-MakePlacer("kyno_shadowportal_placer", "shadow_portal", "shadow_portal", "idle_off")
+return Prefab("sap_shadowportal", fn, assets),
+MakePlacer("sap_shadowportal_placer", "shadow_portal", "shadow_portal", "idle_off")

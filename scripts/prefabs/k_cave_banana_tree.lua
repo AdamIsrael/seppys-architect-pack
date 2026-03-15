@@ -49,7 +49,7 @@ local function makeemptyfn(inst)
 end
 
 local function setupstump(inst)
-    SpawnPrefab("kyno_cave_banana_stump").Transform:SetPosition(inst.Transform:GetWorldPosition())
+    SpawnPrefab("sap_cave_banana_stump").Transform:SetPosition(inst.Transform:GetWorldPosition())
     inst:Remove()
 end
 
@@ -88,7 +88,7 @@ local function tree_startburn(inst)
 end
 
 local function tree_burnt(inst)
-    local burnt_tree = SpawnPrefab("kyno_cave_banana_burnt")
+    local burnt_tree = SpawnPrefab("sap_cave_banana_burnt")
     burnt_tree.Transform:SetPosition(inst.Transform:GetWorldPosition())
     burnt_tree.no_banana = inst.components.pickable == nil or not inst.components.pickable.canbepicked
     if burnt_tree.no_banana then
@@ -308,6 +308,6 @@ local function burnt_fn()
     return inst
 end
 
-return Prefab("kyno_cave_banana_tree", tree_fn, assets, prefabs_tree),
-    Prefab("kyno_cave_banana_burnt", burnt_fn, assets, prefabs_burnt),
-    Prefab("kyno_cave_banana_stump", stump_fn, assets, prefabs_stump)
+return Prefab("sap_cave_banana_tree", tree_fn, assets, prefabs_tree),
+    Prefab("sap_cave_banana_burnt", burnt_fn, assets, prefabs_burnt),
+    Prefab("sap_cave_banana_stump", stump_fn, assets, prefabs_stump)

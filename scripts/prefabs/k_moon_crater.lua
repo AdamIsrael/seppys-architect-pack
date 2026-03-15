@@ -119,17 +119,17 @@ local function fn7()
     return inst
 end
 
-return Prefab("kyno_mooncrater_1", fn1, assets, prefabs),
-Prefab("kyno_mooncrater_2", fn2, assets, prefabs),
-Prefab("kyno_mooncrater_3", fn3, assets, prefabs),
-Prefab("kyno_mooncrater_4", fn4, assets, prefabs),
-Prefab("kyno_mooncrater_5", fn5, assets, prefabs),
-Prefab("kyno_mooncrater_6", fn6, assets, prefabs),
-Prefab("kyno_mooncrater_7", fn7, assets, prefabs),
-MakePlacer("kyno_mooncrater_1_placer", "crater", "crater", "f1"),
-MakePlacer("kyno_mooncrater_2_placer", "crater", "crater", "f2"),
-MakePlacer("kyno_mooncrater_3_placer", "crater", "crater", "f3"),
-MakePlacer("kyno_mooncrater_4_placer", "crater", "crater", "f4"),
-MakePlacer("kyno_mooncrater_5_placer", "crater", "crater", "f5"),
-MakePlacer("kyno_mooncrater_6_placer", "crater", "crater", "f6"),
-MakePlacer("kyno_mooncrater_7_placer", "crater", "crater", "f7")
+return Prefab("sap_mooncrater_1", fn1, assets, prefabs),
+Prefab("sap_mooncrater_2", fn2, assets, prefabs),
+Prefab("sap_mooncrater_3", fn3, assets, prefabs),
+Prefab("sap_mooncrater_4", fn4, assets, prefabs),
+Prefab("sap_mooncrater_5", fn5, assets, prefabs),
+Prefab("sap_mooncrater_6", fn6, assets, prefabs),
+Prefab("sap_mooncrater_7", fn7, assets, prefabs),
+MakePlacer("sap_mooncrater_1_placer", "crater", "crater", "f1"),
+MakePlacer("sap_mooncrater_2_placer", "crater", "crater", "f2"),
+MakePlacer("sap_mooncrater_3_placer", "crater", "crater", "f3"),
+MakePlacer("sap_mooncrater_4_placer", "crater", "crater", "f4"),
+MakePlacer("sap_mooncrater_5_placer", "crater", "crater", "f5"),
+MakePlacer("sap_mooncrater_6_placer", "crater", "crater", "f6"),
+MakePlacer("sap_mooncrater_7_placer", "crater", "crater", "f7")

@@ -13,7 +13,7 @@ local function onhammered(inst, worker)
 	inst.components.lootdropper:DropLoot()
 
 	SpawnPrefab("collapse_small").Transform:SetPosition(inst.Transform:GetWorldPosition())
-	SpawnPrefab("kyno_vault_teleporter_broken").Transform:SetPosition(inst.Transform:GetWorldPosition())
+	SpawnPrefab("sap_vault_teleporter_broken").Transform:SetPosition(inst.Transform:GetWorldPosition())
 	inst.SoundEmitter:PlaySound("dontstarve/common/destroy_stone")
 	inst:Remove()
 end
@@ -191,8 +191,8 @@ local function fn3()
     return inst
 end
 
-return Prefab("kyno_vault_teleporter", fn, assets),
-Prefab("kyno_vault_teleporter_construction", fn2, assets),
-Prefab("kyno_vault_teleporter_broken", fn3, assets),
-MakePlacer("kyno_vault_teleporter_placer", "vault_portal", "vault_portal", "idle_off"),
-MakePlacer("kyno_vault_teleporter_construction_placer", "vault_portal", "vault_portal", "unpowered_construction")
+return Prefab("sap_vault_teleporter", fn, assets),
+Prefab("sap_vault_teleporter_construction", fn2, assets),
+Prefab("sap_vault_teleporter_broken", fn3, assets),
+MakePlacer("sap_vault_teleporter_placer", "vault_portal", "vault_portal", "idle_off"),
+MakePlacer("sap_vault_teleporter_construction_placer", "vault_portal", "vault_portal", "unpowered_construction")

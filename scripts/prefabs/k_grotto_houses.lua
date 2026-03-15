@@ -251,9 +251,9 @@ local function house3fn()
     return inst
 end
 
-return Prefab("kyno_grottohouse1", house1fn, assets),
-Prefab("kyno_grottohouse2", house2fn, assets),
-Prefab("kyno_grottohouse3", house3fn, assets),
-MakePlacer("kyno_grottohouse1_placer", "grotto_bug_house", "grotto_bug_house", "idle1"),
-MakePlacer("kyno_grottohouse2_placer", "grotto_bug_house", "grotto_bug_house", "idle2"),
-MakePlacer("kyno_grottohouse3_placer", "grotto_bug_house", "grotto_bug_house", "idle3")
+return Prefab("sap_grottohouse1", house1fn, assets),
+Prefab("sap_grottohouse2", house2fn, assets),
+Prefab("sap_grottohouse3", house3fn, assets),
+MakePlacer("sap_grottohouse1_placer", "grotto_bug_house", "grotto_bug_house", "idle1"),
+MakePlacer("sap_grottohouse2_placer", "grotto_bug_house", "grotto_bug_house", "idle2"),
+MakePlacer("sap_grottohouse3_placer", "grotto_bug_house", "grotto_bug_house", "idle3")

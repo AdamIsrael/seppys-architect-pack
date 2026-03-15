@@ -17,14 +17,14 @@ local prefabs =
     "sinkhole_spawn_fx_2",
     "sinkhole_spawn_fx_3",
 	
-	"kyno_turf_webbing",
-	"kyno_ground_webbing",
+	"sap_turf_webbing",
+	"sap_ground_webbing",
 }
 
 local function OnDigWebbing(inst, worker)
 	inst.components.lootdropper:DropLoot()
 	SpawnPrefab("sinkhole_spawn_fx_"..tostring(math.random(3))).Transform:SetPosition(inst.Transform:GetWorldPosition())
-	SpawnPrefab("kyno_turf_webbing").Transform:SetPosition(inst.Transform:GetWorldPosition())
+	SpawnPrefab("sap_turf_webbing").Transform:SetPosition(inst.Transform:GetWorldPosition())
 	inst.SoundEmitter:PlaySound("dontstarve/wilson/dig")
 	
 	inst.GroundCreepEntity:SetRadius(0)
@@ -37,7 +37,7 @@ local function OnPickup(inst)
 end
 
 local function OnDeploy(inst, pt)
-    local web = SpawnPrefab("kyno_ground_webbing")
+    local web = SpawnPrefab("sap_ground_webbing")
     if web ~= nil then
 		web.SoundEmitter:PlaySound("dontstarve/creatures/spider/spider_egg_sack")
         web.Transform:SetPosition(pt:Get())
@@ -125,5 +125,5 @@ local function webfn()
 	return inst
 end
 
-return Prefab("kyno_turf_webbing", fn, assets, prefabs),
-Prefab("kyno_ground_webbing", webfn, assets, prefabs)
+return Prefab("sap_turf_webbing", fn, assets, prefabs),
+Prefab("sap_ground_webbing", webfn, assets, prefabs)

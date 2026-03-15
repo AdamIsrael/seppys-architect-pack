@@ -145,7 +145,7 @@ local function fourfn()
 	return inst
 end
 
-return Prefab("kyno_sharkboi_icespike2", twofn, assets, prefabs),
-Prefab("kyno_sharkboi_icespike4", fourfn, assets, prefabs),
-MakePlacer("kyno_sharkboi_icespike2_placer", "sharkboi_icespike", "sharkboi_icespike", "spike2"),
-MakePlacer("kyno_sharkboi_icespike4_placer", "sharkboi_icespike", "sharkboi_icespike", "spike4")
+return Prefab("sap_sharkboi_icespike2", twofn, assets, prefabs),
+Prefab("sap_sharkboi_icespike4", fourfn, assets, prefabs),
+MakePlacer("sap_sharkboi_icespike2_placer", "sharkboi_icespike", "sharkboi_icespike", "spike2"),
+MakePlacer("sap_sharkboi_icespike4_placer", "sharkboi_icespike", "sharkboi_icespike", "spike4")

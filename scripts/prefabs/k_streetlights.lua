@@ -283,7 +283,7 @@ local function shortfn()
     return inst
 end
 
-return Prefab("kyno_streetlight1", tallfn, assets),
-Prefab("kyno_streetlight2", shortfn, assets),
-MakePlacer("kyno_streetlight1_placer", "kyno_lamp_post", "kyno_lamp_post", "idle_off"),
-MakePlacer("kyno_streetlight2_placer", "kyno_lamp_post_short", "kyno_lamp_post_short", "idle_off")
+return Prefab("sap_streetlight1", tallfn, assets),
+Prefab("sap_streetlight2", shortfn, assets),
+MakePlacer("sap_streetlight1_placer", "kyno_lamp_post", "kyno_lamp_post", "idle_off"),
+MakePlacer("sap_streetlight2_placer", "kyno_lamp_post_short", "kyno_lamp_post_short", "idle_off")

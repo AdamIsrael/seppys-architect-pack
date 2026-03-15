@@ -19,7 +19,7 @@ local prefabs =
     "poop",
     "cave_banana",
     "collapse_small",
-	"kyno_primeape",
+	"sap_primeape",
 }
 
 SetSharedLootTable('kyno_primeape_barrel',
@@ -168,7 +168,7 @@ local function fn()
     inst.components.childspawner:SetSpawnPeriod(30)
     inst.components.childspawner:SetMaxChildren(math.random(3, 4))
     inst.components.childspawner:StartRegen()
-    inst.components.childspawner.childname = "kyno_primeape"
+    inst.components.childspawner.childname = "sap_primeape"
     inst.components.childspawner:StartSpawning()
     inst.components.childspawner.ongohome = ongohome
     inst.components.childspawner:SetSpawnedFn(shake)
@@ -204,5 +204,5 @@ local function fn()
     return inst
 end
 
-return Prefab("kyno_primeape_barrel", fn, assets, prefabs),
-MakePlacer("kyno_primeape_barrel_placer", "barrel_tropical", "monkey_barrel_tropical", "idle")
+return Prefab("sap_primeape_barrel", fn, assets, prefabs),
+MakePlacer("sap_primeape_barrel_placer", "barrel_tropical", "monkey_barrel_tropical", "idle")

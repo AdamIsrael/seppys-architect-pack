@@ -702,4 +702,4 @@ local function normal()
     return inst
 end
 
-return Prefab("kyno_wildbore", normal, assets, prefabs)
+return Prefab("sap_wildbore", normal, assets, prefabs)

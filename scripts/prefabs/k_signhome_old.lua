@@ -70,5 +70,5 @@ local function fn()
     return inst
 end
 
-return Prefab("kyno_homesign_old", fn, assets),
-MakePlacer("kyno_homesign_old_placer", "kyno_signhome", "kyno_signhome", "idle_old")
+return Prefab("sap_homesign_old", fn, assets),
+MakePlacer("sap_homesign_old_placer", "kyno_signhome", "kyno_signhome", "idle_old")

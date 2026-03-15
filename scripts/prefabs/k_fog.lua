@@ -59,5 +59,5 @@ local function fn()
     return inst
 end
 
-return Prefab("kyno_fog", fn, assets),
-MakePlacer("kyno_fog_placer", "kyno_fog", "kyno_fog", "idle", true, nil, nil, nil, 90, nil)
+return Prefab("sap_fog", fn, assets),
+MakePlacer("sap_fog_placer", "kyno_fog", "kyno_fog", "idle", true, nil, nil, nil, 90, nil)

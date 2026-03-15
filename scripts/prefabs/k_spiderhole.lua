@@ -54,7 +54,7 @@ end
 
 local function GoToBrokenState(inst)
     --Remove myself, spawn a rock version in my place.
-    SpawnPrefab("kyno_spiderhole_rock").Transform:SetPosition(inst.Transform:GetWorldPosition())
+    SpawnPrefab("sap_spiderhole_rock").Transform:SetPosition(inst.Transform:GetWorldPosition())
     inst:Remove()
 end
 
@@ -202,5 +202,5 @@ local function rockfn()
     return inst
 end
 
-return Prefab("kyno_spiderhole", spawnerfn, assets, prefabs),
-    Prefab("kyno_spiderhole_rock", rockfn, assets, prefabs)
+return Prefab("sap_spiderhole", spawnerfn, assets, prefabs),
+    Prefab("sap_spiderhole_rock", rockfn, assets, prefabs)

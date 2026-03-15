@@ -136,6 +136,6 @@ local function addcone(name, spawn_prefab, bank, build, anim, winter_tree)
     table.insert(cones, MakePlacer(name.."_placer", bank, build, anim))
 end
 
-addcone("teatree_nut", "kyno_teatree_sapling", "teatree_nut", "teatree_nut", "idle_planted")
+addcone("teatree_nut", "sap_teatree_sapling", "teatree_nut", "teatree_nut", "idle_planted")
 
 return unpack(cones)

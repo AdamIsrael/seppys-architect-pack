@@ -23,7 +23,7 @@ local prefabs =
 }
 
 local function setupstump(inst)
-    SpawnPrefab("kyno_cottontree2_stump").Transform:SetPosition(inst.Transform:GetWorldPosition())
+    SpawnPrefab("sap_cottontree2_stump").Transform:SetPosition(inst.Transform:GetWorldPosition())
     inst:Remove()
 end
 
@@ -165,6 +165,6 @@ local function cottontree2placetestfn(inst)
 	inst.AnimState:SetScale(.85, .85, .85)
 end
 
-return Prefab("kyno_cottontree2", fn, assets, prefabs),
-Prefab("kyno_cottontree2_stump", stump_fn, assets, prefabs),
-MakePlacer("kyno_cottontree2_placer", "quagmire_tree_cotton_tall", "quagmire_tree_cotton_build", "sway1_loop", false, nil, nil, nil, nil, nil, cottontree2placetestfn)
+return Prefab("sap_cottontree2", fn, assets, prefabs),
+Prefab("sap_cottontree2_stump", stump_fn, assets, prefabs),
+MakePlacer("sap_cottontree2_placer", "quagmire_tree_cotton_tall", "quagmire_tree_cotton_build", "sway1_loop", false, nil, nil, nil, nil, nil, cottontree2placetestfn)

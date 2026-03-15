@@ -77,5 +77,5 @@ local function fn()
     return inst
 end
 
-return Prefab("kyno_cavecleft", fn, assets, prefabs),
-MakePlacer("kyno_cavecleft_placer", "vampbat_den", "vamp_bat_entrance", "idle")
+return Prefab("sap_cavecleft", fn, assets, prefabs),
+MakePlacer("sap_cavecleft_placer", "vampbat_den", "vamp_bat_entrance", "idle")

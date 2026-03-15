@@ -197,5 +197,5 @@ local function PlaceTestFn(inst)
     inst.AnimState:SetSortOrder(3)
 end
 
-return Prefab("kyno_sharkboi_hole", fn, assets, prefabs),
-MakePlacer("kyno_sharkboi_hole_placer", "icefishing_hole", "icefishing_hole", "idle", false, nil, nil, nil, nil, nil, PlaceTestFn)
+return Prefab("sap_sharkboi_hole", fn, assets, prefabs),
+MakePlacer("sap_sharkboi_hole_placer", "icefishing_hole", "icefishing_hole", "idle", false, nil, nil, nil, nil, nil, PlaceTestFn)

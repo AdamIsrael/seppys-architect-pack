@@ -102,7 +102,7 @@ local function fn2()
     return inst
 end
 
-return Prefab("kyno_vault_minion1", fn1, assets),
-Prefab("kyno_vault_minion2", fn2, assets),
-MakePlacer("kyno_vault_minion1_placer", "abyss_pillar_minion", "abyss_pillar_minion", "idle_off"),
-MakePlacer("kyno_vault_minion2_placer", "abyss_pillar_minion", "abyss_pillar_minion", "broken")
+return Prefab("sap_vault_minion1", fn1, assets),
+Prefab("sap_vault_minion2", fn2, assets),
+MakePlacer("sap_vault_minion1_placer", "abyss_pillar_minion", "abyss_pillar_minion", "idle_off"),
+MakePlacer("sap_vault_minion2_placer", "abyss_pillar_minion", "abyss_pillar_minion", "broken")

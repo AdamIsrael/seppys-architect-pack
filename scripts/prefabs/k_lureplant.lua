@@ -151,5 +151,5 @@ local function fn()
     return inst
 end
 
-return Prefab("kyno_lureplant", fn, assets),
-MakePlacer("kyno_lureplant_placer", "eyeplant_trap", "eyeplant_trap", "idle")
+return Prefab("sap_lureplant", fn, assets),
+MakePlacer("sap_lureplant_placer", "eyeplant_trap", "eyeplant_trap", "idle")

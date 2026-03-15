@@ -170,5 +170,5 @@ local function fn()
 	return inst
 end
 
-return Prefab("kyno_redtree_bud", fn, assets, prefabs),
-MakePlacer("kyno_redtree_bud_placer", "kyno_redtree_bud", "kyno_redtree_bud", "sway1_loop_bud")
+return Prefab("sap_redtree_bud", fn, assets, prefabs),
+MakePlacer("sap_redtree_bud_placer", "kyno_redtree_bud", "kyno_redtree_bud", "sway1_loop_bud")

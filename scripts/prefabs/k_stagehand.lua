@@ -82,5 +82,5 @@ local function fn()
     return inst
 end
 
-return Prefab("kyno_contrarregra", fn, assets, prefabs),
-MakePlacer("kyno_contrarregra_placer", "stagehand", "stagehand", "idle")
+return Prefab("sap_contrarregra", fn, assets, prefabs),
+MakePlacer("sap_contrarregra_placer", "stagehand", "stagehand", "idle")

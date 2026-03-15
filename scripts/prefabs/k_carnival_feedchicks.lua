@@ -122,7 +122,7 @@ local function machinefn()
     inst.AnimState:PlayAnimation("idle_off")
     
 	inst:AddTag("structure")
-	inst:AddTag("kyno_carnival")
+	inst:AddTag("sap_carnival")
 	
 	MakeSnowCoveredPristine(inst)
 	
@@ -216,7 +216,7 @@ local function birdfn()
     inst.AnimState:PlayAnimation("hungry_loop", true)
 
 	inst:AddTag("structure")
-	inst:AddTag("kyno_carnival")
+	inst:AddTag("sap_carnival")
 	
     inst.entity:SetPristine()
 
@@ -247,9 +247,9 @@ local function birdfn()
     return inst
 end
 
-return Prefab("kyno_carnival_feedchicks_station", machinefn, assets),
-Prefab("kyno_carnival_feedchicks_floor", floorfn, assets),
-Prefab("kyno_carnival_feedchicks_bird", birdfn, assets),
-MakePlacer("kyno_carnival_feedchicks_station_placer", "carnivalgame_feedchicks_station", "carnivalgame_feedchicks_station", "idle_off"),
-MakePlacer("kyno_carnival_feedchicks_floor_placer", "carnivalgame_feedchicks_floor", "carnivalgame_feedchicks_floor", "idle", true, nil, nil, nil, 90, nil),
-MakePlacer("kyno_carnival_feedchicks_bird_placer", "carnivalgame_feedchicks_bird", "carnivalgame_feedchicks_bird", "hungry_loop")
+return Prefab("sap_carnival_feedchicks_station", machinefn, assets),
+Prefab("sap_carnival_feedchicks_floor", floorfn, assets),
+Prefab("sap_carnival_feedchicks_bird", birdfn, assets),
+MakePlacer("sap_carnival_feedchicks_station_placer", "carnivalgame_feedchicks_station", "carnivalgame_feedchicks_station", "idle_off"),
+MakePlacer("sap_carnival_feedchicks_floor_placer", "carnivalgame_feedchicks_floor", "carnivalgame_feedchicks_floor", "idle", true, nil, nil, nil, 90, nil),
+MakePlacer("sap_carnival_feedchicks_bird_placer", "carnivalgame_feedchicks_bird", "carnivalgame_feedchicks_bird", "hungry_loop")

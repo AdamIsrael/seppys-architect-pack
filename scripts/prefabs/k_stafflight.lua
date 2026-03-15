@@ -200,8 +200,8 @@ local function makestafflight(name, is_hot, anim, colour, idles, is_fx)
     return Prefab(name, fn, assets)
 end
 
-return makestafflight("kyno_stafflight", true, "star_hot", { 223 / 255, 208 / 255, 69 / 255 }, { "idle_loop" }, false),
-makestafflight("kyno_staffcoldlight", false, "star_cold", { 64 / 255, 64 / 255, 208 / 255 }, { "idle_loop", "idle_loop2", "idle_loop3" }, false),
-makestafflight("kyno_staffcoldlightfx", false, "star_cold", { 64 / 255, 64 / 255, 208 / 255 }, { "idle_loop", "idle_loop2", "idle_loop3" }, true),
-MakePlacer("kyno_stafflight_placer", "star_hot", "star_hot", "idle_loop"),
-MakePlacer("kyno_staffcoldlight_placer", "star_cold", "star_cold", "idle_loop")
+return makestafflight("sap_stafflight", true, "star_hot", { 223 / 255, 208 / 255, 69 / 255 }, { "idle_loop" }, false),
+makestafflight("sap_staffcoldlight", false, "star_cold", { 64 / 255, 64 / 255, 208 / 255 }, { "idle_loop", "idle_loop2", "idle_loop3" }, false),
+makestafflight("sap_staffcoldlightfx", false, "star_cold", { 64 / 255, 64 / 255, 208 / 255 }, { "idle_loop", "idle_loop2", "idle_loop3" }, true),
+MakePlacer("sap_stafflight_placer", "star_hot", "star_hot", "idle_loop"),
+MakePlacer("sap_staffcoldlight_placer", "star_cold", "star_cold", "idle_loop")

@@ -87,7 +87,7 @@ local function fn_common(faceId, skinned)
     lootdropper:AddRandomLoot("pumpkin",       0.5)
     lootdropper:AddRandomLoot("pumpkin_seeds", 0.5)
     if skinned then
-        local recipeloot = lootdropper:GetRecipeLoot(AllRecipes["kyno_adai_hallowedpumpkin"])
+        local recipeloot = lootdropper:GetRecipeLoot(AllRecipes["sap_adai_hallowedpumpkin"])
         for k,v in ipairs(recipeloot) do
             lootdropper:AddChanceLoot(v, 1)
         end
@@ -117,7 +117,7 @@ local function pumpkinplacer(inst)
     inst.AnimState:SetScale(1.25, 1.25, 1.25)
 
     inst.ApplySkin = function(inst, skin)
-        local skin_prefix = "kyno_adai_hallowedpumpkin"
+        local skin_prefix = "sap_adai_hallowedpumpkin"
         local skin_number = tonumber(string.sub(skin, #skin_prefix + 1))
         skin_number       = (skin_number < 10 and "0" or "") .. skin_number
         inst.AnimState:PlayAnimation("face"..skin_number, true)
@@ -128,16 +128,16 @@ local ret = {}
 
 -- Normal prefab
 table.insert(ret, Prefab(
-    "kyno_adai_hallowedpumpkin",
+    "sap_adai_hallowedpumpkin",
     function() return fn_common("face01", false) end,
     assets,
     prefabs))
 
 -- Placer
 table.insert(ret, MakePlacer(
-    "kyno_adai_hallowedpumpkin_placer",
-    "kyno_adai_hallowedpumpkin",
-    "kyno_adai_hallowedpumpkin",
+    "sap_adai_hallowedpumpkin_placer",
+    "sap_adai_hallowedpumpkin",
+    "sap_adai_hallowedpumpkin",
     "face01",
     false,
     nil,
@@ -153,17 +153,17 @@ for id = 2, 17 do
     local faceId = (id < 10) and ("face0" .. id) or ("face" .. id)
 
     table.insert(ret, CreateModPrefabSkin(
-        "kyno_adai_hallowedpumpkin" .. id,
+        "sap_adai_hallowedpumpkin" .. id,
         {
             assets =
             {
                 Asset("ANIM", "anim/kyno_adai_hallowedpumpkin.zip"),
             },
-            base_prefab         = "kyno_adai_hallowedpumpkin",
+            base_prefab         = "sap_adai_hallowedpumpkin",
             fn                  = function() return fn_common(faceId, true) end,
             rarity              = "Event",
             reskinable          = true,
-            build_name_override = "kyno_adai_hallowedpumpkin",
+            build_name_override = "sap_adai_hallowedpumpkin",
             type                = "item",
             skin_tags           = { },
             release_group       = 0,

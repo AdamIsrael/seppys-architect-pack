@@ -13,21 +13,21 @@ local assets =
 local prefabs =
 {
     "plant_normal",
-    "kyno_hydro_farmrock",
-    "kyno_hydro_farmrocktall",
-    "kyno_hydro_farmrockflat",
-    "kyno_hydro_stick",
-    "kyno_hydro_stickleft",
-    "kyno_hydro_stickright",
-    "kyno_hydro_burntstick",
-    "kyno_hydro_burntstickleft",
-    "kyno_hydro_burntstickright",
-    "kyno_hydro_signleft",
-    "kyno_hydro_signright",
-    "kyno_hydro_fencepost",
-    "kyno_hydro_fencepostright",
-    "kyno_hydro_burntfencepost",
-    "kyno_hydro_burntfencepostright",
+    "sap_hydro_farmrock",
+    "sap_hydro_farmrocktall",
+    "sap_hydro_farmrockflat",
+    "sap_hydro_stick",
+    "sap_hydro_stickleft",
+    "sap_hydro_stickright",
+    "sap_hydro_burntstick",
+    "sap_hydro_burntstickleft",
+    "sap_hydro_burntstickright",
+    "sap_hydro_signleft",
+    "sap_hydro_signright",
+    "sap_hydro_fencepost",
+    "sap_hydro_fencepostright",
+    "sap_hydro_burntfencepost",
+    "sap_hydro_burntfencepostright",
     "collapse_small",
 }
 
@@ -367,7 +367,7 @@ local function placerdecor(level)
     end
 end
 
-return Prefab("kyno_slow_hydrofarmplot", plot(2), assets, prefabs),
-Prefab("kyno_fast_hydrofarmplot", plot(3), assets, prefabs),
-MakePlacer("kyno_slow_hydrofarmplot_placer", "hydroponic_farmplot", "hydroponic_farmplot", "full", true, nil, nil, nil, 90, nil, placerdecor(2)),
-MakePlacer("kyno_fast_hydrofarmplot_placer", "hydroponic_farmplot", "hydroponic_farmplot", "full", true, nil, nil, nil, 90, nil, placerdecor(3))
+return Prefab("sap_slow_hydrofarmplot", plot(2), assets, prefabs),
+Prefab("sap_fast_hydrofarmplot", plot(3), assets, prefabs),
+MakePlacer("sap_slow_hydrofarmplot_placer", "hydroponic_farmplot", "hydroponic_farmplot", "full", true, nil, nil, nil, 90, nil, placerdecor(2)),
+MakePlacer("sap_fast_hydrofarmplot_placer", "hydroponic_farmplot", "hydroponic_farmplot", "full", true, nil, nil, nil, 90, nil, placerdecor(3))

@@ -53,8 +53,8 @@ local function fn()
 
 	inst:AddComponent("inventoryitem")
 	inst.components.inventoryitem.atlasname = "images/inventoryimages/tap_inventoryimages.xml"
-	inst.components.inventoryitem.imagename = "kyno_earring"
-	inst.components.inventoryitem:ChangeImageName("kyno_earring")
+	inst.components.inventoryitem.imagename = "sap_earring"
+	inst.components.inventoryitem:ChangeImageName("sap_earring")
 
 	inst:AddComponent("tradable")
 	inst.components.tradable.goldvalue = 3
@@ -66,4 +66,4 @@ local function fn()
 	return inst
 end
 
-return Prefab("kyno_earring", fn, assets, prefabs)
+return Prefab("sap_earring", fn, assets, prefabs)

@@ -17,31 +17,31 @@ local prefabs =
 {
 	"splash_sink",
 	"pigman",
-    "kyno_pigman_collector",
-    "kyno_pigman_banker",
-    "kyno_pigman_beautician",
-    "kyno_pigman_florist",
-    "kyno_pigman_erudite",
-    "kyno_pigman_hunter",
-    "kyno_pigman_hatmaker",
-    "kyno_pigman_usher",
-    "kyno_pigman_mechanic",
-    "kyno_pigman_storeowner",
-    "kyno_pigman_professor",
+    "sap_pigman_collector",
+    "sap_pigman_banker",
+    "sap_pigman_beautician",
+    "sap_pigman_florist",
+    "sap_pigman_erudite",
+    "sap_pigman_hunter",
+    "sap_pigman_hatmaker",
+    "sap_pigman_usher",
+    "sap_pigman_mechanic",
+    "sap_pigman_storeowner",
+    "sap_pigman_professor",
 }
 
 local citizens_list = {
-	[1] = "kyno_pigman_banker",
-	[2] = "kyno_pigman_beautician",
-	[3] = "kyno_pigman_collector",
-	[4] = "kyno_pigman_erudite",
-	[5] = "kyno_pigman_florist",
-	[6] = "kyno_pigman_hunter",
-	[7] = "kyno_pigman_hatmaker",
-	[8] = "kyno_pigman_mechanic",
-	[9] = "kyno_pigman_professor",
-	[10] = "kyno_pigman_storeowner",
-	[11] = "kyno_pigman_usher",
+	[1] = "sap_pigman_banker",
+	[2] = "sap_pigman_beautician",
+	[3] = "sap_pigman_collector",
+	[4] = "sap_pigman_erudite",
+	[5] = "sap_pigman_florist",
+	[6] = "sap_pigman_hunter",
+	[7] = "sap_pigman_hatmaker",
+	[8] = "sap_pigman_mechanic",
+	[9] = "sap_pigman_professor",
+	[10] = "sap_pigman_storeowner",
+	[11] = "sap_pigman_usher",
 }
 
 local function LightsOn(inst)
@@ -396,10 +396,10 @@ end
 local function townplacerfn(inst)
 	inst.AnimState:Hide("snow")
 	inst.ApplySkin = function(inst, skin)
-		if skin == "kyno_pigtown2" then
+		if skin == "sap_pigtown2" then
 			inst.AnimState:SetBuild("pig_townhouse3")
 			inst.AnimState:PlayAnimation("idle")
-		elseif skin == "kyno_pigtown3" then
+		elseif skin == "sap_pigtown3" then
 			inst.AnimState:SetBuild("pig_townhouse4")
 			inst.AnimState:PlayAnimation("idle")
 		end
@@ -410,19 +410,19 @@ local function townplacefn(inst)
 	inst.AnimState:Hide("snow")
 end
 
-return Prefab("kyno_pigtown1", fn, assets),
-Prefab("kyno_pigtown2", fn2, assets),
-Prefab("kyno_pigtown3", fn3, assets),
-MakePlacer("kyno_pigtown1_placer", "pig_townhouse", "pig_townhouse2", "idle", false, nil, nil, nil, nil, nil, townplacerfn),
-MakePlacer("kyno_pigtown2_placer", "pig_townhouse", "pig_townhouse3", "idle", false, nil, nil, nil, nil, nil, townplacefn),
-MakePlacer("kyno_pigtown3_placer", "pig_townhouse", "pig_townhouse4", "idle", false, nil, nil, nil, nil, nil, townplacefn)
+return Prefab("sap_pigtown1", fn, assets),
+Prefab("sap_pigtown2", fn2, assets),
+Prefab("sap_pigtown3", fn3, assets),
+MakePlacer("sap_pigtown1_placer", "pig_townhouse", "pig_townhouse2", "idle", false, nil, nil, nil, nil, nil, townplacerfn),
+MakePlacer("sap_pigtown2_placer", "pig_townhouse", "pig_townhouse3", "idle", false, nil, nil, nil, nil, nil, townplacefn),
+MakePlacer("sap_pigtown3_placer", "pig_townhouse", "pig_townhouse4", "idle", false, nil, nil, nil, nil, nil, townplacefn)
 --[[,
-CreateModPrefabSkin("kyno_pigtown2",
+CreateModPrefabSkin("sap_pigtown2",
 	{
 		assets = {
 			Asset("ANIM", "anim/pig_townhouse3.zip"),
 		},
-		base_prefab = "kyno_pigtown1",
+		base_prefab = "sap_pigtown1",
 		fn = fn2,
 		rarity = "Timeless",
 		reskinable = true,
@@ -433,12 +433,12 @@ CreateModPrefabSkin("kyno_pigtown2",
 		skin_tags = { },
 		release_group = 0,
 	}),
-CreateModPrefabSkin("kyno_pigtown3",
+CreateModPrefabSkin("sap_pigtown3",
 	{
 		assets = {
 			Asset("ANIM", "anim/pig_townhouse4.zip"),
 		},
-		base_prefab = "kyno_pigtown1",
+		base_prefab = "sap_pigtown1",
 		fn = fn3,
 		rarity = "Timeless",
 		reskinable = true,

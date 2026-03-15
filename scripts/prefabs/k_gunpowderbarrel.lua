@@ -118,5 +118,5 @@ local function barrelplacerfn(inst)
 	inst.AnimState:SetScale(s, s, s)
 end
 
-return Prefab("kyno_gunpowderbarrel", fn, assets, prefabs),
-MakePlacer("kyno_gunpowderbarrel_placer", "kyno_powderbarrel", "kyno_powderbarrel", "barrel_off", false, nil, nil, nil, nil, nil, barrelplacerfn)  
+return Prefab("sap_gunpowderbarrel", fn, assets, prefabs),
+MakePlacer("sap_gunpowderbarrel_placer", "kyno_powderbarrel", "kyno_powderbarrel", "barrel_off", false, nil, nil, nil, nil, nil, barrelplacerfn)  

@@ -13,7 +13,7 @@ local events =
 
 local function ReleaseDoydoy(inst)
 	print("ReleaseDoydoy")
-	local doydoy = SpawnPrefab("kyno_doydoy")
+	local doydoy = SpawnPrefab("sap_doydoy")
 	doydoy.Transform:SetPosition(inst:GetPosition():Get())
 	doydoy.sg:GoToState("hatch")
 	inst.components.herd:AddMember(doydoy)

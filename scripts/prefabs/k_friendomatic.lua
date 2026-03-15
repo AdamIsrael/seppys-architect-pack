@@ -82,5 +82,5 @@ local function fn()
     return inst
 end
 
-return Prefab("kyno_friendomatic", fn, assets),
-MakePlacer("kyno_friendomatic_placer", "portal_friends", "portal_friends", "idle_closed")
+return Prefab("sap_friendomatic", fn, assets),
+MakePlacer("sap_friendomatic_placer", "portal_friends", "portal_friends", "idle_closed")

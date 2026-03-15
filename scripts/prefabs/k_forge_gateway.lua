@@ -160,7 +160,7 @@ local function anchorplacetestfn(inst)
 	inst.AnimState:Hide("key")
 end
 
-return Prefab("kyno_lavagateway", fn, assets, prefabs),
-Prefab("kyno_anchorgateway", keyholefn, assets, prefabs),
-MakePlacer("kyno_lavagateway_placer", "lavaarena_portal", "lavaarena_portal", "idle", true, nil, nil, nil, 90, nil),
-MakePlacer("kyno_anchorgateway_placer", "lavaarena_keyhole", "lavaarena_keyhole", "idle", true, nil, nil, nil, 90, nil, anchorplacetestfn)
+return Prefab("sap_lavagateway", fn, assets, prefabs),
+Prefab("sap_anchorgateway", keyholefn, assets, prefabs),
+MakePlacer("sap_lavagateway_placer", "lavaarena_portal", "lavaarena_portal", "idle", true, nil, nil, nil, 90, nil),
+MakePlacer("sap_anchorgateway_placer", "lavaarena_keyhole", "lavaarena_keyhole", "idle", true, nil, nil, nil, 90, nil, anchorplacetestfn)

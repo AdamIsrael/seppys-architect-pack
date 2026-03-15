@@ -338,5 +338,5 @@ local function beebox_hermit_master(inst)
     inst.components.workable:SetOnWorkCallback(onhit)
 end
 
-return MakeBeebox("kyno_beebox_hermit", beebox_hermit, beebox_hermit_master),
-MakePlacer("kyno_beebox_hermit_placer", "bee_box_hermitcrab", "bee_box_hermitcrab", "idle")
+return MakeBeebox("sap_beebox_hermit", beebox_hermit, beebox_hermit_master),
+MakePlacer("sap_beebox_hermit_placer", "bee_box_hermitcrab", "bee_box_hermitcrab", "idle")

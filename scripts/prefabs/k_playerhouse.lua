@@ -787,25 +787,25 @@ local function playerhouseplacetestfn(inst)
 	inst.AnimState:Hide("boards")
 	inst.AnimState:SetScale(0.75,0.75,0.75)
 	inst.ApplySkin = function(inst, skin)
-		if skin == "kyno_playerhouse1" then
+		if skin == "sap_playerhouse1" then
 			inst.AnimState:SetBank("playerhouse_small")
 			inst.AnimState:SetBuild("player_small_house1_cottage_build")
-		elseif skin == "kyno_playerhouse2" then
+		elseif skin == "sap_playerhouse2" then
 			inst.AnimState:SetBank("playerhouse_small")
 			inst.AnimState:SetBuild("player_small_house1_tudor_build")
-		elseif skin == "kyno_playerhouse3" then
+		elseif skin == "sap_playerhouse3" then
 			inst.AnimState:SetBank("playerhouse_small")
 			inst.AnimState:SetBuild("player_small_house1_gothic_build")
-		elseif skin == "kyno_playerhouse4" then
+		elseif skin == "sap_playerhouse4" then
 			inst.AnimState:SetBank("playerhouse_small")
 			inst.AnimState:SetBuild("player_small_house1_brick_build")
-		elseif skin == "kyno_playerhouse5" then
+		elseif skin == "sap_playerhouse5" then
 			inst.AnimState:SetBank("playerhouse_small")
 			inst.AnimState:SetBuild("player_small_house1_turret_build")
-		elseif skin == "kyno_playerhouse6" then
+		elseif skin == "sap_playerhouse6" then
 			inst.AnimState:SetBank("playerhouse_large")
 			inst.AnimState:SetBuild("player_large_house1_manor_build")
-		elseif skin == "kyno_playerhouse7" then
+		elseif skin == "sap_playerhouse7" then
 			inst.AnimState:SetBank("playerhouse_large")
 			inst.AnimState:SetBuild("player_large_house1_villa_build")
 		end
@@ -813,30 +813,30 @@ local function playerhouseplacetestfn(inst)
     return true
 end
 
-return Prefab("kyno_playerhouse", Slantyfn, assets, prefabs),
-Prefab("kyno_playerhouse1", Cottagefn, assets, prefabs),
-Prefab("kyno_playerhouse2", Tudorfn, assets, prefabs),
-Prefab("kyno_playerhouse3", Gothicfn, assets, prefabs),
-Prefab("kyno_playerhouse4", Brickfn, assets, prefabs),
-Prefab("kyno_playerhouse5", Turretfn, assets, prefabs),
-Prefab("kyno_playerhouse6", Manorfn, assets, prefabs),
-Prefab("kyno_playerhouse7", Villafn, assets, prefabs),
-MakePlacer("kyno_playerhouse_placer", "pig_house_sale", "pig_house_sale", "idle", false, nil, nil, nil, nil, nil, playerhouseplacetestfn),
-MakePlacer("kyno_playerhouse1_placer", "playerhouse_small", "player_small_house1_cottage_build", "idle", false, nil, nil, nil, nil, nil, commonplacefn),
-MakePlacer("kyno_playerhouse2_placer", "playerhouse_small", "player_small_house1_tudor_build", "idle", false, nil, nil, nil, nil, nil, commonplacefn),
-MakePlacer("kyno_playerhouse3_placer", "playerhouse_small", "player_small_house1_gothic_build", "idle", false, nil, nil, nil, nil, nil, commonplacefn),
-MakePlacer("kyno_playerhouse4_placer", "playerhouse_small", "player_small_house1_brick_build", "idle", false, nil, nil, nil, nil, nil, commonplacefn),
-MakePlacer("kyno_playerhouse5_placer", "playerhouse_small", "player_small_house1_turret_build", "idle", false, nil, nil, nil, nil, nil, commonplacefn),
-MakePlacer("kyno_playerhouse6_placer", "playerhouse_large", "player_large_house1_manor_build", "idle", false, nil, nil, nil, nil, nil, commonplacefn),
-MakePlacer("kyno_playerhouse7_placer", "playerhouse_large", "player_large_house1_villa_build", "idle", false, nil, nil, nil, nil, nil, commonplacefn)
+return Prefab("sap_playerhouse", Slantyfn, assets, prefabs),
+Prefab("sap_playerhouse1", Cottagefn, assets, prefabs),
+Prefab("sap_playerhouse2", Tudorfn, assets, prefabs),
+Prefab("sap_playerhouse3", Gothicfn, assets, prefabs),
+Prefab("sap_playerhouse4", Brickfn, assets, prefabs),
+Prefab("sap_playerhouse5", Turretfn, assets, prefabs),
+Prefab("sap_playerhouse6", Manorfn, assets, prefabs),
+Prefab("sap_playerhouse7", Villafn, assets, prefabs),
+MakePlacer("sap_playerhouse_placer", "pig_house_sale", "pig_house_sale", "idle", false, nil, nil, nil, nil, nil, playerhouseplacetestfn),
+MakePlacer("sap_playerhouse1_placer", "playerhouse_small", "player_small_house1_cottage_build", "idle", false, nil, nil, nil, nil, nil, commonplacefn),
+MakePlacer("sap_playerhouse2_placer", "playerhouse_small", "player_small_house1_tudor_build", "idle", false, nil, nil, nil, nil, nil, commonplacefn),
+MakePlacer("sap_playerhouse3_placer", "playerhouse_small", "player_small_house1_gothic_build", "idle", false, nil, nil, nil, nil, nil, commonplacefn),
+MakePlacer("sap_playerhouse4_placer", "playerhouse_small", "player_small_house1_brick_build", "idle", false, nil, nil, nil, nil, nil, commonplacefn),
+MakePlacer("sap_playerhouse5_placer", "playerhouse_small", "player_small_house1_turret_build", "idle", false, nil, nil, nil, nil, nil, commonplacefn),
+MakePlacer("sap_playerhouse6_placer", "playerhouse_large", "player_large_house1_manor_build", "idle", false, nil, nil, nil, nil, nil, commonplacefn),
+MakePlacer("sap_playerhouse7_placer", "playerhouse_large", "player_large_house1_villa_build", "idle", false, nil, nil, nil, nil, nil, commonplacefn)
 --[[
-CreateModPrefabSkin("kyno_playerhouse1",
+CreateModPrefabSkin("sap_playerhouse1",
 	{
 		assets = {
 			Asset("ANIM", "anim/player_small_house1.zip"),
 			Asset("ANIM", "anim/player_small_house1_cottage_build.zip"),
 		},
-		base_prefab = "kyno_playerhouse",
+		base_prefab = "sap_playerhouse",
 		fn = Cottagefn,
 		rarity = "Timeless",
 		reskinable = true,
@@ -847,13 +847,13 @@ CreateModPrefabSkin("kyno_playerhouse1",
 		skin_tags = { },
 		release_group = 0,
 	}),
-CreateModPrefabSkin("kyno_playerhouse2",
+CreateModPrefabSkin("sap_playerhouse2",
 	{
 		assets = {
 			Asset("ANIM", "anim/player_small_house1.zip"),
 			Asset("ANIM", "anim/player_small_house1_tudor_build.zip"),
 		},
-		base_prefab = "kyno_playerhouse",
+		base_prefab = "sap_playerhouse",
 		fn = Tudorfn,
 		rarity = "Timeless",
 		reskinable = true,
@@ -864,13 +864,13 @@ CreateModPrefabSkin("kyno_playerhouse2",
 		skin_tags = { },
 		release_group = 0,
 	}),
-CreateModPrefabSkin("kyno_playerhouse3",
+CreateModPrefabSkin("sap_playerhouse3",
 	{
 		assets = {
 			Asset("ANIM", "anim/player_small_house1.zip"),
 			Asset("ANIM", "anim/player_small_house1_gothic_build.zip"),
 		},
-		base_prefab = "kyno_playerhouse",
+		base_prefab = "sap_playerhouse",
 		fn = Gothicfn,
 		rarity = "Timeless",
 		reskinable = true,
@@ -881,13 +881,13 @@ CreateModPrefabSkin("kyno_playerhouse3",
 		skin_tags = { },
 		release_group = 0,
 	}),
-CreateModPrefabSkin("kyno_playerhouse4",
+CreateModPrefabSkin("sap_playerhouse4",
 	{
 		assets = {
 			Asset("ANIM", "anim/player_small_house1.zip"),
 			Asset("ANIM", "anim/player_small_house1_brick_build.zip"),
 		},
-		base_prefab = "kyno_playerhouse",
+		base_prefab = "sap_playerhouse",
 		fn = Brickfn,
 		rarity = "Timeless",
 		reskinable = true,
@@ -898,13 +898,13 @@ CreateModPrefabSkin("kyno_playerhouse4",
 		skin_tags = { },
 		release_group = 0,
 	}),
-CreateModPrefabSkin("kyno_playerhouse5",
+CreateModPrefabSkin("sap_playerhouse5",
 	{
 		assets = {
 			Asset("ANIM", "anim/player_small_house1.zip"),
 			Asset("ANIM", "anim/player_small_house1_turret_build.zip"),
 		},
-		base_prefab = "kyno_playerhouse",
+		base_prefab = "sap_playerhouse",
 		fn = Turretfn,
 		rarity = "Timeless",
 		reskinable = true,
@@ -915,13 +915,13 @@ CreateModPrefabSkin("kyno_playerhouse5",
 		skin_tags = { },
 		release_group = 0,
 	}),
-CreateModPrefabSkin("kyno_playerhouse6",
+CreateModPrefabSkin("sap_playerhouse6",
 	{
 		assets = {
 			Asset("ANIM", "anim/player_large_house1.zip"),
 			Asset("ANIM", "anim/player_large_house1_manor_build.zip"),
 		},
-		base_prefab = "kyno_playerhouse",
+		base_prefab = "sap_playerhouse",
 		fn = Manorfn,
 		rarity = "Timeless",
 		reskinable = true,
@@ -932,13 +932,13 @@ CreateModPrefabSkin("kyno_playerhouse6",
 		skin_tags = { },
 		release_group = 0,
 	}),
-CreateModPrefabSkin("kyno_playerhouse7",
+CreateModPrefabSkin("sap_playerhouse7",
 	{
 		assets = {
 			Asset("ANIM", "anim/player_large_house1.zip"),
 			Asset("ANIM", "anim/player_large_house1_villa_build.zip"),
 		},
-		base_prefab = "kyno_playerhouse",
+		base_prefab = "sap_playerhouse",
 		fn = Villafn,
 		rarity = "Timeless",
 		reskinable = true,

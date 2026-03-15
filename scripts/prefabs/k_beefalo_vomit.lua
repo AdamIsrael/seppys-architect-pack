@@ -55,5 +55,5 @@ local function fn()
     return inst
 end
 
-return Prefab("kyno_beefalo_vomit", fn, assets, prefabs),
-MakePlacer("kyno_beefalo_vomit_placer", "kyno_beefalo_vomit", "kyno_beefalo_vomit", "idle")
+return Prefab("sap_beefalo_vomit", fn, assets, prefabs),
+MakePlacer("sap_beefalo_vomit_placer", "kyno_beefalo_vomit", "kyno_beefalo_vomit", "idle")

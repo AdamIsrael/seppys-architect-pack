@@ -136,7 +136,7 @@ local function darkfn()
 	return inst
 end
 
-return Prefab("kyno_toadstoolcap", fn, assets, prefabs),
-Prefab("kyno_toadstoolcap_dark", darkfn, assets, prefabs),
-MakePlacer("kyno_toadstoolcap_placer", "toadstool", "toadstool_build", "mushroom_toad_idle_loop"),
-MakePlacer("kyno_toadstoolcap_dark_placer", "toadstool", "toadstool_dark_build", "mushroom_toad_idle_loop")
+return Prefab("sap_toadstoolcap", fn, assets, prefabs),
+Prefab("sap_toadstoolcap_dark", darkfn, assets, prefabs),
+MakePlacer("sap_toadstoolcap_placer", "toadstool", "toadstool_build", "mushroom_toad_idle_loop"),
+MakePlacer("sap_toadstoolcap_dark_placer", "toadstool", "toadstool_dark_build", "mushroom_toad_idle_loop")

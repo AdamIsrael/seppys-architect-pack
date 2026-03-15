@@ -69,11 +69,11 @@ local function husk3()
 	return fn("husk_mason")
 end
 
-return Prefab("kyno_vault_ancienthusk1", husk1, assets),
-MakePlacer("kyno_vault_ancienthusk1_placer", "ancient_husk", "ancient_husk", "husk_architect"),
+return Prefab("sap_vault_ancienthusk1", husk1, assets),
+MakePlacer("sap_vault_ancienthusk1_placer", "ancient_husk", "ancient_husk", "husk_architect"),
 
-Prefab("kyno_vault_ancienthusk2", husk2, assets),
-MakePlacer("kyno_vault_ancienthusk2_placer", "ancient_husk", "ancient_husk", "husk_handmaid"),
+Prefab("sap_vault_ancienthusk2", husk2, assets),
+MakePlacer("sap_vault_ancienthusk2_placer", "ancient_husk", "ancient_husk", "husk_handmaid"),
 
-Prefab("kyno_vault_ancienthusk3", husk3, assets),
-MakePlacer("kyno_vault_ancienthusk3_placer", "ancient_husk", "ancient_husk", "husk_mason")
+Prefab("sap_vault_ancienthusk3", husk3, assets),
+MakePlacer("sap_vault_ancienthusk3_placer", "ancient_husk", "ancient_husk", "husk_mason")

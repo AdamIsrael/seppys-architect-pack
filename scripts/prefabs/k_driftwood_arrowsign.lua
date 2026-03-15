@@ -16,7 +16,7 @@ local assets =
 local prefabs =
 {
     "collapse_small",
-    "kyno_driftwood_arrowsign_panel",
+    "sap_driftwood_arrowsign_panel",
 }
 
 local function OnHammered(inst, worker)
@@ -157,7 +157,7 @@ local function panelfn()
     return inst
 end
 
-return Prefab("kyno_driftwood_arrowsign", fn, assets, prefabs),
-Prefab("kyno_driftwood_arrowsign_panel", panelfn, assets, prefabs),
-MakePlacer("kyno_driftwood_arrowsign_placer", "sign_arrow_post", "kyno_driftwood_arrowsign_post", "idle", nil, nil, nil, nil, -90, "eight"),
-MakePlacer("kyno_driftwood_arrowsign_panel_placer", "sign_arrow_panel", "kyno_driftwood_arrowsign_panel", "idle", nil, nil, nil, nil, -90, "eight")
+return Prefab("sap_driftwood_arrowsign", fn, assets, prefabs),
+Prefab("sap_driftwood_arrowsign_panel", panelfn, assets, prefabs),
+MakePlacer("sap_driftwood_arrowsign_placer", "sign_arrow_post", "kyno_driftwood_arrowsign_post", "idle", nil, nil, nil, nil, -90, "eight"),
+MakePlacer("sap_driftwood_arrowsign_panel_placer", "sign_arrow_panel", "sap_driftwood_arrowsign_panel", "idle", nil, nil, nil, nil, -90, "eight")

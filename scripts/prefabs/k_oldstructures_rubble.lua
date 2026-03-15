@@ -16,32 +16,32 @@ local assets =
 local prefabs =
 {
 	"collapse_small",
-	"kyno_quagmire_rock1_low",
-	"kyno_quagmire_rock1_med",
-	"kyno_quagmire_rock2_low",
-	"kyno_quagmire_rock2_med",
-	"kyno_quagmire_rock3_low",
-	"kyno_quagmire_rock3_med",
-	"kyno_quagmire_rock4_low",
-	"kyno_quagmire_rock4_med",
-	"kyno_quagmire_rock5_low",
-	"kyno_quagmire_rock5_med",
-	"kyno_quagmire_rock6_low",
-	"kyno_quagmire_rock6_med"
+	"sap_quagmire_rock1_low",
+	"sap_quagmire_rock1_med",
+	"sap_quagmire_rock2_low",
+	"sap_quagmire_rock2_med",
+	"sap_quagmire_rock3_low",
+	"sap_quagmire_rock3_med",
+	"sap_quagmire_rock4_low",
+	"sap_quagmire_rock4_med",
+	"sap_quagmire_rock5_low",
+	"sap_quagmire_rock5_med",
+	"sap_quagmire_rock6_low",
+	"sap_quagmire_rock6_med"
 }
 
 local function rock1_onhammered_full(inst, worker)
 	inst.components.lootdropper:DropLoot()
 	inst.SoundEmitter:PlaySound("dontstarve/common/destroy_stone")
 	inst:Remove()
-	SpawnPrefab("kyno_quagmire_rock1_med").Transform:SetPosition(inst.Transform:GetWorldPosition())
+	SpawnPrefab("sap_quagmire_rock1_med").Transform:SetPosition(inst.Transform:GetWorldPosition())
 end
 
 local function rock1_onhammered_med(inst, worker)
 	inst.components.lootdropper:DropLoot()
 	inst.SoundEmitter:PlaySound("dontstarve/common/destroy_stone")
 	inst:Remove()
-	SpawnPrefab("kyno_quagmire_rock1_low").Transform:SetPosition(inst.Transform:GetWorldPosition())
+	SpawnPrefab("sap_quagmire_rock1_low").Transform:SetPosition(inst.Transform:GetWorldPosition())
 end
 
 local function onhammered_low(inst, worker)
@@ -105,7 +105,7 @@ local function rock1_med()
 	
 	inst:AddTag("structure")
 	
-	inst:SetPrefabNameOverride("kyno_quagmire_rock1_full")
+	inst:SetPrefabNameOverride("sap_quagmire_rock1_full")
 	
 	inst.entity:SetPristine()
 
@@ -147,7 +147,7 @@ local function rock1_low()
 	
 	inst:AddTag("structure")
 	
-	inst:SetPrefabNameOverride("kyno_quagmire_rock1_full")
+	inst:SetPrefabNameOverride("sap_quagmire_rock1_full")
 	
 	inst.entity:SetPristine()
 
@@ -177,14 +177,14 @@ local function rock2_onhammered_full(inst, worker)
 	inst.components.lootdropper:DropLoot()
 	inst.SoundEmitter:PlaySound("dontstarve/common/destroy_stone")
 	inst:Remove()
-	SpawnPrefab("kyno_quagmire_rock2_med").Transform:SetPosition(inst.Transform:GetWorldPosition())
+	SpawnPrefab("sap_quagmire_rock2_med").Transform:SetPosition(inst.Transform:GetWorldPosition())
 end
 
 local function rock2_onhammered_med(inst, worker)
 	inst.components.lootdropper:DropLoot()
 	inst.SoundEmitter:PlaySound("dontstarve/common/destroy_stone")
 	inst:Remove()
-	SpawnPrefab("kyno_quagmire_rock2_low").Transform:SetPosition(inst.Transform:GetWorldPosition())
+	SpawnPrefab("sap_quagmire_rock2_low").Transform:SetPosition(inst.Transform:GetWorldPosition())
 end
 
 local function rock2_full()
@@ -241,7 +241,7 @@ local function rock2_med()
 	
 	inst:AddTag("structure")
 	
-	inst:SetPrefabNameOverride("kyno_quagmire_rock2_full")
+	inst:SetPrefabNameOverride("sap_quagmire_rock2_full")
 	
 	inst.entity:SetPristine()
 
@@ -283,7 +283,7 @@ local function rock2_low()
 	
 	inst:AddTag("structure")
 	
-	inst:SetPrefabNameOverride("kyno_quagmire_rock2_full")
+	inst:SetPrefabNameOverride("sap_quagmire_rock2_full")
 	
 	inst.entity:SetPristine()
 
@@ -313,14 +313,14 @@ local function rock3_onhammered_full(inst, worker)
 	inst.components.lootdropper:DropLoot()
 	inst.SoundEmitter:PlaySound("dontstarve/common/destroy_stone")
 	inst:Remove()
-	SpawnPrefab("kyno_quagmire_rock3_med").Transform:SetPosition(inst.Transform:GetWorldPosition())
+	SpawnPrefab("sap_quagmire_rock3_med").Transform:SetPosition(inst.Transform:GetWorldPosition())
 end
 
 local function rock3_onhammered_med(inst, worker)
 	inst.components.lootdropper:DropLoot()
 	inst.SoundEmitter:PlaySound("dontstarve/common/destroy_stone")
 	inst:Remove()
-	SpawnPrefab("kyno_quagmire_rock3_low").Transform:SetPosition(inst.Transform:GetWorldPosition())
+	SpawnPrefab("sap_quagmire_rock3_low").Transform:SetPosition(inst.Transform:GetWorldPosition())
 end
 
 local function rock3_full()
@@ -377,7 +377,7 @@ local function rock3_med()
 	
 	inst:AddTag("structure")
 	
-	inst:SetPrefabNameOverride("kyno_quagmire_rock3_full")
+	inst:SetPrefabNameOverride("sap_quagmire_rock3_full")
 	
 	inst.entity:SetPristine()
 
@@ -419,7 +419,7 @@ local function rock3_low()
 	
 	inst:AddTag("structure")
 	
-	inst:SetPrefabNameOverride("kyno_quagmire_rock3_full")
+	inst:SetPrefabNameOverride("sap_quagmire_rock3_full")
 	
 	inst.entity:SetPristine()
 
@@ -449,14 +449,14 @@ local function rock4_onhammered_full(inst, worker)
 	inst.components.lootdropper:DropLoot()
 	inst.SoundEmitter:PlaySound("dontstarve/common/destroy_stone")
 	inst:Remove()
-	SpawnPrefab("kyno_quagmire_rock4_med").Transform:SetPosition(inst.Transform:GetWorldPosition())
+	SpawnPrefab("sap_quagmire_rock4_med").Transform:SetPosition(inst.Transform:GetWorldPosition())
 end
 
 local function rock4_onhammered_med(inst, worker)
 	inst.components.lootdropper:DropLoot()
 	inst.SoundEmitter:PlaySound("dontstarve/common/destroy_stone")
 	inst:Remove()
-	SpawnPrefab("kyno_quagmire_rock4_low").Transform:SetPosition(inst.Transform:GetWorldPosition())
+	SpawnPrefab("sap_quagmire_rock4_low").Transform:SetPosition(inst.Transform:GetWorldPosition())
 end
 
 local function rock4_full()
@@ -513,7 +513,7 @@ local function rock4_med()
 	
 	inst:AddTag("structure")
 	
-	inst:SetPrefabNameOverride("kyno_quagmire_rock4_full")
+	inst:SetPrefabNameOverride("sap_quagmire_rock4_full")
 	
 	inst.entity:SetPristine()
 
@@ -555,7 +555,7 @@ local function rock4_low()
 	
 	inst:AddTag("structure")
 	
-	inst:SetPrefabNameOverride("kyno_quagmire_rock4_full")
+	inst:SetPrefabNameOverride("sap_quagmire_rock4_full")
 	
 	inst.entity:SetPristine()
 
@@ -585,14 +585,14 @@ local function rock5_onhammered_full(inst, worker)
 	inst.components.lootdropper:DropLoot()
 	inst.SoundEmitter:PlaySound("dontstarve/common/destroy_stone")
 	inst:Remove()
-	SpawnPrefab("kyno_quagmire_rock5_med").Transform:SetPosition(inst.Transform:GetWorldPosition())
+	SpawnPrefab("sap_quagmire_rock5_med").Transform:SetPosition(inst.Transform:GetWorldPosition())
 end
 
 local function rock5_onhammered_med(inst, worker)
 	inst.components.lootdropper:DropLoot()
 	inst.SoundEmitter:PlaySound("dontstarve/common/destroy_stone")
 	inst:Remove()
-	SpawnPrefab("kyno_quagmire_rock5_low").Transform:SetPosition(inst.Transform:GetWorldPosition())
+	SpawnPrefab("sap_quagmire_rock5_low").Transform:SetPosition(inst.Transform:GetWorldPosition())
 end
 
 local function rock5_full()
@@ -649,7 +649,7 @@ local function rock5_med()
 	
 	inst:AddTag("structure")
 	
-	inst:SetPrefabNameOverride("kyno_quagmire_rock5_full")
+	inst:SetPrefabNameOverride("sap_quagmire_rock5_full")
 	
 	inst.entity:SetPristine()
 
@@ -691,7 +691,7 @@ local function rock5_low()
 	
 	inst:AddTag("structure")
 	
-	inst:SetPrefabNameOverride("kyno_quagmire_rock5_full")
+	inst:SetPrefabNameOverride("sap_quagmire_rock5_full")
 	
 	inst.entity:SetPristine()
 
@@ -721,14 +721,14 @@ local function rock6_onhammered_full(inst, worker)
 	inst.components.lootdropper:DropLoot()
 	inst.SoundEmitter:PlaySound("dontstarve/common/destroy_stone")
 	inst:Remove()
-	SpawnPrefab("kyno_quagmire_rock6_med").Transform:SetPosition(inst.Transform:GetWorldPosition())
+	SpawnPrefab("sap_quagmire_rock6_med").Transform:SetPosition(inst.Transform:GetWorldPosition())
 end
 
 local function rock6_onhammered_med(inst, worker)
 	inst.components.lootdropper:DropLoot()
 	inst.SoundEmitter:PlaySound("dontstarve/common/destroy_stone")
 	inst:Remove()
-	SpawnPrefab("kyno_quagmire_rock6_low").Transform:SetPosition(inst.Transform:GetWorldPosition())
+	SpawnPrefab("sap_quagmire_rock6_low").Transform:SetPosition(inst.Transform:GetWorldPosition())
 end
 
 local function rock6_full()
@@ -785,7 +785,7 @@ local function rock6_med()
 	
 	inst:AddTag("structure")
 	
-	inst:SetPrefabNameOverride("kyno_quagmire_rock6_full")
+	inst:SetPrefabNameOverride("sap_quagmire_rock6_full")
 	
 	inst.entity:SetPristine()
 
@@ -827,7 +827,7 @@ local function rock6_low()
 	
 	inst:AddTag("structure")
 	
-	inst:SetPrefabNameOverride("kyno_quagmire_rock6_full")
+	inst:SetPrefabNameOverride("sap_quagmire_rock6_full")
 	
 	inst.entity:SetPristine()
 
@@ -853,33 +853,33 @@ local function rock6_low()
 	return inst
 end
 
-return Prefab("kyno_quagmire_rock1_full", rock1_full, assets, prefabs),
-Prefab("kyno_quagmire_rock1_med", rock1_med, assets, prefabs),
-Prefab("kyno_quagmire_rock1_low", rock1_low, assets, prefabs),
+return Prefab("sap_quagmire_rock1_full", rock1_full, assets, prefabs),
+Prefab("sap_quagmire_rock1_med", rock1_med, assets, prefabs),
+Prefab("sap_quagmire_rock1_low", rock1_low, assets, prefabs),
 
-Prefab("kyno_quagmire_rock2_full", rock2_full, assets, prefabs),
-Prefab("kyno_quagmire_rock2_med", rock2_med, assets, prefabs),
-Prefab("kyno_quagmire_rock2_low", rock2_low, assets, prefabs),
+Prefab("sap_quagmire_rock2_full", rock2_full, assets, prefabs),
+Prefab("sap_quagmire_rock2_med", rock2_med, assets, prefabs),
+Prefab("sap_quagmire_rock2_low", rock2_low, assets, prefabs),
 
-Prefab("kyno_quagmire_rock3_full", rock3_full, assets, prefabs),
-Prefab("kyno_quagmire_rock3_med", rock3_med, assets, prefabs),
-Prefab("kyno_quagmire_rock3_low", rock3_low, assets, prefabs),
+Prefab("sap_quagmire_rock3_full", rock3_full, assets, prefabs),
+Prefab("sap_quagmire_rock3_med", rock3_med, assets, prefabs),
+Prefab("sap_quagmire_rock3_low", rock3_low, assets, prefabs),
 
-Prefab("kyno_quagmire_rock4_full", rock4_full, assets, prefabs),
-Prefab("kyno_quagmire_rock4_med", rock4_med, assets, prefabs),
-Prefab("kyno_quagmire_rock4_low", rock4_low, assets, prefabs),
+Prefab("sap_quagmire_rock4_full", rock4_full, assets, prefabs),
+Prefab("sap_quagmire_rock4_med", rock4_med, assets, prefabs),
+Prefab("sap_quagmire_rock4_low", rock4_low, assets, prefabs),
 
-Prefab("kyno_quagmire_rock5_full", rock5_full, assets, prefabs),
-Prefab("kyno_quagmire_rock5_med", rock5_med, assets, prefabs),
-Prefab("kyno_quagmire_rock5_low", rock5_low, assets, prefabs),
+Prefab("sap_quagmire_rock5_full", rock5_full, assets, prefabs),
+Prefab("sap_quagmire_rock5_med", rock5_med, assets, prefabs),
+Prefab("sap_quagmire_rock5_low", rock5_low, assets, prefabs),
 
-Prefab("kyno_quagmire_rock6_full", rock6_full, assets, prefabs),
-Prefab("kyno_quagmire_rock6_med", rock6_med, assets, prefabs),
-Prefab("kyno_quagmire_rock6_low", rock6_low, assets, prefabs),
+Prefab("sap_quagmire_rock6_full", rock6_full, assets, prefabs),
+Prefab("sap_quagmire_rock6_med", rock6_med, assets, prefabs),
+Prefab("sap_quagmire_rock6_low", rock6_low, assets, prefabs),
 
-MakePlacer("kyno_quagmire_rock1_full_placer", "quagmire_rock1", "quagmire_rock1", "full"),
-MakePlacer("kyno_quagmire_rock2_full_placer", "quagmire_rock2", "quagmire_rock2", "full"),
-MakePlacer("kyno_quagmire_rock3_full_placer", "quagmire_rock3", "quagmire_rock3", "full"),
-MakePlacer("kyno_quagmire_rock4_full_placer", "quagmire_rock4", "quagmire_rock4", "full"),
-MakePlacer("kyno_quagmire_rock5_full_placer", "quagmire_rock5", "quagmire_rock5", "full"),
-MakePlacer("kyno_quagmire_rock6_full_placer", "quagmire_rock6", "quagmire_rock6", "full")
+MakePlacer("sap_quagmire_rock1_full_placer", "quagmire_rock1", "quagmire_rock1", "full"),
+MakePlacer("sap_quagmire_rock2_full_placer", "quagmire_rock2", "quagmire_rock2", "full"),
+MakePlacer("sap_quagmire_rock3_full_placer", "quagmire_rock3", "quagmire_rock3", "full"),
+MakePlacer("sap_quagmire_rock4_full_placer", "quagmire_rock4", "quagmire_rock4", "full"),
+MakePlacer("sap_quagmire_rock5_full_placer", "quagmire_rock5", "quagmire_rock5", "full"),
+MakePlacer("sap_quagmire_rock6_full_placer", "quagmire_rock6", "quagmire_rock6", "full")

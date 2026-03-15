@@ -18,8 +18,8 @@ local assets =
 
 local prefabs =
 {
-	"kyno_salmonfish",
-	"kyno_salt_rack",
+	"sap_salmonfish",
+	"sap_salt_rack",
 	"saltrock",
 }
 
@@ -121,7 +121,7 @@ local function pondfn()
 	inst:AddComponent("fishable")
     inst.components.fishable.maxfish = TUNING.OASISLAKE_MAX_FISH
     inst.components.fishable:SetRespawnTime(TUNING.OASISLAKE_FISH_RESPAWN_TIME)
-    inst.components.fishable:AddFish("kyno_salmonfish")
+    inst.components.fishable:AddFish("sap_salmonfish")
 	
 	inst:AddComponent("savedrotation")
 	
@@ -170,7 +170,7 @@ local function saltpondfn()
 		inst.decor = {}
 		for item_name, data in pairs(decor_items) do
 			for l, offset in pairs(data) do
-				local item_inst = SpawnPrefab("kyno_salt_rack")
+				local item_inst = SpawnPrefab("sap_salt_rack")
 				item_inst.AnimState:PlayAnimation("place")
 				item_inst.AnimState:PushAnimation("idle", true)
 				item_inst.entity:SetParent(inst.entity)
@@ -248,8 +248,8 @@ local function rackplacetestfn(inst)
 	inst.AnimState:Show("idle")
 end
 
-return Prefab("kyno_saltpond", pondfn, assets, prefabs),
-Prefab("kyno_saltpond_rack", saltpondfn, assets, prefabs),
-Prefab("kyno_salt_rack", rackfn, assets, prefabs),
-MakePlacer("kyno_saltpond_placer", "quagmire_salt_pond", "quagmire_salt_pond", "idle", true, nil, nil, nil, 90, nil),
-MakePlacer("kyno_saltpond_rack_placer", "quagmire_salt_pond", "quagmire_salt_pond", "idle", true, nil, nil, nil, 90, nil, rackplacetestfn)
+return Prefab("sap_saltpond", pondfn, assets, prefabs),
+Prefab("sap_saltpond_rack", saltpondfn, assets, prefabs),
+Prefab("sap_salt_rack", rackfn, assets, prefabs),
+MakePlacer("sap_saltpond_placer", "quagmire_salt_pond", "quagmire_salt_pond", "idle", true, nil, nil, nil, 90, nil),
+MakePlacer("sap_saltpond_rack_placer", "quagmire_salt_pond", "quagmire_salt_pond", "idle", true, nil, nil, nil, 90, nil, rackplacetestfn)

@@ -72,5 +72,5 @@ local function fn()
     return inst
 end
 
-return Prefab("kyno_stoneobelisk", fn, assets),
-MakePlacer("kyno_stoneobelisk_placer", "quagmire_cemetery", "quagmire_cemetery", "obelisk")
+return Prefab("sap_stoneobelisk", fn, assets),
+MakePlacer("sap_stoneobelisk_placer", "quagmire_cemetery", "quagmire_cemetery", "obelisk")

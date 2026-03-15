@@ -288,5 +288,5 @@ local function fn()
     return inst
 end
 
-return Prefab("kyno_ruinsnightmarelight", fn, assets, prefabs),
-MakePlacer("kyno_ruinsnightmarelight_placer", "rock_light", "rock_light", "idle_closed")
+return Prefab("sap_ruinsnightmarelight", fn, assets, prefabs),
+MakePlacer("sap_ruinsnightmarelight_placer", "rock_light", "rock_light", "idle_closed")

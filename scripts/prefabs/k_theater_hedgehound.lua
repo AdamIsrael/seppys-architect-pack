@@ -97,5 +97,5 @@ local function fn()
 	return inst
 end
 
-return Prefab("kyno_theater_hedgehound", fn, assets),
-MakePlacer("kyno_theater_hedgehound_placer", "hedgehound_bush", "hedgehound_bush", "bush_idle")
+return Prefab("sap_theater_hedgehound", fn, assets),
+MakePlacer("sap_theater_hedgehound_placer", "hedgehound_bush", "hedgehound_bush", "bush_idle")

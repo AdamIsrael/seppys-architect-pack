@@ -118,7 +118,7 @@ local function PlaceTestFn(inst)
 	inst.AnimState:SetFinalOffset(1)
 end
 
-return Prefab("kyno_sharkboi_iceplow1", onefn, assets, prefabs),
-Prefab("kyno_sharkboi_iceplow2", twofn, assets, prefabs),
-MakePlacer("kyno_sharkboi_iceplow1_placer", "sharkboi_iceplow_fx", "sharkboi_iceplow_fx", "iceplow1_idle"), -- , false, nil, nil, nil, nil, nil, PlaceTestFn),
-MakePlacer("kyno_sharkboi_iceplow2_placer", "sharkboi_iceplow_fx", "sharkboi_iceplow_fx", "iceplow2_idle")  -- , false, nil, nil, nil, nil, nil, PlaceTestFn)
+return Prefab("sap_sharkboi_iceplow1", onefn, assets, prefabs),
+Prefab("sap_sharkboi_iceplow2", twofn, assets, prefabs),
+MakePlacer("sap_sharkboi_iceplow1_placer", "sharkboi_iceplow_fx", "sharkboi_iceplow_fx", "iceplow1_idle"), -- , false, nil, nil, nil, nil, nil, PlaceTestFn),
+MakePlacer("sap_sharkboi_iceplow2_placer", "sharkboi_iceplow_fx", "sharkboi_iceplow_fx", "iceplow2_idle")  -- , false, nil, nil, nil, nil, nil, PlaceTestFn)

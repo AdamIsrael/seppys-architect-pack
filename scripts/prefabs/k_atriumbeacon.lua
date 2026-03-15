@@ -10,8 +10,8 @@ local assets =
 
 local prefabs =
 {
-    "kyno_atriumlightback",
-    "kyno_atriumlightlight",
+    "sap_atriumlightback",
+    "sap_atriumlightlight",
 }
 
 local function onhammered(inst, worker)
@@ -61,10 +61,10 @@ local function fn()
         return inst
     end
 	
-	inst._back = SpawnPrefab("kyno_atriumlightback")
+	inst._back = SpawnPrefab("sap_atriumlightback")
     inst._back.entity:SetParent(inst.entity)
 
-    inst._light = SpawnPrefab("kyno_atriumlightlight")
+    inst._light = SpawnPrefab("sap_atriumlightlight")
     inst._light.entity:SetParent(inst.entity)
 
     inst.highlightchildren = { inst._back, inst._light }
@@ -123,7 +123,7 @@ end
 
 local function OnEntityReplicated(inst)
     local parent = inst.entity:GetParent()
-    if parent ~= nil and parent.prefab == "kyno_atriumbeacon" then
+    if parent ~= nil and parent.prefab == "sap_atriumbeacon" then
         table.insert(parent.highlightchildren, inst)
     end
 end
@@ -184,7 +184,7 @@ local function light_fn()
     return inst
 end
 
-return Prefab("kyno_atriumbeacon", fn, assets, prefabs),
-Prefab("kyno_atriumlightback", back_fn, assets),
-Prefab("kyno_atriumlightlight", light_fn, assets),
-MakePlacer("kyno_atriumbeacon_placer", "atrium_light", "atrium_light", "idle")
+return Prefab("sap_atriumbeacon", fn, assets, prefabs),
+Prefab("sap_atriumlightback", back_fn, assets),
+Prefab("sap_atriumlightlight", light_fn, assets),
+MakePlacer("sap_atriumbeacon_placer", "atrium_light", "atrium_light", "idle")

@@ -70,5 +70,5 @@ local function fn()
 	return inst
 end
 
-return Prefab("kyno_dragoonegg", fn, assets, prefabs),
-MakePlacer("kyno_dragoonegg_placer", "meteor", "dragoonegg", "egg_idle")
+return Prefab("sap_dragoonegg", fn, assets, prefabs),
+MakePlacer("sap_dragoonegg_placer", "meteor", "dragoonegg", "egg_idle")

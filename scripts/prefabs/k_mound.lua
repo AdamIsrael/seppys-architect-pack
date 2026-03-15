@@ -7,7 +7,7 @@ local assets =
 }
 
 local prefabs = {
-	"kyno_mound_dug",
+	"sap_mound_dug",
 	"ghost",
 }
 
@@ -46,7 +46,7 @@ local function dig_up_mound(inst, chopper)
 	inst:Remove()
 	inst.components.lootdropper:SpawnLootPrefab("boneshard")
 	inst.components.lootdropper:SpawnLootPrefab("boneshard")
-	SpawnPrefab("kyno_mound_dug").Transform:SetPosition(inst.Transform:GetWorldPosition())
+	SpawnPrefab("sap_mound_dug").Transform:SetPosition(inst.Transform:GetWorldPosition())
 end
 
 local function dig_up(inst, chopper)
@@ -139,6 +139,6 @@ local function dugfn()
     return inst
 end
 
-return Prefab("kyno_mound", fn, assets, prefabs),
-Prefab("kyno_mound_dug", dugfn, assets, prefabs),
-MakePlacer("kyno_mound_placer", "gravestone", "gravestones", "gravedirt")
+return Prefab("sap_mound", fn, assets, prefabs),
+Prefab("sap_mound_dug", dugfn, assets, prefabs),
+MakePlacer("sap_mound_placer", "gravestone", "gravestones", "gravedirt")

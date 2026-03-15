@@ -228,9 +228,9 @@ local function thornbushplacer(inst)
 	inst.AnimState:SetScale(.6, .6, .6)
 end
 
-return Prefab("kyno_thornbush1", fn, assets, prefabs),
-Prefab("kyno_thornbush2", fn2, assets, prefabs),
-Prefab("kyno_thornbush3", fn3, assets, prefabs),
-MakePlacer("kyno_thornbush1_placer", "thorn_bush", "thorn_bush", "idle", false, nil, nil, nil, nil, nil, thornbushplacer),
-MakePlacer("kyno_thornbush2_placer", "thorn_bush", "thorn_bush_guard_build", "idle", false, nil, nil, nil, nil, nil, thornbushplacer),
-MakePlacer("kyno_thornbush3_placer", "thorn_bush", "thorn_bush_mothermighty_build", "idle", false, nil, nil, nil, nil, nil, thornbushplacer)
+return Prefab("sap_thornbush1", fn, assets, prefabs),
+Prefab("sap_thornbush2", fn2, assets, prefabs),
+Prefab("sap_thornbush3", fn3, assets, prefabs),
+MakePlacer("sap_thornbush1_placer", "thorn_bush", "thorn_bush", "idle", false, nil, nil, nil, nil, nil, thornbushplacer),
+MakePlacer("sap_thornbush2_placer", "thorn_bush", "thorn_bush_guard_build", "idle", false, nil, nil, nil, nil, nil, thornbushplacer),
+MakePlacer("sap_thornbush3_placer", "thorn_bush", "thorn_bush_mothermighty_build", "idle", false, nil, nil, nil, nil, nil, thornbushplacer)

@@ -87,5 +87,5 @@ local function fn()
     return inst
 end
 
-return Prefab("kyno_teslapost", fn, assets),
-MakePlacer("kyno_teslapost_placer", "tesla_tree_short", "tesla_tree_short", "sway1_loop")
+return Prefab("sap_teslapost", fn, assets),
+MakePlacer("sap_teslapost_placer", "tesla_tree_short", "tesla_tree_short", "sway1_loop")

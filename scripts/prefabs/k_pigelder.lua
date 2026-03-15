@@ -269,5 +269,5 @@ local function fn()
 	return inst
 end
 
-return Prefab("kyno_pigelder", fn, assets, prefabs),
-MakePlacer("kyno_pigelder_placer", "quagmire_elderswampig", "quagmire_elderswampig", "idle")
+return Prefab("sap_pigelder", fn, assets, prefabs),
+MakePlacer("sap_pigelder_placer", "quagmire_elderswampig", "quagmire_elderswampig", "idle")

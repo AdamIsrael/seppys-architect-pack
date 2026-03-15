@@ -173,14 +173,14 @@ local function stool2()
 	return fn_stool(false)
 end
 
-return Prefab("kyno_vault_table1", table1, assets),
-MakePlacer("kyno_vault_table1_placer", "vault_table_round", "vault_table_round", "idle"),
+return Prefab("sap_vault_table1", table1, assets),
+MakePlacer("sap_vault_table1_placer", "vault_table_round", "vault_table_round", "idle"),
 
-Prefab("kyno_vault_table2", table2, assets),
-MakePlacer("kyno_vault_table2_placer", "vault_table_round", "vault_table_round", "idle"),
+Prefab("sap_vault_table2", table2, assets),
+MakePlacer("sap_vault_table2_placer", "vault_table_round", "vault_table_round", "idle"),
 
-Prefab("kyno_vault_stool1", stool1, assets),
-MakePlacer("kyno_vault_stool1_placer", "vault_chair_stool", "vault_chair_stool", "idle"),
+Prefab("sap_vault_stool1", stool1, assets),
+MakePlacer("sap_vault_stool1_placer", "vault_chair_stool", "vault_chair_stool", "idle"),
 
-Prefab("kyno_vault_stool2", stool2, assets),
-MakePlacer("kyno_vault_stool2_placer", "vault_chair_stool", "vault_chair_stool", "idle")
+Prefab("sap_vault_stool2", stool2, assets),
+MakePlacer("sap_vault_stool2_placer", "vault_chair_stool", "vault_chair_stool", "idle")

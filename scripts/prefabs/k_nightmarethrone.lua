@@ -17,7 +17,7 @@ local assets =
 
 local prefabs = 
 {
-	"kyno_endgame_maxwell",
+	"sap_endgame_maxwell",
 }
 
 local function onhammered(inst, worker)
@@ -29,7 +29,7 @@ local function onhammered(inst, worker)
 end
 
 local function onhammered2(inst, worker)
-	SpawnPrefab("kyno_endgame_maxwell_die").Transform:SetPosition(inst.Transform:GetWorldPosition())
+	SpawnPrefab("sap_endgame_maxwell_die").Transform:SetPosition(inst.Transform:GetWorldPosition())
 	inst.components.lootdropper:DropLoot()
 	inst:Remove()
 end
@@ -129,7 +129,7 @@ local function fn2()
     end
 	
 	local function createExtras(inst)
-		inst.maxwellprefab = SpawnPrefab("kyno_endgame_maxwell")
+		inst.maxwellprefab = SpawnPrefab("sap_endgame_maxwell")
 		inst.maxwellprefab.entity:SetParent(inst.entity)
 	end
 	
@@ -246,9 +246,9 @@ local function maxwellplacerfn(inst)
     inst.components.placer:LinkEntity(placer2)
 end
 
-return Prefab("kyno_nightmarethrone", fn, assets, prefabs),
-Prefab("kyno_maxwellthrone", fn2, assets, prefabs),
-Prefab("kyno_endgame_maxwell", maxwellfn, assets, prefabs),
-Prefab("kyno_endgame_maxwell_die", maxwelldiefn, assets, prefabs),
-MakePlacer("kyno_nightmarethrone_placer", "throne", "maxwell_throne", "idle"),
-MakePlacer("kyno_maxwellthrone_placer", "throne", "maxwell_throne", "idle", false, nil, nil, nil, nil, nil, maxwellplacerfn)
+return Prefab("sap_nightmarethrone", fn, assets, prefabs),
+Prefab("sap_maxwellthrone", fn2, assets, prefabs),
+Prefab("sap_endgame_maxwell", maxwellfn, assets, prefabs),
+Prefab("sap_endgame_maxwell_die", maxwelldiefn, assets, prefabs),
+MakePlacer("sap_nightmarethrone_placer", "throne", "maxwell_throne", "idle"),
+MakePlacer("sap_maxwellthrone_placer", "throne", "maxwell_throne", "idle", false, nil, nil, nil, nil, nil, maxwellplacerfn)

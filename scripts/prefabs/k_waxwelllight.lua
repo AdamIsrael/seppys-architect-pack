@@ -13,7 +13,7 @@ local assets =
 
 local prefabs =
 {
-    "kyno_waxwelllight_flame",
+    "sap_waxwelllight_flame",
 }
 
 local function onhammered(inst, worker)
@@ -87,7 +87,7 @@ local function fn()
 
 	inst:AddComponent("burnable")
 	inst.components.burnable.canlight = false
-    inst.components.burnable:AddBurnFX("kyno_waxwelllight_flame", Vector3(0,0,0), "fire_marker")
+    inst.components.burnable:AddBurnFX("sap_waxwelllight_flame", Vector3(0,0,0), "fire_marker")
     inst.components.burnable:SetOnIgniteFn(light)
 	inst.components.burnable:Ignite()
 	
@@ -101,5 +101,5 @@ local function fn()
 	return inst
 end
 
-return Prefab("kyno_waxwelltorch", fn, assets, prefabs),
-MakePlacer("kyno_waxwelltorch_placer", "maxwell_torch", "maxwell_torch", "idle")
+return Prefab("sap_waxwelltorch", fn, assets, prefabs),
+MakePlacer("sap_waxwelltorch_placer", "maxwell_torch", "maxwell_torch", "idle")

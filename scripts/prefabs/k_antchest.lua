@@ -24,7 +24,7 @@ local prefabs =
 }
 
 local function TestItemInside(inst, item, slot)
-	return item.prefab == "honey" or item.prefab == "kyno_nectar_pod"
+	return item.prefab == "honey" or item.prefab == "sap_nectar_pod"
 end
 
 local function OnOpen(inst) 
@@ -83,7 +83,7 @@ end
 
 local function RefreshAntChestBuild(inst, minimap)
     local containsHoney = inst.components.container:Has("honey", 1)
-	local containsNectar = inst.components.container:Has("kyno_nectar_pod", 1)
+	local containsNectar = inst.components.container:Has("sap_nectar_pod", 1)
 	local containsHoneyItem = inst.components.container:HasItemWithTag("honeyed", 1)
 	
     if containsHoney then
@@ -199,5 +199,5 @@ local function fn()
 	return inst
 end
 
-return Prefab("kyno_antchest", fn, assets, prefabs),
-MakePlacer("kyno_antchest_placer", "ant_chest", "ant_chest", "closed")
+return Prefab("sap_antchest", fn, assets, prefabs),
+MakePlacer("sap_antchest_placer", "ant_chest", "ant_chest", "closed")

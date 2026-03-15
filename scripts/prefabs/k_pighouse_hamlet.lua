@@ -14,7 +14,7 @@ local assets =
 local prefabs =
 {
     "pigman",
-	"kyno_pigman_usher",
+	"sap_pigman_usher",
     "splash_sink",
 }
 
@@ -421,7 +421,7 @@ local function fn()
     inst.components.workable:SetOnWorkCallback(onhit)
 
     inst:AddComponent("spawner")
-    inst.components.spawner:Configure("kyno_pigman_usher", TUNING.PIGHOUSE_SPAWN_TIME)
+    inst.components.spawner:Configure("sap_pigman_usher", TUNING.PIGHOUSE_SPAWN_TIME)
     inst.components.spawner.onoccupied = onoccupied
     inst.components.spawner.onvacate = onvacate
     inst.components.spawner:SetWaterSpawning(false, true)
@@ -450,5 +450,5 @@ local function fn()
     return inst
 end
 
-return Prefab("kyno_pighouse_hamlet", fn, assets, prefabs),
-MakePlacer("kyno_pighouse_hamlet_placer", "pig_house", "pighouse_hamlet", "idle")
+return Prefab("sap_pighouse_hamlet", fn, assets, prefabs),
+MakePlacer("sap_pighouse_hamlet_placer", "pig_house", "pighouse_hamlet", "idle")

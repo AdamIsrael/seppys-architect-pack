@@ -45,7 +45,7 @@ local atlas = (src and src.components.inventoryitem and src.components.inventory
 -- Custom deploy for Sand Bags.
 local _CanDeploySandbagAtPoint = Map.CanDeploySandbagAtPoint
 function Map:CanDeploySandbagAtPoint(pt, inst, ...)
-	for i, v in ipairs(TheSim:FindEntities(pt.x, 0, pt.z, 2, {"kyno_sandbagsmall_item"})) do
+	for i, v in ipairs(TheSim:FindEntities(pt.x, 0, pt.z, 2, {"sap_sandbagsmall_item"})) do
         if v ~= inst and
             v.entity:IsVisible() and
             v.components.placer == nil and
@@ -57,6 +57,19 @@ function Map:CanDeploySandbagAtPoint(pt, inst, ...)
         end
     end
     return _CanDeploySandbagAtPoint(self, pt, inst, ...)
+end
+
+-- Legacy save compatibility: register old kyno_ prefab names as aliases.
+modimport("tap_init/tap_legacy_map")
+local SpawnPrefab = _G.SpawnPrefab
+local Prefab = _G.Prefab
+local RegisterPrefabs = _G.RegisterPrefabs
+
+for old_name, new_name in pairs(TAP_LEGACY_MAP) do
+	local function fn()
+		return SpawnPrefab(new_name)
+	end
+	RegisterPrefabs(Prefab(old_name, fn))
 end
 
 -- Placer Methods.

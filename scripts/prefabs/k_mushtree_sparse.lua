@@ -160,7 +160,7 @@ local function tallfn()
     return inst
 end
 
-return Prefab("kyno_mushtree_sparse_small", smallfn, assets, prefabs),
-Prefab("kyno_mushtree_sparse_tall", tallfn, assets, prefabs),
-MakePlacer("kyno_mushtree_sparse_small_placer", "kyno_mushtree_sparse_small", "kyno_mushtree_sparse_small", "idle_loop", false, nil, nil, 1.3),
-MakePlacer("kyno_mushtree_sparse_tall_placer", "kyno_mushtree_sparse_tall", "kyno_mushtree_sparse_tall", "idle_loop", false, nil, nil, 1.3)
+return Prefab("sap_mushtree_sparse_small", smallfn, assets, prefabs),
+Prefab("sap_mushtree_sparse_tall", tallfn, assets, prefabs),
+MakePlacer("sap_mushtree_sparse_small_placer", "kyno_mushtree_sparse_small", "kyno_mushtree_sparse_small", "idle_loop", false, nil, nil, 1.3),
+MakePlacer("sap_mushtree_sparse_tall_placer", "kyno_mushtree_sparse_tall", "kyno_mushtree_sparse_tall", "idle_loop", false, nil, nil, 1.3)

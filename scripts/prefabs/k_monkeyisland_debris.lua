@@ -138,9 +138,9 @@ local function fn3()
     return inst
 end
 
-return Prefab("kyno_monkeyisland_debris1", fn1, assets, prefabs),
-Prefab("kyno_monkeyisland_debris2", fn2, assets, prefabs),
-Prefab("kyno_monkeyisland_debris3", fn3, assets, prefabs),
-MakePlacer("kyno_monkeyisland_debris1_placer", "portal_debris", "portal_debris", "idle1"),
-MakePlacer("kyno_monkeyisland_debris2_placer", "portal_debris", "portal_debris", "idle2"),
-MakePlacer("kyno_monkeyisland_debris3_placer", "portal_debris", "portal_debris", "idle3")
+return Prefab("sap_monkeyisland_debris1", fn1, assets, prefabs),
+Prefab("sap_monkeyisland_debris2", fn2, assets, prefabs),
+Prefab("sap_monkeyisland_debris3", fn3, assets, prefabs),
+MakePlacer("sap_monkeyisland_debris1_placer", "portal_debris", "portal_debris", "idle1"),
+MakePlacer("sap_monkeyisland_debris2_placer", "portal_debris", "portal_debris", "idle2"),
+MakePlacer("sap_monkeyisland_debris3_placer", "portal_debris", "portal_debris", "idle3")

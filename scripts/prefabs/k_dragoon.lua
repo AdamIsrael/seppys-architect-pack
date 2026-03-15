@@ -18,8 +18,8 @@ local prefabs =
 	-- "dragonfly_fx",
 	-- "kyno_firesplash_fx",
 	-- "kyno_firering_fx",
-	"kyno_dragoonfire",
-	"kyno_dragoonspit2",
+	"sap_dragoonfire",
+	"sap_dragoonspit2",
 	-- "kyno_dragoon_charge_fx", -- undefined prefab (not implemented, already commented out in SGdragoon.lua)
 }
 
@@ -177,4 +177,4 @@ local function fn()
 	return inst
 end
 
-return Prefab("kyno_dragoon", fn, assets, prefabs)
+return Prefab("sap_dragoon", fn, assets, prefabs)

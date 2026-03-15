@@ -10,23 +10,23 @@ local assets =
 
 local prefabs =
 {
-	"kyno_brokenbits_full",
-	"kyno_brokenbits_med",
-	"kyno_brokenbits_low",
+	"sap_brokenbits_full",
+	"sap_brokenbits_med",
+	"sap_brokenbits_low",
 }
 
 local function onhammered_full(inst, worker)
 	SpawnPrefab("collapse_small").Transform:SetPosition(inst.Transform:GetWorldPosition())
 	inst.SoundEmitter:PlaySound("dontstarve/common/destroy_pot_bigger")
 	inst:Remove()
-	SpawnPrefab("kyno_brokenbits_med").Transform:SetPosition(inst.Transform:GetWorldPosition())
+	SpawnPrefab("sap_brokenbits_med").Transform:SetPosition(inst.Transform:GetWorldPosition())
 end
 
 local function onhammered_med(inst, worker)
 	SpawnPrefab("collapse_small").Transform:SetPosition(inst.Transform:GetWorldPosition())
 	inst.SoundEmitter:PlaySound("dontstarve/common/destroy_pot_bigger")
 	inst:Remove()
-	SpawnPrefab("kyno_brokenbits_low").Transform:SetPosition(inst.Transform:GetWorldPosition())
+	SpawnPrefab("sap_brokenbits_low").Transform:SetPosition(inst.Transform:GetWorldPosition())
 end
 
 local function onhammered_low(inst, worker)
@@ -168,9 +168,9 @@ local function lowfn()
 	return inst
 end
 
-return Prefab("kyno_brokenbits_full", fullfn, assets, prefabs),
-Prefab("kyno_brokenbits_med", medfn, assets, prefabs),
-Prefab("kyno_brokenbits_low", lowfn, assets, prefabs),
-MakePlacer("kyno_brokenbits_full_placer", "rubble", "ruins_rubble", "full"),
-MakePlacer("kyno_brokenbits_med_placer", "rubble", "ruins_rubble", "med"),
-MakePlacer("kyno_brokenbits_low_placer", "rubble", "ruins_rubble", "low")
+return Prefab("sap_brokenbits_full", fullfn, assets, prefabs),
+Prefab("sap_brokenbits_med", medfn, assets, prefabs),
+Prefab("sap_brokenbits_low", lowfn, assets, prefabs),
+MakePlacer("sap_brokenbits_full_placer", "rubble", "ruins_rubble", "full"),
+MakePlacer("sap_brokenbits_med_placer", "rubble", "ruins_rubble", "med"),
+MakePlacer("sap_brokenbits_low_placer", "rubble", "ruins_rubble", "low")

@@ -287,5 +287,5 @@ local function fn()
     return inst
 end
 
-return Prefab("kyno_archive_cookpot", fn, assets, prefabs),
-MakePlacer("kyno_archive_cookpot_placer", "cook_pot", "cookpot_archive", "idle_empty")
+return Prefab("sap_archive_cookpot", fn, assets, prefabs),
+MakePlacer("sap_archive_cookpot_placer", "cook_pot", "cookpot_archive", "idle_empty")

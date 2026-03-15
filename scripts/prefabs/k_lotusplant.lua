@@ -13,7 +13,7 @@ local assets =
 
 local prefabs =
 {
-    "kyno_lotus_flower",
+    "sap_lotus_flower",
 }
 
 local function onpickedfn(inst)
@@ -113,7 +113,7 @@ local function fn()
 
     inst:AddComponent("pickable")
     inst.components.pickable.picksound = "turnoftides/common/together/water/harvest_plant"
-    inst.components.pickable:SetUp("kyno_lotus_flower", TUNING.LICHEN_REGROW_TIME)
+    inst.components.pickable:SetUp("sap_lotus_flower", TUNING.LICHEN_REGROW_TIME)
     inst.components.pickable.onregenfn = onregenfn
     inst.components.pickable.onpickedfn = onpickedfn
     inst.components.pickable.makeemptyfn = makeemptyfn
@@ -136,5 +136,5 @@ local function fn()
 	return inst
 end
 
-return Prefab("kyno_lotusplant", fn, assets, prefabs),
-MakePlacer("kyno_lotusplant_placer", "lotus", "lotus", "idle_plant")
+return Prefab("sap_lotusplant", fn, assets, prefabs),
+MakePlacer("sap_lotusplant_placer", "lotus", "lotus", "idle_plant")

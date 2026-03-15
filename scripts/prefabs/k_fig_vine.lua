@@ -213,7 +213,7 @@ local function fallenfn()
 	return inst
 end
 
-return Prefab("kyno_fig_vine", fn, assets, prefabs),
-Prefab("kyno_fig_vine_fallen", fallenfn, assets, prefabs),
-MakePlacer("kyno_fig_vine_placer", "oceanvine", "oceanvine", "idle_fruit"),
-MakePlacer("kyno_fig_vine_fallen_placer", "oceanvine", "oceanvine", "fallen")
+return Prefab("sap_fig_vine", fn, assets, prefabs),
+Prefab("sap_fig_vine_fallen", fallenfn, assets, prefabs),
+MakePlacer("sap_fig_vine_placer", "oceanvine", "oceanvine", "idle_fruit"),
+MakePlacer("sap_fig_vine_fallen_placer", "oceanvine", "oceanvine", "fallen")

@@ -48,7 +48,7 @@ local function fn()
     end
 	
 	local function createExtras(inst)
-		inst.bgprefab = SpawnPrefab("kyno_theater_stagebg")
+		inst.bgprefab = SpawnPrefab("sap_theater_stagebg")
 		inst.bgprefab.entity:SetParent(inst.entity)
 	end
 	
@@ -145,8 +145,8 @@ local function fn3()
 	return inst
 end
 
-return Prefab("kyno_theater_stage", fn, assets),
-Prefab("kyno_theater_stagebg", fn2, assets),
-Prefab("kyno_theater_seat", fn3, assets),
-MakePlacer("kyno_theater_stage_placer", "charlie_stage", "charlie_Stage", "idle", true),
-MakePlacer("kyno_theater_seat_placer", "charlie_seat", "charlie_seat", "test")
+return Prefab("sap_theater_stage", fn, assets),
+Prefab("sap_theater_stagebg", fn2, assets),
+Prefab("sap_theater_seat", fn3, assets),
+MakePlacer("sap_theater_stage_placer", "charlie_stage", "charlie_Stage", "idle", true),
+MakePlacer("sap_theater_seat_placer", "charlie_seat", "charlie_seat", "test")

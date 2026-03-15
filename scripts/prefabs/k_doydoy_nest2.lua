@@ -16,9 +16,9 @@ local assets =
 
 local prefabs = 
 {
-	"kyno_doydoy",
-	"kyno_doydoy_baby",
-	"kyno_doydoyegg",
+	"sap_doydoy",
+	"sap_doydoy_baby",
+	"sap_doydoyegg",
 	"goose_feather",
 }
 
@@ -75,7 +75,7 @@ local function onhit(inst, worker)
 end
 
 local function itemtest(inst, item)
-	return not inst.components.pickable:CanBePicked() and item:HasTag("kyno_doydoyegg")
+	return not inst.components.pickable:CanBePicked() and item:HasTag("sap_doydoyegg")
 end
 
 local function itemget(inst, giver, item)
@@ -121,13 +121,13 @@ local function fn()
 	inst.components.lootdropper:SetLoot({"cutgrass", "twigs", "twigs", "goose_feather"})
 	
 	inst:AddComponent("pickable")
-	inst.components.pickable:SetUp("kyno_doydoyegg")
+	inst.components.pickable:SetUp("sap_doydoyegg")
 	inst.components.pickable:SetOnPickedFn(onpicked)
 	inst.components.pickable:SetOnRegenFn(onregrow)
 	inst.components.pickable:SetMakeEmptyFn(onmakeempty)
 	
 	inst:AddComponent("childspawner")
-	inst.components.childspawner.childname = "kyno_doydoy_baby"
+	inst.components.childspawner.childname = "sap_doydoy_baby"
 	inst.components.childspawner.spawnoffscreen = true
 	inst.components.childspawner:SetRegenPeriod(10000)
 	inst.components.childspawner:StopRegen()
@@ -159,5 +159,5 @@ local function fn()
 	return inst
 end
 
-return Prefab("kyno_doydoy_nest2", fn, assets, prefabs),
-MakePlacer("kyno_doydoy_nest2_placer", "doydoy_nest", "doydoy_nest", "idle_nest")
+return Prefab("sap_doydoy_nest2", fn, assets, prefabs),
+MakePlacer("sap_doydoy_nest2_placer", "doydoy_nest", "doydoy_nest", "idle_nest")

@@ -206,5 +206,5 @@ local function lampplacetestfn(inst)
     return true
 end
 
-return Prefab("kyno_lamppost", fn, assets, prefabs),
-MakePlacer("kyno_lamppost_placer", "lamp_post", "lamp_post2_city_build", "idle", false, nil, nil, nil, nil, nil, lampplacetestfn)
+return Prefab("sap_lamppost", fn, assets, prefabs),
+MakePlacer("sap_lamppost_placer", "lamp_post", "lamp_post2_city_build", "idle", false, nil, nil, nil, nil, nil, lampplacetestfn)

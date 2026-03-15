@@ -16,7 +16,7 @@ local assets =
 
 local prefabs = 
 {
-	"kyno_balloon_fx",
+	"sap_balloon_fx",
 }
 
 local function onhammered(inst, worker)
@@ -186,7 +186,7 @@ local function basketfn()
     end
 	
 	local function createExtras(inst)
-	inst.towerprefab =  SpawnPrefab("kyno_balloon_fx")
+	inst.towerprefab =  SpawnPrefab("sap_balloon_fx")
 	inst.towerprefab.entity:SetParent(inst.entity)
 	end
 	
@@ -377,22 +377,22 @@ local function trunkfn()
 	return inst
 end
 
-return Prefab("kyno_balloon_wreck", balloonfn, assets, prefabs),
-MakePlacer("kyno_balloon_wreck_placer", "balloon_wreckage", "balloon_wreckage", "balloon"),
+return Prefab("sap_balloon_wreck", balloonfn, assets, prefabs),
+MakePlacer("sap_balloon_wreck_placer", "balloon_wreckage", "balloon_wreckage", "balloon"),
 
-Prefab("kyno_basket_wreck", basketfn, assets, prefabs),
-MakePlacer("kyno_basket_wreck_placer", "balloon_wreckage", "balloon_wreckage", "basket"),
+Prefab("sap_basket_wreck", basketfn, assets, prefabs),
+MakePlacer("sap_basket_wreck_placer", "balloon_wreckage", "balloon_wreckage", "basket"),
 
-Prefab("kyno_sandbag_wreck", bagsandfn, assets, prefabs),
-MakePlacer("kyno_sandbag_wreck_placer", "balloon_wreckage", "balloon_wreckage", "sandbag"),
+Prefab("sap_sandbag_wreck", bagsandfn, assets, prefabs),
+MakePlacer("sap_sandbag_wreck_placer", "balloon_wreckage", "balloon_wreckage", "sandbag"),
 
-Prefab("kyno_flags_wreck", flagsfn, assets, prefabs),
-MakePlacer("kyno_flags_wreck_placer", "balloon_wreckage", "balloon_wreckage", "flags"),
+Prefab("sap_flags_wreck", flagsfn, assets, prefabs),
+MakePlacer("sap_flags_wreck_placer", "balloon_wreckage", "balloon_wreckage", "flags"),
 
-Prefab("kyno_suitcase_wreck", suitcasefn, assets, prefabs),
-MakePlacer("kyno_suitcase_wreck_placer", "balloon_wreckage", "balloon_wreckage", "suitcase"),
+Prefab("sap_suitcase_wreck", suitcasefn, assets, prefabs),
+MakePlacer("sap_suitcase_wreck_placer", "balloon_wreckage", "balloon_wreckage", "suitcase"),
 
-Prefab("kyno_trunk_wreck", trunkfn, assets, prefabs),
-MakePlacer("kyno_trunk_wreck_placer", "balloon_wreckage", "balloon_wreckage", "trunk"),
+Prefab("sap_trunk_wreck", trunkfn, assets, prefabs),
+MakePlacer("sap_trunk_wreck_placer", "balloon_wreckage", "balloon_wreckage", "trunk"),
 
-Prefab("kyno_balloon_fx", fxfn, assets, prefabs)
+Prefab("sap_balloon_fx", fxfn, assets, prefabs)

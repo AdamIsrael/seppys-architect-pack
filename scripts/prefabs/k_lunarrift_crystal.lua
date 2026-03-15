@@ -152,7 +152,7 @@ local function smallfn()
     return crystal
 end
 
-return Prefab("kyno_lunarrift_crystal1", bigfn, assets, prefabs),
-Prefab("kyno_lunarrift_crystal2", smallfn, assets, prefabs),
-MakePlacer("kyno_lunarrift_crystal1_placer", "lunar_rift_crystals", "lunar_rift_crystals", "full", false, nil, nil, nil, 90, nil),
-MakePlacer("kyno_lunarrift_crystal2_placer", "lunar_rift_crystals", "lunar_rift_crystals", "small", false, nil, nil, nil, 90, nil)
+return Prefab("sap_lunarrift_crystal1", bigfn, assets, prefabs),
+Prefab("sap_lunarrift_crystal2", smallfn, assets, prefabs),
+MakePlacer("sap_lunarrift_crystal1_placer", "lunar_rift_crystals", "lunar_rift_crystals", "full", false, nil, nil, nil, 90, nil),
+MakePlacer("sap_lunarrift_crystal2_placer", "lunar_rift_crystals", "lunar_rift_crystals", "small", false, nil, nil, nil, 90, nil)

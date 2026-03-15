@@ -126,5 +126,5 @@ local function fn(pondtype)
 	return inst
 end
 
-return Prefab("kyno_lilypad", fn, assets, prefabs),
-MakePlacer("kyno_lilypad_placer", "lily_pad", "lily_pad", "med_idle", true, nil, nil, nil, 90, nil)
+return Prefab("sap_lilypad", fn, assets, prefabs),
+MakePlacer("sap_lilypad_placer", "lily_pad", "lily_pad", "med_idle", true, nil, nil, nil, 90, nil)

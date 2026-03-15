@@ -83,5 +83,5 @@ local function fn()
 	return inst
 end
 
-return Prefab("kyno_minitree", fn, assets, prefabs),
-MakePlacer("kyno_minitree_placer", "kyno_minitree", "kyno_minitree", "idle")
+return Prefab("sap_minitree", fn, assets, prefabs),
+MakePlacer("sap_minitree_placer", "kyno_minitree", "kyno_minitree", "idle")

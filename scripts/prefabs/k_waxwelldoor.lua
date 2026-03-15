@@ -92,5 +92,5 @@ local function fn()
     return inst
 end
 
-return Prefab("kyno_waxwelldoor", fn, assets),
-MakePlacer("kyno_waxwelldoor_placer", "portal_adventure", "portal_adventure", "idle_off")
+return Prefab("sap_waxwelldoor", fn, assets),
+MakePlacer("sap_waxwelldoor_placer", "portal_adventure", "portal_adventure", "idle_off")

@@ -16,7 +16,7 @@ local assets =
 }
 
 local prefabs = {
-	"kyno_canopy_shadow",
+	"sap_canopy_shadow",
 }
 
 local function onhealthchange(inst)
@@ -210,9 +210,9 @@ local function borderfn()
 	return inst
 end
 	
-return Prefab("kyno_vine1", vinefn, assets, prefabs),
-Prefab("kyno_vine2", hangingfn, assets, prefabs),
-Prefab("kyno_vine3", borderfn, assets, prefabs),
-MakePlacer("kyno_vineone_placer", "exitrope", "copycreep_build", "idle_loop"),
-MakePlacer("kyno_vinetwo_placer", "exitrope", "vine01_build", "idle_loop"),
-MakePlacer("kyno_vinethree_placer", "vine_rainforest_border", "waterforest_vines", "idle_1")
+return Prefab("sap_vine1", vinefn, assets, prefabs),
+Prefab("sap_vine2", hangingfn, assets, prefabs),
+Prefab("sap_vine3", borderfn, assets, prefabs),
+MakePlacer("sap_vineone_placer", "exitrope", "copycreep_build", "idle_loop"),
+MakePlacer("sap_vinetwo_placer", "exitrope", "vine01_build", "idle_loop"),
+MakePlacer("sap_vinethree_placer", "vine_rainforest_border", "waterforest_vines", "idle_1")

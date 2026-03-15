@@ -87,12 +87,12 @@ local function makepiece(name)
 		return inst
     end
 	
-	return Prefab("kyno_sculpture_"..name, fn, assets, prefabs)
+	return Prefab("sap_sculpture_"..name, fn, assets, prefabs)
 end
 
 return makepiece("knighthead"),
 makepiece("bishophead"),
 makepiece("rooknose"),
-MakePlacer("kyno_knighthead_placer", "sculpture_pieces", "swap_sculpture_knighthead", "anim"),
-MakePlacer("kyno_bishophead_placer", "sculpture_pieces", "swap_sculpture_bishophead", "anim"),
-MakePlacer("kyno_rooknose_placer", "sculpture_pieces", "swap_sculpture_rooknose", "anim")
+MakePlacer("sap_knighthead_placer", "sculpture_pieces", "swap_sculpture_knighthead", "anim"),
+MakePlacer("sap_bishophead_placer", "sculpture_pieces", "swap_sculpture_bishophead", "anim"),
+MakePlacer("sap_rooknose_placer", "sculpture_pieces", "swap_sculpture_rooknose", "anim")

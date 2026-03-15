@@ -109,5 +109,5 @@ local function zapperplacer(inst)
 	inst.AnimState:SetScale(2, 2, 2)
 end
 
-return Prefab("kyno_bugzapper", fn, assets),
-MakePlacer("kyno_bugzapper_placer", "bugzapper", "bugzapper", "idle_off", false, nil, nil, nil, nil, nil, zapperplacer)
+return Prefab("sap_bugzapper", fn, assets),
+MakePlacer("sap_bugzapper_placer", "bugzapper", "bugzapper", "idle_off", false, nil, nil, nil, nil, nil, zapperplacer)

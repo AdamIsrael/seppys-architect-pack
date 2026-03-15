@@ -62,4 +62,4 @@ local function fn()
     return inst
 end
 
-return Prefab("kyno_obsidianfire", fn, assets, prefabs)
+return Prefab("sap_obsidianfire", fn, assets, prefabs)

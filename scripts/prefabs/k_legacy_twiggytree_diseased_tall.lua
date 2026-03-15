@@ -39,7 +39,7 @@ local function OnTimerDone(inst, data)
 		inst.SoundEmitter:PlaySound("dontstarve/forest/treeGrowFromWilt")
 
 		inst:ListenForEvent("animover", function() inst:Remove() end)
-		inst:ListenForEvent("animover", function() SpawnPrefab("kyno_legacytwiggy_diseased_short").Transform:SetPosition(inst.Transform:GetWorldPosition()) end)
+		inst:ListenForEvent("animover", function() SpawnPrefab("sap_legacytwiggy_diseased_short").Transform:SetPosition(inst.Transform:GetWorldPosition()) end)
     end
 end
 
@@ -230,5 +230,5 @@ local function twiggyplacefn(inst)
 	inst.AnimState:Hide("symbol_1d298b03")
 end
 
-return Prefab("kyno_legacytwiggy_diseased_tall", fn, assets, prefabs),
-MakePlacer("kyno_legacytwiggy_diseased_tall_placer", "twiggy_diseased_tall_old", "legacy_twiggytree_diseased_tall_old", "sway1_loop_tall", false, nil, nil, nil, nil, nil, twiggyplacefn)
+return Prefab("sap_legacytwiggy_diseased_tall", fn, assets, prefabs),
+MakePlacer("sap_legacytwiggy_diseased_tall_placer", "twiggy_diseased_tall_old", "legacy_twiggytree_diseased_tall_old", "sway1_loop_tall", false, nil, nil, nil, nil, nil, twiggyplacefn)

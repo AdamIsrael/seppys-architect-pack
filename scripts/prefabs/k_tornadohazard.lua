@@ -10,7 +10,7 @@ local assets =
 }
 
 local prefabs = {
-	"kyno_tornadohazard_base",
+	"sap_tornadohazard_base",
 }
 
 local PS = 1
@@ -66,7 +66,7 @@ local function fn()
 	inst.SoundEmitter:PlaySound("dontstarve_DLC001/common/tornado", "spinLoop")
 	
 	local function CreateExtras(inst)
-		inst.baseprefab = SpawnPrefab("kyno_tornadohazard_base")
+		inst.baseprefab = SpawnPrefab("sap_tornadohazard_base")
 		inst.baseprefab.entity:SetParent(inst.entity)
 	end
 
@@ -144,6 +144,6 @@ local function tornadoplacerfn(inst)
     inst.components.placer:LinkEntity(placer2)
 end
 
-return Prefab("kyno_tornadohazard", fn, assets, prefabs),
-Prefab("kyno_tornadohazard_base", basefn, assets, prefabs),
-MakePlacer("kyno_tornadohazard_placer", "tornado_base_fx", "tornado_weather_base", "tornado_base_loop", true, nil, nil, PS, nil, nil, tornadoplacerfn)
+return Prefab("sap_tornadohazard", fn, assets, prefabs),
+Prefab("sap_tornadohazard_base", basefn, assets, prefabs),
+MakePlacer("sap_tornadohazard_placer", "tornado_base_fx", "tornado_weather_base", "tornado_base_loop", true, nil, nil, PS, nil, nil, tornadoplacerfn)

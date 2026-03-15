@@ -219,5 +219,5 @@ local function MakeTeethTrapMaxwell()
     return inst
 end
 
-return Prefab("kyno_trap_teeth_maxwell", MakeTeethTrapMaxwell, assets_maxwell),
-MakePlacer("kyno_trap_teeth_maxwell_placer", "trap_teeth_maxwell", "trap_teeth_maxwell", "idle")
+return Prefab("sap_trap_teeth_maxwell", MakeTeethTrapMaxwell, assets_maxwell),
+MakePlacer("sap_trap_teeth_maxwell_placer", "trap_teeth_maxwell", "trap_teeth_maxwell", "idle")

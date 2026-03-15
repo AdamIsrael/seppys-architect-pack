@@ -61,5 +61,5 @@ local function fn()
     return inst
 end
 
-return Prefab("kyno_floatilizerbucket", fn, assets),
-MakePlacer("kyno_floatilizerbucket_placer", "floatilizer", "floatilizer", "idle")
+return Prefab("sap_floatilizerbucket", fn, assets),
+MakePlacer("sap_floatilizerbucket_placer", "floatilizer", "floatilizer", "idle")

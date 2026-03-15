@@ -132,7 +132,7 @@ local function fn()
 	
     inst:AddComponent("inventoryitem")
 	inst.components.inventoryitem.atlasname = "images/inventoryimages/tap_inventoryimages.xml"
-	inst.components.inventoryitem.imagename = "kyno_propsign"
+	inst.components.inventoryitem.imagename = "sap_propsign"
     -- inst.components.inventoryitem.cangoincontainer = true
 
     inst:AddComponent("equippable")
@@ -261,6 +261,6 @@ local function signfn()
     return inst
 end
 
-return Prefab("kyno_propsign", fn, assets, prefabs),
-Prefab("kyno_propsign_structure", signfn, assets, prefabs),
-MakePlacer("kyno_propsign_structure_placer", "sign_home", "sign_elite", "idle")
+return Prefab("sap_propsign", fn, assets, prefabs),
+Prefab("sap_propsign_structure", signfn, assets, prefabs),
+MakePlacer("sap_propsign_structure_placer", "sign_home", "sign_elite", "idle")

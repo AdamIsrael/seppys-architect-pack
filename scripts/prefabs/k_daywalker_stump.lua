@@ -86,5 +86,5 @@ local function fn()
 	return inst
 end
 
-return Prefab("kyno_daywalker_stump", fn, assets, prefabs),
-MakePlacer("kyno_daywalker_stump_placer", "daywalker_pillar", "daywalker_pillar", "pillar_stump")
+return Prefab("sap_daywalker_stump", fn, assets, prefabs),
+MakePlacer("sap_daywalker_stump_placer", "daywalker_pillar", "daywalker_pillar", "pillar_stump")

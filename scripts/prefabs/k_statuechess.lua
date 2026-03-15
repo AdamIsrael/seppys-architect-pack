@@ -239,9 +239,9 @@ local function bishopplacetestfn(inst)
 	inst.AnimState:SetScale(1, 1, 1)
 end
 
-return Prefab("kyno_statuerook", rookfn, assets, prefabs),
-Prefab("kyno_statueknight", knightfn, assets, prefabs),
-Prefab("kyno_statuebishop", bishopfn, assets, prefabs),
-MakePlacer("kyno_statuerook_placer", "rook", "sculpture_rook", "full", false, nil, nil, nil, nil, nil, rookplacetestfn),
-MakePlacer("kyno_statueknight_placer", "kyno_knight", "kyno_sculpture_knight", "full", false, nil, nil, nil, nil, nil, knightplacetestfn),
-MakePlacer("kyno_statuebishop_placer", "kyno_bishop", "kyno_sculpture_bishop", "full", false, nil, nil, nil, nil, nil, bishopplacetestfn)
+return Prefab("sap_statuerook", rookfn, assets, prefabs),
+Prefab("sap_statueknight", knightfn, assets, prefabs),
+Prefab("sap_statuebishop", bishopfn, assets, prefabs),
+MakePlacer("sap_statuerook_placer", "rook", "sculpture_rook", "full", false, nil, nil, nil, nil, nil, rookplacetestfn),
+MakePlacer("sap_statueknight_placer", "kyno_knight", "kyno_sculpture_knight", "full", false, nil, nil, nil, nil, nil, knightplacetestfn),
+MakePlacer("sap_statuebishop_placer", "kyno_bishop", "kyno_sculpture_bishop", "full", false, nil, nil, nil, nil, nil, bishopplacetestfn)

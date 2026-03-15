@@ -142,5 +142,5 @@ local function bonfireplacetestfn(inst)
 	inst.AnimState:SetScale(.60, .60, .60)
 end
 
-return Prefab("kyno_bonfire", fn, assets),
-MakePlacer("kyno_bonfire_placer", "kyno_bonfire", "kyno_bonfire", "lit", false, nil, nil, nil, nil, nil, bonfireplacetestfn)
+return Prefab("sap_bonfire", fn, assets),
+MakePlacer("sap_bonfire_placer", "kyno_bonfire", "kyno_bonfire", "lit", false, nil, nil, nil, nil, nil, bonfireplacetestfn)

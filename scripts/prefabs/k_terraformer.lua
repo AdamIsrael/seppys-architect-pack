@@ -153,5 +153,5 @@ local function fn()
     return inst
 end
 
-return Prefab("kyno_terraformer", fn, assets, prefabs),
-MakePlacer("kyno_terraformer_placer", "kyno_terraformer", "kyno_terraformer", "idle")
+return Prefab("sap_terraformer", fn, assets, prefabs),
+MakePlacer("sap_terraformer_placer", "kyno_terraformer", "kyno_terraformer", "idle")

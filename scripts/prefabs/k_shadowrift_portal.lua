@@ -95,5 +95,5 @@ local function fn()
     return inst
 end
 
-return Prefab("kyno_shadowrift_portal", fn, assets, prefabs),
-MakePlacer("kyno_shadowrift_portal_placer", "shadowrift_portal", "shadowrift_portal", "stage_3_loop", true)
+return Prefab("sap_shadowrift_portal", fn, assets, prefabs),
+MakePlacer("sap_shadowrift_portal_placer", "shadowrift_portal", "shadowrift_portal", "stage_3_loop", true)

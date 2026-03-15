@@ -128,5 +128,5 @@ local function fountainplacetestfn(inst)
 	inst.AnimState:SetScale(0.90, 0.90, 0.90)
 end
 
-return Prefab("kyno_pugaliskfountain", fn, assets, prefabs),
-MakePlacer("kyno_pugaliskfountain_placer", "fountain", "python_fountain", "flow_loop", false, nil, nil, nil, nil, nil, fountainplacetestfn)
+return Prefab("sap_pugaliskfountain", fn, assets, prefabs),
+MakePlacer("sap_pugaliskfountain_placer", "fountain", "python_fountain", "flow_loop", false, nil, nil, nil, nil, nil, fountainplacetestfn)

@@ -70,4 +70,4 @@ local function common()
     return inst
 end
 
-return Prefab("kyno_shelves_slot", common, assets, prefabs)       
+return Prefab("sap_shelves_slot", common, assets, prefabs)       

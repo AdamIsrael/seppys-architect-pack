@@ -10,19 +10,19 @@ local assets =
 
 local prefabs =
 {
-	"kyno_snowhill_med",
-	"kyno_snowhill_low",
+	"sap_snowhill_med",
+	"sap_snowhill_low",
 	"turf_snowfall",
 }
 
 local function dig_up_full(inst, chopper)
 	inst:Remove()
-	SpawnPrefab("kyno_snowhill_med").Transform:SetPosition(inst.Transform:GetWorldPosition())
+	SpawnPrefab("sap_snowhill_med").Transform:SetPosition(inst.Transform:GetWorldPosition())
 end
 
 local function dig_up_med(inst, chopper)
 	inst:Remove()
-	SpawnPrefab("kyno_snowhill_low").Transform:SetPosition(inst.Transform:GetWorldPosition())
+	SpawnPrefab("sap_snowhill_low").Transform:SetPosition(inst.Transform:GetWorldPosition())
 end
 
 local function dig_up_low(inst, chopper)
@@ -80,7 +80,7 @@ local function medfn()
 	inst:AddTag("structure")
 	inst:AddTag("snowpile")
 	
-	inst:SetPrefabNameOverride("kyno_snowhill")
+	inst:SetPrefabNameOverride("sap_snowhill")
 	
 	inst.entity:SetPristine()
 
@@ -118,7 +118,7 @@ local function lowfn()
 	inst:AddTag("structure")
 	inst:AddTag("snowpile")
 	
-	inst:SetPrefabNameOverride("kyno_snowhill")
+	inst:SetPrefabNameOverride("sap_snowhill")
 	
 	inst.entity:SetPristine()
 
@@ -141,7 +141,7 @@ local function lowfn()
 	return inst
 end
 
-return Prefab("kyno_snowhill", fullfn, assets, prefabs),
-Prefab("kyno_snowhill_med", medfn, assets, prefabs),
-Prefab("kyno_snowhill_low", lowfn, assets, prefabs),
-MakePlacer("kyno_snowhill_placer", "kyno_snow_dune", "kyno_snow_dune", "full")
+return Prefab("sap_snowhill", fullfn, assets, prefabs),
+Prefab("sap_snowhill_med", medfn, assets, prefabs),
+Prefab("sap_snowhill_low", lowfn, assets, prefabs),
+MakePlacer("sap_snowhill_placer", "kyno_snow_dune", "kyno_snow_dune", "full")

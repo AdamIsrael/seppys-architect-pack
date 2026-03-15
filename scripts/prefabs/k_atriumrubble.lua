@@ -99,7 +99,7 @@ local function twofn()
     return inst
 end
 
-return Prefab("kyno_atriumrubble1", onefn, assets),
-Prefab("kyno_atriumrubble2", twofn, assets),
-MakePlacer("kyno_atriumrubble1_placer", "atrium_rubble", "atrium_rubble", "idle1"),
-MakePlacer("kyno_atriumrubble2_placer", "atrium_rubble", "atrium_rubble", "idle2")
+return Prefab("sap_atriumrubble1", onefn, assets),
+Prefab("sap_atriumrubble2", twofn, assets),
+MakePlacer("sap_atriumrubble1_placer", "atrium_rubble", "atrium_rubble", "idle1"),
+MakePlacer("sap_atriumrubble2_placer", "atrium_rubble", "atrium_rubble", "idle2")

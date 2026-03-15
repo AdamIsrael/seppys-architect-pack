@@ -95,7 +95,7 @@ local function green()
 	inst.animname = "gm" .. tostring(math.random(3))
 	inst.AnimState:PlayAnimation(inst.animname)
 	
-	inst:SetPrefabNameOverride("kyno_pottedbluemushroom")
+	inst:SetPrefabNameOverride("sap_pottedbluemushroom")
 	
     return inst
 end
@@ -109,7 +109,7 @@ local function red()
 	inst.animname = "rm" .. tostring(math.random(3))
 	inst.AnimState:PlayAnimation(inst.animname)
 	
-	inst:SetPrefabNameOverride("kyno_pottedbluemushroom")
+	inst:SetPrefabNameOverride("sap_pottedbluemushroom")
 	
     return inst
 end
@@ -170,17 +170,17 @@ local function rose()
     return inst
 end
 
-return Prefab("kyno_pottedbluemushroom", blue, assets, prefabs),
-Prefab("kyno_pottedgreenmushroom", green, assets, prefabs),
-Prefab("kyno_pottedredmushroom", red, assets, prefabs),
-Prefab("kyno_pottedcactus", cactus, assets, prefabs),
-Prefab("kyno_pottedflower", flower, assets, prefabs),
-Prefab("kyno_pottedevilflower", evilflower, assets, prefabs),
-Prefab("kyno_pottedrose", rose, assets, prefabs),
-MakePlacer("kyno_pottedbluemushroom_placer", "potted_mushrooms", "potted_mushrooms", "bm1"),
-MakePlacer("kyno_pottedgreenmushroom_placer", "potted_mushrooms", "potted_mushrooms", "gm1"),
-MakePlacer("kyno_pottedredmushroom_placer", "potted_mushrooms", "potted_mushrooms", "rm1"),
-MakePlacer("kyno_pottedcactus_placer", "potted_cacti", "potted_cacti", "c1"),
-MakePlacer("kyno_pottedflower_placer", "potted_flowers", "potted_flowers", "pf1"),
-MakePlacer("kyno_pottedevilflower_placer", "potted_evilflowers", "potted_evilflowers", "ef1"),
-MakePlacer("kyno_pottedrose_placer", "potted_roses", "potted_roses", "pr1")
+return Prefab("sap_pottedbluemushroom", blue, assets, prefabs),
+Prefab("sap_pottedgreenmushroom", green, assets, prefabs),
+Prefab("sap_pottedredmushroom", red, assets, prefabs),
+Prefab("sap_pottedcactus", cactus, assets, prefabs),
+Prefab("sap_pottedflower", flower, assets, prefabs),
+Prefab("sap_pottedevilflower", evilflower, assets, prefabs),
+Prefab("sap_pottedrose", rose, assets, prefabs),
+MakePlacer("sap_pottedbluemushroom_placer", "potted_mushrooms", "potted_mushrooms", "bm1"),
+MakePlacer("sap_pottedgreenmushroom_placer", "potted_mushrooms", "potted_mushrooms", "gm1"),
+MakePlacer("sap_pottedredmushroom_placer", "potted_mushrooms", "potted_mushrooms", "rm1"),
+MakePlacer("sap_pottedcactus_placer", "potted_cacti", "potted_cacti", "c1"),
+MakePlacer("sap_pottedflower_placer", "potted_flowers", "potted_flowers", "pf1"),
+MakePlacer("sap_pottedevilflower_placer", "potted_evilflowers", "potted_evilflowers", "ef1"),
+MakePlacer("sap_pottedrose_placer", "potted_roses", "potted_roses", "pr1")

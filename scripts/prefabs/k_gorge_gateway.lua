@@ -17,7 +17,7 @@ local assets =
 
 local prefabs =
 {
-	"kyno_gateway_base",
+	"sap_gateway_base",
 }
 
 local function onhammered(inst, worker)
@@ -68,7 +68,7 @@ local function fn()
     end
 	
 	local function createBase(inst)
-	inst.baseprefab =  SpawnPrefab("kyno_gateway_base")
+	inst.baseprefab =  SpawnPrefab("sap_gateway_base")
 	inst.baseprefab.entity:SetParent(inst.entity)
 	end
 	
@@ -123,6 +123,6 @@ local function basefn()
     return inst
 end
 
-return Prefab("kyno_mossygateway", fn, assets, prefabs),
-Prefab("kyno_gateway_base", basefn, assets, prefabs),
-MakePlacer("kyno_mossygateway_placer", "quagmire_portal", "quagmire_portal", "idle", true)
+return Prefab("sap_mossygateway", fn, assets, prefabs),
+Prefab("sap_gateway_base", basefn, assets, prefabs),
+MakePlacer("sap_mossygateway_placer", "quagmire_portal", "quagmire_portal", "idle", true)

@@ -331,7 +331,7 @@ local function fn()
 
     inst:AddComponent("lootdropper")
 	inst.components.lootdropper:SetLoot({"livinglog", "livinglog"})
-	inst.components.lootdropper:AddChanceLoot("kyno_truerootchest_blueprint", 0.25)
+	inst.components.lootdropper:AddChanceLoot("sap_truerootchest_blueprint", 0.25)
 
     inst:AddComponent("workable")
     inst.components.workable:SetWorkAction(ACTIONS.CHOP)

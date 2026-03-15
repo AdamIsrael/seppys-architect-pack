@@ -107,5 +107,5 @@ local function fn()
     return inst
 end
 
-return Prefab("kyno_driftwood_homesign", fn, assets, prefabs),
-MakePlacer("kyno_driftwood_homesign_placer", "sign_home", "kyno_driftwood_homesign", "idle")
+return Prefab("sap_driftwood_homesign", fn, assets, prefabs),
+MakePlacer("sap_driftwood_homesign_placer", "sign_home", "sap_driftwood_homesign", "idle")

@@ -14,7 +14,7 @@ local assets =
 local prefabs =
 {
 	"collapse_small",
-	"kyno_volcano_tower"
+	"sap_volcano_tower"
 }
 
 local towerassets =
@@ -79,7 +79,7 @@ local function baseFn(Sim)
     end
 
 	local function createExtras(inst)
-		inst.towerprefab = SpawnPrefab("kyno_volcano_tower")
+		inst.towerprefab = SpawnPrefab("sap_volcano_tower")
 		inst.towerprefab.entity:SetParent(inst.entity)
 	end
 	
@@ -138,6 +138,6 @@ local function towerFn(Sim)
     return inst
 end
 
-return Prefab("kyno_volcano_altar", baseFn, assets, prefabs),
-MakePlacer("kyno_volcano_altar_placer", "volcano_altar", "volcano_altar", "idle_close"),
-Prefab("kyno_volcano_tower", towerFn, towerassets, prefabs)
+return Prefab("sap_volcano_altar", baseFn, assets, prefabs),
+MakePlacer("sap_volcano_altar_placer", "volcano_altar", "volcano_altar", "idle_close"),
+Prefab("sap_volcano_tower", towerFn, towerassets, prefabs)

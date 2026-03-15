@@ -209,4 +209,4 @@ local function fnplayer()
     return inst
 end
 
-return Prefab("kyno_skeleton", fn, assets, prefabs)
+return Prefab("sap_skeleton", fn, assets, prefabs)

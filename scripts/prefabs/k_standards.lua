@@ -292,15 +292,15 @@ local function banner3fn()
     return inst
 end
 
-return Prefab("kyno_shieldstandard", purplefn, assets),
-Prefab("kyno_attackstandard", redfn, assets),
-Prefab("kyno_healstandard", bluefn, assets),
-Prefab("kyno_bannerstandard", banner1fn, assets),
-Prefab("kyno_bannerstandard_2", banner2fn, assets),
-Prefab("kyno_bannerstandard_3", banner3fn, assets),
-MakePlacer("kyno_shieldstandard_placer", "lavaarena_battlestandard", "lavaarena_battlestandard", "idle"),
-MakePlacer("kyno_attackstandard_placer", "lavaarena_battlestandard", "lavaarena_battlestandard_attack_build", "idle"),
-MakePlacer("kyno_healstandard_placer", "kyno_battlestandard", "kyno_battlestandard_heal_build", "idle"),
-MakePlacer("kyno_bannerstandard_placer", "kyno_banner", "kyno_banner", "idle"),
-MakePlacer("kyno_bannerstandard_2_placer", "kyno_banner", "kyno_banner", "idle2"),
-MakePlacer("kyno_bannerstandard_3_placer", "kyno_banner", "kyno_banner", "idle3")
+return Prefab("sap_shieldstandard", purplefn, assets),
+Prefab("sap_attackstandard", redfn, assets),
+Prefab("sap_healstandard", bluefn, assets),
+Prefab("sap_bannerstandard", banner1fn, assets),
+Prefab("sap_bannerstandard_2", banner2fn, assets),
+Prefab("sap_bannerstandard_3", banner3fn, assets),
+MakePlacer("sap_shieldstandard_placer", "lavaarena_battlestandard", "lavaarena_battlestandard", "idle"),
+MakePlacer("sap_attackstandard_placer", "lavaarena_battlestandard", "lavaarena_battlestandard_attack_build", "idle"),
+MakePlacer("sap_healstandard_placer", "kyno_battlestandard", "kyno_battlestandard_heal_build", "idle"),
+MakePlacer("sap_bannerstandard_placer", "kyno_banner", "kyno_banner", "idle"),
+MakePlacer("sap_bannerstandard_2_placer", "kyno_banner", "kyno_banner", "idle2"),
+MakePlacer("sap_bannerstandard_3_placer", "kyno_banner", "kyno_banner", "idle3")

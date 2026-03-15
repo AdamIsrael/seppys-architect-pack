@@ -148,5 +148,5 @@ local function fn()
 	return inst
 end
 
-return Prefab("kyno_seal", fn, assets, prefabs),
-MakePlacer("kyno_seal_placer", "twister", "twister_build", "seal_cower", false, nil, nil, nil, 90, nil, nil)  
+return Prefab("sap_seal", fn, assets, prefabs),
+MakePlacer("sap_seal_placer", "twister", "twister_build", "seal_cower", false, nil, nil, nil, 90, nil, nil)  

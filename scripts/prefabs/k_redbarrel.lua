@@ -116,5 +116,5 @@ local function fn()
 	return inst
 end
 
-return Prefab("kyno_redbarrel", fn, assets, prefabs),
-MakePlacer("kyno_redbarrel_placer", "gunpowder_barrel", "gunpowder_barrel", "idle_water")  
+return Prefab("sap_redbarrel", fn, assets, prefabs),
+MakePlacer("sap_redbarrel_placer", "gunpowder_barrel", "gunpowder_barrel", "idle_water")  

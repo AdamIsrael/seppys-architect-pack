@@ -177,5 +177,5 @@ local function Labfn()
     return inst
 end
 
-return Prefab("kyno_sealab", Labfn, assets),
-MakePlacer("kyno_sealab_placer", "researchlab5", "researchlab5", "placer")
+return Prefab("sap_sealab", Labfn, assets),
+MakePlacer("sap_sealab_placer", "researchlab5", "researchlab5", "placer")

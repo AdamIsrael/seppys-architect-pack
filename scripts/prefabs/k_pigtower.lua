@@ -297,7 +297,7 @@ local function PalaceTowerfn()
 	inst:AddTag("pigtower")
 	inst:AddTag("palacetower")
 	
-	inst:SetPrefabNameOverride("kyno_pigpalacetower")
+	inst:SetPrefabNameOverride("sap_pigpalacetower")
 	
 	inst.entity:SetPristine()
 
@@ -331,13 +331,13 @@ local function placetestfn(inst)
     inst.AnimState:Hide("YOTP")
     inst.AnimState:Hide("SNOW")
 	inst.ApplySkin = function(inst, skin)
-		if skin == "kyno_pigtower1" then
+		if skin == "sap_pigtower1" then
 			inst.AnimState:AddOverrideBuild("flag_post_perdy_build")
-		elseif skin == "kyno_pigtower2" then
+		elseif skin == "sap_pigtower2" then
 			inst.AnimState:AddOverrideBuild("flag_post_duster_build")
-		elseif skin == "kyno_pigtower3" then
+		elseif skin == "sap_pigtower3" then
 			inst.AnimState:AddOverrideBuild("flag_post_wilson_build")
-		elseif skin == "kyno_pigtower4" then
+		elseif skin == "sap_pigtower4" then
 			inst.AnimState:SetBuild("pig_tower_royal_build")
 			inst.AnimState:AddOverrideBuild("flag_post_royal_build")
 		end
@@ -370,18 +370,18 @@ local function tower4fn(inst)
 	inst.AnimState:AddOverrideBuild("flag_post_royal_build")
 end
 
-return Prefab("kyno_pigtower", Towerfn, assets, prefabs),
-Prefab("kyno_pigtower1", Towerfn1, assets, prefabs),
-Prefab("kyno_pigtower2", Towerfn2, assets, prefabs),
-Prefab("kyno_pigtower3", Towerfn3, assets, prefabs),
-Prefab("kyno_pigtower4", PalaceTowerfn, assets, prefabs),
-MakePlacer("kyno_pigtower_placer", "pig_shop", "pig_tower_build", "idle", false, nil, nil, nil, 90, nil, placetestfn),
-MakePlacer("kyno_pigtower1_placer", "pig_shop", "pig_tower_build", "idle", false, nil, nil, nil, nil, nil, tower1fn),
-MakePlacer("kyno_pigtower2_placer", "pig_shop", "pig_tower_build", "idle", false, nil, nil, nil, nil, nil, tower2fn),
-MakePlacer("kyno_pigtower3_placer", "pig_shop", "pig_tower_build", "idle", false, nil, nil, nil, nil, nil, tower3fn),
-MakePlacer("kyno_pigtower4_placer", "pig_shop", "pig_tower_royal_build", "idle", false, nil, nil, nil, nil, nil, tower4fn)
+return Prefab("sap_pigtower", Towerfn, assets, prefabs),
+Prefab("sap_pigtower1", Towerfn1, assets, prefabs),
+Prefab("sap_pigtower2", Towerfn2, assets, prefabs),
+Prefab("sap_pigtower3", Towerfn3, assets, prefabs),
+Prefab("sap_pigtower4", PalaceTowerfn, assets, prefabs),
+MakePlacer("sap_pigtower_placer", "pig_shop", "pig_tower_build", "idle", false, nil, nil, nil, 90, nil, placetestfn),
+MakePlacer("sap_pigtower1_placer", "pig_shop", "pig_tower_build", "idle", false, nil, nil, nil, nil, nil, tower1fn),
+MakePlacer("sap_pigtower2_placer", "pig_shop", "pig_tower_build", "idle", false, nil, nil, nil, nil, nil, tower2fn),
+MakePlacer("sap_pigtower3_placer", "pig_shop", "pig_tower_build", "idle", false, nil, nil, nil, nil, nil, tower3fn),
+MakePlacer("sap_pigtower4_placer", "pig_shop", "pig_tower_royal_build", "idle", false, nil, nil, nil, nil, nil, tower4fn)
 --[[,
-CreateModPrefabSkin("kyno_pigtower1",
+CreateModPrefabSkin("sap_pigtower1",
 	{
 		assets = {
 			Asset("ANIM", "anim/pig_shop.zip"),
@@ -389,7 +389,7 @@ CreateModPrefabSkin("kyno_pigtower1",
 			
 			Asset("ANIM", "anim/flag_post_perdy_build.zip"),
 		},
-		base_prefab = "kyno_pigtower",
+		base_prefab = "sap_pigtower",
 		fn = Towerfn1,
 		rarity = "Timeless",
 		reskinable = true,
@@ -400,7 +400,7 @@ CreateModPrefabSkin("kyno_pigtower1",
 		skin_tags = { },
 		release_group = 0,
 	}),
-CreateModPrefabSkin("kyno_pigtower2",
+CreateModPrefabSkin("sap_pigtower2",
 	{
 		assets = {
 			Asset("ANIM", "anim/pig_shop.zip"),
@@ -408,7 +408,7 @@ CreateModPrefabSkin("kyno_pigtower2",
 			
 			Asset("ANIM", "anim/flag_post_duster_build.zip"),
 		},
-		base_prefab = "kyno_pigtower",
+		base_prefab = "sap_pigtower",
 		fn = Towerfn2,
 		rarity = "Timeless",
 		reskinable = true,
@@ -419,7 +419,7 @@ CreateModPrefabSkin("kyno_pigtower2",
 		skin_tags = { },
 		release_group = 0,
 	}),
-CreateModPrefabSkin("kyno_pigtower3",
+CreateModPrefabSkin("sap_pigtower3",
 	{
 		assets = {
 			Asset("ANIM", "anim/pig_shop.zip"),
@@ -427,7 +427,7 @@ CreateModPrefabSkin("kyno_pigtower3",
 			
 			Asset("ANIM", "anim/flag_post_wilson_build.zip"),
 		},
-		base_prefab = "kyno_pigtower",
+		base_prefab = "sap_pigtower",
 		fn = Towerfn3,
 		rarity = "Timeless",
 		reskinable = true,
@@ -438,7 +438,7 @@ CreateModPrefabSkin("kyno_pigtower3",
 		skin_tags = { },
 		release_group = 0,
 	}),
-CreateModPrefabSkin("kyno_pigtower4",
+CreateModPrefabSkin("sap_pigtower4",
 	{
 		assets = {
 			Asset("ANIM", "anim/pig_shop.zip"),
@@ -446,7 +446,7 @@ CreateModPrefabSkin("kyno_pigtower4",
 			
 			Asset("ANIM", "anim/flag_post_royal_build.zip"),
 		},
-		base_prefab = "kyno_pigtower",
+		base_prefab = "sap_pigtower",
 		fn = PalaceTowerfn,
 		rarity = "Timeless",
 		reskinable = true,

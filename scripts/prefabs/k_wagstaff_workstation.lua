@@ -130,5 +130,5 @@ local function fn()
     return inst
 end
 
-return Prefab("kyno_wagpunk_workstation", fn, assets),
-MakePlacer("kyno_wagpunk_workstation_placer", "wagpunk_workstation", "wagpunk_workstation", "idle")
+return Prefab("sap_wagpunk_workstation", fn, assets),
+MakePlacer("sap_wagpunk_workstation_placer", "wagpunk_workstation", "wagpunk_workstation", "idle")

@@ -265,17 +265,17 @@ local function largefn()
 	return inst
 end
 
-return Prefab("kyno_ironhulk_spider", spiderfn, assets, prefabs),
-MakePlacer("kyno_ironhulk_spider_placer", "metal_spider", "metal_spider", "mossy_full"),
+return Prefab("sap_ironhulk_spider", spiderfn, assets, prefabs),
+MakePlacer("sap_ironhulk_spider_placer", "metal_spider", "metal_spider", "mossy_full"),
 
-Prefab("kyno_ironhulk_leg", legfn, assets, prefabs),
-MakePlacer("kyno_ironhulk_leg_placer", "metal_leg", "metal_leg", "full"),
+Prefab("sap_ironhulk_leg", legfn, assets, prefabs),
+MakePlacer("sap_ironhulk_leg_placer", "metal_leg", "metal_leg", "full"),
 
-Prefab("kyno_ironhulk_head", headfn, assets, prefabs),
-MakePlacer("kyno_ironhulk_head_placer", "metal_head", "metal_head", "full"),
+Prefab("sap_ironhulk_head", headfn, assets, prefabs),
+MakePlacer("sap_ironhulk_head_placer", "metal_head", "metal_head", "full"),
 
-Prefab("kyno_ironhulk_claw", clawfn, assets, prefabs),
-MakePlacer("kyno_ironhulk_claw_placer", "metal_claw", "metal_claw", "mossy_full"),
+Prefab("sap_ironhulk_claw", clawfn, assets, prefabs),
+MakePlacer("sap_ironhulk_claw_placer", "metal_claw", "metal_claw", "mossy_full"),
 
-Prefab("kyno_ironhulk_large", largefn, assets, prefabs),
-MakePlacer("kyno_ironhulk_large_placer", "metal_hulk", "metal_hulk_build", "idle", false, nil, nil, nil, 60, nil)
+Prefab("sap_ironhulk_large", largefn, assets, prefabs),
+MakePlacer("sap_ironhulk_large_placer", "metal_hulk", "metal_hulk_build", "idle", false, nil, nil, nil, 60, nil)

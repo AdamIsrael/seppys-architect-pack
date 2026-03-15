@@ -142,7 +142,7 @@ local function advfn()
 	return inst
 end
 
-return Prefab("kyno_teleporter_rog", fn, assets, prefabs),
-Prefab("kyno_teleporter_adventure", advfn, assets, prefabs),
-MakePlacer("kyno_teleporter_rog_placer", "teleporter", "teleportato_build", "active_idle"),
-MakePlacer("kyno_teleporter_adventure_placer", "teleporter", "teleportato_adventure_build", "active_idle")
+return Prefab("sap_teleporter_rog", fn, assets, prefabs),
+Prefab("sap_teleporter_adventure", advfn, assets, prefabs),
+MakePlacer("sap_teleporter_rog_placer", "teleporter", "teleportato_build", "active_idle"),
+MakePlacer("sap_teleporter_adventure_placer", "teleporter", "teleportato_adventure_build", "active_idle")

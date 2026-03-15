@@ -248,11 +248,11 @@ local function giantbeehiveplacetestfn(inst)
 	inst.AnimState:SetScale(1.4, 1.4, 1.4)
 end
 
-return Prefab("kyno_honeypatch", honeypatchfn, assets, prefabs),
-Prefab("kyno_giantbeehive", largefn, assets, prefabs),
-Prefab("kyno_giantbeehive_medium", mediumfn, assets, prefabs),
-Prefab("kyno_giantbeehive_small", smallfn, assets, prefabs),
-MakePlacer("kyno_honeypatch_placer", "bee_queen_hive", "bee_queen_hive", "hole_idle", false, nil, nil, nil, nil, nil, giantbeehiveplacetestfn),
-MakePlacer("kyno_giantbeehive_placer", "bee_queen_hive", "bee_queen_hive", "large", false, nil, nil, nil, nil, nil, giantbeehiveplacetestfn),
-MakePlacer("kyno_giantbeehive_medium_placer", "bee_queen_hive", "bee_queen_hive", "medium", false, nil, nil, nil, nil, nil, giantbeehiveplacetestfn),
-MakePlacer("kyno_giantbeehive_small_placer", "bee_queen_hive", "bee_queen_hive", "small", false, nil, nil, nil, nil, nil, giantbeehiveplacetestfn)
+return Prefab("sap_honeypatch", honeypatchfn, assets, prefabs),
+Prefab("sap_giantbeehive", largefn, assets, prefabs),
+Prefab("sap_giantbeehive_medium", mediumfn, assets, prefabs),
+Prefab("sap_giantbeehive_small", smallfn, assets, prefabs),
+MakePlacer("sap_honeypatch_placer", "bee_queen_hive", "bee_queen_hive", "hole_idle", false, nil, nil, nil, nil, nil, giantbeehiveplacetestfn),
+MakePlacer("sap_giantbeehive_placer", "bee_queen_hive", "bee_queen_hive", "large", false, nil, nil, nil, nil, nil, giantbeehiveplacetestfn),
+MakePlacer("sap_giantbeehive_medium_placer", "bee_queen_hive", "bee_queen_hive", "medium", false, nil, nil, nil, nil, nil, giantbeehiveplacetestfn),
+MakePlacer("sap_giantbeehive_small_placer", "bee_queen_hive", "bee_queen_hive", "small", false, nil, nil, nil, nil, nil, giantbeehiveplacetestfn)

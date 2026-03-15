@@ -15,7 +15,7 @@ local prefabs =
 	"statue_transition_2"
 }
 
-SetSharedLootTable("kyno_bluegem",
+SetSharedLootTable("sap_bluegem",
 {
     {"thulecite",     1.00},
     {"thulecite",     1.00},
@@ -23,7 +23,7 @@ SetSharedLootTable("kyno_bluegem",
 	{"nightmarefuel", 1.00},
 })
 
-SetSharedLootTable("kyno_redgem",
+SetSharedLootTable("sap_redgem",
 {
     {"thulecite",     1.00},
     {"thulecite",     1.00},
@@ -31,14 +31,14 @@ SetSharedLootTable("kyno_redgem",
 	{"nightmarefuel", 1.00},
 })
 
-SetSharedLootTable("kyno_purplegem",
+SetSharedLootTable("sap_purplegem",
 {
     {"thulecite",     1.00},
     {"thulecite",     1.00},
 	{"purplegem",	  1.00},
 })
 
-SetSharedLootTable("kyno_orangegem",
+SetSharedLootTable("sap_orangegem",
 {
     {"thulecite",     1.00},
     {"thulecite",     1.00},
@@ -46,7 +46,7 @@ SetSharedLootTable("kyno_orangegem",
 	{"nightmarefuel", 1.00},
 })
 
-SetSharedLootTable("kyno_yellowgem",
+SetSharedLootTable("sap_yellowgem",
 {
     {"thulecite",     1.00},
     {"thulecite",     1.00},
@@ -54,7 +54,7 @@ SetSharedLootTable("kyno_yellowgem",
 	{"nightmarefuel", 1.00},
 })
 
-SetSharedLootTable("kyno_greengem",
+SetSharedLootTable("sap_greengem",
 {
     {"thulecite",     1.00},
     {"thulecite",     1.00},
@@ -703,17 +703,17 @@ local function greengemtest(inst)
 	inst.AnimState:OverrideSymbol("swap_gem", "statue_ruins_gem", "greengem")
 end
 
-return Prefab("kyno_statueruins_bluegem", bluefn, assets, prefabs),
-Prefab("kyno_statueruins_redgem", redfn, assets, prefabs),
-Prefab("kyno_statueruins_purplegem", purplefn, assets, prefabs),
-Prefab("kyno_statueruins_orangegem", orangefn, assets, prefabs),
-Prefab("kyno_statueruins_yellowgem", yellowfn, assets, prefabs),
-Prefab("kyno_statueruins_greengem", greenfn, assets, prefabs),
-Prefab("kyno_statueruins_nogem", nogemfn, assets, prefabs),
-MakePlacer("kyno_statueruins_bluegem_placer", "statue_ruins", "statue_ruins", "idle_full", false, nil, nil, nil, nil, nil, bluegemtest),
-MakePlacer("kyno_statueruins_redgem_placer", "statue_ruins", "statue_ruins", "idle_full", false, nil, nil, nil, nil, nil, redgemtest),
-MakePlacer("kyno_statueruins_purplegem_placer", "statue_ruins", "statue_ruins", "idle_full", false, nil, nil, nil, nil, nil, purplegemtest),
-MakePlacer("kyno_statueruins_orangegem_placer", "statue_ruins", "statue_ruins", "idle_full", false, nil, nil, nil, nil, nil, orangegemtest),
-MakePlacer("kyno_statueruins_yellowgem_placer", "statue_ruins", "statue_ruins", "idle_full", false, nil, nil, nil, nil, nil, yellowgemtest),
-MakePlacer("kyno_statueruins_greengem_placer", "statue_ruins", "statue_ruins", "idle_full", false, nil, nil, nil, nil, nil, greengemtest),
-MakePlacer("kyno_statueruins_nogem_placer", "statue_ruins", "statue_ruins", "idle_full")
+return Prefab("sap_statueruins_bluegem", bluefn, assets, prefabs),
+Prefab("sap_statueruins_redgem", redfn, assets, prefabs),
+Prefab("sap_statueruins_purplegem", purplefn, assets, prefabs),
+Prefab("sap_statueruins_orangegem", orangefn, assets, prefabs),
+Prefab("sap_statueruins_yellowgem", yellowfn, assets, prefabs),
+Prefab("sap_statueruins_greengem", greenfn, assets, prefabs),
+Prefab("sap_statueruins_nogem", nogemfn, assets, prefabs),
+MakePlacer("sap_statueruins_bluegem_placer", "statue_ruins", "statue_ruins", "idle_full", false, nil, nil, nil, nil, nil, bluegemtest),
+MakePlacer("sap_statueruins_redgem_placer", "statue_ruins", "statue_ruins", "idle_full", false, nil, nil, nil, nil, nil, redgemtest),
+MakePlacer("sap_statueruins_purplegem_placer", "statue_ruins", "statue_ruins", "idle_full", false, nil, nil, nil, nil, nil, purplegemtest),
+MakePlacer("sap_statueruins_orangegem_placer", "statue_ruins", "statue_ruins", "idle_full", false, nil, nil, nil, nil, nil, orangegemtest),
+MakePlacer("sap_statueruins_yellowgem_placer", "statue_ruins", "statue_ruins", "idle_full", false, nil, nil, nil, nil, nil, yellowgemtest),
+MakePlacer("sap_statueruins_greengem_placer", "statue_ruins", "statue_ruins", "idle_full", false, nil, nil, nil, nil, nil, greengemtest),
+MakePlacer("sap_statueruins_nogem_placer", "statue_ruins", "statue_ruins", "idle_full")

@@ -246,7 +246,7 @@ local function FishermermhutFn()
 	inst.components.workable:SetOnWorkCallback(onhit)
 
 	inst:AddComponent("childspawner")
-	inst.components.childspawner.childname = "kyno_mermfisher"
+	inst.components.childspawner.childname = "sap_mermfisher"
 	inst.components.childspawner:SetSpawnedFn(OnSpawned)
 	inst.components.childspawner:SetGoHomeFn(OnGoHome)
 	inst.components.childspawner:SetRegenPeriod(TUNING.TOTAL_DAY_TIME * 4)
@@ -275,7 +275,7 @@ local function FishermermhutFn()
 	return inst
 end
 
-return Prefab("kyno_mermhut", MermhutFn, assets, prefabs),
-Prefab("kyno_fishermermhut", FishermermhutFn, assets, prefabs),
-MakePlacer("kyno_mermhut_placer", "merm_sw_house", "merm_sw_house", "idle"),
-MakePlacer("kyno_fishermermhut_placer", "merm_fisherman_house", "merm_fisherman_house", "idle")
+return Prefab("sap_mermhut", MermhutFn, assets, prefabs),
+Prefab("sap_fishermermhut", FishermermhutFn, assets, prefabs),
+MakePlacer("sap_mermhut_placer", "merm_sw_house", "merm_sw_house", "idle"),
+MakePlacer("sap_fishermermhut_placer", "merm_fisherman_house", "merm_fisherman_house", "idle")

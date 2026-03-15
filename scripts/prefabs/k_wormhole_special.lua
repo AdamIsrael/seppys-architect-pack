@@ -140,7 +140,7 @@ local function swfn()
     return inst
 end
 
-return Prefab("kyno_wormhole_ham", hamfn, assets),
-Prefab("kyno_wormhole_sw", swfn, assets),
-MakePlacer("kyno_wormhole_ham_placer", "teleporter_worm", "wormhole_hamlet", "open_loop"),
-MakePlacer("kyno_wormhole_sw_placer", "teleporter_worm", "wormhole_shipwrecked", "open_loop")
+return Prefab("sap_wormhole_ham", hamfn, assets),
+Prefab("sap_wormhole_sw", swfn, assets),
+MakePlacer("sap_wormhole_ham_placer", "teleporter_worm", "wormhole_hamlet", "open_loop"),
+MakePlacer("sap_wormhole_sw_placer", "teleporter_worm", "wormhole_shipwrecked", "open_loop")

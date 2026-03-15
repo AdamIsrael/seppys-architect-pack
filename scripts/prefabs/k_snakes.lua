@@ -250,6 +250,6 @@ local function amphibiousfn()
 	return inst
 end
 
-return Prefab("kyno_cobra", commonfn, assets, prefabs),
-Prefab("kyno_cobra_poison", poisonfn, assets, prefabs),
-Prefab("kyno_cobra_amphibious", amphibiousfn, assets, prefabs)
+return Prefab("sap_cobra", commonfn, assets, prefabs),
+Prefab("sap_cobra_poison", poisonfn, assets, prefabs),
+Prefab("sap_cobra_amphibious", amphibiousfn, assets, prefabs)

@@ -172,5 +172,5 @@ local function fn()
 	return inst
 end
 
-return Prefab("kyno_icemaker", fn, assets, prefabs),
-MakePlacer("kyno_icemaker_placer", "icemachine", "icemachine", "idle_off")
+return Prefab("sap_icemaker", fn, assets, prefabs),
+MakePlacer("sap_icemaker_placer", "icemachine", "icemachine", "idle_off")

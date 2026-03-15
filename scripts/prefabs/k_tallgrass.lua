@@ -162,7 +162,7 @@ local function yellowfn()
 	return inst
 end
 
-return Prefab("kyno_tallgrass", fn, assets, prefabs),
-Prefab("kyno_tallgrass_yellow", yellowfn, assets, prefabs),
-MakePlacer("kyno_tallgrass_placer", "grass_tall", "grass_tall", "idle"),
-MakePlacer("kyno_tallgrass_yellow_placer", "yellow_grass_tall", "yellow_grass_tall", "idle")
+return Prefab("sap_tallgrass", fn, assets, prefabs),
+Prefab("sap_tallgrass_yellow", yellowfn, assets, prefabs),
+MakePlacer("sap_tallgrass_placer", "grass_tall", "grass_tall", "idle"),
+MakePlacer("sap_tallgrass_yellow_placer", "yellow_grass_tall", "yellow_grass_tall", "idle")

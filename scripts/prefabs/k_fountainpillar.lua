@@ -13,7 +13,7 @@ local assets =
 
 local prefabs =
 {
-	"kyno_teeteringpillar_collapsed",
+	"sap_teeteringpillar_collapsed",
 }
 
 local function onwork(inst, worker, workleft)
@@ -41,7 +41,7 @@ local function onfinish(inst, worker)
 	inst.SoundEmitter:PlaySound("dontstarve/common/destroy_stone")
 	inst:Remove()
 	-- inst.AnimState:PushAnimation("pillar_collapsed")
-	SpawnPrefab("kyno_teeteringpillar_collapsed").Transform:SetPosition(inst.Transform:GetWorldPosition())
+	SpawnPrefab("sap_teeteringpillar_collapsed").Transform:SetPosition(inst.Transform:GetWorldPosition())
 end
 
 local function onfinish_pillar(inst, worker)
@@ -135,6 +135,6 @@ local function collapsedfn()
 	return inst
 end
 
-return Prefab("kyno_teeteringpillar", fn, assets, prefabs),
-Prefab("kyno_teeteringpillar_collapsed", collapsedfn, assets, prefabs),
-MakePlacer("kyno_teeteringpillar_placer", "fountain_pillar", "fountain_pillar", "pillar", true, nil, nil, nil, 90, nil)
+return Prefab("sap_teeteringpillar", fn, assets, prefabs),
+Prefab("sap_teeteringpillar_collapsed", collapsedfn, assets, prefabs),
+MakePlacer("sap_teeteringpillar_placer", "fountain_pillar", "fountain_pillar", "pillar", true, nil, nil, nil, 90, nil)

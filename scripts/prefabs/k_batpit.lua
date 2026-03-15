@@ -70,5 +70,5 @@ local function batpitplacetestfn(inst)
 	inst.AnimState:SetScale(0.60,0.60,0.60)
 end
 
-return Prefab("kyno_batpit", fn, assets, prefabs),
-MakePlacer("kyno_batpit_placer", "interior_wall_decals_cave", "interior_wall_decals_batcave", "pit", false, nil, nil, nil, nil, nil, batpitplacetestfn)
+return Prefab("sap_batpit", fn, assets, prefabs),
+MakePlacer("sap_batpit_placer", "interior_wall_decals_cave", "interior_wall_decals_batcave", "pit", false, nil, nil, nil, nil, nil, batpitplacetestfn)

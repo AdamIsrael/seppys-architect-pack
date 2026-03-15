@@ -17,7 +17,7 @@ local assets =
 
 local prefabs =
 {
-	"kyno_gnat",
+	"sap_gnat",
 }
 
 local function onwork(inst, worker, workleft)
@@ -70,7 +70,7 @@ local function fn()
     end
 	
 	local function createGnat(inst)
-	inst.gnatprefab =  SpawnPrefab("kyno_gnat")
+	inst.gnatprefab =  SpawnPrefab("sap_gnat")
 	inst.gnatprefab.entity:SetParent(inst.entity)
 	end
 
@@ -136,6 +136,6 @@ local function gnatfn()
 	return inst
 end
 
-return Prefab("kyno_gnatmound", fn, assets, prefabs),
-Prefab("kyno_gnat", gnatfn, assets, prefabs),
-MakePlacer("kyno_gnatmound_placer", "gnat_mound", "gnat_mound", "full")
+return Prefab("sap_gnatmound", fn, assets, prefabs),
+Prefab("sap_gnat", gnatfn, assets, prefabs),
+MakePlacer("sap_gnatmound_placer", "gnat_mound", "gnat_mound", "full")

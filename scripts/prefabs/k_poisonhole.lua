@@ -103,5 +103,5 @@ local function fn()
 	return inst
 end
 
-return Prefab("kyno_poisonhole", fn, assets, prefabs),
-MakePlacer("kyno_poisonhole_placer", "poison_hole", "poison_hole", "boil_loop")
+return Prefab("sap_poisonhole", fn, assets, prefabs),
+MakePlacer("sap_poisonhole_placer", "poison_hole", "poison_hole", "boil_loop")

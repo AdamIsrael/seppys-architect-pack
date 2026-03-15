@@ -73,5 +73,5 @@ local function fn()
     return inst
 end
 
-return Prefab("kyno_farmdebris", fn, assets, prefabs),
-MakePlacer("kyno_farmdebris_placer", "farm_soil_debris", "farm_soil_debris", "f1")
+return Prefab("sap_farmdebris", fn, assets, prefabs),
+MakePlacer("sap_farmdebris_placer", "farm_soil_debris", "farm_soil_debris", "f1")

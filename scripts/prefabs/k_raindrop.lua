@@ -25,4 +25,4 @@ local function fn()
     return inst
 end
 
-return Prefab("kyno_raindrop", fn, assets)
+return Prefab("sap_raindrop", fn, assets)

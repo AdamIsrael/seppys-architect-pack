@@ -99,5 +99,5 @@ local function fn()
     return inst
 end
 
-return Prefab("kyno_statuestonebroodling", fn, assets, prefabs),
-MakePlacer("kyno_statuestonebroodling_placer", "statuestonebroodling", "statuestonebroodling", "idle")
+return Prefab("sap_statuestonebroodling", fn, assets, prefabs),
+MakePlacer("sap_statuestonebroodling_placer", "statuestonebroodling", "statuestonebroodling", "idle")

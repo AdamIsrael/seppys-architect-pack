@@ -252,7 +252,7 @@ local function tree4fn()
     return inst
 end
 
-return Prefab("kyno_marbletree_1", tree1fn, assets, prefabs),
-Prefab("kyno_marbletree_2", tree2fn, assets, prefabs),
-Prefab("kyno_marbletree_3", tree3fn, assets, prefabs),
-Prefab("kyno_marbletree_4", tree4fn, assets, prefabs)
+return Prefab("sap_marbletree_1", tree1fn, assets, prefabs),
+Prefab("sap_marbletree_2", tree2fn, assets, prefabs),
+Prefab("sap_marbletree_3", tree3fn, assets, prefabs),
+Prefab("sap_marbletree_4", tree4fn, assets, prefabs)

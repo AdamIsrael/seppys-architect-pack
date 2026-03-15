@@ -129,5 +129,5 @@ local function fn()
     return inst
 end
 
-return Prefab("kyno_dummytarget", fn, assets),
-MakePlacer("kyno_dummytarget_placer", "kyno_dummytarget", "kyno_dummytarget", "idle")
+return Prefab("sap_dummytarget", fn, assets),
+MakePlacer("sap_dummytarget_placer", "kyno_dummytarget", "kyno_dummytarget", "idle")

@@ -87,7 +87,7 @@ local function fn()
 end
 
 local function OnDeploy(inst, pt, deployer)
-    local prop = SpawnPrefab("kyno_driftwood_dockposts")
+    local prop = SpawnPrefab("sap_driftwood_dockposts")
     if prop ~= nil then
         prop.Transform:SetPosition(pt.x,pt.y,pt.z)
         prop:place()
@@ -121,7 +121,7 @@ local function itemfn()
 
     inst:AddComponent("inventoryitem")
 	inst.components.inventoryitem.atlasname = "images/inventoryimages/tap_inventoryimages.xml"
-	inst.components.inventoryitem.imagename = "kyno_driftwood_dockposts_item"
+	inst.components.inventoryitem.imagename = "sap_driftwood_dockposts_item"
 
     inst:AddComponent("deployable")
     inst.components.deployable.ondeploy = OnDeploy
@@ -137,6 +137,6 @@ local function itemfn()
     return inst
 end
 
-return Prefab("kyno_driftwood_dockposts", fn, assets, prefabs),
-Prefab("kyno_driftwood_dockposts_item", itemfn, assets, prefabs),	
-MakePlacer("kyno_driftwood_dockposts_item_placer", "kyno_driftwood_dockposts", "kyno_driftwood_dockposts", "idle1")
+return Prefab("sap_driftwood_dockposts", fn, assets, prefabs),
+Prefab("sap_driftwood_dockposts_item", itemfn, assets, prefabs),	
+MakePlacer("sap_driftwood_dockposts_item_placer", "kyno_driftwood_dockposts", "kyno_driftwood_dockposts", "idle1")

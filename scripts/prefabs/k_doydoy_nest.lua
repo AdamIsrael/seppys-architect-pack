@@ -18,7 +18,7 @@ local assets =
 
 local prefabs = 
 {
-	"kyno_doydoy",
+	"sap_doydoy",
 }
 
 local function onhammered(inst)
@@ -91,7 +91,7 @@ local function fn()
 		inst.decor = {}
 		for item_name, data in pairs(decor_items) do
 			for l, offset in pairs(data) do
-				local item_inst = SpawnPrefab("kyno_doydoy")
+				local item_inst = SpawnPrefab("sap_doydoy")
 				item_inst.AnimState:PushAnimation("idle", true)
 				item_inst.entity:SetParent(inst.entity)
 				item_inst.Transform:SetPosition(offset[1], offset[2], offset[3])
@@ -162,6 +162,6 @@ local function doydoyfn()
 end
 ]]--
 
-return Prefab("kyno_doydoy_nest", fn, assets, prefabs),
+return Prefab("sap_doydoy_nest", fn, assets, prefabs),
 -- Prefab("kyno_doydoy", doydoyfn, assets, prefabs),
-MakePlacer("kyno_doydoy_nest_placer", "doydoy_nest", "doydoy_nest", "idle_nest")
+MakePlacer("sap_doydoy_nest_placer", "doydoy_nest", "doydoy_nest", "idle_nest")

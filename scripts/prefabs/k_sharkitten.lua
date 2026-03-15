@@ -68,7 +68,7 @@ local function kittenfn()
     inst.AnimState:PlayAnimation("idle")
 	
 	inst:AddTag("sharkitten")
-	inst:AddTag("kyno_sharkitten")
+	inst:AddTag("sap_sharkitten")
     inst:AddTag("scarytoprey")
     inst:AddTag("prey")
 	
@@ -109,4 +109,4 @@ local function kittenfn()
     return inst
 end
 
-return Prefab("kyno_sharkitten", kittenfn, assets, prefabs)
+return Prefab("sap_sharkitten", kittenfn, assets, prefabs)

@@ -449,4 +449,4 @@ tree("tubertree_tall", "normal", 3),
 tree("tubertree_short", "normal", 1),
 tree("tubertree_burnt", "normal", 0, "burnt"),
 tree("tubertree_stump", "normal", 0, "stump"),
-MakePlacer("kyno_tubertree_short_placer", "tubertree", "tuber_tree_build", "idle_short")
+MakePlacer("sap_tubertree_short_placer", "tubertree", "tuber_tree_build", "idle_short")

@@ -85,5 +85,5 @@ local function fn()
 	return inst
 end
 
-return Prefab("kyno_lavapool", fn, assets, prefabs),
-MakePlacer("kyno_lavapool_placer", "lava_pool", "lava_pool", "idle_loop")
+return Prefab("sap_lavapool", fn, assets, prefabs),
+MakePlacer("sap_lavapool_placer", "lava_pool", "lava_pool", "idle_loop")

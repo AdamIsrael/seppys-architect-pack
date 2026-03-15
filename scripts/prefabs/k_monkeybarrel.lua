@@ -317,8 +317,8 @@ local function cbarrelfn()
     return inst
 end
 
-return Prefab("kyno_monkeybarrel", fn, assets, prefabs),
-Prefab("kyno_barrel", barrelfn, assets, prefabs),
-Prefab("kyno_barrel_safe", cbarrelfn, assets, prefabs),
-MakePlacer("kyno_monkeybarrel_placer", "barrel", "monkey_barrel", "idle"),
-MakePlacer("kyno_barrel_placer", "kyno_monkey_barrel", "kyno_monkey_barrel", "idle")
+return Prefab("sap_monkeybarrel", fn, assets, prefabs),
+Prefab("sap_barrel", barrelfn, assets, prefabs),
+Prefab("sap_barrel_safe", cbarrelfn, assets, prefabs),
+MakePlacer("sap_monkeybarrel_placer", "barrel", "monkey_barrel", "idle"),
+MakePlacer("sap_barrel_placer", "kyno_monkey_barrel", "kyno_monkey_barrel", "idle")

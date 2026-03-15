@@ -66,5 +66,5 @@ local function lawnplacer(inst)
 	inst.AnimState:SetScale(.4, .4, .4)
 end
 
-return Prefab("kyno_skullstick", fn, assets),
-MakePlacer("kyno_skullstick_placer", "kyno_skullstick", "kyno_skullstick", "idle") --, false, nil, nil, nil, nil, nil, lawnplacer)
+return Prefab("sap_skullstick", fn, assets),
+MakePlacer("sap_skullstick_placer", "kyno_skullstick", "kyno_skullstick", "idle") --, false, nil, nil, nil, nil, nil, lawnplacer)

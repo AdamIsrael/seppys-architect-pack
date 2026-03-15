@@ -44,4 +44,4 @@ local function fn(Sim)
 	return inst
 end
 
-return Prefab("kyno_doydoy_mate_fx", fn, assets)
+return Prefab("sap_doydoy_mate_fx", fn, assets)

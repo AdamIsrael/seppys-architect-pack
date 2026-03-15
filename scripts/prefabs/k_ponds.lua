@@ -311,9 +311,9 @@ local function pondcave()
     return inst
 end
 
-return Prefab("kyno_pond", pondfrog, assets, prefabs),
-Prefab("kyno_pondmarsh", pondmos, assets, prefabs),
-Prefab("kyno_pondcave", pondcave, assets, prefabs),
-MakePlacer("kyno_pond_placer", "marsh_tile", "marsh_tile", "idle", true, nil, nil, nil, 90, nil),
-MakePlacer("kyno_pondmarsh_placer", "marsh_tile", "marsh_tile", "idle_mos", true, nil, nil, nil, 90, nil),
-MakePlacer("kyno_pondcave_placer", "marsh_tile", "marsh_tile", "idle_cave", true, nil, nil, nil, 90, nil)
+return Prefab("sap_pond", pondfrog, assets, prefabs),
+Prefab("sap_pondmarsh", pondmos, assets, prefabs),
+Prefab("sap_pondcave", pondcave, assets, prefabs),
+MakePlacer("sap_pond_placer", "marsh_tile", "marsh_tile", "idle", true, nil, nil, nil, 90, nil),
+MakePlacer("sap_pondmarsh_placer", "marsh_tile", "marsh_tile", "idle_mos", true, nil, nil, nil, 90, nil),
+MakePlacer("sap_pondcave_placer", "marsh_tile", "marsh_tile", "idle_cave", true, nil, nil, nil, 90, nil)

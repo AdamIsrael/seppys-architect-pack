@@ -252,7 +252,7 @@ local function fn()
 	-- inst.components.sleeper:SetNocturnal()
 	
     inst:AddComponent("herdmember")
-    inst.components.herdmember:SetHerdPrefab("kyno_spidermonkey_herd")
+    inst.components.herdmember:SetHerdPrefab("sap_spidermonkey_herd")
 
 	inst:AddComponent("playerprox")
     inst.components.playerprox:SetDist(20, 23)
@@ -278,4 +278,4 @@ local function fn()
 	return inst
 end
 
-return Prefab("kyno_spidermonkey", fn, assets, prefabs)
+return Prefab("sap_spidermonkey", fn, assets, prefabs)

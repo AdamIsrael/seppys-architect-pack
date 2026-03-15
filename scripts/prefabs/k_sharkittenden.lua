@@ -18,8 +18,8 @@ local assets =
 
 local prefabs = 
 {
-	"kyno_sharkittenden_low",
-	"kyno_sharkitten",
+	"sap_sharkittenden_low",
+	"sap_sharkitten",
 }
 
 local anims = {"idle_active", "idle_inactive"}
@@ -35,7 +35,7 @@ end
 
 local function SpawnKittens(inst, num)
     for i = 1, num do
-        local kitten = SpawnPrefab("kyno_sharkitten")
+        local kitten = SpawnPrefab("sap_sharkitten")
         kitten.Transform:SetPosition(inst:GetPosition():Get())
         inst.components.herd:AddMember(kitten)
     end
@@ -114,7 +114,7 @@ local function dig_up_active(inst, worker, workleft)
 	SpawnPrefab("sand_puff_large_front").Transform:SetPosition(inst.Transform:GetWorldPosition())
 	SpawnPrefab("sand_puff_large_back").Transform:SetPosition(inst.Transform:GetWorldPosition())
 	inst:Remove()
-	SpawnPrefab("kyno_sharkittenden_low").Transform:SetPosition(inst.Transform:GetWorldPosition())
+	SpawnPrefab("sap_sharkittenden_low").Transform:SetPosition(inst.Transform:GetWorldPosition())
 end
 
 local function dig_up_inactive(inst, worker, workleft)
@@ -169,7 +169,7 @@ local function activefn()
 	inst.components.workable:SetWorkLeft(5)
 	
 	inst:AddComponent("childspawner")
-    inst.components.childspawner.childname = "kyno_sharkitten"
+    inst.components.childspawner.childname = "sap_sharkitten"
     inst.components.childspawner:SetRegenPeriod(2400)
     inst.components.childspawner:SetSpawnPeriod(30)
     inst.components.childspawner:SetMaxChildren(4)
@@ -228,6 +228,6 @@ local function inactivefn()
 	return inst
 end
 
-return Prefab("kyno_sharkittenden", activefn, assets, prefabs),
-Prefab("kyno_sharkittenden_low", inactivefn, assets, prefabs),
-MakePlacer("kyno_sharkittenden_placer", "sharkittenden", "sharkitten_den", "idle_active", false, nil, nil, nil, 90, nil)
+return Prefab("sap_sharkittenden", activefn, assets, prefabs),
+Prefab("sap_sharkittenden_low", inactivefn, assets, prefabs),
+MakePlacer("sap_sharkittenden_placer", "sharkittenden", "sharkitten_den", "idle_active", false, nil, nil, nil, 90, nil)

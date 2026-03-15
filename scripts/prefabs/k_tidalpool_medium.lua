@@ -14,8 +14,8 @@ local assets =
 
 local prefabs =
 {
-	"kyno_marsh_plant_tropical",
-	"kyno_tropicalfish",
+	"sap_marsh_plant_tropical",
+	"sap_tropicalfish",
 }
 
 local function SpawnPlants(inst, plantname, count, maxradius)
@@ -55,7 +55,7 @@ local function SetSize(inst, size)
 	inst.size = size or 2
 	inst.AnimState:PlayAnimation(sizes[inst.size].anim, true)
 	inst.Physics:SetCylinder(sizes[inst.size].rad, 1.0)
-	SpawnPlants(inst, "kyno_marsh_plant_tropical", sizes[inst.size].plantcount, sizes[inst.size].plantrad)
+	SpawnPlants(inst, "sap_marsh_plant_tropical", sizes[inst.size].plantcount, sizes[inst.size].plantrad)
 end
 
 local function onsave(inst, data)
@@ -125,7 +125,7 @@ local function fn()
     inst.components.hauntable:SetHauntValue(TUNING.HAUNT_TINY)
 	
 	inst:AddComponent("fishable")
-	inst.components.fishable:AddFish("kyno_tropicalfish")
+	inst.components.fishable:AddFish("sap_tropicalfish")
 	inst.components.fishable:SetRespawnTime(TUNING.FISH_RESPAWN_TIME)
 	
     inst:AddComponent("lootdropper")
@@ -170,6 +170,6 @@ local function plantfn()
 	return inst
 end
 
-return Prefab("kyno_tidalpool_medium", fn, assets, prefabs),
+return Prefab("sap_tidalpool_medium", fn, assets, prefabs),
 -- Prefab("kyno_marsh_plant_tropical", plantfn, assets, prefabs),
-MakePlacer("kyno_tidalpool_medium_placer", "tidal_pool", "tidal_pool", "med_idle", true)
+MakePlacer("sap_tidalpool_medium_placer", "tidal_pool", "tidal_pool", "med_idle", true)

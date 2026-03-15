@@ -14,7 +14,7 @@ local assets =
 
 local prefabs =
 {
-	"kyno_palmleaf_hut_shadow",
+	"sap_palmleaf_hut_shadow",
 }
 
 local function onhammered(inst, worker)
@@ -113,7 +113,7 @@ local function fn()
 	inst.components.workable:SetOnWorkCallback(onhit)
 	inst.components.workable:SetWorkLeft(4)
 
-	inst.shadow = SpawnPrefab("kyno_palmleaf_hut_shadow")
+	inst.shadow = SpawnPrefab("sap_palmleaf_hut_shadow")
 	inst:DoTaskInTime(0, function()
 	inst.shadow.Transform:SetPosition(inst:GetPosition():Get())
 	end)
@@ -158,6 +158,6 @@ local function shadowfn()
 	return inst
 end
 
-return Prefab("kyno_palmleaf_hut", fn, assets, prefabs),
-Prefab("kyno_palmleaf_hut_shadow", shadowfn, assets),
-MakePlacer("kyno_palmleaf_hut_placer", "hut", "palmleaf_hut", "idle") 
+return Prefab("sap_palmleaf_hut", fn, assets, prefabs),
+Prefab("sap_palmleaf_hut_shadow", shadowfn, assets),
+MakePlacer("sap_palmleaf_hut_placer", "hut", "palmleaf_hut", "idle") 

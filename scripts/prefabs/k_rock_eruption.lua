@@ -80,5 +80,5 @@ local function fn()
 	return inst
 end
 
-return Prefab("kyno_rock_eruption", fn, assets, prefabs),
-MakePlacer("kyno_rock_eruption_placer", "rock_basalt", "rock_basalt", "full")
+return Prefab("sap_rock_eruption", fn, assets, prefabs),
+MakePlacer("sap_rock_eruption_placer", "rock_basalt", "rock_basalt", "full")

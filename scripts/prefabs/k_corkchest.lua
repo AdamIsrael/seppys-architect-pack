@@ -201,5 +201,5 @@ local function fn()
 	return inst
 end
 
-return Prefab("kyno_corkchest", fn, assets, prefabs),
-MakePlacer("kyno_corkchest_placer", "treasure_chest_cork", "treasure_chest_cork", "closed")
+return Prefab("sap_corkchest", fn, assets, prefabs),
+MakePlacer("sap_corkchest_placer", "treasure_chest_cork", "treasure_chest_cork", "closed")

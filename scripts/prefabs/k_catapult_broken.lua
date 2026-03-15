@@ -77,5 +77,5 @@ local function fn()
     return inst
 end
 
-return Prefab("kyno_catapult_broken", fn, assets),
-MakePlacer("kyno_catapult_broken_placer", "winona_catapult", "winona_catapult_damage3", "idle_off_nodir")
+return Prefab("sap_catapult_broken", fn, assets),
+MakePlacer("sap_catapult_broken_placer", "winona_catapult", "winona_catapult_damage3", "idle_off_nodir")

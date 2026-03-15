@@ -272,5 +272,5 @@ local function fn()
     return inst
 end
 
-return Prefab("kyno_saltstack", fn, assets, prefabs),
-MakePlacer("kyno_saltstack_placer", "salt_pillar", "salt_pillar", "full")
+return Prefab("sap_saltstack", fn, assets, prefabs),
+MakePlacer("sap_saltstack_placer", "salt_pillar", "salt_pillar", "full")

@@ -10,7 +10,7 @@ local assets =
 
 local prefabs =
 {
-    "kyno_nightmaregrowth_crack",
+    "sap_nightmaregrowth_crack",
 }
 
 local function onhammered(inst, worker)
@@ -55,7 +55,7 @@ local function fn()
     end
 	
 	local function createExtras(inst)
-	inst.towerprefab =  SpawnPrefab("kyno_nightmaregrowth_crack")
+	inst.towerprefab =  SpawnPrefab("sap_nightmaregrowth_crack")
 	inst.towerprefab.entity:SetParent(inst.entity)
 	end
 	
@@ -107,6 +107,6 @@ local function crackfn()
     return inst
 end
 
-return Prefab("kyno_nightmareobelisk", fn, assets, prefabs),
-Prefab("kyno_nightmaregrowth_crack", crackfn, assets, prefabs),
-MakePlacer("kyno_nightmareobelisk_placer", "nightmaregrowth", "nightmaregrowth", "idle")
+return Prefab("sap_nightmareobelisk", fn, assets, prefabs),
+Prefab("sap_nightmaregrowth_crack", crackfn, assets, prefabs),
+MakePlacer("sap_nightmareobelisk_placer", "nightmaregrowth", "nightmaregrowth", "idle")

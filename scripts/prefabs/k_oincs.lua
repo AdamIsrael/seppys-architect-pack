@@ -188,6 +188,6 @@ local function oinc100fn()
 	return inst
 end 
 
-return Prefab("kyno_oinc1", oinc1fn, assets, prefabs),
-Prefab("kyno_oinc10", oinc10fn, assets, prefabs),
-Prefab("kyno_oinc100", oinc100fn, assets, prefabs)
+return Prefab("sap_oinc1", oinc1fn, assets, prefabs),
+Prefab("sap_oinc10", oinc10fn, assets, prefabs),
+Prefab("sap_oinc100", oinc100fn, assets, prefabs)

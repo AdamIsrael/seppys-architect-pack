@@ -338,4 +338,4 @@ local function fn()
     return inst
 end
 
-return Prefab("kyno_mushtree_tall_webbed", fn, assets, prefabs)
+return Prefab("sap_mushtree_tall_webbed", fn, assets, prefabs)

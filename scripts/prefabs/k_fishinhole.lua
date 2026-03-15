@@ -63,5 +63,5 @@ local function fn()
 	return inst
 end
 
-return Prefab("kyno_fishinhole", fn, assets, prefabs),
-MakePlacer("kyno_fishinhole_placer", "fishschool", "fishschool", "idle_loop_full")  
+return Prefab("sap_fishinhole", fn, assets, prefabs),
+MakePlacer("sap_fishinhole_placer", "fishschool", "fishschool", "idle_loop_full")  

@@ -62,7 +62,7 @@ local function chop_down_tree(inst, chopper)
 	inst.persists = false
 	inst:DoTaskInTime(14*FRAMES, chop_down_tree_shake)
 	inst:ListenForEvent("animover", inst.Remove)
-	SpawnPrefab("kyno_oaktree_stump").Transform:SetPosition(inst.Transform:GetWorldPosition())
+	SpawnPrefab("sap_oaktree_stump").Transform:SetPosition(inst.Transform:GetWorldPosition())
 end
 
 local function dig_up(inst, chopper)
@@ -145,7 +145,7 @@ local function stumpfn()
     inst:AddTag("stump")
     inst:AddTag("hallowed")
 	
-	inst:SetPrefabNameOverride("kyno_oaktree")
+	inst:SetPrefabNameOverride("sap_oaktree")
 
     inst.entity:SetPristine()
 
@@ -176,6 +176,6 @@ local function stumpfn()
     return inst
 end
 
-return Prefab("kyno_oaktree", fn, assets, prefabs),
-Prefab("kyno_oaktree_stump", stumpfn, assets, prefabs),
-MakePlacer("kyno_oaktree_placer", "kyno_adai_desolate_tree", "kyno_adai_desolate_tree", "idle")
+return Prefab("sap_oaktree", fn, assets, prefabs),
+Prefab("sap_oaktree_stump", stumpfn, assets, prefabs),
+MakePlacer("sap_oaktree_placer", "kyno_adai_desolate_tree", "kyno_adai_desolate_tree", "idle")

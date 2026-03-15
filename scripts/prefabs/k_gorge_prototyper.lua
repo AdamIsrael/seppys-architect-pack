@@ -86,5 +86,5 @@ local function Gnawfn()
     return inst
 end
 
-return Prefab("kyno_gorge_prototyper", Gnawfn, assets),
-MakePlacer("kyno_gorge_prototyper_placer", "quagmire_altar", "quagmire_altar", "idle_empty")
+return Prefab("sap_gorge_prototyper", Gnawfn, assets),
+MakePlacer("sap_gorge_prototyper_placer", "quagmire_altar", "quagmire_altar", "idle_empty")

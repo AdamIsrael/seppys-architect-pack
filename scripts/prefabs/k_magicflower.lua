@@ -94,5 +94,5 @@ local function fn()
 	return inst
 end
 
-return Prefab("kyno_magicflower", fn, assets, prefabs),
-MakePlacer("kyno_magicflower_placer", "lifeplant", "lifeplant", "idle_loop")
+return Prefab("sap_magicflower", fn, assets, prefabs),
+MakePlacer("sap_magicflower_placer", "lifeplant", "lifeplant", "idle_loop")

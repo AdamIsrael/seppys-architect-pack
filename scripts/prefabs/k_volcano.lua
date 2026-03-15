@@ -117,5 +117,5 @@ local function fn()
 	return inst
 end
 
-return Prefab("kyno_volcano", fn, assets, prefabs),
-MakePlacer("kyno_volcano_placer", "volcano", "volcano", "active_idle")  
+return Prefab("sap_volcano", fn, assets, prefabs),
+MakePlacer("sap_volcano_placer", "volcano", "volcano", "active_idle")  

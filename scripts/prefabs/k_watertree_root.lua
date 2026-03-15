@@ -117,5 +117,5 @@ local function fn()
     return inst
 end
 
-return Prefab("kyno_watertree_root", fn, assets, prefabs),
-MakePlacer("kyno_watertree_root_placer", "watertree_root", "watertree_root", "idle1")
+return Prefab("sap_watertree_root", fn, assets, prefabs),
+MakePlacer("sap_watertree_root_placer", "watertree_root", "watertree_root", "idle1")

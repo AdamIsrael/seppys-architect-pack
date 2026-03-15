@@ -96,5 +96,5 @@ local function fn()
     return inst
 end
 
-return Prefab("kyno_theater_stageusher", fn, assets, prefabs),
-MakePlacer("kyno_theater_stageusher_placer", "stagehand", "stagehand_sts", "idle")
+return Prefab("sap_theater_stageusher", fn, assets, prefabs),
+MakePlacer("sap_theater_stageusher_placer", "stagehand", "stagehand_sts", "idle")

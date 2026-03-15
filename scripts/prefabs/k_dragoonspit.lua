@@ -87,5 +87,5 @@ local function fn()
 	return inst
 end
 
-return Prefab("kyno_dragoonspit", fn, assets, prefabs),
-MakePlacer("kyno_dragoonspit_placer", "lava_vomit", "lava_vomit", "idle_loop")
+return Prefab("sap_dragoonspit", fn, assets, prefabs),
+MakePlacer("sap_dragoonspit_placer", "lava_vomit", "lava_vomit", "idle_loop")

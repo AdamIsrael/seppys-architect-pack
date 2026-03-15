@@ -201,7 +201,7 @@ local function c2fn()
     return inst
 end
 
-return Prefab("kyno_cactus", c1fn, assets, prefabs),
-Prefab("kyno_oasis_cactus", c2fn, assets, prefabs),
-MakePlacer("kyno_cactus_placer", "cactus", "cactus", "idle"),
-MakePlacer("kyno_oasis_cactus_placer", "oasis_cactus", "oasis_cactus", "idle")
+return Prefab("sap_cactus", c1fn, assets, prefabs),
+Prefab("sap_oasis_cactus", c2fn, assets, prefabs),
+MakePlacer("sap_cactus_placer", "cactus", "cactus", "idle"),
+MakePlacer("sap_oasis_cactus_placer", "oasis_cactus", "oasis_cactus", "idle")

@@ -398,7 +398,7 @@ local function fn01()
 
     fn_pst(inst)
 	
-	inst.components.lootdropper:SetChanceLootTable("kyno_masts")
+	inst.components.lootdropper:SetChanceLootTable("sap_masts")
 	
 	inst.components.mast.sail_force = TUNING.BOAT.MAST.MALBATROSS.SAIL_FORCE
     inst.components.mast.rudder_turn_drag = TUNING.BOAT.MAST.MALBATROSS.RUDDER_TURN_DRAG
@@ -429,7 +429,7 @@ local function fn02()
 
     fn_pst(inst)
 	
-	inst.components.lootdropper:SetChanceLootTable("kyno_masts")
+	inst.components.lootdropper:SetChanceLootTable("sap_masts")
 	
 	inst.components.mast.sail_force = TUNING.BOAT.MAST.MALBATROSS.SAIL_FORCE
     inst.components.mast.rudder_turn_drag = TUNING.BOAT.MAST.MALBATROSS.RUDDER_TURN_DRAG
@@ -460,7 +460,7 @@ local function fn03()
 
     fn_pst(inst)
 	
-	inst.components.lootdropper:SetChanceLootTable("kyno_masts")
+	inst.components.lootdropper:SetChanceLootTable("sap_masts")
 	
 	inst.components.mast.sail_force = TUNING.BOAT.MAST.MALBATROSS.SAIL_FORCE
     inst.components.mast.rudder_turn_drag = TUNING.BOAT.MAST.MALBATROSS.RUDDER_TURN_DRAG
@@ -491,7 +491,7 @@ local function fn04()
 
     fn_pst(inst)
 	
-	inst.components.lootdropper:SetChanceLootTable("kyno_masts")
+	inst.components.lootdropper:SetChanceLootTable("sap_masts")
 	
 	inst.components.mast.sail_force = TUNING.BOAT.MAST.MALBATROSS.SAIL_FORCE
     inst.components.mast.rudder_turn_drag = TUNING.BOAT.MAST.MALBATROSS.RUDDER_TURN_DRAG
@@ -522,7 +522,7 @@ local function fn05()
 
     fn_pst(inst)
 	
-	inst.components.lootdropper:SetChanceLootTable("kyno_masts")
+	inst.components.lootdropper:SetChanceLootTable("sap_masts")
 	
 	inst.components.mast.sail_force = TUNING.BOAT.MAST.MALBATROSS.SAIL_FORCE
     inst.components.mast.rudder_turn_drag = TUNING.BOAT.MAST.MALBATROSS.RUDDER_TURN_DRAG
@@ -553,7 +553,7 @@ local function fn06()
 
     fn_pst(inst)
 	
-	inst.components.lootdropper:SetChanceLootTable("kyno_masts")
+	inst.components.lootdropper:SetChanceLootTable("sap_masts")
 	
 	inst.components.mast.sail_force = TUNING.BOAT.MAST.MALBATROSS.SAIL_FORCE
     inst.components.mast.rudder_turn_drag = TUNING.BOAT.MAST.MALBATROSS.RUDDER_TURN_DRAG
@@ -584,7 +584,7 @@ local function fn07()
 
     fn_pst(inst)
 	
-	inst.components.lootdropper:SetChanceLootTable("kyno_masts")
+	inst.components.lootdropper:SetChanceLootTable("sap_masts")
 	
 	inst.components.mast.sail_force = TUNING.BOAT.MAST.MALBATROSS.SAIL_FORCE
     inst.components.mast.rudder_turn_drag = TUNING.BOAT.MAST.MALBATROSS.RUDDER_TURN_DRAG
@@ -615,7 +615,7 @@ local function fn08()
 
     fn_pst(inst)
 	
-	inst.components.lootdropper:SetChanceLootTable("kyno_masts")
+	inst.components.lootdropper:SetChanceLootTable("sap_masts")
 	
 	inst.components.mast.sail_force = TUNING.BOAT.MAST.MALBATROSS.SAIL_FORCE
     inst.components.mast.rudder_turn_drag = TUNING.BOAT.MAST.MALBATROSS.RUDDER_TURN_DRAG
@@ -646,7 +646,7 @@ local function fn09()
 
     fn_pst(inst)
 	
-	inst.components.lootdropper:SetChanceLootTable("kyno_masts")
+	inst.components.lootdropper:SetChanceLootTable("sap_masts")
 	
 	inst.components.mast.sail_force = TUNING.BOAT.MAST.MALBATROSS.SAIL_FORCE
     inst.components.mast.rudder_turn_drag = TUNING.BOAT.MAST.MALBATROSS.RUDDER_TURN_DRAG
@@ -697,7 +697,7 @@ end
 
 local function item_fn_pst01(inst)
     inst:AddComponent("deployable")
-    setondeploy(inst, "kyno_mast_01")
+    setondeploy(inst, "sap_mast_01")
     inst.components.deployable:SetDeployMode(DEPLOYMODE.MAST)
     inst.components.deployable:SetDeploySpacing(DEPLOYSPACING.LESS)   
 
@@ -717,7 +717,7 @@ end
 
 local function item_fn_pst02(inst)
     inst:AddComponent("deployable")
-    setondeploy(inst, "kyno_mast_02")
+    setondeploy(inst, "sap_mast_02")
     inst.components.deployable:SetDeployMode(DEPLOYMODE.MAST)
     inst.components.deployable:SetDeploySpacing(DEPLOYSPACING.LESS)   
 
@@ -737,7 +737,7 @@ end
 
 local function item_fn_pst03(inst)
     inst:AddComponent("deployable")
-    setondeploy(inst, "kyno_mast_03")
+    setondeploy(inst, "sap_mast_03")
     inst.components.deployable:SetDeployMode(DEPLOYMODE.MAST)
     inst.components.deployable:SetDeploySpacing(DEPLOYSPACING.LESS)   
 
@@ -757,7 +757,7 @@ end
 
 local function item_fn_pst04(inst)
     inst:AddComponent("deployable")
-    setondeploy(inst, "kyno_mast_04")
+    setondeploy(inst, "sap_mast_04")
     inst.components.deployable:SetDeployMode(DEPLOYMODE.MAST)
     inst.components.deployable:SetDeploySpacing(DEPLOYSPACING.LESS)   
 
@@ -777,7 +777,7 @@ end
 
 local function item_fn_pst05(inst)
     inst:AddComponent("deployable")
-    setondeploy(inst, "kyno_mast_05")
+    setondeploy(inst, "sap_mast_05")
     inst.components.deployable:SetDeployMode(DEPLOYMODE.MAST)
     inst.components.deployable:SetDeploySpacing(DEPLOYSPACING.LESS)   
 
@@ -797,7 +797,7 @@ end
 
 local function item_fn_pst06(inst)
     inst:AddComponent("deployable")
-    setondeploy(inst, "kyno_mast_06")
+    setondeploy(inst, "sap_mast_06")
     inst.components.deployable:SetDeployMode(DEPLOYMODE.MAST)
     inst.components.deployable:SetDeploySpacing(DEPLOYSPACING.LESS)   
 
@@ -817,7 +817,7 @@ end
 
 local function item_fn_pst07(inst)
     inst:AddComponent("deployable")
-    setondeploy(inst, "kyno_mast_07")
+    setondeploy(inst, "sap_mast_07")
     inst.components.deployable:SetDeployMode(DEPLOYMODE.MAST)
     inst.components.deployable:SetDeploySpacing(DEPLOYSPACING.LESS)   
 
@@ -837,7 +837,7 @@ end
 
 local function item_fn_pst08(inst)
     inst:AddComponent("deployable")
-    setondeploy(inst, "kyno_mast_08")
+    setondeploy(inst, "sap_mast_08")
     inst.components.deployable:SetDeployMode(DEPLOYMODE.MAST)
     inst.components.deployable:SetDeploySpacing(DEPLOYSPACING.LESS)   
 
@@ -857,7 +857,7 @@ end
 
 local function item_fn_pst09(inst)
     inst:AddComponent("deployable")
-    setondeploy(inst, "kyno_mast_09")
+    setondeploy(inst, "sap_mast_09")
     inst.components.deployable:SetDeployMode(DEPLOYMODE.MAST)
     inst.components.deployable:SetDeploySpacing(DEPLOYSPACING.LESS)   
 
@@ -1055,38 +1055,38 @@ local function item_fn09()
     return inst
 end
 
-return Prefab("kyno_mast_01", fn01, assets, prefabs),
-Prefab("kyno_mast_item_01", item_fn01, assets),
-MakePlacer("kyno_mast_item_01_placer", "mast_01", "kyno_mast_01", "closed", nil,nil,nil,nil,0,"eight"),
+return Prefab("sap_mast_01", fn01, assets, prefabs),
+Prefab("sap_mast_item_01", item_fn01, assets),
+MakePlacer("sap_mast_item_01_placer", "mast_01", "kyno_mast_01", "closed", nil,nil,nil,nil,0,"eight"),
 
-Prefab("kyno_mast_02", fn02, assets, prefabs),
-Prefab("kyno_mast_item_02", item_fn02, assets),
-MakePlacer("kyno_mast_item_02_placer", "mast_01", "kyno_mast_02", "closed", nil,nil,nil,nil,0,"eight"),
+Prefab("sap_mast_02", fn02, assets, prefabs),
+Prefab("sap_mast_item_02", item_fn02, assets),
+MakePlacer("sap_mast_item_02_placer", "mast_01", "kyno_mast_02", "closed", nil,nil,nil,nil,0,"eight"),
 
-Prefab("kyno_mast_03", fn03, assets, prefabs),
-Prefab("kyno_mast_item_03", item_fn03, assets),
-MakePlacer("kyno_mast_item_03_placer", "mast_01", "kyno_mast_03", "closed", nil,nil,nil,nil,0,"eight"),
+Prefab("sap_mast_03", fn03, assets, prefabs),
+Prefab("sap_mast_item_03", item_fn03, assets),
+MakePlacer("sap_mast_item_03_placer", "mast_01", "kyno_mast_03", "closed", nil,nil,nil,nil,0,"eight"),
 
-Prefab("kyno_mast_04", fn04, assets, prefabs),
-Prefab("kyno_mast_item_04", item_fn04, assets),
-MakePlacer("kyno_mast_item_04_placer", "mast_01", "kyno_mast_04", "closed", nil,nil,nil,nil,0,"eight"),
+Prefab("sap_mast_04", fn04, assets, prefabs),
+Prefab("sap_mast_item_04", item_fn04, assets),
+MakePlacer("sap_mast_item_04_placer", "mast_01", "kyno_mast_04", "closed", nil,nil,nil,nil,0,"eight"),
 
-Prefab("kyno_mast_05", fn05, assets, prefabs),
-Prefab("kyno_mast_item_05", item_fn05, assets),
-MakePlacer("kyno_mast_item_05_placer", "mast_01", "kyno_mast_05", "closed", nil,nil,nil,nil,0,"eight"),
+Prefab("sap_mast_05", fn05, assets, prefabs),
+Prefab("sap_mast_item_05", item_fn05, assets),
+MakePlacer("sap_mast_item_05_placer", "mast_01", "kyno_mast_05", "closed", nil,nil,nil,nil,0,"eight"),
 
-Prefab("kyno_mast_06", fn06, assets, prefabs),
-Prefab("kyno_mast_item_06", item_fn06, assets),
-MakePlacer("kyno_mast_item_06_placer", "mast_01", "kyno_mast_06", "closed", nil,nil,nil,nil,0,"eight"),
+Prefab("sap_mast_06", fn06, assets, prefabs),
+Prefab("sap_mast_item_06", item_fn06, assets),
+MakePlacer("sap_mast_item_06_placer", "mast_01", "kyno_mast_06", "closed", nil,nil,nil,nil,0,"eight"),
 
-Prefab("kyno_mast_07", fn07, assets, prefabs),
-Prefab("kyno_mast_item_07", item_fn07, assets),
-MakePlacer("kyno_mast_item_07_placer", "mast_01", "kyno_mast_07", "closed", nil,nil,nil,nil,0,"eight"),
+Prefab("sap_mast_07", fn07, assets, prefabs),
+Prefab("sap_mast_item_07", item_fn07, assets),
+MakePlacer("sap_mast_item_07_placer", "mast_01", "kyno_mast_07", "closed", nil,nil,nil,nil,0,"eight"),
 
-Prefab("kyno_mast_08", fn08, assets, prefabs),
-Prefab("kyno_mast_item_08", item_fn08, assets),
-MakePlacer("kyno_mast_item_08_placer", "mast_01", "kyno_mast_08", "closed", nil,nil,nil,nil,0,"eight"),
+Prefab("sap_mast_08", fn08, assets, prefabs),
+Prefab("sap_mast_item_08", item_fn08, assets),
+MakePlacer("sap_mast_item_08_placer", "mast_01", "kyno_mast_08", "closed", nil,nil,nil,nil,0,"eight"),
 
-Prefab("kyno_mast_09", fn09, assets, prefabs),
-Prefab("kyno_mast_item_09", item_fn09, assets),
-MakePlacer("kyno_mast_item_09_placer", "mast_01", "kyno_mast_09", "closed", nil,nil,nil,nil,0,"eight")
+Prefab("sap_mast_09", fn09, assets, prefabs),
+Prefab("sap_mast_item_09", item_fn09, assets),
+MakePlacer("sap_mast_item_09_placer", "mast_01", "kyno_mast_09", "closed", nil,nil,nil,nil,0,"eight")

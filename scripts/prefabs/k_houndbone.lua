@@ -89,4 +89,4 @@ local function fn()
     return inst
 end
 
-return Prefab("kyno_houndbone", fn, assets, prefabs)
+return Prefab("sap_houndbone", fn, assets, prefabs)

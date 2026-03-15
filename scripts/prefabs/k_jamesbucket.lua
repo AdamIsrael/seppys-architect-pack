@@ -76,5 +76,5 @@ local function bucketplacetestfn(inst)
 	inst.AnimState:SetScale(1.1, 1.1, 1.1)
 end
 
-return Prefab("kyno_bucket", fn, assets),
-MakePlacer("kyno_bucket_placer", "jamesbucket", "jamesbucket", "idle", false, nil, nil, nil, nil, nil, bucketplacetestfn)
+return Prefab("sap_bucket", fn, assets),
+MakePlacer("sap_bucket_placer", "jamesbucket", "jamesbucket", "idle", false, nil, nil, nil, nil, nil, bucketplacetestfn)

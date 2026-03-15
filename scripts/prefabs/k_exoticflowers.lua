@@ -9,7 +9,7 @@ local assets =
 local prefabs =
 {
     "petals",
-    "kyno_exoticflower",
+    "sap_exoticflower",
 }
 
 local DAYLIGHT_SEARCH_RANGE = 30
@@ -133,7 +133,7 @@ local function artificialfn()
     return inst
 end
 
-return Prefab("kyno_exoticflower", fn, assets, prefabs),
-Prefab("kyno_artificial_exoticflower", artificialfn, assets, prefabs),
-MakePlacer("kyno_exoticflower_placer", "flowers_rainforest", "flowers_rainforest", "f6"),
-MakePlacer("kyno_artificial_exoticflower_placer", "flowers_rainforest", "flowers_rainforest", "f5")
+return Prefab("sap_exoticflower", fn, assets, prefabs),
+Prefab("sap_artificial_exoticflower", artificialfn, assets, prefabs),
+MakePlacer("sap_exoticflower_placer", "flowers_rainforest", "flowers_rainforest", "f6"),
+MakePlacer("sap_artificial_exoticflower_placer", "flowers_rainforest", "flowers_rainforest", "f5")

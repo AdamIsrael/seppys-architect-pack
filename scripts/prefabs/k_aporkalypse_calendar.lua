@@ -15,9 +15,9 @@ local assets =
 
 local prefabs =
 {
-	"kyno_aporkalypse_clock1",
-	"kyno_aporkalypse_clock2",
-	"kyno_aporkalypse_clock3",
+	"sap_aporkalypse_clock1",
+	"sap_aporkalypse_clock2",
+	"sap_aporkalypse_clock3",
 }
 
 local function OnNight(inst, isnight)
@@ -107,9 +107,9 @@ local function fn()
     end
 	
 	local function createExtras(inst)
-		inst.clockprefab1 = SpawnPrefab("kyno_aporkalypse_clock1")
-		inst.clockprefab2 = SpawnPrefab("kyno_aporkalypse_clock2")
-		inst.clockprefab3 = SpawnPrefab("kyno_aporkalypse_clock3")
+		inst.clockprefab1 = SpawnPrefab("sap_aporkalypse_clock1")
+		inst.clockprefab2 = SpawnPrefab("sap_aporkalypse_clock2")
+		inst.clockprefab3 = SpawnPrefab("sap_aporkalypse_clock3")
 	
 		inst.clockprefab1.entity:SetParent(inst.entity)
 		inst.clockprefab2.entity:SetParent(inst.entity)
@@ -333,8 +333,8 @@ local function calendarplacerfn(inst)
     inst.components.placer:LinkEntity(placer4)
 end
 
-return Prefab("kyno_aporkalypse_calendar", fn, assets, prefabs),
-Prefab("kyno_aporkalypse_clock1", clockfn, assets, prefabs),
-Prefab("kyno_aporkalypse_clock2", clock2fn, assets, prefabs),
-Prefab("kyno_aporkalypse_clock3", clock3fn, assets, prefabs),
-MakePlacer("kyno_aporkalypse_calendar_placer", "clock_03", "porkalypse_clock_03", "off_idle", true, nil, nil, PS, 90, nil, calendarplacerfn)
+return Prefab("sap_aporkalypse_calendar", fn, assets, prefabs),
+Prefab("sap_aporkalypse_clock1", clockfn, assets, prefabs),
+Prefab("sap_aporkalypse_clock2", clock2fn, assets, prefabs),
+Prefab("sap_aporkalypse_clock3", clock3fn, assets, prefabs),
+MakePlacer("sap_aporkalypse_calendar_placer", "clock_03", "porkalypse_clock_03", "off_idle", true, nil, nil, PS, 90, nil, calendarplacerfn)

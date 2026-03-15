@@ -175,4 +175,4 @@ local function pigtorch_fuel()
     return inst
 end
 
-return Prefab("kyno_pigtorch", fn, assets, prefabs)
+return Prefab("sap_pigtorch", fn, assets, prefabs)

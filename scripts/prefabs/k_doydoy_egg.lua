@@ -9,7 +9,7 @@ local assets=
 
 local prefabs = 
 {
-	"kyno_doydoyegg_cooked",
+	"sap_doydoyegg_cooked",
 	"spoiled_food",
 }
 
@@ -31,7 +31,7 @@ local function eggfn()
 	inst:AddTag("meat")
 	inst:AddTag("cookable")
 	inst:AddTag("DD_FOOD")
-	inst:AddTag("kyno_doydoyegg")
+	inst:AddTag("sap_doydoyegg")
 
 	inst.entity:SetPristine()
 
@@ -59,10 +59,10 @@ local function eggfn()
 
 	inst:AddComponent("inventoryitem")
 	inst.components.inventoryitem.atlasname = "images/inventoryimages/tap_inventoryimages.xml"
-	inst.components.inventoryitem.imagename = "kyno_doydoyegg"
+	inst.components.inventoryitem.imagename = "sap_doydoyegg"
 
 	inst:AddComponent("cookable")
-	inst.components.cookable.product = "kyno_doydoyegg_cooked"
+	inst.components.cookable.product = "sap_doydoyegg_cooked"
 
 	MakeSmallBurnable(inst)
 	MakeSmallPropagator(inst)
@@ -118,7 +118,7 @@ local function cookedfn()
 
 	inst:AddComponent("inventoryitem")
 	inst.components.inventoryitem.atlasname = "images/inventoryimages/tap_inventoryimages.xml"
-	inst.components.inventoryitem.imagename = "kyno_doydoyegg_cooked"
+	inst.components.inventoryitem.imagename = "sap_doydoyegg_cooked"
 
 	MakeSmallBurnable(inst)
 	MakeSmallPropagator(inst)
@@ -127,5 +127,5 @@ local function cookedfn()
 	return inst
 end
 
-return Prefab("kyno_doydoyegg", eggfn, assets, prefabs),
-Prefab("kyno_doydoyegg_cooked", cookedfn, assets, prefabs) 
+return Prefab("sap_doydoyegg", eggfn, assets, prefabs),
+Prefab("sap_doydoyegg_cooked", cookedfn, assets, prefabs) 

@@ -64,4 +64,4 @@ local function fn()
 	return inst
 end
 
-return Prefab("kyno_seashell_buried", fn, assets, prefabs)
+return Prefab("sap_seashell_buried", fn, assets, prefabs)

@@ -96,4 +96,4 @@ local function sapling_fn(build, anim, growprefab, tag, fireproof, overrideloot)
     return fn
 end
 
-return Prefab("kyno_teatree_sapling", sapling_fn("teatree_nut", "idle_planted", "teatree_short", "teatree", true), pinecone_assets, pinecone_prefabs)
+return Prefab("sap_teatree_sapling", sapling_fn("teatree_nut", "idle_planted", "teatree_short", "teatree", true), pinecone_assets, pinecone_prefabs)

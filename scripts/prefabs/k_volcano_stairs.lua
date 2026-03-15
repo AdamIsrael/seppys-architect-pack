@@ -76,5 +76,5 @@ local function fn()
 	return inst
 end
 
-return Prefab("kyno_volcanostairs", fn, assets, prefabs),
-MakePlacer("kyno_volcanostairs_placer", "volcano_entrance", "volcano_entrance", "idle")
+return Prefab("sap_volcanostairs", fn, assets, prefabs),
+MakePlacer("sap_volcanostairs_placer", "volcano_entrance", "volcano_entrance", "idle")

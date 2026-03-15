@@ -666,5 +666,5 @@ tree("legacytwiggy_diseased_old", "diseased", 4),
 tree("legacytwiggy_diseased_burnt", "diseased", 0, "burnt"),
 tree("legacytwiggy_diseased_stump", "diseased", 0, "stump"),
 
-MakePlacer("kyno_legacytwiggy_placer", "twiggy", "legacytwiggy_build", "sway1_loop_short", false, nil, nil, nil, nil, nil, twiggyplacefn),
-MakePlacer("kyno_legacytwiggy_diseased_placer", "twiggy", "legacytwiggy_diseased_build", "sway1_loop_short", false, nil, nil, nil, nil, nil, twiggyplacefn)
+MakePlacer("sap_legacytwiggy_placer", "twiggy", "legacytwiggy_build", "sway1_loop_short", false, nil, nil, nil, nil, nil, twiggyplacefn),
+MakePlacer("sap_legacytwiggy_diseased_placer", "twiggy", "legacytwiggy_diseased_build", "sway1_loop_short", false, nil, nil, nil, nil, nil, twiggyplacefn)

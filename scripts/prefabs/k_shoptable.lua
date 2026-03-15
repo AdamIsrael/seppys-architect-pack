@@ -11,7 +11,7 @@ local assets =
 local function onhammered(inst, worker)
 	inst.components.lootdropper:DropLoot()
 	SpawnPrefab("collapse_small").Transform:SetPosition(inst.Transform:GetWorldPosition())
-	SpawnPrefab("kyno_shoptable_broken").Transform:SetPosition(inst.Transform:GetWorldPosition())
+	SpawnPrefab("sap_shoptable_broken").Transform:SetPosition(inst.Transform:GetWorldPosition())
 	inst.SoundEmitter:PlaySound("dontstarve/common/destroy_wood")
 	inst:Remove()
 end
@@ -115,6 +115,6 @@ local function fn2()
     return inst
 end
 
-return Prefab("kyno_shoptable", fn, assets),
-Prefab("kyno_shoptable_broken", fn2, assets),
-MakePlacer("kyno_shoptable_placer", "shop_table", "shop_table", "idle")
+return Prefab("sap_shoptable", fn, assets),
+Prefab("sap_shoptable_broken", fn2, assets),
+MakePlacer("sap_shoptable_placer", "shop_table", "shop_table", "idle")

@@ -13,7 +13,7 @@ local assets =
 
 local prefabs =
 {
-    "kyno_chimineafire",
+    "sap_chimineafire",
     "collapse_small",
     "ash",
 }
@@ -166,7 +166,7 @@ local function fn()
 	inst:AddComponent("cooker")
 
     inst:AddComponent("burnable")
-    inst.components.burnable:AddBurnFX("kyno_chimineafire", Vector3(0, 0, 0))
+    inst.components.burnable:AddBurnFX("sap_chimineafire", Vector3(0, 0, 0))
     inst:ListenForEvent("onextinguish", onextinguish)
 	
     inst:AddComponent("workable")
@@ -212,5 +212,5 @@ local function fn()
     return inst
 end
 
-return Prefab("kyno_sea_chiminea", fn, assets, prefabs),
-MakePlacer("kyno_sea_chiminea_placer", "fire_water_pit", "fire_water_pit", "idle_water")
+return Prefab("sap_sea_chiminea", fn, assets, prefabs),
+MakePlacer("sap_sea_chiminea_placer", "fire_water_pit", "fire_water_pit", "idle_water")

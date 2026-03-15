@@ -390,4 +390,4 @@ local function rock_ice_fn()
     return inst
 end
 
-return Prefab("kyno_rock_ice", rock_ice_fn, rock_ice_assets, prefabs)
+return Prefab("sap_rock_ice", rock_ice_fn, rock_ice_assets, prefabs)
