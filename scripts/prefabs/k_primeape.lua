@@ -3,10 +3,6 @@ local assets =
     Asset("ANIM", "anim/kiki_basic.zip"),
 	Asset("ANIM", "anim/junglekiki_build.zip"),
     Asset("ANIM", "anim/kiki_nightmare_skin.zip"),
-    Asset("SOUND", "sound/monkey.fsb"),
-	
-	Asset("SOUNDPACKAGE", "sound/dontstarve_DLC002.fev"),
-	Asset("SOUND", "sound/dontstarve_shipwreckedSFX.fsb"),
 }
 
 local prefabs =

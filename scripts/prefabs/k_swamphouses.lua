@@ -3,7 +3,6 @@ require "prefabutil"
 local assets =
 { 
 	-- Animations now loaded globally in tap_assets.lua to prevent orphaned resources.
-    Asset("SOUND", "sound/pig.fsb"),
 }
 
 local prefabs =

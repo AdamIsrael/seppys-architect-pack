@@ -4,9 +4,6 @@ local assets =
 {
 	Asset("ANIM", "anim/maxwell_throne.zip"),
 	Asset("ANIM", "anim/maxwell_endgame.zip"),
-	
-	Asset("SOUNDPACKAGE", "sound/shadwell_sfx.fev"),
-	Asset("SOUND", "sound/shadwell_sfx.fsb"),
 }
 
 local prefabs = 

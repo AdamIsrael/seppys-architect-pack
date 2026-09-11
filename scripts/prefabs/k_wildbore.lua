@@ -13,10 +13,6 @@ local assets =
 	Asset("ANIM", "anim/werepig_basic.zip"),
 	Asset("ANIM", "anim/werepig_actions.zip"),
     -- Asset("ANIM", "anim/werepig_wildbore_build.zip"),
-    
-	Asset("SOUND", "sound/pig.fsb"),
-	Asset("SOUNDPACKAGE", "sound/dontstarve_DLC002.fev"),
-	Asset("SOUND", "sound/dontstarve_shipwreckedSFX.fsb"),
 }
 
 local PIG_TOKEN_PREFAB = "pig_token"

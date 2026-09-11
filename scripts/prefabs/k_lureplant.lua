@@ -2,8 +2,6 @@ local assets =
 {
     Asset("ANIM", "anim/eyeplant_trap.zip"),
     Asset("ANIM", "anim/meat_rack_food.zip"),
-	
-    Asset("SOUND", "sound/plant.fsb"),
 }
 
 local function OnIsPathFindingDirty(inst)    

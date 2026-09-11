@@ -6,9 +6,6 @@ local assets=
 	Asset("ANIM", "anim/dragoon_build.zip"),
 	Asset("ANIM", "anim/dragoon_basic.zip"),
 	Asset("ANIM", "anim/dragoon_actions.zip"),
-
-	Asset("SOUNDPACKAGE", "sound/dontstarve_DLC002.fev"),
-	Asset("SOUND", "sound/dontstarve_shipwreckedSFX.fsb"),
 }
 
 local prefabs =

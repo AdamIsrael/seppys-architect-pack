@@ -163,14 +163,6 @@ local function makebird(name, soundname, no_feather, bank, custom_loot_setup, wa
         Asset("ANIM", "anim/crow.zip"),
 		Asset("ANIM", "anim/kyno_parrot_pirate.zip"),
         Asset("ANIM", "anim/"..name.."_build.zip"),
-        
-		Asset("SOUND", "sound/birds.fsb"),
-		
-		Asset("SOUNDPACKAGE", "sound/dontstarve_DLC003.fev"),
-		Asset("SOUND", "sound/DLC003_sfx.fsb"),
-		
-		Asset("SOUNDPACKAGE", "sound/dontstarve_DLC002.fev"),
-		Asset("SOUND", "sound/dontstarve_shipwreckedSFX.fsb"),
     }
 
     if bank ~= nil then

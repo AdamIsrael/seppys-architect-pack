@@ -3,9 +3,6 @@ local brain = require("brains/elephantcactusbrain")
 local assets =
 {
 	Asset("ANIM", "anim/cactus_volcano.zip"),
-
-	Asset("SOUNDPACKAGE", "sound/dontstarve_DLC002.fev"),
-	Asset("SOUND", "sound/dontstarve_shipwreckedSFX.fsb"),
 }
 
 local prefabs =

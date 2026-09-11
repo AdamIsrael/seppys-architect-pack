@@ -2,7 +2,6 @@ local assets =
 {
     Asset("ANIM", "anim/walrus_house.zip"),
     Asset("ANIM", "anim/igloo_track.zip"),
-    Asset("SOUND", "sound/pig.fsb"), -- light on/off sounds
     Asset("MINIMAP_IMAGE", "igloo"),
 }
 

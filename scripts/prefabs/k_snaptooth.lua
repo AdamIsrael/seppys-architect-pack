@@ -4,9 +4,6 @@ local assets =
 {
 	Asset("ANIM", "anim/venus_flytrap_lg_build.zip"),
 	Asset("ANIM", "anim/venus_flytrap_planted.zip"),
-	
-	Asset("SOUNDPACKAGE", "sound/dontstarve_DLC003.fev"),
-	Asset("SOUND", "sound/DLC003_sfx.fsb"),
 }
 
 local prefabs = {}

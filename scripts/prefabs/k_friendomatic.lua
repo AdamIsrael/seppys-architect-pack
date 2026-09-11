@@ -1,8 +1,6 @@
 local assets =
 {
     Asset("ANIM", "anim/portal_friends.zip"),
-   
-	Asset("SOUND", "sound/common.fsb"),
 }
 
 local function close(inst)

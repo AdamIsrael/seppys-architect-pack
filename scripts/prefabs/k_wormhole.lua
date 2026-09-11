@@ -3,8 +3,6 @@ local assets =
     Asset("ANIM", "anim/teleporter_worm.zip"),
     Asset("ANIM", "anim/teleporter_worm_build.zip"),
 	Asset("ANIM", "anim/teleporter_sickworm_build.zip"),
-	
-    Asset("SOUND", "sound/common.fsb"),
 }
 
 local prefabs =

@@ -6,7 +6,6 @@ local assets =
 	Asset("ANIM", "anim/legacy_twiggytree_tall_old.zip"),
 
 	Asset("ANIM", "anim/dust_fx.zip"),
-	Asset("SOUND", "sound/forest.fsb"),
 }
 
 local prefabs =

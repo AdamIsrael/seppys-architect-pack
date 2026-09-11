@@ -4,9 +4,6 @@ local assets =
 {
 	Asset("ANIM", "anim/snapdragon.zip"),
 	Asset("ANIM", "anim/snapdragon_build.zip"),
-	
-	Asset("SOUNDPACKAGE", "sound/dontstarve_DLC003.fev"),
-	Asset("SOUND", "sound/DLC003_sfx.fsb"),
 }
 
 local prefabs = {}

@@ -5,7 +5,6 @@ local assets =
 	Asset("ANIM", "anim/claw_tree_short2.zip"),
 	Asset("ANIM", "anim/claw_tree_tall2.zip"),
 	Asset("ANIM", "anim/dust_fx.zip"),
-	Asset("SOUND", "sound/forest.fsb"),
 }
 
 local prefabs =

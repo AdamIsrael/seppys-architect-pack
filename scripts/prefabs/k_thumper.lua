@@ -3,9 +3,6 @@ require("prefabutil")
 local assets =
 {
     Asset("ANIM", "anim/wagstaff_thumper.zip"),
-	
-	Asset("SOUNDPACKAGE", "sound/dontstarve_wagstaff.fev"),
-	Asset("SOUND", "sound/dontstarve_wagstaff.fsb"),
 }
 
 local prefabs =

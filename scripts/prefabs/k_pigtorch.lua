@@ -1,7 +1,6 @@
 local assets =
 {
     Asset("ANIM", "anim/pig_torch.zip"),
-    Asset("SOUND", "sound/common.fsb"),
 }
 
 local prefabs =

@@ -6,7 +6,6 @@ local brain = require "brains/pigmancitybrain"
 
 local assets =
 {
-	Asset("SOUND", "sound/pig.fsb"),
     Asset("ANIM", "anim/pig_usher.zip"),
     Asset("ANIM", "anim/pig_mayor.zip"),
     Asset("ANIM", "anim/pig_miner.zip"),
@@ -28,9 +27,6 @@ local assets =
     Asset("ANIM", "anim/townspig_actions.zip"),
     Asset("ANIM", "anim/pig_royalguard_2.zip"),
     Asset("ANIM", "anim/townspig_shop_wip.zip"),
-	
-	Asset("SOUNDPACKAGE", "sound/dontstarve_DLC003.fev"),
-	Asset("SOUND", "sound/DLC003_sfx.fsb"),
 }
 
 local prefabs =

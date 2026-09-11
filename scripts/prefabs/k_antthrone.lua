@@ -4,9 +4,6 @@ local assets =
 {
 	Asset("ANIM", "anim/throne.zip"),
 	Asset("ANIM", "anim/crickant_queen_basics.zip"),
-	
-	Asset("SOUNDPACKAGE", "sound/dontstarve_DLC003.fev"),
-	Asset("SOUND", "sound/DLC003_sfx.fsb"),
 }
 
 local prefabs =

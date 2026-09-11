@@ -9,7 +9,6 @@ local prefabs =
 local assets =
 {
     Asset("ANIM", "anim/beehive.zip"),
-    Asset("SOUND", "sound/bee.fsb"),
 }
 
 local function OnEntityWake(inst)
