@@ -4,6 +4,8 @@ local pinecone_assets =
     Asset("ANIM", "anim/burr.zip"),
 }
 
+local prefabs = {}
+
 local pinecone_prefabs =
 {
     "rainforesttree_short",

@@ -8,6 +8,11 @@ local assets =
 	Asset("ATLAS", "images/inventoryimages/tap_buildingimages2.xml"),
 }
 
+local prefabs =
+{
+	"collapse_small"
+}
+
 local function OnFinish(inst)
     if inst.components.burnable ~= nil and inst.components.burnable:IsBurning() then
         inst.components.burnable:Extinguish()

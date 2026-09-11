@@ -62,6 +62,11 @@ local anims =
     { threshold = 1, anim = { "water_fullA", "water_fullB", "water_fullC" } },
 }
 
+local prefabs =
+{
+	"collapse_small"
+}
+
 local function resolveanimtoplay(inst, percent)
     for i, v in ipairs(anims) do
         if percent <= v.threshold then

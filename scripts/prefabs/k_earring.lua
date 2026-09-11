@@ -10,6 +10,8 @@ local assets =
 	Asset("ATLAS_BUILD", "images/inventoryimages/tap_inventoryimages.xml", 256),
 }
 
+local prefabs = {}
+
 local function Sparkle(inst)
 if inst:HasTag("earring") then
 	inst:DoTaskInTime(5+math.random()*5, function() Sparkle(inst) end)

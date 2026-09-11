@@ -11,6 +11,11 @@ local assets =
 	Asset("ATLAS", "images/minimapimages/tap_minimapicons.xml"),
 }
 
+local prefabs =
+{
+	"collapse_small"
+}
+
 local CORALSTATE =
 {
 	FULL = "_full",

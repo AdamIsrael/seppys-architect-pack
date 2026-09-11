@@ -8,6 +8,8 @@ local assets =
 	Asset("ATLAS", "images/inventoryimages/tap_buildingimages2.xml"),
 }
 
+local prefabs = {}
+
 local function OnIsPathFindingDirty(inst)    
     local wall_x, wall_y, wall_z = inst.Transform:GetWorldPosition()
     if TheWorld.Map:GetPlatformAtPoint(wall_x, wall_z) == nil then        

@@ -8,6 +8,12 @@ local assets =
 	Asset("ATLAS", "images/inventoryimages/tap_buildingimages2.xml"),
 }
 
+local prefabs =
+{
+	"collapse_big",
+	"collapse_small"
+}
+
 local function OnFinishBig(inst, worker)
 	inst.components.lootdropper:DropLoot()
 	inst.SoundEmitter:PlaySound("dontstarve/common/destroy_stone")

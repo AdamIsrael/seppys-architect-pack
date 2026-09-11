@@ -11,6 +11,8 @@ local assets =
 	Asset("ATLAS", "images/minimapimages/tap_minimapicons.xml"),
 }
 
+local prefabs = {}
+
 local function onhit(inst)
 	inst.AnimState:PlayAnimation("idle_loop_full")
 	inst.AnimState:PushAnimation("idle_loop_full", true)

@@ -73,6 +73,7 @@ local function MakeChest(name, bank, build, indestructible, master_postinit, pre
 		Asset("ATLAS", "images/inventoryimages/tap_inventoryimages.xml"),
 		Asset("ATLAS_BUILD", "images/inventoryimages/tap_inventoryimages.xml", 256),
     }
+
     assets = assets ~= nil and JoinArrays(assets, default_assets) or default_assets
 
     local function fn()

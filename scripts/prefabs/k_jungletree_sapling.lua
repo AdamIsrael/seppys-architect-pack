@@ -4,6 +4,8 @@ local pinecone_assets =
     Asset("ANIM", "anim/jungletreeseed.zip"),
 }
 
+local prefabs = {}
+
 local pinecone_prefabs =
 {
     "jungletree_short",

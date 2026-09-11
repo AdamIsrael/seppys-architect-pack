@@ -8,6 +8,11 @@ local assets =
 	Asset("ATLAS", "images/inventoryimages/tap_buildingimages.xml"),
 }
 
+local prefabs =
+{
+	"collapse_small"
+}
+
 local function onextinguish(inst)
     if inst.components.fueled ~= nil then
         inst.components.fueled:InitializeFuelLevel(0)

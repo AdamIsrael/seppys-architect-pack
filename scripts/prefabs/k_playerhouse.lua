@@ -26,6 +26,11 @@ local assets =
 	Asset("SOUND", "sound/pig.fsb"),
 }
 
+local prefabs =
+{
+	"collapse_big"
+}
+
 local SCALEBUILD = {}
 SCALEBUILD["player_large_house1_manor_build"] = true
 SCALEBUILD["player_large_house1_villa_build"] = true

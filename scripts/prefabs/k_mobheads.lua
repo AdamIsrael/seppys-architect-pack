@@ -6,6 +6,11 @@ local pig_assets =
 	Asset("ATLAS", "images/inventoryimages/tap_buildingimages.xml"),
 }
 
+local prefabs =
+{
+	"collapse_small"
+}
+
 local merm_assets =
 {
     Asset("ANIM", "anim/merm_head.zip"),

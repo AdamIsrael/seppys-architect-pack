@@ -1,5 +1,10 @@
 require "prefabutil"
 
+local prefabs =
+{
+	"collapse_small"
+}
+
 local function onhammered(inst, worker)
 	inst.components.lootdropper:DropLoot()
 	SpawnPrefab("collapse_small").Transform:SetPosition(inst.Transform:GetWorldPosition())

@@ -6,6 +6,11 @@ local hotspring_assets =
 	Asset("ATLAS", "images/inventoryimages/tap_buildingimages.xml"),
 }
 
+local prefabs =
+{
+	"collapse_small"
+}
+
 local hotspring_prefabs =
 {
     "crater_steam_fx1",

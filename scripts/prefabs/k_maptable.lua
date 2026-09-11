@@ -8,6 +8,13 @@ local assets =
 	Asset("ATLAS", "images/inventoryimages/tap_buildingimages.xml"),
 }
 
+local prefabs =
+{
+	"collapse_small",
+	"kyno_maptable_broken",
+	"mapscroll"
+}
+
 local function onhammered(inst)
 	if inst:HasTag("fire") and inst.components.burnable then
 		inst.components.burnable:Extinguish()

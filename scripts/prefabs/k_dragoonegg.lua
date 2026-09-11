@@ -8,6 +8,11 @@ local assets =
 	Asset("ATLAS", "images/inventoryimages/tap_buildingimages.xml"),
 }
 
+local prefabs =
+{
+	"collapse_small"
+}
+
 local function onwork(inst, worker, workleft)
 	if workleft < TUNING.ROCKS_MINE*(1/3) then
 		inst.AnimState:PlayAnimation("crack_big_idle")

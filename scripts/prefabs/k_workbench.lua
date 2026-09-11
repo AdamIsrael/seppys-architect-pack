@@ -11,6 +11,11 @@ local assets =
 	Asset("ATLAS", "images/minimapimages/tap_minimapicons.xml"),
 }
 
+local prefabs =
+{
+	"collapse_big"
+}
+
 local function turnlightoff(inst, light)
     if light then
         light:Enable(false)

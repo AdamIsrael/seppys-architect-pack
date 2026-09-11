@@ -23,6 +23,18 @@ local assets =
 	Asset("ATLAS", "images/inventoryimages/tap_buildingimages2.xml"),
 }
 
+local prefabs =
+{
+	"archive_dispencer_sfx",
+	"archive_lockbox",
+	"collapse_small",
+	"kyno_archive_orchestrina_base",
+	"kyno_archive_portal_base",
+	"kyno_archive_switch_pad",
+	"opalpreciousgem",
+	"rock_break_fx"
+}
+
 local _storyprogress = 0
 local NUM_STORY_LINES = 5
 

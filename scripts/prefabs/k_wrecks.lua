@@ -14,6 +14,11 @@ local assets =
 	Asset("ATLAS", "images/minimapimages/tap_minimapicons.xml"),
 }
 
+local prefabs =
+{
+	"collapse_big"
+}
+
 local MAST = 1
 local BOW = 2
 local MIDSHIP = 3

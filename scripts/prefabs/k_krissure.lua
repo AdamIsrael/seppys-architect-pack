@@ -14,6 +14,8 @@ local assets =
 	Asset("SOUND", "sound/dontstarve_shipwreckedSFX.fsb"),
 }
 
+local prefabs = {}
+
 local function StartBurning(inst)
 	inst.AnimState:PlayAnimation("active_pre")
 	inst.AnimState:PushAnimation("active_loop")

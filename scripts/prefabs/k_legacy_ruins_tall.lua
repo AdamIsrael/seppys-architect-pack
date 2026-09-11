@@ -9,6 +9,12 @@ local assets =
 	Asset("ATLAS", "images/inventoryimages/tap_buildingimages.xml"),
 }
 
+local prefabs =
+{
+	"statue_transition",
+	"statue_transition_2"
+}
+
 SetSharedLootTable("kyno_bluegem",
 {
     {"thulecite",     1.00},

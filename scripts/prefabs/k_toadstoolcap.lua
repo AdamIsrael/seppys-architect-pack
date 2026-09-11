@@ -10,6 +10,8 @@ local assets =
 	Asset("ATLAS", "images/inventoryimages/tap_buildingimages2.xml"),
 }
 
+local prefabs = {}
+
 local function onworked(inst, chopper, workleft)
 	if chopper and chopper.components.beaverness and chopper.components.beaverness:IsBeaver() then
 		inst.SoundEmitter:PlaySound("dontstarve/characters/woodie/beaver_chop_tree")          

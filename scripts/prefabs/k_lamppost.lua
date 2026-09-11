@@ -10,6 +10,11 @@ local assets =
 	Asset("ATLAS", "images/inventoryimages/tap_buildingimages.xml"),
 }
 
+local prefabs =
+{
+	"collapse_small"
+}
+
 local INTENSITY = 0.6
 
 local LAMP_DIST = 16

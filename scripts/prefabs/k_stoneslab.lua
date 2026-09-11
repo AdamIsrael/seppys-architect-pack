@@ -11,6 +11,8 @@ local assets =
 	Asset("ATLAS", "images/minimapimages/tap_minimapicons.xml"),
 }
 
+local prefabs = {}
+
 local function onwork(inst, worker, workleft)
 	if workleft < TUNING.ROCKS_MINE*(1/2) then
 		inst.AnimState:PushAnimation("idle", true)

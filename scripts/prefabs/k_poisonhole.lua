@@ -8,6 +8,8 @@ local assets =
 	Asset("ATLAS", "images/inventoryimages/tap_buildingimages.xml"),
 }
 
+local prefabs = {}
+
 local function fartover(inst)
 	inst.AnimState:PlayAnimation("boil_start", false)
 	inst.AnimState:PushAnimation("boil_loop", true)

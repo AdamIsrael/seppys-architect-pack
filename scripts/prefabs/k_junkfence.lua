@@ -5,6 +5,12 @@ local wall_prefabs =
     "collapse_small",
 }
 
+local prefabs =
+{
+	"collapse_small",
+	"junk_break_fx"
+}
+
 local FINDDOOR_MUST_TAGS = {"door"}
 local FINDWALL_MUST_TAGS = {"wall"}
 local FINDWALL_CANT_TAGS = {"alignwall"}

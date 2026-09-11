@@ -11,6 +11,12 @@ local assets =
 	Asset("ATLAS", "images/minimapimages/tap_minimapicons.xml"),
 }
 
+local prefabs =
+{
+	"collapse_small",
+	"kyno_volcano_tower"
+}
+
 local towerassets =
 {
 	Asset("ANIM", "anim/volcano_altar_fx.zip"),

@@ -8,6 +8,11 @@ local assets =
 	Asset("ATLAS", "images/inventoryimages/tap_buildingimages2.xml"),
 }
 
+local prefabs =
+{
+	"kyno_wargfant"
+}
+
 local sounds =
 {
     idle = "dontstarve_DLC001/creatures/vargr/idle",

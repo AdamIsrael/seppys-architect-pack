@@ -18,8 +18,10 @@ local assets =
 	Asset("SOUND", "sound/DLC003_sfx.fsb"),
 }
 
-prefabs = {
-	"kyno_mandrakeman",
+local prefabs =
+{
+	"collapse_big",
+	"kyno_mandrakeman"
 }
 
 local function onhammered(inst, worker)

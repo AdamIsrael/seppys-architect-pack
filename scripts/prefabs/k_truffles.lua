@@ -8,6 +8,8 @@ local assets =
 	Asset("ATLAS", "images/inventoryimages/tap_buildingimages2.xml"),
 }
 
+local prefabs = {}
+
 local function dig_up(inst, chopper)
 	inst.components.lootdropper:SpawnLootPrefab("blue_cap")
 	inst.components.lootdropper:SpawnLootPrefab("blue_cap")
