@@ -4,9 +4,6 @@ local assets =
 {
 	Asset("ANIM", "anim/kyno_lamp_post.zip"),
 	Asset("ANIM", "anim/kyno_lamp_post_short.zip"),
-	
-	Asset("IMAGE", "images/inventoryimages/tap_buildingimages.tex"),
-	Asset("ATLAS", "images/inventoryimages/tap_buildingimages.xml"),
 }
 
 local INTENSITY = 0.75

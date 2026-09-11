@@ -28,9 +28,6 @@ local function makepiece(name)
     {
         Asset("ANIM", "anim/moon_altar_pieces.zip"),
         Asset("ANIM", "anim/swap_altar_"..name.."piece.zip"),
-		
-		Asset("IMAGE", "images/inventoryimages/tap_buildingimages.tex"),
-		Asset("ATLAS", "images/inventoryimages/tap_buildingimages.xml"),
 	}
 	
 	local piece_prefabs =

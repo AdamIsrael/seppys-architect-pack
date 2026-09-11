@@ -6,12 +6,6 @@ local assets =
 	Asset("ANIM", "anim/quagmire_tree_cotton_tall.zip"),
     Asset("ANIM", "anim/quagmire_tree_cotton_build.zip"),
     Asset("ANIM", "anim/quagmire_tree_cotton_trunk_build.zip"),
-	
-	Asset("IMAGE", "images/inventoryimages/tap_buildingimages.tex"),
-	Asset("ATLAS", "images/inventoryimages/tap_buildingimages.xml"),
-	
-	Asset("IMAGE", "images/minimapimages/tap_minimapicons.tex"),
-	Asset("ATLAS", "images/minimapimages/tap_minimapicons.xml"),
 }
 
 local prefabs =

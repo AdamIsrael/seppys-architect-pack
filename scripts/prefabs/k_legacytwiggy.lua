@@ -9,12 +9,6 @@ local assets =
 	-- Asset("ANIM", "anim/legacytwiggy_diseased_tall_old.zip"),
 	-- Asset("ANIM", "anim/legacytwiggy_diseased_transformed.zip"),
 
-	Asset("IMAGE", "images/inventoryimages/tap_buildingimages.tex"),
-	Asset("ATLAS", "images/inventoryimages/tap_buildingimages.xml"),
-
-	Asset("IMAGE", "images/minimapimages/tap_minimapicons.tex"),
-	Asset("ATLAS", "images/minimapimages/tap_minimapicons.xml"),
-
 	Asset("ANIM", "anim/dust_fx.zip"),
 	Asset("SOUND", "sound/forest.fsb"),
 }

@@ -99,16 +99,6 @@ function MakeWallType(data)
     {
         Asset("ANIM", "anim/wall.zip"),
         Asset("ANIM", "anim/wall_"..data.name..".zip"),
-
-		Asset("IMAGE", "images/inventoryimages/tap_buildingimages.tex"),
-		Asset("ATLAS", "images/inventoryimages/tap_buildingimages.xml"),
-
-		Asset("IMAGE", "images/inventoryimages/tap_buildingimages2.tex"),
-		Asset("ATLAS", "images/inventoryimages/tap_buildingimages2.xml"),
-
-		Asset("IMAGE", "images/inventoryimages/tap_inventoryimages.tex"),
-		Asset("ATLAS", "images/inventoryimages/tap_inventoryimages.xml"),
-		Asset("ATLAS_BUILD", "images/inventoryimages/tap_inventoryimages.xml", 256),
     }
 
     local prefabs =

@@ -4,9 +4,6 @@ local assets =
 {
     Asset("ANIM", "anim/kyno_mushtree_sparse_small.zip"),
 	Asset("ANIM", "anim/kyno_mushtree_sparse_tall.zip"),
-    
-	Asset("IMAGE", "images/inventoryimages/tap_buildingimages2.tex"),
-	Asset("ATLAS", "images/inventoryimages/tap_buildingimages2.xml"),
 }
 
 local prefabs = 

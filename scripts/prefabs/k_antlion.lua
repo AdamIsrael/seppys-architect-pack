@@ -5,9 +5,6 @@ local assets =
 	Asset("ANIM", "anim/antlion_build.zip"),
     Asset("ANIM", "anim/antlion_basic.zip"),
     Asset("ANIM", "anim/antlion_action.zip"),
-	
-	Asset("IMAGE", "images/inventoryimages/tap_buildingimages.tex"),
-	Asset("ATLAS", "images/inventoryimages/tap_buildingimages.xml"),
 }
 
 local prefabs = {}

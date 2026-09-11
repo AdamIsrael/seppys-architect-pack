@@ -3,9 +3,6 @@ require("prefabutil")
 local assets =
 {
     Asset("ANIM", "anim/crafting_table.zip"),
-	
-	Asset("IMAGE", "images/inventoryimages/tap_buildingimages.tex"),
-	Asset("ATLAS", "images/inventoryimages/tap_buildingimages.xml"),
 }
 
 local prefabs =

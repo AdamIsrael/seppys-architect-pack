@@ -4,12 +4,6 @@ local assets =
 {
     Asset("ANIM", "anim/kraken_chest.zip"),
     Asset("ANIM", "anim/ui_chester_shadow_3x4.zip"),
-	
-	Asset("IMAGE", "images/inventoryimages/tap_buildingimages.tex"),
-	Asset("ATLAS", "images/inventoryimages/tap_buildingimages.xml"),
-	
-	Asset("IMAGE", "images/minimapimages/tap_minimapicons.tex"),
-	Asset("ATLAS", "images/minimapimages/tap_minimapicons.xml"),
 }
 
 local prefabs =

@@ -18,9 +18,6 @@ local assets =
 
     Asset("ANIM", "anim/meatrack_hermit.zip"),
     Asset("MINIMAP_IMAGE", "meatrack_hermit"),
-	
-	Asset("IMAGE", "images/inventoryimages/tap_buildingimages.tex"),
-	Asset("ATLAS", "images/inventoryimages/tap_buildingimages.xml"),
 }
 
 local prefabs =

@@ -3,12 +3,6 @@ require "prefabutil"
 local assets =
 {
 	Asset("ANIM", "anim/alterguardian_meteor.zip"),
-	
-	Asset("IMAGE", "images/inventoryimages/tap_buildingimages.tex"),
-	Asset("ATLAS", "images/inventoryimages/tap_buildingimages.xml"),
-	
-	Asset("IMAGE", "images/minimapimages/tap_minimapicons.tex"),
-	Asset("ATLAS", "images/minimapimages/tap_minimapicons.xml"),
 }
 
 local function spike_break(inst)

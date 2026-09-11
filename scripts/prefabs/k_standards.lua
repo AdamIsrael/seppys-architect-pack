@@ -6,9 +6,6 @@ local assets =
 	Asset("ANIM", "anim/lavaarena_battlestandard.zip"),
 	Asset("ANIM", "anim/lavaarena_battlestandard_attack_build.zip"),
 	Asset("ANIM", "anim/kyno_battlestandard_heal_build.zip"),
-	
-	Asset("IMAGE", "images/inventoryimages/tap_buildingimages.tex"),
-	Asset("ATLAS", "images/inventoryimages/tap_buildingimages.xml"),
 }
 
 local function onhammered(inst, worker)

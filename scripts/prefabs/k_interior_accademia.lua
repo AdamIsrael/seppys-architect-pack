@@ -4,9 +4,6 @@ local assets =
 {
 	Asset("ANIM", "anim/interior_wall_decals_accademia.zip"),
 	
-	Asset("IMAGE", "images/inventoryimages/tap_buildingimages.tex"),
-	Asset("ATLAS", "images/inventoryimages/tap_buildingimages.xml"),
-	
 	Asset("SOUNDPACKAGE", "sound/tap_sounds.fev"),
 	Asset("SOUND", "sound/tap_sounds.fsb"),
 }

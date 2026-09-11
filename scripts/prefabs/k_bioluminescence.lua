@@ -1,9 +1,6 @@
 local assets =
 {
     Asset("ANIM", "anim/bioluminessence.zip"),
-	
-	Asset("IMAGE", "images/inventoryimages/tap_buildingimages2.tex"),
-	Asset("ATLAS", "images/inventoryimages/tap_buildingimages2.xml"),
 }
 
 local INTENSITY = .65

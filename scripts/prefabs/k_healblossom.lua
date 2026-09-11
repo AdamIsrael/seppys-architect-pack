@@ -1,9 +1,6 @@
 local assets =
 {
     Asset("ANIM", "anim/lavaarena_heal_flowers_fx.zip"),
-	
-	Asset("IMAGE", "images/inventoryimages/tap_buildingimages.tex"),
-	Asset("ATLAS", "images/inventoryimages/tap_buildingimages.xml"),
 }
 
 local prefabs =

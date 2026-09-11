@@ -4,13 +4,6 @@ local assets =
 	Asset("ANIM", "anim/pig_coin_silver.zip"),
 	Asset("ANIM", "anim/pig_coin_jade.zip"),
 	
-	Asset("IMAGE", "images/inventoryimages/tap_buildingimages.tex"),
-	Asset("ATLAS", "images/inventoryimages/tap_buildingimages.xml"),
-	
-	Asset("IMAGE", "images/inventoryimages/tap_inventoryimages.tex"),
-	Asset("ATLAS", "images/inventoryimages/tap_inventoryimages.xml"),
-	Asset("ATLAS_BUILD", "images/inventoryimages/tap_inventoryimages.xml", 256),
-	
 	Asset("SOUNDPACKAGE", "sound/dontstarve_DLC003.fev"),
 	Asset("SOUND", "sound/DLC003_sfx.fsb"),
 }

@@ -1,10 +1,6 @@
 local assets=
 {
     Asset("ANIM", "anim/ro_bin_gem.zip"),
-	
-	Asset("IMAGE", "images/inventoryimages/tap_inventoryimages.tex"),
-	Asset("ATLAS", "images/inventoryimages/tap_inventoryimages.xml"),
-	Asset("ATLAS_BUILD", "images/inventoryimages/tap_inventoryimages.xml", 256),
 }
 
 local SPAWN_DIST = 30

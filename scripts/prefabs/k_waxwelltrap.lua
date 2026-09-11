@@ -3,17 +3,11 @@ require "prefabutil"
 local assets =
 {
     Asset("ANIM", "anim/trap_teeth.zip"),
-	
-	Asset("IMAGE", "images/inventoryimages/tap_buildingimages2.tex"),
-	Asset("ATLAS", "images/inventoryimages/tap_buildingimages2.xml"),
 }
 
 local assets_maxwell =
 {
     Asset("ANIM", "anim/trap_teeth_maxwell.zip"),
-    
-	Asset("IMAGE", "images/inventoryimages/tap_buildingimages2.tex"),
-	Asset("ATLAS", "images/inventoryimages/tap_buildingimages2.xml"),
 }
 
 local function onfinished_normal(inst)

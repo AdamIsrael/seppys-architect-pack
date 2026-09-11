@@ -3,9 +3,6 @@ local assets =
     Asset("ANIM", "anim/deer_fire_circle.zip"),
 	Asset("ANIM", "anim/deer_fire_flakes.zip"),
 	Asset("ANIM", "anim/deer_fire_burst.zip"),
-    
-	Asset("IMAGE", "images/inventoryimages/tap_buildingimages.tex"),
-	Asset("ATLAS", "images/inventoryimages/tap_buildingimages.xml"),
 }
 
 local prefabs =

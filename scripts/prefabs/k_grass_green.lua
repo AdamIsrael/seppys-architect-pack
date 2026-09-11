@@ -5,12 +5,6 @@ local assets =
     Asset("ANIM", "anim/grass_diseased_build.zip"),
 	Asset("ANIM", "anim/grassgreen_build.zip"),
 	
-	Asset("IMAGE", "images/inventoryimages/tap_buildingimages.tex"),
-	Asset("ATLAS", "images/inventoryimages/tap_buildingimages.xml"),
-	
-	Asset("IMAGE", "images/minimapimages/tap_minimapicons.tex"),
-	Asset("ATLAS", "images/minimapimages/tap_minimapicons.xml"),
-	
     Asset("SOUND", "sound/common.fsb"),
 }
 

@@ -4,9 +4,6 @@ local assets =
 {
 	Asset("ANIM", "anim/winona_catapult.zip"),
 	Asset("ANIM", "anim/winona_catapult_damage3.zip"),
-	
-	Asset("IMAGE", "images/inventoryimages/tap_buildingimages2.tex"),
-	Asset("ATLAS", "images/inventoryimages/tap_buildingimages2.xml"),
 }
 
 local function OnHammered(inst, worker)

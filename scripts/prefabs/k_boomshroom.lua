@@ -4,9 +4,6 @@ local assets =
 {
 	Asset("ANIM", "anim/mushroombomb.zip"),
 	Asset("ANIM", "anim/mushroombomb_dark_build.zip"),
-	
-	Asset("IMAGE", "images/inventoryimages/tap_buildingimages.tex"),
-	Asset("ATLAS", "images/inventoryimages/tap_buildingimages.xml"),
 }
 
 local prefabs = {}

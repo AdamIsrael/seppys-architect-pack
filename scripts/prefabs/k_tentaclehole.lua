@@ -4,9 +4,6 @@ local assets =
 {
 	Asset("ANIM", "anim/tentacle_pillar.zip"),
 	
-	Asset("IMAGE", "images/inventoryimages/tap_buildingimages2.tex"),
-	Asset("ATLAS", "images/inventoryimages/tap_buildingimages2.xml"),
-	
 	Asset("SOUND", "sound/tentacle.fsb"),
 }
 

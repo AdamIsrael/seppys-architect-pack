@@ -5,9 +5,6 @@ local assets =
 	Asset("ANIM", "anim/zeb.zip"),
 	Asset("ANIM", "anim/zeb_build.zip"),
 	
-	Asset("IMAGE", "images/inventoryimages/tap_buildingimages2.tex"),
-	Asset("ATLAS", "images/inventoryimages/tap_buildingimages2.xml"),
-	
 	Asset("SOUNDPACKAGE", "sound/dontstarve_DLC003.fev"),
 	Asset("SOUND", "sound/DLC003_sfx.fsb"),
 }

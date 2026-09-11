@@ -4,9 +4,6 @@ local assets =
 {
 	Asset("ANIM", "anim/vault_table_round.zip"),
 	Asset("ANIM", "anim/vault_chair_stool.zip"),
-	
-	Asset("IMAGE", "images/inventoryimages/tap_buildingimages2.tex"),
-	Asset("ATLAS", "images/inventoryimages/tap_buildingimages2.xml"),
 }
 
 local function table_AbleToAcceptDecor(inst, item, giver)

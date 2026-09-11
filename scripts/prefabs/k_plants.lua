@@ -2,9 +2,6 @@ local assets =
 {
     Asset("ANIM", "anim/marsh_plant.zip"),
     Asset("ANIM", "anim/pond_plant_cave.zip"),
-	
-	Asset("IMAGE", "images/inventoryimages/tap_buildingimages.tex"),
-	Asset("ATLAS", "images/inventoryimages/tap_buildingimages.xml"),
 }
 
 local prefabs =

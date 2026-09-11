@@ -4,9 +4,6 @@ local assets =
     Asset("ANIM", "anim/igloo_track.zip"),
     Asset("SOUND", "sound/pig.fsb"), -- light on/off sounds
     Asset("MINIMAP_IMAGE", "igloo"),
-	
-	Asset("IMAGE", "images/inventoryimages/tap_buildingimages.tex"),
-	Asset("ATLAS", "images/inventoryimages/tap_buildingimages.xml"),
 }
 
 local prefabs =

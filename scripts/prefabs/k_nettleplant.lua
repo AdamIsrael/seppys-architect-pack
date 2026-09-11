@@ -5,9 +5,6 @@ local assets =
 	Asset("ANIM", "anim/nettle.zip"),
 	Asset("ANIM", "anim/nettle_bulb_build.zip"),	
 	Asset("ANIM", "anim/nettle_budding_build.zip"),	
-	
-	Asset("IMAGE", "images/inventoryimages/tap_buildingimages.tex"),
-	Asset("ATLAS", "images/inventoryimages/tap_buildingimages.xml"),
 }
 
 local prefabs = {}

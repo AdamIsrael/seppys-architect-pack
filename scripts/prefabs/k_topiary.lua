@@ -7,15 +7,6 @@ local assets =
     Asset("ANIM", "anim/topiary_werepig_build.zip"),
     Asset("ANIM", "anim/topiary_beefalo_build.zip"),
     Asset("ANIM", "anim/topiary_pigking_build.zip"), 
-	
-	Asset("IMAGE", "images/inventoryimages/tap_buildingimages.tex"),
-	Asset("ATLAS", "images/inventoryimages/tap_buildingimages.xml"),
-	
-	Asset("IMAGE", "images/inventoryimages/tap_buildingimages2.tex"),
-	Asset("ATLAS", "images/inventoryimages/tap_buildingimages2.xml"),
-	
-	Asset("IMAGE", "images/minimapimages/tap_minimapicons.tex"),
-	Asset("ATLAS", "images/minimapimages/tap_minimapicons.xml"),
 }
 
 local prefabs =

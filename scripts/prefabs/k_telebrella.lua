@@ -5,13 +5,6 @@ local assets =
     Asset("ANIM", "anim/swap_telebrella_red.zip"),
     Asset("ANIM", "anim/swap_telebrella_green.zip"),
 	
-	Asset("IMAGE", "images/inventoryimages/tap_buildingimages2.tex"),
-	Asset("ATLAS", "images/inventoryimages/tap_buildingimages2.xml"),
-	
-	Asset("IMAGE", "images/inventoryimages/tap_inventoryimages.tex"),
-	Asset("ATLAS", "images/inventoryimages/tap_inventoryimages.xml"),
-	Asset("ATLAS_BUILD", "images/inventoryimages/tap_inventoryimages.xml", 256),
-	
 	Asset("SOUNDPACKAGE", "sound/dontstarve_wagstaff.fev"),
 	Asset("SOUND", "sound/dontstarve_wagstaff.fsb"),
 	

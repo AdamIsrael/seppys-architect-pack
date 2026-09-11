@@ -6,9 +6,6 @@ local assets =
 
     Asset("ANIM", "anim/bee_box_hermitcrab.zip"),
     Asset("MINIMAP_IMAGE", "beebox_hermitcrab"),
-	
-	Asset("IMAGE", "images/inventoryimages/tap_buildingimages.tex"),
-	Asset("ATLAS", "images/inventoryimages/tap_buildingimages.xml"),
 }
 
 local prefabs =

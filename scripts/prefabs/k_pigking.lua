@@ -3,9 +3,6 @@ local assets =
     Asset("ANIM", "anim/pig_king.zip"),
 	Asset("ANIM", "anim/pig_king_elite_build.zip"),
     Asset("SOUND", "sound/pig.fsb"),
-	
-	Asset("IMAGE", "images/inventoryimages/tap_buildingimages.tex"),
-	Asset("ATLAS", "images/inventoryimages/tap_buildingimages.xml"),
 }
 
 local assets_minigame =

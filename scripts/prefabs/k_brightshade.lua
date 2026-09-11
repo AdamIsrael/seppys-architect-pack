@@ -4,9 +4,6 @@ local assets =
 {
 	Asset("ANIM", "anim/lunarthrall_plant_front.zip"),
     Asset("ANIM", "anim/lunarthrall_plant_back.zip"),
-	
-	Asset("IMAGE", "images/inventoryimages/tap_buildingimages2.tex"),
-	Asset("ATLAS", "images/inventoryimages/tap_buildingimages2.xml"),
 }
 
 local prefabs =

@@ -141,10 +141,6 @@ function MakeWallType(data)
     {
         Asset("ANIM", "anim/wall_hedge.zip"),
         Asset("ANIM", "anim/wall_"..data.name..".zip"),
-
-		Asset("IMAGE", "images/inventoryimages/tap_inventoryimages.tex"),
-		Asset("ATLAS", "images/inventoryimages/tap_inventoryimages.xml"),
-		Asset("ATLAS_BUILD", "images/inventoryimages/tap_inventoryimages.xml", 256),
     }
 
     local prefabs =

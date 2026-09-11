@@ -163,16 +163,6 @@ local function makebird(name, soundname, no_feather, bank, custom_loot_setup, wa
         Asset("ANIM", "anim/crow.zip"),
 		Asset("ANIM", "anim/kyno_parrot_pirate.zip"),
         Asset("ANIM", "anim/"..name.."_build.zip"),
-		
-		Asset("IMAGE", "images/inventoryimages/tap_buildingimages.tex"),
-		Asset("ATLAS", "images/inventoryimages/tap_buildingimages.xml"),
-		
-		Asset("IMAGE", "images/inventoryimages/tap_buildingimages2.tex"),
-		Asset("ATLAS", "images/inventoryimages/tap_buildingimages2.xml"),
-		
-		Asset("IMAGE", "images/inventoryimages/tap_inventoryimages.tex"),
-		Asset("ATLAS", "images/inventoryimages/tap_inventoryimages.xml"),
-		Asset("ATLAS_BUILD", "images/inventoryimages/tap_inventoryimages.xml", 256),
         
 		Asset("SOUND", "sound/birds.fsb"),
 		

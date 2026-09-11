@@ -5,9 +5,6 @@ local assets =
 {
     Asset("ANIM", "anim/hydroponic_farmplot.zip"),
 	Asset("ANIM", "anim/hydroponic_farm_decor.zip"),
-	
-	Asset("IMAGE", "images/inventoryimages/tap_buildingimages.tex"),
-	Asset("ATLAS", "images/inventoryimages/tap_buildingimages.xml"),
 }
 
 local prefabs =

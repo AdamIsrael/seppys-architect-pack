@@ -6,9 +6,6 @@ local assets =
 	Asset("ANIM", "anim/swap_sculpture_knighthead.zip"),
 	Asset("ANIM", "anim/swap_sculpture_bishophead.zip"),
 	Asset("ANIM", "anim/swap_sculpture_rooknose.zip"),
-	
-	Asset("IMAGE", "images/inventoryimages/tap_buildingimages.tex"),
-	Asset("ATLAS", "images/inventoryimages/tap_buildingimages.xml"),
 }
 
 local prefabs =
@@ -37,9 +34,6 @@ local function makepiece(name)
     {
         Asset("ANIM", "anim/sculpture_pieces.zip"),
         Asset("ANIM", "anim/swap_sculpture_"..name..".zip"),
-		
-		Asset("IMAGE", "images/inventoryimages/tap_buildingimages.tex"),
-		Asset("ATLAS", "images/inventoryimages/tap_buildingimages.xml"),
 	}
 	
 	local prefabs =

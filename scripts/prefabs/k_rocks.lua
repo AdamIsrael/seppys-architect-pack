@@ -1,41 +1,26 @@
 local rock1_assets =
 {
     Asset("ANIM", "anim/rock.zip"),
-    
-	Asset("IMAGE", "images/inventoryimages/tap_buildingimages.tex"),
-	Asset("ATLAS", "images/inventoryimages/tap_buildingimages.xml"),
 }
 
 local rock2_assets =
 {
     Asset("ANIM", "anim/rock2.zip"),
-    
-	Asset("IMAGE", "images/inventoryimages/tap_buildingimages.tex"),
-	Asset("ATLAS", "images/inventoryimages/tap_buildingimages.xml"),
 }
 
 local rock_flintless_assets =
 {
     Asset("ANIM", "anim/rock_flintless.zip"),
-    
-	Asset("IMAGE", "images/inventoryimages/tap_buildingimages.tex"),
-	Asset("ATLAS", "images/inventoryimages/tap_buildingimages.xml"),
 }
 
 local rock_moon_assets =
 {
     Asset("ANIM", "anim/rock7.zip"),
-    
-	Asset("IMAGE", "images/inventoryimages/tap_buildingimages.tex"),
-	Asset("ATLAS", "images/inventoryimages/tap_buildingimages.xml"),
 }
 
 local rock_moon_shell_assets =
 {
     Asset("ANIM", "anim/moonrock_shell.zip"),
-    
-	Asset("IMAGE", "images/inventoryimages/tap_buildingimages.tex"),
-	Asset("ATLAS", "images/inventoryimages/tap_buildingimages.xml"),
 }
 
 local rock_moon_glass_assets =
@@ -44,9 +29,6 @@ local rock_moon_glass_assets =
     Asset("ANIM", "anim/moonglass_rock2.zip"),
     Asset("ANIM", "anim/moonglass_rock3.zip"),
     Asset("ANIM", "anim/moonglass_rock4.zip"),
-    
-	Asset("IMAGE", "images/inventoryimages/tap_buildingimages.tex"),
-	Asset("ATLAS", "images/inventoryimages/tap_buildingimages.xml"),
 }
 
 local rock_petrified_tree_assets =
@@ -55,9 +37,6 @@ local rock_petrified_tree_assets =
     Asset("ANIM", "anim/petrified_tree_tall.zip"),
     Asset("ANIM", "anim/petrified_tree_short.zip"),
     Asset("ANIM", "anim/petrified_tree_old.zip"),
-    
-	Asset("IMAGE", "images/inventoryimages/tap_buildingimages.tex"),
-	Asset("ATLAS", "images/inventoryimages/tap_buildingimages.xml"),
 }
 
 local prefabs =

@@ -2,9 +2,6 @@ local assets =
 {
     Asset("ANIM", "anim/resurrection_stone.zip"),
     Asset("ANIM", "anim/resurrection_stone_fx.zip"),
-    
-	Asset("IMAGE", "images/inventoryimages/tap_buildingimages2.tex"),
-	Asset("ATLAS", "images/inventoryimages/tap_buildingimages2.xml"),
 }
 
 local prefabs =

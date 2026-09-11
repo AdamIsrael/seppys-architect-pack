@@ -837,9 +837,6 @@ function treeset(name, data, build, bloombuild)
         bloombuildasset,
         Asset("MINIMAP_IMAGE", data.icon),
         Asset("MINIMAP_IMAGE", "mushroom_tree_stump"),
-		
-		Asset("IMAGE", "images/inventoryimages/tap_buildingimages.tex"),
-		Asset("ATLAS", "images/inventoryimages/tap_buildingimages.xml"),
     }
 
     local prefabs =

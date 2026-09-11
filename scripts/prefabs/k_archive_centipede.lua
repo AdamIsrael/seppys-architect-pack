@@ -4,9 +4,6 @@ local assets =
 {
 	Asset("ANIM", "anim/archive_centipede.zip"),
 	Asset("ANIM", "anim/archive_centipede_build.zip"),
-	
-	Asset("IMAGE", "images/inventoryimages/tap_buildingimages.tex"),
-	Asset("ATLAS", "images/inventoryimages/tap_buildingimages.xml"),
 }
 
 local prefabs =

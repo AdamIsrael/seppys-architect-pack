@@ -20,9 +20,6 @@ local assets =
 	
 	Asset("ANIM", "anim/tree_marsh.zip"),
 	
-	Asset("IMAGE", "images/inventoryimages/tap_buildingimages.tex"),
-	Asset("ATLAS", "images/inventoryimages/tap_buildingimages.xml"),
-	
 	Asset("SOUND", "sound/forest.fsb"),
 	Asset("SOUND", "sound/deciduous.fsb"),
 }

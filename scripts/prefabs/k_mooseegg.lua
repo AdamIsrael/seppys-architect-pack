@@ -3,9 +3,6 @@ require "prefabutil"
 local nesting_ground_assets =
 {
     Asset("ANIM", "anim/nesting_ground.zip"),
-	
-	Asset("IMAGE", "images/inventoryimages/tap_buildingimages.tex"),
-	Asset("ATLAS", "images/inventoryimages/tap_buildingimages.xml"),
 }
 
 local function dig_up(inst, chopper)

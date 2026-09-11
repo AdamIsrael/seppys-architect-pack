@@ -9,12 +9,6 @@ local assets =
 	Asset("ANIM", "anim/statue_pig_ruins_plaque.zip"),
 	Asset("ANIM", "anim/statue_pig_ruins_mushroom.zip"),
 	Asset("ANIM", "anim/statue_pig_ruins_idol_blue.zip"),
-	
-	Asset("IMAGE", "images/inventoryimages/tap_buildingimages.tex"),
-	Asset("ATLAS", "images/inventoryimages/tap_buildingimages.xml"),
-	
-	Asset("IMAGE", "images/minimapimages/tap_minimapicons.tex"),
-	Asset("ATLAS", "images/minimapimages/tap_minimapicons.xml"),
 }
 
 local prefabs = {}

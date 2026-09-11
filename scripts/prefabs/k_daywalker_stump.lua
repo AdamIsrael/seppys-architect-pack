@@ -4,12 +4,6 @@ local assets =
 {
 	Asset("ANIM", "anim/daywalker_pillar.zip"),
 	Asset("ANIM", "anim/daywalker_hole.zip"),
-	
-	Asset("IMAGE", "images/inventoryimages/tap_buildingimages.tex"),
-	Asset("ATLAS", "images/inventoryimages/tap_buildingimages.xml"),
-	
-	Asset("IMAGE", "images/inventoryimages/tap_buildingimages2.tex"),
-	Asset("ATLAS", "images/inventoryimages/tap_buildingimages2.xml"),
 }
 
 local prefabs =

@@ -515,9 +515,6 @@ local function MakeWall(name, anims, isdoor, klaussackkeyid)
         {
             Asset("ANIM", "anim/"..anims.wide..".zip"),
 			Asset("ANIM", "anim/kyno_moltenfence.zip"),
-			
-			Asset("IMAGE", "images/inventoryimages/tap_buildingimages.tex"),
-			Asset("ATLAS", "images/inventoryimages/tap_buildingimages.xml"),
         }
         if anims.narrow then
             table.insert(assets, Asset("ANIM", "anim/"..anims.narrow..".zip"))
@@ -649,9 +646,6 @@ local function MakeWallAnim(name, anims, isdoor)
     {
         Asset("ANIM", "anim/"..anims.wide..".zip"),
 		Asset("ANIM", "anim/kyno_moltenfence.zip"),
-		
-		Asset("IMAGE", "images/inventoryimages/tap_buildingimages.tex"),
-		Asset("ATLAS", "images/inventoryimages/tap_buildingimages.xml"),
     }
     if anims.narrow then
         table.insert(assets, Asset("ANIM", "anim/"..anims.narrow..".zip"))
@@ -705,13 +699,6 @@ local function MakeInvItem(name, placement, animdata, isdoor)
     {
         Asset("ANIM", "anim/"..animdata..".zip"),
 		Asset("ANIM", "anim/kyno_moltenfence.zip"),
-		
-		Asset("IMAGE", "images/inventoryimages/tap_buildingimages.tex"),
-		Asset("ATLAS", "images/inventoryimages/tap_buildingimages.xml"),
-		
-		Asset("IMAGE", "images/inventoryimages/tap_inventoryimages.tex"),
-		Asset("ATLAS", "images/inventoryimages/tap_inventoryimages.xml"),
-		Asset("ATLAS_BUILD", "images/inventoryimages/tap_inventoryimages.xml", 256),
     }
     local item_prefabs =
     {

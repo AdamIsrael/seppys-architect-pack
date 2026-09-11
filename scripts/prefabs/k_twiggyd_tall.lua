@@ -4,12 +4,6 @@ local assets =
 {
 	Asset("ANIM", "anim/twiggyd_tall_old.zip"),
 
-	Asset("IMAGE", "images/inventoryimages/tap_buildingimages.tex"),
-	Asset("ATLAS", "images/inventoryimages/tap_buildingimages.xml"),
-
-	Asset("IMAGE", "images/inventoryimages/tap_buildingimages2.tex"),
-	Asset("ATLAS", "images/inventoryimages/tap_buildingimages2.xml"),
-
 	Asset("ANIM", "anim/dust_fx.zip"),
 	Asset("SOUND", "sound/forest.fsb"),
 }

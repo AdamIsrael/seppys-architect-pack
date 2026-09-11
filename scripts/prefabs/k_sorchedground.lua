@@ -1,9 +1,6 @@
 local assets =
 {
     Asset("ANIM", "anim/scorched_ground.zip"),
-	
-	Asset("IMAGE", "images/inventoryimages/tap_buildingimages.tex"),
-	Asset("ATLAS", "images/inventoryimages/tap_buildingimages.xml"),
 }
 
 local anim_names =

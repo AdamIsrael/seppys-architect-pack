@@ -1,25 +1,16 @@
 local driftwood_tall_assets =
 {
     Asset("ANIM", "anim/driftwood_tall.zip"),
-    
-	Asset("IMAGE", "images/inventoryimages/tap_buildingimages.tex"),
-	Asset("ATLAS", "images/inventoryimages/tap_buildingimages.xml"),
 }
 
 local driftwood_small1_assets =
 {
     Asset("ANIM", "anim/driftwood_small1.zip"),
-    
-	Asset("IMAGE", "images/inventoryimages/tap_buildingimages.tex"),
-	Asset("ATLAS", "images/inventoryimages/tap_buildingimages.xml"),
 }
 
 local driftwood_small2_assets =
 {
     Asset("ANIM", "anim/driftwood_small2.zip"),
-    
-	Asset("IMAGE", "images/inventoryimages/tap_buildingimages.tex"),
-	Asset("ATLAS", "images/inventoryimages/tap_buildingimages.xml"),
 }
 
 local prefabs =

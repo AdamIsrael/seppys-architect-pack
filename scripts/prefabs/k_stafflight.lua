@@ -69,9 +69,6 @@ local function makestafflight(name, is_hot, anim, colour, idles, is_fx)
     local assets =
     {
         Asset("ANIM", "anim/"..anim..".zip"),
-		
-		Asset("IMAGE", "images/inventoryimages/tap_buildingimages.tex"),
-		Asset("ATLAS", "images/inventoryimages/tap_buildingimages.xml"),
     }
 
     local PlayRandomStarIdle = #idles > 1 and function(inst)

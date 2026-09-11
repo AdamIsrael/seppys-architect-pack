@@ -4,12 +4,6 @@ local assets =
 { 
 	-- Animations now loaded globally in tap_assets.lua to prevent orphaned resources.
     Asset("SOUND", "sound/pig.fsb"),
-	
-	Asset("IMAGE", "images/inventoryimages/tap_buildingimages.tex"),
-	Asset("ATLAS", "images/inventoryimages/tap_buildingimages.xml"),
-	
-	Asset("IMAGE", "images/minimapimages/tap_minimapicons.tex"),
-	Asset("ATLAS", "images/minimapimages/tap_minimapicons.xml"),
 }
 
 local prefabs =

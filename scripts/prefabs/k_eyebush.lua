@@ -4,9 +4,6 @@ local assets =
 {
 	Asset("ANIM", "anim/eyebush.zip"),
 	Asset("ANIM", "anim/eyebush_prism_build.zip"),
-	
-	Asset("IMAGE", "images/inventoryimages/tap_buildingimages.tex"),
-	Asset("ATLAS", "images/inventoryimages/tap_buildingimages.xml"),
 }
 
 local prefabs =

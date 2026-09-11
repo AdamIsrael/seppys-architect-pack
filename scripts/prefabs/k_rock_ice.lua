@@ -1,9 +1,6 @@
 local rock_ice_assets =
 {
     Asset("ANIM", "anim/ice_boulder.zip"),
-    
-	Asset("IMAGE", "images/inventoryimages/tap_buildingimages.tex"),
-	Asset("ATLAS", "images/inventoryimages/tap_buildingimages.xml"),
 }
 
 local prefabs =

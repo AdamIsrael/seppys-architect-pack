@@ -5,9 +5,6 @@ local assets =
 	Asset("ANIM", "anim/carnival_plaza.zip"),
 	Asset("ANIM", "anim/kyno_carnival_tree.zip"),
 	Asset("ANIM", "anim/kyno_carnival_tree2.zip"),
-	
-	Asset("IMAGE", "images/inventoryimages/tap_buildingimages.tex"),
-	Asset("ATLAS", "images/inventoryimages/tap_buildingimages.xml"),
 }
 
 local prefabs =

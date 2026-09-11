@@ -6,12 +6,6 @@ local assets =
 	Asset("ANIM", "anim/merm_trader1_build.zip"),
     Asset("ANIM", "anim/merm_trader2_build.zip"),
     Asset("ANIM", "anim/ds_pig_basic.zip"),
-	
-	Asset("IMAGE", "images/inventoryimages/tap_buildingimages.tex"),
-	Asset("ATLAS", "images/inventoryimages/tap_buildingimages.xml"),
-	
-	Asset("IMAGE", "images/minimapimages/tap_minimapicons.tex"),
-	Asset("ATLAS", "images/minimapimages/tap_minimapicons.xml"),
 }
 
 local prefabs =

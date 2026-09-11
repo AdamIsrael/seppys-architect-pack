@@ -4,13 +4,6 @@ local assets =
     Asset("ANIM", "anim/sign_elite.zip"),
     Asset("ANIM", "anim/swap_sign_elite.zip"),
 	Asset("ANIM", "anim/ui_board_5x3.zip"),
-	
-	Asset("IMAGE", "images/inventoryimages/tap_buildingimages.tex"),
-	Asset("ATLAS", "images/inventoryimages/tap_buildingimages.xml"),
-	
-	Asset("IMAGE", "images/inventoryimages/tap_inventoryimages.tex"),
-	Asset("ATLAS", "images/inventoryimages/tap_inventoryimages.xml"),
-	Asset("ATLAS_BUILD", "images/inventoryimages/tap_inventoryimages.xml", 256),
 }
 
 local prefabs =

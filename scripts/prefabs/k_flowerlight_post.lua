@@ -4,9 +4,6 @@ local assets =
 {
 	Asset("ANIM", "anim/kyno_flowerlight_post.zip"),
 	Asset("ANIM", "anim/kyno_flowerlight_post2.zip"),
-	
-	Asset("IMAGE", "images/inventoryimages/tap_buildingimages.tex"),
-	Asset("ATLAS", "images/inventoryimages/tap_buildingimages.xml"),
 }
 
 local prefabs =

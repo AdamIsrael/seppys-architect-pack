@@ -4,15 +4,6 @@ local assets =
     Asset("ANIM", "anim/teleporter_worm_build.zip"),
 	Asset("ANIM", "anim/teleporter_sickworm_build.zip"),
 	
-	Asset("IMAGE", "images/inventoryimages/tap_buildingimages.tex"),
-	Asset("ATLAS", "images/inventoryimages/tap_buildingimages.xml"),
-	
-	Asset("IMAGE", "images/inventoryimages/tap_buildingimages2.tex"),
-	Asset("ATLAS", "images/inventoryimages/tap_buildingimages2.xml"),
-	
-	Asset("IMAGE", "images/minimapimages/tap_minimapicons.tex"),
-	Asset("ATLAS", "images/minimapimages/tap_minimapicons.xml"),
-	
     Asset("SOUND", "sound/common.fsb"),
 }
 

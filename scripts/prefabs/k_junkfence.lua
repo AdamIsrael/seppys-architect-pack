@@ -550,9 +550,6 @@ local function MakeWall(name, anims, isdoor, klaussackkeyid)
         assets =
         {
             Asset("ANIM", "anim/"..anims.wide..".zip"),
-			
-			Asset("IMAGE", "images/inventoryimages/tap_buildingimages2.tex"),
-			Asset("ATLAS", "images/inventoryimages/tap_buildingimages2.xml"),
         }
         if anims.narrow then
             table.insert(assets, Asset("ANIM", "anim/"..anims.narrow..".zip"))
@@ -683,9 +680,6 @@ local function MakeWallAnim(name, anims, isdoor)
     local assets =
     {
         Asset("ANIM", "anim/"..anims.wide..".zip"),
-		
-		Asset("IMAGE", "images/inventoryimages/tap_buildingimages2.tex"),
-		Asset("ATLAS", "images/inventoryimages/tap_buildingimages2.xml"),
     }
     if anims.narrow then
         table.insert(assets, Asset("ANIM", "anim/"..anims.narrow..".zip"))
@@ -740,13 +734,6 @@ local function MakeInvItem(name, placement, animdata, isdoor)
         Asset("ANIM", "anim/"..animdata..".zip"),
 		Asset("ANIM", "anim/fence_junk.zip"),
 		Asset("ANIM", "anim/fence_junk_build1.zip"),
-		
-		Asset("IMAGE", "images/inventoryimages/tap_buildingimages2.tex"),
-		Asset("ATLAS", "images/inventoryimages/tap_buildingimages2.xml"),
-		
-		Asset("IMAGE", "images/inventoryimages/tap_inventoryimages.tex"),
-		Asset("ATLAS", "images/inventoryimages/tap_inventoryimages.xml"),
-		Asset("ATLAS_BUILD", "images/inventoryimages/tap_inventoryimages.xml", 256),
     }
     local item_prefabs =
     {

@@ -1,9 +1,6 @@
 local hotspring_assets =
 {
     Asset("ANIM", "anim/crater_pool.zip"),
-    
-	Asset("IMAGE", "images/inventoryimages/tap_buildingimages.tex"),
-	Asset("ATLAS", "images/inventoryimages/tap_buildingimages.xml"),
 }
 
 local prefabs =

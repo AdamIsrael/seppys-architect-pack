@@ -1,9 +1,6 @@
 local pig_assets =
 {
     Asset("ANIM", "anim/pig_head.zip"),
-	
-	Asset("IMAGE", "images/inventoryimages/tap_buildingimages.tex"),
-	Asset("ATLAS", "images/inventoryimages/tap_buildingimages.xml"),
 }
 
 local prefabs =
@@ -14,17 +11,11 @@ local prefabs =
 local merm_assets =
 {
     Asset("ANIM", "anim/merm_head.zip"),
-	
-	Asset("IMAGE", "images/inventoryimages/tap_buildingimages.tex"),
-	Asset("ATLAS", "images/inventoryimages/tap_buildingimages.xml"),
 }
 
 local bunny_assets =
 {
 	Asset("ANIM", "anim/bunny_head.zip"),
-	
-	Asset("IMAGE", "images/inventoryimages/tap_buildingimages.tex"),
-	Asset("ATLAS", "images/inventoryimages/tap_buildingimages.xml"),
 }
 
 local pig_prefabs =

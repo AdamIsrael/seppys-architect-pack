@@ -5,12 +5,6 @@ local assets =
     Asset("ANIM", "anim/teleport_pad.zip"),
 	Asset("ANIM", "anim/teleport_pad_beacon.zip"),
 	
-	Asset("IMAGE", "images/inventoryimages/tap_buildingimages2.tex"),
-	Asset("ATLAS", "images/inventoryimages/tap_buildingimages2.xml"),
-	
-	Asset("IMAGE", "images/minimapimages/tap_minimapicons.tex"),
-	Asset("ATLAS", "images/minimapimages/tap_minimapicons.xml"),
-	
 	Asset("SOUNDPACKAGE", "sound/dontstarve_wagstaff.fev"),
 	Asset("SOUND", "sound/dontstarve_wagstaff.fsb"),
 	
