@@ -100,7 +100,7 @@ local function machinefn()
     inst.AnimState:PlayAnimation("idle_off")
     
 	inst:AddTag("structure")
-	inst:AddTag("kyno_carnival")
+	inst:AddTag("sap_carnival")
 	
 	MakeSnowCoveredPristine(inst)
 	
@@ -216,9 +216,9 @@ local function floorfn2()
 	return inst
 end
 
-return Prefab("kyno_carnival_herding_station", machinefn, assets),
-Prefab("kyno_carnival_herding_floor", floorfn, assets),
-Prefab("kyno_carnival_herding_floor2", floorfn2, assets),
-MakePlacer("kyno_carnival_herding_station_placer", "carnivalgame_herding_station", "carnivalgame_herding_station", "idle_off"),
-MakePlacer("kyno_carnival_herding_floor_placer", "carnivalgame_herding_floor", "carnivalgame_herding_floor", "idle", true, nil, nil, nil, 90, nil),
-MakePlacer("kyno_carnival_herding_floor2_placer", "carnivalgame_herding_floor", "carnivalgame_herding_floor", "ring", true, nil, nil, nil, 90, nil)
+return Prefab("sap_carnival_herding_station", machinefn, assets),
+Prefab("sap_carnival_herding_floor", floorfn, assets),
+Prefab("sap_carnival_herding_floor2", floorfn2, assets),
+MakePlacer("sap_carnival_herding_station_placer", "carnivalgame_herding_station", "carnivalgame_herding_station", "idle_off"),
+MakePlacer("sap_carnival_herding_floor_placer", "carnivalgame_herding_floor", "carnivalgame_herding_floor", "idle", true, nil, nil, nil, 90, nil),
+MakePlacer("sap_carnival_herding_floor2_placer", "carnivalgame_herding_floor", "carnivalgame_herding_floor", "ring", true, nil, nil, nil, 90, nil)

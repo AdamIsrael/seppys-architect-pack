@@ -17,7 +17,7 @@ local assets =
 
 local prefabs =
 {
-	"kyno_whalebubbles_fx",
+	"sap_whalebubbles_fx",
 }
 
 local function dig_up(inst, chopper)
@@ -25,7 +25,7 @@ local function dig_up(inst, chopper)
 end
 
 local function addbubblefx(inst)
-	local fx = SpawnPrefab("kyno_whalebubbles_fx")
+	local fx = SpawnPrefab("sap_whalebubbles_fx")
 	fx.entity:SetParent(inst.entity)
     fx.AnimState:SetTime(math.random())
 	local offset = Vector3(math.random(-1, 1) * math.random(), 0, math.random(-1, 1) * math.random())
@@ -103,6 +103,6 @@ local function fxfn()
 	return inst
 end
 
-return Prefab("kyno_whalebubbles", fn, assets, prefabs),
-Prefab("kyno_whalebubbles_fx", fxfn, assets, prefabs),
-MakePlacer("kyno_whalebubbles_placer", "whaletrack", "whale_tracks", "bubble_loop", true)
+return Prefab("sap_whalebubbles", fn, assets, prefabs),
+Prefab("sap_whalebubbles_fx", fxfn, assets, prefabs),
+MakePlacer("sap_whalebubbles_placer", "whaletrack", "whale_tracks", "bubble_loop", true)

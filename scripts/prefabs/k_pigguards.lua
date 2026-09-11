@@ -241,7 +241,7 @@ local function fn2()
 	inst.components.talker.colour = Vector3(1, 1, 1)
 	inst.components.talker.offset = Vector3(0,-600,0)
 	
-	inst:SetPrefabNameOverride("kyno_royalguard_2")
+	inst:SetPrefabNameOverride("sap_royalguard_2")
 	
 	inst.entity:SetPristine()
 
@@ -318,7 +318,7 @@ local function fn3()
 	inst.components.talker.colour = Vector3(1, 1, 1)
 	inst.components.talker.offset = Vector3(0,-600,0)
 	
-	inst:SetPrefabNameOverride("kyno_royalguard_rich")
+	inst:SetPrefabNameOverride("sap_royalguard_rich")
 	
 	inst.entity:SetPristine()
 
@@ -394,7 +394,7 @@ local function fn4()
 	inst.components.talker.colour = Vector3(1, 1, 1)
 	inst.components.talker.offset = Vector3(0,-600,0)
 	
-	inst:SetPrefabNameOverride("kyno_royalguard_rich_2")
+	inst:SetPrefabNameOverride("sap_royalguard_rich_2")
 	
 	inst.entity:SetPristine()
 
@@ -471,7 +471,7 @@ local function fn5()
 	inst.components.talker.colour = Vector3(1, 1, 1)
 	inst.components.talker.offset = Vector3(0,-600,0)
 	
-	inst:SetPrefabNameOverride("kyno_royalguard_palace")
+	inst:SetPrefabNameOverride("sap_royalguard_palace")
 	
 	inst.entity:SetPristine()
 
@@ -512,30 +512,30 @@ end
 
 local function pigplacerfn(inst)
 	inst.ApplySkin = function(inst, skin)
-		if skin == "kyno_royalguard1" then
+		if skin == "sap_royalguard1" then
 			inst.AnimState:SetBuild("pig_royalguard_2")
-		elseif skin == "kyno_royalguard2" then
+		elseif skin == "sap_royalguard2" then
 			inst.AnimState:SetBuild("pig_royalguard_rich")
-		elseif skin == "kyno_royalguard3" then
+		elseif skin == "sap_royalguard3" then
 			inst.AnimState:SetBuild("pig_royalguard_rich_2")
-		elseif skin == "kyno_royalguard4" then
+		elseif skin == "sap_royalguard4" then
 			inst.AnimState:SetBuild("pig_royalguard_3")
 		end
 	end
 end
 
-return Prefab("kyno_royalguard", fn, assets, prefabs),
-Prefab("kyno_royalguard1", fn2, assets, prefabs),
-Prefab("kyno_royalguard2", fn3, assets, prefabs),
-Prefab("kyno_royalguard3", fn4, assets, prefabs),
-Prefab("kyno_royalguard4", fn5, assets, prefabs),
-MakePlacer("kyno_royalguard_placer", "townspig", "pig_royalguard", "idle_loop", false, nil, nil, nil, 90, nil, pigplacerfn),
-MakePlacer("kyno_royalguard1_placer", "townspig", "pig_royalguard_2", "idle_loop"),
-MakePlacer("kyno_royalguard2_placer", "townspig", "pig_royalguard_rich", "idle_loop"),
-MakePlacer("kyno_royalguard3_placer", "townspig", "pig_royalguard_rich_2", "idle_loop"),
-MakePlacer("kyno_royalguard4_placer", "townspig", "pig_royalguard_3", "idle_loop")
+return Prefab("sap_royalguard", fn, assets, prefabs),
+Prefab("sap_royalguard1", fn2, assets, prefabs),
+Prefab("sap_royalguard2", fn3, assets, prefabs),
+Prefab("sap_royalguard3", fn4, assets, prefabs),
+Prefab("sap_royalguard4", fn5, assets, prefabs),
+MakePlacer("sap_royalguard_placer", "townspig", "pig_royalguard", "idle_loop", false, nil, nil, nil, 90, nil, pigplacerfn),
+MakePlacer("sap_royalguard1_placer", "townspig", "pig_royalguard_2", "idle_loop"),
+MakePlacer("sap_royalguard2_placer", "townspig", "pig_royalguard_rich", "idle_loop"),
+MakePlacer("sap_royalguard3_placer", "townspig", "pig_royalguard_rich_2", "idle_loop"),
+MakePlacer("sap_royalguard4_placer", "townspig", "pig_royalguard_3", "idle_loop")
 --[[,
-CreateModPrefabSkin("kyno_royalguard1",
+CreateModPrefabSkin("sap_royalguard1",
 	{
 		assets = {
 			Asset("ANIM", "anim/pig_royalguard_2.zip"),
@@ -548,7 +548,7 @@ CreateModPrefabSkin("kyno_royalguard1",
 			Asset("IMAGE", "images/inventoryimages/tap_buildingimages2.tex"),
 			Asset("ATLAS", "images/inventoryimages/tap_buildingimages2.xml"),
 		},
-		base_prefab = "kyno_royalguard",
+		base_prefab = "sap_royalguard",
 		fn = fn2,
 		rarity = "Timeless",
 		reskinable = true,
@@ -559,7 +559,7 @@ CreateModPrefabSkin("kyno_royalguard1",
 		skin_tags = { },
 		release_group = 0,
 	}),
-CreateModPrefabSkin("kyno_royalguard2",
+CreateModPrefabSkin("sap_royalguard2",
 	{
 		assets = {
 			Asset("ANIM", "anim/pig_royalguard_3.zip"),
@@ -572,7 +572,7 @@ CreateModPrefabSkin("kyno_royalguard2",
 			Asset("IMAGE", "images/inventoryimages/tap_buildingimages2.tex"),
 			Asset("ATLAS", "images/inventoryimages/tap_buildingimages2.xml"),
 		},
-		base_prefab = "kyno_royalguard",
+		base_prefab = "sap_royalguard",
 		fn = fn3,
 		rarity = "Timeless",
 		reskinable = true,
@@ -583,7 +583,7 @@ CreateModPrefabSkin("kyno_royalguard2",
 		skin_tags = { },
 		release_group = 0,
 	}),
-CreateModPrefabSkin("kyno_royalguard3",
+CreateModPrefabSkin("sap_royalguard3",
 	{
 		assets = {
 			Asset("ANIM", "anim/pig_royalguard_rich.zip"),
@@ -596,7 +596,7 @@ CreateModPrefabSkin("kyno_royalguard3",
 			Asset("IMAGE", "images/inventoryimages/tap_buildingimages2.tex"),
 			Asset("ATLAS", "images/inventoryimages/tap_buildingimages2.xml"),
 		},
-		base_prefab = "kyno_royalguard",
+		base_prefab = "sap_royalguard",
 		fn = fn4,
 		rarity = "Timeless",
 		reskinable = true,
@@ -607,7 +607,7 @@ CreateModPrefabSkin("kyno_royalguard3",
 		skin_tags = { },
 		release_group = 0,
 	}),
-CreateModPrefabSkin("kyno_royalguard4",
+CreateModPrefabSkin("sap_royalguard4",
 	{
 		assets = {
 			Asset("ANIM", "anim/pig_royalguard_rich_2.zip"),
@@ -620,7 +620,7 @@ CreateModPrefabSkin("kyno_royalguard4",
 			Asset("IMAGE", "images/inventoryimages/tap_buildingimages2.tex"),
 			Asset("ATLAS", "images/inventoryimages/tap_buildingimages2.xml"),
 		},
-		base_prefab = "kyno_royalguard",
+		base_prefab = "sap_royalguard",
 		fn = fn5,
 		rarity = "Timeless",
 		reskinable = true,

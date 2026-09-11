@@ -367,7 +367,7 @@ local function flowerlightpostplacer(inst)
 	inst.AnimState:SetScale(.75, .75, .75)
 end
 
-return Prefab("kyno_flowerlight_post1", post1fn, assets, prefabs),
-Prefab("kyno_flowerlight_post2", post2fn, assets, prefabs),
-MakePlacer("kyno_flowerlight_post1_placer", "kyno_flowerlight_post", "kyno_flowerlight_post", "idle", false, nil, nil, nil, nil, nil, flowerlightpostplacer),
-MakePlacer("kyno_flowerlight_post2_placer", "kyno_flowerlight_post2", "kyno_flowerlight_post2", "idle")
+return Prefab("sap_flowerlight_post1", post1fn, assets, prefabs),
+Prefab("sap_flowerlight_post2", post2fn, assets, prefabs),
+MakePlacer("sap_flowerlight_post1_placer", "kyno_flowerlight_post", "kyno_flowerlight_post", "idle", false, nil, nil, nil, nil, nil, flowerlightpostplacer),
+MakePlacer("sap_flowerlight_post2_placer", "kyno_flowerlight_post2", "kyno_flowerlight_post2", "idle")

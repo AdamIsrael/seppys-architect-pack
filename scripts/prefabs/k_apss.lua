@@ -10,7 +10,7 @@ local assets =
 
 local prefabs =
 {
-	"kyno_ancient_altar_broken",
+	"sap_ancient_altar_broken",
     "thulecite",
     "collapse_small",
     "collapse_big",
@@ -158,7 +158,7 @@ end
 
 local function complete_onhammered(inst, worker)
     local pos = inst:GetPosition()
-    local broken = SpawnPrefab("kyno_ancient_altar_broken")
+    local broken = SpawnPrefab("sap_ancient_altar_broken")
     broken.Transform:SetPosition(pos:Get())
     broken.components.workable:SetWorkLeft(TUNING.ANCIENT_ALTAR_BROKEN_WORK)
     SpawnPrefab("collapse_small").Transform:SetPosition(pos:Get())
@@ -234,7 +234,7 @@ local function broken_onrepaired(inst, doer, repair_item)
         inst.SoundEmitter:PlaySound("dontstarve/common/ancienttable_repair")
     else
         local pos = inst:GetPosition()
-        local altar = SpawnPrefab("kyno_ancient_altar")
+        local altar = SpawnPrefab("sap_ancient_altar")
         altar.Transform:SetPosition(pos:Get())
         altar.SoundEmitter:PlaySound("dontstarve/common/ancienttable_activate")
         SpawnPrefab("collapse_big").Transform:SetPosition(pos:Get())
@@ -286,6 +286,6 @@ local function broken_fn()
     return inst
 end
 
-return Prefab("kyno_ancient_altar", complete_fn, assets, prefabs),
-Prefab("kyno_ancient_altar_broken", broken_fn, assets, prefabs),
-MakePlacer("kyno_ancient_altar_broken_placer", "crafting_table", "crafting_table", "idle_broken")
+return Prefab("sap_ancient_altar", complete_fn, assets, prefabs),
+Prefab("sap_ancient_altar_broken", broken_fn, assets, prefabs),
+MakePlacer("sap_ancient_altar_broken_placer", "crafting_table", "crafting_table", "idle_broken")

@@ -83,5 +83,5 @@ local function fn()
 	return inst
 end
 
-return Prefab("kyno_dungball", fn, assets, prefabs),
-MakePlacer("kyno_dungball_placer", "tumbleweed", "dungball_build", "idle")
+return Prefab("sap_dungball", fn, assets, prefabs),
+MakePlacer("sap_dungball_placer", "tumbleweed", "dungball_build", "idle")

@@ -13,7 +13,7 @@ local assets =
 
 local prefabs =
 {
-	"kyno_compromisingstatue_broken",
+	"sap_compromisingstatue_broken",
 }
 
 local COOLDOWN = 20 
@@ -24,7 +24,7 @@ local function OnHammered(inst, worker)
 	inst.components.lootdropper:DropLoot()
 	
 	SpawnPrefab("collapse_small").Transform:SetPosition(inst.Transform:GetWorldPosition())
-	SpawnPrefab("kyno_compromisingstatue_broken").Transform:SetPosition(inst.Transform:GetWorldPosition())
+	SpawnPrefab("sap_compromisingstatue_broken").Transform:SetPosition(inst.Transform:GetWorldPosition())
 	inst.SoundEmitter:PlaySound("dontstarve/common/destroy_stone")
 	
 	inst:Remove()
@@ -272,7 +272,7 @@ local function brokenfn()
 	inst:AddTag("structure")
 	inst:AddTag("antlion_sinkhole_blocker")
 	
-	inst:SetPrefabNameOverride("kyno_compromisingstatue")
+	inst:SetPrefabNameOverride("sap_compromisingstatue")
 	
 	inst.entity:SetPristine()
 	
@@ -293,6 +293,6 @@ local function brokenfn()
     return inst
 end
 
-return Prefab("kyno_compromisingstatue", fn, assets, prefabs),
-Prefab("kyno_compromisingstatue_broken", brokenfn, assets, prefabs),
-MakePlacer("kyno_compromisingstatue_placer", "nosweatresurrectionstone", "nosweatresurrectionstone", "idle_activate")
+return Prefab("sap_compromisingstatue", fn, assets, prefabs),
+Prefab("sap_compromisingstatue_broken", brokenfn, assets, prefabs),
+MakePlacer("sap_compromisingstatue_placer", "nosweatresurrectionstone", "nosweatresurrectionstone", "idle_activate")

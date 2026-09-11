@@ -55,5 +55,5 @@ local function fn()
 	return inst
 end
 
-return Prefab("kyno_legacymarsh", fn, assets, prefabs),
-MakePlacer("kyno_legacymarsh_placer", "kyno_legacymarsh", "kyno_legacymarsh", "idle")
+return Prefab("sap_legacymarsh", fn, assets, prefabs),
+MakePlacer("sap_legacymarsh_placer", "kyno_legacymarsh", "kyno_legacymarsh", "idle")

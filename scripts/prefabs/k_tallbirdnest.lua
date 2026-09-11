@@ -211,5 +211,5 @@ local function fn()
     return inst
 end
 
-return Prefab("kyno_tallbirdnest", fn, assets, prefabs),
-MakePlacer("kyno_tallbirdnest_placer", "egg", "tallbird_egg", "eggnest")
+return Prefab("sap_tallbirdnest", fn, assets, prefabs),
+MakePlacer("sap_tallbirdnest_placer", "egg", "tallbird_egg", "eggnest")

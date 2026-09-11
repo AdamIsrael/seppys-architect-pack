@@ -221,11 +221,11 @@ local function sixfn()
 	return inst
 end
 
-return Prefab("kyno_legacyboulder3", threefn, assets, prefabs),
-Prefab("kyno_legacyboulder4", fourfn, assets, prefabs),
-Prefab("kyno_legacyboulder5", fivefn, assets, prefabs),
-Prefab("kyno_legacyboulder6", sixfn, assets, prefabs),
-MakePlacer("kyno_legacyboulder3_placer", "rock", "rock3", "full"),
-MakePlacer("kyno_legacyboulder4_placer", "rock", "rock4", "full"),
-MakePlacer("kyno_legacyboulder5_placer", "rock5", "rock5", "full"),
-MakePlacer("kyno_legacyboulder6_placer", "rock5", "rock6", "full")
+return Prefab("sap_legacyboulder3", threefn, assets, prefabs),
+Prefab("sap_legacyboulder4", fourfn, assets, prefabs),
+Prefab("sap_legacyboulder5", fivefn, assets, prefabs),
+Prefab("sap_legacyboulder6", sixfn, assets, prefabs),
+MakePlacer("sap_legacyboulder3_placer", "rock", "rock3", "full"),
+MakePlacer("sap_legacyboulder4_placer", "rock", "rock4", "full"),
+MakePlacer("sap_legacyboulder5_placer", "rock5", "rock5", "full"),
+MakePlacer("sap_legacyboulder6_placer", "rock5", "rock6", "full")

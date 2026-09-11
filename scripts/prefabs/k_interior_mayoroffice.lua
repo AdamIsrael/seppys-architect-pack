@@ -215,7 +215,7 @@ local function mayorofficeplacefn(inst)
 	inst.AnimState:Hide("lantern_overlay")
 end
 
-return Prefab("kyno_mayoroffice_bookcase", bookcase, assets),
-Prefab("kyno_mayoroffice_desk", desk, assets),
-MakePlacer("kyno_mayoroffice_bookcase_placer", "wall_decals_mayorsoffice", "interior_wall_decals_mayorsoffice", "bookcase_backwall"),
-MakePlacer("kyno_mayoroffice_desk_placer", "wall_decals_mayorsoffice", "interior_wall_decals_mayorsoffice", "desk", false, false, nil, nil, nil, mayorofficeplacefn)
+return Prefab("sap_mayoroffice_bookcase", bookcase, assets),
+Prefab("sap_mayoroffice_desk", desk, assets),
+MakePlacer("sap_mayoroffice_bookcase_placer", "wall_decals_mayorsoffice", "interior_wall_decals_mayorsoffice", "bookcase_backwall"),
+MakePlacer("sap_mayoroffice_desk_placer", "wall_decals_mayorsoffice", "interior_wall_decals_mayorsoffice", "desk", false, false, nil, nil, nil, mayorofficeplacefn)

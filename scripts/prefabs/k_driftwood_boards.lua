@@ -38,7 +38,7 @@ local function fn()
 	
 	inst:AddComponent("inventoryitem")
 	inst.components.inventoryitem.atlasname = "images/inventoryimages/tap_inventoryimages.xml"
-	inst.components.inventoryitem.imagename = "kyno_driftwood_boards"
+	inst.components.inventoryitem.imagename = "sap_driftwood_boards"
 
     inst:AddComponent("repairer")
     inst.components.repairer.repairmaterial = MATERIALS.WOOD
@@ -58,4 +58,4 @@ local function fn()
     return inst
 end
 
-return Prefab("kyno_driftwood_boards", fn, assets)
+return Prefab("sap_driftwood_boards", fn, assets)

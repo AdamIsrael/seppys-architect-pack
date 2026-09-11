@@ -75,5 +75,5 @@ local function lavaholeplacetestfn(inst)
 	inst.AnimState:SetScale(st, st, st)
 end
 
-return Prefab("kyno_lavahole", fn, assets, prefabs),
-MakePlacer("kyno_lavahole_placer", "lavaarena_floorgrate", "lavaarena_floorgrate", "idle", true, nil, nil, nil, 90, nil, lavaholeplacetestfn)
+return Prefab("sap_lavahole", fn, assets, prefabs),
+MakePlacer("sap_lavahole_placer", "lavaarena_floorgrate", "lavaarena_floorgrate", "idle", true, nil, nil, nil, 90, nil, lavaholeplacetestfn)

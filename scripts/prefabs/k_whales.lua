@@ -236,7 +236,7 @@ local function fn2()
 	return inst
 end
 
-return Prefab("kyno_whale_blue", fn, assets, prefabs),
-Prefab("kyno_whale_white", fn2, assets, prefabs),
-MakePlacer("kyno_whale_blue_placer", "whale", "whale_blue_build", "idle"),
-MakePlacer("kyno_whale_white_placer", "whale", "whale_moby_build", "idle")
+return Prefab("sap_whale_blue", fn, assets, prefabs),
+Prefab("sap_whale_white", fn2, assets, prefabs),
+MakePlacer("sap_whale_blue_placer", "whale", "whale_blue_build", "idle"),
+MakePlacer("sap_whale_white_placer", "whale", "whale_moby_build", "idle")

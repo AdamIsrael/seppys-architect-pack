@@ -114,7 +114,7 @@ local function fn2()
     return inst
 end
 
-return Prefab("kyno_sunkboat", fn, assets),
-Prefab("kyno_sunkboat2", fn2, assets),
-MakePlacer("kyno_sunkboat_placer", "boat_sunk", "boat_sunk", "idle"),
-MakePlacer("kyno_sunkboat2_placer", "boat_sunk2", "boat_sunk2", "idle")
+return Prefab("sap_sunkboat", fn, assets),
+Prefab("sap_sunkboat2", fn2, assets),
+MakePlacer("sap_sunkboat_placer", "boat_sunk", "boat_sunk", "idle"),
+MakePlacer("sap_sunkboat2_placer", "boat_sunk2", "boat_sunk2", "idle")

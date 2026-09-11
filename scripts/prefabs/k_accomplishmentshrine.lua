@@ -14,8 +14,8 @@ local assets =
 
 local prefabs =
 {
-	"kyno_shrine_firework",
-	"kyno_shrine_multifirework",
+	"sap_shrine_firework",
+	"sap_shrine_multifirework",
 }
 
 local function onhammered(inst, worker)
@@ -92,7 +92,7 @@ local function OnActivate(inst, doer)
 		if inst.clicks % clicks_per_step == 0 then
 			doer:PushEvent("accomplishment")
 			inst.AnimState:PlayAnimation("reward")
-			local firework = SpawnPrefab("kyno_shrine_firework").Transform:SetPosition(inst.Transform:GetWorldPosition())
+			local firework = SpawnPrefab("sap_shrine_firework").Transform:SetPosition(inst.Transform:GetWorldPosition())
 			inst.SoundEmitter:PlaySound("dontstarve/common/shrine/sadwork_fire")
 			inst:DoTaskInTime(26/30, function() inst.SoundEmitter:PlaySound("dontstarve/common/shrine/sadwork_explo") end)
 			inst:DoTaskInTime(35/30, function() dospinanim(inst, 0, (inst.clicks+1)/total_clicks) end)
@@ -101,7 +101,7 @@ local function OnActivate(inst, doer)
 		end
 	else
 		doer:PushEvent("accomplishment_done")
-		local firework_mult = SpawnPrefab("kyno_shrine_multifirework").Transform:SetPosition(inst.Transform:GetWorldPosition())
+		local firework_mult = SpawnPrefab("sap_shrine_multifirework").Transform:SetPosition(inst.Transform:GetWorldPosition())
 		inst.SoundEmitter:PlaySound("dontstarve/common/shrine/sadwork_fire")
 		inst:DoTaskInTime(26/30, function() inst.SoundEmitter:PlaySound("dontstarve/common/shrine/firework_explo") end)
 		inst.AnimState:PlayAnimation("done")
@@ -243,7 +243,7 @@ local function multifireworkfn()
 	return inst
 end
 
-return Prefab("kyno_accomplishment_shrine", fn, assets, prefabs),
-Prefab("kyno_shrine_firework", fireworkfn, assets, prefabs),
-Prefab("kyno_shrine_multifirework", multifireworkfn, assets, prefabs),
-MakePlacer("kyno_accomplishment_shrine_placer", "accomplishment_shrine", "accomplishment_shrine", "idle")  
+return Prefab("sap_accomplishment_shrine", fn, assets, prefabs),
+Prefab("sap_shrine_firework", fireworkfn, assets, prefabs),
+Prefab("sap_shrine_multifirework", multifireworkfn, assets, prefabs),
+MakePlacer("sap_accomplishment_shrine_placer", "accomplishment_shrine", "accomplishment_shrine", "idle")  

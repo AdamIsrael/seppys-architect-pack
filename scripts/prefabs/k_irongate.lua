@@ -242,7 +242,7 @@ local function FixUpFenceOrientation(inst, deployedrotation)
     while neighbor ~= nil do
         neighbor_e = CalcRotationEnum(neighbor.Transform:GetRotation())
 
-        if (neighbor.isdoor or neighbor.prefab == "kyno_moltenfence") and (this_e % (ROT_SIDES/2) == neighbor_e % (ROT_SIDES/2)) then
+        if (neighbor.isdoor or neighbor.prefab == "sap_moltenfence") and (this_e % (ROT_SIDES/2) == neighbor_e % (ROT_SIDES/2)) then
             break
         end
         neighbor_index = neighbor_index + 1
@@ -259,7 +259,7 @@ local function FixUpFenceOrientation(inst, deployedrotation)
     end
 
     if neighbor ~= nil then
-        if (neighbor.isdoor or neighbor.prefab == "kyno_moltenfence") and (this_e + ROT_SIDES/2) % ROT_SIDES == neighbor_e then
+        if (neighbor.isdoor or neighbor.prefab == "sap_moltenfence") and (this_e + ROT_SIDES/2) % ROT_SIDES == neighbor_e then
             rot = rot + 180
             this_e = CalcRotationEnum(rot)
         end
@@ -769,7 +769,7 @@ local function MakeInvItem(name, placement, animdata, isdoor)
 		
         inst:AddComponent("inventoryitem")
 		inst.components.inventoryitem.atlasname = "images/inventoryimages/tap_inventoryimages.xml"
-		inst.components.inventoryitem.imagename = "kyno_irongate_item"
+		inst.components.inventoryitem.imagename = "sap_irongate_item"
 
         inst:AddComponent("deployable")
         inst.components.deployable.ondeploy = ondeploywall
@@ -839,8 +839,8 @@ local function MakeWallPlacer(placer, placement, anims, isdoor)
 	end)
 end
 
-return MakeWall("kyno_irongate",                             {wide = "quagmire_park_gate"}, true),
-MakeWallAnim("kyno_irongate_anim",                           {wide = "quagmire_park_gate"}, true),
-MakeInvItem("kyno_irongate_item",           "kyno_irongate", "kyno_irongate",               true),
-MakeWallPlacer("kyno_irongate_placer",      "kyno_irongate", {wide = "kyno_irongate"},      true),
-MakeWallPlacer("kyno_irongate_item_placer", "kyno_irongate", {wide = "kyno_irongate"},      true)
+return MakeWall("sap_irongate",                             {wide = "quagmire_park_gate"}, true),
+MakeWallAnim("sap_irongate_anim",                           {wide = "quagmire_park_gate"}, true),
+MakeInvItem("sap_irongate_item",           "sap_irongate", "kyno_irongate",               true),
+MakeWallPlacer("sap_irongate_placer",      "sap_irongate", {wide = "kyno_irongate"},      true),
+MakeWallPlacer("sap_irongate_item_placer", "sap_irongate", {wide = "kyno_irongate"},      true)

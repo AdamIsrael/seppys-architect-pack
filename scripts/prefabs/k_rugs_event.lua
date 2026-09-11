@@ -80,7 +80,7 @@ local function fn()
 	inst.AnimState:SetSortOrder(3)
 	
 	inst:AddTag("structure")
-	inst:AddTag("kyno_rug")
+	inst:AddTag("sap_rug")
 	inst:AddTag("NOBLOCK")
 	
 	inst.entity:SetPristine()
@@ -131,7 +131,7 @@ local function fn2()
 	inst.AnimState:SetSortOrder(3)
 	
 	inst:AddTag("structure")
-	inst:AddTag("kyno_rug")
+	inst:AddTag("sap_rug")
 	inst:AddTag("NOBLOCK")
 	
 	inst.entity:SetPristine()
@@ -166,7 +166,7 @@ local function fn2()
 	return inst
 end
 
-return Prefab("kyno_yotb_rug", fn, assets, prefabs),
-Prefab("kyno_yotc_rug", fn2, assets, prefabs),
-MakePlacer("kyno_yotb_rug_placer", "post_rug", "yotb_post_rug", "idle", true),
-MakePlacer("kyno_yotc_rug_placer", "carrat_rug", "yotc_carrat_rug", "idle", true)
+return Prefab("sap_yotb_rug", fn, assets, prefabs),
+Prefab("sap_yotc_rug", fn2, assets, prefabs),
+MakePlacer("sap_yotb_rug_placer", "post_rug", "yotb_post_rug", "idle", true),
+MakePlacer("sap_yotc_rug_placer", "carrat_rug", "yotc_carrat_rug", "idle", true)

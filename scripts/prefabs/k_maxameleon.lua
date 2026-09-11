@@ -13,7 +13,7 @@ local assets =
 
 local prefabs =
 {
-	"kyno_chamaleon_child"
+	"sap_chamaleon_child"
 }
 
 local function disolve(inst, mult)
@@ -46,14 +46,14 @@ local function Disappear(inst, mult)
     inst.SoundEmitter:SetParameter("appear", "intensity", 0)
     inst.SoundEmitter:SetParameter("appear", "intensity", 1)  
 
-    local layer1 = SpawnPrefab("kyno_chamaleon_child")
+    local layer1 = SpawnPrefab("sap_chamaleon_child")
     inst:AddChild(layer1)
     layer1.AnimState:SetFinalOffset(-1)            
     layer1.Transform:SetPosition(0,0,0)
     layer1.AnimState:PlayAnimation("disappear")    
     inst.layer1 = layer1
 
-    local layer2 = SpawnPrefab("kyno_chamaleon_child")
+    local layer2 = SpawnPrefab("sap_chamaleon_child")
     inst:AddChild(layer2)
     layer2.AnimState:SetFinalOffset(-2)    
     layer2.AnimState:SetMultColour(0.5,0.5,1, 1)
@@ -61,7 +61,7 @@ local function Disappear(inst, mult)
     layer2.AnimState:PlayAnimation("disappear")
     inst.layer2 = layer2
 
-    local layer3 = SpawnPrefab("kyno_chamaleon_child")
+    local layer3 = SpawnPrefab("sap_chamaleon_child")
     inst:AddChild(layer3)
     layer3.AnimState:SetFinalOffset(-3)    
     layer3.AnimState:SetMultColour(0.5,1,0.5, 1)
@@ -241,6 +241,6 @@ local function introchildfn()
     return inst
 end
 
-return Prefab("kyno_chamaleon", fn, assets, prefabs),
-Prefab("kyno_chamaleon_child", introchildfn, assets, prefabs),
-MakePlacer("kyno_chamaleon_placer", "cham", "chameleon", "idle", false, nil, nil, nil, 90, nil)
+return Prefab("sap_chamaleon", fn, assets, prefabs),
+Prefab("sap_chamaleon_child", introchildfn, assets, prefabs),
+MakePlacer("sap_chamaleon_placer", "cham", "chameleon", "idle", false, nil, nil, nil, 90, nil)

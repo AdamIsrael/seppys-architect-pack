@@ -129,5 +129,5 @@ local function fn()
     return inst
 end
 
-return Prefab("kyno_stagehand", fn, assets, prefabs),
-MakePlacer("kyno_stagehand_placer", "stagehand", "stagehand", "idle")
+return Prefab("sap_stagehand", fn, assets, prefabs),
+MakePlacer("sap_stagehand_placer", "stagehand", "stagehand", "idle")

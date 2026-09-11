@@ -198,5 +198,5 @@ local function fn()
     return inst
 end
 
-return Prefab("kyno_luggagechest", fn, assets),
-MakePlacer("kyno_luggagechest_placer", "luggage", "luggage", "closed")
+return Prefab("sap_luggagechest", fn, assets),
+MakePlacer("sap_luggagechest_placer", "luggage", "luggage", "closed")

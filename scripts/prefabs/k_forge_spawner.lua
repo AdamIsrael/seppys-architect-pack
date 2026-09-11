@@ -154,5 +154,5 @@ local function fn()
     return inst
 end
 
-return Prefab("kyno_lavaspawner", fn, assets, prefabs),
-MakePlacer("kyno_lavaspawner_placer", "lavaarena_spawner", "lavaarena_spawner", "idle", true, nil, nil, nil, 90, nil)
+return Prefab("sap_lavaspawner", fn, assets, prefabs),
+MakePlacer("sap_lavaspawner_placer", "lavaarena_spawner", "lavaarena_spawner", "idle", true, nil, nil, nil, 90, nil)

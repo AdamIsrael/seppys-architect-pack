@@ -201,9 +201,9 @@ local function create_bunnyhead()
     return inst
 end
 
-return Prefab("kyno_pighead", create_pighead, pig_assets, pig_prefabs),
-Prefab("kyno_mermhead", create_mermhead, merm_assets, merm_prefabs),
-Prefab("kyno_bunnyhead", create_bunnyhead, bunny_assets, bunny_prefabs),
-MakePlacer("kyno_pighead_placer", "pig_head", "pig_head", "idle_asleep"),
-MakePlacer("kyno_mermhead_placer", "merm_head", "merm_head", "idle_asleep"),
-MakePlacer("kyno_bunnyhead_placer", "bunny_head", "bunny_head", "idle_asleep")
+return Prefab("sap_pighead", create_pighead, pig_assets, pig_prefabs),
+Prefab("sap_mermhead", create_mermhead, merm_assets, merm_prefabs),
+Prefab("sap_bunnyhead", create_bunnyhead, bunny_assets, bunny_prefabs),
+MakePlacer("sap_pighead_placer", "pig_head", "pig_head", "idle_asleep"),
+MakePlacer("sap_mermhead_placer", "merm_head", "merm_head", "idle_asleep"),
+MakePlacer("sap_bunnyhead_placer", "bunny_head", "bunny_head", "idle_asleep")

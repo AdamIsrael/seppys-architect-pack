@@ -15,7 +15,7 @@ local assets =
 local prefabs =
 {
 	"log",
-	"kyno_teatree_sapling",
+	"sap_teatree_sapling",
 	"teatree_nut",
 	"charcoal",
 }

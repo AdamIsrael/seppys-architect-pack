@@ -86,5 +86,5 @@ local function Porkfn()
     return inst
 end
 
-return Prefab("kyno_ham_prototyper", Porkfn, assets),
-MakePlacer("kyno_ham_prototyper_placer", "hamportal", "portal_hamlet_build", "idle_off")
+return Prefab("sap_ham_prototyper", Porkfn, assets),
+MakePlacer("sap_ham_prototyper_placer", "hamportal", "portal_hamlet_build", "idle_off")

@@ -186,7 +186,7 @@ local function fn2()
 	return inst
 end
 
-return Prefab("kyno_geyser", fn, assets, prefabs),
-Prefab("kyno_geyser_active", fn2, assets, prefabs),
-MakePlacer("kyno_geyser_placer", "geyser", "geyser", "idle_dormant"),
-MakePlacer("kyno_geyser_active_placer", "geyser", "geyser", "active_loop")
+return Prefab("sap_geyser", fn, assets, prefabs),
+Prefab("sap_geyser_active", fn2, assets, prefabs),
+MakePlacer("sap_geyser_placer", "geyser", "geyser", "idle_dormant"),
+MakePlacer("sap_geyser_active_placer", "geyser", "geyser", "active_loop")

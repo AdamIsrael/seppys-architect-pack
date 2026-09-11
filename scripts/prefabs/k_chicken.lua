@@ -25,7 +25,7 @@ local chickensounds =
 	hurt = "dontstarve_DLC001/creatures/buzzard/hurt",
 }
 
-SetSharedLootTable("kyno_chicken",
+SetSharedLootTable("sap_chicken",
 {
     {"drumstick",             1.00},
 	{"goose_feather",         1.00},
@@ -56,7 +56,7 @@ local function CanSleep(inst)
 end
 
 local function onbuilt(inst)
-	SpawnPrefab("kyno_chicken").Transform:SetPosition(inst.Transform:GetWorldPosition())
+	SpawnPrefab("sap_chicken").Transform:SetPosition(inst.Transform:GetWorldPosition())
 	inst:Remove()
 end
 
@@ -85,7 +85,7 @@ local function builderfn()
 	inst:AddTag("chicken")
 	inst:AddTag("smallcreature")
 	
-	inst:SetPrefabNameOverride("kyno_chicken")
+	inst:SetPrefabNameOverride("sap_chicken")
 	
 	inst.entity:SetPristine()
 
@@ -145,7 +145,7 @@ end
 local function fn()
 	local inst = builderfn()
 	
-	inst:SetPrefabNameOverride("kyno_chicken")
+	inst:SetPrefabNameOverride("sap_chicken")
 	
 	if not TheWorld.ismastersim then
 		return inst
@@ -153,11 +153,11 @@ local function fn()
 	
 	inst:DoTaskInTime(0, SetHome)
 	
-	inst.components.lootdropper:SetChanceLootTable("kyno_chicken")
+	inst.components.lootdropper:SetChanceLootTable("sap_chicken")
 	
 	return inst
 end
 
-return Prefab("kyno_chicken_builder", builderfn, assets, prefabs),
-Prefab("kyno_chicken", fn, assets, prefabs),
-MakePlacer("kyno_chicken_builder_placer", "chicken", "chicken", "idle")
+return Prefab("sap_chicken_builder", builderfn, assets, prefabs),
+Prefab("sap_chicken", fn, assets, prefabs),
+MakePlacer("sap_chicken_builder_placer", "chicken", "chicken", "idle")

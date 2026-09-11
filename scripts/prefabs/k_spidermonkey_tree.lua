@@ -19,7 +19,7 @@ local assets =
 local prefabs =
 {
 	"log",
-	"kyno_rainforesttree_sapling",
+	"sap_rainforesttree_sapling",
 	"burr",
 	"silk",
 	"charcoal",
@@ -636,7 +636,7 @@ local function makefn(build, stage, data)
 		end
 
 		inst:AddComponent("childspawner")
-		inst.components.childspawner.childname = "kyno_spidermonkey"
+		inst.components.childspawner.childname = "sap_spidermonkey"
 		inst.components.childspawner:SetRegenPeriod(TUNING.SPIDERDEN_REGEN_TIME)
 		inst.components.childspawner:SetSpawnPeriod(TUNING.SPIDERDEN_RELEASE_TIME)
 		inst.components.childspawner:SetSpawnedFn(onspawnspider)

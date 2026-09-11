@@ -194,11 +194,11 @@ local function deco3()
     return inst
 end
 
-return Prefab("kyno_sea_cocoon", fn, assets, prefabs),
-Prefab("kyno_sea_cocoon_1", deco1, assets, prefabs),
-Prefab("kyno_sea_cocoon_2", deco2, assets, prefabs),
-Prefab("kyno_sea_cocoon_3", deco3, assets, prefabs),
-MakePlacer("kyno_sea_cocoon_placer", "sea_cocoon", "sea_cocoon", "full"),
-MakePlacer("kyno_sea_cocoon_1_placer", "sea_cocoon", "sea_cocoon", "deco1"),
-MakePlacer("kyno_sea_cocoon_2_placer", "sea_cocoon", "sea_cocoon", "deco2"),
-MakePlacer("kyno_sea_cocoon_3_placer", "sea_cocoon", "sea_cocoon", "deco3")
+return Prefab("sap_sea_cocoon", fn, assets, prefabs),
+Prefab("sap_sea_cocoon_1", deco1, assets, prefabs),
+Prefab("sap_sea_cocoon_2", deco2, assets, prefabs),
+Prefab("sap_sea_cocoon_3", deco3, assets, prefabs),
+MakePlacer("sap_sea_cocoon_placer", "sea_cocoon", "sea_cocoon", "full"),
+MakePlacer("sap_sea_cocoon_1_placer", "sea_cocoon", "sea_cocoon", "deco1"),
+MakePlacer("sap_sea_cocoon_2_placer", "sea_cocoon", "sea_cocoon", "deco2"),
+MakePlacer("sap_sea_cocoon_3_placer", "sea_cocoon", "sea_cocoon", "deco3")

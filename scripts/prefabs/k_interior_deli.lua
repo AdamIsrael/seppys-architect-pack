@@ -94,7 +94,7 @@ local function stackfront()
     return inst
 end
 
-return Prefab("kyno_deli_stackside", stackside, assets),
-Prefab("kyno_deli_stackfront", stackfront, assets),
-MakePlacer("kyno_deli_stackside_placer", "wall_decals_deli", "interior_wall_decals_deli", "stack_sidewall"),
-MakePlacer("kyno_deli_stackfront_placer", "wall_decals_deli", "interior_wall_decals_deli", "stack_front")
+return Prefab("sap_deli_stackside", stackside, assets),
+Prefab("sap_deli_stackfront", stackfront, assets),
+MakePlacer("sap_deli_stackside_placer", "wall_decals_deli", "interior_wall_decals_deli", "stack_sidewall"),
+MakePlacer("sap_deli_stackfront_placer", "wall_decals_deli", "interior_wall_decals_deli", "stack_front")

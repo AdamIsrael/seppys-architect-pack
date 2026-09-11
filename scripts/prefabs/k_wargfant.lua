@@ -10,7 +10,7 @@ local assets =
 
 local prefabs =
 {
-	"kyno_wargfant"
+	"sap_wargfant"
 }
 
 local sounds =
@@ -75,7 +75,7 @@ local function OnAttacked(inst, data)
 end
 
 local function onbuilt(inst)
-	SpawnPrefab("kyno_wargfant").Transform:SetPosition(inst.Transform:GetWorldPosition())
+	SpawnPrefab("sap_wargfant").Transform:SetPosition(inst.Transform:GetWorldPosition())
 	inst:Remove()
 end
 
@@ -105,7 +105,7 @@ local function builderfn()
 	inst:AddTag("houndfriend")
 	inst:AddTag("largecreature")
 	
-	inst:SetPrefabNameOverride("kyno_wargfant")
+	inst:SetPrefabNameOverride("sap_wargfant")
 
 	inst.entity:SetPristine()
 
@@ -164,20 +164,20 @@ end
 local function fn()
 	local inst = builderfn()
 	
-	inst:SetPrefabNameOverride("kyno_wargfant")
+	inst:SetPrefabNameOverride("sap_wargfant")
 	
 	if not TheWorld.ismastersim then
 		return inst
 	end
 	
 	inst:AddComponent("herdmember")
-    inst.components.herdmember:SetHerdPrefab("kyno_wargfant_herd")
+    inst.components.herdmember:SetHerdPrefab("sap_wargfant_herd")
 	
 	inst.components.lootdropper:SetChanceLootTable('kyno_wargfant')
 	
 	return inst
 end
 
-return Prefab("kyno_wargfant_builder", builderfn, assets, prefabs),
-Prefab("kyno_wargfant", fn, assets, prefabs),
-MakePlacer("kyno_wargfant_builder_placer", "wargfant_actions", "kyno_adai_wargfant", "idle_loop")
+return Prefab("sap_wargfant_builder", builderfn, assets, prefabs),
+Prefab("sap_wargfant", fn, assets, prefabs),
+MakePlacer("sap_wargfant_builder_placer", "wargfant_actions", "kyno_adai_wargfant", "idle_loop")

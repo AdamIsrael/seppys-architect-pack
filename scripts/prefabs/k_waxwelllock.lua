@@ -141,7 +141,7 @@ local function fn2()
     return inst
 end
 
-return Prefab("kyno_waxwelllock", fn, assets, prefabs),
-Prefab("kyno_adventurelock", fn2, assets, prefabs),
-MakePlacer("kyno_waxwelllock_placer", "diviningrod", "diviningrod_maxwell", "idle_empty"),
-MakePlacer("kyno_adventurelock_placer", "diviningrod", "diviningrod", "idle_empty")
+return Prefab("sap_waxwelllock", fn, assets, prefabs),
+Prefab("sap_adventurelock", fn2, assets, prefabs),
+MakePlacer("sap_waxwelllock_placer", "diviningrod", "diviningrod_maxwell", "idle_empty"),
+MakePlacer("sap_adventurelock_placer", "diviningrod", "diviningrod", "idle_empty")

@@ -71,7 +71,7 @@ local function fn()
     end
 	
 	local function createExtras(inst)
-	inst.groundprefab =  SpawnPrefab("kyno_moonglass_meteorground")
+	inst.groundprefab =  SpawnPrefab("sap_moonglass_meteorground")
 	inst.groundprefab.entity:SetParent(inst.entity)
 	end
 	
@@ -125,6 +125,6 @@ local function fn2(Sim)
     return inst
 end
 
-return Prefab("kyno_moonglass_meteor", fn, assets),
-Prefab("kyno_moonglass_meteorground", fn2, assets),
-MakePlacer("kyno_moonglass_meteor_placer", "alterguardian_meteor", "alterguardian_meteor", "meteor_idle")
+return Prefab("sap_moonglass_meteor", fn, assets),
+Prefab("sap_moonglass_meteorground", fn2, assets),
+MakePlacer("sap_moonglass_meteor_placer", "alterguardian_meteor", "alterguardian_meteor", "meteor_idle")

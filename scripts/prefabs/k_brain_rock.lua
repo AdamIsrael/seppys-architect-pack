@@ -189,5 +189,5 @@ local function fn()
 	return inst
 end
 
-return Prefab("kyno_brain_rock", fn, assets, prefabs),
-MakePlacer("kyno_brain_rock_placer", "brain_coral_rock", "brain_coral_rock", "idle_full")
+return Prefab("sap_brain_rock", fn, assets, prefabs),
+MakePlacer("sap_brain_rock_placer", "brain_coral_rock", "brain_coral_rock", "idle_full")

@@ -193,7 +193,7 @@ local function fn2()
     return inst
 end
 
-return Prefab("kyno_slow_hydrofarmmeat", fn, assets, prefabs),
-Prefab("kyno_fast_hydrofarmmeat", fn2, assets, prefabs),
-MakePlacer("kyno_slow_hydrofarmmeat_placer", "hydroponic_slow_farmplot", "hydroponic_slow_farmplot", "Idle"),
-MakePlacer("kyno_fast_hydrofarmmeat_placer", "hydroponic_fast_farmplot", "hydroponic_fast_farmplot", "idle")
+return Prefab("sap_slow_hydrofarmmeat", fn, assets, prefabs),
+Prefab("sap_fast_hydrofarmmeat", fn2, assets, prefabs),
+MakePlacer("sap_slow_hydrofarmmeat_placer", "hydroponic_slow_farmplot", "hydroponic_slow_farmplot", "Idle"),
+MakePlacer("sap_fast_hydrofarmmeat_placer", "hydroponic_fast_farmplot", "hydroponic_fast_farmplot", "idle")

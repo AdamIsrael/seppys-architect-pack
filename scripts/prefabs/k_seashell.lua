@@ -13,11 +13,11 @@ local assets =
 
 local prefabs =
 {
-	"kyno_seashell_buried",
+	"sap_seashell_buried",
 }
 
 local function ondeploy(inst, pt, deployer)
-local seashell = SpawnPrefab("kyno_seashell_buried")
+local seashell = SpawnPrefab("sap_seashell_buried")
 	if seashell ~= nil then
 		seashell.Transform:SetPosition(pt:Get())
 		inst.components.stackable:Get():Remove()

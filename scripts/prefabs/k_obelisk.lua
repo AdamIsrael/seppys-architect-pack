@@ -326,9 +326,9 @@ local function obeliskfn()
     return inst
 end
 
-return Prefab("kyno_insanityrock", insanityrock, assets, prefabs),
-Prefab("kyno_sanityrock", sanityrock, assets, prefabs),
-Prefab("kyno_obelisk", obeliskfn, assets, prefabs),
-MakePlacer("kyno_insanityrock_placer", "blocker_sanity", "blocker_sanity", "idle_inactive"),
-MakePlacer("kyno_sanityrock_placer", "blocker_sanity", "blocker_sanity", "idle_inactive"),
-MakePlacer("kyno_obelisk_placer", "blocker_sanity", "blocker_sanity", "idle_active")
+return Prefab("sap_insanityrock", insanityrock, assets, prefabs),
+Prefab("sap_sanityrock", sanityrock, assets, prefabs),
+Prefab("sap_obelisk", obeliskfn, assets, prefabs),
+MakePlacer("sap_insanityrock_placer", "blocker_sanity", "blocker_sanity", "idle_inactive"),
+MakePlacer("sap_sanityrock_placer", "blocker_sanity", "blocker_sanity", "idle_inactive"),
+MakePlacer("sap_obelisk_placer", "blocker_sanity", "blocker_sanity", "idle_active")

@@ -242,7 +242,7 @@ local function FixUpFenceOrientation(inst, deployedrotation)
     while neighbor ~= nil do
         neighbor_e = CalcRotationEnum(neighbor.Transform:GetRotation())
 
-        if (neighbor.isdoor or neighbor.prefab == "kyno_moltenfence") and (this_e % (ROT_SIDES/2) == neighbor_e % (ROT_SIDES/2)) then
+        if (neighbor.isdoor or neighbor.prefab == "sap_moltenfence") and (this_e % (ROT_SIDES/2) == neighbor_e % (ROT_SIDES/2)) then
             break
         end
         neighbor_index = neighbor_index + 1
@@ -259,7 +259,7 @@ local function FixUpFenceOrientation(inst, deployedrotation)
     end
 
     if neighbor ~= nil then
-        if (neighbor.isdoor or neighbor.prefab == "kyno_moltenfence") and (this_e + ROT_SIDES/2) % ROT_SIDES == neighbor_e then
+        if (neighbor.isdoor or neighbor.prefab == "sap_moltenfence") and (this_e + ROT_SIDES/2) % ROT_SIDES == neighbor_e then
             rot = rot + 180
             this_e = CalcRotationEnum(rot)
         end
@@ -766,7 +766,7 @@ local function MakeInvItem(name, placement, animdata, isdoor)
 		
         inst:AddComponent("inventoryitem")
 		inst.components.inventoryitem.atlasname = "images/inventoryimages/tap_inventoryimages.xml"
-		inst.components.inventoryitem.imagename = "kyno_moltenfence_item"
+		inst.components.inventoryitem.imagename = "sap_moltenfence_item"
 
         inst:AddComponent("deployable")
         inst.components.deployable.ondeploy = ondeploywall
@@ -834,8 +834,8 @@ local function MakeWallPlacer(placer, placement, anims, isdoor)
 	end)
 end
 
-return MakeWall("kyno_moltenfence",                                {wide = "kyno_moltenfence"}, false),
-MakeWallAnim("kyno_moltenfence_anim",                              {wide = "kyno_moltenfence"}, false),
-MakeInvItem("kyno_moltenfence_item",           "kyno_moltenfence", "kyno_moltenfence",          false),
-MakeWallPlacer("kyno_moltenfence_placer",      "kyno_moltenfence", {wide = "kyno_moltenfence"}, false),
-MakeWallPlacer("kyno_moltenfence_item_placer", "kyno_moltenfence", {wide = "kyno_moltenfence"}, false)
+return MakeWall("sap_moltenfence",                                {wide = "kyno_moltenfence"}, false),
+MakeWallAnim("sap_moltenfence_anim",                              {wide = "kyno_moltenfence"}, false),
+MakeInvItem("sap_moltenfence_item",           "sap_moltenfence", "kyno_moltenfence",          false),
+MakeWallPlacer("sap_moltenfence_placer",      "sap_moltenfence", {wide = "kyno_moltenfence"}, false),
+MakeWallPlacer("sap_moltenfence_item_placer", "sap_moltenfence", {wide = "kyno_moltenfence"}, false)

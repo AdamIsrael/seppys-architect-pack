@@ -93,5 +93,5 @@ local function largefn()
 	return inst
 end
 
-return Prefab("kyno_grill_large", largefn, assets, prefabs),
-MakePlacer("kyno_grill_large_placer", "quagmire_grill", "quagmire_grill", "idle")
+return Prefab("sap_grill_large", largefn, assets, prefabs),
+MakePlacer("sap_grill_large_placer", "quagmire_grill", "quagmire_grill", "idle")

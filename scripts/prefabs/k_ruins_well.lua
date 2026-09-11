@@ -83,7 +83,7 @@ end
 
 local function ShouldAcceptItem(inst, item)
     if not inst:HasTag("endwell") then
-        local can_accept = item.prefab == "goldnugget" or item.prefab == "opalpreciousgem" or item.prefab == "kyno_oinc1" or item.prefab == "kyno_oinc10" or item.prefab == "kyno_oinc100"
+        local can_accept = item.prefab == "goldnugget" or item.prefab == "opalpreciousgem" or item.prefab == "sap_oinc1" or item.prefab == "sap_oinc10" or item.prefab == "sap_oinc100"
     
         return can_accept 
     else
@@ -97,11 +97,11 @@ end
 local function OnGetItemFromPlayer(inst, giver, item)
     if not inst:HasTag("endwell") then
         local value = 0
-        if item.prefab == "kyno_oinc1" then
+        if item.prefab == "sap_oinc1" then
             value = 1
-        elseif item.prefab == "kyno_oinc10" then
+        elseif item.prefab == "sap_oinc10" then
             value = 10
-        elseif item.prefab == "kyno_oinc100" then
+        elseif item.prefab == "sap_oinc100" then
             value = 100        
         elseif item.prefab == "goldnugget" then
             value = 20
@@ -284,8 +284,8 @@ local function endfn()
 	return inst
 end
 
-return Prefab("kyno_wishingwell", wellfn, assets, prefabs),
-MakePlacer("kyno_wishingwell_placer", "pig_ruins_well", "pig_ruins_well", "idle_full"),
+return Prefab("sap_wishingwell", wellfn, assets, prefabs),
+MakePlacer("sap_wishingwell_placer", "pig_ruins_well", "pig_ruins_well", "idle_full"),
 
-Prefab("kyno_endwell", endfn, assets, prefabs),
-MakePlacer("kyno_endwell_placer", "pig_ruins_well", "pig_ruins_well", "vortex_idle_full")
+Prefab("sap_endwell", endfn, assets, prefabs),
+MakePlacer("sap_endwell_placer", "pig_ruins_well", "pig_ruins_well", "vortex_idle_full")

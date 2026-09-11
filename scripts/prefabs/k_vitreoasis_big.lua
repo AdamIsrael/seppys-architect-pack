@@ -265,7 +265,7 @@ local function poolfn2()
     return inst
 end
 
-return Prefab("kyno_vitreoasis_big", poolfn, assets, prefabs),
-Prefab("kyno_vitreoasis2_big", poolfn2, assets, prefabs),
-MakePlacer("kyno_vitreoasis_big_placer", "moonglasspool_tile", "moonglasspool_tile", "idle", true),
-MakePlacer("kyno_vitreoasis2_big_placer", "moonglasspool_tile", "moonglasspool_tile", "idle", true)
+return Prefab("sap_vitreoasis_big", poolfn, assets, prefabs),
+Prefab("sap_vitreoasis2_big", poolfn2, assets, prefabs),
+MakePlacer("sap_vitreoasis_big_placer", "moonglasspool_tile", "moonglasspool_tile", "idle", true),
+MakePlacer("sap_vitreoasis2_big_placer", "moonglasspool_tile", "moonglasspool_tile", "idle", true)

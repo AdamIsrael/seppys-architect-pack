@@ -427,17 +427,17 @@ local function stoneplacefn(inst)
 	inst.AnimState:Hide("SNOW")
 end
 
-return Prefab("kyno_diseased_grass", grassfn, assets, prefabs),
-Prefab("kyno_diseased_sapling", saplingfn, assets, prefabs),
-Prefab("kyno_diseased_berrybush", berrybushfn, assets, prefabs),
-Prefab("kyno_diseased_berrybush2", berrybush2fn, assets, prefabs),
-Prefab("kyno_diseased_juicyberrybush", juicyfn, assets, prefabs),
-Prefab("kyno_diseased_moonsapling", moonsaplingfn, assets, prefabs),
-Prefab("kyno_diseased_stonebush", stonebushfn, assets, prefabs),
-MakePlacer("kyno_diseased_grass_placer", "grass", "grass_diseased_build", "idle"),
-MakePlacer("kyno_diseased_sapling_placer", "sapling", "sapling_diseased_build", "sway"),
-MakePlacer("kyno_diseased_berrybush_placer", "berrybush", "berrybush_diseased_build", "idle"),
-MakePlacer("kyno_diseased_berrybush2_placer", "berrybush2", "berrybush2_diseased_build", "idle"),
-MakePlacer("kyno_diseased_berrybush_juicy_placer", "berrybush_juicy", "berrybush_juicy_diseased_build", "idle"),
-MakePlacer("kyno_diseased_moonsapling_placer", "sapling_moon", "sapling_diseased_moon", "sway"),
-MakePlacer("kyno_diseased_stonebush_placer", "rock_avocado", "rock_avocado_diseased_build", "idle3", false, nil, nil, nil, nil, nil, stoneplacefn)
+return Prefab("sap_diseased_grass", grassfn, assets, prefabs),
+Prefab("sap_diseased_sapling", saplingfn, assets, prefabs),
+Prefab("sap_diseased_berrybush", berrybushfn, assets, prefabs),
+Prefab("sap_diseased_berrybush2", berrybush2fn, assets, prefabs),
+Prefab("sap_diseased_juicyberrybush", juicyfn, assets, prefabs),
+Prefab("sap_diseased_moonsapling", moonsaplingfn, assets, prefabs),
+Prefab("sap_diseased_stonebush", stonebushfn, assets, prefabs),
+MakePlacer("sap_diseased_grass_placer", "grass", "grass_diseased_build", "idle"),
+MakePlacer("sap_diseased_sapling_placer", "sapling", "sapling_diseased_build", "sway"),
+MakePlacer("sap_diseased_berrybush_placer", "berrybush", "berrybush_diseased_build", "idle"),
+MakePlacer("sap_diseased_berrybush2_placer", "berrybush2", "berrybush2_diseased_build", "idle"),
+MakePlacer("sap_diseased_berrybush_juicy_placer", "berrybush_juicy", "berrybush_juicy_diseased_build", "idle"),
+MakePlacer("sap_diseased_moonsapling_placer", "sapling_moon", "sapling_diseased_moon", "sway"),
+MakePlacer("sap_diseased_stonebush_placer", "rock_avocado", "rock_avocado_diseased_build", "idle3", false, nil, nil, nil, nil, nil, stoneplacefn)

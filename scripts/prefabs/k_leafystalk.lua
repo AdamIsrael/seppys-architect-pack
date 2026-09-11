@@ -13,7 +13,7 @@ local assets =
 }
 
 local prefabs = {
-	"kyno_canopy_shadow",
+	"sap_canopy_shadow",
 }
 
 local function chop_tree(inst, chopper, chops)
@@ -188,5 +188,5 @@ local function fn()
 	return inst
 end
 
-return Prefab("kyno_leafystalk", fn, assets, prefabs),
-MakePlacer("kyno_leafystalk_placer", "pillar_tree", "pillar_tree", "idle")
+return Prefab("sap_leafystalk", fn, assets, prefabs),
+MakePlacer("sap_leafystalk_placer", "pillar_tree", "pillar_tree", "idle")

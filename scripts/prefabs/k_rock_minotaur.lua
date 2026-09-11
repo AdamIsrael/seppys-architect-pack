@@ -121,11 +121,11 @@ local function fn4()
     return inst
 end
 
-return Prefab("kyno_rock_minotaur1", fn1, assets, prefabs),
-Prefab("kyno_rock_minotaur2", fn2, assets, prefabs),
-Prefab("kyno_rock_minotaur3", fn3, assets, prefabs),
-Prefab("kyno_rock_minotaur4", fn4, assets, prefabs),
-MakePlacer("kyno_rock_minotaur1_placer", "rock_ruins", "rock_ruins", "full1"),
-MakePlacer("kyno_rock_minotaur2_placer", "rock_ruins", "rock_ruins", "full2"),
-MakePlacer("kyno_rock_minotaur3_placer", "rock_ruins", "rock_ruins", "full3"),
-MakePlacer("kyno_rock_minotaur4_placer", "rock_ruins", "rock_ruins", "full4")
+return Prefab("sap_rock_minotaur1", fn1, assets, prefabs),
+Prefab("sap_rock_minotaur2", fn2, assets, prefabs),
+Prefab("sap_rock_minotaur3", fn3, assets, prefabs),
+Prefab("sap_rock_minotaur4", fn4, assets, prefabs),
+MakePlacer("sap_rock_minotaur1_placer", "rock_ruins", "rock_ruins", "full1"),
+MakePlacer("sap_rock_minotaur2_placer", "rock_ruins", "rock_ruins", "full2"),
+MakePlacer("sap_rock_minotaur3_placer", "rock_ruins", "rock_ruins", "full3"),
+MakePlacer("sap_rock_minotaur4_placer", "rock_ruins", "rock_ruins", "full4")

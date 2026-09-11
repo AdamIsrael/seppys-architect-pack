@@ -77,5 +77,5 @@ local function fn()
     return inst
 end
 
-return Prefab("kyno_theater_lecturn", fn, assets, prefabs),
-MakePlacer("kyno_theater_lecturn_placer", "charlie_lectern", "charlie_lectern", "idle")
+return Prefab("sap_theater_lecturn", fn, assets, prefabs),
+MakePlacer("sap_theater_lecturn_placer", "charlie_lectern", "charlie_lectern", "idle")

@@ -381,4 +381,4 @@ local function fn()
     return inst
 end
 
-return Prefab("kyno_mermfisher", fn, assets, prefabs)
+return Prefab("sap_mermfisher", fn, assets, prefabs)

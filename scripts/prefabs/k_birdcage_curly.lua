@@ -581,5 +581,5 @@ local function fn()
     return inst
 end
 
-return Prefab("kyno_birdcage_curly", fn, assets, prefabs),
-MakePlacer("kyno_birdcage_curly_placer", "birdcage", "hutch_pigeon_build", "idle_empty")
+return Prefab("sap_birdcage_curly", fn, assets, prefabs),
+MakePlacer("sap_birdcage_curly_placer", "birdcage", "hutch_pigeon_build", "idle_empty")

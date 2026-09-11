@@ -15,8 +15,8 @@ local assets =
 local prefabs =
 {
 	"collapse_small",
-	"kyno_firepit",
-	"kyno_oven_back"
+	"sap_firepit",
+	"sap_oven_back"
 }
 
 local function onhammered(inst, worker)
@@ -58,7 +58,7 @@ local function fn()
     inst.AnimState:Show("oven_back")
 
 	inst:AddTag("structure")
-	inst:AddTag("kyno_oven")
+	inst:AddTag("sap_oven")
 	inst:AddTag("cooker")
 	
 	inst.entity:SetPristine()
@@ -69,8 +69,8 @@ local function fn()
 	
 	--[[
 	local function createBack(inst)
-	inst.backprefab =  SpawnPrefab("kyno_oven_back")
-	inst.firepitprefab = SpawnPrefab("kyno_firepit")
+	inst.backprefab =  SpawnPrefab("sap_oven_back")
+	inst.firepitprefab = SpawnPrefab("sap_firepit")
 	inst.backprefab.entity:SetParent(inst.entity)
 	inst.firepitprefab.entity:SetParent(inst.entity)
 	end
@@ -115,7 +115,7 @@ local function backfn()
 	inst.AnimState:Hide("oven")
 
 	inst:AddTag("structure")
-	inst:AddTag("kyno_oven_back")
+	inst:AddTag("sap_oven_back")
 	
 	inst.entity:SetPristine()
 	
@@ -136,6 +136,6 @@ local function ovenplacetestfn(inst)
 	inst.AnimState:Show("oven_back")
 end
 
-return Prefab("kyno_oven", fn, assets, prefabs),
-Prefab("kyno_oven_back", backfn, assets, prefabs),
-MakePlacer("kyno_oven_placer", "quagmire_oven", "quagmire_oven", "idle", false, nil, nil, nil, nil, nil, ovenplacetestfn)
+return Prefab("sap_oven", fn, assets, prefabs),
+Prefab("sap_oven_back", backfn, assets, prefabs),
+MakePlacer("sap_oven_placer", "quagmire_oven", "quagmire_oven", "idle", false, nil, nil, nil, nil, nil, ovenplacetestfn)

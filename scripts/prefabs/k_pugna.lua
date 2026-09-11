@@ -169,5 +169,5 @@ local function pugnaplacetestfn(inst)
 	inst.Transform:SetScale(1.25, 1.25, 1.25)	
 end
 	
-return Prefab("kyno_pugna", fn, assets, prefabs),
-MakePlacer("kyno_pugna_placer", "boarlord", "boarlord", "idle", false, nil, nil, nil, nil, nil, pugnaplacetestfn)
+return Prefab("sap_pugna", fn, assets, prefabs),
+MakePlacer("sap_pugna_placer", "boarlord", "boarlord", "idle", false, nil, nil, nil, nil, nil, pugnaplacetestfn)

@@ -152,5 +152,5 @@ local function fn()
     return inst
 end
 
-return Prefab("kyno_atriumfence", fn, assets),
-MakePlacer("kyno_atriumfence_placer", "atrium_fence", "atrium_fence", "idle3")
+return Prefab("sap_atriumfence", fn, assets),
+MakePlacer("sap_atriumfence_placer", "atrium_fence", "atrium_fence", "idle3")

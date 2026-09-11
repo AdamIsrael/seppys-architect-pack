@@ -93,5 +93,5 @@ local function smallfn()
 	return inst
 end
 
-return Prefab("kyno_grill_small", smallfn, assets, prefabs),
-MakePlacer("kyno_grill_small_placer", "quagmire_grill_small", "quagmire_grill_small", "idle")
+return Prefab("sap_grill_small", smallfn, assets, prefabs),
+MakePlacer("sap_grill_small_placer", "quagmire_grill_small", "quagmire_grill_small", "idle")

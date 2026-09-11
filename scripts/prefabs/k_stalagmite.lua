@@ -146,7 +146,7 @@ local function lowrock()
     return inst
 end
 
-return Prefab("kyno_stalagmite_full", fullrock, stalagmite_assets, prefabs),
-    Prefab("kyno_stalagmite_med", medrock, stalagmite_assets, prefabs),
-    Prefab("kyno_stalagmite_low", lowrock, stalagmite_assets, prefabs),
-    Prefab("kyno_stalagmite", fullrock, stalagmite_assets, prefabs)
+return Prefab("sap_stalagmite_full", fullrock, stalagmite_assets, prefabs),
+    Prefab("sap_stalagmite_med", medrock, stalagmite_assets, prefabs),
+    Prefab("sap_stalagmite_low", lowrock, stalagmite_assets, prefabs),
+    Prefab("sap_stalagmite", fullrock, stalagmite_assets, prefabs)

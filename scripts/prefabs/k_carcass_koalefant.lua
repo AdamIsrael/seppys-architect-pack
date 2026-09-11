@@ -79,5 +79,5 @@ local function fn()
 	return inst
 end
 
-return Prefab("kyno_carcass_koalefant", fn, assets, prefabs),
-MakePlacer("kyno_carcass_koalefant_placer", "koalefant", "koalefant_summer_build", "carcass4")
+return Prefab("sap_carcass_koalefant", fn, assets, prefabs),
+MakePlacer("sap_carcass_koalefant_placer", "koalefant", "koalefant_summer_build", "carcass4")

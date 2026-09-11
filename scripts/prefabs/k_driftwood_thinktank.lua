@@ -156,5 +156,5 @@ local function fn()
     return inst
 end
 
-return Prefab("kyno_driftwood_thinktank", fn, assets, prefabs),
-MakePlacer("kyno_driftwood_thinktank_placer", "lighthouse", "kyno_driftwood_thinktank", "idle")
+return Prefab("sap_driftwood_thinktank", fn, assets, prefabs),
+MakePlacer("sap_driftwood_thinktank_placer", "lighthouse", "sap_driftwood_thinktank", "idle")

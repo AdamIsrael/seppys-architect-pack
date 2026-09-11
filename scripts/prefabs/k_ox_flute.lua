@@ -81,4 +81,4 @@ local function fn()
     return inst
 end
 
-return Prefab("kyno_ox_flute", fn, assets)
+return Prefab("sap_ox_flute", fn, assets)

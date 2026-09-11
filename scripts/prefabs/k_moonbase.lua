@@ -686,5 +686,5 @@ local function fn()
     return inst
 end
 
-return Prefab("kyno_moonbase", fn, assets, prefabs),
-MakePlacer("kyno_moonbase_placer", "moonbase", "moonbase", "full")
+return Prefab("sap_moonbase", fn, assets, prefabs),
+MakePlacer("sap_moonbase_placer", "moonbase", "moonbase", "full")

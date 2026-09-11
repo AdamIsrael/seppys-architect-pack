@@ -951,7 +951,7 @@ local function pigkingplacetestfn(inst)
 	inst.AnimState:AddOverrideBuild("Pig_King_elite_build")
 end
 
-return Prefab("kyno_pigking", fn, assets, prefabs),
-Prefab("kyno_pigking_elite", elitefn, assets, prefabs),
-MakePlacer("kyno_pigking_placer", "Pig_King", "Pig_King", "idle"),
-MakePlacer("kyno_pigking_elite_placer", "Pig_King", "Pig_King", "idle", false, nil, nil, nil, nil, nil, pigkingplacetestfn)
+return Prefab("sap_pigking", fn, assets, prefabs),
+Prefab("sap_pigking_elite", elitefn, assets, prefabs),
+MakePlacer("sap_pigking_placer", "Pig_King", "Pig_King", "idle"),
+MakePlacer("sap_pigking_elite_placer", "Pig_King", "Pig_King", "idle", false, nil, nil, nil, nil, nil, pigkingplacetestfn)

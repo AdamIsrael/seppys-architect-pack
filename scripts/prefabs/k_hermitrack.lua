@@ -227,5 +227,5 @@ local function meatrack_hermit_master(inst)
 end
 
 
-return MakeMeatrack("kyno_meatrack_hermit", meatrack_hermit, meatrack_hermit_master),
-MakePlacer("kyno_meatrack_hermit_placer", "meatrack_hermit", "meatrack_hermit", "idle_empty")
+return MakeMeatrack("sap_meatrack_hermit", meatrack_hermit, meatrack_hermit_master),
+MakePlacer("sap_meatrack_hermit_placer", "meatrack_hermit", "meatrack_hermit", "idle_empty")

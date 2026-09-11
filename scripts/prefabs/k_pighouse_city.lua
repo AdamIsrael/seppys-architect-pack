@@ -29,34 +29,34 @@ local prefabs =
 {
 	"splash_sink",
 	"pigman",
-    "kyno_pigman_collector",
-    "kyno_pigman_banker",
-    "kyno_pigman_beautician",
-    "kyno_pigman_florist",
-    "kyno_pigman_erudite",
-    "kyno_pigman_hunter",
-    "kyno_pigman_hatmaker",
-    "kyno_pigman_usher",
-    "kyno_pigman_mechanic",
-    "kyno_pigman_storeowner",
-    "kyno_pigman_professor",
+    "sap_pigman_collector",
+    "sap_pigman_banker",
+    "sap_pigman_beautician",
+    "sap_pigman_florist",
+    "sap_pigman_erudite",
+    "sap_pigman_hunter",
+    "sap_pigman_hatmaker",
+    "sap_pigman_usher",
+    "sap_pigman_mechanic",
+    "sap_pigman_storeowner",
+    "sap_pigman_professor",
 }
 
 local city_1_citizens = {
-    "kyno_pigman_banker",
-    "kyno_pigman_beautician",
-    "kyno_pigman_florist",
-    "kyno_pigman_usher",
-    "kyno_pigman_mechanic",
-    "kyno_pigman_storeowner",
-    "kyno_pigman_professor",
+    "sap_pigman_banker",
+    "sap_pigman_beautician",
+    "sap_pigman_florist",
+    "sap_pigman_usher",
+    "sap_pigman_mechanic",
+    "sap_pigman_storeowner",
+    "sap_pigman_professor",
 }
 
 local city_2_citizens = {
-    "kyno_pigman_collector",
-    "kyno_pigman_erudite",
-    "kyno_pigman_hatmaker",
-    "kyno_pigman_hunter",
+    "sap_pigman_collector",
+    "sap_pigman_erudite",
+    "sap_pigman_hatmaker",
+    "sap_pigman_hunter",
 }
 
 local city_citizens = {
@@ -65,30 +65,30 @@ local city_citizens = {
 }
 
 local spawned_farm = {
-    "kyno_pigman_farmer",
+    "sap_pigman_farmer",
 }
 
 local spawned_mine = {
-    "kyno_pigman_miner",
+    "sap_pigman_miner",
 }
 
 local citizens_list = {
-	[1] = "kyno_pigman_banker",
-	[2] = "kyno_pigman_beautician",
-	[3] = "kyno_pigman_collector",
-	[4] = "kyno_pigman_erudite",
-	[5] = "kyno_pigman_florist",
-	[6] = "kyno_pigman_hunter",
-	[7] = "kyno_pigman_hatmaker",
-	[8] = "kyno_pigman_mechanic",
-	[9] = "kyno_pigman_professor",
-	[10] = "kyno_pigman_storeowner",
-	[11] = "kyno_pigman_usher",
+	[1] = "sap_pigman_banker",
+	[2] = "sap_pigman_beautician",
+	[3] = "sap_pigman_collector",
+	[4] = "sap_pigman_erudite",
+	[5] = "sap_pigman_florist",
+	[6] = "sap_pigman_hunter",
+	[7] = "sap_pigman_hatmaker",
+	[8] = "sap_pigman_mechanic",
+	[9] = "sap_pigman_professor",
+	[10] = "sap_pigman_storeowner",
+	[11] = "sap_pigman_usher",
 }
 
 local farm_citizens_list = {
-	[1] = "kyno_pigman_farmer",
-	[2] = "kyno_pigman_miner",
+	[1] = "sap_pigman_farmer",
+	[2] = "sap_pigman_miner",
 }
 
 local SCALEBUILD ={}
@@ -578,23 +578,23 @@ local function townhouseplacetestfn(inst)
     inst.AnimState:Hide("SNOW")
 	inst.AnimState:SetScale(0.75,0.75,0.75)
 	inst.ApplySkin = function(inst, skin)
-		if skin == "kyno_pighouse_city1" then
+		if skin == "sap_pighouse_city1" then
 			inst.AnimState:SetBuild("pig_townhouse1_pink_build")
 			inst.AnimState:PlayAnimation("idle", true)
 			inst.AnimState:SetScale(0.75,0.75,0.75)
-		elseif skin == "kyno_pighouse_city2" then
+		elseif skin == "sap_pighouse_city2" then
 			inst.AnimState:SetBuild("pig_townhouse1_white_build")
 			inst.AnimState:PlayAnimation("idle", true)
 			inst.AnimState:SetScale(0.75,0.75,0.75)
-		elseif skin == "kyno_pighouse_city3" then
+		elseif skin == "sap_pighouse_city3" then
 			inst.AnimState:SetBuild("pig_townhouse1_brown_build")
 			inst.AnimState:PlayAnimation("idle", true)
 			inst.AnimState:SetScale(0.75,0.75,0.75)
-		elseif skin == "kyno_pighouse_city4" then
+		elseif skin == "sap_pighouse_city4" then
 			inst.AnimState:SetBuild("pig_townhouse5_beige_build")
 			inst.AnimState:PlayAnimation("idle", true)
 			inst.AnimState:SetScale(1,1,1)
-		elseif skin == "kyno_pighouse_city5" then
+		elseif skin == "sap_pighouse_city5" then
 			inst.AnimState:SetBuild("pig_townhouse6_red_build")
 			inst.AnimState:PlayAnimation("idle", true)
 			inst.AnimState:SetScale(1,1,1)
@@ -616,28 +616,28 @@ local function farmhouseplacetestfn(inst)
     return true
 end
 
-return Prefab("kyno_pighouse_city", fn, assets, prefabs),
-Prefab("kyno_pighouse_city1", house1, assets, prefabs),
-Prefab("kyno_pighouse_city2", house2, assets, prefabs),
-Prefab("kyno_pighouse_city3", house3, assets, prefabs),
-Prefab("kyno_pighouse_city4", house4, assets, prefabs),
-Prefab("kyno_pighouse_city5", house5, assets, prefabs),
-Prefab("kyno_pighouse_farm", farm, assets, prefabs),
-MakePlacer("kyno_pighouse_city_placer", "pig_shop", "pig_townhouse1_green_build", "idle", false, nil, nil, nil, nil, nil, townhouseplacetestfn),
-MakePlacer("kyno_pighouse_city1_placer", "pig_shop", "pig_townhouse1_pink_build", "idle", false, nil, nil, nil, nil, nil, townhouseplacetestfn),
-MakePlacer("kyno_pighouse_city2_placer", "pig_shop", "pig_townhouse1_white_build", "idle", false, nil, nil, nil, nil, nil, townhouseplacetestfn),
-MakePlacer("kyno_pighouse_city3_placer", "pig_shop", "pig_townhouse1_brown_build", "idle", false, nil, nil, nil, nil, nil, townhouseplacetestfn),
-MakePlacer("kyno_pighouse_city4_placer", "pig_shop", "pig_townhouse5_beige_build", "idle", false, nil, nil, nil, nil, nil, townhouseplacetest2fn),
-MakePlacer("kyno_pighouse_city5_placer", "pig_shop", "pig_townhouse6_red_build", "idle", false, nil, nil, nil, nil, nil, farmhouseplacetestfn),
-MakePlacer("kyno_pighouse_farm_placer", "pig_shop", "pig_farmhouse_build", "idle", false, nil, nil, nil, nil, nil, farmhouseplacetestfn)
+return Prefab("sap_pighouse_city", fn, assets, prefabs),
+Prefab("sap_pighouse_city1", house1, assets, prefabs),
+Prefab("sap_pighouse_city2", house2, assets, prefabs),
+Prefab("sap_pighouse_city3", house3, assets, prefabs),
+Prefab("sap_pighouse_city4", house4, assets, prefabs),
+Prefab("sap_pighouse_city5", house5, assets, prefabs),
+Prefab("sap_pighouse_farm", farm, assets, prefabs),
+MakePlacer("sap_pighouse_city_placer", "pig_shop", "pig_townhouse1_green_build", "idle", false, nil, nil, nil, nil, nil, townhouseplacetestfn),
+MakePlacer("sap_pighouse_city1_placer", "pig_shop", "pig_townhouse1_pink_build", "idle", false, nil, nil, nil, nil, nil, townhouseplacetestfn),
+MakePlacer("sap_pighouse_city2_placer", "pig_shop", "pig_townhouse1_white_build", "idle", false, nil, nil, nil, nil, nil, townhouseplacetestfn),
+MakePlacer("sap_pighouse_city3_placer", "pig_shop", "pig_townhouse1_brown_build", "idle", false, nil, nil, nil, nil, nil, townhouseplacetestfn),
+MakePlacer("sap_pighouse_city4_placer", "pig_shop", "pig_townhouse5_beige_build", "idle", false, nil, nil, nil, nil, nil, townhouseplacetest2fn),
+MakePlacer("sap_pighouse_city5_placer", "pig_shop", "pig_townhouse6_red_build", "idle", false, nil, nil, nil, nil, nil, farmhouseplacetestfn),
+MakePlacer("sap_pighouse_farm_placer", "pig_shop", "pig_farmhouse_build", "idle", false, nil, nil, nil, nil, nil, farmhouseplacetestfn)
 --[[,
-CreateModPrefabSkin("kyno_pighouse_city1",
+CreateModPrefabSkin("sap_pighouse_city1",
 	{
 		assets = {
 			Asset("ANIM", "anim/pig_townhouse1.zip"),
 			Asset("ANIM", "anim/pig_townhouse1_pink_build.zip"),
 		},
-		base_prefab = "kyno_pighouse_city",
+		base_prefab = "sap_pighouse_city",
 		fn = house1,
 		rarity = "Timeless",
 		reskinable = true,
@@ -648,13 +648,13 @@ CreateModPrefabSkin("kyno_pighouse_city1",
 		skin_tags = { },
 		release_group = 0,
 	}),
-CreateModPrefabSkin("kyno_pighouse_city2",
+CreateModPrefabSkin("sap_pighouse_city2",
 	{
 		assets = {
 			Asset("ANIM", "anim/pig_townhouse1.zip"),
 			Asset("ANIM", "anim/pig_townhouse1_white_build.zip"),
 		},
-		base_prefab = "kyno_pighouse_city",
+		base_prefab = "sap_pighouse_city",
 		fn = house2,
 		rarity = "Timeless",
 		reskinable = true,
@@ -665,13 +665,13 @@ CreateModPrefabSkin("kyno_pighouse_city2",
 		skin_tags = { },
 		release_group = 0,
 	}),
-CreateModPrefabSkin("kyno_pighouse_city3",
+CreateModPrefabSkin("sap_pighouse_city3",
 	{
 		assets = {
 			Asset("ANIM", "anim/pig_townhouse1.zip"),
 			Asset("ANIM", "anim/pig_townhouse1_brown_build.zip"),
 		},
-		base_prefab = "kyno_pighouse_city",
+		base_prefab = "sap_pighouse_city",
 		fn = house3,
 		rarity = "Timeless",
 		reskinable = true,
@@ -682,13 +682,13 @@ CreateModPrefabSkin("kyno_pighouse_city3",
 		skin_tags = { },
 		release_group = 0,
 	}),
-CreateModPrefabSkin("kyno_pighouse_city4",
+CreateModPrefabSkin("sap_pighouse_city4",
 	{
 		assets = {
 			Asset("ANIM", "anim/pig_townhouse5.zip"),
 			Asset("ANIM", "anim/pig_townhouse5_beige_build.zip"),
 		},
-		base_prefab = "kyno_pighouse_city",
+		base_prefab = "sap_pighouse_city",
 		fn = house4,
 		rarity = "Timeless",
 		reskinable = true,
@@ -699,13 +699,13 @@ CreateModPrefabSkin("kyno_pighouse_city4",
 		skin_tags = { },
 		release_group = 0,
 	}),
-CreateModPrefabSkin("kyno_pighouse_city5",
+CreateModPrefabSkin("sap_pighouse_city5",
 	{
 		assets = {
 			Asset("ANIM", "anim/pig_townhouse6.zip"),
 			Asset("ANIM", "anim/pig_townhouse6_red_build.zip"),
 		},
-		base_prefab = "kyno_pighouse_city",
+		base_prefab = "sap_pighouse_city",
 		fn = house5,
 		rarity = "Timeless",
 		reskinable = true,

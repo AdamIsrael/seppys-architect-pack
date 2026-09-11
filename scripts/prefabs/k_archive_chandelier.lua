@@ -372,7 +372,7 @@ local function groundfn()
     return inst
 end
 
-return Prefab("kyno_archive_chandelier", fn, assets, prefabs),
-Prefab("kyno_archive_chandelier_ground", groundfn, assets, prefabs),
-MakePlacer("kyno_archive_chandelier_placer", "chandelier_archives", "chandelier_archives", "idle"),
-MakePlacer("kyno_archive_chandelier_ground_placer", "chandelier_archives", "chandelier_archives", "ground_idle")
+return Prefab("sap_archive_chandelier", fn, assets, prefabs),
+Prefab("sap_archive_chandelier_ground", groundfn, assets, prefabs),
+MakePlacer("sap_archive_chandelier_placer", "chandelier_archives", "chandelier_archives", "idle"),
+MakePlacer("sap_archive_chandelier_ground_placer", "chandelier_archives", "chandelier_archives", "ground_idle")

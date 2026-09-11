@@ -461,5 +461,5 @@ local function create()
     return inst
 end
 
-return Prefab("kyno_walrus_camp", create, assets, prefabs),
-MakePlacer("kyno_walrus_camp_placer", "walrus_house", "walrus_house", "idle")
+return Prefab("sap_walrus_camp", create, assets, prefabs),
+MakePlacer("sap_walrus_camp_placer", "walrus_house", "walrus_house", "idle")

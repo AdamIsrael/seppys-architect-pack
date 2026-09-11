@@ -12,9 +12,9 @@ local assets =
 
 local prefabs =
 {
-	"kyno_sandspike_med",
-	"kyno_sandspike_small",
-	"kyno_sandblock",
+	"sap_sandspike_med",
+	"sap_sandspike_small",
+	"sap_sandblock",
 	"sand_puff",
 }
 
@@ -270,11 +270,11 @@ local function blockfn()
 	return inst
 end
 
-return Prefab("kyno_sandspike_tall", tallfn, assets, prefabs),
-Prefab("kyno_sandspike_med", medfn, assets, prefabs),
-Prefab("kyno_sandspike_small", smallfn, assets, prefabs),
-Prefab("kyno_sandblock", blockfn, assets, prefabs),
-MakePlacer("kyno_sandspike_tall_placer", "sand_spike", "sand_spike", "tall_pst"),
-MakePlacer("kyno_sandspike_med_placer", "sand_spike", "sand_spike", "med_pst"),
-MakePlacer("kyno_sandspike_small_placer", "sand_spike", "sand_spike", "short_pst"),
-MakePlacer("kyno_sandblock_placer", "sand_block", "sand_block", "block_pst")
+return Prefab("sap_sandspike_tall", tallfn, assets, prefabs),
+Prefab("sap_sandspike_med", medfn, assets, prefabs),
+Prefab("sap_sandspike_small", smallfn, assets, prefabs),
+Prefab("sap_sandblock", blockfn, assets, prefabs),
+MakePlacer("sap_sandspike_tall_placer", "sand_spike", "sand_spike", "tall_pst"),
+MakePlacer("sap_sandspike_med_placer", "sand_spike", "sand_spike", "med_pst"),
+MakePlacer("sap_sandspike_small_placer", "sand_spike", "sand_spike", "short_pst"),
+MakePlacer("sap_sandblock_placer", "sand_block", "sand_block", "block_pst")

@@ -62,5 +62,5 @@ local function brokenfn()
 	return inst
 end
 
-return Prefab("kyno_vault_chandelier_broken", brokenfn, assets),
-MakePlacer("kyno_vault_chandelier_broken_placer", "chandelier_vault", "chandelier_vault", "fallen")
+return Prefab("sap_vault_chandelier_broken", brokenfn, assets),
+MakePlacer("sap_vault_chandelier_broken_placer", "chandelier_vault", "chandelier_vault", "fallen")

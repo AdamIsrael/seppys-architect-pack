@@ -10,8 +10,8 @@ local assets =
 
 local prefabs =
 {
-	"kyno_sandcastle_med",
-	"kyno_sandcastle_low",
+	"sap_sandcastle_med",
+	"sap_sandcastle_low",
 }
 
 --[[
@@ -46,13 +46,13 @@ end
 local function dig_up_full(inst, chopper)
 	SpawnPrefab("sand_puff").Transform:SetPosition(inst.Transform:GetWorldPosition())
 	inst:Remove()
-	SpawnPrefab("kyno_sandcastle_med").Transform:SetPosition(inst.Transform:GetWorldPosition())
+	SpawnPrefab("sap_sandcastle_med").Transform:SetPosition(inst.Transform:GetWorldPosition())
 end
 
 local function dig_up_med(inst, chopper)
 	SpawnPrefab("sand_puff").Transform:SetPosition(inst.Transform:GetWorldPosition())
 	inst:Remove()
-	SpawnPrefab("kyno_sandcastle_low").Transform:SetPosition(inst.Transform:GetWorldPosition())
+	SpawnPrefab("sap_sandcastle_low").Transform:SetPosition(inst.Transform:GetWorldPosition())
 end
 
 local function dig_up_low(inst, chopper)
@@ -187,7 +187,7 @@ local function lowfn()
 	return inst
 end
 
-return Prefab("kyno_sandcastle", fn, assets, prefabs),
-Prefab("kyno_sandcastle_med", medfn, assets, prefabs),
-Prefab("kyno_sandcastle_low", lowfn, assets, prefabs),
-MakePlacer("kyno_sandcastle_placer", "sand_castle", "sand_castle", "full")
+return Prefab("sap_sandcastle", fn, assets, prefabs),
+Prefab("sap_sandcastle_med", medfn, assets, prefabs),
+Prefab("sap_sandcastle_low", lowfn, assets, prefabs),
+MakePlacer("sap_sandcastle_placer", "sand_castle", "sand_castle", "full")

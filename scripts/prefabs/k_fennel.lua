@@ -61,5 +61,5 @@ local function fennelplacer(inst)
 	inst.AnimState:SetScale(.6, .6, .6)
 end
 
-return Prefab("kyno_fennel_planted", fn, assets),
-MakePlacer("kyno_fennel_planted_placer", "fennel", "fennel", "planted", false, nil, nil, nil, nil, nil, fennelplacer)
+return Prefab("sap_fennel_planted", fn, assets),
+MakePlacer("sap_fennel_planted_placer", "fennel", "fennel", "planted", false, nil, nil, nil, nil, nil, fennelplacer)

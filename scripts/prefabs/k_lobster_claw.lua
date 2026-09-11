@@ -32,9 +32,9 @@ local function fn()
 	inst:AddComponent("inspectable")
     inst:AddComponent("inventoryitem")
     inst.components.inventoryitem.atlasname = "images/inventoryimages/tap_inventoryimages.xml"
-	inst.components.inventoryitem.imagename = "kyno_lobster_claw"
+	inst.components.inventoryitem.imagename = "sap_lobster_claw"
 
     return inst
 end
 
-return Prefab("kyno_lobster_claw", fn, assets, prefabs)
+return Prefab("sap_lobster_claw", fn, assets, prefabs)

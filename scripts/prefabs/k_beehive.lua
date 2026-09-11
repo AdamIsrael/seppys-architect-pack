@@ -227,4 +227,4 @@ local function fn()
     return inst
 end
 
-return Prefab("kyno_beehive", fn, assets, prefabs)
+return Prefab("sap_beehive", fn, assets, prefabs)

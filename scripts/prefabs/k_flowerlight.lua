@@ -456,11 +456,11 @@ local function triple()
     return inst
 end
 
-return Prefab("kyno_flowerlightone", single, assets, prefabs),
-Prefab("kyno_flowerlightspringy", springy, assets, prefabs),
-Prefab("kyno_flowerlighttwo", double, assets, prefabs),
-Prefab("kyno_flowerlightthree", triple, assets, prefabs),
-MakePlacer("kyno_flowerlightone_placer", "bulb_plant_single", "bulb_plant_single", "idle"),
-MakePlacer("kyno_flowerlightspringy_placer", "bulb_plant_springy", "bulb_plant_springy", "idle"),
-MakePlacer("kyno_flowerlighttwo_placer", "bulb_plant_double", "bulb_plant_double", "idle"),
-MakePlacer("kyno_flowerlightthree_placer", "bulb_plant_triple", "bulb_plant_triple", "idle")
+return Prefab("sap_flowerlightone", single, assets, prefabs),
+Prefab("sap_flowerlightspringy", springy, assets, prefabs),
+Prefab("sap_flowerlighttwo", double, assets, prefabs),
+Prefab("sap_flowerlightthree", triple, assets, prefabs),
+MakePlacer("sap_flowerlightone_placer", "bulb_plant_single", "bulb_plant_single", "idle"),
+MakePlacer("sap_flowerlightspringy_placer", "bulb_plant_springy", "bulb_plant_springy", "idle"),
+MakePlacer("sap_flowerlighttwo_placer", "bulb_plant_double", "bulb_plant_double", "idle"),
+MakePlacer("sap_flowerlightthree_placer", "bulb_plant_triple", "bulb_plant_triple", "idle")

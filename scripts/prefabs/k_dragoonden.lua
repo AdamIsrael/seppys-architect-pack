@@ -19,7 +19,7 @@ local assets =
 
 local prefabs =
 {
-	"kyno_dragoon",
+	"sap_dragoon",
 }
 
 local function ongohome(inst, child)
@@ -92,7 +92,7 @@ local function fn()
 	inst.components.childspawner:SetSpawnPeriod(30)
 	inst.components.childspawner:SetMaxChildren(math.random(3,4))
 	inst.components.childspawner:StartRegen()
-	inst.components.childspawner.childname = "kyno_dragoon"
+	inst.components.childspawner.childname = "sap_dragoon"
 	inst.components.childspawner:StartSpawning()
 	inst.components.childspawner.ongohome = ongohome
 	
@@ -110,5 +110,5 @@ local function fn()
 	return inst
 end
 
-return Prefab("kyno_dragoonden", fn, assets, prefabs),
-MakePlacer("kyno_dragoonden_placer", "dragoon_den", "dragoon_den", "idle", false, nil, nil, nil, 90, nil)
+return Prefab("sap_dragoonden", fn, assets, prefabs),
+MakePlacer("sap_dragoonden_placer", "dragoon_den", "dragoon_den", "idle", false, nil, nil, nil, 90, nil)

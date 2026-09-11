@@ -42,7 +42,7 @@ local function onhammered_full(inst)
 	SpawnPrefab("collapse_small").Transform:SetPosition(inst.Transform:GetWorldPosition())
 	inst.SoundEmitter:PlaySound("dontstarve/common/destroy_wood")
 	inst:Remove()
-	SpawnPrefab("kyno_pyrenest_med").Transform:SetPosition(inst.Transform:GetWorldPosition())
+	SpawnPrefab("sap_pyrenest_med").Transform:SetPosition(inst.Transform:GetWorldPosition())
 end
 
 local function onhammered_med(inst)
@@ -53,7 +53,7 @@ local function onhammered_med(inst)
 	SpawnPrefab("collapse_small").Transform:SetPosition(inst.Transform:GetWorldPosition())
 	inst.SoundEmitter:PlaySound("dontstarve/common/destroy_wood")
 	inst:Remove()
-	SpawnPrefab("kyno_pyrenest_low").Transform:SetPosition(inst.Transform:GetWorldPosition())
+	SpawnPrefab("sap_pyrenest_low").Transform:SetPosition(inst.Transform:GetWorldPosition())
 end
 
 local function onhammered_low(inst)
@@ -64,7 +64,7 @@ local function onhammered_low(inst)
 	SpawnPrefab("collapse_small").Transform:SetPosition(inst.Transform:GetWorldPosition())
 	inst.SoundEmitter:PlaySound("dontstarve/common/destroy_wood")
 	inst:Remove()
-	SpawnPrefab("kyno_pyrenest_out").Transform:SetPosition(inst.Transform:GetWorldPosition())
+	SpawnPrefab("sap_pyrenest_out").Transform:SetPosition(inst.Transform:GetWorldPosition())
 end
 
 local function onhammered_out(inst)
@@ -183,7 +183,7 @@ local function fn2()
 	inst:AddTag("pyrenest")
 	inst:AddTag("structure")
 	
-	inst:SetPrefabNameOverride("kyno_pyrenest")
+	inst:SetPrefabNameOverride("sap_pyrenest")
 	
 	inst.entity:SetPristine()
 
@@ -228,7 +228,7 @@ local function fn3()
 	inst:AddTag("pyrenest")
 	inst:AddTag("structure")
 	
-	inst:SetPrefabNameOverride("kyno_pyrenest")
+	inst:SetPrefabNameOverride("sap_pyrenest")
 	
 	inst.entity:SetPristine()
 
@@ -273,7 +273,7 @@ local function fn4()
 	inst:AddTag("pyrenest")
 	inst:AddTag("structure")
 	
-	inst:SetPrefabNameOverride("kyno_pyrenest")
+	inst:SetPrefabNameOverride("sap_pyrenest")
 	
 	inst.entity:SetPristine()
 
@@ -298,8 +298,8 @@ local function fn4()
 	return inst
 end
 
-return Prefab("kyno_pyrenest", fn, assets, prefabs),
-Prefab("kyno_pyrenest_med", fn2, assets, prefabs),
-Prefab("kyno_pyrenest_low", fn3, assets, prefabs),
-Prefab("kyno_pyrenest_out", fn4, assets, prefabs),
-MakePlacer("kyno_pyrenest_placer", "pyre_nest", "pyre_nest", "egg")
+return Prefab("sap_pyrenest", fn, assets, prefabs),
+Prefab("sap_pyrenest_med", fn2, assets, prefabs),
+Prefab("sap_pyrenest_low", fn3, assets, prefabs),
+Prefab("sap_pyrenest_out", fn4, assets, prefabs),
+MakePlacer("sap_pyrenest_placer", "pyre_nest", "pyre_nest", "egg")

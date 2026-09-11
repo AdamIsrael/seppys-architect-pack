@@ -285,15 +285,15 @@ local function fn()
     return inst
 end
 
-return Prefab("kyno_parsnips", parsnips, assets, prefabs),
+return Prefab("sap_parsnips", parsnips, assets, prefabs),
 -- Prefab("kyno_parsnip_giant1", giant1, assets, prefabs),
 -- Prefab("kyno_parsnip_giant2", giant2, assets, prefabs),
 -- Prefab("kyno_parsnip_giant3", giant3, assets, prefabs),
 -- Prefab("kyno_parsnip_giant4", giant4, assets, prefabs),
-Prefab("kyno_parsnip_planted", fn, assets, prefabs),
-MakePlacer("kyno_parsnips_placer", "kyno_parsnip_giant", "kyno_parsnip_giant", "parsnips"),
+Prefab("sap_parsnip_planted", fn, assets, prefabs),
+MakePlacer("sap_parsnips_placer", "kyno_parsnip_giant", "kyno_parsnip_giant", "parsnips"),
 -- MakePlacer("kyno_parsnip_giant1_placer", "kyno_parsnip_giant", "kyno_parsnip_giant", "idle1"),
 -- MakePlacer("kyno_parsnip_giant2_placer", "kyno_parsnip_giant", "kyno_parsnip_giant", "idle2"),
 -- MakePlacer("kyno_parsnip_giant3_placer", "kyno_parsnip_giant", "kyno_parsnip_giant", "idle3"),
 -- MakePlacer("kyno_parsnip_giant4_placer", "kyno_parsnip_giant", "kyno_parsnip_giant", "idle4"),
-MakePlacer("kyno_parsnip_planted_placer", "kyno_parsnip", "kyno_parsnip", "planted")
+MakePlacer("sap_parsnip_planted_placer", "kyno_parsnip", "kyno_parsnip", "planted")

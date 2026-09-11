@@ -72,5 +72,5 @@ local function fn()
 	return inst
 end
 
-return Prefab("kyno_bambootree", fn, assets, prefabs),
-MakePlacer("kyno_bambootree_placer", "bambootree", "bambootree_build", "idle")
+return Prefab("sap_bambootree", fn, assets, prefabs),
+MakePlacer("sap_bambootree_placer", "bambootree", "bambootree_build", "idle")

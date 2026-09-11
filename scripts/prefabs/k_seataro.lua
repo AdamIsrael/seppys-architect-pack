@@ -83,5 +83,5 @@ local function seataroplacer(inst)
 	inst.AnimState:SetScale(.7, .7, .7)
 end
 
-return Prefab("kyno_seataro_planted", fn, assets),
-MakePlacer("kyno_seataro_planted_placer", "seataro", "seataro", "idle_plant", false, nil, nil, nil, nil, nil, seataroplacer)
+return Prefab("sap_seataro_planted", fn, assets),
+MakePlacer("sap_seataro_planted_placer", "seataro", "seataro", "idle_plant", false, nil, nil, nil, nil, nil, seataroplacer)

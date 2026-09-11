@@ -477,9 +477,9 @@ local function oldfn()
 	return inst
 end
 
-return Prefab("kyno_redtree_normal", normalfn, assets, prefabs),
-Prefab("kyno_redtree_tall", tallfn, assets, prefabs),
-Prefab("kyno_redtree_old", oldfn, assets, prefabs),
-MakePlacer("kyno_redtree_normal_placer", "kyno_redtree_normal", "kyno_redtree_normal", "sway1_loop_normal"),
-MakePlacer("kyno_redtree_tall_placer", "kyno_redtree_tallold", "kyno_redtree_tallold", "sway1_loop_tall"),
-MakePlacer("kyno_redtree_old_placer", "kyno_redtree_tallold", "kyno_redtree_tallold", "idle_old")
+return Prefab("sap_redtree_normal", normalfn, assets, prefabs),
+Prefab("sap_redtree_tall", tallfn, assets, prefabs),
+Prefab("sap_redtree_old", oldfn, assets, prefabs),
+MakePlacer("sap_redtree_normal_placer", "kyno_redtree_normal", "kyno_redtree_normal", "sway1_loop_normal"),
+MakePlacer("sap_redtree_tall_placer", "kyno_redtree_tallold", "kyno_redtree_tallold", "sway1_loop_tall"),
+MakePlacer("sap_redtree_old_placer", "kyno_redtree_tallold", "kyno_redtree_tallold", "idle_old")

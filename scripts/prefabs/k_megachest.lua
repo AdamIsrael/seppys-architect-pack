@@ -194,5 +194,5 @@ local function megachestplacer(inst)
 	inst.AnimState:SetScale(.9, .7, .9)
 end
 
-return Prefab("kyno_megachest", fn, assets, prefabs),
-MakePlacer("kyno_megachest_placer", "chest", "mega_chest", "closed", false, nil, nil, nil, nil, nil, megachestplacer)
+return Prefab("sap_megachest", fn, assets, prefabs),
+MakePlacer("sap_megachest_placer", "chest", "mega_chest", "closed", false, nil, nil, nil, nil, nil, megachestplacer)

@@ -124,15 +124,15 @@ local function tabledistillery()
     return inst
 end
 
-return Prefab("kyno_arcane_bookcase", bookcase, assets),
-Prefab("kyno_arcane_chestclosed", chest_closed, assets),
-Prefab("kyno_arcane_chestopen", chest_open, assets),
-Prefab("kyno_arcane_containers", containers, assets),
-Prefab("kyno_arcane_tablemagic", tablemagic, assets),
-Prefab("kyno_arcane_tabledistillery", tabledistillery, assets),
-MakePlacer("kyno_arcane_bookcase_placer", "wall_decals_arcane", "interior_wall_decals_arcane", "bookcase_backwall"),
-MakePlacer("kyno_arcane_chestclosed_placer", "wall_decals_arcane", "interior_wall_decals_arcane", "chest_closed"),
-MakePlacer("kyno_arcane_chestopen_placer", "wall_decals_arcane", "interior_wall_decals_arcane", "chest_open"),
-MakePlacer("kyno_arcane_containers_placer", "wall_decals_arcane", "interior_wall_decals_arcane", "containers"),
-MakePlacer("kyno_arcane_tablemagic_placer", "wall_decals_arcane", "interior_wall_decals_arcane", "table"),
-MakePlacer("kyno_arcane_tabledistillery_placer", "wall_decals_arcane", "interior_wall_decals_arcane", "table_distillery")
+return Prefab("sap_arcane_bookcase", bookcase, assets),
+Prefab("sap_arcane_chestclosed", chest_closed, assets),
+Prefab("sap_arcane_chestopen", chest_open, assets),
+Prefab("sap_arcane_containers", containers, assets),
+Prefab("sap_arcane_tablemagic", tablemagic, assets),
+Prefab("sap_arcane_tabledistillery", tabledistillery, assets),
+MakePlacer("sap_arcane_bookcase_placer", "wall_decals_arcane", "interior_wall_decals_arcane", "bookcase_backwall"),
+MakePlacer("sap_arcane_chestclosed_placer", "wall_decals_arcane", "interior_wall_decals_arcane", "chest_closed"),
+MakePlacer("sap_arcane_chestopen_placer", "wall_decals_arcane", "interior_wall_decals_arcane", "chest_open"),
+MakePlacer("sap_arcane_containers_placer", "wall_decals_arcane", "interior_wall_decals_arcane", "containers"),
+MakePlacer("sap_arcane_tablemagic_placer", "wall_decals_arcane", "interior_wall_decals_arcane", "table"),
+MakePlacer("sap_arcane_tabledistillery_placer", "wall_decals_arcane", "interior_wall_decals_arcane", "table_distillery")

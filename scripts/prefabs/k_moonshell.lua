@@ -76,5 +76,5 @@ local function fn()
 	return inst
 end
 
-return Prefab("kyno_moonshell", fn, assets, prefabs),
-MakePlacer("kyno_moonshell_placer", "moonrock_shell", "moonrock_shell", "full")
+return Prefab("sap_moonshell", fn, assets, prefabs),
+MakePlacer("sap_moonshell_placer", "moonrock_shell", "moonrock_shell", "full")

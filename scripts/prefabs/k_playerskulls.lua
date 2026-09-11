@@ -64,7 +64,7 @@ local function wilson()
         return inst
     end
 	
-	inst.components.inventoryitem.imagename = "kyno_wilsonskull"
+	inst.components.inventoryitem.imagename = "sap_wilsonskull"
 	
     return inst
 end
@@ -77,7 +77,7 @@ local function willow()
         return inst
     end
 	
-	inst.components.inventoryitem.imagename = "kyno_willowskull"
+	inst.components.inventoryitem.imagename = "sap_willowskull"
 	
     return inst
 end
@@ -90,7 +90,7 @@ local function wolfgang()
         return inst
     end
 	
-	inst.components.inventoryitem.imagename = "kyno_wolfgangskull"
+	inst.components.inventoryitem.imagename = "sap_wolfgangskull"
 	
     return inst
 end
@@ -103,7 +103,7 @@ local function wendy()
         return inst
     end
 	
-	inst.components.inventoryitem.imagename = "kyno_wendyskull"
+	inst.components.inventoryitem.imagename = "sap_wendyskull"
 	
     return inst
 end
@@ -116,7 +116,7 @@ local function wx78()
         return inst
     end
 	
-	inst.components.inventoryitem.imagename = "kyno_wx78skull"
+	inst.components.inventoryitem.imagename = "sap_wx78skull"
 	
     return inst
 end
@@ -129,7 +129,7 @@ local function wickerbottom()
         return inst
     end
 	
-	inst.components.inventoryitem.imagename = "kyno_wickerbottomskull"
+	inst.components.inventoryitem.imagename = "sap_wickerbottomskull"
 	
     return inst
 end
@@ -142,7 +142,7 @@ local function woodie()
         return inst
     end
 	
-	inst.components.inventoryitem.imagename = "kyno_woodieskull"
+	inst.components.inventoryitem.imagename = "sap_woodieskull"
 	
     return inst
 end
@@ -155,7 +155,7 @@ local function wes()
         return inst
     end
 	
-	inst.components.inventoryitem.imagename = "kyno_wesskull"
+	inst.components.inventoryitem.imagename = "sap_wesskull"
 	
     return inst
 end
@@ -168,7 +168,7 @@ local function waxwell()
         return inst
     end
 	
-	inst.components.inventoryitem.imagename = "kyno_waxwellskull"
+	inst.components.inventoryitem.imagename = "sap_waxwellskull"
 	
     return inst
 end
@@ -181,7 +181,7 @@ local function wathgrithr()
         return inst
     end
 	
-	inst.components.inventoryitem.imagename = "kyno_wathgrithrskull"
+	inst.components.inventoryitem.imagename = "sap_wathgrithrskull"
     return inst
 end
 
@@ -194,7 +194,7 @@ local function webber()
     end
 	
 	inst.components.inspectable.nameoverride = "KYNO_WEBBERSKULL"
-	inst.components.inventoryitem.imagename = "kyno_webberskull"
+	inst.components.inventoryitem.imagename = "sap_webberskull"
 	
     return inst
 end
@@ -207,7 +207,7 @@ local function warly()
         return inst
     end
 	
-	inst.components.inventoryitem.imagename = "kyno_warlyskull"
+	inst.components.inventoryitem.imagename = "sap_warlyskull"
 	
     return inst
 end
@@ -220,7 +220,7 @@ local function wilbur()
         return inst
     end
 	
-	inst.components.inventoryitem.imagename = "kyno_wilburskull"
+	inst.components.inventoryitem.imagename = "sap_wilburskull"
 	
     return inst
 end
@@ -233,7 +233,7 @@ local function wormwood()
         return inst
     end
 	
-	inst.components.inventoryitem.imagename = "kyno_wormwoodskull"
+	inst.components.inventoryitem.imagename = "sap_wormwoodskull"
 	
     return inst
 end
@@ -246,7 +246,7 @@ local function winona()
         return inst
     end
 	
-	inst.components.inventoryitem.imagename = "kyno_winonaskull"
+	inst.components.inventoryitem.imagename = "sap_winonaskull"
 	
     return inst
 end
@@ -259,7 +259,7 @@ local function wortox()
         return inst
     end
 	
-	inst.components.inventoryitem.imagename = "kyno_wortoxskull"
+	inst.components.inventoryitem.imagename = "sap_wortoxskull"
 	
     return inst
 end
@@ -272,7 +272,7 @@ local function wurt()
         return inst
     end
 	
-	inst.components.inventoryitem.imagename = "kyno_wurtskull"
+	inst.components.inventoryitem.imagename = "sap_wurtskull"
 	
     return inst
 end
@@ -285,7 +285,7 @@ local function walter()
         return inst
     end
 	
-	inst.components.inventoryitem.imagename = "kyno_walterskull"
+	inst.components.inventoryitem.imagename = "sap_walterskull"
 	
 	-- https://www.youtube.com/watch?v=R9Qgxit1Y64
 	
@@ -300,7 +300,7 @@ local function wallace()
         return inst
     end
 	
-	inst.components.inventoryitem.imagename = "kyno_wallaceskull"
+	inst.components.inventoryitem.imagename = "sap_wallaceskull"
 	
 	return inst
 end
@@ -313,7 +313,7 @@ local function winnie()
         return inst
     end
 	
-	inst.components.inventoryitem.imagename = "kyno_winnieskull"
+	inst.components.inventoryitem.imagename = "sap_winnieskull"
 	
 	return inst
 end
@@ -326,7 +326,7 @@ local function waverly()
         return inst
     end
 	
-	inst.components.inventoryitem.imagename = "kyno_waverlyskull"
+	inst.components.inventoryitem.imagename = "sap_waverlyskull"
 	
 	return inst
 end
@@ -339,7 +339,7 @@ local function wilton()
         return inst
     end
 	
-	inst.components.inventoryitem.imagename = "kyno_wiltonskull"
+	inst.components.inventoryitem.imagename = "sap_wiltonskull"
 	
 	return inst
 end
@@ -353,7 +353,7 @@ local function wanda()
 		return inst
 	end
 	
-	inst.components.inventoryitem.imagename = "kyno_wandaskull"
+	inst.components.inventoryitem.imagename = "sap_wandaskull"
 	
 	return inst
 end
@@ -366,32 +366,32 @@ local function wonkey()
         return inst
     end
 	
-	inst.components.inventoryitem.imagename = "kyno_wonkeyskull"
+	inst.components.inventoryitem.imagename = "sap_wonkeyskull"
 	
 	return inst
 end
 
-return Prefab("kyno_wilsonskull", wilson, assets),
-Prefab("kyno_willowskull", willow, assets),
-Prefab("kyno_wolfgangskull", wolfgang, assets),
-Prefab("kyno_wendyskull", wendy, assets),
-Prefab("kyno_wx78skull", wx78, assets),
-Prefab("kyno_wickerbottomskull", wickerbottom, assets),
-Prefab("kyno_woodieskull", woodie, assets),
-Prefab("kyno_wesskull", wes, assets),
-Prefab("kyno_waxwellskull", waxwell, assets),
-Prefab("kyno_wathgrithrskull", wathgrithr, assets),
-Prefab("kyno_webberskull", webber, assets),
-Prefab("kyno_warlyskull", warly, assets),
-Prefab("kyno_wilburskull", wilbur, assets),
-Prefab("kyno_wormwoodskull", wormwood, assets),
-Prefab("kyno_winonaskull", winona, assets),
-Prefab("kyno_wortoxskull", wortox, assets),
-Prefab("kyno_wurtskull", wurt, assets),
-Prefab("kyno_walterskull", walter, assets),
-Prefab("kyno_wallaceskull", wallace, assets),
-Prefab("kyno_winnieskull", winnie, assets),
-Prefab("kyno_waverlyskull", waverly, assets),
-Prefab("kyno_wiltonskull", wilton, assets),
-Prefab("kyno_wandaskull", wanda, assets),
-Prefab("kyno_wonkeyskull", wonkey, assets)
+return Prefab("sap_wilsonskull", wilson, assets),
+Prefab("sap_willowskull", willow, assets),
+Prefab("sap_wolfgangskull", wolfgang, assets),
+Prefab("sap_wendyskull", wendy, assets),
+Prefab("sap_wx78skull", wx78, assets),
+Prefab("sap_wickerbottomskull", wickerbottom, assets),
+Prefab("sap_woodieskull", woodie, assets),
+Prefab("sap_wesskull", wes, assets),
+Prefab("sap_waxwellskull", waxwell, assets),
+Prefab("sap_wathgrithrskull", wathgrithr, assets),
+Prefab("sap_webberskull", webber, assets),
+Prefab("sap_warlyskull", warly, assets),
+Prefab("sap_wilburskull", wilbur, assets),
+Prefab("sap_wormwoodskull", wormwood, assets),
+Prefab("sap_winonaskull", winona, assets),
+Prefab("sap_wortoxskull", wortox, assets),
+Prefab("sap_wurtskull", wurt, assets),
+Prefab("sap_walterskull", walter, assets),
+Prefab("sap_wallaceskull", wallace, assets),
+Prefab("sap_winnieskull", winnie, assets),
+Prefab("sap_waverlyskull", waverly, assets),
+Prefab("sap_wiltonskull", wilton, assets),
+Prefab("sap_wandaskull", wanda, assets),
+Prefab("sap_wonkeyskull", wonkey, assets)

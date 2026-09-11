@@ -14,7 +14,7 @@ local assets =
 
 local prefabs =
 {
-	"kyno_thunderbird",
+	"sap_thunderbird",
 }
 
 local function onhammered(inst, worker)
@@ -60,7 +60,7 @@ local function fn()
     end
 	
 	local function createBird(inst)
-	inst.birdprefab = SpawnPrefab("kyno_thunderbird")
+	inst.birdprefab = SpawnPrefab("sap_thunderbird")
 	inst.birdprefab.entity:SetParent(inst.entity)
 	end
 	
@@ -111,6 +111,6 @@ local function birdfn()
     return inst
 end
 
-return Prefab("kyno_thundernest", fn, assets, prefabs),
-Prefab("kyno_thunderbird", birdfn, assets, prefabs),
-MakePlacer("kyno_thundernest_placer", "thunderbird_nest", "thunderbird_nest", "orenest")
+return Prefab("sap_thundernest", fn, assets, prefabs),
+Prefab("sap_thunderbird", birdfn, assets, prefabs),
+MakePlacer("sap_thundernest_placer", "thunderbird_nest", "thunderbird_nest", "orenest")

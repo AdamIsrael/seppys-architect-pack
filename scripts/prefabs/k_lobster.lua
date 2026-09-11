@@ -7,7 +7,7 @@ local assets =
 local prefabs =
 {
     "rocks",
-	"kyno_lobster_claw",
+	"sap_lobster_claw",
 }
 
 local brain = require "brains/lobsterbrain"
@@ -211,4 +211,4 @@ local function fn()
     return inst
 end
 
-return Prefab("kyno_lobster", fn, assets, prefabs)
+return Prefab("sap_lobster", fn, assets, prefabs)

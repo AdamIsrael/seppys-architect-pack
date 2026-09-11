@@ -16,7 +16,7 @@ local assets =
 local prefabs =
 {
     "pigman",
-	"kyno_wildbore",
+	"sap_wildbore",
     "splash_sink",
 }
 -- Client Updater
@@ -395,7 +395,7 @@ local function fn()
 	inst.components.workable:SetWorkLeft(4)
 	
 	inst:AddComponent("spawner")
-    inst.components.spawner:Configure("kyno_wildbore", TUNING.TOTAL_DAY_TIME*4)
+    inst.components.spawner:Configure("sap_wildbore", TUNING.TOTAL_DAY_TIME*4)
     inst.components.spawner.onoccupied = onoccupied
     inst.components.spawner.onvacate = onvacate
     inst.components.spawner:SetWaterSpawning(false, true)
@@ -424,5 +424,5 @@ local function fn()
 	return inst
 end
 
-return Prefab("kyno_wildbore_house", fn, assets, prefabs),
-MakePlacer("kyno_wildbore_house_placer", "pig_house_tropical", "pig_house_tropical", "idle")  
+return Prefab("sap_wildbore_house", fn, assets, prefabs),
+MakePlacer("sap_wildbore_house_placer", "pig_house_tropical", "pig_house_tropical", "idle")  

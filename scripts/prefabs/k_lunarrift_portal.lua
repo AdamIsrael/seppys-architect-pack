@@ -114,5 +114,5 @@ local function fn()
     return inst
 end
 
-return Prefab("kyno_lunarrift_portal", fn, assets, prefabs),
-MakePlacer("kyno_lunarrift_portal_placer", "lunar_rift_portal", "lunar_rift_portal", "stage_3_loop")
+return Prefab("sap_lunarrift_portal", fn, assets, prefabs),
+MakePlacer("sap_lunarrift_portal_placer", "lunar_rift_portal", "lunar_rift_portal", "stage_3_loop")

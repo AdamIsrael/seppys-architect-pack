@@ -147,9 +147,9 @@ local function vipfn()
     return inst
 end
 
-return Prefab("kyno_surfacestairs", openfn, assets),
-Prefab("kyno_surfacestairs_closed", closedfn, assets),
-Prefab("kyno_surfacestairs_vip", vipfn, assets),
-MakePlacer("kyno_surfacestairs_placer", "cave_stairs", "cave_exit", "open"),
-MakePlacer("kyno_surfacestairs_closed_placer", "cave_stairs", "cave_exit", "no_access"),
-MakePlacer("kyno_surfacestairs_vip_placer", "cave_stairs", "cave_exit", "over_capacity")
+return Prefab("sap_surfacestairs", openfn, assets),
+Prefab("sap_surfacestairs_closed", closedfn, assets),
+Prefab("sap_surfacestairs_vip", vipfn, assets),
+MakePlacer("sap_surfacestairs_placer", "cave_stairs", "cave_exit", "open"),
+MakePlacer("sap_surfacestairs_closed_placer", "cave_stairs", "cave_exit", "no_access"),
+MakePlacer("sap_surfacestairs_vip_placer", "cave_stairs", "cave_exit", "over_capacity")

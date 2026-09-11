@@ -271,7 +271,7 @@ local function SetNightmareMonkey(inst)
         inst.task = nil
     end
     inst.components.lootdropper:SetLoot(nil)
-    inst.components.lootdropper:SetChanceLootTable("kyno_primeape")
+    inst.components.lootdropper:SetChanceLootTable("sap_primeape")
 
     inst.components.combat:SetTarget(nil)
 
@@ -486,4 +486,4 @@ local function fn()
     return inst
 end
 
-return Prefab("kyno_primeape", fn, assets, prefabs)
+return Prefab("sap_primeape", fn, assets, prefabs)

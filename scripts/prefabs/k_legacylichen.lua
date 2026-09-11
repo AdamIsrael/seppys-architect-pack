@@ -92,5 +92,5 @@ local function fn()
 	return inst
 end
 
-return Prefab("kyno_lichenplant_legacy", fn, assets, prefabs),
-MakePlacer("kyno_lichenplant_legacy_placer", "kyno_algae_bush", "kyno_algae_bush", "idle")
+return Prefab("sap_lichenplant_legacy", fn, assets, prefabs),
+MakePlacer("sap_lichenplant_legacy_placer", "kyno_algae_bush", "kyno_algae_bush", "idle")

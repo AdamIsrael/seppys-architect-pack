@@ -728,10 +728,10 @@ local function fn_purple()
     return inst
 end
 
-return Prefab("kyno_redflies", fn_red, assets),
-Prefab("kyno_orangeflies", fn_orange, assets),
-Prefab("kyno_yellowflies", fn_yellow, assets),
-Prefab("kyno_greenflies", fn_green, assets),
-Prefab("kyno_blueflies", fn_blue, assets),
-Prefab("kyno_cyanflies", fn_cyan, assets),
-Prefab("kyno_purpleflies", fn_purple, assets)
+return Prefab("sap_redflies", fn_red, assets),
+Prefab("sap_orangeflies", fn_orange, assets),
+Prefab("sap_yellowflies", fn_yellow, assets),
+Prefab("sap_greenflies", fn_green, assets),
+Prefab("sap_blueflies", fn_blue, assets),
+Prefab("sap_cyanflies", fn_cyan, assets),
+Prefab("sap_purpleflies", fn_purple, assets)

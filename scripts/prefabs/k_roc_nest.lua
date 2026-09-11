@@ -67,5 +67,5 @@ local function fn()
 	return inst
 end
 
-return Prefab("kyno_rocnest", fn, assets),
-MakePlacer("kyno_rocnest_placer", "roc_nest", "roc_nest", "nest_decal", true)
+return Prefab("sap_rocnest", fn, assets),
+MakePlacer("sap_rocnest_placer", "roc_nest", "roc_nest", "nest_decal", true)

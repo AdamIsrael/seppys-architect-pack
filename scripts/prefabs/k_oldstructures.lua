@@ -13,7 +13,7 @@ local assets =
 }
 
 local prefabs = {
-	"kyno_old_rubble",
+	"sap_old_rubble",
 }
 
 local function onhammered(inst, worker)
@@ -53,7 +53,7 @@ end
 
 local function SpawnDecor(inst, x, z)
 	if decore_rand() < 0.8 then
-		local rubble = SpawnPrefab("kyno_old_rubble")
+		local rubble = SpawnPrefab("sap_old_rubble")
 		rubble.entity:SetParent(inst.entity)
 
 		local r = 0.15
@@ -141,10 +141,10 @@ local function MakeStrcuture(name, anim, add_decor, minimap)
 		return common_fn(anim, add_decor, minimap)
 	end
 
-	return Prefab("kyno_rubble_"..name, fn, assets, {"quagmire_old_rubble"})
+	return Prefab("sap_rubble_"..name, fn, assets, {"quagmire_old_rubble"})
 end
 
-return Prefab("kyno_old_rubble", decorfn, assets),
+return Prefab("sap_old_rubble", decorfn, assets),
 MakeStrcuture("bike", "penny_farthing", nil, "kyno_bike.tex"),
 MakeStrcuture("carriage", "carriage", nil, "kyno_carriage.tex"),
 MakeStrcuture("empty", nil, true),
@@ -157,14 +157,14 @@ MakeStrcuture("clocktower", "clocktower", nil, "kyno_clocktower.tex"),
 MakeStrcuture("house", "house", nil, "kyno_house.tex"),
 MakeStrcuture("chimney", "chimney", nil, "kyno_chimney1.tex"),
 MakeStrcuture("chimney2", "chimney2", nil, "kyno_chimney2.tex"),
-MakePlacer("kyno_rubble_bike_placer", "quagmire_victorian_structures", "quagmire_victorian_structures", "penny_farthing"),
-MakePlacer("kyno_rubble_carriage_placer", "quagmire_victorian_structures", "quagmire_victorian_structures", "carriage"),
-MakePlacer("kyno_rubble_clock_placer", "quagmire_victorian_structures", "quagmire_victorian_structures", "grandfather_clock"),
-MakePlacer("kyno_rubble_cathedral_placer", "quagmire_victorian_structures", "quagmire_victorian_structures", "cathedral"),
-MakePlacer("kyno_rubble_pubdoor_placer", "quagmire_victorian_structures", "quagmire_victorian_structures", "pub_door"),
-MakePlacer("kyno_rubble_door_placer", "quagmire_victorian_structures", "quagmire_victorian_structures", "door"),
-MakePlacer("kyno_rubble_roof_placer", "quagmire_victorian_structures", "quagmire_victorian_structures", "roof"),
-MakePlacer("kyno_rubble_clocktower_placer", "quagmire_victorian_structures", "quagmire_victorian_structures", "clocktower"),
-MakePlacer("kyno_rubble_house_placer", "quagmire_victorian_structures", "quagmire_victorian_structures", "house"),
-MakePlacer("kyno_rubble_chimney_placer", "quagmire_victorian_structures", "quagmire_victorian_structures", "chimney"),
-MakePlacer("kyno_rubble_chimney2_placer", "quagmire_victorian_structures", "quagmire_victorian_structures", "chimney2")
+MakePlacer("sap_rubble_bike_placer", "quagmire_victorian_structures", "quagmire_victorian_structures", "penny_farthing"),
+MakePlacer("sap_rubble_carriage_placer", "quagmire_victorian_structures", "quagmire_victorian_structures", "carriage"),
+MakePlacer("sap_rubble_clock_placer", "quagmire_victorian_structures", "quagmire_victorian_structures", "grandfather_clock"),
+MakePlacer("sap_rubble_cathedral_placer", "quagmire_victorian_structures", "quagmire_victorian_structures", "cathedral"),
+MakePlacer("sap_rubble_pubdoor_placer", "quagmire_victorian_structures", "quagmire_victorian_structures", "pub_door"),
+MakePlacer("sap_rubble_door_placer", "quagmire_victorian_structures", "quagmire_victorian_structures", "door"),
+MakePlacer("sap_rubble_roof_placer", "quagmire_victorian_structures", "quagmire_victorian_structures", "roof"),
+MakePlacer("sap_rubble_clocktower_placer", "quagmire_victorian_structures", "quagmire_victorian_structures", "clocktower"),
+MakePlacer("sap_rubble_house_placer", "quagmire_victorian_structures", "quagmire_victorian_structures", "house"),
+MakePlacer("sap_rubble_chimney_placer", "quagmire_victorian_structures", "quagmire_victorian_structures", "chimney"),
+MakePlacer("sap_rubble_chimney2_placer", "quagmire_victorian_structures", "quagmire_victorian_structures", "chimney2")

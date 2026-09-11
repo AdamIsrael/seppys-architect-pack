@@ -49,4 +49,4 @@ local function fn()
     return inst
 end
 
-return Prefab("kyno_waxwelllight_flame", fn, assets)
+return Prefab("sap_waxwelllight_flame", fn, assets)

@@ -19,7 +19,7 @@ local assets =
 local prefabs =
 {
 	"gridplacer",
-	"kyno_sandbagsmall_item",
+	"sap_sandbagsmall_item",
 }
 
 local function OnIsPathFindingDirty(inst)
@@ -123,7 +123,7 @@ local function sandbagplacetestfn(inst)
 end
 
 local function ondeploy(inst, pt, deployer)
-	local wall = SpawnPrefab("kyno_sandbagsmall") 
+	local wall = SpawnPrefab("sap_sandbagsmall") 
 	if wall then
 		pt = quantizepos(pt)
 		wall.Physics:SetCollides(false)
@@ -208,7 +208,7 @@ local function fn()
 	inst:AddComponent("lootdropper")
 	
 	inst:AddComponent("repairable")
-	inst.components.repairable.repairmaterial = "kyno_sandbagsmall"
+	inst.components.repairable.repairmaterial = "sap_sandbagsmall"
 	inst.components.repairable.onrepaired = onrepaired
 	
 	inst:AddComponent("hauntable")
@@ -266,7 +266,7 @@ local function itemfn()
     end
 	
 	inst:AddComponent("repairer")
-	inst.components.repairer.repairmaterial = "kyno_sandbagsmall_item"
+	inst.components.repairer.repairmaterial = "sap_sandbagsmall_item"
 	inst.components.repairer.healthrepairvalue = 300 / 2
 	
 	inst:AddComponent("stackable")
@@ -285,6 +285,6 @@ local function itemfn()
 	return inst
 end
 
-return Prefab("kyno_sandbagsmall", fn, assets, prefabs),
-Prefab("kyno_sandbagsmall_item", itemfn, assets, prefabs),
-MakePlacer("kyno_sandbagsmall_item_placer", "sandbag_small", "sandbag_small", "full", false, false, true, nil, nil, "eight", sandbagplacetestfn)
+return Prefab("sap_sandbagsmall", fn, assets, prefabs),
+Prefab("sap_sandbagsmall_item", itemfn, assets, prefabs),
+MakePlacer("sap_sandbagsmall_item_placer", "sandbag_small", "sandbag_small", "full", false, false, true, nil, nil, "eight", sandbagplacetestfn)

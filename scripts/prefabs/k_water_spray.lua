@@ -26,4 +26,4 @@ local function fn()
 	return inst
 end
 
-return Prefab("kyno_water_spray", fn, assets, prefabs)
+return Prefab("sap_water_spray", fn, assets, prefabs)

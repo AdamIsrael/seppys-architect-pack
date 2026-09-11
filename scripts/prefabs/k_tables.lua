@@ -131,15 +131,15 @@ local function tableplacefn(inst)
 	inst.AnimState:SetScale(1.3, 1.3, 1.3)
 end
 
-return Prefab("kyno_tables_banker", banker, assets),
-Prefab("kyno_tables_chess", chess, assets),
-Prefab("kyno_tables_crate", crate, assets),
-Prefab("kyno_tables_diy", diy, assets),
-Prefab("kyno_tables_raw", raw, assets),
-Prefab("kyno_tables_round", round, assets),
-MakePlacer("kyno_tables_banker_placer", "interior_table", "interior_table", "table_banker", nil, nil, nil, nil, nil, nil, tableplacefn),
-MakePlacer("kyno_tables_chess_placer", "interior_table", "interior_table", "table_chess", nil, nil, nil, nil, nil, nil, chessplacefn),
-MakePlacer("kyno_tables_crate_placer", "interior_table", "interior_table", "table_crate", nil, nil, nil, nil, nil, nil, tableplacefn),
-MakePlacer("kyno_tables_diy_placer", "interior_table", "interior_table", "table_diy", nil, nil, nil, nil, nil, nil, tableplacefn),
-MakePlacer("kyno_tables_raw_placer", "interior_table", "interior_table", "table_raw", nil, nil, nil, nil, nil, nil, tableplacefn),
-MakePlacer("kyno_tables_round_placer", "interior_table", "interior_table", "table_round", nil, nil, nil, nil, nil, nil, tableplacefn)
+return Prefab("sap_tables_banker", banker, assets),
+Prefab("sap_tables_chess", chess, assets),
+Prefab("sap_tables_crate", crate, assets),
+Prefab("sap_tables_diy", diy, assets),
+Prefab("sap_tables_raw", raw, assets),
+Prefab("sap_tables_round", round, assets),
+MakePlacer("sap_tables_banker_placer", "interior_table", "interior_table", "table_banker", nil, nil, nil, nil, nil, nil, tableplacefn),
+MakePlacer("sap_tables_chess_placer", "interior_table", "interior_table", "table_chess", nil, nil, nil, nil, nil, nil, chessplacefn),
+MakePlacer("sap_tables_crate_placer", "interior_table", "interior_table", "table_crate", nil, nil, nil, nil, nil, nil, tableplacefn),
+MakePlacer("sap_tables_diy_placer", "interior_table", "interior_table", "table_diy", nil, nil, nil, nil, nil, nil, tableplacefn),
+MakePlacer("sap_tables_raw_placer", "interior_table", "interior_table", "table_raw", nil, nil, nil, nil, nil, nil, tableplacefn),
+MakePlacer("sap_tables_round_placer", "interior_table", "interior_table", "table_round", nil, nil, nil, nil, nil, nil, tableplacefn)

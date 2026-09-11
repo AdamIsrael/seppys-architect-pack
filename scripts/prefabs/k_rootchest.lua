@@ -256,6 +256,6 @@ local function truefn()
 	return inst
 end
 
-return Prefab("kyno_rootchest", fn, assets, prefabs),
-Prefab("kyno_truerootchest", truefn, assets, prefabs),
-MakePlacer("kyno_rootchest_placer", "roottrunk", "treasure_chest_roottrunk", "closed")
+return Prefab("sap_rootchest", fn, assets, prefabs),
+Prefab("sap_truerootchest", truefn, assets, prefabs),
+MakePlacer("sap_rootchest_placer", "roottrunk", "treasure_chest_roottrunk", "closed")

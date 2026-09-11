@@ -80,5 +80,5 @@ local function fn()
     return inst
 end
 
-return Prefab("kyno_nitre_formation", fn, assets, prefabs),
-MakePlacer("kyno_nitre_formation_placer", "pond_rock", "pond_nitrecrystal", "idle1")
+return Prefab("sap_nitre_formation", fn, assets, prefabs),
+MakePlacer("sap_nitre_formation_placer", "pond_rock", "pond_nitrecrystal", "idle1")

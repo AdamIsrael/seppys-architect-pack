@@ -412,5 +412,5 @@ local function fn()
     return inst
 end
 
-return Prefab("kyno_touchstone", fn, assets, prefabs),
-MakePlacer("kyno_touchstone_placer", "resurrection_stone", "resurrection_stone", "idle_activate")
+return Prefab("sap_touchstone", fn, assets, prefabs),
+MakePlacer("sap_touchstone_placer", "resurrection_stone", "resurrection_stone", "idle_activate")

@@ -71,5 +71,5 @@ local function fn()
     return inst
 end
 
-return Prefab("kyno_bonemound", fn, assets),
-MakePlacer("kyno_bonemound_placer", "houndbase", "hound_base", "death")
+return Prefab("sap_bonemound", fn, assets),
+MakePlacer("sap_bonemound_placer", "houndbase", "hound_base", "death")

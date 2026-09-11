@@ -170,5 +170,5 @@ local function spawnerfn()
     return inst
 end
 
-return Prefab("kyno_seastack", fn, assets, prefabs),
-MakePlacer("kyno_seastack_placer", "water_rock01", "water_rock_01", "1_full")
+return Prefab("sap_seastack", fn, assets, prefabs),
+MakePlacer("sap_seastack_placer", "water_rock01", "water_rock_01", "1_full")

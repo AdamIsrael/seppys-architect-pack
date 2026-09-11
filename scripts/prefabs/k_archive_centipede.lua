@@ -12,14 +12,14 @@ local assets =
 local prefabs =
 {
 	"collapse_small",
-	"kyno_archive_centipede_low",
-	"kyno_archive_centipede_med"
+	"sap_archive_centipede_low",
+	"sap_archive_centipede_med"
 }
 
 local function onhammered_full(inst, worker)
 	inst.components.lootdropper:DropLoot()
 	SpawnPrefab("collapse_small").Transform:SetPosition(inst.Transform:GetWorldPosition())
-	SpawnPrefab("kyno_archive_centipede_med").Transform:SetPosition(inst.Transform:GetWorldPosition())
+	SpawnPrefab("sap_archive_centipede_med").Transform:SetPosition(inst.Transform:GetWorldPosition())
 	inst.SoundEmitter:PlaySound("dontstarve/common/destroy_metal")
 	inst:Remove()
 end
@@ -27,7 +27,7 @@ end
 local function onhammered_med(inst, worker)
 	inst.components.lootdropper:DropLoot()
 	SpawnPrefab("collapse_small").Transform:SetPosition(inst.Transform:GetWorldPosition())
-	SpawnPrefab("kyno_archive_centipede_low").Transform:SetPosition(inst.Transform:GetWorldPosition())
+	SpawnPrefab("sap_archive_centipede_low").Transform:SetPosition(inst.Transform:GetWorldPosition())
 	inst.SoundEmitter:PlaySound("dontstarve/common/destroy_metal")
 	inst:Remove()
 end
@@ -177,7 +177,7 @@ local function lowfn()
     return inst
 end
 
-return Prefab("kyno_archive_centipede", fullfn, assets, prefabs),
-Prefab("kyno_archive_centipede_med", medfn, assets, prefabs),
-Prefab("kyno_archive_centipede_low", lowfn, assets, prefabs),
-MakePlacer("kyno_archive_centipede_placer", "archive_centipede", "archive_centipede_build", "idle_full")
+return Prefab("sap_archive_centipede", fullfn, assets, prefabs),
+Prefab("sap_archive_centipede_med", medfn, assets, prefabs),
+Prefab("sap_archive_centipede_low", lowfn, assets, prefabs),
+MakePlacer("sap_archive_centipede_placer", "archive_centipede", "archive_centipede_build", "idle_full")

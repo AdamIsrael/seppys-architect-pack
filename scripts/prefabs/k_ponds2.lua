@@ -149,5 +149,5 @@ local function fn()
     return inst
 end
 
-return Prefab("kyno_pondlava", fn, assets),
-MakePlacer("kyno_pondlava_placer", "lava_tile", "lava_tile", "bubble_lava", true, nil, nil, nil, 90, nil)
+return Prefab("sap_pondlava", fn, assets),
+MakePlacer("sap_pondlava_placer", "lava_tile", "lava_tile", "bubble_lava", true, nil, nil, nil, 90, nil)

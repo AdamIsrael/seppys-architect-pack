@@ -20,7 +20,7 @@ kinds["homesign"] = {
 }
 kinds["arrowsign_post"] = kinds["homesign"]
 kinds["arrowsign_panel"] = kinds["homesign"]
-kinds["kyno_propsign_structure"] = kinds["homesign"]
+kinds["sap_propsign_structure"] = kinds["homesign"]
 
 kinds["beefalo"] =
 {
@@ -88,9 +88,9 @@ kinds["driftwood"] = {
 
     --defaulttext = SignGenerator,
 }
-kinds["kyno_driftwood_homesign"] = kinds["driftwood"]
-kinds["kyno_driftwood_arrowsign"] = kinds["driftwood"]
-kinds["kyno_driftwood_arrowsign_panel"] = kinds["driftwood"]
+kinds["sap_driftwood_homesign"] = kinds["driftwood"]
+kinds["sap_driftwood_arrowsign"] = kinds["driftwood"]
+kinds["sap_driftwood_arrowsign_panel"] = kinds["driftwood"]
 
 writeables.makescreen = function(inst, doer)
     local data = kinds[inst.prefab]

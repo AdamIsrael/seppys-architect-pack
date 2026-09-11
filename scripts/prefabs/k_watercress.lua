@@ -70,5 +70,5 @@ local function watercressplacer(inst)
 	inst.AnimState:SetScale(1.2, 1.2, 1.2)
 end
 
-return Prefab("kyno_watercress_planted", fn, assets),
-MakePlacer("kyno_watercress_planted_placer", "watercress", "watercress", "idle_plant", false, nil, nil, nil, nil, nil, watercressplacer)
+return Prefab("sap_watercress_planted", fn, assets),
+MakePlacer("sap_watercress_planted_placer", "watercress", "watercress", "idle_plant", false, nil, nil, nil, nil, nil, watercressplacer)

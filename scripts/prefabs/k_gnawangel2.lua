@@ -17,8 +17,8 @@ local assets =
 
 local prefabs =
 {
-	"kyno_worshipper2",
-	"kyno_worshipper2_left",
+	"sap_worshipper2",
+	"sap_worshipper2_left",
 }
 
 local function onhammered(inst, worker)
@@ -142,7 +142,7 @@ local function leftfn()
     return inst
 end
 
-return Prefab("kyno_worshipper2", fn, assets),
-Prefab("kyno_worshipper2_left", leftfn, assets),
-MakePlacer("kyno_worshipper2_placer", "quagmire_cemetery", "quagmire_cemetery", "angel"),
-MakePlacer("kyno_worshipper2_left_placer", "quagmire_cemetery_left", "quagmire_cemetery_left", "angel")
+return Prefab("sap_worshipper2", fn, assets),
+Prefab("sap_worshipper2_left", leftfn, assets),
+MakePlacer("sap_worshipper2_placer", "quagmire_cemetery", "quagmire_cemetery", "angel"),
+MakePlacer("sap_worshipper2_left_placer", "quagmire_cemetery_left", "quagmire_cemetery_left", "angel")

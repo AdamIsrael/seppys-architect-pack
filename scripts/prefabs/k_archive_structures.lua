@@ -28,9 +28,9 @@ local prefabs =
 	"archive_dispencer_sfx",
 	"archive_lockbox",
 	"collapse_small",
-	"kyno_archive_orchestrina_base",
-	"kyno_archive_portal_base",
-	"kyno_archive_switch_pad",
+	"sap_archive_orchestrina_base",
+	"sap_archive_portal_base",
+	"sap_archive_switch_pad",
 	"opalpreciousgem",
 	"rock_break_fx"
 }
@@ -328,7 +328,7 @@ end
 local SOCKETTEST_MUST = {"resonator_socket"}
 local LOCKBOX_MUST = {"archive_lockbox"}
 local RESONATORTEST_CAN = {"archive_resonator","singingshell"}
-local OCHESTRINA_MAIN_MUST = {"kyno_archive_orchestrina_main"}
+local OCHESTRINA_MAIN_MUST = {"sap_archive_orchestrina_main"}
 
 local function findlockbox(inst)
     local x,y,z = inst.Transform:GetWorldPosition()
@@ -1404,7 +1404,7 @@ local function switchfn()
     end)
 	
 	local function createExtras(inst)
-	inst.towerprefab =  SpawnPrefab("kyno_archive_switch_pad")
+	inst.towerprefab =  SpawnPrefab("sap_archive_switch_pad")
 	inst.towerprefab.entity:SetParent(inst.entity)
 	end
 	
@@ -1515,7 +1515,7 @@ local function portalfn()
     end
 	
 	local function createBase(inst)
-	inst.baseprefab =  SpawnPrefab("kyno_archive_portal_base")
+	inst.baseprefab =  SpawnPrefab("sap_archive_portal_base")
 	inst.baseprefab.entity:SetParent(inst.entity)
 	end
 	
@@ -1588,7 +1588,7 @@ local function mainfn(pondtype)
     inst.AnimState:SetSortOrder(2)
 
     inst:AddTag("structure")
-	inst:AddTag("kyno_archive_orchestrina_main")
+	inst:AddTag("sap_archive_orchestrina_main")
 	inst:AddTag("NOBLOCK")
 	
 	inst.status = "off"
@@ -1600,7 +1600,7 @@ local function mainfn(pondtype)
     end
 	
 	local function createBase2(inst)
-	inst.baseprefab2 =  SpawnPrefab("kyno_archive_orchestrina_base")
+	inst.baseprefab2 =  SpawnPrefab("sap_archive_orchestrina_base")
 	inst.baseprefab2.entity:SetParent(inst.entity)
 	end
 	
@@ -1720,41 +1720,41 @@ local function smallfn(pondtype)
     return inst
 end
 
-return Prefab("kyno_archive_statue1", statue1fn, assets, prefabs),
-Prefab("kyno_archive_statue2", statue2fn, assets, prefabs),
-Prefab("kyno_archive_statue3", statue3fn, assets, prefabs),
-Prefab("kyno_archive_statue4", statue4fn, assets, prefabs),
-Prefab("kyno_archive_rune1", rune1fn, assets, prefabs),
-Prefab("kyno_archive_rune2", rune2fn, assets, prefabs),
-Prefab("kyno_archive_rune3", rune3fn, assets, prefabs),
-Prefab("kyno_archive_desk", deskfn, assets, prefabs),
-Prefab("kyno_archive_fountain1", fountain1fn, assets, prefabs),
-Prefab("kyno_archive_fountain2", fountain2fn, assets, prefabs),
-Prefab("kyno_archive_fountain3", fountain3fn, assets, prefabs),
-Prefab("kyno_archive_fountain4", fountain4fn, assets, prefabs),
-Prefab("kyno_archive_fountain5", fountain5fn, assets, prefabs),
-Prefab("kyno_archive_switch", switchfn, assets, prefabs),
-Prefab("kyno_archive_switch_pad", switchpadfn, assets, prefabs),
-Prefab("kyno_archive_switch_base", switchbasefn, assets, prefabs),
-Prefab("kyno_archive_portal", portalfn, assets, prefabs),
-Prefab("kyno_archive_portal_base", basefn, assets, prefabs),
-Prefab("kyno_archive_orchestrina_main", mainfn, assets, prefabs),
-Prefab("kyno_archive_orchestrina_small", smallfn, assets, prefabs),
-Prefab("kyno_archive_orchestrina_base", basefn2, assets, prefabs),
-MakePlacer("kyno_archive_statue1_placer", "archive_moon_statue", "archive_moon_statue", "idle_full_1"),
-MakePlacer("kyno_archive_statue2_placer", "archive_moon_statue", "archive_moon_statue", "idle_full_2"),
-MakePlacer("kyno_archive_statue3_placer", "archive_moon_statue", "archive_moon_statue", "idle_full_3"),
-MakePlacer("kyno_archive_statue4_placer", "archive_moon_statue", "archive_moon_statue", "idle_full_4"),
-MakePlacer("kyno_archive_rune1_placer", "archive_rune", "archive_runes", "idle"),
-MakePlacer("kyno_archive_rune2_placer", "archive_rune", "archive_runes", "idle2"),
-MakePlacer("kyno_archive_rune3_placer", "archive_rune", "archive_runes", "idle3"),
-MakePlacer("kyno_archive_desk_placer", "archive_security_desk", "archive_security_desk", "idle_leave"),
-MakePlacer("kyno_archive_fountain1_placer", "knowledge_dispensary", "archive_knowledge_dispensary", "idle"),
-MakePlacer("kyno_archive_fountain2_placer", "knowledge_dispensary", "archive_knowledge_dispensary_b", "idle"),
-MakePlacer("kyno_archive_fountain3_placer", "knowledge_dispensary", "archive_knowledge_dispensary_c", "idle"),
-MakePlacer("kyno_archive_fountain4_placer", "knowledge_dispensary", "archive_knowledge_dispensary_d", "idle"),
-MakePlacer("kyno_archive_fountain5_placer", "knowledge_dispensary", "archive_knowledge_dispensary_e", "idle"),
-MakePlacer("kyno_archive_switch_placer", "archive_switch", "archive_switch", "idle_empty"),
-MakePlacer("kyno_archive_portal_placer", "archive_portal", "archive_portal", "idle", true),
-MakePlacer("kyno_archive_orchestrina_main_placer", "archive_orchestrina_main", "archive_orchestrina_main", "floor_idle", true),
-MakePlacer("kyno_archive_orchestrina_small_placer", "archive_orchestrina_main", "archive_orchestrina_main", "small_idle", true)
+return Prefab("sap_archive_statue1", statue1fn, assets, prefabs),
+Prefab("sap_archive_statue2", statue2fn, assets, prefabs),
+Prefab("sap_archive_statue3", statue3fn, assets, prefabs),
+Prefab("sap_archive_statue4", statue4fn, assets, prefabs),
+Prefab("sap_archive_rune1", rune1fn, assets, prefabs),
+Prefab("sap_archive_rune2", rune2fn, assets, prefabs),
+Prefab("sap_archive_rune3", rune3fn, assets, prefabs),
+Prefab("sap_archive_desk", deskfn, assets, prefabs),
+Prefab("sap_archive_fountain1", fountain1fn, assets, prefabs),
+Prefab("sap_archive_fountain2", fountain2fn, assets, prefabs),
+Prefab("sap_archive_fountain3", fountain3fn, assets, prefabs),
+Prefab("sap_archive_fountain4", fountain4fn, assets, prefabs),
+Prefab("sap_archive_fountain5", fountain5fn, assets, prefabs),
+Prefab("sap_archive_switch", switchfn, assets, prefabs),
+Prefab("sap_archive_switch_pad", switchpadfn, assets, prefabs),
+Prefab("sap_archive_switch_base", switchbasefn, assets, prefabs),
+Prefab("sap_archive_portal", portalfn, assets, prefabs),
+Prefab("sap_archive_portal_base", basefn, assets, prefabs),
+Prefab("sap_archive_orchestrina_main", mainfn, assets, prefabs),
+Prefab("sap_archive_orchestrina_small", smallfn, assets, prefabs),
+Prefab("sap_archive_orchestrina_base", basefn2, assets, prefabs),
+MakePlacer("sap_archive_statue1_placer", "archive_moon_statue", "archive_moon_statue", "idle_full_1"),
+MakePlacer("sap_archive_statue2_placer", "archive_moon_statue", "archive_moon_statue", "idle_full_2"),
+MakePlacer("sap_archive_statue3_placer", "archive_moon_statue", "archive_moon_statue", "idle_full_3"),
+MakePlacer("sap_archive_statue4_placer", "archive_moon_statue", "archive_moon_statue", "idle_full_4"),
+MakePlacer("sap_archive_rune1_placer", "archive_rune", "archive_runes", "idle"),
+MakePlacer("sap_archive_rune2_placer", "archive_rune", "archive_runes", "idle2"),
+MakePlacer("sap_archive_rune3_placer", "archive_rune", "archive_runes", "idle3"),
+MakePlacer("sap_archive_desk_placer", "archive_security_desk", "archive_security_desk", "idle_leave"),
+MakePlacer("sap_archive_fountain1_placer", "knowledge_dispensary", "archive_knowledge_dispensary", "idle"),
+MakePlacer("sap_archive_fountain2_placer", "knowledge_dispensary", "archive_knowledge_dispensary_b", "idle"),
+MakePlacer("sap_archive_fountain3_placer", "knowledge_dispensary", "archive_knowledge_dispensary_c", "idle"),
+MakePlacer("sap_archive_fountain4_placer", "knowledge_dispensary", "archive_knowledge_dispensary_d", "idle"),
+MakePlacer("sap_archive_fountain5_placer", "knowledge_dispensary", "archive_knowledge_dispensary_e", "idle"),
+MakePlacer("sap_archive_switch_placer", "archive_switch", "archive_switch", "idle_empty"),
+MakePlacer("sap_archive_portal_placer", "archive_portal", "archive_portal", "idle", true),
+MakePlacer("sap_archive_orchestrina_main_placer", "archive_orchestrina_main", "archive_orchestrina_main", "floor_idle", true),
+MakePlacer("sap_archive_orchestrina_small_placer", "archive_orchestrina_main", "archive_orchestrina_main", "small_idle", true)

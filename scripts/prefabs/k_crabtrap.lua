@@ -99,5 +99,5 @@ local function fn()
     return inst
 end
 
-return Prefab("kyno_crabtrap", fn, assets),
-MakePlacer("kyno_crabtrap_placer", "quagmire_crab_trap", "quagmire_crab_trap", "idle")
+return Prefab("sap_crabtrap", fn, assets),
+MakePlacer("sap_crabtrap_placer", "quagmire_crab_trap", "quagmire_crab_trap", "idle")

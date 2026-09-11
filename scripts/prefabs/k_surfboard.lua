@@ -62,5 +62,5 @@ local function fn()
     return inst
 end
 
-return Prefab("kyno_surfboard", fn, assets),
-MakePlacer("kyno_surfboard_placer", "surfboard", "surfboard", "idle")
+return Prefab("sap_surfboard", fn, assets),
+MakePlacer("sap_surfboard_placer", "surfboard", "surfboard", "idle")

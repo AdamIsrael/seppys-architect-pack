@@ -16,8 +16,8 @@ local assets =
 
 local prefabs =
 {
-	"kyno_sammy",
-	"kyno_pipton",
+	"sap_sammy",
+	"sap_pipton",
 }
 
 local function onhammered_sammy(inst, worker)
@@ -96,7 +96,7 @@ local function wagonfn()
 		inst.decor = {}
 		for item_name, data in pairs(decor_items) do
 			for l, offset in pairs(data) do
-				local item_inst = SpawnPrefab("kyno_sammy")
+				local item_inst = SpawnPrefab("sap_sammy")
 				item_inst.AnimState:PushAnimation("idle_loop", true)
 				item_inst.entity:SetParent(inst.entity)
 				item_inst.Transform:SetPosition(offset[1], offset[2], offset[3])
@@ -197,7 +197,7 @@ local function cartfn()
 		inst.decor = {}
 		for item_name, data in pairs(decor_items) do
 			for l, offset in pairs(data) do
-				local item_inst = SpawnPrefab("kyno_pipton")
+				local item_inst = SpawnPrefab("sap_pipton")
 				item_inst.AnimState:PushAnimation("idle_loop", true)
 				item_inst.entity:SetParent(inst.entity)
 				item_inst.Transform:SetPosition(offset[1], offset[2], offset[3])
@@ -263,9 +263,9 @@ local function piptonfn()
 	return inst
 end
 
-return Prefab("kyno_sammywagon", wagonfn, assets, prefabs),
-Prefab("kyno_sammy", sammyfn, assets, prefabs),
-Prefab("kyno_piptoncart", cartfn, assets, prefabs),
-Prefab("kyno_pipton", piptonfn, assets, prefabs),
-MakePlacer("kyno_sammywagon_placer", "quagmire_mermcart", "quagmire_mermcart", "idle1", false, nil, nil, nil, 90, nil),
-MakePlacer("kyno_piptoncart_placer", "quagmire_mermcart", "quagmire_mermcart", "idle2", false, nil, nil, nil, 90, nil)
+return Prefab("sap_sammywagon", wagonfn, assets, prefabs),
+Prefab("sap_sammy", sammyfn, assets, prefabs),
+Prefab("sap_piptoncart", cartfn, assets, prefabs),
+Prefab("sap_pipton", piptonfn, assets, prefabs),
+MakePlacer("sap_sammywagon_placer", "quagmire_mermcart", "quagmire_mermcart", "idle1", false, nil, nil, nil, 90, nil),
+MakePlacer("sap_piptoncart_placer", "quagmire_mermcart", "quagmire_mermcart", "idle2", false, nil, nil, nil, 90, nil)

@@ -98,5 +98,5 @@ local function sapling_fn(build, anim, growprefab, tag, fireproof, overrideloot)
     return fn
 end
 
-return Prefab("kyno_clawtree_sapling", sapling_fn("clawling", "idle_planted", "clawtree_short", "clawtree", true), pinecone_assets, pinecone_prefabs),
-MakePlacer("kyno_clawtree_sapling_placer", "clawling", "clawling", "idle_planted")
+return Prefab("sap_clawtree_sapling", sapling_fn("clawling", "idle_planted", "clawtree_short", "clawtree", true), pinecone_assets, pinecone_prefabs),
+MakePlacer("sap_clawtree_sapling_placer", "clawling", "clawling", "idle_planted")

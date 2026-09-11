@@ -86,7 +86,7 @@ local function teleport(inst, staff)
         player:SnapCamera()
         player.components.locomotor:Clear()
 
-        local light = SpawnPrefab("kyno_telebrella_glow")
+        local light = SpawnPrefab("sap_telebrella_glow")
         if light then
             local x,y,z = player.Transform:GetWorldPosition()
             light.Transform:SetPosition(x,y,z)
@@ -291,5 +291,5 @@ local function glowfn(Sim)
     return inst   
 end
 
-return Prefab("kyno_telebrella", fn, assets),
-Prefab("kyno_telebrella_glow", glowfn, assets)
+return Prefab("sap_telebrella", fn, assets),
+Prefab("sap_telebrella_glow", glowfn, assets)

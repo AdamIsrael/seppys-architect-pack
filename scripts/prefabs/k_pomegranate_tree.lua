@@ -15,8 +15,8 @@ local prefabs_tree =
     "pomegranate",
     "log",
     "twigs",
-    "kyno_pomegranate_stump",
-    "kyno_pomegranate_burnt",
+    "sap_pomegranate_stump",
+    "sap_pomegranate_burnt",
 }
 
 local prefabs_stump =
@@ -53,7 +53,7 @@ local function makeemptyfn(inst)
 end
 
 local function setupstump(inst)
-    SpawnPrefab("kyno_pomegranate_stump").Transform:SetPosition(inst.Transform:GetWorldPosition())
+    SpawnPrefab("sap_pomegranate_stump").Transform:SetPosition(inst.Transform:GetWorldPosition())
     inst:Remove()
 end
 
@@ -92,7 +92,7 @@ local function tree_startburn(inst)
 end
 
 local function tree_burnt(inst)
-    local burnt_tree = SpawnPrefab("kyno_pomegranate_burnt")
+    local burnt_tree = SpawnPrefab("sap_pomegranate_burnt")
     burnt_tree.Transform:SetPosition(inst.Transform:GetWorldPosition())
     burnt_tree.no_banana = inst.components.pickable == nil or not inst.components.pickable.canbepicked
     if burnt_tree.no_banana then
@@ -306,7 +306,7 @@ local function burnt_fn()
     return inst
 end
 
-return Prefab("kyno_pomegranate_tree", tree_fn, assets, prefabs_tree),
-Prefab("kyno_pomegranate_burnt", burnt_fn, assets, prefabs_burnt),
-Prefab("kyno_pomegranate_stump", stump_fn, assets, prefabs_stump),
-MakePlacer("kyno_pomegranate_tree_placer", "cave_banana_tree", "crabapple_tree_build", "idle_loop")
+return Prefab("sap_pomegranate_tree", tree_fn, assets, prefabs_tree),
+Prefab("sap_pomegranate_burnt", burnt_fn, assets, prefabs_burnt),
+Prefab("sap_pomegranate_stump", stump_fn, assets, prefabs_stump),
+MakePlacer("sap_pomegranate_tree_placer", "cave_banana_tree", "crabapple_tree_build", "idle_loop")

@@ -179,5 +179,5 @@ local function fn()
 	return inst
 end
 
-return Prefab("kyno_driftwoodtrunk", fn, assets, prefabs),
-MakePlacer("kyno_driftwoodtrunk_placer", "driftwood_normal", "driftwood_normal", "idle")
+return Prefab("sap_driftwoodtrunk", fn, assets, prefabs),
+MakePlacer("sap_driftwoodtrunk_placer", "driftwood_normal", "driftwood_normal", "idle")

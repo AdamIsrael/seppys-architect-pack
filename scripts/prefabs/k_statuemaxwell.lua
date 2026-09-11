@@ -140,7 +140,7 @@ local function RosePlacerPostinit(inst)
 	inst.AnimState:AddOverrideBuild("statue_maxwell_vine_build")
 end
 
-return Prefab("kyno_statuemaxwell", fn, assets, prefabs),
-Prefab("kyno_statuemaxwell_rose", rosefn, assets, prefabs),
-MakePlacer("kyno_statuemaxwell_placer", "statue_maxwell", "statue_maxwell_build", "idle_full"),
-MakePlacer("kyno_statuemaxwell_rose_placer", "statue_maxwell", "statue_maxwell_build", "idle_full", false, nil, nil, nil, nil, nil, RosePlacerPostinit)
+return Prefab("sap_statuemaxwell", fn, assets, prefabs),
+Prefab("sap_statuemaxwell_rose", rosefn, assets, prefabs),
+MakePlacer("sap_statuemaxwell_placer", "statue_maxwell", "statue_maxwell_build", "idle_full"),
+MakePlacer("sap_statuemaxwell_rose_placer", "statue_maxwell", "statue_maxwell_build", "idle_full", false, nil, nil, nil, nil, nil, RosePlacerPostinit)

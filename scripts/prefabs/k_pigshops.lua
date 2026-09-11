@@ -35,18 +35,18 @@ local prefabs =
 {
     "pigman",
     "splash_sink",
-	"kyno_pigman_collector",
-    "kyno_pigman_banker",
-    "kyno_pigman_beautician",
-    "kyno_pigman_florist",
-    "kyno_pigman_erudite",
-    "kyno_pigman_hunter",
-    "kyno_pigman_hatmaker",
-    "kyno_pigman_usher",
-    "kyno_pigman_mechanic",
-    "kyno_pigman_storeowner",
-    "kyno_pigman_professor",
-	"kyno_pigman_mayor",
+	"sap_pigman_collector",
+    "sap_pigman_banker",
+    "sap_pigman_beautician",
+    "sap_pigman_florist",
+    "sap_pigman_erudite",
+    "sap_pigman_hunter",
+    "sap_pigman_hatmaker",
+    "sap_pigman_usher",
+    "sap_pigman_mechanic",
+    "sap_pigman_storeowner",
+    "sap_pigman_professor",
+	"sap_pigman_mayor",
 }
 
 local function LightsOn(inst)
@@ -365,7 +365,7 @@ local function Spafn()
 	inst.components.workable:SetWorkLeft(4)
 	
 	inst:AddComponent("spawner")
-    inst.components.spawner:Configure("kyno_pigman_beautician", TUNING.TOTAL_DAY_TIME*4)
+    inst.components.spawner:Configure("sap_pigman_beautician", TUNING.TOTAL_DAY_TIME*4)
     inst.components.spawner.onoccupied = onoccupied
     inst.components.spawner.onvacate = onvacate
     inst.components.spawner:SetWaterSpawning(false, true)
@@ -438,7 +438,7 @@ local function Flowerfn()
 	inst.components.workable:SetWorkLeft(4)
 	
 	inst:AddComponent("spawner")
-    inst.components.spawner:Configure("kyno_pigman_florist", TUNING.TOTAL_DAY_TIME*4)
+    inst.components.spawner:Configure("sap_pigman_florist", TUNING.TOTAL_DAY_TIME*4)
     inst.components.spawner.onoccupied = onoccupied
     inst.components.spawner.onvacate = onvacate
     inst.components.spawner:SetWaterSpawning(false, true)
@@ -511,7 +511,7 @@ local function Generalfn()
 	inst.components.workable:SetWorkLeft(4)
 	
 	inst:AddComponent("spawner")
-    inst.components.spawner:Configure("kyno_pigman_mechanic", TUNING.TOTAL_DAY_TIME*4)
+    inst.components.spawner:Configure("sap_pigman_mechanic", TUNING.TOTAL_DAY_TIME*4)
     inst.components.spawner.onoccupied = onoccupied
     inst.components.spawner.onvacate = onvacate
     inst.components.spawner:SetWaterSpawning(false, true)
@@ -584,7 +584,7 @@ local function Delifn()
 	inst.components.workable:SetWorkLeft(4)
 	
 	inst:AddComponent("spawner")
-    inst.components.spawner:Configure("kyno_pigman_storeowner", TUNING.TOTAL_DAY_TIME*4)
+    inst.components.spawner:Configure("sap_pigman_storeowner", TUNING.TOTAL_DAY_TIME*4)
     inst.components.spawner.onoccupied = onoccupied
     inst.components.spawner.onvacate = onvacate
     inst.components.spawner:SetWaterSpawning(false, true)
@@ -657,7 +657,7 @@ local function Producefn()
 	inst.components.workable:SetWorkLeft(4)
 	
 	inst:AddComponent("spawner")
-    inst.components.spawner:Configure("kyno_pigman_storeowner", TUNING.TOTAL_DAY_TIME*4)
+    inst.components.spawner:Configure("sap_pigman_storeowner", TUNING.TOTAL_DAY_TIME*4)
     inst.components.spawner.onoccupied = onoccupied
     inst.components.spawner.onvacate = onvacate
     inst.components.spawner:SetWaterSpawning(false, true)
@@ -730,7 +730,7 @@ local function Antiquitiesfn()
 	inst.components.workable:SetWorkLeft(4)
 	
 	inst:AddComponent("spawner")
-    inst.components.spawner:Configure("kyno_pigman_collector", TUNING.TOTAL_DAY_TIME*4)
+    inst.components.spawner:Configure("sap_pigman_collector", TUNING.TOTAL_DAY_TIME*4)
     inst.components.spawner.onoccupied = onoccupied
     inst.components.spawner.onvacate = onvacate
     inst.components.spawner:SetWaterSpawning(false, true)
@@ -803,7 +803,7 @@ local function Arcanefn()
 	inst.components.workable:SetWorkLeft(4)
 	
 	inst:AddComponent("spawner")
-    inst.components.spawner:Configure("kyno_pigman_erudite", TUNING.TOTAL_DAY_TIME*4)
+    inst.components.spawner:Configure("sap_pigman_erudite", TUNING.TOTAL_DAY_TIME*4)
     inst.components.spawner.onoccupied = onoccupied
     inst.components.spawner.onvacate = onvacate
     inst.components.spawner:SetWaterSpawning(false, true)
@@ -876,7 +876,7 @@ local function Weaponsfn()
 	inst.components.workable:SetWorkLeft(4)
 	
 	inst:AddComponent("spawner")
-    inst.components.spawner:Configure("kyno_pigman_hunter", TUNING.TOTAL_DAY_TIME*4)
+    inst.components.spawner:Configure("sap_pigman_hunter", TUNING.TOTAL_DAY_TIME*4)
     inst.components.spawner.onoccupied = onoccupied
     inst.components.spawner.onvacate = onvacate
     inst.components.spawner:SetWaterSpawning(false, true)
@@ -949,7 +949,7 @@ local function Hatsfn()
 	inst.components.workable:SetWorkLeft(4)
 	
 	inst:AddComponent("spawner")
-    inst.components.spawner:Configure("kyno_pigman_hatmaker", TUNING.TOTAL_DAY_TIME*4)
+    inst.components.spawner:Configure("sap_pigman_hatmaker", TUNING.TOTAL_DAY_TIME*4)
     inst.components.spawner.onoccupied = onoccupied
     inst.components.spawner.onvacate = onvacate
     inst.components.spawner:SetWaterSpawning(false, true)
@@ -1022,7 +1022,7 @@ local function Bankfn()
 	inst.components.workable:SetWorkLeft(4)
 	
 	inst:AddComponent("spawner")
-    inst.components.spawner:Configure("kyno_pigman_banker", TUNING.TOTAL_DAY_TIME*4)
+    inst.components.spawner:Configure("sap_pigman_banker", TUNING.TOTAL_DAY_TIME*4)
     inst.components.spawner.onoccupied = onoccupied
     inst.components.spawner.onvacate = onvacate
     inst.components.spawner:SetWaterSpawning(false, true)
@@ -1097,7 +1097,7 @@ local function Tinkerfn()
 	inst.components.workable:SetWorkLeft(4)
 	
 	inst:AddComponent("spawner")
-    inst.components.spawner:Configure("kyno_pigman_mechanic", TUNING.TOTAL_DAY_TIME*4)
+    inst.components.spawner:Configure("sap_pigman_mechanic", TUNING.TOTAL_DAY_TIME*4)
     inst.components.spawner.onoccupied = onoccupied
     inst.components.spawner.onvacate = onvacate
     inst.components.spawner:SetWaterSpawning(false, true)
@@ -1172,7 +1172,7 @@ local function Academyfn()
 	inst.components.workable:SetWorkLeft(4)
 	
 	inst:AddComponent("spawner")
-    inst.components.spawner:Configure("kyno_pigman_professor", TUNING.TOTAL_DAY_TIME*4)
+    inst.components.spawner:Configure("sap_pigman_professor", TUNING.TOTAL_DAY_TIME*4)
     inst.components.spawner.onoccupied = onoccupied
     inst.components.spawner.onvacate = onvacate
     inst.components.spawner:SetWaterSpawning(false, true)
@@ -1247,7 +1247,7 @@ local function Hallfn()
 	inst.components.workable:SetWorkLeft(4)
 	
 	inst:AddComponent("spawner")
-    inst.components.spawner:Configure("kyno_pigman_mayor", TUNING.TOTAL_DAY_TIME*4)
+    inst.components.spawner:Configure("sap_pigman_mayor", TUNING.TOTAL_DAY_TIME*4)
     inst.components.spawner.onoccupied = onoccupied
     inst.components.spawner.onvacate = onvacate
     inst.components.spawner:SetWaterSpawning(false, true)
@@ -1367,44 +1367,44 @@ local function mycityhallplacetestfn(inst)
 	return true
 end
 
-return Prefab("kyno_pigshop_spa", Spafn, assets, prefabs),
-MakePlacer("kyno_pigshop_spa_placer", "pig_shop", "pig_shop_hoofspa", "idle", false, nil, nil, nil, nil, nil, placetestfn),
+return Prefab("sap_pigshop_spa", Spafn, assets, prefabs),
+MakePlacer("sap_pigshop_spa_placer", "pig_shop", "pig_shop_hoofspa", "idle", false, nil, nil, nil, nil, nil, placetestfn),
 
-Prefab("kyno_pigshop_flower", Flowerfn, assets, prefabs),
-MakePlacer("kyno_pigshop_flower_placer", "pig_shop", "pig_shop_florist", "idle", false, nil, nil, nil, nil, nil, placetestfn),
+Prefab("sap_pigshop_flower", Flowerfn, assets, prefabs),
+MakePlacer("sap_pigshop_flower_placer", "pig_shop", "pig_shop_florist", "idle", false, nil, nil, nil, nil, nil, placetestfn),
 
-Prefab("kyno_pigshop_general", Generalfn, assets, prefabs),
-MakePlacer("kyno_pigshop_general_placer", "pig_shop", "pig_shop_general", "idle", false, nil, nil, nil, nil, nil, placetestfn),
+Prefab("sap_pigshop_general", Generalfn, assets, prefabs),
+MakePlacer("sap_pigshop_general_placer", "pig_shop", "pig_shop_general", "idle", false, nil, nil, nil, nil, nil, placetestfn),
 
-Prefab("kyno_pigshop_deli", Delifn, assets, prefabs),
-MakePlacer("kyno_pigshop_deli_placer", "pig_shop", "pig_shop_deli", "idle", false, nil, nil, nil, nil, nil, placetestfn),
+Prefab("sap_pigshop_deli", Delifn, assets, prefabs),
+MakePlacer("sap_pigshop_deli_placer", "pig_shop", "pig_shop_deli", "idle", false, nil, nil, nil, nil, nil, placetestfn),
 
-Prefab("kyno_pigshop_produce", Producefn, assets, prefabs),
-MakePlacer("kyno_pigshop_produce_placer", "pig_shop", "pig_shop_produce", "idle", false, nil, nil, nil, nil, nil, placetestfn),
+Prefab("sap_pigshop_produce", Producefn, assets, prefabs),
+MakePlacer("sap_pigshop_produce_placer", "pig_shop", "pig_shop_produce", "idle", false, nil, nil, nil, nil, nil, placetestfn),
 
-Prefab("kyno_pigshop_antiquities", Antiquitiesfn, assets, prefabs),
-MakePlacer("kyno_pigshop_antiquities_placer", "pig_shop", "pig_shop_antiquities", "idle", false, nil, nil, nil, nil, nil, placetestfn),
+Prefab("sap_pigshop_antiquities", Antiquitiesfn, assets, prefabs),
+MakePlacer("sap_pigshop_antiquities_placer", "pig_shop", "pig_shop_antiquities", "idle", false, nil, nil, nil, nil, nil, placetestfn),
 
-Prefab("kyno_pigshop_arcane", Arcanefn, assets, prefabs),
-MakePlacer("kyno_pigshop_arcane_placer", "pig_shop", "pig_shop_arcane", "idle", false, nil, nil, nil, nil, nil, placetestfn),
+Prefab("sap_pigshop_arcane", Arcanefn, assets, prefabs),
+MakePlacer("sap_pigshop_arcane_placer", "pig_shop", "pig_shop_arcane", "idle", false, nil, nil, nil, nil, nil, placetestfn),
 
-Prefab("kyno_pigshop_weapons", Weaponsfn, assets, prefabs),
-MakePlacer("kyno_pigshop_weapons_placer", "pig_shop", "pig_shop_weapons", "idle", false, nil, nil, nil, nil, nil, placetestfn),
+Prefab("sap_pigshop_weapons", Weaponsfn, assets, prefabs),
+MakePlacer("sap_pigshop_weapons_placer", "pig_shop", "pig_shop_weapons", "idle", false, nil, nil, nil, nil, nil, placetestfn),
 
-Prefab("kyno_pigshop_hatshop", Hatsfn, assets, prefabs),
-MakePlacer("kyno_pigshop_hatshop_placer", "pig_shop", "pig_shop_millinery", "idle", false, nil, nil, nil, nil, nil, placetestfn),
+Prefab("sap_pigshop_hatshop", Hatsfn, assets, prefabs),
+MakePlacer("sap_pigshop_hatshop_placer", "pig_shop", "pig_shop_millinery", "idle", false, nil, nil, nil, nil, nil, placetestfn),
 
-Prefab("kyno_pigshop_bank", Bankfn, assets, prefabs),
-MakePlacer("kyno_pigshop_bank_placer", "pig_shop", "pig_shop_bank", "idle", false, nil, nil, nil, nil, nil, placetestfn),
+Prefab("sap_pigshop_bank", Bankfn, assets, prefabs),
+MakePlacer("sap_pigshop_bank_placer", "pig_shop", "pig_shop_bank", "idle", false, nil, nil, nil, nil, nil, placetestfn),
 
-Prefab("kyno_pigshop_tinker", Tinkerfn, assets, prefabs),
-MakePlacer("kyno_pigshop_tinker_placer", "pig_shop", "pig_shop_tinker", "idle", false, nil, nil, nil, nil, nil, placetestfn),
+Prefab("sap_pigshop_tinker", Tinkerfn, assets, prefabs),
+MakePlacer("sap_pigshop_tinker_placer", "pig_shop", "pig_shop_tinker", "idle", false, nil, nil, nil, nil, nil, placetestfn),
 
-Prefab("kyno_pigshop_academy", Academyfn, assets, prefabs),
-MakePlacer("kyno_pigshop_academy_placer", "pig_shop", "pig_shop_accademia", "idle", false, nil, nil, nil, nil, nil, placetestfn),
+Prefab("sap_pigshop_academy", Academyfn, assets, prefabs),
+MakePlacer("sap_pigshop_academy_placer", "pig_shop", "pig_shop_accademia", "idle", false, nil, nil, nil, nil, nil, placetestfn),
 
-Prefab("kyno_pigshop_cityhall", Hallfn, assets, prefabs),
-MakePlacer("kyno_pigshop_cityhall_placer", "pig_cityhall", "pig_cityhall", "idle", false, nil, nil, nil, nil, nil, cityhallplacetestfn),
+Prefab("sap_pigshop_cityhall", Hallfn, assets, prefabs),
+MakePlacer("sap_pigshop_cityhall_placer", "pig_cityhall", "pig_cityhall", "idle", false, nil, nil, nil, nil, nil, cityhallplacetestfn),
 
-Prefab("kyno_pigshop_mycityhall", Hall2fn, assets, prefabs),
-MakePlacer("kyno_pigshop_mycityhall_placer", "pig_cityhall", "pig_cityhall", "idle", false, nil, nil, nil, nil, nil, mycityhallplacetestfn)
+Prefab("sap_pigshop_mycityhall", Hall2fn, assets, prefabs),
+MakePlacer("sap_pigshop_mycityhall_placer", "pig_cityhall", "pig_cityhall", "idle", false, nil, nil, nil, nil, nil, mycityhallplacetestfn)

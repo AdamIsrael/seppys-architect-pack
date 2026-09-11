@@ -161,5 +161,5 @@ local function fn()
     return inst
 end
 
-return Prefab("kyno_brazier", fn, assets, prefabs),
-MakePlacer("kyno_brazier_placer", "ruinstorch", "ruins_torch", "idle")
+return Prefab("sap_brazier", fn, assets, prefabs),
+MakePlacer("sap_brazier_placer", "ruinstorch", "ruins_torch", "idle")

@@ -135,7 +135,7 @@ local function ruinsfn()
 	return inst
 end
 
-return Prefab("kyno_nightmarefissure", fn, assets, prefabs),
-Prefab("kyno_nightmarefissure_ruins", ruinsfn, assets, prefabs),
-MakePlacer("kyno_nightmarefissure_placer", "nightmare_crack_upper", "nightmare_crack_upper", "idle_open"),
-MakePlacer("kyno_nightmarefissure_ruins_placer", "nightmare_crack_ruins", "nightmare_crack_ruins", "idle_open")
+return Prefab("sap_nightmarefissure", fn, assets, prefabs),
+Prefab("sap_nightmarefissure_ruins", ruinsfn, assets, prefabs),
+MakePlacer("sap_nightmarefissure_placer", "nightmare_crack_upper", "nightmare_crack_upper", "idle_open"),
+MakePlacer("sap_nightmarefissure_ruins_placer", "nightmare_crack_ruins", "nightmare_crack_ruins", "idle_open")

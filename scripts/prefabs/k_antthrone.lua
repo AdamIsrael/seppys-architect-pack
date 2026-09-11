@@ -17,7 +17,7 @@ local assets =
 
 local prefabs =
 {
-	"kyno_ant_queen",
+	"sap_ant_queen",
 }
 
 local function onwork(inst, worker, workleft)
@@ -178,7 +178,7 @@ local function queenplacetestfn(inst)
 	inst.AnimState:AddOverrideBuild("throne")
 end
 
-return Prefab("kyno_antthrone", fn, assets, prefabs),
-Prefab("kyno_ant_queen", queenfn, assets, prefabs),
-MakePlacer("kyno_antthrone_placer", "throne", "throne", "full", false, nil, nil, nil, nil, nil, throneplacetestfn),
-MakePlacer("kyno_ant_queen_placer", "crick_crickantqueen", "crickant_queen_basics", "idle", false, nil, nil, nil, nil, nil, queenplacetestfn)
+return Prefab("sap_antthrone", fn, assets, prefabs),
+Prefab("sap_ant_queen", queenfn, assets, prefabs),
+MakePlacer("sap_antthrone_placer", "throne", "throne", "full", false, nil, nil, nil, nil, nil, throneplacetestfn),
+MakePlacer("sap_ant_queen_placer", "crick_crickantqueen", "crickant_queen_basics", "idle", false, nil, nil, nil, nil, nil, queenplacetestfn)

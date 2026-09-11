@@ -18,7 +18,7 @@ local assets =
 
 local prefabs = 
 {
-	"kyno_wilbur_boat",
+	"sap_wilbur_boat",
 }
 
 local function onhammered(inst, worker)
@@ -100,7 +100,7 @@ local function fn()
     end
 	
 	local function createExtras(inst)
-	inst.boatprefab = SpawnPrefab("kyno_wilbur_boat")
+	inst.boatprefab = SpawnPrefab("sap_wilbur_boat")
 	inst.boatprefab.entity:SetParent(inst.entity)
 	end
 
@@ -173,6 +173,6 @@ local function wilburplacetestfn(inst)
     inst.AnimState:OverrideSymbol("flotsam", "flotsam_lograft_build", "flotsam")
 end
 
-return Prefab("kyno_wilbur_sleeping", fn, assets, prefabs),
-Prefab("kyno_wilbur_boat", fn2, assets, prefabs),
-MakePlacer("kyno_wilbur_sleeping_placer", "wilbur_raft", "wilbur_raft_build", "idle")
+return Prefab("sap_wilbur_sleeping", fn, assets, prefabs),
+Prefab("sap_wilbur_boat", fn2, assets, prefabs),
+MakePlacer("sap_wilbur_sleeping_placer", "wilbur_raft", "wilbur_raft_build", "idle")

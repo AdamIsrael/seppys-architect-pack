@@ -109,5 +109,5 @@ local function fn(Sim)
 	return inst
 end
 
-return Prefab("kyno_volcano_shrub", fn, assets, prefabs),
-MakePlacer("kyno_volcano_shrub_placer", "volcano_shrub", "volcano_shrub", "idle")
+return Prefab("sap_volcano_shrub", fn, assets, prefabs),
+MakePlacer("sap_volcano_shrub_placer", "volcano_shrub", "volcano_shrub", "idle")

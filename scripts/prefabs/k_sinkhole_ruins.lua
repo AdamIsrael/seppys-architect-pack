@@ -68,5 +68,5 @@ local function fn()
     return inst
 end
 
-return Prefab("kyno_sinkhole_ruins", fn, assets),
-MakePlacer("kyno_sinkhole_ruins_placer", "ruins_entrance", "ruins_entrance", "idle_closed")
+return Prefab("sap_sinkhole_ruins", fn, assets),
+MakePlacer("sap_sinkhole_ruins_placer", "ruins_entrance", "ruins_entrance", "idle_closed")

@@ -62,5 +62,5 @@ local function fn()
     return inst
 end
 
-return Prefab("kyno_talisman", fn, assets),
-MakePlacer("kyno_talisman_placer", "townportaltalisman", "townportaltalisman", "active_loop")
+return Prefab("sap_talisman", fn, assets),
+MakePlacer("sap_talisman_placer", "townportaltalisman", "townportaltalisman", "active_loop")

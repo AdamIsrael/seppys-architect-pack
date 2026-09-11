@@ -73,7 +73,7 @@ local function fn2()
     end
 	
 	local function createExtras(inst)
-	inst.fxprefab =  SpawnPrefab("kyno_moonglass_tile_fx")
+	inst.fxprefab =  SpawnPrefab("sap_moonglass_tile_fx")
 	inst.fxprefab.entity:SetParent(inst.entity)
 	end
 	
@@ -96,6 +96,6 @@ local function fn2()
 	return inst
 end
 
-return Prefab("kyno_moonglass_tile_fx", fn, assets),
-Prefab("kyno_moonglass_tile", fn2, assets),
-MakePlacer("kyno_moonglass_tile_placer", "moonglass_charged", "moonglass_charged_tile", "idle1_loop", true)
+return Prefab("sap_moonglass_tile_fx", fn, assets),
+Prefab("sap_moonglass_tile", fn2, assets),
+MakePlacer("sap_moonglass_tile_placer", "moonglass_charged", "moonglass_charged_tile", "idle1_loop", true)

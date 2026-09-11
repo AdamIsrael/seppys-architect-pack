@@ -33,9 +33,9 @@ end
 
 local function spawnsnake(inst, target)
 	if math.random() < SNAKE_POISON_CHANCE then
-		inst.components.childspawner.childname = "kyno_cobra_poison"
+		inst.components.childspawner.childname = "sap_cobra_poison"
 	else
-		inst.components.childspawner.childname = "kyno_cobra"
+		inst.components.childspawner.childname = "sap_cobra"
 	end
 
 	local snake = inst.components.childspawner:SpawnChild()
@@ -131,7 +131,7 @@ local function fn()
 	inst:AddTag("thorny")
 	inst:AddTag("snakeden")
 	
-	inst:SetPrefabNameOverride("kyno_vinebush")
+	inst:SetPrefabNameOverride("sap_vinebush")
 	
 	inst.entity:SetPristine()
 
@@ -143,7 +143,7 @@ local function fn()
 	inst:AddComponent("lootdropper")
 	
 	inst:AddComponent("childspawner")
-	inst.components.childspawner.childname = "kyno_cobra"
+	inst.components.childspawner.childname = "sap_cobra"
 	-- inst.components.childspawner:SetRareChild("kyno_cobra_poison", 0.25)
 	inst.components.childspawner:SetRegenPeriod(90)
 	inst.components.childspawner:SetSpawnPeriod(5)
@@ -195,5 +195,5 @@ local function fn()
 	return inst
 end
 
-return Prefab("kyno_snakeden", fn, assets, prefabs),
-MakePlacer("kyno_snakeden_placer", "bush_vine", "bush_vine", "idle")
+return Prefab("sap_snakeden", fn, assets, prefabs),
+MakePlacer("sap_snakeden_placer", "bush_vine", "bush_vine", "idle")

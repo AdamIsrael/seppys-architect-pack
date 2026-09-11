@@ -111,11 +111,11 @@ local function box4() -- Variant 2 - Broken
     return inst
 end
 
-return Prefab("kyno_cachebox1_full", box1, assets, prefabs),
-Prefab("kyno_cachebox1_broken", box2, assets, prefabs),
-Prefab("kyno_cachebox2_full", box3, assets, prefabs),
-Prefab("kyno_cachebox2_broken", box4, assets, prefabs),
-MakePlacer("kyno_cachebox1_full_placer", "inspectaclesbox", "inspectaclesbox", "idle_fixed_loop"),
-MakePlacer("kyno_cachebox1_broken_placer", "inspectaclesbox", "inspectaclesbox", "idle_broken_loop"),
-MakePlacer("kyno_cachebox2_full_placer", "inspectaclesbox", "inspectaclesbox2_build", "idle_fixed_loop"),
-MakePlacer("kyno_cachebox2_broken_placer", "inspectaclesbox", "inspectaclesbox2_build", "idle_broken_loop")
+return Prefab("sap_cachebox1_full", box1, assets, prefabs),
+Prefab("sap_cachebox1_broken", box2, assets, prefabs),
+Prefab("sap_cachebox2_full", box3, assets, prefabs),
+Prefab("sap_cachebox2_broken", box4, assets, prefabs),
+MakePlacer("sap_cachebox1_full_placer", "inspectaclesbox", "inspectaclesbox", "idle_fixed_loop"),
+MakePlacer("sap_cachebox1_broken_placer", "inspectaclesbox", "inspectaclesbox", "idle_broken_loop"),
+MakePlacer("sap_cachebox2_full_placer", "inspectaclesbox", "inspectaclesbox2_build", "idle_fixed_loop"),
+MakePlacer("sap_cachebox2_broken_placer", "inspectaclesbox", "inspectaclesbox2_build", "idle_broken_loop")

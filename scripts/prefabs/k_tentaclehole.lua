@@ -90,5 +90,5 @@ local function fn()
 	return inst
 end
 
-return Prefab("kyno_tentaclehole", fn, assets, prefabs),
-MakePlacer("kyno_tentaclehole_placer", "tentaclepillar", "tentacle_pillar", "idle_hole")
+return Prefab("sap_tentaclehole", fn, assets, prefabs),
+MakePlacer("sap_tentaclehole_placer", "tentaclepillar", "tentacle_pillar", "idle_hole")

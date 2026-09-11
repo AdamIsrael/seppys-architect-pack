@@ -232,11 +232,11 @@ local function beast2_leftfn()
     return inst
 end
 
-return Prefab("kyno_beaststatue", beast1fn, assets),
-Prefab("kyno_beaststatue_left", beast1_leftfn, assets),
-Prefab("kyno_beaststatue2", beast2fn, assets),
-Prefab("kyno_beaststatue2_left", beast2_leftfn, assets),
-MakePlacer("kyno_beaststatue_placer", "quagmire_altar_statue1", "quagmire_altar_statue1", "idle"),
-MakePlacer("kyno_beaststatue_left_placer", "quagmire_altar_statue1_left", "quagmire_altar_statue1_left", "idle"),
-MakePlacer("kyno_beaststatue2_placer", "quagmire_altar_statue2", "quagmire_altar_statue2", "idle"),
-MakePlacer("kyno_beaststatue2_left_placer", "quagmire_altar_statue2", "quagmire_altar_statue2_left", "idle")
+return Prefab("sap_beaststatue", beast1fn, assets),
+Prefab("sap_beaststatue_left", beast1_leftfn, assets),
+Prefab("sap_beaststatue2", beast2fn, assets),
+Prefab("sap_beaststatue2_left", beast2_leftfn, assets),
+MakePlacer("sap_beaststatue_placer", "quagmire_altar_statue1", "quagmire_altar_statue1", "idle"),
+MakePlacer("sap_beaststatue_left_placer", "quagmire_altar_statue1_left", "quagmire_altar_statue1_left", "idle"),
+MakePlacer("sap_beaststatue2_placer", "quagmire_altar_statue2", "quagmire_altar_statue2", "idle"),
+MakePlacer("sap_beaststatue2_left_placer", "quagmire_altar_statue2", "quagmire_altar_statue2_left", "idle")

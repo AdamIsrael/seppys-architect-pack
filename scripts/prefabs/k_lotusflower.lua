@@ -9,8 +9,8 @@ local assets = {
 }
 
 local prefabs = {
-    "kyno_lotus_flower_cooked",
-    "kyno_lotus_flower",
+    "sap_lotus_flower_cooked",
+    "sap_lotus_flower",
     "spoiled_food",
 }
 
@@ -61,7 +61,7 @@ local function fn()
 	inst:AddComponent("tradable")
 
 	inst:AddComponent("cookable")
-    inst.components.cookable.product = "kyno_lotus_flower_cooked"
+    inst.components.cookable.product = "sap_lotus_flower_cooked"
 		
 	MakeSmallBurnable(inst)
 	MakeSmallPropagator(inst)
@@ -122,5 +122,5 @@ local function cookedfn()
 	return inst
 end
 
-return Prefab("kyno_lotus_flower", fn, assets, prefabs),
-Prefab("kyno_lotus_flower_cooked", cookedfn, assets, prefabs)	
+return Prefab("sap_lotus_flower", fn, assets, prefabs),
+Prefab("sap_lotus_flower_cooked", cookedfn, assets, prefabs)	

@@ -193,4 +193,4 @@ local function fn()
     return inst
 end
 
-return Prefab("kyno_marsh_tree", fn, assets)
+return Prefab("sap_marsh_tree", fn, assets)

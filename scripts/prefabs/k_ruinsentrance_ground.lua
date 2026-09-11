@@ -113,9 +113,9 @@ local function entranceplacerfn(inst)
 	inst.AnimState:SetScale(s, s, s)
 	
 	inst.ApplySkin = function(inst, skin)
-		if skin == "kyno_ruinsentrance_ground2" then
+		if skin == "sap_ruinsentrance_ground2" then
 			inst.AnimState:PlayAnimation("idle2", false)
-		elseif skin == "kyno_ruinsentrance_ground3" then
+		elseif skin == "sap_ruinsentrance_ground3" then
 			inst.AnimState:PlayAnimation("idle3", false)
 		end
 	end
@@ -125,40 +125,40 @@ local function placerfn(inst)
 	inst.AnimState:SetScale(s, s, s)
 end
 
-return Prefab("kyno_ruinsentrance_ground1", entrance1, assets, prefabs),
-Prefab("kyno_ruinsentrance_ground2", entrance2, assets, prefabs),
-Prefab("kyno_ruinsentrance_ground3", entrance3, assets, prefabs),
-MakePlacer("kyno_ruinsentrance_ground1_placer", "kyno_ruinsentrance_ground", "kyno_ruinsentrance_ground", "idle1", false, nil, nil, nil, nil, nil, entranceplacerfn),
-MakePlacer("kyno_ruinsentrance_ground2_placer", "kyno_ruinsentrance_ground", "kyno_ruinsentrance_ground", "idle2", false, nil, nil, nil, nil, nil, placerfn),
-MakePlacer("kyno_ruinsentrance_ground3_placer", "kyno_ruinsentrance_ground", "kyno_ruinsentrance_ground", "idle3", false, nil, nil, nil, nil, nil, placerfn)
+return Prefab("sap_ruinsentrance_ground1", entrance1, assets, prefabs),
+Prefab("sap_ruinsentrance_ground2", entrance2, assets, prefabs),
+Prefab("sap_ruinsentrance_ground3", entrance3, assets, prefabs),
+MakePlacer("sap_ruinsentrance_ground1_placer", "kyno_ruinsentrance_ground", "kyno_ruinsentrance_ground", "idle1", false, nil, nil, nil, nil, nil, entranceplacerfn),
+MakePlacer("sap_ruinsentrance_ground2_placer", "kyno_ruinsentrance_ground", "kyno_ruinsentrance_ground", "idle2", false, nil, nil, nil, nil, nil, placerfn),
+MakePlacer("sap_ruinsentrance_ground3_placer", "kyno_ruinsentrance_ground", "kyno_ruinsentrance_ground", "idle3", false, nil, nil, nil, nil, nil, placerfn)
 --[[,
-CreateModPrefabSkin("kyno_ruinsentrance_ground2",
+CreateModPrefabSkin("sap_ruinsentrance_ground2",
 	{
 		assets = {
 			Asset("ANIM", "anim/kyno_ruinsentrance_ground.zip"),
 		},
-		base_prefab = "kyno_ruinsentrance_ground1",
+		base_prefab = "sap_ruinsentrance_ground1",
 		fn = entrance2,
 		rarity = "Timeless",
 		reskinable = true,
 		
-		build_name_override = "kyno_ruinsentrance_ground",
+		build_name_override = "sap_ruinsentrance_ground",
 		
 		type = "item",
 		skin_tags = { },
 		release_group = 0,
 	}),
-CreateModPrefabSkin("kyno_ruinsentrance_ground3",
+CreateModPrefabSkin("sap_ruinsentrance_ground3",
 	{
 		assets = {
 			Asset("ANIM", "anim/kyno_ruinsentrance_ground.zip"),
 		},
-		base_prefab = "kyno_ruinsentrance_ground1",
+		base_prefab = "sap_ruinsentrance_ground1",
 		fn = entrance3,
 		rarity = "Timeless",
 		reskinable = true,
 		
-		build_name_override = "kyno_ruinsentrance_ground",
+		build_name_override = "sap_ruinsentrance_ground",
 		
 		type = "item",
 		skin_tags = { },

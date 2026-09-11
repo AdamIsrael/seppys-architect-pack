@@ -66,5 +66,5 @@ local function fn()
 	return inst
 end
 
-return Prefab("kyno_whirlpool", fn, assets, prefabs),
-MakePlacer("kyno_whirlpool_placer", "whirlpool", "whirlpool", "idle_loop")
+return Prefab("sap_whirlpool", fn, assets, prefabs),
+MakePlacer("sap_whirlpool_placer", "whirlpool", "whirlpool", "idle_loop")

@@ -136,5 +136,5 @@ local function fn()
 	return inst
 end
 
-return Prefab("kyno_wildbore_head", fn, assets, prefabs),
-MakePlacer("kyno_wildbore_head_placer", "wildbore_head", "wildbore_head", "idle_asleep")
+return Prefab("sap_wildbore_head", fn, assets, prefabs),
+MakePlacer("sap_wildbore_head_placer", "wildbore_head", "wildbore_head", "idle_asleep")

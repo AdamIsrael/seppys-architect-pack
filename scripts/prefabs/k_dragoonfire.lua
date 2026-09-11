@@ -71,4 +71,4 @@ local function fn(Sim)
 	return inst
 end
 
-return Prefab("kyno_dragoonfire", fn, assets, prefabs)
+return Prefab("sap_dragoonfire", fn, assets, prefabs)

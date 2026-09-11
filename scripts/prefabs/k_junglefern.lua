@@ -172,11 +172,11 @@ local function fernplacer(inst)
 	inst.AnimState:SetScale(1.2, 1.2, 1.2)
 end
 
-return Prefab("kyno_junglefern", fn, assets, prefabs),
-MakePlacer("kyno_junglefern_placer", "fern_plant", "fern_plant", "idle2"),
+return Prefab("sap_junglefern", fn, assets, prefabs),
+MakePlacer("sap_junglefern_placer", "fern_plant", "fern_plant", "idle2"),
 
-Prefab("kyno_junglefern_green", fernfn, assets, prefabs),
-MakePlacer("kyno_junglefern_green_placer", "fern2_plant", "fern2_plant", "idle"),
+Prefab("sap_junglefern_green", fernfn, assets, prefabs),
+MakePlacer("sap_junglefern_green_placer", "fern2_plant", "fern2_plant", "idle"),
 
-Prefab("kyno_redfern", redfernfn, assets, prefabs),
-MakePlacer("kyno_redfern_placer", "jungle_bush", "jungle_bush", "idle_dead", false, nil, nil, nil, nil, nil, fernplacer)
+Prefab("sap_redfern", redfernfn, assets, prefabs),
+MakePlacer("sap_redfern_placer", "jungle_bush", "jungle_bush", "idle_dead", false, nil, nil, nil, nil, nil, fernplacer)

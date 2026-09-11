@@ -177,5 +177,5 @@ local function fn()
 	return inst
 end
 
-return Prefab("kyno_living_jungletree", fn, assets, prefabs),
-MakePlacer("kyno_living_jungletree_placer", "living_jungle_tree", "living_jungle_tree", "idle")
+return Prefab("sap_living_jungletree", fn, assets, prefabs),
+MakePlacer("sap_living_jungletree_placer", "living_jungle_tree", "living_jungle_tree", "idle")

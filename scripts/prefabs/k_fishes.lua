@@ -31,15 +31,6 @@ local assets =
 	Asset("ATLAS_BUILD", "images/inventoryimages/tap_inventoryimages.xml", 256),
 }
 
-local prefabs = 
-{
-	"kyno_koi",
-	"kyno_grouper",
-	"kyno_pierrotfish",
-	"kyno_neonfish",
-	"kyno_tropicalfish",
-}
-
 local fish_prefabs =
 {
 	"fishmeat_small",
@@ -232,9 +223,9 @@ local koi_data         =
     weight_max         = 420.69,
     perish_product     = "spoiled_fish",
     loot               = {"fishmeat"},
-    cookable_product   = "kyno_koi_cooked",
-    healthvalue        = TUNING.KYNO_FISH_LARGE_HEALTH,
-    hungervalue        = TUNING.KYNO_FISH_LARGE_HUNGER,
+    cookable_product   = "sap_koi_cooked",
+    healthvalue        = TUNING.SAP_FISH_LARGE_HEALTH,
+    hungervalue        = TUNING.SAP_FISH_LARGE_HUNGER,
     perish_time        = TUNING.PERISH_SUPERFAST,
 }
 
@@ -244,9 +235,9 @@ local neon_data         =
     weight_max          = 243.74,
     perish_product      = "spoiled_fish",
     loot                = {"fishmeat"},
-    cookable_product    = "kyno_neonfish_cooked",
-    healthvalue         = TUNING.KYNO_FISH_LARGE_HEALTH,
-    hungervalue         = TUNING.KYNO_FISH_LARGE_HUNGER,
+    cookable_product    = "sap_neonfish_cooked",
+    healthvalue         = TUNING.SAP_FISH_LARGE_HEALTH,
+    hungervalue         = TUNING.SAP_FISH_LARGE_HUNGER,
     perish_time         = TUNING.PERISH_SUPERFAST,
 }
 
@@ -256,18 +247,18 @@ local purple_data       =
     weight_max          = 362.87,
     perish_product      = "spoiled_fish",
     loot                = {"fishmeat"},
-    cookable_product    = "kyno_grouper_cooked",
-    healthvalue         = TUNING.KYNO_FISH_LARGE_HEALTH,
-    hungervalue         = TUNING.KYNO_FISH_LARGE_HUNGER,
+    cookable_product    = "sap_grouper_cooked",
+    healthvalue         = TUNING.SAP_FISH_LARGE_HEALTH,
+    hungervalue         = TUNING.SAP_FISH_LARGE_HUNGER,
     perish_time         = TUNING.PERISH_SUPERFAST,
 }
 
 local large_cooked_data =
 {
 	perish_product      = "spoiled_fish",
-	healthvalue         = TUNING.KYNO_FISH_LARGE_COOKED_HEALTH,
-	hungervalue         = TUNING.KYNO_FISH_LARGE_COOKED_HUNGER,
-	sanityvalue         = TUNING.KYNO_FISH_LARGE_COOKED_SANITY,
+	healthvalue         = TUNING.SAP_FISH_LARGE_COOKED_HEALTH,
+	hungervalue         = TUNING.SAP_FISH_LARGE_COOKED_HUNGER,
+	sanityvalue         = TUNING.SAP_FISH_LARGE_COOKED_SANITY,
 	stacksize           = TUNING.STACK_SIZE_MEDITEM,
 	perish_time         = TUNING.PERISH_SUPERFAST,
 }
@@ -279,9 +270,9 @@ local tropical_data     =
     weight_max          = 47.32,
     perish_product      = "spoiled_fish_small",
     loot                = {"fishmeat_small"},
-    cookable_product    = "kyno_tropicalfish_cooked",
-    healthvalue         = TUNING.KYNO_FISH_SMALL_HEALTH,
-    hungervalue         = TUNING.KYNO_FISH_SMALL_HUNGER,
+    cookable_product    = "sap_tropicalfish_cooked",
+    healthvalue         = TUNING.SAP_FISH_SMALL_HEALTH,
+    hungervalue         = TUNING.SAP_FISH_SMALL_HUNGER,
     perish_time         = TUNING.PERISH_SUPERFAST,
 }
 
@@ -291,9 +282,9 @@ local pierrot_data      =
     weight_max          = 97.55,
     perish_product      = "spoiled_fish_small",
     loot                = {"fishmeat_small"},
-    cookable_product    = "kyno_pierrotfish_cooked",
-    healthvalue         = TUNING.KYNO_FISH_SMALL_HEALTH,
-    hungervalue         = TUNING.KYNO_FISH_SMALL_HUNGER,
+    cookable_product    = "sap_pierrotfish_cooked",
+    healthvalue         = TUNING.SAP_FISH_SMALL_HEALTH,
+    hungervalue         = TUNING.SAP_FISH_SMALL_HUNGER,
     perish_time         = TUNING.PERISH_SUPERFAST,
 }
 
@@ -303,18 +294,18 @@ local salmon_data       =
     weight_max          = 110.85,
     perish_product      = "spoiled_fish_small",
     loot                = {"fishmeat_small"},
-    cookable_product    = "kyno_salmonfish_cooked",
-    healthvalue         = TUNING.KYNO_FISH_SMALL_HEALTH,
-    hungervalue         = TUNING.KYNO_FISH_SMALL_HUNGER,
+    cookable_product    = "sap_salmonfish_cooked",
+    healthvalue         = TUNING.SAP_FISH_SMALL_HEALTH,
+    hungervalue         = TUNING.SAP_FISH_SMALL_HUNGER,
     perish_time         = TUNING.PERISH_SUPERFAST,
 }
 
 local small_cooked_data =
 {
 	perish_product      = "spoiled_fish_small",
-	healthvalue         = TUNING.KYNO_FISH_SMALL_COOKED_HEALTH,
-	hungervalue         = TUNING.KYNO_FISH_SMALL_COOKED_HUNGER,
-	sanityvalue         = TUNING.KYNO_FISH_SMALL_COOKED_SANITY,
+	healthvalue         = TUNING.SAP_FISH_SMALL_COOKED_HEALTH,
+	hungervalue         = TUNING.SAP_FISH_SMALL_COOKED_HUNGER,
+	sanityvalue         = TUNING.SAP_FISH_SMALL_COOKED_SANITY,
 	stacksize           = TUNING.STACK_SIZE_SMALLITEM,
 	perish_time         = TUNING.PERISH_SUPERFAST,
 }
@@ -367,20 +358,20 @@ local function cooked_salmonfn()
 	return cookedfn("salmonfish_cooked", "salmonfish_cooked", "cooked", small_cooked_data)
 end
 
-return Prefab("kyno_koi", koifn, assets, fish_prefabs),
-Prefab("kyno_koi_cooked", cooked_koifn, assets, fish_prefabs),
+return Prefab("sap_koi", koifn, assets, fish_prefabs),
+Prefab("sap_koi_cooked", cooked_koifn, assets, fish_prefabs),
 
-Prefab("kyno_neonfish", neonfn, assets, fish_prefabs),
-Prefab("kyno_neonfish_cooked", cooked_neonfn, assets, fish_prefabs),
+Prefab("sap_neonfish", neonfn, assets, fish_prefabs),
+Prefab("sap_neonfish_cooked", cooked_neonfn, assets, fish_prefabs),
 
-Prefab("kyno_grouper", grouperfn, assets, fish_prefabs),
-Prefab("kyno_grouper_cooked", cooked_grouperfn, assets, fish_prefabs),
+Prefab("sap_grouper", grouperfn, assets, fish_prefabs),
+Prefab("sap_grouper_cooked", cooked_grouperfn, assets, fish_prefabs),
 
-Prefab("kyno_tropicalfish", tropicalfn, assets, fish_prefabs),
-Prefab("kyno_tropicalfish_cooked", cooked_tropicalfn, assets, fish_prefabs),
+Prefab("sap_tropicalfish", tropicalfn, assets, fish_prefabs),
+Prefab("sap_tropicalfish_cooked", cooked_tropicalfn, assets, fish_prefabs),
 
-Prefab("kyno_pierrotfish", pierrotfn, assets, fish_prefabs),
-Prefab("kyno_pierrotfish_cooked", cooked_pierrotfn, assets, fish_prefabs),
+Prefab("sap_pierrotfish", pierrotfn, assets, fish_prefabs),
+Prefab("sap_pierrotfish_cooked", cooked_pierrotfn, assets, fish_prefabs),
 
-Prefab("kyno_salmonfish", salmonfn, assets, fish_prefabs),
-Prefab("kyno_salmonfish_cooked", cooked_salmonfn, assets, fish_prefabs)
+Prefab("sap_salmonfish", salmonfn, assets, fish_prefabs),
+Prefab("sap_salmonfish_cooked", cooked_salmonfn, assets, fish_prefabs)

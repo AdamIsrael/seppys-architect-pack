@@ -87,7 +87,7 @@ local function fn2()
 	return inst
 end
 
-return Prefab("kyno_moonstorm_lightning", fn, assets, prefabs),
-Prefab("kyno_moonstorm_lightning2", fn2, assets, prefabs),
-MakePlacer("kyno_moonstorm_lightning_placer", "moonstorm_groundlight", "moonstorm_groundlight", "strike", true, nil, nil, nil, 90, nil),
-MakePlacer("kyno_moonstorm_lightning2_placer", "moonstorm_groundlight", "moonstorm_groundlight", "strike2", true, nil, nil, nil, 90, nil)
+return Prefab("sap_moonstorm_lightning", fn, assets, prefabs),
+Prefab("sap_moonstorm_lightning2", fn2, assets, prefabs),
+MakePlacer("sap_moonstorm_lightning_placer", "moonstorm_groundlight", "moonstorm_groundlight", "strike", true, nil, nil, nil, 90, nil),
+MakePlacer("sap_moonstorm_lightning2_placer", "moonstorm_groundlight", "moonstorm_groundlight", "strike2", true, nil, nil, nil, 90, nil)

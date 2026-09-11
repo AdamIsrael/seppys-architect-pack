@@ -175,7 +175,7 @@ local function redbushplacer(inst)
 	inst.AnimState:SetScale(1.4, 1.4, 1.4)
 end
 
-return Prefab("kyno_junglebush", fn, assets, prefabs),
-Prefab("kyno_junglevines", vinesfn, assets, prefabs),
-MakePlacer("kyno_junglebush_placer", "jungle_bush", "jungle_bush", "idle", false, nil, nil, nil, nil, nil, redbushplacer),
-MakePlacer("kyno_junglevines_placer", "marsh_bush", "junglevines", "idle", true)
+return Prefab("sap_junglebush", fn, assets, prefabs),
+Prefab("sap_junglevines", vinesfn, assets, prefabs),
+MakePlacer("sap_junglebush_placer", "jungle_bush", "jungle_bush", "idle", false, nil, nil, nil, nil, nil, redbushplacer),
+MakePlacer("sap_junglevines_placer", "marsh_bush", "junglevines", "idle", true)

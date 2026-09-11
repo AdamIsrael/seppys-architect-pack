@@ -114,7 +114,7 @@ local function houndfn()
     return inst
 end
 
-return Prefab("kyno_claywarg", fn, assets),
-Prefab("kyno_clayhound", houndfn, assets),
-MakePlacer("kyno_claywarg_placer", "claywarg", "claywarg", "statue"),
-MakePlacer("kyno_clayhound_placer", "clayhound", "clayhound", "idle_statue")
+return Prefab("sap_claywarg", fn, assets),
+Prefab("sap_clayhound", houndfn, assets),
+MakePlacer("sap_claywarg_placer", "claywarg", "claywarg", "statue"),
+MakePlacer("sap_clayhound_placer", "clayhound", "clayhound", "idle_statue")

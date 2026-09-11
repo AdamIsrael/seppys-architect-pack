@@ -108,7 +108,7 @@ local function addcoconut(name, spawn_prefab, bank, build, anim, winter_tree)
 
         inst:AddComponent("inventoryitem")
 		inst.components.inventoryitem.atlasname = "images/inventoryimages/tap_inventoryimages.xml"
-		inst.components.inventoryitem.imagename = "kyno_coconut"
+		inst.components.inventoryitem.imagename = "sap_coconut"
 
         MakeHauntableLaunchAndIgnite(inst)
 		
@@ -134,6 +134,6 @@ local function addcoconut(name, spawn_prefab, bank, build, anim, winter_tree)
     table.insert(coconuts, MakePlacer(name.."_placer", bank, build, anim))
 end
 
-addcoconut("kyno_coconut", "kyno_palmtree_sapling", "coconut", "coconut", "planted")
+addcoconut("sap_coconut", "sap_palmtree_sapling", "coconut", "coconut", "planted")
 
 return unpack(coconuts)

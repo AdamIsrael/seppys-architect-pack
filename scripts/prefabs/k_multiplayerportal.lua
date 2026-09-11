@@ -355,11 +355,11 @@ local function buildingplacetestfn(inst)
 	inst.AnimState:Show("portal01")
 end
 
-return Prefab("kyno_portalstone", charliefn, assets),
-Prefab("kyno_juryriggedportal", legacyfn, assets),
-Prefab("kyno_portalbuilding", buildfn, assets),
-Prefab("kyno_celestialportal", celestialfn, assets),
-MakePlacer("kyno_juryriggedportal_placer", "portal_legacy", "portal_juryrigged", "idle_loop"),
-MakePlacer("kyno_portalstone_placer", "portal_dst", "portal_stone", "idle_loop"),
-MakePlacer("kyno_portalbuilding_placer", "portal_construction_dst", "portal_stone_construction", "idle_loop", false, nil, nil, nil, nil, nil, buildingplacetestfn),
-MakePlacer("kyno_celestialportal_placer", "portal_moonrock_dst", "portal_moonrock", "idle_loop")
+return Prefab("sap_portalstone", charliefn, assets),
+Prefab("sap_juryriggedportal", legacyfn, assets),
+Prefab("sap_portalbuilding", buildfn, assets),
+Prefab("sap_celestialportal", celestialfn, assets),
+MakePlacer("sap_juryriggedportal_placer", "portal_legacy", "portal_juryrigged", "idle_loop"),
+MakePlacer("sap_portalstone_placer", "portal_dst", "portal_stone", "idle_loop"),
+MakePlacer("sap_portalbuilding_placer", "portal_construction_dst", "portal_stone_construction", "idle_loop", false, nil, nil, nil, nil, nil, buildingplacetestfn),
+MakePlacer("sap_celestialportal_placer", "portal_moonrock_dst", "portal_moonrock", "idle_loop")

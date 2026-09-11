@@ -225,11 +225,11 @@ local function holefn()
     return inst
 end
 
-return Prefab("kyno_sinkhole", fn, assets),
-Prefab("kyno_sinkhole_closed", closedfn, assets),
-Prefab("kyno_sinkhole_vip", vipfn, assets),
-Prefab("kyno_cavehole", holefn, assets),
-MakePlacer("kyno_sinkhole_placer", "cave_entrance", "cave_entrance", "open"),
-MakePlacer("kyno_sinkhole_closed_placer", "cave_entrance", "cave_entrance", "no_access"),
-MakePlacer("kyno_sinkhole_vip_placer", "cave_entrance", "cave_entrance", "over_capacity"),
-MakePlacer("kyno_cavehole_placer", "kyno_cavehole", "kyno_cavehole", "idle_open")
+return Prefab("sap_sinkhole", fn, assets),
+Prefab("sap_sinkhole_closed", closedfn, assets),
+Prefab("sap_sinkhole_vip", vipfn, assets),
+Prefab("sap_cavehole", holefn, assets),
+MakePlacer("sap_sinkhole_placer", "cave_entrance", "cave_entrance", "open"),
+MakePlacer("sap_sinkhole_closed_placer", "cave_entrance", "cave_entrance", "no_access"),
+MakePlacer("sap_sinkhole_vip_placer", "cave_entrance", "cave_entrance", "over_capacity"),
+MakePlacer("sap_cavehole_placer", "kyno_cavehole", "kyno_cavehole", "idle_open")

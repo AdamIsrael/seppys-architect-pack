@@ -46,4 +46,4 @@ local function fn()
 	return inst
 end
 
-return Prefab("kyno_doydoyherd", fn, assets, prefabs) 
+return Prefab("sap_doydoyherd", fn, assets, prefabs) 

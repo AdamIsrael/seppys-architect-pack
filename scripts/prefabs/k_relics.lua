@@ -209,8 +209,8 @@ local function relic5()
 	return inst
 end
 
-return Prefab("kyno_relic_1", relic1, assets, prefabs),
-Prefab("kyno_relic_2", relic2, assets, prefabs),
-Prefab("kyno_relic_3", relic3, assets, prefabs),
-Prefab("kyno_relic_4", relic4, assets, prefabs),
-Prefab("kyno_relic_5", relic5, assets, prefabs)
+return Prefab("sap_relic_1", relic1, assets, prefabs),
+Prefab("sap_relic_2", relic2, assets, prefabs),
+Prefab("sap_relic_3", relic3, assets, prefabs),
+Prefab("sap_relic_4", relic4, assets, prefabs),
+Prefab("sap_relic_5", relic5, assets, prefabs)

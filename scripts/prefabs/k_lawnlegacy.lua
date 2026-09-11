@@ -72,5 +72,5 @@ local function lawnplacer(inst)
 	inst.AnimState:SetScale(.4, .4, .4)
 end
 
-return Prefab("kyno_lawnlegacy", fn, assets),
-MakePlacer("kyno_lawnlegacy_placer", "kyno_lawnlegacy", "kyno_lawnlegacy", "idle", false, nil, nil, nil, nil, nil, lawnplacer)
+return Prefab("sap_lawnlegacy", fn, assets),
+MakePlacer("sap_lawnlegacy_placer", "kyno_lawnlegacy", "kyno_lawnlegacy", "idle", false, nil, nil, nil, nil, nil, lawnplacer)

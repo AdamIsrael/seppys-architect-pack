@@ -21,7 +21,7 @@ local assets =
 local prefabs =
 {
 	"collapse_big",
-	"kyno_mandrakeman"
+	"sap_mandrakeman"
 }
 
 local function onhammered(inst, worker)
@@ -123,7 +123,7 @@ local function fn()
 		inst.decor = {}
 		for item_name, data in pairs(decor_items) do
 			for l, offset in pairs(data) do
-				local item_inst = SpawnPrefab("kyno_mandrakeman")
+				local item_inst = SpawnPrefab("sap_mandrakeman")
 				item_inst.AnimState:PushAnimation("idle_loop", true)
 				item_inst.entity:SetParent(inst.entity)
 				item_inst.Transform:SetPosition(offset[1], offset[2], offset[3])
@@ -198,6 +198,6 @@ local function mandrakefn()
 	return inst
 end
 
-return Prefab("kyno_mandrakehouse", fn, assets, prefabs),
-Prefab("kyno_mandrakeman", mandrakefn, assets, prefabs),
-MakePlacer("kyno_mandrakehouse_placer", "elderdrake_house", "elderdrake_house", "idle", false, nil, nil, nil, 90, nil)
+return Prefab("sap_mandrakehouse", fn, assets, prefabs),
+Prefab("sap_mandrakeman", mandrakefn, assets, prefabs),
+MakePlacer("sap_mandrakehouse_placer", "elderdrake_house", "elderdrake_house", "idle", false, nil, nil, nil, 90, nil)

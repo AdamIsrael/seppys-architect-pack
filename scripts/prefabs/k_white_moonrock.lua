@@ -74,5 +74,5 @@ local function fn()
 	return inst
 end
 
-return Prefab("kyno_white_moonrock", fn, assets, prefabs),
-MakePlacer("kyno_white_moonrock_placer", "kyno_white_moonrock", "kyno_white_moonrock", "full")
+return Prefab("sap_white_moonrock", fn, assets, prefabs),
+MakePlacer("sap_white_moonrock_placer", "kyno_white_moonrock", "kyno_white_moonrock", "full")

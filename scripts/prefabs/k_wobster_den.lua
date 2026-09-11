@@ -277,7 +277,7 @@ local function moonglassfn()
 end
 
 
-return Prefab("kyno_wobster_den", fn, assets, prefabs),
-Prefab("kyno_moon_wobster_den", moonglassfn, moonglassassets, moonglass_prefabs),
-MakePlacer("kyno_wobster_den_placer", "lobster_den", "lobster_den_build", "eyes_loop"),
-MakePlacer("kyno_moon_wobster_den_placer", "lobster_den", "lobster_den_moonglass_build", "eyes_loop")
+return Prefab("sap_wobster_den", fn, assets, prefabs),
+Prefab("sap_moon_wobster_den", moonglassfn, moonglassassets, moonglass_prefabs),
+MakePlacer("sap_wobster_den_placer", "lobster_den", "lobster_den_build", "eyes_loop"),
+MakePlacer("sap_moon_wobster_den_placer", "lobster_den", "lobster_den_moonglass_build", "eyes_loop")

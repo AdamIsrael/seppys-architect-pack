@@ -118,7 +118,7 @@ local function tallfn()
     return inst
 end
 
-return Prefab("kyno_ironfencesmall", fn, assets),
-Prefab("kyno_ironfencetall", tallfn, assets),
-MakePlacer("kyno_ironfencesmall_placer", "quagmire_park_fence", "quagmire_park_fence", "idle_short"),
-MakePlacer("kyno_ironfencetall_placer", "quagmire_park_fence", "quagmire_park_fence", "idle")
+return Prefab("sap_ironfencesmall", fn, assets),
+Prefab("sap_ironfencetall", tallfn, assets),
+MakePlacer("sap_ironfencesmall_placer", "quagmire_park_fence", "quagmire_park_fence", "idle_short"),
+MakePlacer("sap_ironfencetall_placer", "quagmire_park_fence", "quagmire_park_fence", "idle")

@@ -21,7 +21,7 @@ local prefabs =
 }
 
 local function makeemptyfn(inst)
-	local active = SpawnPrefab("kyno_elephantcactus_active")
+	local active = SpawnPrefab("sap_elephantcactus_active")
 	active.Physics:Teleport(inst.Transform:GetWorldPosition())
 
 	if inst.components.pickable and inst.components.pickable.withered then
@@ -102,7 +102,7 @@ local function makefullfn(inst)
 	inst.AnimState:PlayAnimation(pickanim(inst))
 
     inst:ListenForEvent("animover", function(inst)
-        local active = SpawnPrefab("kyno_elephantcactus_active")
+        local active = SpawnPrefab("sap_elephantcactus_active")
         if active then
             active.Physics:Teleport(inst.Transform:GetWorldPosition())
             inst:Remove()
@@ -147,7 +147,7 @@ end
 
 local function onseasonchange(inst)
     if TheWorld.state.issummer then
-        local active = SpawnPrefab("kyno_elephantcactus_active")
+        local active = SpawnPrefab("sap_elephantcactus_active")
         if active then
             active.Physics:Teleport(inst.Transform:GetWorldPosition())
             inst:Remove()
@@ -162,7 +162,7 @@ local function onseasonchange_active(inst)
 	end
 
 	if TheWorld.state.isautumn and inst.prevseason == SEASONS.AUTUMN then
-		local dormant = SpawnPrefab("kyno_elephantcactus")
+		local dormant = SpawnPrefab("sap_elephantcactus")
 		if dormant then
 			dormant.Physics:Teleport(inst.Transform:GetWorldPosition())
 			inst:Remove()
@@ -370,9 +370,9 @@ local function stumpfn()
 end
 
 -- you can find dug_elephantcactus in plantables.lua
-return Prefab("kyno_elephantcactus", fn, assets, prefabs),
-Prefab("kyno_elephantcactus_active", activefn, assets, prefabs),
-Prefab("kyno_elephantcactus_stump", stumpfn, assets, prefabs),
-MakePlacer("kyno_elephantcactus_placer", "cactus_volcano", "cactus_volcano", "idle_spike"),
-MakePlacer("kyno_elephantcactus_active_placer", "cactus_volcano", "cactus_volcano", "idle_spike"),
-MakePlacer("kyno_elephantcactus_stump_placer", "cactus_volcano", "cactus_volcano", "idle_spike")
+return Prefab("sap_elephantcactus", fn, assets, prefabs),
+Prefab("sap_elephantcactus_active", activefn, assets, prefabs),
+Prefab("sap_elephantcactus_stump", stumpfn, assets, prefabs),
+MakePlacer("sap_elephantcactus_placer", "cactus_volcano", "cactus_volcano", "idle_spike"),
+MakePlacer("sap_elephantcactus_active_placer", "cactus_volcano", "cactus_volcano", "idle_spike"),
+MakePlacer("sap_elephantcactus_stump_placer", "cactus_volcano", "cactus_volcano", "idle_spike")

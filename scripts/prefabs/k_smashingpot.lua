@@ -13,7 +13,7 @@ local assets =
 
 local prefabs = 
 {
-	"kyno_smashedpot",
+	"sap_smashedpot",
 }
 
 local function onhammered(inst, worker)
@@ -21,7 +21,7 @@ local function onhammered(inst, worker)
 	SpawnPrefab("collapse_small").Transform:SetPosition(inst.Transform:GetWorldPosition())
 	inst.SoundEmitter:PlaySound("dontstarve/common/destroy_pot_bigger")
 	inst:Remove()
-	SpawnPrefab("kyno_smashedpot").Transform:SetPosition(inst.Transform:GetWorldPosition())
+	SpawnPrefab("sap_smashedpot").Transform:SetPosition(inst.Transform:GetWorldPosition())
 end
 
 local function onhammered_smashed(inst, worker)
@@ -128,6 +128,6 @@ local function smashedfn()
 	return inst
 end
 
-return Prefab("kyno_smashingpot", fn, assets, prefabs),
-Prefab("kyno_smashedpot", smashedfn, assets, prefabs),
-MakePlacer("kyno_smashingpot_placer", "pig_ruins_pot", "pig_ruins_pot", "idle")
+return Prefab("sap_smashingpot", fn, assets, prefabs),
+Prefab("sap_smashedpot", smashedfn, assets, prefabs),
+MakePlacer("sap_smashingpot_placer", "pig_ruins_pot", "pig_ruins_pot", "idle")

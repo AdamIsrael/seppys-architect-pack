@@ -241,7 +241,7 @@ local states=
 			local p1 = inst:GetPosition()
 			inst.nestpos = p1
 
-			SpawnPrefab("kyno_doydoy_mate_fx").Transform:SetPosition(inst.nestpos:Get())
+			SpawnPrefab("sap_doydoy_mate_fx").Transform:SetPosition(inst.nestpos:Get())
 		end,
 		
 		events=
@@ -382,7 +382,7 @@ local states=
 			local p1 = inst:GetPosition()
 			inst.nestpos = p1
 
-			SpawnPrefab("kyno_doydoy_mate_fx").Transform:SetPosition(inst.nestpos:Get())
+			SpawnPrefab("sap_doydoy_mate_fx").Transform:SetPosition(inst.nestpos:Get())
 		end,
 		
 		events=
@@ -417,7 +417,7 @@ local states=
 			inst.AnimState:PlayAnimation("mate_pst")
 			inst.entity:Show()
 
-			SpawnPrefab("kyno_doydoynest2").Transform:SetPosition(inst:GetPosition():Get())
+			SpawnPrefab("sap_doydoynest2").Transform:SetPosition(inst:GetPosition():Get())
 
 			if math.random() < 0.2 then
 				SpawnPrefab("goose_feather").Transform:SetPosition(inst:GetPosition():Get())

@@ -243,7 +243,7 @@ local function FixUpFenceOrientation(inst, deployedrotation)
     while neighbor ~= nil do
         neighbor_e = CalcRotationEnum(neighbor.Transform:GetRotation())
 
-        if (neighbor.isdoor or neighbor.prefab == "kyno_driftwood_fence") and (this_e % (ROT_SIDES/2) == neighbor_e % (ROT_SIDES/2)) then
+        if (neighbor.isdoor or neighbor.prefab == "sap_driftwood_fence") and (this_e % (ROT_SIDES/2) == neighbor_e % (ROT_SIDES/2)) then
             break
         end
         neighbor_index = neighbor_index + 1
@@ -261,7 +261,7 @@ local function FixUpFenceOrientation(inst, deployedrotation)
     end
 
     if neighbor ~= nil then        
-        if (neighbor.isdoor or neighbor.prefab == "kyno_driftwood_fence") and (this_e + ROT_SIDES/2) % ROT_SIDES == neighbor_e then
+        if (neighbor.isdoor or neighbor.prefab == "sap_driftwood_fence") and (this_e + ROT_SIDES/2) % ROT_SIDES == neighbor_e then
             rot = rot + 180
             this_e = CalcRotationEnum(rot)
         end
@@ -598,7 +598,7 @@ local function MakeWall(name, anims, isdoor, klaussackkeyid)
         inst.anims = anims
 
         inst:AddComponent("lootdropper")
-        inst.components.lootdropper:SetLoot(isdoor and { "kyno_driftwood_boards", "kyno_driftwood_boards", "rope" } or { "twigs" })
+        inst.components.lootdropper:SetLoot(isdoor and { "sap_driftwood_boards", "sap_driftwood_boards", "rope" } or { "twigs" })
 
         if TheNet:GetServerGameMode() ~= "quagmire" then
             inst:AddComponent("workable")
@@ -820,7 +820,7 @@ local function MakeWallPlacer(placer, placement, anims, isdoor)
     return MakePlacer(
         placer,
         "fence",
-        "kyno_driftwood_fence",
+        "sap_driftwood_fence",
         not isdoor and "idle" or nil,
         nil, nil, true, nil, 0, "eight",
 	function(inst)
@@ -836,6 +836,6 @@ local function MakeWallPlacer(placer, placement, anims, isdoor)
 	end)
 end
 
-return MakeWall("kyno_driftwood_fence",                                    {wide = "kyno_driftwood_fence", narrow = "fence_thin"},       false),
-MakeInvItem("kyno_driftwood_fence_item",           "kyno_driftwood_fence", "kyno_driftwood_fence",                                       false),
-MakeWallPlacer("kyno_driftwood_fence_item_placer", "kyno_driftwood_fence", {wide = "kyno_driftwood_fence", narrow = "fence_thin"},       false)
+return MakeWall("sap_driftwood_fence",                                    {wide = "kyno_driftwood_fence", narrow = "fence_thin"},       false),
+MakeInvItem("sap_driftwood_fence_item",           "sap_driftwood_fence", "kyno_driftwood_fence",                                       false),
+MakeWallPlacer("sap_driftwood_fence_item_placer", "sap_driftwood_fence", {wide = "kyno_driftwood_fence", narrow = "fence_thin"},       false)

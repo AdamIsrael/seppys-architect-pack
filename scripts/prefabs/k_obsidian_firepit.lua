@@ -10,7 +10,7 @@ local assets =
 
 local prefabs =
 {
-    "kyno_obsidianfire",
+    "sap_obsidianfire",
     "collapse_small",
     "ash",
 	"charcoal",
@@ -152,7 +152,7 @@ local function fn()
 	inst:AddComponent("storytellingprop")
 
     inst:AddComponent("burnable")
-    inst.components.burnable:AddBurnFX("kyno_obsidianfire", Vector3(0, .6, 0))
+    inst.components.burnable:AddBurnFX("sap_obsidianfire", Vector3(0, .6, 0))
     inst:ListenForEvent("onextinguish", onextinguish)
 
     inst:AddComponent("workable")
@@ -197,5 +197,5 @@ local function fn()
     return inst
 end
 
-return Prefab("kyno_obsidian_firepit", fn, assets, prefabs),
-MakePlacer("kyno_obsidian_firepit_placer", "firepit_obsidian", "firepit_obsidian", "preview")
+return Prefab("sap_obsidian_firepit", fn, assets, prefabs),
+MakePlacer("sap_obsidian_firepit_placer", "firepit_obsidian", "firepit_obsidian", "preview")

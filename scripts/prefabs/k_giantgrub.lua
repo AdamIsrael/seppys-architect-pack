@@ -148,5 +148,5 @@ local function grubplacetestfn(inst)
 	inst.AnimState:SetScale(3, 3, 3)
 end
 
-return Prefab("kyno_grub", fn, assets, prefabs),
-MakePlacer("kyno_grub_placer", "giant_grub", "giant_grub", "idle", false, nil, nil, nil, 90, nil, grubplacetestfn)  
+return Prefab("sap_grub", fn, assets, prefabs),
+MakePlacer("sap_grub_placer", "giant_grub", "giant_grub", "idle", false, nil, nil, nil, 90, nil, grubplacetestfn)  

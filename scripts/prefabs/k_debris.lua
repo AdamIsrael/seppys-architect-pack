@@ -15,11 +15,11 @@ local assets =
 }
 
 local prefabs = {
-    "kyno_wally_bird",
-    "kyno_debris_1",
-    "kyno_debris_2",
-    "kyno_debris_3",
-    "kyno_shipmast",
+    "sap_wally_bird",
+    "sap_debris_1",
+    "sap_debris_2",
+    "sap_debris_3",
+    "sap_shipmast",
 }
 
 local function onhammered(inst, worker)
@@ -223,13 +223,13 @@ local function shipmastfn()
 	return inst
 end
 	
-return Prefab("kyno_debris", fn, assets, prefabs),
-Prefab("kyno_wally_bird", birdfn, assets),
-Prefab("kyno_debris_1", function() return debrisfn("debris_1") end, assets),
-Prefab("kyno_debris_2", function() return debrisfn("debris_2") end, assets),
-Prefab("kyno_debris_3", function() return debrisfn("debris_3") end, assets),
-Prefab("kyno_shipmast", function() return shipmastfn("idle_empty", "hit", 4, "boards", true) end, assets),
-MakePlacer("kyno_shipmast_placer", "parrot_pirate_intro", "parrot_pirate_intro", "idle_empty"),
-MakePlacer("kyno_debris_1_placer", "parrot_pirate_intro", "parrot_pirate_intro", "debris_1"),
-MakePlacer("kyno_debris_2_placer", "parrot_pirate_intro", "parrot_pirate_intro", "debris_2"),
-MakePlacer("kyno_debris_3_placer", "parrot_pirate_intro", "parrot_pirate_intro", "debris_3")
+return Prefab("sap_debris", fn, assets, prefabs),
+Prefab("sap_wally_bird", birdfn, assets),
+Prefab("sap_debris_1", function() return debrisfn("debris_1") end, assets),
+Prefab("sap_debris_2", function() return debrisfn("debris_2") end, assets),
+Prefab("sap_debris_3", function() return debrisfn("debris_3") end, assets),
+Prefab("sap_shipmast", function() return shipmastfn("idle_empty", "hit", 4, "boards", true) end, assets),
+MakePlacer("sap_shipmast_placer", "parrot_pirate_intro", "parrot_pirate_intro", "idle_empty"),
+MakePlacer("sap_debris_1_placer", "parrot_pirate_intro", "parrot_pirate_intro", "debris_1"),
+MakePlacer("sap_debris_2_placer", "parrot_pirate_intro", "parrot_pirate_intro", "debris_2"),
+MakePlacer("sap_debris_3_placer", "parrot_pirate_intro", "parrot_pirate_intro", "debris_3")

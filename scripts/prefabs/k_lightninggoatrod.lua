@@ -150,5 +150,5 @@ local function fn()
     return inst
 end
 
-return Prefab("kyno_lightninggoatrod", fn, assets, prefabs),
-MakePlacer("kyno_lightninggoatrod_placer", "kyno_lightninggoatrod", "kyno_lightninggoatrod", "idle")
+return Prefab("sap_lightninggoatrod", fn, assets, prefabs),
+MakePlacer("sap_lightninggoatrod_placer", "kyno_lightninggoatrod", "kyno_lightninggoatrod", "idle")

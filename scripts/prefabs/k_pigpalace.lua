@@ -18,7 +18,7 @@ local assets =
 
 local prefabs =
 {
-    "kyno_pigman_queen",
+    "sap_pigman_queen",
     "splash_sink",
 }
 
@@ -323,7 +323,7 @@ local function fn()
 	inst.components.workable:SetWorkLeft(4)
 	
 	inst:AddComponent("spawner")
-    inst.components.spawner:Configure("kyno_pigman_queen", TUNING.TOTAL_DAY_TIME*4)
+    inst.components.spawner:Configure("sap_pigman_queen", TUNING.TOTAL_DAY_TIME*4)
     inst.components.spawner.onoccupied = onoccupied
     inst.components.spawner.onvacate = onvacate
     inst.components.spawner:SetWaterSpawning(false, true)
@@ -362,7 +362,7 @@ end
 
 local function palaceplacerfn(inst)
 	inst.ApplySkin = function(inst, skin)
-		if skin == "kyno_pigpalace2" then
+		if skin == "sap_pigpalace2" then
 			inst.AnimState:SetBank("palace2")
 			inst.AnimState:SetBuild("palace2")
 			inst.AnimState:PlayAnimation("idle", true)
@@ -370,17 +370,17 @@ local function palaceplacerfn(inst)
 	end
 end
 
-return Prefab("kyno_pigpalace", fn, assets, prefabs),
-Prefab("kyno_pigpalace2", oldfn, assets, prefabs),
-MakePlacer("kyno_pigpalace_placer", "palace", "palace", "idle", false, nil, nil, nil, nil, nil, palaceplacerfn),
-MakePlacer("kyno_pigpalace2_placer", "palace2", "palace2", "idle")
+return Prefab("sap_pigpalace", fn, assets, prefabs),
+Prefab("sap_pigpalace2", oldfn, assets, prefabs),
+MakePlacer("sap_pigpalace_placer", "palace", "palace", "idle", false, nil, nil, nil, nil, nil, palaceplacerfn),
+MakePlacer("sap_pigpalace2_placer", "palace2", "palace2", "idle")
 --[[
-CreateModPrefabSkin("kyno_pigpalace2",
+CreateModPrefabSkin("sap_pigpalace2",
 	{
 		assets = {
 			Asset("ANIM", "anim/palace2.zip"),
 		},
-		base_prefab = "kyno_pigpalace",
+		base_prefab = "sap_pigpalace",
 		fn = oldfn,
 		rarity = "Timeless",
 		reskinable = true,

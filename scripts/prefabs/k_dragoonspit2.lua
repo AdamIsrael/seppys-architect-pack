@@ -56,7 +56,7 @@ local function fn(Sim)
     inst.AnimState:PushAnimation("idle_loop")
     inst.AnimState:SetBloomEffectHandle("shaders/anim.ksh")
 	
-	inst:SetPrefabOverrideName("kyno_dragoonspit")
+	inst:SetPrefabOverrideName("sap_dragoonspit")
 
     inst.cooltask = inst:DoTaskInTime(3, function(inst) 
     	inst.AnimState:PushAnimation("cool", false)
@@ -92,4 +92,4 @@ local function fn(Sim)
     return inst
 end
 
-return Prefab("kyno_dragoonspit2", fn, assets)
+return Prefab("sap_dragoonspit2", fn, assets)

@@ -417,14 +417,14 @@ local function tikitent()
     return inst
 end
 
-return Prefab("kyno_silktent", silktent, silktent_assets),
-MakePlacer("kyno_silktent_placer", "silktent", "silktent", "anim"),
+return Prefab("sap_silktent", silktent, silktent_assets),
+MakePlacer("sap_silktent_placer", "silktent", "silktent", "anim"),
 
-Prefab("kyno_furtent", furtent, furtent_assets),
-MakePlacer("kyno_furtent_placer", "furtent", "furtent", "anim"),
+Prefab("sap_furtent", furtent, furtent_assets),
+MakePlacer("sap_furtent_placer", "furtent", "furtent", "anim"),
 
-Prefab("kyno_tentacletent", tentacletent, tentacletent_assets),
-MakePlacer("kyno_tentacletent_placer", "tentacletent", "tentacletent", "anim"),
+Prefab("sap_tentacletent", tentacletent, tentacletent_assets),
+MakePlacer("sap_tentacletent_placer", "tentacletent", "tentacletent", "anim"),
 
-Prefab("kyno_tikitent", tikitent, tikitent_assets),
-MakePlacer("kyno_tikitent_placer", "tent", "teepee", "anim")
+Prefab("sap_tikitent", tikitent, tikitent_assets),
+MakePlacer("sap_tikitent_placer", "tent", "teepee", "anim")

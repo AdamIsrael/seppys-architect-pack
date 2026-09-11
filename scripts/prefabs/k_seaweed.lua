@@ -69,5 +69,5 @@ local function fn()
 	return inst
 end
 
-return Prefab("kyno_seaweed", fn, assets, prefabs),
-MakePlacer("kyno_seaweed_placer", "seaweed", "seaweed", "idle_plant")
+return Prefab("sap_seaweed", fn, assets, prefabs),
+MakePlacer("sap_seaweed_placer", "seaweed", "seaweed", "idle_plant")

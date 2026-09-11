@@ -175,6 +175,6 @@ local function realfn()
     return inst
 end
 
-return Prefab("kyno_wormlight", fn, assets, prefabs),
-Prefab("kyno_wormlight_real", realfn, assets, prefabs),
-MakePlacer("kyno_wormlight_placer", "worm", "worm", "berry_idle")
+return Prefab("sap_wormlight", fn, assets, prefabs),
+Prefab("sap_wormlight_real", realfn, assets, prefabs),
+MakePlacer("sap_wormlight_placer", "worm", "worm", "berry_idle")

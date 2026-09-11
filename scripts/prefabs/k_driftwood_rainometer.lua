@@ -133,5 +133,5 @@ local function fn()
     return inst
 end
 
-return Prefab("kyno_driftwood_rainometer", fn, assets, prefabs),
-MakePlacer("kyno_driftwood_rainometer_placer", "rain_meter", "kyno_driftwood_rainometer", "idle")
+return Prefab("sap_driftwood_rainometer", fn, assets, prefabs),
+MakePlacer("sap_driftwood_rainometer_placer", "rain_meter", "sap_driftwood_rainometer", "idle")

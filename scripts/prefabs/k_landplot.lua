@@ -69,5 +69,5 @@ local function landplacerfn(inst)
 	inst.AnimState:SetScale(.8, .8, .8)
 end
 
-return Prefab("kyno_landplot", fn, assets),
-MakePlacer("kyno_landplot_placer", "landplot", "land_plot", "idle", false, nil, nil, nil, nil, nil, landplacerfn)
+return Prefab("sap_landplot", fn, assets),
+MakePlacer("sap_landplot_placer", "landplot", "land_plot", "idle", false, nil, nil, nil, nil, nil, landplacerfn)

@@ -425,7 +425,7 @@ local function fn_empty()
     return inst
 end
 
-return Prefab("kyno_monkeyisland_hut", fn, assets, prefabs),
-Prefab("kyno_monkeyisland_hut_empty", fn_empty, assets, prefabs),
-MakePlacer("kyno_monkeyisland_hut_placer", "monkeyhut", "monkeyhut", "idle"),
-MakePlacer("kyno_monkeyisland_hut_empty_placer", "monkeyhut", "monkeyhut", "idle")
+return Prefab("sap_monkeyisland_hut", fn, assets, prefabs),
+Prefab("sap_monkeyisland_hut_empty", fn_empty, assets, prefabs),
+MakePlacer("sap_monkeyisland_hut_placer", "monkeyhut", "monkeyhut", "idle"),
+MakePlacer("sap_monkeyisland_hut_empty_placer", "monkeyhut", "monkeyhut", "idle")

@@ -131,7 +131,7 @@ local function darkfn()
 	return inst
 end
 
-return Prefab("kyno_boomshroom", regularfn, assets, prefabs),
-Prefab("kyno_boomshroom_dark", darkfn, assets, prefabs),
-MakePlacer("kyno_boomshroom_placer", "mushroombomb", "mushroombomb", "grow1"),
-MakePlacer("kyno_boomshroom_dark_placer", "mushroombomb", "mushroombomb_dark_build", "grow1")
+return Prefab("sap_boomshroom", regularfn, assets, prefabs),
+Prefab("sap_boomshroom_dark", darkfn, assets, prefabs),
+MakePlacer("sap_boomshroom_placer", "mushroombomb", "mushroombomb", "grow1"),
+MakePlacer("sap_boomshroom_dark_placer", "mushroombomb", "mushroombomb_dark_build", "grow1")

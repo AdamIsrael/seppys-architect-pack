@@ -97,7 +97,7 @@ local function fn()
 	inst.AnimState:PlayAnimation("idle", true)
 	
 	inst:AddTag("structure")
-	inst:AddTag("kyno_carnival")
+	inst:AddTag("sap_carnival")
 	
 	MakeSnowCoveredPristine(inst)
 	
@@ -146,7 +146,7 @@ local function naturalfn()
 	inst.AnimState:PlayAnimation("idle", true)
 	
 	inst:AddTag("structure")
-	inst:AddTag("kyno_carnival")
+	inst:AddTag("sap_carnival")
 	
 	MakeSnowCoveredPristine(inst)
 	
@@ -199,7 +199,7 @@ local function noleaffn()
 	inst.AnimState:Hide("leaves-2")
 	
 	inst:AddTag("structure")
-	inst:AddTag("kyno_carnival")
+	inst:AddTag("sap_carnival")
 	
 	MakeSnowCoveredPristine(inst)
 	
@@ -272,11 +272,11 @@ local function carnivalplacer(inst)
 	inst.AnimState:Hide("leaves-2")
 end
 
-return Prefab("kyno_carnival_tree", fn, assets, prefabs),
-Prefab("kyno_carnival_tree_natural", naturalfn, assets, prefabs),
-Prefab("kyno_carnival_tree_noleaf", noleaffn, assets, prefabs),
-Prefab("kyno_carnival_tree_floor", floorfn, assets, prefabs),
-MakePlacer("kyno_carnival_tree_placer", "carnival_plaza", "carnival_plaza", "idle"),
-MakePlacer("kyno_carnival_tree_natural_placer", "kyno_carnival_tree", "kyno_carnival_tree", "idle"),
-MakePlacer("kyno_carnival_tree_noleaf_placer", "kyno_carnival_tree2", "kyno_carnival_tree2", "idle", false, nil, nil, nil, nil, nil, carnivalplacer),
-MakePlacer("kyno_carnival_tree_floor_placer", "carnival_plaza_floor", "carnival_plaza_floor", "idle", true, nil, nil, nil, 90, nil)
+return Prefab("sap_carnival_tree", fn, assets, prefabs),
+Prefab("sap_carnival_tree_natural", naturalfn, assets, prefabs),
+Prefab("sap_carnival_tree_noleaf", noleaffn, assets, prefabs),
+Prefab("sap_carnival_tree_floor", floorfn, assets, prefabs),
+MakePlacer("sap_carnival_tree_placer", "carnival_plaza", "carnival_plaza", "idle"),
+MakePlacer("sap_carnival_tree_natural_placer", "kyno_carnival_tree", "kyno_carnival_tree", "idle"),
+MakePlacer("sap_carnival_tree_noleaf_placer", "kyno_carnival_tree2", "kyno_carnival_tree2", "idle", false, nil, nil, nil, nil, nil, carnivalplacer),
+MakePlacer("sap_carnival_tree_floor_placer", "carnival_plaza_floor", "carnival_plaza_floor", "idle", true, nil, nil, nil, 90, nil)

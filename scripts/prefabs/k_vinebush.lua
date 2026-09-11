@@ -72,5 +72,5 @@ local function fn()
 	return inst
 end
 
-return Prefab("kyno_vinebush", fn, assets, prefabs),
-MakePlacer("kyno_vinebush_placer", "bush_vine", "bush_vine", "idle")
+return Prefab("sap_vinebush", fn, assets, prefabs),
+MakePlacer("sap_vinebush_placer", "bush_vine", "bush_vine", "idle")

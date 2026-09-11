@@ -131,7 +131,7 @@ local function badfn()
     inst.AnimState:PlayAnimation("off")
     
 	inst:AddTag("structure")
-	inst:AddTag("kyno_carnival")
+	inst:AddTag("sap_carnival")
 	
 	MakeSnowCoveredPristine(inst)
 	
@@ -187,7 +187,7 @@ local function goodfn()
     inst.AnimState:PlayAnimation("off")
     
 	inst:AddTag("structure")
-	inst:AddTag("kyno_carnival")
+	inst:AddTag("sap_carnival")
 	
 	MakeSnowCoveredPristine(inst)
 	
@@ -254,7 +254,7 @@ local function machinefn()
     inst.AnimState:PlayAnimation("idle_off")
     
 	inst:AddTag("structure")
-	inst:AddTag("kyno_carnival")
+	inst:AddTag("sap_carnival")
 	
 	MakeSnowCoveredPristine(inst)
 	
@@ -333,11 +333,11 @@ local function floorfn()
 	return inst
 end
 
-return Prefab("kyno_carnival_memory_bad", badfn, assets),
-Prefab("kyno_carnival_memory_good", goodfn, assets),
-Prefab("kyno_carnival_memory_station", machinefn, assets),
-Prefab("kyno_carnival_memory_floor", floorfn, assets),
-MakePlacer("kyno_carnival_memory_bad_placer", "carnivalgame_memory_card", "carnivalgame_memory_card", "off"),
-MakePlacer("kyno_carnival_memory_good_placer", "carnivalgame_memory_card", "carnivalgame_memory_card", "off"),
-MakePlacer("kyno_carnival_memory_station_placer", "carnivalgame_memory_station", "carnivalgame_memory_station", "idle_off"),
-MakePlacer("kyno_carnival_memory_floor_placer", "carnivalgame_memory_floor", "carnivalgame_memory_floor", "idle", true, nil, nil, nil, 90, nil)
+return Prefab("sap_carnival_memory_bad", badfn, assets),
+Prefab("sap_carnival_memory_good", goodfn, assets),
+Prefab("sap_carnival_memory_station", machinefn, assets),
+Prefab("sap_carnival_memory_floor", floorfn, assets),
+MakePlacer("sap_carnival_memory_bad_placer", "carnivalgame_memory_card", "carnivalgame_memory_card", "off"),
+MakePlacer("sap_carnival_memory_good_placer", "carnivalgame_memory_card", "carnivalgame_memory_card", "off"),
+MakePlacer("sap_carnival_memory_station_placer", "carnivalgame_memory_station", "carnivalgame_memory_station", "idle_off"),
+MakePlacer("sap_carnival_memory_floor_placer", "carnivalgame_memory_floor", "carnivalgame_memory_floor", "idle", true, nil, nil, nil, 90, nil)

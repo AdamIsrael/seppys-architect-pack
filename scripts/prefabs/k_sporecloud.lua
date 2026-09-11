@@ -416,5 +416,5 @@ local function overlayfn()
     return inst
 end
 
-return Prefab("kyno_sporecloud", fn, assets, prefabs),
-MakePlacer("kyno_sporecloud_placer", "sporecloud_base", "sporecloud_base", "sporecloud_base_idle", true)
+return Prefab("sap_sporecloud", fn, assets, prefabs),
+MakePlacer("sap_sporecloud_placer", "sporecloud_base", "sporecloud_base", "sporecloud_base_idle", true)

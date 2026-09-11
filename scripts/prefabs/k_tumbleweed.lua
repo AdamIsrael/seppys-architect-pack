@@ -364,7 +364,7 @@ local function fn2()
     return inst
 end
 
-return Prefab("kyno_tumbleweed", fn, assets, prefabs),
-Prefab("kyno_tumbleweed_ice", fn2, assets, prefabs),
-MakePlacer("kyno_tumbleweed_placer", "tumbleweed", "tumbleweed", "idle"),
-MakePlacer("kyno_tumbleweed_ice_placer", "tumbleweed_icy", "tumbleweed_icy", "idle")
+return Prefab("sap_tumbleweed", fn, assets, prefabs),
+Prefab("sap_tumbleweed_ice", fn2, assets, prefabs),
+MakePlacer("sap_tumbleweed_placer", "tumbleweed", "tumbleweed", "idle"),
+MakePlacer("sap_tumbleweed_ice_placer", "tumbleweed_icy", "tumbleweed_icy", "idle")

@@ -65,5 +65,5 @@ local function fn()
     return inst
 end
 
-return Prefab("kyno_antlionsinkhole", fn, assets, prefabs),
-MakePlacer("kyno_antlionsinkhole_placer", "sinkhole", "antlion_sinkhole", "idle", true, nil, nil, nil, 90, nil)
+return Prefab("sap_antlionsinkhole", fn, assets, prefabs),
+MakePlacer("sap_antlionsinkhole_placer", "sinkhole", "antlion_sinkhole", "idle", true, nil, nil, nil, 90, nil)

@@ -73,5 +73,5 @@ local function pumpkinheadplacerfn(inst)
 	inst.AnimState:SetScale(1.5, 1.5, 1.5)
 end
 
-return Prefab("kyno_pumpkinhead", fn, assets),
-MakePlacer("kyno_pumpkinhead_placer", "kyno_adai_pumpkinhat", "hat_kyno_adai_pumpkin", "anim", false, nil, nil, nil, nil, nil, pumpkinheadplacerfn)
+return Prefab("sap_pumpkinhead", fn, assets),
+MakePlacer("sap_pumpkinhead_placer", "sap_adai_pumpkinhat", "hat_kyno_adai_pumpkin", "anim", false, nil, nil, nil, nil, nil, pumpkinheadplacerfn)

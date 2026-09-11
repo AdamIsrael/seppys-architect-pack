@@ -98,4 +98,4 @@ local function dead_sea_bones()
     return inst
 end
 
-return Prefab("kyno_dead_sea_bones", dead_sea_bones, dead_sea_bones_assets, prefabs)
+return Prefab("sap_dead_sea_bones", dead_sea_bones, dead_sea_bones_assets, prefabs)

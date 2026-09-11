@@ -145,5 +145,5 @@ local function fn()
 	return inst
 end
 
-return Prefab("kyno_speartrap", fn, assets, prefabs),
-MakePlacer("kyno_speartrap_placer", "spear_trap", "spear_trap", "idle_extend")  
+return Prefab("sap_speartrap", fn, assets, prefabs),
+MakePlacer("sap_speartrap_placer", "spear_trap", "spear_trap", "idle_extend")  

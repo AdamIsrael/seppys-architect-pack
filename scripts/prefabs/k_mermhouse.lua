@@ -254,4 +254,4 @@ local function invalid_placement_fn(player, placer)
     end
 end
 
-return MakeMermHouse("kyno_mermhouse", mermhouse_common, mermhouse_master)
+return MakeMermHouse("sap_mermhouse", mermhouse_common, mermhouse_master)

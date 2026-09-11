@@ -159,7 +159,7 @@ local function on_ignite(inst)
 	
 	local lx, ly, lz = inst.Transform:GetWorldPosition()
 	
-	local launcher = SpawnPrefab("kyno_fogbuster_launcher")
+	local launcher = SpawnPrefab("sap_fogbuster_launcher")
 	launcher.Transform:SetPosition(lx, ly, lz)
     launcher.AnimState:PlayAnimation("launch")
     launcher:ListenForEvent("animover", on_ignite_over)
@@ -249,6 +249,6 @@ local function fogbusterplacerfn(inst)
 	inst.AnimState:SetScale(s, s, s)
 end
 
-return Prefab("kyno_fogbuster", flare_fn, assets, prefabs),
-Prefab("kyno_fogbuster_launcher", launcher_fn, assets, prefabs),
-MakePlacer("kyno_fogbuster_placer", "kyno_flarebuster2", "kyno_flarebuster2", "idle", false, nil, nil, nil, nil, nil, fogbusterplacerfn)
+return Prefab("sap_fogbuster", flare_fn, assets, prefabs),
+Prefab("sap_fogbuster_launcher", launcher_fn, assets, prefabs),
+MakePlacer("sap_fogbuster_placer", "kyno_flarebuster2", "kyno_flarebuster2", "idle", false, nil, nil, nil, nil, nil, fogbusterplacerfn)

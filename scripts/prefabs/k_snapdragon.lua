@@ -176,5 +176,5 @@ local function fn()
 	return inst
 end
 
-return Prefab("kyno_snapdragon", fn, assets, prefabs),
-MakePlacer("kyno_snapdragon_placer", "snapdragon", "snapdragon_build", "idle", false, nil, nil, nil, 90, nil)
+return Prefab("sap_snapdragon", fn, assets, prefabs),
+MakePlacer("sap_snapdragon_placer", "snapdragon", "snapdragon_build", "idle", false, nil, nil, nil, 90, nil)

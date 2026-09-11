@@ -15,7 +15,7 @@ end
 local function SpawnFireFx(inst)
 	local pos = inst:GetPosition()
 	local rand_offset = Vector3(math.random(-1, 1) * 0.2, 0, math.random(-1, 1) * 0.2)
-	SpawnPrefab("kyno_dragoonfire").Transform:SetPosition((pos + rand_offset):Get())
+	SpawnPrefab("sap_dragoonfire").Transform:SetPosition((pos + rand_offset):Get())
 end
 
 local actionhandlers =

@@ -69,5 +69,5 @@ local function ornamentplacetestfn(inst)
     return true
 end
 
-return Prefab("kyno_mushroomstump", fn, assets, prefabs),
-MakePlacer("kyno_mushroomstump_placer", "quagmire_mushroomstump", "quagmire_mushroomstump", "idle", false, nil, nil, nil, nil, nil, ornamentplacetestfn)
+return Prefab("sap_mushroomstump", fn, assets, prefabs),
+MakePlacer("sap_mushroomstump_placer", "quagmire_mushroomstump", "quagmire_mushroomstump", "idle", false, nil, nil, nil, nil, nil, ornamentplacetestfn)

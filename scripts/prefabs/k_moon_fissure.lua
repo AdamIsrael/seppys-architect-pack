@@ -281,7 +281,7 @@ local function pluggedfn()
 	return inst
 end
 	
-return Prefab("kyno_moonfissure", fn, assets, prefabs),
-Prefab("kyno_moonfissure_plugged", pluggedfn, assets_plugged, prefabs),
-MakePlacer("kyno_moonfissure_placer", "moon_fissure", "moon_fissure", "crack_idle"),
-MakePlacer("kyno_moonfissure_plugged_placer", "plugged_fissure", "plugged_fissure", "idle")
+return Prefab("sap_moonfissure", fn, assets, prefabs),
+Prefab("sap_moonfissure_plugged", pluggedfn, assets_plugged, prefabs),
+MakePlacer("sap_moonfissure_placer", "moon_fissure", "moon_fissure", "crack_idle"),
+MakePlacer("sap_moonfissure_plugged_placer", "plugged_fissure", "plugged_fissure", "idle")

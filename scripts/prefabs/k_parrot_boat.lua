@@ -133,7 +133,7 @@ local function emptyfn()
     return inst
 end
 
-return Prefab("kyno_parrot_boat", fn, assets),
-Prefab("kyno_boat_empty", emptyfn, assets),
-MakePlacer("kyno_parrot_boat_placer", "kyno_parrot_boat", "kyno_parrot_boat", "idle"),
-MakePlacer("kyno_boat_empty_placer", "kyno_parrot_boat", "kyno_parrot_boat", "misc")
+return Prefab("sap_parrot_boat", fn, assets),
+Prefab("sap_boat_empty", emptyfn, assets),
+MakePlacer("sap_parrot_boat_placer", "kyno_parrot_boat", "kyno_parrot_boat", "idle"),
+MakePlacer("sap_boat_empty_placer", "kyno_parrot_boat", "kyno_parrot_boat", "misc")

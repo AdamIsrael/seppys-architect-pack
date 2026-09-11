@@ -446,23 +446,23 @@ local function sowfn()
 	return inst
 end
 
-return Prefab("kyno_ruins_head", headfn, assets, prefabs),
-MakePlacer("kyno_ruins_head_placer", "pig_ruins_head", "ruins_giant_head", "full"),
+return Prefab("sap_ruins_head", headfn, assets, prefabs),
+MakePlacer("sap_ruins_head_placer", "pig_ruins_head", "ruins_giant_head", "full"),
 
-Prefab("kyno_ruins_pigstatue", pigfn, assets, prefabs),
-MakePlacer("kyno_ruins_pigstatue_placer", "statue_pig_ruins_pig", "statue_pig_ruins_pig", "full"),
+Prefab("sap_ruins_pigstatue", pigfn, assets, prefabs),
+MakePlacer("sap_ruins_pigstatue_placer", "statue_pig_ruins_pig", "statue_pig_ruins_pig", "full"),
 
-Prefab("kyno_ruins_antstatue", antfn, assets, prefabs),
-MakePlacer("kyno_ruins_antstatue_placer", "statue_pig_ruins_ant", "statue_pig_ruins_ant", "full"),
+Prefab("sap_ruins_antstatue", antfn, assets, prefabs),
+MakePlacer("sap_ruins_antstatue_placer", "statue_pig_ruins_ant", "statue_pig_ruins_ant", "full"),
 
-Prefab("kyno_ruins_idolstatue", idolfn, assets, prefabs),
-MakePlacer("kyno_ruins_idolstatue_placer", "statue_pig_ruins_idol", "statue_pig_ruins_idol", "full"),
+Prefab("sap_ruins_idolstatue", idolfn, assets, prefabs),
+MakePlacer("sap_ruins_idolstatue_placer", "statue_pig_ruins_idol", "statue_pig_ruins_idol", "full"),
 
-Prefab("kyno_ruins_plaquestatue", plaquefn, assets, prefabs),
-MakePlacer("kyno_ruins_plaquestatue_placer", "statue_pig_ruins_plaque", "statue_pig_ruins_plaque", "full"),
+Prefab("sap_ruins_plaquestatue", plaquefn, assets, prefabs),
+MakePlacer("sap_ruins_plaquestatue_placer", "statue_pig_ruins_plaque", "statue_pig_ruins_plaque", "full"),
 
-Prefab("kyno_ruins_trufflestatue", trufflefn, assets, prefabs),
-MakePlacer("kyno_ruins_trufflestatue_placer", "statue_pig_ruins_mushroom", "statue_pig_ruins_mushroom", "full"),
+Prefab("sap_ruins_trufflestatue", trufflefn, assets, prefabs),
+MakePlacer("sap_ruins_trufflestatue_placer", "statue_pig_ruins_mushroom", "statue_pig_ruins_mushroom", "full"),
 
-Prefab("kyno_ruins_sowstatue", sowfn, assets, prefabs),
-MakePlacer("kyno_ruins_sowstatue_placer", "statue_pig_ruins_idol_blue", "statue_pig_ruins_idol_blue", "full")
+Prefab("sap_ruins_sowstatue", sowfn, assets, prefabs),
+MakePlacer("sap_ruins_sowstatue_placer", "statue_pig_ruins_idol_blue", "statue_pig_ruins_idol_blue", "full")

@@ -168,5 +168,5 @@ local function snaptoothplacetestfn(inst)
 	inst.AnimState:SetScale(1.5, 1.5, 1.5)
 end
 
-return Prefab("kyno_flytrap", fn, assets, prefabs),
-MakePlacer("kyno_flytrap_placer", "venus_flytrap_planted", "venus_flytrap_lg_build", "idle", false, nil, nil, nil, 90, nil, snaptoothplacetestfn)
+return Prefab("sap_flytrap", fn, assets, prefabs),
+MakePlacer("sap_flytrap_placer", "venus_flytrap_planted", "venus_flytrap_lg_build", "idle", false, nil, nil, nil, 90, nil, snaptoothplacetestfn)

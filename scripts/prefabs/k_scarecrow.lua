@@ -77,5 +77,5 @@ local function fn()
     return inst
 end
 
-return Prefab("kyno_scarecrow", fn, assets),
-MakePlacer("kyno_scarecrow_placer", "kyno_scarecrow", "kyno_scarecrow", "idle")
+return Prefab("sap_scarecrow", fn, assets),
+MakePlacer("sap_scarecrow_placer", "kyno_scarecrow", "kyno_scarecrow", "idle")

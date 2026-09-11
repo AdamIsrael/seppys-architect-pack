@@ -76,5 +76,5 @@ local function rubblefn()
     return inst
 end
 
-return Prefab("kyno_gorge_debris", rubblefn, assets),
-MakePlacer("kyno_gorge_debris_placer", "quagmire_rubble", "quagmire_rubble", "f1", false, nil, nil, .75)
+return Prefab("sap_gorge_debris", rubblefn, assets),
+MakePlacer("sap_gorge_debris_placer", "quagmire_rubble", "quagmire_rubble", "f1", false, nil, nil, .75)

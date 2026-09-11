@@ -164,5 +164,5 @@ local function fn()
     return inst
 end
 
-return Prefab("kyno_ruinshole", fn, assets, prefabs),
-MakePlacer("kyno_ruinshole_placer", "cave_hole", "cave_hole", "idle", true)
+return Prefab("sap_ruinshole", fn, assets, prefabs),
+MakePlacer("sap_ruinshole_placer", "cave_hole", "cave_hole", "idle", true)

@@ -255,7 +255,7 @@ local function largefn()
 	return inst
 end
 
-return Prefab("kyno_ornatechest", fn, assets, prefabs),
-Prefab("kyno_ornatechest_large", largefn, assets, prefabs),
-MakePlacer("kyno_ornatechest_placer", "pandoras_chest", "pandoras_chest", "closed"),
-MakePlacer("kyno_ornatechest_large_placer", "pandoras_chest_large", "pandoras_chest_large", "closed")
+return Prefab("sap_ornatechest", fn, assets, prefabs),
+Prefab("sap_ornatechest_large", largefn, assets, prefabs),
+MakePlacer("sap_ornatechest_placer", "pandoras_chest", "pandoras_chest", "closed"),
+MakePlacer("sap_ornatechest_large_placer", "pandoras_chest_large", "pandoras_chest_large", "closed")

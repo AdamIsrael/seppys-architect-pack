@@ -85,5 +85,5 @@ local function sprinklerplacetestfn(inst)
 	inst.AnimState:OverrideSymbol("swap_meter", "sprinkler_meter", "10")
 end
 
-return Prefab("kyno_sprinkler", fn, assets, prefabs),
-MakePlacer("kyno_sprinkler_placer", "sprinkler", "sprinkler", "idle_off", false, nil, nil, nil, nil, nil, sprinklerplacetestfn)
+return Prefab("sap_sprinkler", fn, assets, prefabs),
+MakePlacer("sap_sprinkler_placer", "sprinkler", "sprinkler", "idle_off", false, nil, nil, nil, nil, nil, sprinklerplacetestfn)

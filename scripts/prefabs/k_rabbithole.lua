@@ -243,4 +243,4 @@ local function fn()
     return inst
 end
 
-return Prefab("kyno_rabbithole", fn, assets, prefabs)
+return Prefab("sap_rabbithole", fn, assets, prefabs)

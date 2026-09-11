@@ -12,7 +12,7 @@ local assets =
 local prefabs =
 {
     "rocky",
-	"kyno_lobster",
+	"sap_lobster",
 }
 
 local function ReturnChildren(inst)
@@ -80,7 +80,7 @@ local function fn()
 	inst.components.childspawner:SetRegenPeriod(20)
 	inst.components.childspawner:SetSpawnPeriod(20)
 	inst.components.childspawner:SetMaxChildren(1)
-	inst.components.childspawner.childname = "kyno_lobster"
+	inst.components.childspawner.childname = "sap_lobster"
 	inst.components.childspawner:StartSpawning()
 	inst.components.childspawner:StartRegen()
 	inst.components.childspawner.childreninside = 1
@@ -110,5 +110,5 @@ local function fn()
 	return inst
 end
 
-return Prefab("kyno_lobster_home", fn, assets, prefabs),
-MakePlacer("kyno_lobster_home_placer", "lobster_home", "lobster_home", "idle" ) 
+return Prefab("sap_lobster_home", fn, assets, prefabs),
+MakePlacer("sap_lobster_home_placer", "lobster_home", "lobster_home", "idle" ) 

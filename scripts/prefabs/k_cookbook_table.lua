@@ -76,5 +76,5 @@ local function fn()
     return inst
 end
 
-return Prefab("kyno_cookbook_table", fn, assets),
-MakePlacer("kyno_cookbook_table_placer", "kyno_cookbook_table", "kyno_cookbook_table", "idle")
+return Prefab("sap_cookbook_table", fn, assets),
+MakePlacer("sap_cookbook_table_placer", "kyno_cookbook_table", "kyno_cookbook_table", "idle")

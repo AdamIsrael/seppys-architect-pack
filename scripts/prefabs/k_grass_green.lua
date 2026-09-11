@@ -296,5 +296,5 @@ local function grasspart_fn()
     return inst
 end
 
-return grass("kyno_grass_green", 0),
-MakePlacer("kyno_grass_green_placer", "grass", "grassgreen_build", "idle")
+return grass("sap_grass_green", 0),
+MakePlacer("sap_grass_green_placer", "grass", "grassgreen_build", "idle")

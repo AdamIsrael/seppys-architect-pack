@@ -21,12 +21,12 @@ local projectile_assets =
 
 local prefabs =
 {
-	"kyno_water_spray",
-	"kyno_raindrop",
+	"sap_water_spray",
+	"sap_raindrop",
 }
 
 local function SpawnDrop(inst)
-	local drop = SpawnPrefab("kyno_raindrop")
+	local drop = SpawnPrefab("sap_raindrop")
 	local pt = Vector3(inst.Transform:GetWorldPosition())
 	
 	local angle = math.random() * 2 * PI
@@ -44,7 +44,7 @@ local function TurnOn(inst)
 	inst.components.fueled:StartConsuming()
 	
 	if not inst.waterSpray then
-		inst.waterSpray = SpawnPrefab("kyno_water_spray")
+		inst.waterSpray = SpawnPrefab("sap_water_spray")
 		local follower = inst.waterSpray.entity:AddFollower()
 		follower:FollowSymbol(inst.GUID, "top", 0, -100, 0)
 	end
@@ -417,5 +417,5 @@ local function placerfn(inst)
     inst.components.placer:LinkEntity(placer2)
 end
 
-return Prefab("kyno_garden_sprinkler", fn, assets, prefabs),
-MakePlacer("kyno_garden_sprinkler_placer", "sprinkler_placement", "sprinkler_placement", "idle", true, nil, nil, PLACER_SCALE, nil, nil, placerfn)
+return Prefab("sap_garden_sprinkler", fn, assets, prefabs),
+MakePlacer("sap_garden_sprinkler_placer", "sprinkler_placement", "sprinkler_placement", "idle", true, nil, nil, PLACER_SCALE, nil, nil, placerfn)

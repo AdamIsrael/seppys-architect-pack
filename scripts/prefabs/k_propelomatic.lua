@@ -120,5 +120,5 @@ local function fn()
     return inst
 end
 
-return Prefab("kyno_propelomatic", fn, assets, prefabs),
-MakePlacer("kyno_propelomatic_placer", "propelomatic", "boat_propelomatic", "idle")
+return Prefab("sap_propelomatic", fn, assets, prefabs),
+MakePlacer("sap_propelomatic_placer", "propelomatic", "boat_propelomatic", "idle")

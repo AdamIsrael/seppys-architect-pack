@@ -299,9 +299,9 @@ local function fn3()
 	return inst
 end
 
-return Prefab("kyno_knightboat", fn, assets, prefabs),
-Prefab("kyno_bishopboat", fn2, assets, prefabs),
-Prefab("kyno_rookboat", fn3, assets, prefabs),
-MakePlacer("kyno_knightboat_placer", "knightboat", "knightboat_build", "idle_loop"),
-MakePlacer("kyno_bishopboat_placer", "bishopboat", "bishopboat_build", "idle_loop"),
-MakePlacer("kyno_rookboat_placer", "rookboat", "rookboat_build", "idle_loop")
+return Prefab("sap_knightboat", fn, assets, prefabs),
+Prefab("sap_bishopboat", fn2, assets, prefabs),
+Prefab("sap_rookboat", fn3, assets, prefabs),
+MakePlacer("sap_knightboat_placer", "knightboat", "knightboat_build", "idle_loop"),
+MakePlacer("sap_bishopboat_placer", "bishopboat", "bishopboat_build", "idle_loop"),
+MakePlacer("sap_rookboat_placer", "rookboat", "rookboat_build", "idle_loop")

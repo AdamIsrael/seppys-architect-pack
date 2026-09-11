@@ -127,7 +127,7 @@ local function queenfn()
     return inst
 end
 
-return Prefab("kyno_manthill", fn, assets, prefabs),
-MakePlacer("kyno_manthill_placer", "ant_hill_entrance", "ant_hill_entrance", "idle"),
-Prefab("kyno_mantqueenhill", queenfn, assets, prefabs),
-MakePlacer("kyno_mantqueenhill_placer", "entrance", "ant_queen_entrance", "idle")
+return Prefab("sap_manthill", fn, assets, prefabs),
+MakePlacer("sap_manthill_placer", "ant_hill_entrance", "ant_hill_entrance", "idle"),
+Prefab("sap_mantqueenhill", queenfn, assets, prefabs),
+MakePlacer("sap_mantqueenhill_placer", "entrance", "ant_queen_entrance", "idle")

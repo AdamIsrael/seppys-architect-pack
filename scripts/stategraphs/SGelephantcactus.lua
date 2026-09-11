@@ -56,7 +56,7 @@ local states = {
 
 		events = {
 			EventHandler("animover", function(inst)
-				local active = SpawnPrefab("kyno_elephantcactus_stump")
+				local active = SpawnPrefab("sap_elephantcactus_stump")
 				if active then 
 					active.Transform:SetPosition(inst.Transform:GetWorldPosition())
 					inst:Remove()

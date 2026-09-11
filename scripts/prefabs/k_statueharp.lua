@@ -132,7 +132,7 @@ local function RosePlacerPostinit(inst)
 	inst.AnimState:AddOverrideBuild("statue_small_harp_vine_build")
 end
 
-return Prefab("kyno_statueharp", fn, assets, prefabs),
-Prefab("kyno_statueharp_rose", rosefn, assets, prefabs),
-MakePlacer("kyno_statueharp_placer", "statue_small", "statue_small_harp_build", "full"),
-MakePlacer("kyno_statueharp_rose_placer", "statue_small", "statue_small_harp_build", "full", false, nil, nil, nil, nil, nil, RosePlacerPostinit)
+return Prefab("sap_statueharp", fn, assets, prefabs),
+Prefab("sap_statueharp_rose", rosefn, assets, prefabs),
+MakePlacer("sap_statueharp_placer", "statue_small", "statue_small_harp_build", "full"),
+MakePlacer("sap_statueharp_rose_placer", "statue_small", "statue_small_harp_build", "full", false, nil, nil, nil, nil, nil, RosePlacerPostinit)

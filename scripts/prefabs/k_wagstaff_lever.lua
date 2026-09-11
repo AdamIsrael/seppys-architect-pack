@@ -106,5 +106,5 @@ local function fn()
     return inst
 end
 
-return Prefab("kyno_wagpunk_lever", fn, assets),
-MakePlacer("kyno_wagpunk_lever_placer", "wagpunk_lever", "wagpunk_lever", "idle")
+return Prefab("sap_wagpunk_lever", fn, assets),
+MakePlacer("sap_wagpunk_lever_placer", "wagpunk_lever", "wagpunk_lever", "idle")

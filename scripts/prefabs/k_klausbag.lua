@@ -146,7 +146,7 @@ local function klausbagplacetestfn(inst)
 	inst.AnimState:OverrideSymbol("swap_chain_lock", "klaus_bag", "swap_chain_lock_winter")
 end
 
-return Prefab("kyno_klausbag", fn, assets, prefabs),
-Prefab("kyno_klausbag_winter", winterfn, assets, prefabs),
-MakePlacer("kyno_klausbag_placer", "klaus_bag", "klaus_bag", "idle"),
-MakePlacer("kyno_klausbag_winter_placer", "klaus_bag", "klaus_bag", "idle", false, nil, nil, nil, nil, nil, klausbagplacetestfn)
+return Prefab("sap_klausbag", fn, assets, prefabs),
+Prefab("sap_klausbag_winter", winterfn, assets, prefabs),
+MakePlacer("sap_klausbag_placer", "klaus_bag", "klaus_bag", "idle"),
+MakePlacer("sap_klausbag_winter_placer", "klaus_bag", "klaus_bag", "idle", false, nil, nil, nil, nil, nil, klausbagplacetestfn)

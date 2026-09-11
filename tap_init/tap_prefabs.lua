@@ -10,6 +10,8 @@ PrefabFiles = {
 	"livingtree_halloween",
 
 	"k_custom_placers",
+	-- Legacy compat is now handled via modmain.lua instead of PrefabFiles
+	-- "k_legacy_compat",
 
 	"k_accomplishmentshrine",
 	"k_aloe",
@@ -26,7 +28,7 @@ PrefabFiles = {
 	"k_aporkalypse_calendar",
 	"k_apss",
 	"k_archive_centipede",
-	"k_archive_chandelier",
+	-- "k_archive_chandelier", -- Removed from base game
 	"k_archive_cookpot",
 	"k_archive_structures",
 	"k_asparagus",

@@ -511,10 +511,10 @@ local function rock_petrified_tree_old()
     return rock_petrified_tree_common(4)
 end
 
-return Prefab("kyno_rock1", rock1_fn, rock1_assets, prefabs),
-    Prefab("kyno_rock2", rock2_fn, rock2_assets, prefabs),
-    Prefab("kyno_rock_flintless", rock_flintless_fn, rock_flintless_assets, prefabs),
-    Prefab("kyno_rock_flintless_med", rock_flintless_med, rock_flintless_assets, prefabs),
-    Prefab("kyno_rock_flintless_low", rock_flintless_low, rock_flintless_assets, prefabs),
-    Prefab("kyno_rock_moon", rock_moon, rock_moon_assets, prefabs),
-    Prefab("kyno_moonglass_rock", rock_moon_glass, rock_moon_glass_assets, prefabs)
+return Prefab("sap_rock1", rock1_fn, rock1_assets, prefabs),
+    Prefab("sap_rock2", rock2_fn, rock2_assets, prefabs),
+    Prefab("sap_rock_flintless", rock_flintless_fn, rock_flintless_assets, prefabs),
+    Prefab("sap_rock_flintless_med", rock_flintless_med, rock_flintless_assets, prefabs),
+    Prefab("sap_rock_flintless_low", rock_flintless_low, rock_flintless_assets, prefabs),
+    Prefab("sap_rock_moon", rock_moon, rock_moon_assets, prefabs),
+    Prefab("sap_moonglass_rock", rock_moon_glass, rock_moon_glass_assets, prefabs)

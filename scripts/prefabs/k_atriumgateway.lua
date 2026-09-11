@@ -13,7 +13,7 @@ local assets =
 
 local prefabs =
 {
-	"kyno_ancientgateway2",
+	"sap_ancientgateway2",
     "atrium_gate_activatedfx",
     "atrium_gate_pulsesfx",
     "atrium_gate_explodesfx",
@@ -47,7 +47,7 @@ local function OnGetItemFromPlayer(inst, giver, item)
 		SpawnPrefab("collapse_big").Transform:SetPosition(inst.Transform:GetWorldPosition())
 		inst.SoundEmitter:PlaySound("dontstarve/common/destroy_stone")
 		
-		local newportal = SpawnPrefab("kyno_ancientgateway2")
+		local newportal = SpawnPrefab("sap_ancientgateway2")
 		newportal.Transform:SetPosition(inst.Transform:GetWorldPosition())
 		newportal.SoundEmitter:PlaySound("rifts2/atrium/fixed")
 	end
@@ -258,10 +258,10 @@ local function gatewayplacetestfn(inst)
 	inst.AnimState:SetScale(s, s, s)
 end
 
-return Prefab("kyno_atriumgateway", fn, assets, prefabs),
-Prefab("kyno_ancientgateway2", builtfn, assets, prefabs),
-Prefab("kyno_atriumgateway_wip", wipfn, assets, prefabs),
-Prefab("kyno_atriumfloor", CreateFloor, assets, prefabs),
-MakePlacer("kyno_atriumgateway_placer", "atrium_gate", "atrium_gate", "idle"),
-MakePlacer("kyno_atriumgateway_wip_placer", "kyno_ancientgateway", "kyno_ancientgateway", "idle", false, nil, nil, nil, nil, nil, gatewayplacetestfn),
-MakePlacer("kyno_atriumfloor_placer", "atrium_floor", "atrium_floor", "idle_active", true)
+return Prefab("sap_atriumgateway", fn, assets, prefabs),
+Prefab("sap_ancientgateway2", builtfn, assets, prefabs),
+Prefab("sap_atriumgateway_wip", wipfn, assets, prefabs),
+Prefab("sap_atriumfloor", CreateFloor, assets, prefabs),
+MakePlacer("sap_atriumgateway_placer", "atrium_gate", "atrium_gate", "idle"),
+MakePlacer("sap_atriumgateway_wip_placer", "kyno_ancientgateway", "kyno_ancientgateway", "idle", false, nil, nil, nil, nil, nil, gatewayplacetestfn),
+MakePlacer("sap_atriumfloor_placer", "atrium_floor", "atrium_floor", "idle_active", true)

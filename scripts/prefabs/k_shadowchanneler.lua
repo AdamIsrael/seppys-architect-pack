@@ -73,5 +73,5 @@ local function fn()
     return inst
 end
 
-return Prefab("kyno_shadowchanneler", fn, assets),
-MakePlacer("kyno_shadowchanneler_placer", "shadow_channeler", "shadow_channeler", "idle", false, nil, nil, nil, 90, nil)
+return Prefab("sap_shadowchanneler", fn, assets),
+MakePlacer("sap_shadowchanneler_placer", "shadow_channeler", "shadow_channeler", "idle", false, nil, nil, nil, 90, nil)

@@ -100,5 +100,5 @@ local function fn()
 	return inst
 end
 
-return Prefab("kyno_watercrate", fn, assets, prefabs),
-MakePlacer("kyno_watercrate_placer", "graves_water", "graves_water", "idle1")  
+return Prefab("sap_watercrate", fn, assets, prefabs),
+MakePlacer("sap_watercrate_placer", "graves_water", "graves_water", "idle1")  

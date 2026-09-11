@@ -67,5 +67,5 @@ local function truffleplacetestfn(inst)
 	inst.AnimState:SetScale(2, 2, 2)
 end
 
-return Prefab("kyno_truffles", fn, assets, prefabs),
-MakePlacer("kyno_truffles_placer", "kyno_truffles", "kyno_truffles", "idle", false, nil, nil, nil, nil, nil, truffleplacetestfn)
+return Prefab("sap_truffles", fn, assets, prefabs),
+MakePlacer("sap_truffles_placer", "kyno_truffles", "kyno_truffles", "idle", false, nil, nil, nil, nil, nil, truffleplacetestfn)

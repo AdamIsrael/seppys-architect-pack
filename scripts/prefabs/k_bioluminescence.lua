@@ -170,5 +170,5 @@ local function fn()
     return inst
 end
 
-return Prefab("kyno_bioluminescence", fn, assets),
-MakePlacer("kyno_bioluminescence_placer", "bioluminessence", "bioluminessence", "idle_loop")
+return Prefab("sap_bioluminescence", fn, assets),
+MakePlacer("sap_bioluminescence_placer", "bioluminessence", "bioluminessence", "idle_loop")

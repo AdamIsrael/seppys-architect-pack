@@ -75,5 +75,5 @@ local function fn()
     return inst
 end
 
-return Prefab("kyno_birdfountain", fn, assets),
-MakePlacer("kyno_birdfountain_placer", "quagmire_birdbath", "quagmire_birdbath", "idle")
+return Prefab("sap_birdfountain", fn, assets),
+MakePlacer("sap_birdfountain_placer", "quagmire_birdbath", "quagmire_birdbath", "idle")

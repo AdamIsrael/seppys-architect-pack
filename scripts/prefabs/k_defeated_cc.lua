@@ -167,11 +167,11 @@ local function fn4()
 	return inst
 end
 
-return Prefab("kyno_defeated_cc1", fn, assets),
-Prefab("kyno_defeated_cc2", fn2, assets),
-Prefab("kyno_defeated_cc3", fn3, assets),
-Prefab("kyno_defeated_cc4", fn4, assets),
-MakePlacer("kyno_defeated_cc1_placer", "alterguardian_spawn_death", "alterguardian_spawn_death", "phase1_death_idle"),
-MakePlacer("kyno_defeated_cc2_placer", "alterguardian_spawn_death", "alterguardian_spawn_death", "phase2_death_idle"),
-MakePlacer("kyno_defeated_cc3_placer", "alterguardian_spawn_death", "alterguardian_spawn_death", "phase3_death_idle"),
-MakePlacer("kyno_defeated_cc4_placer", "alterguardian_spawn_death", "alterguardian_spawn_death", "phase3_death_loop")
+return Prefab("sap_defeated_cc1", fn, assets),
+Prefab("sap_defeated_cc2", fn2, assets),
+Prefab("sap_defeated_cc3", fn3, assets),
+Prefab("sap_defeated_cc4", fn4, assets),
+MakePlacer("sap_defeated_cc1_placer", "alterguardian_spawn_death", "alterguardian_spawn_death", "phase1_death_idle"),
+MakePlacer("sap_defeated_cc2_placer", "alterguardian_spawn_death", "alterguardian_spawn_death", "phase2_death_idle"),
+MakePlacer("sap_defeated_cc3_placer", "alterguardian_spawn_death", "alterguardian_spawn_death", "phase3_death_idle"),
+MakePlacer("sap_defeated_cc4_placer", "alterguardian_spawn_death", "alterguardian_spawn_death", "phase3_death_loop")

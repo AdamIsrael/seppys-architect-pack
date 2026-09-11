@@ -102,5 +102,5 @@ local function fn()
     return inst
 end
 
-return Prefab("kyno_wigfridge", fn, assets, prefabs),
-MakePlacer("kyno_wigfridge_placer", "wigfridge", "wigfridge", "closed")
+return Prefab("sap_wigfridge", fn, assets, prefabs),
+MakePlacer("sap_wigfridge_placer", "wigfridge", "wigfridge", "closed")

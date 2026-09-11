@@ -61,5 +61,5 @@ local function fn()
     return inst
 end
 
-return Prefab("kyno_boatnet", fn, assets),
-MakePlacer("kyno_boatnet_placer", "boat_net", "boat_net", "idle")
+return Prefab("sap_boatnet", fn, assets),
+MakePlacer("sap_boatnet_placer", "boat_net", "boat_net", "idle")

@@ -117,5 +117,5 @@ local function fn()
     return inst
 end
 
-return Prefab("kyno_theater_curtains", fn, assets),
-MakePlacer("kyno_theater_curtains_placer", "charlie_curtains", "charlie_curtains", "idle_closed")
+return Prefab("sap_theater_curtains", fn, assets),
+MakePlacer("sap_theater_curtains_placer", "charlie_curtains", "charlie_curtains", "idle_closed")

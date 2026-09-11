@@ -392,128 +392,128 @@ function Builder:CanBuildAtPoint(pt, recipe, rot)
 	local position4 = TheWorld.Map:GetTile(TheWorld.Map:GetTileCoordsAtPoint(ex-2, ey, ez))
 	
 	if recipe.product == "mangrovetree_short" 			and (position0 == WORLD_TILES.OCEAN_BRINEPOOL_SHORE or position0 == WORLD_TILES.OCEAN_BRINEPOOL or position0 == WORLD_TILES.OCEAN_ROUGH or position0 == WORLD_TILES.OCEAN_SWELL or position0 == WORLD_TILES.OCEAN_COASTAL or position0 == WORLD_TILES.OCEAN_HAZARDOUS) then return true end 
-	if recipe.product == "kyno_wreck_1" 				and (position0 == WORLD_TILES.OCEAN_BRINEPOOL_SHORE or position0 == WORLD_TILES.OCEAN_BRINEPOOL or position0 == WORLD_TILES.OCEAN_ROUGH or position0 == WORLD_TILES.OCEAN_SWELL or position0 == WORLD_TILES.OCEAN_COASTAL or position0 == WORLD_TILES.OCEAN_HAZARDOUS) then return true end 
-	if recipe.product == "kyno_wreck_2" 				and (position0 == WORLD_TILES.OCEAN_BRINEPOOL_SHORE or position0 == WORLD_TILES.OCEAN_BRINEPOOL or position0 == WORLD_TILES.OCEAN_ROUGH or position0 == WORLD_TILES.OCEAN_SWELL or position0 == WORLD_TILES.OCEAN_COASTAL or position0 == WORLD_TILES.OCEAN_HAZARDOUS) then return true end 
-	if recipe.product == "kyno_wreck_3" 				and (position0 == WORLD_TILES.OCEAN_BRINEPOOL_SHORE or position0 == WORLD_TILES.OCEAN_BRINEPOOL or position0 == WORLD_TILES.OCEAN_ROUGH or position0 == WORLD_TILES.OCEAN_SWELL or position0 == WORLD_TILES.OCEAN_COASTAL or position0 == WORLD_TILES.OCEAN_HAZARDOUS) then return true end 
-	if recipe.product == "kyno_wreck_4" 				and (position0 == WORLD_TILES.OCEAN_BRINEPOOL_SHORE or position0 == WORLD_TILES.OCEAN_BRINEPOOL or position0 == WORLD_TILES.OCEAN_ROUGH or position0 == WORLD_TILES.OCEAN_SWELL or position0 == WORLD_TILES.OCEAN_COASTAL or position0 == WORLD_TILES.OCEAN_HAZARDOUS) then return true end 
-	if recipe.product == "kyno_seaweed" 				and (position0 == WORLD_TILES.OCEAN_BRINEPOOL_SHORE or position0 == WORLD_TILES.OCEAN_BRINEPOOL or position0 == WORLD_TILES.OCEAN_ROUGH or position0 == WORLD_TILES.OCEAN_SWELL or position0 == WORLD_TILES.OCEAN_COASTAL or position0 == WORLD_TILES.OCEAN_HAZARDOUS) then return true end 
-	if recipe.product == "kyno_brain_rock" 				and (position0 == WORLD_TILES.OCEAN_BRINEPOOL_SHORE or position0 == WORLD_TILES.OCEAN_BRINEPOOL or position0 == WORLD_TILES.OCEAN_ROUGH or position0 == WORLD_TILES.OCEAN_SWELL or position0 == WORLD_TILES.OCEAN_COASTAL or position0 == WORLD_TILES.OCEAN_HAZARDOUS) then return true end 
-	if recipe.product == "kyno_rock_coral_1" 			and (position0 == WORLD_TILES.OCEAN_BRINEPOOL_SHORE or position0 == WORLD_TILES.OCEAN_BRINEPOOL or position0 == WORLD_TILES.OCEAN_ROUGH or position0 == WORLD_TILES.OCEAN_SWELL or position0 == WORLD_TILES.OCEAN_COASTAL or position0 == WORLD_TILES.OCEAN_HAZARDOUS) then return true end 
-	if recipe.product == "kyno_rock_coral_2" 			and (position0 == WORLD_TILES.OCEAN_BRINEPOOL_SHORE or position0 == WORLD_TILES.OCEAN_BRINEPOOL or position0 == WORLD_TILES.OCEAN_ROUGH or position0 == WORLD_TILES.OCEAN_SWELL or position0 == WORLD_TILES.OCEAN_COASTAL or position0 == WORLD_TILES.OCEAN_HAZARDOUS) then return true end 
-	if recipe.product == "kyno_rock_coral_3" 			and (position0 == WORLD_TILES.OCEAN_BRINEPOOL_SHORE or position0 == WORLD_TILES.OCEAN_BRINEPOOL or position0 == WORLD_TILES.OCEAN_ROUGH or position0 == WORLD_TILES.OCEAN_SWELL or position0 == WORLD_TILES.OCEAN_COASTAL or position0 == WORLD_TILES.OCEAN_HAZARDOUS) then return true end 
-	if recipe.product == "kyno_redbarrel" 				and (position0 == WORLD_TILES.OCEAN_BRINEPOOL_SHORE or position0 == WORLD_TILES.OCEAN_BRINEPOOL or position0 == WORLD_TILES.OCEAN_ROUGH or position0 == WORLD_TILES.OCEAN_SWELL or position0 == WORLD_TILES.OCEAN_COASTAL or position0 == WORLD_TILES.OCEAN_HAZARDOUS) then return true end 
-	if recipe.product == "kyno_bermudatriangle" 		and (position0 == WORLD_TILES.OCEAN_BRINEPOOL_SHORE or position0 == WORLD_TILES.OCEAN_BRINEPOOL or position0 == WORLD_TILES.OCEAN_ROUGH or position0 == WORLD_TILES.OCEAN_SWELL or position0 == WORLD_TILES.OCEAN_COASTAL or position0 == WORLD_TILES.OCEAN_HAZARDOUS) then return true end 
-	if recipe.product == "kyno_ballphinhouse" 			and (position0 == WORLD_TILES.OCEAN_BRINEPOOL_SHORE or position0 == WORLD_TILES.OCEAN_BRINEPOOL or position0 == WORLD_TILES.OCEAN_ROUGH or position0 == WORLD_TILES.OCEAN_SWELL or position0 == WORLD_TILES.OCEAN_COASTAL or position0 == WORLD_TILES.OCEAN_HAZARDOUS) then return true end 
-	if recipe.product == "kyno_octopusking" 			and (position0 == WORLD_TILES.OCEAN_BRINEPOOL_SHORE or position0 == WORLD_TILES.OCEAN_BRINEPOOL or position0 == WORLD_TILES.OCEAN_ROUGH or position0 == WORLD_TILES.OCEAN_SWELL or position0 == WORLD_TILES.OCEAN_COASTAL or position0 == WORLD_TILES.OCEAN_HAZARDOUS) then return true end 
-	if recipe.product == "kyno_luggagechest" 			and (position0 == WORLD_TILES.OCEAN_BRINEPOOL_SHORE or position0 == WORLD_TILES.OCEAN_BRINEPOOL or position0 == WORLD_TILES.OCEAN_ROUGH or position0 == WORLD_TILES.OCEAN_SWELL or position0 == WORLD_TILES.OCEAN_COASTAL or position0 == WORLD_TILES.OCEAN_HAZARDOUS) then return true end 
-	if recipe.product == "kyno_fishinhole" 				and (position0 == WORLD_TILES.OCEAN_BRINEPOOL_SHORE or position0 == WORLD_TILES.OCEAN_BRINEPOOL or position0 == WORLD_TILES.OCEAN_ROUGH or position0 == WORLD_TILES.OCEAN_SWELL or position0 == WORLD_TILES.OCEAN_COASTAL or position0 == WORLD_TILES.OCEAN_HAZARDOUS) then return true end 
-	if recipe.product == "kyno_buoy" 					and (position0 == WORLD_TILES.OCEAN_BRINEPOOL_SHORE or position0 == WORLD_TILES.OCEAN_BRINEPOOL or position0 == WORLD_TILES.OCEAN_ROUGH or position0 == WORLD_TILES.OCEAN_SWELL or position0 == WORLD_TILES.OCEAN_COASTAL or position0 == WORLD_TILES.OCEAN_HAZARDOUS) then return true end 
-	if recipe.product == "kyno_sea_chiminea" 			and (position0 == WORLD_TILES.OCEAN_BRINEPOOL_SHORE or position0 == WORLD_TILES.OCEAN_BRINEPOOL or position0 == WORLD_TILES.OCEAN_ROUGH or position0 == WORLD_TILES.OCEAN_SWELL or position0 == WORLD_TILES.OCEAN_COASTAL or position0 == WORLD_TILES.OCEAN_HAZARDOUS) then return true end 
-	if recipe.product == "kyno_seayard" 				and (position0 == WORLD_TILES.OCEAN_BRINEPOOL_SHORE or position0 == WORLD_TILES.OCEAN_BRINEPOOL or position0 == WORLD_TILES.OCEAN_ROUGH or position0 == WORLD_TILES.OCEAN_SWELL or position0 == WORLD_TILES.OCEAN_COASTAL or position0 == WORLD_TILES.OCEAN_HAZARDOUS) then return true end 
-	if recipe.product == "kyno_extractor" 				and (position0 == WORLD_TILES.OCEAN_BRINEPOOL_SHORE or position0 == WORLD_TILES.OCEAN_BRINEPOOL or position0 == WORLD_TILES.OCEAN_ROUGH or position0 == WORLD_TILES.OCEAN_SWELL or position0 == WORLD_TILES.OCEAN_COASTAL or position0 == WORLD_TILES.OCEAN_HAZARDOUS) then return true end 
-	if recipe.product == "kyno_musselfarm" 				and (position0 == WORLD_TILES.OCEAN_BRINEPOOL_SHORE or position0 == WORLD_TILES.OCEAN_BRINEPOOL or position0 == WORLD_TILES.OCEAN_ROUGH or position0 == WORLD_TILES.OCEAN_SWELL or position0 == WORLD_TILES.OCEAN_COASTAL or position0 == WORLD_TILES.OCEAN_HAZARDOUS) then return true end 
-	if recipe.product == "kyno_fishfarm" 				and (position0 == WORLD_TILES.OCEAN_BRINEPOOL_SHORE or position0 == WORLD_TILES.OCEAN_BRINEPOOL or position0 == WORLD_TILES.OCEAN_ROUGH or position0 == WORLD_TILES.OCEAN_SWELL or position0 == WORLD_TILES.OCEAN_COASTAL or position0 == WORLD_TILES.OCEAN_HAZARDOUS) then return true end 
-	if recipe.product == "kyno_sealab" 					and (position0 == WORLD_TILES.OCEAN_BRINEPOOL_SHORE or position0 == WORLD_TILES.OCEAN_BRINEPOOL or position0 == WORLD_TILES.OCEAN_ROUGH or position0 == WORLD_TILES.OCEAN_SWELL or position0 == WORLD_TILES.OCEAN_COASTAL or position0 == WORLD_TILES.OCEAN_HAZARDOUS) then return true end 
-	if recipe.product == "kyno_krakenchest" 			and (position0 == WORLD_TILES.OCEAN_BRINEPOOL_SHORE or position0 == WORLD_TILES.OCEAN_BRINEPOOL or position0 == WORLD_TILES.OCEAN_ROUGH or position0 == WORLD_TILES.OCEAN_SWELL or position0 == WORLD_TILES.OCEAN_COASTAL or position0 == WORLD_TILES.OCEAN_HAZARDOUS) then return true end 
-	if recipe.product == "kyno_waterchest" 				and (position0 == WORLD_TILES.OCEAN_BRINEPOOL_SHORE or position0 == WORLD_TILES.OCEAN_BRINEPOOL or position0 == WORLD_TILES.OCEAN_ROUGH or position0 == WORLD_TILES.OCEAN_SWELL or position0 == WORLD_TILES.OCEAN_COASTAL or position0 == WORLD_TILES.OCEAN_HAZARDOUS) then return true end 
-	if recipe.product == "kyno_watercrate" 				and (position0 == WORLD_TILES.OCEAN_BRINEPOOL_SHORE or position0 == WORLD_TILES.OCEAN_BRINEPOOL or position0 == WORLD_TILES.OCEAN_ROUGH or position0 == WORLD_TILES.OCEAN_SWELL or position0 == WORLD_TILES.OCEAN_COASTAL or position0 == WORLD_TILES.OCEAN_HAZARDOUS) then return true end 
-	if recipe.product == "kyno_tarpit" 					and (position0 == WORLD_TILES.OCEAN_BRINEPOOL_SHORE or position0 == WORLD_TILES.OCEAN_BRINEPOOL or position0 == WORLD_TILES.OCEAN_ROUGH or position0 == WORLD_TILES.OCEAN_SWELL or position0 == WORLD_TILES.OCEAN_COASTAL or position0 == WORLD_TILES.OCEAN_HAZARDOUS) then return true end 
-	if recipe.product == "kyno_seastack" 				and (position0 == WORLD_TILES.OCEAN_BRINEPOOL_SHORE or position0 == WORLD_TILES.OCEAN_BRINEPOOL or position0 == WORLD_TILES.OCEAN_ROUGH or position0 == WORLD_TILES.OCEAN_SWELL or position0 == WORLD_TILES.OCEAN_COASTAL or position0 == WORLD_TILES.OCEAN_HAZARDOUS) then return true end 
-	if recipe.product == "kyno_saltstack" 				and (position0 == WORLD_TILES.OCEAN_BRINEPOOL_SHORE or position0 == WORLD_TILES.OCEAN_BRINEPOOL or position0 == WORLD_TILES.OCEAN_ROUGH or position0 == WORLD_TILES.OCEAN_SWELL or position0 == WORLD_TILES.OCEAN_COASTAL or position0 == WORLD_TILES.OCEAN_HAZARDOUS) then return true end 
-	if recipe.product == "kyno_wobster_den" 			and (position0 == WORLD_TILES.OCEAN_BRINEPOOL_SHORE or position0 == WORLD_TILES.OCEAN_BRINEPOOL or position0 == WORLD_TILES.OCEAN_ROUGH or position0 == WORLD_TILES.OCEAN_SWELL or position0 == WORLD_TILES.OCEAN_COASTAL or position0 == WORLD_TILES.OCEAN_HAZARDOUS) then return true end 
-	if recipe.product == "kyno_moon_wobster_den" 		and (position0 == WORLD_TILES.OCEAN_BRINEPOOL_SHORE or position0 == WORLD_TILES.OCEAN_BRINEPOOL or position0 == WORLD_TILES.OCEAN_ROUGH or position0 == WORLD_TILES.OCEAN_SWELL or position0 == WORLD_TILES.OCEAN_COASTAL or position0 == WORLD_TILES.OCEAN_HAZARDOUS) then return true end 
-	if recipe.product == "kyno_sea_grass" 				and (position0 == WORLD_TILES.OCEAN_BRINEPOOL_SHORE or position0 == WORLD_TILES.OCEAN_BRINEPOOL or position0 == WORLD_TILES.OCEAN_ROUGH or position0 == WORLD_TILES.OCEAN_SWELL or position0 == WORLD_TILES.OCEAN_COASTAL or position0 == WORLD_TILES.OCEAN_HAZARDOUS) then return true end 
-	if recipe.product == "kyno_sea_reeds" 				and (position0 == WORLD_TILES.OCEAN_BRINEPOOL_SHORE or position0 == WORLD_TILES.OCEAN_BRINEPOOL or position0 == WORLD_TILES.OCEAN_ROUGH or position0 == WORLD_TILES.OCEAN_SWELL or position0 == WORLD_TILES.OCEAN_COASTAL or position0 == WORLD_TILES.OCEAN_HAZARDOUS) then return true end 
-	if recipe.product == "kyno_volcano" 				and (position0 == WORLD_TILES.OCEAN_BRINEPOOL_SHORE or position0 == WORLD_TILES.OCEAN_BRINEPOOL or position0 == WORLD_TILES.OCEAN_ROUGH or position0 == WORLD_TILES.OCEAN_SWELL or position0 == WORLD_TILES.OCEAN_COASTAL or position0 == WORLD_TILES.OCEAN_HAZARDOUS) then return true end 
-	if recipe.product == "kyno_lilypad" 				and (position0 == WORLD_TILES.OCEAN_BRINEPOOL_SHORE or position0 == WORLD_TILES.OCEAN_BRINEPOOL or position0 == WORLD_TILES.OCEAN_ROUGH or position0 == WORLD_TILES.OCEAN_SWELL or position0 == WORLD_TILES.OCEAN_COASTAL or position0 == WORLD_TILES.OCEAN_HAZARDOUS) then return true end 
-	if recipe.product == "kyno_lotusplant" 				and (position0 == WORLD_TILES.OCEAN_BRINEPOOL_SHORE or position0 == WORLD_TILES.OCEAN_BRINEPOOL or position0 == WORLD_TILES.OCEAN_ROUGH or position0 == WORLD_TILES.OCEAN_SWELL or position0 == WORLD_TILES.OCEAN_COASTAL or position0 == WORLD_TILES.OCEAN_HAZARDOUS) then return true end 
-	if recipe.product == "kyno_whalebubbles" 			and (position0 == WORLD_TILES.OCEAN_BRINEPOOL_SHORE or position0 == WORLD_TILES.OCEAN_BRINEPOOL or position0 == WORLD_TILES.OCEAN_ROUGH or position0 == WORLD_TILES.OCEAN_SWELL or position0 == WORLD_TILES.OCEAN_COASTAL or position0 == WORLD_TILES.OCEAN_HAZARDOUS) then return true end 
-	if recipe.product == "kyno_whale_blue" 				and (position0 == WORLD_TILES.OCEAN_BRINEPOOL_SHORE or position0 == WORLD_TILES.OCEAN_BRINEPOOL or position0 == WORLD_TILES.OCEAN_ROUGH or position0 == WORLD_TILES.OCEAN_SWELL or position0 == WORLD_TILES.OCEAN_COASTAL or position0 == WORLD_TILES.OCEAN_HAZARDOUS) then return true end 
-	if recipe.product == "kyno_whale_white" 			and (position0 == WORLD_TILES.OCEAN_BRINEPOOL_SHORE or position0 == WORLD_TILES.OCEAN_BRINEPOOL or position0 == WORLD_TILES.OCEAN_ROUGH or position0 == WORLD_TILES.OCEAN_SWELL or position0 == WORLD_TILES.OCEAN_COASTAL or position0 == WORLD_TILES.OCEAN_HAZARDOUS) then return true end 
-	if recipe.product == "kyno_jellyfish" 				and (position0 == WORLD_TILES.OCEAN_BRINEPOOL_SHORE or position0 == WORLD_TILES.OCEAN_BRINEPOOL or position0 == WORLD_TILES.OCEAN_ROUGH or position0 == WORLD_TILES.OCEAN_SWELL or position0 == WORLD_TILES.OCEAN_COASTAL or position0 == WORLD_TILES.OCEAN_HAZARDOUS) then return true end 
-	if recipe.product == "kyno_jellyfish_rainbow" 		and (position0 == WORLD_TILES.OCEAN_BRINEPOOL_SHORE or position0 == WORLD_TILES.OCEAN_BRINEPOOL or position0 == WORLD_TILES.OCEAN_ROUGH or position0 == WORLD_TILES.OCEAN_SWELL or position0 == WORLD_TILES.OCEAN_COASTAL or position0 == WORLD_TILES.OCEAN_HAZARDOUS) then return true end 
-	if recipe.product == "kyno_kraken" 					and (position0 == WORLD_TILES.OCEAN_BRINEPOOL_SHORE or position0 == WORLD_TILES.OCEAN_BRINEPOOL or position0 == WORLD_TILES.OCEAN_ROUGH or position0 == WORLD_TILES.OCEAN_SWELL or position0 == WORLD_TILES.OCEAN_COASTAL or position0 == WORLD_TILES.OCEAN_HAZARDOUS) then return true end 
-	if recipe.product == "kyno_kraken_tentacle" 		and (position0 == WORLD_TILES.OCEAN_BRINEPOOL_SHORE or position0 == WORLD_TILES.OCEAN_BRINEPOOL or position0 == WORLD_TILES.OCEAN_ROUGH or position0 == WORLD_TILES.OCEAN_SWELL or position0 == WORLD_TILES.OCEAN_COASTAL or position0 == WORLD_TILES.OCEAN_HAZARDOUS) then return true end 
-	if recipe.product == "kyno_wilbur_sleeping" 		and (position0 == WORLD_TILES.OCEAN_BRINEPOOL_SHORE or position0 == WORLD_TILES.OCEAN_BRINEPOOL or position0 == WORLD_TILES.OCEAN_ROUGH or position0 == WORLD_TILES.OCEAN_SWELL or position0 == WORLD_TILES.OCEAN_COASTAL or position0 == WORLD_TILES.OCEAN_HAZARDOUS) then return true end 
-	if recipe.product == "kyno_bioluminescence" 		and (position0 == WORLD_TILES.OCEAN_BRINEPOOL_SHORE or position0 == WORLD_TILES.OCEAN_BRINEPOOL or position0 == WORLD_TILES.OCEAN_ROUGH or position0 == WORLD_TILES.OCEAN_SWELL or position0 == WORLD_TILES.OCEAN_COASTAL or position0 == WORLD_TILES.OCEAN_HAZARDOUS) then return true end 
-	if recipe.product == "kyno_knightboat" 				and (position0 == WORLD_TILES.OCEAN_BRINEPOOL_SHORE or position0 == WORLD_TILES.OCEAN_BRINEPOOL or position0 == WORLD_TILES.OCEAN_ROUGH or position0 == WORLD_TILES.OCEAN_SWELL or position0 == WORLD_TILES.OCEAN_COASTAL or position0 == WORLD_TILES.OCEAN_HAZARDOUS) then return true end 
-	if recipe.product == "kyno_bishopboat" 				and (position0 == WORLD_TILES.OCEAN_BRINEPOOL_SHORE or position0 == WORLD_TILES.OCEAN_BRINEPOOL or position0 == WORLD_TILES.OCEAN_ROUGH or position0 == WORLD_TILES.OCEAN_SWELL or position0 == WORLD_TILES.OCEAN_COASTAL or position0 == WORLD_TILES.OCEAN_HAZARDOUS) then return true end 
-	if recipe.product == "kyno_rookboat" 				and (position0 == WORLD_TILES.OCEAN_BRINEPOOL_SHORE or position0 == WORLD_TILES.OCEAN_BRINEPOOL or position0 == WORLD_TILES.OCEAN_ROUGH or position0 == WORLD_TILES.OCEAN_SWELL or position0 == WORLD_TILES.OCEAN_COASTAL or position0 == WORLD_TILES.OCEAN_HAZARDOUS) then return true end 
-	if recipe.product == "kyno_seataro_planted" 		and (position0 == WORLD_TILES.OCEAN_BRINEPOOL_SHORE or position0 == WORLD_TILES.OCEAN_BRINEPOOL or position0 == WORLD_TILES.OCEAN_ROUGH or position0 == WORLD_TILES.OCEAN_SWELL or position0 == WORLD_TILES.OCEAN_COASTAL or position0 == WORLD_TILES.OCEAN_HAZARDOUS) then return true end 
-	if recipe.product == "kyno_slow_hydrofarmplot" 		and (position0 == WORLD_TILES.OCEAN_BRINEPOOL_SHORE or position0 == WORLD_TILES.OCEAN_BRINEPOOL or position0 == WORLD_TILES.OCEAN_ROUGH or position0 == WORLD_TILES.OCEAN_SWELL or position0 == WORLD_TILES.OCEAN_COASTAL or position0 == WORLD_TILES.OCEAN_HAZARDOUS) then return true end 
-	if recipe.product == "kyno_fast_hydrofarmplot" 		and (position0 == WORLD_TILES.OCEAN_BRINEPOOL_SHORE or position0 == WORLD_TILES.OCEAN_BRINEPOOL or position0 == WORLD_TILES.OCEAN_ROUGH or position0 == WORLD_TILES.OCEAN_SWELL or position0 == WORLD_TILES.OCEAN_COASTAL or position0 == WORLD_TILES.OCEAN_HAZARDOUS) then return true end 
-	if recipe.product == "kyno_slow_hydrofarmmeat" 		and (position0 == WORLD_TILES.OCEAN_BRINEPOOL_SHORE or position0 == WORLD_TILES.OCEAN_BRINEPOOL or position0 == WORLD_TILES.OCEAN_ROUGH or position0 == WORLD_TILES.OCEAN_SWELL or position0 == WORLD_TILES.OCEAN_COASTAL or position0 == WORLD_TILES.OCEAN_HAZARDOUS) then return true end 
-	if recipe.product == "kyno_fast_hydrofarmmeat" 		and (position0 == WORLD_TILES.OCEAN_BRINEPOOL_SHORE or position0 == WORLD_TILES.OCEAN_BRINEPOOL or position0 == WORLD_TILES.OCEAN_ROUGH or position0 == WORLD_TILES.OCEAN_SWELL or position0 == WORLD_TILES.OCEAN_COASTAL or position0 == WORLD_TILES.OCEAN_HAZARDOUS) then return true end 
-	if recipe.product == "kyno_watercress_planted" 		and (position0 == WORLD_TILES.OCEAN_BRINEPOOL_SHORE or position0 == WORLD_TILES.OCEAN_BRINEPOOL or position0 == WORLD_TILES.OCEAN_ROUGH or position0 == WORLD_TILES.OCEAN_SWELL or position0 == WORLD_TILES.OCEAN_COASTAL or position0 == WORLD_TILES.OCEAN_HAZARDOUS) then return true end 
-	if recipe.product == "kyno_whirlpool" 				and (position0 == WORLD_TILES.OCEAN_BRINEPOOL_SHORE or position0 == WORLD_TILES.OCEAN_BRINEPOOL or position0 == WORLD_TILES.OCEAN_ROUGH or position0 == WORLD_TILES.OCEAN_SWELL or position0 == WORLD_TILES.OCEAN_COASTAL or position0 == WORLD_TILES.OCEAN_HAZARDOUS) then return true end 
-	if recipe.product == "kyno_sea_cocoon" 				and (position0 == WORLD_TILES.OCEAN_BRINEPOOL_SHORE or position0 == WORLD_TILES.OCEAN_BRINEPOOL or position0 == WORLD_TILES.OCEAN_ROUGH or position0 == WORLD_TILES.OCEAN_SWELL or position0 == WORLD_TILES.OCEAN_COASTAL or position0 == WORLD_TILES.OCEAN_HAZARDOUS) then return true end 
-	if recipe.product == "kyno_sea_cocoon_1" 			and (position0 == WORLD_TILES.OCEAN_BRINEPOOL_SHORE or position0 == WORLD_TILES.OCEAN_BRINEPOOL or position0 == WORLD_TILES.OCEAN_ROUGH or position0 == WORLD_TILES.OCEAN_SWELL or position0 == WORLD_TILES.OCEAN_COASTAL or position0 == WORLD_TILES.OCEAN_HAZARDOUS) then return true end 
-	if recipe.product == "kyno_sea_cocoon_2" 			and (position0 == WORLD_TILES.OCEAN_BRINEPOOL_SHORE or position0 == WORLD_TILES.OCEAN_BRINEPOOL or position0 == WORLD_TILES.OCEAN_ROUGH or position0 == WORLD_TILES.OCEAN_SWELL or position0 == WORLD_TILES.OCEAN_COASTAL or position0 == WORLD_TILES.OCEAN_HAZARDOUS) then return true end 
-	if recipe.product == "kyno_sea_cocoon_3" 			and (position0 == WORLD_TILES.OCEAN_BRINEPOOL_SHORE or position0 == WORLD_TILES.OCEAN_BRINEPOOL or position0 == WORLD_TILES.OCEAN_ROUGH or position0 == WORLD_TILES.OCEAN_SWELL or position0 == WORLD_TILES.OCEAN_COASTAL or position0 == WORLD_TILES.OCEAN_HAZARDOUS) then return true end
-	if recipe.product == "kyno_watertree_root" 			and (position0 == WORLD_TILES.OCEAN_BRINEPOOL_SHORE or position0 == WORLD_TILES.OCEAN_BRINEPOOL or position0 == WORLD_TILES.OCEAN_ROUGH or position0 == WORLD_TILES.OCEAN_SWELL or position0 == WORLD_TILES.OCEAN_COASTAL or position0 == WORLD_TILES.OCEAN_HAZARDOUS) then return true end 	
-	if recipe.product == "kyno_seastrider_nest_water"	and (position0 == WORLD_TILES.OCEAN_BRINEPOOL_SHORE or position0 == WORLD_TILES.OCEAN_BRINEPOOL or position0 == WORLD_TILES.OCEAN_ROUGH or position0 == WORLD_TILES.OCEAN_SWELL or position0 == WORLD_TILES.OCEAN_COASTAL or position0 == WORLD_TILES.OCEAN_HAZARDOUS) then return true end 	
+	if recipe.product == "sap_wreck_1" 				and (position0 == WORLD_TILES.OCEAN_BRINEPOOL_SHORE or position0 == WORLD_TILES.OCEAN_BRINEPOOL or position0 == WORLD_TILES.OCEAN_ROUGH or position0 == WORLD_TILES.OCEAN_SWELL or position0 == WORLD_TILES.OCEAN_COASTAL or position0 == WORLD_TILES.OCEAN_HAZARDOUS) then return true end 
+	if recipe.product == "sap_wreck_2" 				and (position0 == WORLD_TILES.OCEAN_BRINEPOOL_SHORE or position0 == WORLD_TILES.OCEAN_BRINEPOOL or position0 == WORLD_TILES.OCEAN_ROUGH or position0 == WORLD_TILES.OCEAN_SWELL or position0 == WORLD_TILES.OCEAN_COASTAL or position0 == WORLD_TILES.OCEAN_HAZARDOUS) then return true end 
+	if recipe.product == "sap_wreck_3" 				and (position0 == WORLD_TILES.OCEAN_BRINEPOOL_SHORE or position0 == WORLD_TILES.OCEAN_BRINEPOOL or position0 == WORLD_TILES.OCEAN_ROUGH or position0 == WORLD_TILES.OCEAN_SWELL or position0 == WORLD_TILES.OCEAN_COASTAL or position0 == WORLD_TILES.OCEAN_HAZARDOUS) then return true end 
+	if recipe.product == "sap_wreck_4" 				and (position0 == WORLD_TILES.OCEAN_BRINEPOOL_SHORE or position0 == WORLD_TILES.OCEAN_BRINEPOOL or position0 == WORLD_TILES.OCEAN_ROUGH or position0 == WORLD_TILES.OCEAN_SWELL or position0 == WORLD_TILES.OCEAN_COASTAL or position0 == WORLD_TILES.OCEAN_HAZARDOUS) then return true end 
+	if recipe.product == "sap_seaweed" 				and (position0 == WORLD_TILES.OCEAN_BRINEPOOL_SHORE or position0 == WORLD_TILES.OCEAN_BRINEPOOL or position0 == WORLD_TILES.OCEAN_ROUGH or position0 == WORLD_TILES.OCEAN_SWELL or position0 == WORLD_TILES.OCEAN_COASTAL or position0 == WORLD_TILES.OCEAN_HAZARDOUS) then return true end 
+	if recipe.product == "sap_brain_rock" 				and (position0 == WORLD_TILES.OCEAN_BRINEPOOL_SHORE or position0 == WORLD_TILES.OCEAN_BRINEPOOL or position0 == WORLD_TILES.OCEAN_ROUGH or position0 == WORLD_TILES.OCEAN_SWELL or position0 == WORLD_TILES.OCEAN_COASTAL or position0 == WORLD_TILES.OCEAN_HAZARDOUS) then return true end 
+	if recipe.product == "sap_rock_coral_1" 			and (position0 == WORLD_TILES.OCEAN_BRINEPOOL_SHORE or position0 == WORLD_TILES.OCEAN_BRINEPOOL or position0 == WORLD_TILES.OCEAN_ROUGH or position0 == WORLD_TILES.OCEAN_SWELL or position0 == WORLD_TILES.OCEAN_COASTAL or position0 == WORLD_TILES.OCEAN_HAZARDOUS) then return true end 
+	if recipe.product == "sap_rock_coral_2" 			and (position0 == WORLD_TILES.OCEAN_BRINEPOOL_SHORE or position0 == WORLD_TILES.OCEAN_BRINEPOOL or position0 == WORLD_TILES.OCEAN_ROUGH or position0 == WORLD_TILES.OCEAN_SWELL or position0 == WORLD_TILES.OCEAN_COASTAL or position0 == WORLD_TILES.OCEAN_HAZARDOUS) then return true end 
+	if recipe.product == "sap_rock_coral_3" 			and (position0 == WORLD_TILES.OCEAN_BRINEPOOL_SHORE or position0 == WORLD_TILES.OCEAN_BRINEPOOL or position0 == WORLD_TILES.OCEAN_ROUGH or position0 == WORLD_TILES.OCEAN_SWELL or position0 == WORLD_TILES.OCEAN_COASTAL or position0 == WORLD_TILES.OCEAN_HAZARDOUS) then return true end 
+	if recipe.product == "sap_redbarrel" 				and (position0 == WORLD_TILES.OCEAN_BRINEPOOL_SHORE or position0 == WORLD_TILES.OCEAN_BRINEPOOL or position0 == WORLD_TILES.OCEAN_ROUGH or position0 == WORLD_TILES.OCEAN_SWELL or position0 == WORLD_TILES.OCEAN_COASTAL or position0 == WORLD_TILES.OCEAN_HAZARDOUS) then return true end 
+	if recipe.product == "sap_bermudatriangle" 		and (position0 == WORLD_TILES.OCEAN_BRINEPOOL_SHORE or position0 == WORLD_TILES.OCEAN_BRINEPOOL or position0 == WORLD_TILES.OCEAN_ROUGH or position0 == WORLD_TILES.OCEAN_SWELL or position0 == WORLD_TILES.OCEAN_COASTAL or position0 == WORLD_TILES.OCEAN_HAZARDOUS) then return true end 
+	if recipe.product == "sap_ballphinhouse" 			and (position0 == WORLD_TILES.OCEAN_BRINEPOOL_SHORE or position0 == WORLD_TILES.OCEAN_BRINEPOOL or position0 == WORLD_TILES.OCEAN_ROUGH or position0 == WORLD_TILES.OCEAN_SWELL or position0 == WORLD_TILES.OCEAN_COASTAL or position0 == WORLD_TILES.OCEAN_HAZARDOUS) then return true end 
+	if recipe.product == "sap_octopusking" 			and (position0 == WORLD_TILES.OCEAN_BRINEPOOL_SHORE or position0 == WORLD_TILES.OCEAN_BRINEPOOL or position0 == WORLD_TILES.OCEAN_ROUGH or position0 == WORLD_TILES.OCEAN_SWELL or position0 == WORLD_TILES.OCEAN_COASTAL or position0 == WORLD_TILES.OCEAN_HAZARDOUS) then return true end 
+	if recipe.product == "sap_luggagechest" 			and (position0 == WORLD_TILES.OCEAN_BRINEPOOL_SHORE or position0 == WORLD_TILES.OCEAN_BRINEPOOL or position0 == WORLD_TILES.OCEAN_ROUGH or position0 == WORLD_TILES.OCEAN_SWELL or position0 == WORLD_TILES.OCEAN_COASTAL or position0 == WORLD_TILES.OCEAN_HAZARDOUS) then return true end 
+	if recipe.product == "sap_fishinhole" 				and (position0 == WORLD_TILES.OCEAN_BRINEPOOL_SHORE or position0 == WORLD_TILES.OCEAN_BRINEPOOL or position0 == WORLD_TILES.OCEAN_ROUGH or position0 == WORLD_TILES.OCEAN_SWELL or position0 == WORLD_TILES.OCEAN_COASTAL or position0 == WORLD_TILES.OCEAN_HAZARDOUS) then return true end 
+	if recipe.product == "sap_buoy" 					and (position0 == WORLD_TILES.OCEAN_BRINEPOOL_SHORE or position0 == WORLD_TILES.OCEAN_BRINEPOOL or position0 == WORLD_TILES.OCEAN_ROUGH or position0 == WORLD_TILES.OCEAN_SWELL or position0 == WORLD_TILES.OCEAN_COASTAL or position0 == WORLD_TILES.OCEAN_HAZARDOUS) then return true end 
+	if recipe.product == "sap_sea_chiminea" 			and (position0 == WORLD_TILES.OCEAN_BRINEPOOL_SHORE or position0 == WORLD_TILES.OCEAN_BRINEPOOL or position0 == WORLD_TILES.OCEAN_ROUGH or position0 == WORLD_TILES.OCEAN_SWELL or position0 == WORLD_TILES.OCEAN_COASTAL or position0 == WORLD_TILES.OCEAN_HAZARDOUS) then return true end 
+	if recipe.product == "sap_seayard" 				and (position0 == WORLD_TILES.OCEAN_BRINEPOOL_SHORE or position0 == WORLD_TILES.OCEAN_BRINEPOOL or position0 == WORLD_TILES.OCEAN_ROUGH or position0 == WORLD_TILES.OCEAN_SWELL or position0 == WORLD_TILES.OCEAN_COASTAL or position0 == WORLD_TILES.OCEAN_HAZARDOUS) then return true end 
+	if recipe.product == "sap_extractor" 				and (position0 == WORLD_TILES.OCEAN_BRINEPOOL_SHORE or position0 == WORLD_TILES.OCEAN_BRINEPOOL or position0 == WORLD_TILES.OCEAN_ROUGH or position0 == WORLD_TILES.OCEAN_SWELL or position0 == WORLD_TILES.OCEAN_COASTAL or position0 == WORLD_TILES.OCEAN_HAZARDOUS) then return true end 
+	if recipe.product == "sap_musselfarm" 				and (position0 == WORLD_TILES.OCEAN_BRINEPOOL_SHORE or position0 == WORLD_TILES.OCEAN_BRINEPOOL or position0 == WORLD_TILES.OCEAN_ROUGH or position0 == WORLD_TILES.OCEAN_SWELL or position0 == WORLD_TILES.OCEAN_COASTAL or position0 == WORLD_TILES.OCEAN_HAZARDOUS) then return true end 
+	if recipe.product == "sap_fishfarm" 				and (position0 == WORLD_TILES.OCEAN_BRINEPOOL_SHORE or position0 == WORLD_TILES.OCEAN_BRINEPOOL or position0 == WORLD_TILES.OCEAN_ROUGH or position0 == WORLD_TILES.OCEAN_SWELL or position0 == WORLD_TILES.OCEAN_COASTAL or position0 == WORLD_TILES.OCEAN_HAZARDOUS) then return true end 
+	if recipe.product == "sap_sealab" 					and (position0 == WORLD_TILES.OCEAN_BRINEPOOL_SHORE or position0 == WORLD_TILES.OCEAN_BRINEPOOL or position0 == WORLD_TILES.OCEAN_ROUGH or position0 == WORLD_TILES.OCEAN_SWELL or position0 == WORLD_TILES.OCEAN_COASTAL or position0 == WORLD_TILES.OCEAN_HAZARDOUS) then return true end 
+	if recipe.product == "sap_krakenchest" 			and (position0 == WORLD_TILES.OCEAN_BRINEPOOL_SHORE or position0 == WORLD_TILES.OCEAN_BRINEPOOL or position0 == WORLD_TILES.OCEAN_ROUGH or position0 == WORLD_TILES.OCEAN_SWELL or position0 == WORLD_TILES.OCEAN_COASTAL or position0 == WORLD_TILES.OCEAN_HAZARDOUS) then return true end 
+	if recipe.product == "sap_waterchest" 				and (position0 == WORLD_TILES.OCEAN_BRINEPOOL_SHORE or position0 == WORLD_TILES.OCEAN_BRINEPOOL or position0 == WORLD_TILES.OCEAN_ROUGH or position0 == WORLD_TILES.OCEAN_SWELL or position0 == WORLD_TILES.OCEAN_COASTAL or position0 == WORLD_TILES.OCEAN_HAZARDOUS) then return true end 
+	if recipe.product == "sap_watercrate" 				and (position0 == WORLD_TILES.OCEAN_BRINEPOOL_SHORE or position0 == WORLD_TILES.OCEAN_BRINEPOOL or position0 == WORLD_TILES.OCEAN_ROUGH or position0 == WORLD_TILES.OCEAN_SWELL or position0 == WORLD_TILES.OCEAN_COASTAL or position0 == WORLD_TILES.OCEAN_HAZARDOUS) then return true end 
+	if recipe.product == "sap_tarpit" 					and (position0 == WORLD_TILES.OCEAN_BRINEPOOL_SHORE or position0 == WORLD_TILES.OCEAN_BRINEPOOL or position0 == WORLD_TILES.OCEAN_ROUGH or position0 == WORLD_TILES.OCEAN_SWELL or position0 == WORLD_TILES.OCEAN_COASTAL or position0 == WORLD_TILES.OCEAN_HAZARDOUS) then return true end 
+	if recipe.product == "sap_seastack" 				and (position0 == WORLD_TILES.OCEAN_BRINEPOOL_SHORE or position0 == WORLD_TILES.OCEAN_BRINEPOOL or position0 == WORLD_TILES.OCEAN_ROUGH or position0 == WORLD_TILES.OCEAN_SWELL or position0 == WORLD_TILES.OCEAN_COASTAL or position0 == WORLD_TILES.OCEAN_HAZARDOUS) then return true end 
+	if recipe.product == "sap_saltstack" 				and (position0 == WORLD_TILES.OCEAN_BRINEPOOL_SHORE or position0 == WORLD_TILES.OCEAN_BRINEPOOL or position0 == WORLD_TILES.OCEAN_ROUGH or position0 == WORLD_TILES.OCEAN_SWELL or position0 == WORLD_TILES.OCEAN_COASTAL or position0 == WORLD_TILES.OCEAN_HAZARDOUS) then return true end 
+	if recipe.product == "sap_wobster_den" 			and (position0 == WORLD_TILES.OCEAN_BRINEPOOL_SHORE or position0 == WORLD_TILES.OCEAN_BRINEPOOL or position0 == WORLD_TILES.OCEAN_ROUGH or position0 == WORLD_TILES.OCEAN_SWELL or position0 == WORLD_TILES.OCEAN_COASTAL or position0 == WORLD_TILES.OCEAN_HAZARDOUS) then return true end 
+	if recipe.product == "sap_moon_wobster_den" 		and (position0 == WORLD_TILES.OCEAN_BRINEPOOL_SHORE or position0 == WORLD_TILES.OCEAN_BRINEPOOL or position0 == WORLD_TILES.OCEAN_ROUGH or position0 == WORLD_TILES.OCEAN_SWELL or position0 == WORLD_TILES.OCEAN_COASTAL or position0 == WORLD_TILES.OCEAN_HAZARDOUS) then return true end 
+	if recipe.product == "sap_sea_grass" 				and (position0 == WORLD_TILES.OCEAN_BRINEPOOL_SHORE or position0 == WORLD_TILES.OCEAN_BRINEPOOL or position0 == WORLD_TILES.OCEAN_ROUGH or position0 == WORLD_TILES.OCEAN_SWELL or position0 == WORLD_TILES.OCEAN_COASTAL or position0 == WORLD_TILES.OCEAN_HAZARDOUS) then return true end 
+	if recipe.product == "sap_sea_reeds" 				and (position0 == WORLD_TILES.OCEAN_BRINEPOOL_SHORE or position0 == WORLD_TILES.OCEAN_BRINEPOOL or position0 == WORLD_TILES.OCEAN_ROUGH or position0 == WORLD_TILES.OCEAN_SWELL or position0 == WORLD_TILES.OCEAN_COASTAL or position0 == WORLD_TILES.OCEAN_HAZARDOUS) then return true end 
+	if recipe.product == "sap_volcano" 				and (position0 == WORLD_TILES.OCEAN_BRINEPOOL_SHORE or position0 == WORLD_TILES.OCEAN_BRINEPOOL or position0 == WORLD_TILES.OCEAN_ROUGH or position0 == WORLD_TILES.OCEAN_SWELL or position0 == WORLD_TILES.OCEAN_COASTAL or position0 == WORLD_TILES.OCEAN_HAZARDOUS) then return true end 
+	if recipe.product == "sap_lilypad" 				and (position0 == WORLD_TILES.OCEAN_BRINEPOOL_SHORE or position0 == WORLD_TILES.OCEAN_BRINEPOOL or position0 == WORLD_TILES.OCEAN_ROUGH or position0 == WORLD_TILES.OCEAN_SWELL or position0 == WORLD_TILES.OCEAN_COASTAL or position0 == WORLD_TILES.OCEAN_HAZARDOUS) then return true end 
+	if recipe.product == "sap_lotusplant" 				and (position0 == WORLD_TILES.OCEAN_BRINEPOOL_SHORE or position0 == WORLD_TILES.OCEAN_BRINEPOOL or position0 == WORLD_TILES.OCEAN_ROUGH or position0 == WORLD_TILES.OCEAN_SWELL or position0 == WORLD_TILES.OCEAN_COASTAL or position0 == WORLD_TILES.OCEAN_HAZARDOUS) then return true end 
+	if recipe.product == "sap_whalebubbles" 			and (position0 == WORLD_TILES.OCEAN_BRINEPOOL_SHORE or position0 == WORLD_TILES.OCEAN_BRINEPOOL or position0 == WORLD_TILES.OCEAN_ROUGH or position0 == WORLD_TILES.OCEAN_SWELL or position0 == WORLD_TILES.OCEAN_COASTAL or position0 == WORLD_TILES.OCEAN_HAZARDOUS) then return true end 
+	if recipe.product == "sap_whale_blue" 				and (position0 == WORLD_TILES.OCEAN_BRINEPOOL_SHORE or position0 == WORLD_TILES.OCEAN_BRINEPOOL or position0 == WORLD_TILES.OCEAN_ROUGH or position0 == WORLD_TILES.OCEAN_SWELL or position0 == WORLD_TILES.OCEAN_COASTAL or position0 == WORLD_TILES.OCEAN_HAZARDOUS) then return true end 
+	if recipe.product == "sap_whale_white" 			and (position0 == WORLD_TILES.OCEAN_BRINEPOOL_SHORE or position0 == WORLD_TILES.OCEAN_BRINEPOOL or position0 == WORLD_TILES.OCEAN_ROUGH or position0 == WORLD_TILES.OCEAN_SWELL or position0 == WORLD_TILES.OCEAN_COASTAL or position0 == WORLD_TILES.OCEAN_HAZARDOUS) then return true end 
+	if recipe.product == "sap_jellyfish" 				and (position0 == WORLD_TILES.OCEAN_BRINEPOOL_SHORE or position0 == WORLD_TILES.OCEAN_BRINEPOOL or position0 == WORLD_TILES.OCEAN_ROUGH or position0 == WORLD_TILES.OCEAN_SWELL or position0 == WORLD_TILES.OCEAN_COASTAL or position0 == WORLD_TILES.OCEAN_HAZARDOUS) then return true end 
+	if recipe.product == "sap_jellyfish_rainbow" 		and (position0 == WORLD_TILES.OCEAN_BRINEPOOL_SHORE or position0 == WORLD_TILES.OCEAN_BRINEPOOL or position0 == WORLD_TILES.OCEAN_ROUGH or position0 == WORLD_TILES.OCEAN_SWELL or position0 == WORLD_TILES.OCEAN_COASTAL or position0 == WORLD_TILES.OCEAN_HAZARDOUS) then return true end 
+	if recipe.product == "sap_kraken" 					and (position0 == WORLD_TILES.OCEAN_BRINEPOOL_SHORE or position0 == WORLD_TILES.OCEAN_BRINEPOOL or position0 == WORLD_TILES.OCEAN_ROUGH or position0 == WORLD_TILES.OCEAN_SWELL or position0 == WORLD_TILES.OCEAN_COASTAL or position0 == WORLD_TILES.OCEAN_HAZARDOUS) then return true end 
+	if recipe.product == "sap_kraken_tentacle" 		and (position0 == WORLD_TILES.OCEAN_BRINEPOOL_SHORE or position0 == WORLD_TILES.OCEAN_BRINEPOOL or position0 == WORLD_TILES.OCEAN_ROUGH or position0 == WORLD_TILES.OCEAN_SWELL or position0 == WORLD_TILES.OCEAN_COASTAL or position0 == WORLD_TILES.OCEAN_HAZARDOUS) then return true end 
+	if recipe.product == "sap_wilbur_sleeping" 		and (position0 == WORLD_TILES.OCEAN_BRINEPOOL_SHORE or position0 == WORLD_TILES.OCEAN_BRINEPOOL or position0 == WORLD_TILES.OCEAN_ROUGH or position0 == WORLD_TILES.OCEAN_SWELL or position0 == WORLD_TILES.OCEAN_COASTAL or position0 == WORLD_TILES.OCEAN_HAZARDOUS) then return true end 
+	if recipe.product == "sap_bioluminescence" 		and (position0 == WORLD_TILES.OCEAN_BRINEPOOL_SHORE or position0 == WORLD_TILES.OCEAN_BRINEPOOL or position0 == WORLD_TILES.OCEAN_ROUGH or position0 == WORLD_TILES.OCEAN_SWELL or position0 == WORLD_TILES.OCEAN_COASTAL or position0 == WORLD_TILES.OCEAN_HAZARDOUS) then return true end 
+	if recipe.product == "sap_knightboat" 				and (position0 == WORLD_TILES.OCEAN_BRINEPOOL_SHORE or position0 == WORLD_TILES.OCEAN_BRINEPOOL or position0 == WORLD_TILES.OCEAN_ROUGH or position0 == WORLD_TILES.OCEAN_SWELL or position0 == WORLD_TILES.OCEAN_COASTAL or position0 == WORLD_TILES.OCEAN_HAZARDOUS) then return true end 
+	if recipe.product == "sap_bishopboat" 				and (position0 == WORLD_TILES.OCEAN_BRINEPOOL_SHORE or position0 == WORLD_TILES.OCEAN_BRINEPOOL or position0 == WORLD_TILES.OCEAN_ROUGH or position0 == WORLD_TILES.OCEAN_SWELL or position0 == WORLD_TILES.OCEAN_COASTAL or position0 == WORLD_TILES.OCEAN_HAZARDOUS) then return true end 
+	if recipe.product == "sap_rookboat" 				and (position0 == WORLD_TILES.OCEAN_BRINEPOOL_SHORE or position0 == WORLD_TILES.OCEAN_BRINEPOOL or position0 == WORLD_TILES.OCEAN_ROUGH or position0 == WORLD_TILES.OCEAN_SWELL or position0 == WORLD_TILES.OCEAN_COASTAL or position0 == WORLD_TILES.OCEAN_HAZARDOUS) then return true end 
+	if recipe.product == "sap_seataro_planted" 		and (position0 == WORLD_TILES.OCEAN_BRINEPOOL_SHORE or position0 == WORLD_TILES.OCEAN_BRINEPOOL or position0 == WORLD_TILES.OCEAN_ROUGH or position0 == WORLD_TILES.OCEAN_SWELL or position0 == WORLD_TILES.OCEAN_COASTAL or position0 == WORLD_TILES.OCEAN_HAZARDOUS) then return true end 
+	if recipe.product == "sap_slow_hydrofarmplot" 		and (position0 == WORLD_TILES.OCEAN_BRINEPOOL_SHORE or position0 == WORLD_TILES.OCEAN_BRINEPOOL or position0 == WORLD_TILES.OCEAN_ROUGH or position0 == WORLD_TILES.OCEAN_SWELL or position0 == WORLD_TILES.OCEAN_COASTAL or position0 == WORLD_TILES.OCEAN_HAZARDOUS) then return true end 
+	if recipe.product == "sap_fast_hydrofarmplot" 		and (position0 == WORLD_TILES.OCEAN_BRINEPOOL_SHORE or position0 == WORLD_TILES.OCEAN_BRINEPOOL or position0 == WORLD_TILES.OCEAN_ROUGH or position0 == WORLD_TILES.OCEAN_SWELL or position0 == WORLD_TILES.OCEAN_COASTAL or position0 == WORLD_TILES.OCEAN_HAZARDOUS) then return true end 
+	if recipe.product == "sap_slow_hydrofarmmeat" 		and (position0 == WORLD_TILES.OCEAN_BRINEPOOL_SHORE or position0 == WORLD_TILES.OCEAN_BRINEPOOL or position0 == WORLD_TILES.OCEAN_ROUGH or position0 == WORLD_TILES.OCEAN_SWELL or position0 == WORLD_TILES.OCEAN_COASTAL or position0 == WORLD_TILES.OCEAN_HAZARDOUS) then return true end 
+	if recipe.product == "sap_fast_hydrofarmmeat" 		and (position0 == WORLD_TILES.OCEAN_BRINEPOOL_SHORE or position0 == WORLD_TILES.OCEAN_BRINEPOOL or position0 == WORLD_TILES.OCEAN_ROUGH or position0 == WORLD_TILES.OCEAN_SWELL or position0 == WORLD_TILES.OCEAN_COASTAL or position0 == WORLD_TILES.OCEAN_HAZARDOUS) then return true end 
+	if recipe.product == "sap_watercress_planted" 		and (position0 == WORLD_TILES.OCEAN_BRINEPOOL_SHORE or position0 == WORLD_TILES.OCEAN_BRINEPOOL or position0 == WORLD_TILES.OCEAN_ROUGH or position0 == WORLD_TILES.OCEAN_SWELL or position0 == WORLD_TILES.OCEAN_COASTAL or position0 == WORLD_TILES.OCEAN_HAZARDOUS) then return true end 
+	if recipe.product == "sap_whirlpool" 				and (position0 == WORLD_TILES.OCEAN_BRINEPOOL_SHORE or position0 == WORLD_TILES.OCEAN_BRINEPOOL or position0 == WORLD_TILES.OCEAN_ROUGH or position0 == WORLD_TILES.OCEAN_SWELL or position0 == WORLD_TILES.OCEAN_COASTAL or position0 == WORLD_TILES.OCEAN_HAZARDOUS) then return true end 
+	if recipe.product == "sap_sea_cocoon" 				and (position0 == WORLD_TILES.OCEAN_BRINEPOOL_SHORE or position0 == WORLD_TILES.OCEAN_BRINEPOOL or position0 == WORLD_TILES.OCEAN_ROUGH or position0 == WORLD_TILES.OCEAN_SWELL or position0 == WORLD_TILES.OCEAN_COASTAL or position0 == WORLD_TILES.OCEAN_HAZARDOUS) then return true end 
+	if recipe.product == "sap_sea_cocoon_1" 			and (position0 == WORLD_TILES.OCEAN_BRINEPOOL_SHORE or position0 == WORLD_TILES.OCEAN_BRINEPOOL or position0 == WORLD_TILES.OCEAN_ROUGH or position0 == WORLD_TILES.OCEAN_SWELL or position0 == WORLD_TILES.OCEAN_COASTAL or position0 == WORLD_TILES.OCEAN_HAZARDOUS) then return true end 
+	if recipe.product == "sap_sea_cocoon_2" 			and (position0 == WORLD_TILES.OCEAN_BRINEPOOL_SHORE or position0 == WORLD_TILES.OCEAN_BRINEPOOL or position0 == WORLD_TILES.OCEAN_ROUGH or position0 == WORLD_TILES.OCEAN_SWELL or position0 == WORLD_TILES.OCEAN_COASTAL or position0 == WORLD_TILES.OCEAN_HAZARDOUS) then return true end 
+	if recipe.product == "sap_sea_cocoon_3" 			and (position0 == WORLD_TILES.OCEAN_BRINEPOOL_SHORE or position0 == WORLD_TILES.OCEAN_BRINEPOOL or position0 == WORLD_TILES.OCEAN_ROUGH or position0 == WORLD_TILES.OCEAN_SWELL or position0 == WORLD_TILES.OCEAN_COASTAL or position0 == WORLD_TILES.OCEAN_HAZARDOUS) then return true end
+	if recipe.product == "sap_watertree_root" 			and (position0 == WORLD_TILES.OCEAN_BRINEPOOL_SHORE or position0 == WORLD_TILES.OCEAN_BRINEPOOL or position0 == WORLD_TILES.OCEAN_ROUGH or position0 == WORLD_TILES.OCEAN_SWELL or position0 == WORLD_TILES.OCEAN_COASTAL or position0 == WORLD_TILES.OCEAN_HAZARDOUS) then return true end 	
+	if recipe.product == "sap_seastrider_nest_water"	and (position0 == WORLD_TILES.OCEAN_BRINEPOOL_SHORE or position0 == WORLD_TILES.OCEAN_BRINEPOOL or position0 == WORLD_TILES.OCEAN_ROUGH or position0 == WORLD_TILES.OCEAN_SWELL or position0 == WORLD_TILES.OCEAN_COASTAL or position0 == WORLD_TILES.OCEAN_HAZARDOUS) then return true end 	
 	
 	if recipe.product == "mangrovetree_short" 			then return false end
-	if recipe.product == "kyno_wreck_1" 				then return false end
-	if recipe.product == "kyno_wreck_2" 				then return false end
-	if recipe.product == "kyno_wreck_3" 				then return false end
-	if recipe.product == "kyno_wreck_4"					then return false end
-	if recipe.product == "kyno_seaweed" 				then return false end
-	if recipe.product == "kyno_brain_rock" 				then return false end
-	if recipe.product == "kyno_rock_coral_1" 			then return false end
-	if recipe.product == "kyno_rock_coral_2" 			then return false end
-	if recipe.product == "kyno_rock_coral_3" 			then return false end
-	if recipe.product == "kyno_redbarrel" 				then return false end
-	if recipe.product == "kyno_bermudatriangle" 		then return false end
-	if recipe.product == "kyno_ballphinhouse" 			then return false end
-	if recipe.product == "kyno_octopusking" 			then return false end
-	if recipe.product == "kyno_luggagechest" 			then return false end
-	if recipe.product == "kyno_fishinhole" 				then return false end
-	if recipe.product == "kyno_buoy" 					then return false end
-	if recipe.product == "kyno_sea_chiminea" 			then return false end
-	if recipe.product == "kyno_seayard" 				then return false end
-	if recipe.product == "kyno_extractor"				then return false end
-	if recipe.product == "kyno_musselfarm" 				then return false end
-	if recipe.product == "kyno_fishfarm" 				then return false end
-	if recipe.product == "kyno_sealab" 					then return false end
-	if recipe.product == "kyno_krakenchest" 			then return false end
-	if recipe.product == "kyno_waterchest" 				then return false end
-	if recipe.product == "kyno_watercrate" 				then return false end
-	if recipe.product == "kyno_tarpit" 					then return false end
-	if recipe.product == "kyno_seastack" 				then return false end
-	if recipe.product == "kyno_saltstack" 				then return false end
-	if recipe.product == "kyno_wobster_den" 			then return false end
-	if recipe.product == "kyno_moon_wobster_den" 		then return false end
-	if recipe.product == "kyno_sea_grass" 				then return false end
-	if recipe.product == "kyno_sea_reeds" 				then return false end
-	if recipe.product == "kyno_volcano" 				then return false end
-	if recipe.product == "kyno_lilypad" 				then return false end
-	if recipe.product == "kyno_lotusplant" 				then return false end
-	if recipe.product == "kyno_whalebubbles" 			then return false end
-	if recipe.product == "kyno_whale_blue" 				then return false end
-	if recipe.product == "kyno_whale_white" 			then return false end
-	if recipe.product == "kyno_jellyfish" 				then return false end
-	if recipe.product == "kyno_jellyfish_rainbow" 		then return false end
-	if recipe.product == "kyno_kraken" 					then return false end
-	if recipe.product == "kyno_kraken_tentacle" 		then return false end
-	if recipe.product == "kyno_wilbur_sleeping" 		then return false end
-	if recipe.product == "kyno_bioluminescence" 		then return false end
-	if recipe.product == "kyno_knightboat" 				then return false end
-	if recipe.product == "kyno_bishopboat" 				then return false end
-	if recipe.product == "kyno_rookboat" 				then return false end
-	if recipe.product == "kyno_seataro_planted" 		then return false end
-	if recipe.product == "kyno_slow_hydrofarmplot" 		then return false end
-	if recipe.product == "kyno_fast_hydrofarmplot" 		then return false end
-	if recipe.product == "kyno_slow_hydrofarmmeat" 		then return false end
-	if recipe.product == "kyno_fast_hydrofarmmeat" 		then return false end
-	if recipe.product == "kyno_watercress_planted" 		then return false end
-	if recipe.product == "kyno_whirlpool" 				then return false end
-	if recipe.product == "kyno_sea_cocoon" 				then return false end
-	if recipe.product == "kyno_sea_cocoon_1" 			then return false end
-	if recipe.product == "kyno_sea_cocoon_2" 			then return false end
-	if recipe.product == "kyno_sea_cocoon_3" 			then return false end
-	if recipe.product == "kyno_watertree_root" 			then return false end
-	if recipe.product == "kyno_seastrider_nest_water"	then return false end
+	if recipe.product == "sap_wreck_1" 				then return false end
+	if recipe.product == "sap_wreck_2" 				then return false end
+	if recipe.product == "sap_wreck_3" 				then return false end
+	if recipe.product == "sap_wreck_4"					then return false end
+	if recipe.product == "sap_seaweed" 				then return false end
+	if recipe.product == "sap_brain_rock" 				then return false end
+	if recipe.product == "sap_rock_coral_1" 			then return false end
+	if recipe.product == "sap_rock_coral_2" 			then return false end
+	if recipe.product == "sap_rock_coral_3" 			then return false end
+	if recipe.product == "sap_redbarrel" 				then return false end
+	if recipe.product == "sap_bermudatriangle" 		then return false end
+	if recipe.product == "sap_ballphinhouse" 			then return false end
+	if recipe.product == "sap_octopusking" 			then return false end
+	if recipe.product == "sap_luggagechest" 			then return false end
+	if recipe.product == "sap_fishinhole" 				then return false end
+	if recipe.product == "sap_buoy" 					then return false end
+	if recipe.product == "sap_sea_chiminea" 			then return false end
+	if recipe.product == "sap_seayard" 				then return false end
+	if recipe.product == "sap_extractor"				then return false end
+	if recipe.product == "sap_musselfarm" 				then return false end
+	if recipe.product == "sap_fishfarm" 				then return false end
+	if recipe.product == "sap_sealab" 					then return false end
+	if recipe.product == "sap_krakenchest" 			then return false end
+	if recipe.product == "sap_waterchest" 				then return false end
+	if recipe.product == "sap_watercrate" 				then return false end
+	if recipe.product == "sap_tarpit" 					then return false end
+	if recipe.product == "sap_seastack" 				then return false end
+	if recipe.product == "sap_saltstack" 				then return false end
+	if recipe.product == "sap_wobster_den" 			then return false end
+	if recipe.product == "sap_moon_wobster_den" 		then return false end
+	if recipe.product == "sap_sea_grass" 				then return false end
+	if recipe.product == "sap_sea_reeds" 				then return false end
+	if recipe.product == "sap_volcano" 				then return false end
+	if recipe.product == "sap_lilypad" 				then return false end
+	if recipe.product == "sap_lotusplant" 				then return false end
+	if recipe.product == "sap_whalebubbles" 			then return false end
+	if recipe.product == "sap_whale_blue" 				then return false end
+	if recipe.product == "sap_whale_white" 			then return false end
+	if recipe.product == "sap_jellyfish" 				then return false end
+	if recipe.product == "sap_jellyfish_rainbow" 		then return false end
+	if recipe.product == "sap_kraken" 					then return false end
+	if recipe.product == "sap_kraken_tentacle" 		then return false end
+	if recipe.product == "sap_wilbur_sleeping" 		then return false end
+	if recipe.product == "sap_bioluminescence" 		then return false end
+	if recipe.product == "sap_knightboat" 				then return false end
+	if recipe.product == "sap_bishopboat" 				then return false end
+	if recipe.product == "sap_rookboat" 				then return false end
+	if recipe.product == "sap_seataro_planted" 		then return false end
+	if recipe.product == "sap_slow_hydrofarmplot" 		then return false end
+	if recipe.product == "sap_fast_hydrofarmplot" 		then return false end
+	if recipe.product == "sap_slow_hydrofarmmeat" 		then return false end
+	if recipe.product == "sap_fast_hydrofarmmeat" 		then return false end
+	if recipe.product == "sap_watercress_planted" 		then return false end
+	if recipe.product == "sap_whirlpool" 				then return false end
+	if recipe.product == "sap_sea_cocoon" 				then return false end
+	if recipe.product == "sap_sea_cocoon_1" 			then return false end
+	if recipe.product == "sap_sea_cocoon_2" 			then return false end
+	if recipe.product == "sap_sea_cocoon_3" 			then return false end
+	if recipe.product == "sap_watertree_root" 			then return false end
+	if recipe.product == "sap_seastrider_nest_water"	then return false end
 
     return TheWorld.Map:CanDeployRecipeAtPoint(pt, recipe, rot)
 end

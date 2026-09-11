@@ -65,5 +65,5 @@ local function fn()
     return inst
 end
 
-return Prefab("kyno_unbuilthouse", fn, assets),
-MakePlacer("kyno_unbuilthouse_placer", "unbuilt_house", "unbuilt_house", "unbuilt")
+return Prefab("sap_unbuilthouse", fn, assets),
+MakePlacer("sap_unbuilthouse_placer", "unbuilt_house", "unbuilt_house", "unbuilt")

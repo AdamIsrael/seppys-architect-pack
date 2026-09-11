@@ -221,5 +221,5 @@ local function fn()
 	return inst
 end
 
-return Prefab("kyno_snowman", fn, assets, prefabs),
-MakePlacer("kyno_snowman_placer", "kyno_snowman", "kyno_snowman", "idle_loop", false, nil, nil, nil, 90, nil)
+return Prefab("sap_snowman", fn, assets, prefabs),
+MakePlacer("sap_snowman_placer", "kyno_snowman", "kyno_snowman", "idle_loop", false, nil, nil, nil, 90, nil)

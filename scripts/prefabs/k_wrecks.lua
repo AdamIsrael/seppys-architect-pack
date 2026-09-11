@@ -347,11 +347,11 @@ local function sternfn()
 	return inst
 end
 
-return Prefab("kyno_wreck_1", mastfn, assets, prefabs),
-Prefab("kyno_wreck_2", bowfn, assets, prefabs),
-Prefab("kyno_wreck_3", midshipfn, assets, prefabs),
-Prefab("kyno_wreck_4", sternfn, assets, prefabs),
-MakePlacer("kyno_wreck_1_placer", "shipwreck", "shipwreck", "idle_empty1"),
-MakePlacer("kyno_wreck_2_placer", "shipwreck", "shipwreck", "idle_empty2"),
-MakePlacer("kyno_wreck_3_placer", "shipwreck", "shipwreck", "idle_empty3"),
-MakePlacer("kyno_wreck_4_placer", "shipwreck", "shipwreck", "idle_empty4")
+return Prefab("sap_wreck_1", mastfn, assets, prefabs),
+Prefab("sap_wreck_2", bowfn, assets, prefabs),
+Prefab("sap_wreck_3", midshipfn, assets, prefabs),
+Prefab("sap_wreck_4", sternfn, assets, prefabs),
+MakePlacer("sap_wreck_1_placer", "shipwreck", "shipwreck", "idle_empty1"),
+MakePlacer("sap_wreck_2_placer", "shipwreck", "shipwreck", "idle_empty2"),
+MakePlacer("sap_wreck_3_placer", "shipwreck", "shipwreck", "idle_empty3"),
+MakePlacer("sap_wreck_4_placer", "shipwreck", "shipwreck", "idle_empty4")

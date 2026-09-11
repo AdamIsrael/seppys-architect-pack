@@ -345,5 +345,5 @@ local function hotspring()
     return inst
 end
 
-return Prefab("kyno_hotspring", hotspring, hotspring_assets, hotspring_prefabs),
-MakePlacer("kyno_hotspring_placer", "crater_pool", "crater_pool", "idle")
+return Prefab("sap_hotspring", hotspring, hotspring_assets, hotspring_prefabs),
+MakePlacer("sap_hotspring_placer", "crater_pool", "crater_pool", "idle")

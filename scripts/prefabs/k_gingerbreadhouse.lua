@@ -258,11 +258,11 @@ local function fn4()
     return inst
 end
 
-return Prefab("kyno_gingerbreadhouse1", fn1, assets, prefabs),
-Prefab("kyno_gingerbreadhouse2", fn2, assets, prefabs),
-Prefab("kyno_gingerbreadhouse3", fn3, assets, prefabs),
-Prefab("kyno_gingerbreadhouse4", fn4, assets, prefabs),
-MakePlacer("kyno_gingerbreadhouse1_placer", "gingerbread_house1", "gingerbread_house1", "idle"),
-MakePlacer("kyno_gingerbreadhouse2_placer", "gingerbread_house2", "gingerbread_house2", "idle"),
-MakePlacer("kyno_gingerbreadhouse3_placer", "gingerbread_house2", "gingerbread_house3", "idle"),
-MakePlacer("kyno_gingerbreadhouse4_placer", "gingerbread_house1", "gingerbread_house4", "idle")
+return Prefab("sap_gingerbreadhouse1", fn1, assets, prefabs),
+Prefab("sap_gingerbreadhouse2", fn2, assets, prefabs),
+Prefab("sap_gingerbreadhouse3", fn3, assets, prefabs),
+Prefab("sap_gingerbreadhouse4", fn4, assets, prefabs),
+MakePlacer("sap_gingerbreadhouse1_placer", "gingerbread_house1", "gingerbread_house1", "idle"),
+MakePlacer("sap_gingerbreadhouse2_placer", "gingerbread_house2", "gingerbread_house2", "idle"),
+MakePlacer("sap_gingerbreadhouse3_placer", "gingerbread_house2", "gingerbread_house3", "idle"),
+MakePlacer("sap_gingerbreadhouse4_placer", "gingerbread_house1", "gingerbread_house4", "idle")

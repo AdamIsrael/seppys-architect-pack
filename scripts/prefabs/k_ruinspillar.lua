@@ -14,8 +14,8 @@ local assets =
 
 local prefabs =
 {
-	"kyno_pillar_front_broken",
-	"kyno_pillar_front_blue_broken",
+	"sap_pillar_front_broken",
+	"sap_pillar_front_blue_broken",
 }
 
 local function onwork(inst, worker, workleft)
@@ -43,7 +43,7 @@ local function onfinish(inst, worker)
 	inst.SoundEmitter:PlaySound("dontstarve/common/destroy_stone")
 	inst:Remove()
 	inst.AnimState:PushAnimation("pillar_front_crumble")
-	SpawnPrefab("kyno_pillar_front_broken").Transform:SetPosition(inst.Transform:GetWorldPosition())
+	SpawnPrefab("sap_pillar_front_broken").Transform:SetPosition(inst.Transform:GetWorldPosition())
 end
 
 local function onfinish_blue(inst, worker)
@@ -51,7 +51,7 @@ local function onfinish_blue(inst, worker)
 	inst.SoundEmitter:PlaySound("dontstarve/common/destroy_stone")
 	inst:Remove()
 	inst.AnimState:PushAnimation("pillar_front_crumble")
-	SpawnPrefab("kyno_pillar_front_blue_broken").Transform:SetPosition(inst.Transform:GetWorldPosition())
+	SpawnPrefab("sap_pillar_front_blue_broken").Transform:SetPosition(inst.Transform:GetWorldPosition())
 end
 
 local function onfinish_pillar(inst, worker)
@@ -226,10 +226,10 @@ local function brokenbluefn()
 	return inst
 end
 
-return Prefab("kyno_pillar_front", pillarfn, assets, prefabs),
-Prefab("kyno_pillar_front_broken", brokenfn, assets, prefabs),
-MakePlacer("kyno_pillar_front_placer", "interior_wall_decals_ruins", "interior_wall_decals_ruins", "pillar_front"),
+return Prefab("sap_pillar_front", pillarfn, assets, prefabs),
+Prefab("sap_pillar_front_broken", brokenfn, assets, prefabs),
+MakePlacer("sap_pillar_front_placer", "interior_wall_decals_ruins", "interior_wall_decals_ruins", "pillar_front"),
 
-Prefab("kyno_pillar_front_blue", pillarbluefn, assets, prefabs),
-Prefab("kyno_pillar_front_blue_broken", brokenbluefn, assets, prefabs),
-MakePlacer("kyno_pillar_front_blue_placer", "interior_wall_decals_ruins", "interior_wall_decals_ruins_blue", "pillar_front")
+Prefab("sap_pillar_front_blue", pillarbluefn, assets, prefabs),
+Prefab("sap_pillar_front_blue_broken", brokenbluefn, assets, prefabs),
+MakePlacer("sap_pillar_front_blue_placer", "interior_wall_decals_ruins", "interior_wall_decals_ruins_blue", "pillar_front")

@@ -59,5 +59,5 @@ local function fn()
 	return inst
 end
 
-return Prefab("kyno_toadhole", fn, assets, prefabs),
-MakePlacer("kyno_toadhole_placer", "toadstool", "toadstool_build", "picked")
+return Prefab("sap_toadhole", fn, assets, prefabs),
+MakePlacer("sap_toadhole_placer", "toadstool", "toadstool_build", "picked")

@@ -170,5 +170,5 @@ local function spitplacer(inst)
 	inst.AnimState:SetScale(.7, .7, .7)
 end
 
-return Prefab("kyno_cookingspit", fn, assets, prefabs),
-MakePlacer("kyno_cookingspit_placer", "cookling_spit", "cooking_spit", "cooking_loop", false, nil, nil, nil, nil, nil, spitplacer)
+return Prefab("sap_cookingspit", fn, assets, prefabs),
+MakePlacer("sap_cookingspit_placer", "cookling_spit", "cooking_spit", "cooking_loop", false, nil, nil, nil, nil, nil, spitplacer)

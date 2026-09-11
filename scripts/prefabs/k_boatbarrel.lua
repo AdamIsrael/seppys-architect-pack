@@ -167,7 +167,7 @@ local function barrelplacer2(inst)
 	inst.AnimState:SetScale(1.4, 1.4, 1.4)
 end
 
-return Prefab("kyno_boatbarrel", fn, assets, prefabs),
-Prefab("kyno_boatbarrel2", twofn, assets, prefabs),
-MakePlacer("kyno_boatbarrel_placer", "barrel_01", "barrel", "idle", false, nil, nil, nil, nil, nil, barrelplacer),
-MakePlacer("kyno_boatbarrel2_placer", "containoar", "boat_containoar", "idle", false, nil, nil, nil, nil, nil, barrelplacer2)
+return Prefab("sap_boatbarrel", fn, assets, prefabs),
+Prefab("sap_boatbarrel2", twofn, assets, prefabs),
+MakePlacer("sap_boatbarrel_placer", "barrel_01", "barrel", "idle", false, nil, nil, nil, nil, nil, barrelplacer),
+MakePlacer("sap_boatbarrel2_placer", "containoar", "boat_containoar", "idle", false, nil, nil, nil, nil, nil, barrelplacer2)

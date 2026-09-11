@@ -58,7 +58,7 @@ local function lootsetfn(lootdropper)
             --TODO: replace with shadow equipment drops
             table.insert(loot, "armor_sanity")
             table.insert(loot, "nightsword")
-			table.insert(loot, "kyno_shadowportal_blueprint")
+			table.insert(loot, "sap_shadowportal_blueprint")
             if IsSpecialEventActive(SPECIAL_EVENTS.WINTERS_FEAST) then
                 table.insert(loot, GetRandomBasicWinterOrnament())
             end

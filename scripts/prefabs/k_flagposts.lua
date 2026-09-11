@@ -234,13 +234,13 @@ local function flagpostplacerfn(inst)
 	inst.AnimState:SetScale(.7, .7, .7)
 end
 
-return Prefab("kyno_flagpost1", fn, assets),
-Prefab("kyno_flagpost2", fn2, assets),
-Prefab("kyno_flagpost3", fn3, assets),
-Prefab("kyno_flagpost4", fn4, assets),
-Prefab("kyno_flagpost5", fn5, assets),
-MakePlacer("kyno_flagpost1_placer", "kyno_flag_post", "kyno_flag_post", "duster", false, nil, nil, nil, nil, nil, flagpostplacerfn),
-MakePlacer("kyno_flagpost2_placer", "kyno_flag_post", "kyno_flag_post", "perdy", false, nil, nil, nil, nil, nil, flagpostplacerfn),
-MakePlacer("kyno_flagpost3_placer", "kyno_flag_post", "kyno_flag_post", "royal", false, nil, nil, nil, nil, nil, flagpostplacerfn),
-MakePlacer("kyno_flagpost4_placer", "kyno_flag_post", "kyno_flag_post", "wilson", false, nil, nil, nil, nil, nil, flagpostplacerfn),
-MakePlacer("kyno_flagpost5_placer", "kyno_flag_post", "kyno_flag_post", "hand", false, nil, nil, nil, nil, nil, flagpostplacerfn)
+return Prefab("sap_flagpost1", fn, assets),
+Prefab("sap_flagpost2", fn2, assets),
+Prefab("sap_flagpost3", fn3, assets),
+Prefab("sap_flagpost4", fn4, assets),
+Prefab("sap_flagpost5", fn5, assets),
+MakePlacer("sap_flagpost1_placer", "kyno_flag_post", "kyno_flag_post", "duster", false, nil, nil, nil, nil, nil, flagpostplacerfn),
+MakePlacer("sap_flagpost2_placer", "kyno_flag_post", "kyno_flag_post", "perdy", false, nil, nil, nil, nil, nil, flagpostplacerfn),
+MakePlacer("sap_flagpost3_placer", "kyno_flag_post", "kyno_flag_post", "royal", false, nil, nil, nil, nil, nil, flagpostplacerfn),
+MakePlacer("sap_flagpost4_placer", "kyno_flag_post", "kyno_flag_post", "wilson", false, nil, nil, nil, nil, nil, flagpostplacerfn),
+MakePlacer("sap_flagpost5_placer", "kyno_flag_post", "kyno_flag_post", "hand", false, nil, nil, nil, nil, nil, flagpostplacerfn)

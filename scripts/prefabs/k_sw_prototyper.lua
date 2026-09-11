@@ -127,7 +127,7 @@ local function Noveltyfn()
     return inst
 end
 
-return Prefab("kyno_sw_prototyper", Boatfn, assets),
-Prefab("kyno_novelty_ride", Noveltyfn, assets),
-MakePlacer("kyno_sw_prototyper_placer", "boatportal", "portal_shipwrecked_build", "idle_off"),
-MakePlacer("kyno_novelty_ride_placer", "boatportal", "portal_shipwrecked_build", "idle_broken")
+return Prefab("sap_sw_prototyper", Boatfn, assets),
+Prefab("sap_novelty_ride", Noveltyfn, assets),
+MakePlacer("sap_sw_prototyper_placer", "boatportal", "portal_shipwrecked_build", "idle_off"),
+MakePlacer("sap_novelty_ride_placer", "boatportal", "portal_shipwrecked_build", "idle_broken")

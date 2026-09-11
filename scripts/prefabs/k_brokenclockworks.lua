@@ -182,7 +182,7 @@ end
 
 local function RandomJunkFn()
     local inst = BasePile(math.random(3))
-    inst:SetPrefabName("kyno_brokenclockwork"..inst.style)
+    inst:SetPrefabName("sap_brokenclockwork"..inst.style)
 	return inst
 end
 
@@ -197,10 +197,10 @@ local function onruinsrespawn(inst, respawner)
 	end
 end
 
-return Prefab("kyno_brokenclockwork", RandomJunkFn, assets, prefabs),
-Prefab("kyno_brokenclockwork1", Junk(1), assets, prefabs),
-Prefab("kyno_brokenclockwork2", Junk(2), assets, prefabs),
-Prefab("kyno_brokenclockwork3", Junk(3), assets, prefabs),
-MakePlacer("kyno_brokenclockwork1_placer", "chessmonster_ruins", "chessmonster_ruins", "idle1"),
-MakePlacer("kyno_brokenclockwork2_placer", "chessmonster_ruins", "chessmonster_ruins", "idle2"),
-MakePlacer("kyno_brokenclockwork3_placer", "chessmonster_ruins", "chessmonster_ruins", "idle3")
+return Prefab("sap_brokenclockwork", RandomJunkFn, assets, prefabs),
+Prefab("sap_brokenclockwork1", Junk(1), assets, prefabs),
+Prefab("sap_brokenclockwork2", Junk(2), assets, prefabs),
+Prefab("sap_brokenclockwork3", Junk(3), assets, prefabs),
+MakePlacer("sap_brokenclockwork1_placer", "chessmonster_ruins", "chessmonster_ruins", "idle1"),
+MakePlacer("sap_brokenclockwork2_placer", "chessmonster_ruins", "chessmonster_ruins", "idle2"),
+MakePlacer("sap_brokenclockwork3_placer", "chessmonster_ruins", "chessmonster_ruins", "idle3")

@@ -108,9 +108,9 @@ local function throne()
     return inst
 end
 
-return Prefab("kyno_palace_pillar", pillar, assets),
-Prefab("kyno_palace_plant", plant, assets),
-Prefab("kyno_palace_throne", throne, assets),
-MakePlacer("kyno_palace_pillar_placer", "wall_decals_palace", "interior_wall_decals_palace", "pillar"),
-MakePlacer("kyno_palace_plant_placer", "wall_decals_palace", "interior_wall_decals_palace", "plant"),
-MakePlacer("kyno_palace_throne_placer", "wall_decals_palace", "interior_wall_decals_palace", "throne")
+return Prefab("sap_palace_pillar", pillar, assets),
+Prefab("sap_palace_plant", plant, assets),
+Prefab("sap_palace_throne", throne, assets),
+MakePlacer("sap_palace_pillar_placer", "wall_decals_palace", "interior_wall_decals_palace", "pillar"),
+MakePlacer("sap_palace_plant_placer", "wall_decals_palace", "interior_wall_decals_palace", "plant"),
+MakePlacer("sap_palace_throne_placer", "wall_decals_palace", "interior_wall_decals_palace", "throne")

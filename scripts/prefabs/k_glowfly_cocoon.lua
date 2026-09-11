@@ -64,5 +64,5 @@ local function cocoonplacetestfn(inst)
 	inst.AnimState:SetScale(0.75,0.75,0.75)
 end
 
-return Prefab("kyno_cocoon", fn, assets, prefabs),
-MakePlacer("kyno_cocoon_placer", "lantern_fly", "lantern_fly", "cocoon_idle_loop", false, nil, nil, nil, nil, nil, cocoonplacetestfn)
+return Prefab("sap_cocoon", fn, assets, prefabs),
+MakePlacer("sap_cocoon_placer", "lantern_fly", "lantern_fly", "cocoon_idle_loop", false, nil, nil, nil, nil, nil, cocoonplacetestfn)

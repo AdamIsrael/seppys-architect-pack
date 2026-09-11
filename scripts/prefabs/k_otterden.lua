@@ -40,7 +40,7 @@ local function OnHammered(inst, worker)
 	inst.components.lootdropper:DropLoot()
 	
 	SpawnPrefab("collapse_big").Transform:SetPosition(inst.Transform:GetWorldPosition())
-	SpawnPrefab("kyno_otterden_dead").Transform:SetPosition(inst.Transform:GetWorldPosition())
+	SpawnPrefab("sap_otterden_dead").Transform:SetPosition(inst.Transform:GetWorldPosition())
 	
 	inst.SoundEmitter:PlaySound("dontstarve/common/destroy_straw")
 	inst:Remove()
@@ -203,7 +203,7 @@ local function OnKilled(inst, data)
     local ipos = inst:GetPosition()
     inst.components.lootdropper:DropLoot(ipos)
 
-    local dead_den = SpawnPrefab("kyno_otterden_dead")
+    local dead_den = SpawnPrefab("sap_otterden_dead")
 	dead_den.Transform:SetPosition(ipos:Get())
 
     inst:Remove()
@@ -434,6 +434,6 @@ local function deadfn()
     return inst
 end
 
-return Prefab("kyno_otterden", fn, assets, prefabs),
-Prefab("kyno_otterden_dead", deadfn, assets, prefabs),
-MakePlacer("kyno_otterden_placer", "otter_den", "otter_den", "idle")
+return Prefab("sap_otterden", fn, assets, prefabs),
+Prefab("sap_otterden_dead", deadfn, assets, prefabs),
+MakePlacer("sap_otterden_placer", "otter_den", "otter_den", "idle")

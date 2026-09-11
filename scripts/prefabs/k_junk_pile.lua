@@ -15,7 +15,7 @@ local prefabs =
 }
 
 local function OnPickedBigFn(inst, digger)
-	local pile = SpawnPrefab("kyno_junk_pile_med")
+	local pile = SpawnPrefab("sap_junk_pile_med")
 	pile.Transform:SetPosition(inst.Transform:GetWorldPosition())
 
 	SpawnPrefab("junk_break_fx").Transform:SetPosition(inst.Transform:GetWorldPosition())
@@ -25,7 +25,7 @@ local function OnPickedBigFn(inst, digger)
 end
 
 local function OnPickedMedFn(inst, digger)
-	local pile = SpawnPrefab("kyno_junk_pile_low")
+	local pile = SpawnPrefab("sap_junk_pile_low")
 	pile.Transform:SetPosition(inst.Transform:GetWorldPosition())
 
 	SpawnPrefab("junk_break_fx").Transform:SetPosition(inst.Transform:GetWorldPosition())
@@ -212,17 +212,17 @@ local function lowfn()
 	return inst
 end
 
-return Prefab("kyno_junk_pile_big1", big1fn, assets),
-Prefab("kyno_junk_pile_big2", big2fn, assets),
-Prefab("kyno_junk_pile_big3", big3fn, assets),
-Prefab("kyno_junk_pile_big4", big4fn, assets),
-Prefab("kyno_junk_pile_big5", big5fn, assets),
-Prefab("kyno_junk_pile_big6", big6fn, assets),
-Prefab("kyno_junk_pile_med", medfn, assets, prefabs),
-Prefab("kyno_junk_pile_low", lowfn, assets, prefabs),
-MakePlacer("kyno_junk_pile_big1_placer", "scrappile", "scrappile", "big_idle"),
-MakePlacer("kyno_junk_pile_big2_placer", "scrappile", "scrappile", "idle1"),
-MakePlacer("kyno_junk_pile_big3_placer", "scrappile", "scrappile", "idle2"),
-MakePlacer("kyno_junk_pile_big4_placer", "scrappile", "scrappile", "idle3"),
-MakePlacer("kyno_junk_pile_big5_placer", "scrappile", "scrappile", "side_idle1"),
-MakePlacer("kyno_junk_pile_big6_placer", "scrappile", "scrappile", "side_idle2")
+return Prefab("sap_junk_pile_big1", big1fn, assets),
+Prefab("sap_junk_pile_big2", big2fn, assets),
+Prefab("sap_junk_pile_big3", big3fn, assets),
+Prefab("sap_junk_pile_big4", big4fn, assets),
+Prefab("sap_junk_pile_big5", big5fn, assets),
+Prefab("sap_junk_pile_big6", big6fn, assets),
+Prefab("sap_junk_pile_med", medfn, assets, prefabs),
+Prefab("sap_junk_pile_low", lowfn, assets, prefabs),
+MakePlacer("sap_junk_pile_big1_placer", "scrappile", "scrappile", "big_idle"),
+MakePlacer("sap_junk_pile_big2_placer", "scrappile", "scrappile", "idle1"),
+MakePlacer("sap_junk_pile_big3_placer", "scrappile", "scrappile", "idle2"),
+MakePlacer("sap_junk_pile_big4_placer", "scrappile", "scrappile", "idle3"),
+MakePlacer("sap_junk_pile_big5_placer", "scrappile", "scrappile", "side_idle1"),
+MakePlacer("sap_junk_pile_big6_placer", "scrappile", "scrappile", "side_idle2")

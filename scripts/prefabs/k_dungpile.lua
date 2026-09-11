@@ -93,5 +93,5 @@ local function fn()
 	return inst
 end
 
-return Prefab("kyno_dungpile", fn, assets, prefabs),
-MakePlacer("kyno_dungpile_placer", "dung_pile", "dung_pile", "idle_full")
+return Prefab("sap_dungpile", fn, assets, prefabs),
+MakePlacer("sap_dungpile_placer", "dung_pile", "dung_pile", "idle_full")

@@ -112,5 +112,5 @@ local function fn()
     return inst
 end
 
-return Prefab("kyno_critterlab", fn, assets, prefabs),
-MakePlacer("kyno_critterlab_placer", "critterlab", "critterlab", "idle")
+return Prefab("sap_critterlab", fn, assets, prefabs),
+MakePlacer("sap_critterlab_placer", "critterlab", "critterlab", "idle")

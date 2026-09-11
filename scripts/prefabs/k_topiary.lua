@@ -120,11 +120,11 @@ local function ornamentplacetestfn(inst)
     return true
 end
 
-return makeitem("kyno_topiary_1", "topiary_pigman_build", "1"),
-makeitem("kyno_topiary_2", "topiary_werepig_build", "2"),
-makeitem("kyno_topiary_3", "topiary_beefalo_build", "3"),
-makeitem("kyno_topiary_4", "topiary_pigking_build", "4"),     
-MakePlacer("kyno_topiary_1_placer", "topiary", "topiary_pigman_build", "idle", false, nil, nil, nil, nil, nil, ornamentplacetestfn),
-MakePlacer("kyno_topiary_2_placer", "topiary", "topiary_werepig_build", "idle", false, nil, nil, nil, nil, nil, ornamentplacetestfn),
-MakePlacer("kyno_topiary_3_placer", "topiary", "topiary_beefalo_build", "idle", false, nil, nil, nil, nil, nil, ornamentplacetestfn),
-MakePlacer("kyno_topiary_4_placer", "topiary", "topiary_pigking_build", "idle", false, nil, nil, nil, nil, nil, ornamentplacetestfn)
+return makeitem("sap_topiary_1", "topiary_pigman_build", "1"),
+makeitem("sap_topiary_2", "topiary_werepig_build", "2"),
+makeitem("sap_topiary_3", "topiary_beefalo_build", "3"),
+makeitem("sap_topiary_4", "topiary_pigking_build", "4"),     
+MakePlacer("sap_topiary_1_placer", "topiary", "topiary_pigman_build", "idle", false, nil, nil, nil, nil, nil, ornamentplacetestfn),
+MakePlacer("sap_topiary_2_placer", "topiary", "topiary_werepig_build", "idle", false, nil, nil, nil, nil, nil, ornamentplacetestfn),
+MakePlacer("sap_topiary_3_placer", "topiary", "topiary_beefalo_build", "idle", false, nil, nil, nil, nil, nil, ornamentplacetestfn),
+MakePlacer("sap_topiary_4_placer", "topiary", "topiary_pigking_build", "idle", false, nil, nil, nil, nil, nil, ornamentplacetestfn)

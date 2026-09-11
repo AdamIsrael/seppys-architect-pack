@@ -103,5 +103,5 @@ local function fn()
     return inst
 end
 
-return Prefab("kyno_musselfarm", fn, assets, prefabs),
-MakePlacer("kyno_musselfarm_placer", "musselFarm", "musselFarm", "idle_full")
+return Prefab("sap_musselfarm", fn, assets, prefabs),
+MakePlacer("sap_musselfarm_placer", "musselFarm", "musselFarm", "idle_full")

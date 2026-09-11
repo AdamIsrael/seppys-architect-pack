@@ -193,5 +193,5 @@ local function sunkchestplacerfn(inst)
 	inst.AnimState:Hide("lock")
 end
 
-return Prefab("kyno_sunkchest", fn, assets, prefabs),
-MakePlacer("kyno_sunkchest_placer", "sunken_treasurechest", "kyno_sunkchest", "closed")
+return Prefab("sap_sunkchest", fn, assets, prefabs),
+MakePlacer("sap_sunkchest_placer", "sunken_treasurechest", "sap_sunkchest", "closed")

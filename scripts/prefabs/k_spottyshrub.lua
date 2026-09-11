@@ -64,5 +64,5 @@ local function fn()
 	return inst
 end
 
-return Prefab("kyno_spottyshrub", fn, assets, prefabs),
-MakePlacer("kyno_spottyshrub_placer", "quagmire_spiceshrub", "quagmire_spiceshrub", "idle")
+return Prefab("sap_spottyshrub", fn, assets, prefabs),
+MakePlacer("sap_spottyshrub_placer", "quagmire_spiceshrub", "quagmire_spiceshrub", "idle")

@@ -260,6 +260,6 @@ local function driftwood_small2()
     return fn("small2")
 end
 
-return Prefab("kyno_driftwood_tall", driftwood_tall, driftwood_tall_assets, prefabs),
-    Prefab("kyno_driftwood_small1", driftwood_small1, driftwood_small1_assets, prefabs),
-    Prefab("kyno_driftwood_small2", driftwood_small2, driftwood_small2_assets, prefabs)
+return Prefab("sap_driftwood_tall", driftwood_tall, driftwood_tall_assets, prefabs),
+    Prefab("sap_driftwood_small1", driftwood_small1, driftwood_small1_assets, prefabs),
+    Prefab("sap_driftwood_small2", driftwood_small2, driftwood_small2_assets, prefabs)

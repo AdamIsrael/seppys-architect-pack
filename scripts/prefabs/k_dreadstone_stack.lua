@@ -70,5 +70,5 @@ local function fn()
     return inst
 end
 
-return Prefab("kyno_dreadstone_stack", fn, assets, prefabs),
-MakePlacer("kyno_dreadstone_stack_placer", "nightmare_crack_upper", "nightmare_crack_upper", "idle_open_rift")
+return Prefab("sap_dreadstone_stack", fn, assets, prefabs),
+MakePlacer("sap_dreadstone_stack_placer", "nightmare_crack_upper", "nightmare_crack_upper", "idle_open_rift")

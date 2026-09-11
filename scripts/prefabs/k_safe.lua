@@ -166,5 +166,5 @@ local function fn()
 	return inst
 end
 
-return Prefab("kyno_safechest", fn, assets, prefabs),
-MakePlacer("kyno_safechest_placer", "quagmire_safe", "quagmire_safe", "closed")
+return Prefab("sap_safechest", fn, assets, prefabs),
+MakePlacer("sap_safechest_placer", "quagmire_safe", "quagmire_safe", "closed")

@@ -202,21 +202,21 @@ local function ruins_4_placetestfn(inst)
 	inst.AnimState:Hide("swap_ornament")
 end
 
-return Prefab("kyno_pigruins1", makefn("pig_ruins_entrance", "RUINS_1"), assets, prefabs),
-MakePlacer("kyno_pigruins1_placer", "pig_ruins_entrance", "pig_ruins_entrance_build", "idle_low", false, nil, nil, nil, nil, nil, ruins_1_placetestfn), 
+return Prefab("sap_pigruins1", makefn("pig_ruins_entrance", "RUINS_1"), assets, prefabs),
+MakePlacer("sap_pigruins1_placer", "pig_ruins_entrance", "pig_ruins_entrance_build", "idle_low", false, nil, nil, nil, nil, nil, ruins_1_placetestfn), 
 
-Prefab("kyno_pigruins2", makefn("pig_ruins_entrance", "RUINS_2"), assets, prefabs),
-MakePlacer("kyno_pigruins2_placer", "pig_ruins_entrance", "pig_ruins_entrance_build", "idle_low", false, nil, nil, nil, nil, nil, ruins_2_placetestfn),
+Prefab("sap_pigruins2", makefn("pig_ruins_entrance", "RUINS_2"), assets, prefabs),
+MakePlacer("sap_pigruins2_placer", "pig_ruins_entrance", "pig_ruins_entrance_build", "idle_low", false, nil, nil, nil, nil, nil, ruins_2_placetestfn),
 
-Prefab("kyno_pigruins3", makefn("pig_ruins_entrance", "RUINS_3"), assets, prefabs),
-MakePlacer("kyno_pigruins3_placer", "pig_ruins_entrance", "pig_ruins_entrance_build", "idle_low", false, nil, nil, nil, nil, nil, ruins_3_placetestfn),
+Prefab("sap_pigruins3", makefn("pig_ruins_entrance", "RUINS_3"), assets, prefabs),
+MakePlacer("sap_pigruins3_placer", "pig_ruins_entrance", "pig_ruins_entrance_build", "idle_low", false, nil, nil, nil, nil, nil, ruins_3_placetestfn),
 
-Prefab("kyno_pigruins4", makefn("pig_ruins_entrance", "RUINS_4"), assets, prefabs),
-MakePlacer("kyno_pigruins4_placer", "pig_ruins_entrance", "pig_ruins_entrance_build", "idle_low", false, nil, nil, nil, nil, nil, ruins_4_placetestfn),
+Prefab("sap_pigruins4", makefn("pig_ruins_entrance", "RUINS_4"), assets, prefabs),
+MakePlacer("sap_pigruins4_placer", "pig_ruins_entrance", "pig_ruins_entrance_build", "idle_low", false, nil, nil, nil, nil, nil, ruins_4_placetestfn),
 
 -- This Prefab actually doesn't exists.
-Prefab("kyno_pigruins5", makefn("pig_ruins_entrance", "RUINS_5"), assets, prefabs),
-MakePlacer("kyno_pigruins5_placer", "pig_ruins_entrance", "pig_ruins_entrance_build", "idle_low"),
+Prefab("sap_pigruins5", makefn("pig_ruins_entrance", "RUINS_5"), assets, prefabs),
+MakePlacer("sap_pigruins5_placer", "pig_ruins_entrance", "pig_ruins_entrance_build", "idle_low"),
 
-Prefab("kyno_pigruinssmall", makefn("pig_ruins_entrance", "RUINS_6"), assets, prefabs),
-MakePlacer("kyno_pigruinssmall_placer", "pig_ruins_entrance", "pig_ruins_entrance_build", "idle_low")
+Prefab("sap_pigruinssmall", makefn("pig_ruins_entrance", "RUINS_6"), assets, prefabs),
+MakePlacer("sap_pigruinssmall_placer", "pig_ruins_entrance", "pig_ruins_entrance_build", "idle_low")

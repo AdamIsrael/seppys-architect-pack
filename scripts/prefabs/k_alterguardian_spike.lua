@@ -81,5 +81,5 @@ local function fn()
     return inst
 end
 
-return Prefab("kyno_moonglass_spike", fn, assets),
-MakePlacer("kyno_moonglass_spike_placer", "alterguardian_spike", "alterguardian_spike", "spike_loop")
+return Prefab("sap_moonglass_spike", fn, assets),
+MakePlacer("sap_moonglass_spike_placer", "alterguardian_spike", "alterguardian_spike", "spike_loop")

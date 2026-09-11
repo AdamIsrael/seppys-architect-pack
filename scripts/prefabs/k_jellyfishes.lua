@@ -312,7 +312,7 @@ local function fn2()
 	return inst
 end
 
-return Prefab("kyno_jellyfish", fn, assets, prefabs),
-Prefab("kyno_jellyfish_rainbow", fn2, assets, prefabs),
-MakePlacer("kyno_jellyfish_placer", "jellyfish", "jellyfish", "idle"),
-MakePlacer("kyno_jellyfish_rainbow_placer", "rainbowjellyfish", "rainbowjellyfish", "idle")
+return Prefab("sap_jellyfish", fn, assets, prefabs),
+Prefab("sap_jellyfish_rainbow", fn2, assets, prefabs),
+MakePlacer("sap_jellyfish_placer", "jellyfish", "jellyfish", "idle"),
+MakePlacer("sap_jellyfish_rainbow_placer", "rainbowjellyfish", "rainbowjellyfish", "idle")

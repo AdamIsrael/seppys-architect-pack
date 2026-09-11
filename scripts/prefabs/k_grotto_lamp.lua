@@ -123,5 +123,5 @@ local function fn()
     return inst
 end
 
-return Prefab("kyno_grottolamp", fn, assets, prefabs),
-MakePlacer("kyno_grottolamp_placer", "kyno_grottolamp", "kyno_grottolamp", "idle_off")
+return Prefab("sap_grottolamp", fn, assets, prefabs),
+MakePlacer("sap_grottolamp_placer", "kyno_grottolamp", "kyno_grottolamp", "idle_off")

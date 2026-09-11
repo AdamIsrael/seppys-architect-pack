@@ -63,5 +63,5 @@ local function fn()
 	return inst
 end
 
-return Prefab("kyno_buriedtreasure", fn, assets, prefabs),
-MakePlacer("kyno_buriedtreasure_placer", "x_marks_spot", "x_marks_spot", "anim")
+return Prefab("sap_buriedtreasure", fn, assets, prefabs),
+MakePlacer("sap_buriedtreasure_placer", "x_marks_spot", "x_marks_spot", "anim")

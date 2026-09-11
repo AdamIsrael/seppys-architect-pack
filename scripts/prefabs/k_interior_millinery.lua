@@ -130,11 +130,11 @@ local function worktable()
     return inst
 end
 
-return Prefab("kyno_millinery_hatbox1", hatbox1, assets),
-Prefab("kyno_millinery_hatbox2", hatbox2, assets),
-Prefab("kyno_millinery_sewingmachine", sewingmachine, assets),
-Prefab("kyno_millinery_worktable", worktable, assets),
-MakePlacer("kyno_millinery_hatbox1_placer", "wall_decals_millinery", "interior_wall_decals_millinery", "hatbox1"),
-MakePlacer("kyno_millinery_hatbox2_placer", "wall_decals_millinery", "interior_wall_decals_millinery", "hatbox2"),
-MakePlacer("kyno_millinery_sewingmachine_placer", "wall_decals_millinery", "interior_wall_decals_millinery", "sewingmachine"),
-MakePlacer("kyno_millinery_worktable_placer", "wall_decals_millinery", "interior_wall_decals_millinery", "worktable")
+return Prefab("sap_millinery_hatbox1", hatbox1, assets),
+Prefab("sap_millinery_hatbox2", hatbox2, assets),
+Prefab("sap_millinery_sewingmachine", sewingmachine, assets),
+Prefab("sap_millinery_worktable", worktable, assets),
+MakePlacer("sap_millinery_hatbox1_placer", "wall_decals_millinery", "interior_wall_decals_millinery", "hatbox1"),
+MakePlacer("sap_millinery_hatbox2_placer", "wall_decals_millinery", "interior_wall_decals_millinery", "hatbox2"),
+MakePlacer("sap_millinery_sewingmachine_placer", "wall_decals_millinery", "interior_wall_decals_millinery", "sewingmachine"),
+MakePlacer("sap_millinery_worktable_placer", "wall_decals_millinery", "interior_wall_decals_millinery", "worktable")

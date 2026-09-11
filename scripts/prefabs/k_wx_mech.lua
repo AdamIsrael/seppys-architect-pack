@@ -78,5 +78,5 @@ local function fn()
     return inst
 end
 
-return Prefab("kyno_wx_mech", fn, assets),
-MakePlacer("kyno_wx_mech_placer", "kyno_wx_mech", "kyno_wx_mech", "idle")
+return Prefab("sap_wx_mech", fn, assets),
+MakePlacer("sap_wx_mech_placer", "kyno_wx_mech", "kyno_wx_mech", "idle")

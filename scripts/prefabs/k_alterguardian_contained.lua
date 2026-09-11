@@ -72,5 +72,5 @@ local function fn()
     return inst
 end
 
-return Prefab("kyno_lunarextractor", fn, assets),
-MakePlacer("kyno_lunarextractor_placer", "alterguardian_contained", "alterguardian_contained", "idle")
+return Prefab("sap_lunarextractor", fn, assets),
+MakePlacer("sap_lunarextractor_placer", "alterguardian_contained", "alterguardian_contained", "idle")

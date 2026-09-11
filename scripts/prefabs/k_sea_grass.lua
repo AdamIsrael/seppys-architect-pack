@@ -93,5 +93,5 @@ local function fn()
 	return inst
 end
 
-return Prefab("kyno_sea_grass", fn, assets, prefabs),
-MakePlacer("kyno_sea_grass_placer", "grass_inwater", "grass_inwater", "idle")
+return Prefab("sap_sea_grass", fn, assets, prefabs),
+MakePlacer("sap_sea_grass_placer", "grass_inwater", "grass_inwater", "idle")

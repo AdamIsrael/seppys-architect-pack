@@ -37,4 +37,4 @@ local function fn()
 	return inst
 end
 
-return Prefab("kyno_canopy_shadow", fn, assets)
+return Prefab("sap_canopy_shadow", fn, assets)

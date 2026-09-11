@@ -241,11 +241,11 @@ local function fn4()
 	return inst
 end
 
-return Prefab("kyno_basalt1", fn1, assets, prefabs),
-Prefab("kyno_basalt2", fn2, assets, prefabs),
-Prefab("kyno_basalt3", fn3, assets, prefabs),
-Prefab("kyno_basalt4", fn4, assets, prefabs),
-MakePlacer("kyno_basalt1_placer", "blocker", "blocker", "block1"),
-MakePlacer("kyno_basalt2_placer", "blocker", "blocker", "block2"),
-MakePlacer("kyno_basalt3_placer", "blocker", "blocker", "block3"),
-MakePlacer("kyno_basalt4_placer", "blocker", "blocker", "block4")
+return Prefab("sap_basalt1", fn1, assets, prefabs),
+Prefab("sap_basalt2", fn2, assets, prefabs),
+Prefab("sap_basalt3", fn3, assets, prefabs),
+Prefab("sap_basalt4", fn4, assets, prefabs),
+MakePlacer("sap_basalt1_placer", "blocker", "blocker", "block1"),
+MakePlacer("sap_basalt2_placer", "blocker", "blocker", "block2"),
+MakePlacer("sap_basalt3_placer", "blocker", "blocker", "block3"),
+MakePlacer("sap_basalt4_placer", "blocker", "blocker", "block4")

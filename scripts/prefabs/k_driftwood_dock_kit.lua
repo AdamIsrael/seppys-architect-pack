@@ -136,5 +136,5 @@ local function registrator_fn()
     return inst
 end
 
-return Prefab("kyno_driftwood_dock_kit", fn, assets, prefabs),
-Prefab("kyno_dock_tile_registrator", registrator_fn)
+return Prefab("sap_driftwood_dock_kit", fn, assets, prefabs),
+Prefab("sap_dock_tile_registrator", registrator_fn)

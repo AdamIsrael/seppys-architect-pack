@@ -8,7 +8,7 @@ local assets =
 
 local prefabs =
 {
-    "kyno_crabbit",
+    "sap_crabbit",
     "fishmeat_small",
 }
 
@@ -24,7 +24,7 @@ end
 
 local function dig_up(inst)
     if inst.components.spawner:IsOccupied() then
-        inst.components.lootdropper:SpawnLootPrefab("kyno_crabbit")
+        inst.components.lootdropper:SpawnLootPrefab("sap_crabbit")
     end
     inst:Remove()
 end
@@ -212,7 +212,7 @@ local function fn()
     end
 
     inst:AddComponent("spawner")
-    inst.components.spawner:Configure("kyno_crabbit", TUNING.RABBIT_RESPAWN_TIME)
+    inst.components.spawner:Configure("sap_crabbit", TUNING.RABBIT_RESPAWN_TIME)
     inst.components.spawner:SetOnOccupiedFn(onoccupied)
     inst.components.spawner:SetOnVacateFn(stopspawning)
 
@@ -240,5 +240,5 @@ local function fn()
     return inst
 end
 
-return Prefab("kyno_crabhole", fn, assets, prefabs),
-MakePlacer("kyno_crabhole_placer", "rabbithole", "rabbit_hole", "idle")
+return Prefab("sap_crabhole", fn, assets, prefabs),
+MakePlacer("sap_crabhole_placer", "rabbithole", "rabbit_hole", "idle")

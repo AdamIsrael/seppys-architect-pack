@@ -10,8 +10,8 @@ local assets =
 
 local prefabs =
 {
-	"kyno_sandhill_med",
-	"kyno_sandhill_low",
+	"sap_sandhill_med",
+	"sap_sandhill_low",
 	"sand_puff",
 }
 
@@ -47,13 +47,13 @@ end
 local function dig_up_full(inst, chopper)
 	SpawnPrefab("sand_puff").Transform:SetPosition(inst.Transform:GetWorldPosition())
 	inst:Remove()
-	SpawnPrefab("kyno_sandhill_med").Transform:SetPosition(inst.Transform:GetWorldPosition())
+	SpawnPrefab("sap_sandhill_med").Transform:SetPosition(inst.Transform:GetWorldPosition())
 end
 
 local function dig_up_med(inst, chopper)
 	SpawnPrefab("sand_puff").Transform:SetPosition(inst.Transform:GetWorldPosition())
 	inst:Remove()
-	SpawnPrefab("kyno_sandhill_low").Transform:SetPosition(inst.Transform:GetWorldPosition())
+	SpawnPrefab("sap_sandhill_low").Transform:SetPosition(inst.Transform:GetWorldPosition())
 end
 
 local function dig_up_low(inst, chopper)
@@ -169,7 +169,7 @@ local function lowfn()
 	return inst
 end
 
-return Prefab("kyno_sandhill", fullfn, assets, prefabs),
-Prefab("kyno_sandhill_med", medfn, assets, prefabs),
-Prefab("kyno_sandhill_low", lowfn, assets, prefabs),
-MakePlacer("kyno_sandhill_placer", "sand_dune", "sand_dune", "full")
+return Prefab("sap_sandhill", fullfn, assets, prefabs),
+Prefab("sap_sandhill_med", medfn, assets, prefabs),
+Prefab("sap_sandhill_low", lowfn, assets, prefabs),
+MakePlacer("sap_sandhill_placer", "sand_dune", "sand_dune", "full")

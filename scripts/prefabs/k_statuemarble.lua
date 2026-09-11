@@ -282,13 +282,13 @@ local function type5fn()
     return inst
 end
 
-return Prefab("kyno_statue_marble", type1fn, assets, prefabs),
-Prefab("kyno_statue_marble_muse", type2fn, assets, prefabs),
-Prefab("kyno_statue_marble_urn", type3fn, assets, prefabs),
-Prefab("kyno_statue_marble_pawn", type4fn, assets, prefabs),
-Prefab("kyno_statue_marble_pawn2", type5fn, assets, prefabs),
-MakePlacer("kyno_statue_marble_placer", "statue_small", "statue_small_type1_build", "full"),
-MakePlacer("kyno_statue_marble_muse_placer", "statue_small", "statue_small_type2_build", "full"),
-MakePlacer("kyno_statue_marble_urn_placer", "statue_small", "statue_small_type3_build", "full"),
-MakePlacer("kyno_statue_marble_pawn_placer", "statue_small", "statue_small_type4_build", "full"),
-MakePlacer("kyno_statue_marble_pawn2_placer", "pawn", "sculpture_pawn", "full")
+return Prefab("sap_statue_marble", type1fn, assets, prefabs),
+Prefab("sap_statue_marble_muse", type2fn, assets, prefabs),
+Prefab("sap_statue_marble_urn", type3fn, assets, prefabs),
+Prefab("sap_statue_marble_pawn", type4fn, assets, prefabs),
+Prefab("sap_statue_marble_pawn2", type5fn, assets, prefabs),
+MakePlacer("sap_statue_marble_placer", "statue_small", "statue_small_type1_build", "full"),
+MakePlacer("sap_statue_marble_muse_placer", "statue_small", "statue_small_type2_build", "full"),
+MakePlacer("sap_statue_marble_urn_placer", "statue_small", "statue_small_type3_build", "full"),
+MakePlacer("sap_statue_marble_pawn_placer", "statue_small", "statue_small_type4_build", "full"),
+MakePlacer("sap_statue_marble_pawn2_placer", "pawn", "sculpture_pawn", "full")
