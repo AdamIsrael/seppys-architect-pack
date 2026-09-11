@@ -15,8 +15,6 @@ local assets =
 
     Asset("ANIM", "anim/pig_townhouse5_beige_build.zip"),
     Asset("ANIM", "anim/pig_townhouse6_red_build.zip"),
-	
-	Asset("SOUND", "sound/pig.fsb"),
 }
 
 local prefabs = 

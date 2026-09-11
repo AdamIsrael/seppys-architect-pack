@@ -11,7 +11,6 @@ local assets =
 	Asset("ANIM", "anim/tree_rainforest_web_build.zip"),
 	Asset("ANIM", "anim/tree_rainforest_webbed_build.zip"),
 	Asset("ANIM", "anim/dust_fx.zip"),
-	Asset("SOUND", "sound/forest.fsb"),
 }
 
 local prefabs =

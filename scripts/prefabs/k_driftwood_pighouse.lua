@@ -3,8 +3,6 @@ require("prefabutil")
 local assets =
 {
     Asset("ANIM", "anim/kyno_driftwood_pighouse.zip"),
-	
-    Asset("SOUND", "sound/pig.fsb"),
 }
 
 local prefabs =

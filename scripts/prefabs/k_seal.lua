@@ -4,9 +4,6 @@ local assets =
 {
 	Asset("ANIM", "anim/twister_seal.zip"),
 	Asset("ANIM", "anim/twister_build.zip"),
-	
-	Asset("SOUNDPACKAGE", "sound/dontstarve_DLC002.fev"),
-	Asset("SOUND", "sound/dontstarve_shipwreckedSFX.fsb"),
 }
 
 local prefabs = {}

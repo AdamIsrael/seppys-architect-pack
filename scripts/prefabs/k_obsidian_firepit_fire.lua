@@ -3,7 +3,6 @@ require "prefabutil"
 local assets =
 {
     Asset("ANIM", "anim/campfire_fire.zip"),
-    Asset("SOUND", "sound/common.fsb"),
 }
 
 local prefabs =

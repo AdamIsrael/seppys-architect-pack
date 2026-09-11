@@ -3,9 +3,6 @@ require("prefabutil")
 local assets =
 {
 	Asset("ANIM", "anim/interior_wall_decals_accademia.zip"),
-	
-	Asset("SOUNDPACKAGE", "sound/tap_sounds.fev"),
-	Asset("SOUND", "sound/tap_sounds.fsb"),
 }
 
 local function onhammered(inst, worker)

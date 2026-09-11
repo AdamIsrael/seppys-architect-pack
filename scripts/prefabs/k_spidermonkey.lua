@@ -8,9 +8,6 @@ local assets =
 	
 	-- Asset("IMAGE", "images/inventoryimages/kyno_spidermonkey.tex"),
 	-- Asset("ATLAS", "images/inventoryimages/kyno_spidermonkey.xml"),
-
-	Asset("SOUNDPACKAGE", "sound/dontstarve_DLC003.fev"),
-	Asset("SOUND", "sound/DLC003_sfx.fsb"),
 }
 
 local prefabs = 

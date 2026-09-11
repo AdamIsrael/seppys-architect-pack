@@ -21,8 +21,6 @@ local assets =
     Asset("ANIM", "anim/pig_shop_millinery.zip"),
     Asset("ANIM", "anim/pig_shop_bank.zip"),   
     Asset("ANIM", "anim/pig_shop_tinker.zip"),  
-	
-	Asset("SOUND", "sound/pig.fsb"),
 }
 
 local prefabs =

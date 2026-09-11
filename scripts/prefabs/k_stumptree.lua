@@ -27,9 +27,6 @@ local assets =
 	Asset("ANIM", "anim/mushroom_tree_tall.zip"),
 	
 	Asset("ANIM", "anim/mutatedmushroom_tree_build.zip"),
-	
-	Asset("SOUND", "sound/forest.fsb"),
-	Asset("SOUND", "sound/deciduous.fsb"),
 }
 
 local prefabs =

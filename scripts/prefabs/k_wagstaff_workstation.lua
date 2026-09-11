@@ -3,8 +3,6 @@ require("prefabutil")
 local assets = 
 {
     Asset("ANIM", "anim/wagpunk_workstation.zip"),
-	
-    Asset("SOUND", "sound/together.fsb"),
 }
 
 local sounds = 

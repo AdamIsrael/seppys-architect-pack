@@ -3,10 +3,6 @@ require "prefabutil"
 local assets =
 {
 	Asset("ANIM", "anim/quagmire_elderswampig.zip"),
-	
-	Asset("SOUND", "sound/pig.fsb"),
-	Asset("SOUNDPACKAGE", "sound/dontstarve_DLC003.fev"),
-	Asset("SOUND", "sound/DLC003_sfx.fsb"),
 }
 
 local prefabs = {}

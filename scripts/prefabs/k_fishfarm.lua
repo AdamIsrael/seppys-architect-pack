@@ -3,9 +3,6 @@ require "prefabutil"
 local assets =
 {
     Asset("ANIM", "anim/fish_farm.zip"),	
-	
-	Asset("SOUNDPACKAGE", "sound/dontstarve_DLC002.fev"),
-	Asset("SOUND", "sound/dontstarve_shipwreckedSFX.fsb"),
 }
 
 local prefabs =

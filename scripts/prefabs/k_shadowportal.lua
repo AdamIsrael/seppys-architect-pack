@@ -3,9 +3,6 @@ require "prefabutil"
 local assets =
 {
 	Asset("ANIM", "anim/shadow_portal.zip"),
-	
-	Asset("SOUNDPACKAGE", "sound/shadwell_sfx.fev"),
-	Asset("SOUND", "sound/shadwell_sfx.fsb"),
 }
 
 local function onhammered(inst, worker)

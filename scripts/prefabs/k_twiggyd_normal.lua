@@ -5,7 +5,6 @@ local assets =
 	Asset("ANIM", "anim/twiggyd_short_normal.zip"),
 
 	Asset("ANIM", "anim/dust_fx.zip"),
-	Asset("SOUND", "sound/forest.fsb"),
 }
 
 local prefabs =

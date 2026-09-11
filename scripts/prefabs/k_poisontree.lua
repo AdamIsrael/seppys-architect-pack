@@ -5,9 +5,6 @@ local assets =
 	Asset("ANIM", "anim/tree_leaf_monster.zip"),
 	Asset("ANIM", "anim/tree_leaf_poison_build.zip"),
 	Asset("ANIM", "anim/tree_leaf_trunk_build.zip"),
-	
-	Asset("SOUND", "sound/forest.fsb"),
-    Asset("SOUND", "sound/deciduous.fsb"),
 }
 
 local prefabs =

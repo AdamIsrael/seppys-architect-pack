@@ -6,7 +6,6 @@ local prefabs =
 local assets =
 {
     Asset("ANIM", "anim/wasphive.zip"),
-    Asset("SOUND", "sound/bee.fsb"), --replace with wasp
 }
 
 local function OnIgnite(inst)

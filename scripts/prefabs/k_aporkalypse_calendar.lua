@@ -3,9 +3,6 @@ require "prefabutil"
 local assets =
 {
 	-- Animations now loaded globally in tap_assets.lua to prevent orphaned resources.
-
-	Asset("SOUNDPACKAGE", "sound/dontstarve_DLC003.fev"),
-	Asset("SOUND", "sound/DLC003_sfx.fsb"),
 }
 
 local prefabs =

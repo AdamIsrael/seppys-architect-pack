@@ -10,7 +10,6 @@ local assets =
 	-- Asset("ANIM", "anim/legacytwiggy_diseased_transformed.zip"),
 
 	Asset("ANIM", "anim/dust_fx.zip"),
-	Asset("SOUND", "sound/forest.fsb"),
 }
 
 local prefabs =

@@ -1,9 +1,6 @@
 local assets=
 {
 	Asset("ANIM", "anim/ox_flute.zip"),
-	
-	Asset("SOUNDPACKAGE", "sound/dontstarve_DLC002.fev"),
-	Asset("SOUND", "sound/dontstarve_shipwreckedSFX.fsb"),
 }
 
 local function OnFinished(inst)

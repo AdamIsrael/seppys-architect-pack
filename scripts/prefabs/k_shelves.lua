@@ -9,9 +9,6 @@ local assets =
 	Asset("ATLAS_BUILD", "images/inventoryimages1.xml", 256),
     Asset("ATLAS_BUILD", "images/inventoryimages2.xml", 256),
     Asset("ATLAS_BUILD", "images/inventoryimages3.xml", 256),	
-    
-	Asset("SOUNDPACKAGE", "sound/dontstarve_DLC003.fev"),
-	Asset("SOUND", "sound/DLC003_sfx.fsb"),
 }
 
 local prefabs =

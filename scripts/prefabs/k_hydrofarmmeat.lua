@@ -4,9 +4,6 @@ local assets =
 {
     Asset("ANIM", "anim/hydroponic_slow_farmplot.zip"),	
 	Asset("ANIM", "anim/hydroponic_fast_farmplot.zip"),
-	
-	Asset("SOUNDPACKAGE", "sound/dontstarve_DLC002.fev"),
-	Asset("SOUND", "sound/dontstarve_shipwreckedSFX.fsb"),
 }
 
 local prefabs =

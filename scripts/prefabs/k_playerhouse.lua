@@ -13,8 +13,6 @@ local assets =
     Asset("ANIM", "anim/player_small_house1_gothic_build.zip"),
     Asset("ANIM", "anim/player_small_house1_brick_build.zip"),
     Asset("ANIM", "anim/player_small_house1_turret_build.zip"),
-	
-	Asset("SOUND", "sound/pig.fsb"),
 }
 
 local prefabs =

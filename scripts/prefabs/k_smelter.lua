@@ -3,9 +3,6 @@ require "prefabutil"
 local assets =
 {
     Asset("ANIM", "anim/smelter.zip"),
-	
-	Asset("SOUNDPACKAGE", "sound/dontstarve_DLC003.fev"),
-	Asset("SOUND", "sound/DLC003_sfx.fsb"),
 }
 
 local prefabs =

@@ -4,12 +4,6 @@ local assets =
 	Asset("ANIM", "anim/swap_telebrella.zip"),
     Asset("ANIM", "anim/swap_telebrella_red.zip"),
     Asset("ANIM", "anim/swap_telebrella_green.zip"),
-	
-	Asset("SOUNDPACKAGE", "sound/dontstarve_wagstaff.fev"),
-	Asset("SOUND", "sound/dontstarve_wagstaff.fsb"),
-	
-	Asset("SOUNDPACKAGE", "sound/dontstarve_DLC003.fev"),
-	Asset("SOUND", "sound/DLC003_sfx.fsb"),
 }
 
 local TELEDIST = 1000

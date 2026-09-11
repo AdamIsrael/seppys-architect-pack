@@ -6,7 +6,6 @@ local assets =
     Asset("ANIM", "anim/teatree_trunk_build.zip"),
     Asset("ANIM", "anim/teatree_build.zip"),
 	Asset("ANIM", "anim/dust_fx.zip"),
-	Asset("SOUND", "sound/forest.fsb"),
 }
 
 local prefabs =

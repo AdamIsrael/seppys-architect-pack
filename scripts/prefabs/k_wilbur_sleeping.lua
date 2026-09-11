@@ -5,9 +5,6 @@ local assets =
 	Asset("ANIM", "anim/wilbur.zip"),
 	Asset("ANIM", "anim/wilbur_nocrown.zip"),
 	Asset("ANIM", "anim/wilbur_raft_build.zip"),
-	
-	Asset("SOUNDPACKAGE", "sound/dontstarve_DLC002.fev"),
-	Asset("SOUND", "sound/dontstarve_shipwreckedSFX.fsb"),
 }
 
 local prefabs = 

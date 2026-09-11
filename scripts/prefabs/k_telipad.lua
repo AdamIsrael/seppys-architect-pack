@@ -4,12 +4,6 @@ local assets =
 {
     Asset("ANIM", "anim/teleport_pad.zip"),
 	Asset("ANIM", "anim/teleport_pad_beacon.zip"),
-	
-	Asset("SOUNDPACKAGE", "sound/dontstarve_wagstaff.fev"),
-	Asset("SOUND", "sound/dontstarve_wagstaff.fsb"),
-	
-	Asset("SOUNDPACKAGE", "sound/dontstarve_DLC003.fev"),
-	Asset("SOUND", "sound/DLC003_sfx.fsb"),
 }
 
 local prefabs = {
