@@ -15,6 +15,18 @@ local assets =
 	Asset("ATLAS", "images/minimapimages/tap_minimapicons.xml"),
 }
 
+local prefabs =
+{
+	"boards",
+	"collapse_small",
+	"cutgrass",
+	"cutstone",
+	"log",
+	"rocks",
+	"transistor",
+	"twigs"
+}
+
 local stick_loot = {
 	{"twigs", 2},
 }
