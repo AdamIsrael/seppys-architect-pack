@@ -15,6 +15,7 @@ local assets =
 local prefabs =
 {
 	"sap_marsh_plant_tropical",
+	"sap_tropicalfish",
 }
 
 local function SpawnPlants(inst, plantname, count, maxradius)

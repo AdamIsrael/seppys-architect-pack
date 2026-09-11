@@ -31,8 +31,6 @@ local assets =
 	Asset("ATLAS_BUILD", "images/inventoryimages/tap_inventoryimages.xml", 256),
 }
 
-local prefabs = {}
-
 local fish_prefabs =
 {
 	"fishmeat_small",
