@@ -128,8 +128,11 @@ Check the client log file for issues.
 
 **Location:**
 - Windows: `%USERPROFILE%\Documents\Klei\DoNotStarveTogether\client_log.txt`
-- Mac: `~/.klei/DoNotStarveTogether/client_log.txt`
+- Mac: `~/Documents/Klei/DoNotStarveTogether/client_log.txt`
 - Linux: `~/.klei/DoNotStarveTogether/client_log.txt`
+
+The same directory holds `master_server_log.txt` and `caves_server_log.txt`,
+which are the ones to read when a problem only shows up on a hosted world.
 
 - [ ] Open `client_log.txt`
 - [ ] Search for "Could not preload undefined prefab"
