@@ -60,16 +60,20 @@ function Map:CanDeploySandbagAtPoint(pt, inst, ...)
 end
 
 -- Legacy save compatibility: register old kyno_ prefab names as aliases.
+-- Only registers names that aren't already claimed by another mod (e.g. Heap of Foods).
 modimport("tap_init/tap_legacy_map")
 local SpawnPrefab = _G.SpawnPrefab
 local Prefab = _G.Prefab
 local RegisterPrefabs = _G.RegisterPrefabs
+local Prefabs = _G.Prefabs
 
 for old_name, new_name in pairs(TAP_LEGACY_MAP) do
-	local function fn()
-		return SpawnPrefab(new_name)
+	if Prefabs[old_name] == nil then
+		local function fn()
+			return SpawnPrefab(new_name)
+		end
+		RegisterPrefabs(Prefab(old_name, fn))
 	end
-	RegisterPrefabs(Prefab(old_name, fn))
 end
 
 -- Placer Methods.

@@ -20,7 +20,7 @@ PrefabFiles = {
 	"k_alterguardian_meteor",
 	"k_alterguardian_spike",
 	"k_antcache",
-	-- "k_antchest", -- Conflicts with Heap of Foods
+	"k_antchest",
 	"k_antcombhome",
 	"k_antlion",
 	"k_antlionsinkhole",
@@ -56,7 +56,7 @@ PrefabFiles = {
 	"k_bioluminescence",
 	"k_birdcage_curly",
 	"k_birdfountain",
-	-- "k_birds", -- Conflicts with Heap of Foods
+	"k_birds",
 	"k_birdstand",
 	"k_boatbarrel",
 	"k_boatnet",
@@ -165,7 +165,7 @@ PrefabFiles = {
 	"k_fennel",
 	"k_fig_vine",
 	"k_fireflies",
-	-- "k_fishes", -- Conflicts with Heap of Foods
+	"k_fishes",
 	"k_fishfarm",
 	"k_fishinhole",
 	"k_flagposts",
@@ -183,7 +183,7 @@ PrefabFiles = {
 	"k_friendomatic",
 	"k_frozenfurnace",
 	"k_garden_plants",
-	-- "k_garden_sprinkler", -- Conflicts with Heap of Foods
+	"k_garden_sprinkler",
 	"k_gardenbox",
 	"k_gargoyles",
 	"k_giantbeehive",
@@ -248,7 +248,7 @@ PrefabFiles = {
 	"k_ironhulks",
 	"k_ivy",
 	"k_jamesbucket",
-	-- "k_jellyfishes", -- Conflicts with Heap of Foods
+	"k_jellyfishes",
 	"k_junglebush",
 	"k_junglefern",
 	"k_jungletree",
@@ -292,7 +292,7 @@ PrefabFiles = {
 	-- "k_lobster_claw",
 	-- "k_lobsterhouse",
 	"k_lostrelics",
-	-- "k_lotusflower", -- Conflicts with Heap of Foods
+	"k_lotusflower",
 	"k_lotusplant",
 	"k_luggagechest",
 	"k_lunar_energy",
@@ -345,7 +345,7 @@ PrefabFiles = {
 	"k_mushtree",
 	"k_mushtree_sparse",
 	"k_mushtree_webbed",
-	-- "k_musselstick", -- Conflicts with Heap of Foods
+	"k_musselstick",
 	"k_nettleplant",
 	"k_nightmarefissure",
 	"k_nightmarelight",
@@ -420,7 +420,7 @@ PrefabFiles = {
 	"k_queen_beast",
 	"k_rabbithole",
 	"k_radish",
-	-- "k_raindrop", -- Conflicts with Heap of Foods
+	"k_raindrop",
 	"k_rainforesttree",
 	"k_rainforesttree_bloom",
 	"k_rainforesttree_bloom_legacy",
@@ -519,7 +519,7 @@ PrefabFiles = {
 	"k_spidermonkey",
 	"k_spidermonkey_herd",
 	"k_spidermonkey_tree",
-	-- "k_sporecaps", -- Conflicts with Heap of Foods
+	"k_sporecaps",
 	"k_sporecloud",
 	"k_spottyshrub",
 	"k_sprinkler",
@@ -605,7 +605,7 @@ PrefabFiles = {
 	"k_trinkets_ham",
 	"k_trinkets_sw",
 	"k_truesaltlick",
-	-- "k_truffles", -- Conflicts with Heap of Foods
+	"k_truffles",
 	"k_tubertree",
 	"k_tubertree_bloom",
 	"k_tumbleweed",
@@ -638,7 +638,7 @@ PrefabFiles = {
 	"k_wargfant",
 	"k_wargfant_herd",
 	"k_wasphive",
-	-- "k_water_spray", -- Conflicts with Heap of Foods
+	"k_water_spray",
 	"k_waterchest",
 	"k_watercrates",
 	"k_watercress",

@@ -31,14 +31,7 @@ local assets =
 	Asset("ATLAS_BUILD", "images/inventoryimages/tap_inventoryimages.xml", 256),
 }
 
-local prefabs = 
-{
-	"sap_koi",
-	"sap_grouper",
-	"sap_pierrotfish",
-	"sap_neonfish",
-	"sap_tropicalfish",
-}
+local prefabs = {}
 
 local fish_prefabs =
 {

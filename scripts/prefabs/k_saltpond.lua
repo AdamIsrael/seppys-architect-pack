@@ -18,7 +18,6 @@ local assets =
 
 local prefabs =
 {
-	"sap_salmonfish",
 	"sap_salt_rack",
 	"saltrock",
 }

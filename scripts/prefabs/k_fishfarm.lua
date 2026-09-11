@@ -17,11 +17,6 @@ local assets =
 local prefabs =
 {
     "pondfish",
-	"sap_koi",
-	"sap_neonfish",
-	"sap_grouper",
-	"sap_pierrotfish",
-	"sap_tropicalfish",
 }
 
 local FISH_BREED_TIME = 1920
