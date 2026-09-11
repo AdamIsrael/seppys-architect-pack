@@ -2,9 +2,6 @@ local function makeassetlist(bankname, buildname)
     return {
         Asset("ANIM", "anim/"..buildname..".zip"),
         Asset("ANIM", "anim/"..bankname..".zip"),
-		
-		Asset("IMAGE", "images/inventoryimages/tap_buildingimages.tex"),
-		Asset("ATLAS", "images/inventoryimages/tap_buildingimages.xml"),
     }
 end
 

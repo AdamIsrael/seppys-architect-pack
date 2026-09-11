@@ -3,51 +3,21 @@ require "prefabutil"
 local silktent_assets =
 {
     Asset("ANIM", "anim/silktent.zip"),
-	
-	Asset("IMAGE", "images/inventoryimages/tap_buildingimages.tex"),
-	Asset("ATLAS", "images/inventoryimages/tap_buildingimages.xml"),
-	
-	Asset("IMAGE", "images/minimapimages/tap_minimapicons.tex"),
-	Asset("ATLAS", "images/minimapimages/tap_minimapicons.xml"),
 }
 
 local furtent_assets =
 {
     Asset("ANIM", "anim/furtent.zip"),
-	
-	Asset("IMAGE", "images/inventoryimages/tap_buildingimages.tex"),
-	Asset("ATLAS", "images/inventoryimages/tap_buildingimages.xml"),
-	
-	Asset("IMAGE", "images/minimapimages/tap_minimapicons.tex"),
-	Asset("ATLAS", "images/minimapimages/tap_minimapicons.xml"),
 }
 
 local tentacletent_assets =
 {
     Asset("ANIM", "anim/tentacletent.zip"),
-	
-	Asset("IMAGE", "images/inventoryimages/tap_buildingimages.tex"),
-	Asset("ATLAS", "images/inventoryimages/tap_buildingimages.xml"),
-	
-	Asset("IMAGE", "images/inventoryimages/tap_buildingimages2.tex"),
-	Asset("ATLAS", "images/inventoryimages/tap_buildingimages2.xml"),
-	
-	Asset("IMAGE", "images/minimapimages/tap_minimapicons.tex"),
-	Asset("ATLAS", "images/minimapimages/tap_minimapicons.xml"),
 }
 
 local tikitent_assets = {
 
 	Asset("ANIM", "anim/teepee.zip"),
-	
-	Asset("IMAGE", "images/inventoryimages/tap_buildingimages.tex"),
-	Asset("ATLAS", "images/inventoryimages/tap_buildingimages.xml"),
-	
-	Asset("IMAGE", "images/inventoryimages/tap_buildingimages2.tex"),
-	Asset("ATLAS", "images/inventoryimages/tap_buildingimages2.xml"),
-	
-	Asset("IMAGE", "images/minimapimages/tap_minimapicons.tex"),
-	Asset("ATLAS", "images/minimapimages/tap_minimapicons.xml"),
 }
 
 -----------------------------------------------------------------------

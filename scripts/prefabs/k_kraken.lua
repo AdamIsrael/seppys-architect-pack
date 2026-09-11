@@ -5,12 +5,6 @@ local assets =
 	Asset("ANIM", "anim/quacken.zip"),
 	Asset("ANIM", "anim/quacken_tentacle.zip"),
 	
-	Asset("IMAGE", "images/inventoryimages/tap_buildingimages.tex"),
-	Asset("ATLAS", "images/inventoryimages/tap_buildingimages.xml"),
-	
-	Asset("IMAGE", "images/minimapimages/tap_minimapicons.tex"),
-	Asset("ATLAS", "images/minimapimages/tap_minimapicons.xml"),
-	
 	Asset("SOUNDPACKAGE", "sound/dontstarve_DLC002.fev"),
 	Asset("SOUND", "sound/dontstarve_shipwreckedSFX.fsb"),
 }

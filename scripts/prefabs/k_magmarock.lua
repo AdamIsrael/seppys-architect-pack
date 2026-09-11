@@ -3,21 +3,11 @@ require "prefabutil"
 local assets_magma =
 {
 	-- Animations now loaded globally in tap_assets.lua to prevent orphaned resources.
-	Asset("IMAGE", "images/inventoryimages/tap_buildingimages.tex"),
-	Asset("ATLAS", "images/inventoryimages/tap_buildingimages.xml"),
-	
-	Asset("IMAGE", "images/minimapimages/tap_minimapicons.tex"),
-	Asset("ATLAS", "images/minimapimages/tap_minimapicons.xml"),
 }
 
 local assets_magma_gold =
 {
 	-- Animations now loaded globally in tap_assets.lua to prevent orphaned resources.
-	Asset("IMAGE", "images/inventoryimages/tap_buildingimages.tex"),
-	Asset("ATLAS", "images/inventoryimages/tap_buildingimages.xml"),
-	
-	Asset("IMAGE", "images/minimapimages/tap_minimapicons.tex"),
-	Asset("ATLAS", "images/minimapimages/tap_minimapicons.xml"),
 }
 
 local prefabs = 

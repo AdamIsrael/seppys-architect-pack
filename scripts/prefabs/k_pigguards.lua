@@ -9,12 +9,6 @@ local assets =
 	Asset("ANIM", "anim/pig_royalguard_rich_2.zip"),
 	Asset("ANIM", "anim/townspig_actions.zip"),
 	Asset("ANIM", "anim/townspig_basic.zip"),
-	
-	Asset("IMAGE", "images/inventoryimages/tap_buildingimages.tex"),
-	Asset("ATLAS", "images/inventoryimages/tap_buildingimages.xml"),
-	
-	Asset("IMAGE", "images/inventoryimages/tap_buildingimages2.tex"),
-	Asset("ATLAS", "images/inventoryimages/tap_buildingimages2.xml"),
 }
 
 local prefabs = {}
@@ -541,12 +535,7 @@ CreateModPrefabSkin("sap_royalguard1",
 			Asset("ANIM", "anim/pig_royalguard_2.zip"),
 			Asset("ANIM", "anim/townspig_actions.zip"),
 			Asset("ANIM", "anim/townspig_basic.zip"),
-			
-			Asset("IMAGE", "images/inventoryimages/tap_buildingimages.tex"),
-			Asset("ATLAS", "images/inventoryimages/tap_buildingimages.xml"),
 	
-			Asset("IMAGE", "images/inventoryimages/tap_buildingimages2.tex"),
-			Asset("ATLAS", "images/inventoryimages/tap_buildingimages2.xml"),
 		},
 		base_prefab = "sap_royalguard",
 		fn = fn2,
@@ -565,12 +554,7 @@ CreateModPrefabSkin("sap_royalguard2",
 			Asset("ANIM", "anim/pig_royalguard_3.zip"),
 			Asset("ANIM", "anim/townspig_actions.zip"),
 			Asset("ANIM", "anim/townspig_basic.zip"),
-			
-			Asset("IMAGE", "images/inventoryimages/tap_buildingimages.tex"),
-			Asset("ATLAS", "images/inventoryimages/tap_buildingimages.xml"),
 	
-			Asset("IMAGE", "images/inventoryimages/tap_buildingimages2.tex"),
-			Asset("ATLAS", "images/inventoryimages/tap_buildingimages2.xml"),
 		},
 		base_prefab = "sap_royalguard",
 		fn = fn3,
@@ -589,12 +573,7 @@ CreateModPrefabSkin("sap_royalguard3",
 			Asset("ANIM", "anim/pig_royalguard_rich.zip"),
 			Asset("ANIM", "anim/townspig_actions.zip"),
 			Asset("ANIM", "anim/townspig_basic.zip"),
-			
-			Asset("IMAGE", "images/inventoryimages/tap_buildingimages.tex"),
-			Asset("ATLAS", "images/inventoryimages/tap_buildingimages.xml"),
 	
-			Asset("IMAGE", "images/inventoryimages/tap_buildingimages2.tex"),
-			Asset("ATLAS", "images/inventoryimages/tap_buildingimages2.xml"),
 		},
 		base_prefab = "sap_royalguard",
 		fn = fn4,
@@ -613,12 +592,7 @@ CreateModPrefabSkin("sap_royalguard4",
 			Asset("ANIM", "anim/pig_royalguard_rich_2.zip"),
 			Asset("ANIM", "anim/townspig_actions.zip"),
 			Asset("ANIM", "anim/townspig_basic.zip"),
-			
-			Asset("IMAGE", "images/inventoryimages/tap_buildingimages.tex"),
-			Asset("ATLAS", "images/inventoryimages/tap_buildingimages.xml"),
 	
-			Asset("IMAGE", "images/inventoryimages/tap_buildingimages2.tex"),
-			Asset("ATLAS", "images/inventoryimages/tap_buildingimages2.xml"),
 		},
 		base_prefab = "sap_royalguard",
 		fn = fn5,

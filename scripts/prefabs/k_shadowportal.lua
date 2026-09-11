@@ -4,9 +4,6 @@ local assets =
 {
 	Asset("ANIM", "anim/shadow_portal.zip"),
 	
-	Asset("IMAGE", "images/inventoryimages/tap_buildingimages.tex"),
-	Asset("ATLAS", "images/inventoryimages/tap_buildingimages.xml"),
-	
 	Asset("SOUNDPACKAGE", "sound/shadwell_sfx.fev"),
 	Asset("SOUND", "sound/shadwell_sfx.fsb"),
 }

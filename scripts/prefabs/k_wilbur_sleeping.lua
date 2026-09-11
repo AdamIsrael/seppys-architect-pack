@@ -6,12 +6,6 @@ local assets =
 	Asset("ANIM", "anim/wilbur_nocrown.zip"),
 	Asset("ANIM", "anim/wilbur_raft_build.zip"),
 	
-	Asset("IMAGE", "images/inventoryimages/tap_buildingimages2.tex"),
-	Asset("ATLAS", "images/inventoryimages/tap_buildingimages2.xml"),
-	
-	Asset("IMAGE", "images/minimapimages/tap_minimapicons.tex"),
-	Asset("ATLAS", "images/minimapimages/tap_minimapicons.xml"),
-	
 	Asset("SOUNDPACKAGE", "sound/dontstarve_DLC002.fev"),
 	Asset("SOUND", "sound/dontstarve_shipwreckedSFX.fsb"),
 }

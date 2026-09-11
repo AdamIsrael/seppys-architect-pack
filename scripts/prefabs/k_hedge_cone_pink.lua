@@ -74,13 +74,6 @@ function MakeHedgeType(data)
     {
         Asset("ANIM", "anim/hedge.zip"),
 		Asset("ANIM", "anim/hedge2_pink_build.zip"),
-	
-		Asset("IMAGE", "images/inventoryimages/tap_buildingimages2.tex"),
-		Asset("ATLAS", "images/inventoryimages/tap_buildingimages2.xml"),
-		
-		Asset("IMAGE", "images/inventoryimages/tap_inventoryimages.tex"),
-		Asset("ATLAS", "images/inventoryimages/tap_inventoryimages.xml"),
-		Asset("ATLAS_BUILD", "images/inventoryimages/tap_inventoryimages.xml", 256),
     }
 
     local prefabs =

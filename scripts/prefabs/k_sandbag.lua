@@ -5,13 +5,6 @@ local assets =
 	Asset("ANIM", "anim/sandbag_small.zip"),
 	Asset("ANIM", "anim/sandbag.zip"),
 	
-	Asset("IMAGE", "images/inventoryimages/tap_buildingimages.tex"),
-	Asset("ATLAS", "images/inventoryimages/tap_buildingimages.xml"),
-	
-	Asset("IMAGE", "images/inventoryimages/tap_inventoryimages.tex"),
-	Asset("ATLAS", "images/inventoryimages/tap_inventoryimages.xml"),
-	Asset("ATLAS_BUILD", "images/inventoryimages/tap_inventoryimages.xml", 256),
-	
 	Asset("SOUNDPACKAGE", "sound/dontstarve_DLC002.fev"),
 	Asset("SOUND", "sound/dontstarve_shipwreckedSFX.fsb"),
 }

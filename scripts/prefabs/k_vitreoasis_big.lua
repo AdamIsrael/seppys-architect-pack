@@ -2,9 +2,6 @@ local assets =
 {
     Asset("ANIM", "anim/moonglass_bigwaterfall_steam.zip"),
     Asset("ANIM", "anim/moonglasspool_tile.zip"),
-    
-	Asset("IMAGE", "images/inventoryimages/tap_buildingimages2.tex"),
-	Asset("ATLAS", "images/inventoryimages/tap_buildingimages2.xml"),
 }
 
 local prefabs =

@@ -2,9 +2,6 @@ local assets =
 {
     Asset("ANIM", "anim/mushroom_tree_webbed.zip"),
     Asset("MINIMAP_IMAGE", "mushroom_tree_webbed"),
-	
-	Asset("IMAGE", "images/inventoryimages/tap_buildingimages.tex"),
-	Asset("ATLAS", "images/inventoryimages/tap_buildingimages.xml"),
 }
 
 local prefabs =

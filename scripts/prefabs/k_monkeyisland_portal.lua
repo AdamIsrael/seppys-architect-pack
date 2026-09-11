@@ -3,9 +3,6 @@ require("prefabutil")
 local assets =
 {
     Asset("ANIM", "anim/monkey_island_portal.zip"),
-    
-	Asset("IMAGE", "images/inventoryimages/tap_buildingimages2.tex"),
-	Asset("ATLAS", "images/inventoryimages/tap_buildingimages2.xml"),
 }
 
 local prefabs =
@@ -16,9 +13,6 @@ local prefabs =
 local fx_assets =
 {
     Asset("ANIM", "anim/monkey_island_portal_fx.zip"),
-	
-	Asset("IMAGE", "images/inventoryimages/tap_buildingimages2.tex"),
-	Asset("ATLAS", "images/inventoryimages/tap_buildingimages2.xml"),
 }
 
 local function KeepTargetFn()

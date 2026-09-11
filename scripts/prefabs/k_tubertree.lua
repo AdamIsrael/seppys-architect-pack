@@ -5,12 +5,6 @@ local assets =
 	Asset("ANIM", "anim/tuber_tree.zip"),
 	Asset("ANIM", "anim/dust_fx.zip"),
 	Asset("SOUND", "sound/forest.fsb"),
-
-	Asset("IMAGE", "images/inventoryimages/tap_buildingimages2.tex"),
-	Asset("ATLAS", "images/inventoryimages/tap_buildingimages2.xml"),
-
-	Asset("IMAGE", "images/minimapimages/tap_minimapicons.tex"),
-	Asset("ATLAS", "images/minimapimages/tap_minimapicons.xml"),
 }
 
 local prefabs =

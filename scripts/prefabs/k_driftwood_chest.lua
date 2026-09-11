@@ -5,12 +5,6 @@ local assets =
 	Asset("ANIM", "anim/kyno_driftwood_chest.zip"),
 	Asset("ANIM", "anim/kyno_driftwood_chest_upgraded.zip"),
 	Asset("ANIM", "anim/ui_chest_3x2.zip"),
-	
-	Asset("IMAGE", "images/inventoryimages/tap_buildingimages2.tex"),
-	Asset("ATLAS", "images/inventoryimages/tap_buildingimages2.xml"),
-	
-	Asset("IMAGE", "images/minimapimages/tap_minimapicons.tex"),
-	Asset("ATLAS", "images/minimapimages/tap_minimapicons.xml"),
 }
 
 local prefabs =

@@ -5,9 +5,6 @@ local assets =
 	Asset("ANIM", "anim/twister_seal.zip"),
 	Asset("ANIM", "anim/twister_build.zip"),
 	
-	Asset("IMAGE", "images/inventoryimages/tap_buildingimages.tex"),
-	Asset("ATLAS", "images/inventoryimages/tap_buildingimages.xml"),
-	
 	Asset("SOUNDPACKAGE", "sound/dontstarve_DLC002.fev"),
 	Asset("SOUND", "sound/dontstarve_shipwreckedSFX.fsb"),
 }

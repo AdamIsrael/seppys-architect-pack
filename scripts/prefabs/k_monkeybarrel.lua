@@ -4,9 +4,6 @@ local assets =
 {
 	Asset("ANIM", "anim/monkey_barrel.zip"),
     Asset("ANIM", "anim/kyno_monkey_barrel.zip"),
-    
-	Asset("IMAGE", "images/inventoryimages/tap_buildingimages.tex"),
-	Asset("ATLAS", "images/inventoryimages/tap_buildingimages.xml"),
 	
 	Asset("SOUND", "sound/monkey.fsb"),
 }

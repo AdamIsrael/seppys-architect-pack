@@ -1,9 +1,6 @@
 local stalagmite_assets =
 {
     Asset("ANIM", "anim/rock_stalagmite.zip"),
-    
-	Asset("IMAGE", "images/inventoryimages/tap_buildingimages.tex"),
-	Asset("ATLAS", "images/inventoryimages/tap_buildingimages.xml"),
 }
 
 local prefabs =

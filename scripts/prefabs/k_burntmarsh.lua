@@ -1,9 +1,6 @@
 local assets =
 {
     Asset("ANIM", "anim/marsh_bush.zip"),
-	
-	Asset("IMAGE", "images/inventoryimages/tap_buildingimages.tex"),
-	Asset("ATLAS", "images/inventoryimages/tap_buildingimages.xml"),
 }
 
 local erode_assets =

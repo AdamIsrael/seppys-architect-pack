@@ -3,9 +3,6 @@ require "prefabutil"
 local assets =
 {
 	Asset("ANIM", "anim/quagmire_rubble.zip"),
-	
-	Asset("IMAGE", "images/inventoryimages/tap_buildingimages2.tex"),
-	Asset("ATLAS", "images/inventoryimages/tap_buildingimages2.xml"),
 }
 
 local names = {"f1", "f2", "f3", "f4", "f5", "f6", "f7", "f8", "f9"}

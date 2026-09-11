@@ -48,13 +48,6 @@ local function addcone(name, spawn_prefab, bank, build, anim, winter_tree)
     local assets =
     {
         Asset("ANIM", "anim/"..build..".zip"),
-		
-		Asset("IMAGE", "images/inventoryimages/tap_buildingimages.tex"),
-		Asset("ATLAS", "images/inventoryimages/tap_buildingimages.xml"),
-		
-		Asset("IMAGE", "images/inventoryimages/tap_inventoryimages.tex"),
-		Asset("ATLAS", "images/inventoryimages/tap_inventoryimages.xml"),
-		Asset("ATLAS_BUILD", "images/inventoryimages/tap_inventoryimages.xml", 256),
     }
     if bank ~= build then
         table.insert("ANIM", "anim/"..bank..".zip")

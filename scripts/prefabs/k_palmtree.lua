@@ -3,12 +3,6 @@ local assets = {
 	Asset("ANIM", "anim/palmtree_normal.zip"),
 	Asset("ANIM", "anim/palmtree_short.zip"),
 	Asset("ANIM", "anim/palmtree_tall.zip"),
-
-    Asset("IMAGE", "images/inventoryimages/tap_buildingimages.tex"),
-	Asset("ATLAS", "images/inventoryimages/tap_buildingimages.xml"),
-	
-	Asset("IMAGE", "images/minimapimages/tap_minimapicons.tex"),
-	Asset("ATLAS", "images/minimapimages/tap_minimapicons.xml"),
 }
 
 local prefabs =

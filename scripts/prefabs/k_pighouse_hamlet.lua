@@ -5,9 +5,6 @@ local assets =
     Asset("ANIM", "anim/pig_house.zip"),
 	Asset("ANIM", "anim/pighouse_hamlet.zip"),
 	
-	Asset("IMAGE", "images/inventoryimages/tap_buildingimages.tex"),
-	Asset("ATLAS", "images/inventoryimages/tap_buildingimages.xml"),
-	
     Asset("SOUND", "sound/pig.fsb"),
 }
 

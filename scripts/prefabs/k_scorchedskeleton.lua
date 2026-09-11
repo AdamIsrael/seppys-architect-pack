@@ -1,9 +1,6 @@
 local assets =
 {
     Asset("ANIM", "anim/scorched_skeletons.zip"),
-	
-	Asset("IMAGE", "images/inventoryimages/tap_buildingimages.tex"),
-	Asset("ATLAS", "images/inventoryimages/tap_buildingimages.xml"),
 }
 
 local animstates = { 1, 2, 3, 4, 5, 6 }

@@ -7,9 +7,6 @@ local assets =
 {
     Asset("ANIM", "anim/wasphive.zip"),
     Asset("SOUND", "sound/bee.fsb"), --replace with wasp
-	
-	Asset("IMAGE", "images/inventoryimages/tap_buildingimages2.tex"),
-	Asset("ATLAS", "images/inventoryimages/tap_buildingimages2.xml"),
 }
 
 local function OnIgnite(inst)

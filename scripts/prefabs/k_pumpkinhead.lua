@@ -3,9 +3,6 @@ require "prefabutil"
 local assets =
 {
 	Asset("ANIM", "anim/hat_kyno_adai_pumpkin.zip"),
-	
-	Asset("IMAGE", "images/inventoryimages/tap_buildingimages.tex"),
-	Asset("ATLAS", "images/inventoryimages/tap_buildingimages.xml"),
 }
 
 local function onhammered(inst, worker)

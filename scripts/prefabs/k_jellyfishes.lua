@@ -5,9 +5,6 @@ local assets =
 	Asset("ANIM", "anim/jellyfish.zip"),
 	Asset("ANIM", "anim/rainbowjellyfish.zip"),
 	
-	Asset("IMAGE", "images/inventoryimages/tap_buildingimages.tex"),
-	Asset("ATLAS", "images/inventoryimages/tap_buildingimages.xml"),
-	
 	Asset("SOUNDPACKAGE", "sound/dontstarve_DLC002.fev"),
 	Asset("SOUND", "sound/dontstarve_shipwreckedSFX.fsb"),
 }

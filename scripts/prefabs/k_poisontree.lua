@@ -6,9 +6,6 @@ local assets =
 	Asset("ANIM", "anim/tree_leaf_poison_build.zip"),
 	Asset("ANIM", "anim/tree_leaf_trunk_build.zip"),
 	
-	Asset("IMAGE", "images/inventoryimages/tap_buildingimages.tex"),
-	Asset("ATLAS", "images/inventoryimages/tap_buildingimages.xml"),
-	
 	Asset("SOUND", "sound/forest.fsb"),
     Asset("SOUND", "sound/deciduous.fsb"),
 }

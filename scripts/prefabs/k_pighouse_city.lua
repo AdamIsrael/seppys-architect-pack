@@ -16,12 +16,6 @@ local assets =
     Asset("ANIM", "anim/pig_townhouse5_beige_build.zip"),
     Asset("ANIM", "anim/pig_townhouse6_red_build.zip"),
 	
-	Asset("IMAGE", "images/inventoryimages/tap_buildingimages.tex"),
-	Asset("ATLAS", "images/inventoryimages/tap_buildingimages.xml"),
-	
-	Asset("IMAGE", "images/minimapimages/tap_minimapicons.tex"),
-	Asset("ATLAS", "images/minimapimages/tap_minimapicons.xml"),
-	
 	Asset("SOUND", "sound/pig.fsb"),
 }
 

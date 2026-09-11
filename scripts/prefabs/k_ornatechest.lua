@@ -6,9 +6,6 @@ local assets =
 	Asset("ANIM", "anim/pandoras_chest_large.zip"),
 	Asset("ANIM", "anim/ui_chest_3x2.zip"),
 	Asset("ANIM", "anim/ui_chester_shadow_3x4.zip"),
-	
-	Asset("IMAGE", "images/inventoryimages/tap_buildingimages.tex"),
-	Asset("ATLAS", "images/inventoryimages/tap_buildingimages.xml"),
 }
 
 local prefabs =

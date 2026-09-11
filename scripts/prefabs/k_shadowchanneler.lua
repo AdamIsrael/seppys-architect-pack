@@ -1,9 +1,6 @@
 local assets =
 {
     Asset("ANIM", "anim/shadow_channeler.zip"),
-	
-	Asset("IMAGE", "images/inventoryimages/tap_buildingimages.tex"),
-	Asset("ATLAS", "images/inventoryimages/tap_buildingimages.xml"),
 }
 
 local function CalcSanityAura(inst, observer)

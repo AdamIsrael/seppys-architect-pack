@@ -15,12 +15,6 @@ local assets =
     Asset("ANIM", "anim/archive_portal_base.zip"),
 	Asset("ANIM", "anim/archive_orchestrina_main.zip"),
     Asset("ANIM", "anim/archive_sigil.zip"),
-    
-	Asset("IMAGE", "images/inventoryimages/tap_buildingimages.tex"),
-	Asset("ATLAS", "images/inventoryimages/tap_buildingimages.xml"),
-	
-	Asset("IMAGE", "images/inventoryimages/tap_buildingimages2.tex"),
-	Asset("ATLAS", "images/inventoryimages/tap_buildingimages2.xml"),
 }
 
 local prefabs =

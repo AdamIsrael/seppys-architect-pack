@@ -2,12 +2,6 @@ local assets =
 {
     Asset("ANIM", "anim/cave_banana_tree.zip"),
 	Asset("ANIM", "anim/crabapple_tree_build.zip"),
-	
-    Asset("IMAGE", "images/inventoryimages/tap_buildingimages.tex"),
-	Asset("ATLAS", "images/inventoryimages/tap_buildingimages.xml"),
-	
-	Asset("IMAGE", "images/minimapimages/tap_minimapicons.tex"),
-	Asset("ATLAS", "images/minimapimages/tap_minimapicons.xml"),
 }
 
 local prefabs_tree =

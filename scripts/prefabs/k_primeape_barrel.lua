@@ -5,12 +5,6 @@ local assets =
     Asset("ANIM", "anim/monkey_barrel_tropical.zip"),
     
 	Asset("SOUND", "sound/monkey.fsb"),
-	
-	Asset("IMAGE", "images/inventoryimages/tap_buildingimages.tex"),
-	Asset("ATLAS", "images/inventoryimages/tap_buildingimages.xml"),
-	
-	Asset("IMAGE", "images/minimapimages/tap_minimapicons.tex"),
-	Asset("ATLAS", "images/minimapimages/tap_minimapicons.xml"),
 }
 
 local prefabs =

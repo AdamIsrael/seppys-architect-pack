@@ -3,9 +3,6 @@ require("prefabutil")
 local assets =
 {
     Asset("ANIM", "anim/wagstaff_setpieces.zip"),
-	
-	Asset("IMAGE", "images/inventoryimages/tap_buildingimages2.tex"),
-	Asset("ATLAS", "images/inventoryimages/tap_buildingimages2.xml"),
 }
 
 local prefabs =

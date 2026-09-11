@@ -6,9 +6,6 @@ local assets =
 	Asset("ANIM", "anim/portal_stone_construction.zip"),
 	Asset("ANIM", "anim/portal_moonrock.zip"),
 	Asset("ANIM", "anim/portal_juryrigged.zip"),
-	
-	Asset("IMAGE", "images/inventoryimages/tap_buildingimages.tex"),
-	Asset("ATLAS", "images/inventoryimages/tap_buildingimages.xml"),
 }
 
 local INTENSITY = 0.6

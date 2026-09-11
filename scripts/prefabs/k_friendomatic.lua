@@ -2,9 +2,6 @@ local assets =
 {
     Asset("ANIM", "anim/portal_friends.zip"),
    
-	Asset("IMAGE", "images/inventoryimages/tap_buildingimages.tex"),
-	Asset("ATLAS", "images/inventoryimages/tap_buildingimages.xml"),
-   
 	Asset("SOUND", "sound/common.fsb"),
 }
 

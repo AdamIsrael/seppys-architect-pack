@@ -4,9 +4,6 @@ local assets =
 {
 	Asset("ANIM", "anim/interior_floorlamp.zip"),
 	Asset("ANIM", "anim/interior_floor_decor.zip"),
-	
-	Asset("IMAGE", "images/inventoryimages/tap_buildingimages.tex"),
-	Asset("ATLAS", "images/inventoryimages/tap_buildingimages.xml"),
 }
 
 local function onhammered(inst, worker)

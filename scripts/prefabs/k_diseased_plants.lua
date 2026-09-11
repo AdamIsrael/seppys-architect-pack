@@ -21,9 +21,6 @@ local assets =
 	Asset("ANIM", "anim/rock_avocado.zip"),
     Asset("ANIM", "anim/rock_avocado_diseased_build.zip"),
 	
-	Asset("IMAGE", "images/inventoryimages/tap_buildingimages.tex"),
-	Asset("ATLAS", "images/inventoryimages/tap_buildingimages.xml"),
-	
     Asset("SOUND", "sound/common.fsb"),
 }
 

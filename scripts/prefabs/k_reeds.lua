@@ -3,9 +3,6 @@ local assets =
     Asset("ANIM", "anim/grass.zip"),
     Asset("ANIM", "anim/reeds.zip"),
 	
-	Asset("IMAGE", "images/inventoryimages/tap_buildingimages.tex"),
-	Asset("ATLAS", "images/inventoryimages/tap_buildingimages.xml"),
-	
     Asset("SOUND", "sound/common.fsb"),
 }
 

@@ -4,9 +4,6 @@ local assets =
 {
     Asset("ANIM", "anim/tornado_weather.zip"),
 	Asset("ANIM", "anim/tornado_weather_base.zip"),
-	
-	Asset("IMAGE", "images/inventoryimages/tap_buildingimages2.tex"),
-	Asset("ATLAS", "images/inventoryimages/tap_buildingimages2.xml"),
 }
 
 local prefabs = {

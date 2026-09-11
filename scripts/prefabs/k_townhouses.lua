@@ -5,12 +5,6 @@ local assets =
 	Asset("ANIM", "anim/pig_townhouse2.zip"),
 	Asset("ANIM", "anim/pig_townhouse3.zip"),
 	Asset("ANIM", "anim/pig_townhouse4.zip"),
-	
-	Asset("IMAGE", "images/inventoryimages/tap_buildingimages.tex"),
-	Asset("ATLAS", "images/inventoryimages/tap_buildingimages.xml"),
-	
-	Asset("IMAGE", "images/minimapimages/tap_minimapicons.tex"),
-	Asset("ATLAS", "images/minimapimages/tap_minimapicons.xml"),
 }
 
 local prefabs = 

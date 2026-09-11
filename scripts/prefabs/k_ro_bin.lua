@@ -7,9 +7,6 @@ local assets =
     Asset("ANIM", "anim/ro_bin.zip"),
     Asset("ANIM", "anim/ro_bin_water.zip"),
     Asset("ANIM", "anim/ro_bin_build.zip"),
-	
-	Asset("IMAGE", "images/minimapimages/tap_minimapicons.tex"),
-	Asset("ATLAS", "images/minimapimages/tap_minimapicons.xml"),
 }
 
 local prefabs =

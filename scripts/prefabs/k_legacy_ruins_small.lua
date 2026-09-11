@@ -4,9 +4,6 @@ local assets =
 {
 	Asset("ANIM", "anim/legacy_statue_ruins_small.zip"),
     Asset("ANIM", "anim/statue_ruins_small_gem.zip"),
-	
-	Asset("IMAGE", "images/inventoryimages/tap_buildingimages.tex"),
-	Asset("ATLAS", "images/inventoryimages/tap_buildingimages.xml"),
 }
 
 local prefabs =

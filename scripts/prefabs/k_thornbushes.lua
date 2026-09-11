@@ -5,12 +5,6 @@ local assets =
 	Asset("ANIM", "anim/thorn_bush.zip"),
 	Asset("ANIM", "anim/thorn_bush_guard_build.zip"),
 	Asset("ANIM", "anim/thorn_bush_mothermighty_build.zip"),
-	
-	Asset("IMAGE", "images/inventoryimages/tap_buildingimages2.tex"),
-	Asset("ATLAS", "images/inventoryimages/tap_buildingimages2.xml"),
-	
-	Asset("IMAGE", "images/minimapimages/tap_minimapicons.tex"),
-	Asset("ATLAS", "images/minimapimages/tap_minimapicons.xml"),
 }
 
 local prefabs = 

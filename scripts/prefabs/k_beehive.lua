@@ -10,9 +10,6 @@ local assets =
 {
     Asset("ANIM", "anim/beehive.zip"),
     Asset("SOUND", "sound/bee.fsb"),
-	
-	Asset("IMAGE", "images/inventoryimages/tap_buildingimages.tex"),
-	Asset("ATLAS", "images/inventoryimages/tap_buildingimages.xml"),
 }
 
 local function OnEntityWake(inst)

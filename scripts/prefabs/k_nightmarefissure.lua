@@ -4,9 +4,6 @@ local assets =
 {
 	Asset("ANIM", "anim/nightmare_crack_upper.zip"),
 	Asset("ANIM", "anim/nightmare_crack_ruins.zip"),
-	
-	Asset("IMAGE", "images/inventoryimages/tap_buildingimages.tex"),
-	Asset("ATLAS", "images/inventoryimages/tap_buildingimages.xml"),
 }
 
 local prefabs =

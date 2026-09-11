@@ -5,12 +5,6 @@ local assets =
     Asset("ANIM", "anim/lightning_rod.zip"),
     Asset("ANIM", "anim/lightning_rod_fx.zip"),
 	Asset("ANIM", "anim/lightning_catcher.zip"),
-	
-	Asset("IMAGE", "images/inventoryimages/tap_buildingimages.tex"),
-	Asset("ATLAS", "images/inventoryimages/tap_buildingimages.xml"),
-	
-	Asset("IMAGE", "images/minimapimages/tap_minimapicons.tex"),
-	Asset("ATLAS", "images/minimapimages/tap_minimapicons.xml"),
 }
 
 local prefabs =

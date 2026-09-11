@@ -13,9 +13,6 @@ local assets =
     Asset("ANIM", "anim/cook_pot_food5.zip"),
     Asset("ANIM", "anim/cook_pot_food6.zip"),
     Asset("ANIM", "anim/ui_cookpot_1x4.zip"),
-    
-	Asset("IMAGE", "images/inventoryimages/tap_buildingimages.tex"),
-	Asset("ATLAS", "images/inventoryimages/tap_buildingimages.xml"),
 }
 
 local prefabs =

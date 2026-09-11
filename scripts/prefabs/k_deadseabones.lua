@@ -1,9 +1,6 @@
 local dead_sea_bones_assets =
 {
     Asset("ANIM", "anim/fishbones.zip"),
-	
-	Asset("IMAGE", "images/inventoryimages/tap_buildingimages.tex"),
-	Asset("ATLAS", "images/inventoryimages/tap_buildingimages.xml"),
 }
 
 local prefabs =

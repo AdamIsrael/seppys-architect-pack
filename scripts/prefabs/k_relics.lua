@@ -3,13 +3,6 @@ require "prefabutil"
 local assets =
 {
 	Asset("ANIM", "anim/relics.zip"),
-	
-	Asset("IMAGE", "images/inventoryimages/tap_buildingimages.tex"),
-	Asset("ATLAS", "images/inventoryimages/tap_buildingimages.xml"),
-	
-	Asset("IMAGE", "images/inventoryimages/tap_inventoryimages.tex"),
-	Asset("ATLAS", "images/inventoryimages/tap_inventoryimages.xml"),
-	Asset("ATLAS_BUILD", "images/inventoryimages/tap_inventoryimages.xml", 256),
 }
 
 local prefabs = {}

@@ -5,10 +5,6 @@ local assets_baby =
 	Asset("ANIM", "anim/doydoy_baby_build.zip"),
 	Asset("ANIM", "anim/doydoy_teen_build.zip"),
 	
-	Asset("IMAGE", "images/inventoryimages/tap_inventoryimages.tex"),
-	Asset("ATLAS", "images/inventoryimages/tap_inventoryimages.xml"),
-	Asset("ATLAS_BUILD", "images/inventoryimages/tap_inventoryimages.xml", 256),
-	
 	Asset("SOUNDPACKAGE", "sound/dontstarve_DLC002.fev"),
 	Asset("SOUND", "sound/dontstarve_shipwreckedSFX.fsb"),
 }

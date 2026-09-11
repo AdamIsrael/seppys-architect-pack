@@ -9,12 +9,6 @@ local assets =
     Asset("ANIM", "anim/flag_post_wilson_build.zip"), 
 	Asset("ANIM", "anim/pig_tower_build.zip"),
 	Asset("ANIM", "anim/pig_tower_royal_build.zip"),
-	
-	Asset("IMAGE", "images/inventoryimages/tap_buildingimages.tex"),
-	Asset("ATLAS", "images/inventoryimages/tap_buildingimages.xml"),
-	
-	Asset("IMAGE", "images/minimapimages/tap_minimapicons.tex"),
-	Asset("ATLAS", "images/minimapimages/tap_minimapicons.xml"),
 }
 
 local prefabs =

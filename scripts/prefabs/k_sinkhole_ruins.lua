@@ -3,9 +3,6 @@ require "prefabutil"
 local assets =
 {
 	Asset("ANIM", "anim/ruins_entrance.zip"),
-	
-	Asset("IMAGE", "images/inventoryimages/tap_buildingimages.tex"),
-	Asset("ATLAS", "images/inventoryimages/tap_buildingimages.xml"),
 }
 
 local function onwork(inst, worker, workleft)

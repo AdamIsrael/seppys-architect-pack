@@ -4,17 +4,11 @@ local assets =
 {
     Asset("ANIM", "anim/moon_fissure.zip"),
     Asset("ANIM", "anim/moon_fissure_fx.zip"),
-	
-	Asset("IMAGE", "images/inventoryimages/tap_buildingimages.tex"),
-	Asset("ATLAS", "images/inventoryimages/tap_buildingimages.xml"),
 }
 
 local assets_plugged = 
 {
     Asset("ANIM", "anim/plugged_fissure.zip"),
-	
-	Asset("IMAGE", "images/inventoryimages/tap_buildingimages.tex"),
-	Asset("ATLAS", "images/inventoryimages/tap_buildingimages.xml"),
 }
 
 local prefabs =

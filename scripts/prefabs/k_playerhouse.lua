@@ -14,15 +14,6 @@ local assets =
     Asset("ANIM", "anim/player_small_house1_brick_build.zip"),
     Asset("ANIM", "anim/player_small_house1_turret_build.zip"),
 	
-	Asset("IMAGE", "images/inventoryimages/tap_buildingimages.tex"),
-	Asset("ATLAS", "images/inventoryimages/tap_buildingimages.xml"),
-	
-	Asset("IMAGE", "images/inventoryimages/tap_buildingimages2.tex"),
-	Asset("ATLAS", "images/inventoryimages/tap_buildingimages2.xml"),
-	
-	Asset("IMAGE", "images/minimapimages/tap_minimapicons.tex"),
-	Asset("ATLAS", "images/minimapimages/tap_minimapicons.xml"),
-	
 	Asset("SOUND", "sound/pig.fsb"),
 }
 
