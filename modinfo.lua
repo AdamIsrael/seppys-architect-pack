@@ -1,5 +1,5 @@
 name = "Seppy's Architect Pack"
-version = "2.0.0"
+version = "3.0.0"
 
 description = [[
 🛈 This is a fork of the discontinued mod "The Architect Pack", which attempts to maintain the original mod's content and functionality while fixing bugs and compatibility with new versions of Don't Starve Together and other mods.
@@ -11,9 +11,10 @@ description = [[
 󰀏 Includes contents from: Shipwrecked, Hamlet, The Forge, The Gorge and exclusive contents!
 
 󰀖 Credits on the mod page!
-󰀌 Mod Version: 2.0.0
+󰀌 Mod Version: 3.0.0
 
 󰀧 Changelog:
+- Version 3.0.0: Renamed every prefab to resolve a long-running conflict with Heap of Foods, restoring eleven features that had been disabled. Fixed three crashes, missing inventory icons, and prefabs that would not spawn. Existing saves are unaffected.
 - Version 2.0.0: Added compatibility with other mods and fixed bugs, especially with other mods containing a large number of audio assets that could cause the game to crash.
 - Version 1.0.0: Initial release.
 
