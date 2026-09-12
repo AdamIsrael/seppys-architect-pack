@@ -77,7 +77,7 @@ local CreateEntity = _G.CreateEntity
 - **Local variables:** `lowercase_with_underscores` (e.g., `run_carpet`, `walk_grass`)
 - **Functions:** `PascalCase` for constructors (e.g., `CreateEntity`), `camelCase` for methods
 - **Prefab names:** Use `sap_` prefix consistently (e.g., `sap_bonfire`, `sap_dragoonden`)
-- **Prefab files:** Existing prefab files use the `k_*.lua` naming (e.g., `k_bonfire.lua`); the `sap_` prefix applies to prefab names, not filenames
+- **Prefab files:** Use `sap_*.lua` naming (e.g., `sap_bonfire.lua`). Heap of Foods names its files `k_*.lua`, and Lua caches modules by path, so a shared file name makes one mod silently register the other's prefabs. The only exceptions are files deliberately named after a vanilla prefab in order to override it
 - **Private functions:** Prefix with underscore (e.g., `_CanDeploySandbagAtPoint`)
 - **Anim bank and build names:** Keep the `kyno_` spelling on existing art. Those names are baked into the binary `.zip` files and were deliberately left out of the `sap_` rename
 - **Files:** `lowercase_with_underscores.lua`
